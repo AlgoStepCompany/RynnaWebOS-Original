@@ -12,9 +12,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST
    $db = mysql_connect($mysql_server, $mysql_username, $mysql_password);
    if (!$db)
    {
-      die('Failed to connect to database server!<br>'.mysql_error());
+      die('Impossible de se connecter a la base de donnees!<br>'.mysql_error());
    }
-   mysql_select_db($mysql_database, $db) or die('Failed to select database<br>'.mysql_error());
+   mysql_select_db($mysql_database, $db) or die('Impossible d acceder a la table<br>'.mysql_error());
    mysql_set_charset('utf8', $db);
    $sql = "SELECT * FROM ".$mysql_table." WHERE email = '".mysql_real_escape_string($email)."'";
    $result = mysql_query($sql, $db);
