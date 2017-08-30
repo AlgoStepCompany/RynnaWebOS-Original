@@ -1,0 +1,28 @@
+body
+{
+   background-color: #000000;
+   background-image: url(images/newscreenx2.jpg);
+   background-attachment: fixed;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#Layer1
+{
+   background-color: #FBFBFB;
+   background-image: none;
+}
+#Flash1
+{
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}

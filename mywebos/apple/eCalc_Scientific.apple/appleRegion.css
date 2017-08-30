@@ -1,0 +1,10 @@
+	#unit_cat_img_list li{
+    -apple-dashboard-region: dashboard-region(control rectangle 0 0 0 0);
+	}
+  
+  .buttons li,.buttons_square li,.buttons_rect li {
+  -apple-dashboard-region: dashboard-region(control rectangle 0 0 0 0);
+  }
+  .constListBox,.solverBuildCell{
+  -apple-dashboard-region: dashboard-region(control rectangle 0 0 0 0);    
+  }

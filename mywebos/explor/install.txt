@@ -1,0 +1,69 @@
+
+                   Advanced Explorer - How to install
+
+
+
+INSTALLING AE UNDER WINDOWS
+
+ If AE comes as a JAR file
+
+ This is the java version, the sole that is maintained starting July 2001.
+ The Java 1.3 package must be installed. It may be already installed along with
+your Internet browser. Otherwise you have to download the JRE from the Sun's
+site   http://java.sun.com
+ or from another freeware site, or a cdrom.
+
+ The autoexec.bat file should contains the line:
+            CLASSPATH=c:\ae24\ae.jar
+
+ You must add an icon to the desktop and the program path should be:
+            javaw  -jar c:\ae24\ae.jar
+
+N.B:
+- If the classpath is already used, you can add c:\ae\ae.jar to it, separated by
+a semi-colon.
+- the path c:\ae  should be replaced by the one you choose to install AE into.
+- the working directory should be preferably the path of ae.jar.
+
+
+ Installing AE.JAR without classpath
+
+ If the process above seems too much complicate for you, you may process
+diferently:
+
+1) Unzip the ae.jar archive inside a directory, c:\ae for example.
+2) Create an icon for the javaw.exe program (inside the Java path).
+3) Change the properties. Add ae as parameter to javaw.exe
+    Example:
+    c:\jre\bin\javaw.exe ae
+   Set the working path the one where ae.jar is unzipped.
+ 
+
+
+ If A.E. comes inside an archive
+
+ This is the case if you want to update the program. Use a program as PKzip or
+or Zipcentral or Info-Zip.
+(Unziping can be done also by AE itself if a previous version is installed).
+
+
+
+SETTING UP THE PROGRAM
+
+ Once AE is installed you have to set it up, for associating extensions with
+programs, (specially HTML) and detecting the available drives.
+ This is achieved by a click on the AutoSetup button at top of the Setup panel
+(the last tab).
+ Associations can be created also with the Association panel in Setup.
+ Drives units may be added also by typing their name, ex:        a:
+ in the fields on top of each directory windows (followed by a press on the
+Enter key). Use the right mouse button to open a menu that allows to register
+permanently the path.
+
+
+INSTALLING AE under LINUX
+
+  Just extract the archive.
+You can run the program with the command:
+  java -jar ae.jar
+you can create an icon with this command as property.

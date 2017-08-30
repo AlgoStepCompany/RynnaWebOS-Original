@@ -1,0 +1,60 @@
+<!--
+/*=====================================================================*\
+|| ###################################################################
+|| # RGB Converter
+|| # Copyright (c)2002-2010 Blue Static
+|| #
+|| # This program is free software; you can redistribute it and/or modify
+|| # it under the terms of the GNU General Public License as published by
+|| # the Free Software Foundation; version 2 of the License.
+|| #
+|| # This program is distributed in the hope that it will be useful, but
+|| # WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+|| # or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for
+|| # more details.
+|| #
+|| # You should have received a copy of the GNU General Public License along
+|| # with this program; if not, write to the Free Software Foundation, Inc.,
+|| # 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+|| ###################################################################
+\*=====================================================================*/
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>RGB Conveter</title>
+  <style type="text/css">
+    @import "Widget.css";
+  </style>
+  <script src="Widget.js" type="text/javascript"></script>
+  <script src="file:///System/Library/WidgetResources/button/genericButton.js" type="text/javascript"></script>
+</head>
+
+<body onload="Setup()">
+  <img src="Default.png" id="shadow"/>
+  <canvas id="wheel" width="186" height="186" onmousemove="mousemove(event);" onmouseout="mouseexit(event);"></canvas>
+  <!-- front -->
+  <div id="front"> 
+    <input type="text" id="redinput" size="3" onblur="OnRGBChange('red')" value="60" />
+    <input type="text" id="greeninput" size="3" onblur="OnRGBChange('green')" value="60" />
+    <input type="text" id="blueinput" size="3" onblur="OnRGBChange('blue')" value="60" />
+    <input type="text" id="hexinput" size="6" onblur="OnHexChanged()" value="3C3C3C" />
+
+    <div class="flip" id="fliprollie"></div>
+    <div class="flip" id="flip" onclick="show_back(event);" onmouseover="enterflip(event);" onmouseout="exitflip(event)";></div>
+  </div>
+  <!-- / front -->
+  
+  <!-- back -->
+  <div id="back">
+    <div id="backtext">
+      <div><strong style="font-size: 12px">RGB Converter</strong>, 3.0</div>
+      <div>&copy;2002-2010 <a href="javascript:widget.openURL('https://www.bluestatic.org')">Blue Static</a><div>
+    </div>
+    <div id="backbutton"></div>
+  </div>
+  <!-- / back -->
+</body>
+</html>

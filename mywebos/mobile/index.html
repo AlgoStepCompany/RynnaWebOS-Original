@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>RynnaWebOS-mobile</title>
+<meta name="generator" content="RynnaWebOS for AlgoStepCompany Mobile Detection">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="rwosmobile.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-3.1.1.min.js"></script>
+<script src="wb.panel.min.js"></script>
+<script src="wwb12.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("#PanelMenu1").panel({animate: true, animationDuration: 200, animationEasing: 'linear', dismissible: true, display: 'overlay', position: 'right', toggle: true, overlay: true});
+   function LayoutGrid1Scroll()
+   {
+      var $obj = $("#wb_LayoutGrid1");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimationResume('wb_FontAwesomeIcon1');
+         AnimationResume('wb_FontAwesomeIcon2');
+         AnimationResume('wb_FontAwesomeIcon3');
+         AnimationResume('wb_FontAwesomeIcon4');
+         AnimationResume('wb_Heading1');
+         AnimationResume('wb_Heading2');
+         AnimationResume('wb_Heading3');
+         AnimationResume('wb_Heading4');
+         AnimationResume('wb_Text1');
+         AnimationResume('wb_Text2');
+         AnimationResume('wb_Text3');
+         AnimationResume('wb_Text4');
+      }
+   }
+   LayoutGrid1Scroll();
+   $(window).scroll(function(event)
+   {
+      LayoutGrid1Scroll();
+   });
+});
+</script>
+</head>
+<body>
+<div id="wb_PageHeader">
+<div id="PageHeader">
+<div class="row">
+<div class="col-1">
+<div id="wb_FontAwesomeIcon1">
+<a href="./index.html#the_end"><div id="FontAwesomeIcon1"><i class="fa fa-user-circle-o">&nbsp;</i></div></a>
+</div>
+<div id="wb_Text1">
+<span style="color:#FFFFFF;font-family:Arial;font-size:17px;">Rynna WebOS - Site Informatif Mobile</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid2">
+<div id="LayoutGrid2-overlay"></div>
+<div id="LayoutGrid2">
+<div class="row">
+<div class="col-1">
+<div id="wb_Heading2">
+<h1 id="Heading2">Bienvenue !</h1>
+</div>
+<div id="wb_Text2">
+<span style="color:#FFFFFF;font-family:Arial;font-size:16px;"><strong><em>Rynna WebOS est un système d'exploitation internet universel vous permettant d'avoir accès de n'importe où sur internet à un bureau avec vos applications et vos fichiers personnels grâce à votre espace personnel. <br>Tout est gratuit et intuitif pour vous permettre de naviguer sur l'un des meilleurs WebOS du marché.</em></strong></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid1">
+<div id="LayoutGrid1">
+<div class="row">
+<div class="col-1">
+<div id="wb_FontAwesomeIcon2">
+<div id="FontAwesomeIcon2"><i class="fa fa-apple">&nbsp;</i></div>
+</div>
+<div id="wb_Heading3">
+<h1 id="Heading3">iOS</h1>
+</div>
+<div id="wb_Text5">
+<span style="color:#696969;font-family:Arial;font-size:15px;">Avec n'importe quel navigateur découvrez Rynna WebOS et les applications que nous proposons !</span>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_FontAwesomeIcon3">
+<div id="FontAwesomeIcon3"><i class="fa fa-android">&nbsp;</i></div>
+</div>
+<div id="wb_Heading4">
+<h1 id="Heading4">Android</h1>
+</div>
+<div id="wb_Text3">
+<span style="color:#696969;font-family:Arial;font-size:15px;">Sur Android aussi vous pourrez découvrir RynnaWebOS et profiter sur WebOS avec votre Deck Samsung ou Google !</span>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_FontAwesomeIcon4">
+<div id="FontAwesomeIcon4"><i class="fa fa-windows">&nbsp;</i></div>
+</div>
+<div id="wb_Heading5">
+<h1 id="Heading5">Windows</h1>
+</div>
+<div id="wb_Text4">
+<span style="color:#696969;font-family:Arial;font-size:15px;">Sur Windows tout les navigateurs supportent Rynna WebOS et vous permettent de naviguer en toute simplicité !<br>(internet Explorer 11 minimum requis)</span>
+</div>
+</div>
+<div class="col-4">
+<div id="wb_FontAwesomeIcon5">
+<div id="FontAwesomeIcon5"><i class="fa fa-linux">&nbsp;</i></div>
+</div>
+<div id="wb_Heading6">
+<h1 id="Heading6">Linux</h1>
+</div>
+<div id="wb_Text6">
+<span style="color:#696969;font-family:Arial;font-size:15px;">Sur Linux, quel que soit votre version, RynnaWebOS est ultra fluide et permet de vous faire découvrir vos meilleurs applications (flash requis) !</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="Layer1">
+<div id="wb_Line1">
+<img src="images/img0001.png" id="Line1" alt=""></div>
+<div id="wb_Line2">
+<img src="images/img0002.png" id="Line2" alt=""></div>
+</div>
+</body>
+</html>

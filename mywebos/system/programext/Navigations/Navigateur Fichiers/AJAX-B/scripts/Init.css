@@ -1,0 +1,78 @@
+html, body { position: absolute;width:100%;height:100%;}
+html, body, form,table, iframe {padding:0px;margin:0px;border:0px;}
+body,table {font-size:10px;font-family:sans-serif;}
+.italic {font-style:italic;}
+
+/* ============ Style du format de la bare d'outil (bleu) ============ */
+.close {position:absolute;top:1px;right:1px;text-align:right;cursor:pointer;}
+.save {position:absolute;top:1px;left:1px;text-align:left;cursor:pointer;}
+
+#menu_barre {background-color:rgb(220,230,255);border-top:1px solid gray;border-bottom:1px solid gray;border-spacing:0px;padding:0px;margin:0px;margin-bottom:1px;width:100%;}
+#menu_barre img {margin:0px 3px;}
+#menu_barre img:hover {cursor:pointer;}
+
+.LstArray input {vertical-align:middle;}
+.LstArray td {vertical-align:middle;padding:0px;margin:0px;}
+.LstArray tr:hover {background:rgb(230,250,210);}
+.LstArray img:hover{cursor:pointer;}
+
+#mover {position:absolute;visibility:hidden;z-index:5;}
+
+#CpMv {position:absolute;visibility:hidden;width:90px;z-index:10;background:#ffffff;border:1px solid gray;padding:1px;}
+#CpMv div:hover {background:rgb(220,230,255);}
+#zipper, #Mzipper {position:absolute;visibility:hidden;width:90px;z-index:10;background:#ffffff;border:1px solid gray;padding:1px;}
+#zipper {top:45px;left:85px;}
+#zipper div:hover {background:rgb(220,230,255);}
+
+#FindFilter {position:absolute;visibility:hidden;top:48px;left:186px;z-index:10;background:#ffffff;border:outset 1px gray;padding:1px;}
+#FindFilter input {width:150px;border:inset 1px gray;}
+
+.Movable{position:absolute;z-index:10;background:#fbfaf9;border:outset 1px gray;padding:1px;}
+.Dragable{cursor:move;background:#f0f0f0;padding:2px;margin:-1px;border-bottom:solid 1px gray;}
+
+#BavarZone {background-color:white;font-size:9px;display:none;border-top:1px solid gray;border-right:1px solid gray;border-left:1px solid gray;overflow:auto;max-height:200px;}
+.bottomleft {position:fixed;bottom:0px;left:0px;margin:2px;z-index:6;}
+.bottomright {position:fixed;bottom:0px;right:0px;margin:2px;z-index:6;}
+.titleflux {font-size:10px;font-style:italic;font-weight:bold;}
+#danger {position:absolute;width:400px; background-color:rgb(220,230,255);padding:2px 10px; -moz-border-radius:8px;border:1px solid gray;
+color:red;text-align:justify;font-weight:bold;font-style:italic;}
+
+#Box, #Menu {position:absolute;display:none;z-index:10;background:#fbfaf9;border:outset 1px gray;padding:1px;max-width:600px;}
+#BoxContent {max-height:400px;margin-top:2px;overflow:auto;}
+
+#Menu {width:170px;}
+#Mzipper {left:0px;top:-10px;}
+#MBoxContent {width:170px;margin-top:2px;}
+#MBoxContent div {line-height:20px;}
+#MBoxContent div:hover {background:rgb(220,230,255);cursor:pointer;}
+#MBoxContent img, #MBoxContent div, #MBoxContent span {vertical-align:middle;margin:0px;padding:0px 1px;}
+.shortkey {position:absolute;left:115px;}
+.subMenu {position:absolute;right:2px;}
+
+.cadre {background-color:rgb(220,230,255);padding:10px;-moz-border-radius:8px;border:1px solid gray;}
+
+.button {background-color:rgb(220,230,255);font-style:italic;font-weight:bold;font-size:10px;border:outset 1px gray;padding:1px;margin:2px;}
+.center {width:100%;text-align:center;}
+.left {text-align:left;padding-left:2px;margin-left:2px;}
+.right {text-align:right;padding-right:2px;margin-right:2px;}
+.large {font-size:14px;font-style:italic;font-weight:bold;}
+.border {background-color:#ffffff;font-style:italic;font-size:10px;border:outset 1px gray;padding:1px;margin:2px;}
+.border input, #BoxContent input, #BoxContent textarea {margin-left:14px;font-size:10px;padding-left:4px;border:inset 1px gray;}
+.w0 {width:100%;}
+.w1 {width:170px;}
+.w3 {width:370px;}
+/* #Sel {position:absolute;border:solid 1px gray;display:none;-moz-opacity:0.4;} */
+#CpMvSlide {position:absolute;display:none;z-index:10;-moz-opacity:0.9;}
+#SlideLet {position:absolute;padding:2px;background:#ffffff;display:none;z-index:10;border:solid 1px gray;}
+#SlideLet div:hover {background:rgb(220,230,255);cursor:pointer;}
+#renOne
+{
+	position:absolute;
+	display:none;
+	font-size:10px;
+	width:300px;
+	height:16px;
+	border:inset 1px gray;
+	padding:1px 2px;
+	margin:0px;
+}

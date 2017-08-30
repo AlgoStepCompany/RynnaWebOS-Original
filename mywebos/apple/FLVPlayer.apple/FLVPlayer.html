@@ -1,0 +1,40 @@
+<!-- Built by Jon Reiling, http://www.jonreiling.com/ -->
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>FLVPlayer</title>
+	
+	<script language="javascript" src="js/swfobject.js"></script>
+	<script language="javascript" src="js/FLVPlayer.js"></script>
+	
+	<style type='text/css'>
+		@import "FLVPlayer.css";
+	</style>	
+
+</head>
+
+<body ondragenter='dragenter(event);' ondragover='dragover(event);' ondrop='dragdrop(event)' ondragleave='dragleave(event)'>
+
+	<div id="front" onmouseover='showcontrols();' onmouseout='hidecontrols();' onmouseup='flashMouseEvent(event);'>
+	
+		<div id="corner_tl"></div>
+		<div id="border_top"></div>
+		<div id="corner_tr"></div>
+		
+		<div id="border_left"></div>
+		
+			<div id="dragIndicator"></div>
+			<div id="flashcontent"></div>
+		
+		<div id="border_right"></div>
+		
+		<div id="corner_bl"></div>
+		<div id="border_bottom"></div>
+		<div id="corner_br"></div>		
+		
+	</div>
+	
+</body>
+</html>

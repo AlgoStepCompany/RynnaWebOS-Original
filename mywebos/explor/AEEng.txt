@@ -1,0 +1,673 @@
+
+	                  <center><img src="aexplorer.gif"  ></center>
+                                                 (c) 1999-2008  by Denis Sureau
+                                 Free open source under the GNU GPL Licence
+                                             http://www.scriptol.com
+
+
+
+OVERVIEW
+
+ This program is free.
+ A.E. is a dual panels file manager that I have especially designed to be
+very easy to use, intuitive and portable.
+ It allows to:
+- Perform secured file management. 
+- View or edit texts.
+- Display pure ascii manuals as hypertexts with outline! (This manual is an example)
+  I have written a command line version also available on www.scriptol.net.
+- Display HTML or formatted (DOC, HLP, etc...) files and use any file by
+  associating its extension with a program.
+- Display images and thumbnails.
+- Manage ZIP archives:
+  * Display content of archive.
+  * View text (including html) or image inside archive.
+  * Extract a tagged list of files or the entire archive.
+  * Make an archive from a tagged list or files and dirs.
+- Launch programs.
+- View a directory with a filter for node or extension of filenames.
+- Lot of built-in tools. 
+- Extended setup for user's preferences.
+
+AE has these innovating features:
+- Replacing annoying warning dialogs by crossing out files for deletion.
+- Multiple associations for a same extension (with the Tools menu).
+- Persistency. You start a session as you leave the previous one. No need to
+  search again the path you have used yesterday or just previously.
+- Converting a text manual into html with summary without any formatting.
+
+ Under Windows you can launch Explorer from within AE and so give the
+memory of AE to Explorer. 
+ AE is a pure 32 bit cross-platorm program. It can't launch DOS program,
+but that is achieved by opening Explorer as a Windows from within AE.
+
+
+HOW TO INSTALL AND RUN
+
+ See at the install.txt for more details about installing.
+ These files are required:
+   ae.jar
+   aexxx.txt     (see at Manual in the Menu section).
+
+ These  files are restored by the program when not present in AE's directory:
+   ae.init           always or at your request according to your setup.
+   ae.memory    always.
+
+ At the first run, click on the auto-setup button to set paths of commonly 
+used programs, including the navigator.
+ Under Windows, if a drive letter is missing in the displayed list, simply type it
+in the field above the directory list.    Ex:   a:
+ You may change the programs called (iexplorer, etc...) from the "Associations" panel.
+  
+ To run the program, type:
+ java -jar ae.jar
+
+ This works under Windows and Linux at command line or from the "execute"
+windows.
+
+
+
+MANUAL
+
+
+ General rules
+
+ Inside directory list the right mouse button opens a popup menu to select
+a command on the currently selected file or directory. Perform a double-click
+as usually to open a file.
+
+ AE has a source and a target directories.
+ Some function are unidirectional: 
+- copy,
+- compare,
+- unarchive.
+ Files are always created in the target directory, but the file saved by the
+editor.
+
+ The other general rule is that any command performs on selected files. If no
+file is selected, the command acts on the whole directory.
+  In some case you are prompted to select a file instead.
+
+ File are marked in two ways: outlined, ou inverted.
+ Filenames are inverted when selected. On mays selects files inside
+one window, source or target, and not in both the two windows.
+ When it is required to marks file in both windows, the outlined marking
+is used (for example, to copy into a not directory while not opened with ctrl+d). 
+
+
+ The tool bar
+
+ Usage of button in the tool bar, is given by tool tips displayed when the
+mouse stays over a button.
+
+
+ Using the keyboard
+
+ To select a panel, hold down the Alt key and press one of above:
+ F     File Manager.  Alt+X  is provided also as a more accessible replacement.
+ E     Editor.
+ S     Setup.
+
+
+ The menu
+
+ To select a menu item, click on the menu bar or press F10 or ALT and use cursor
+keys to move. Press Enter to select.
+ Sub-menues are contextual, they are enabled when they are functional.
+
+
+ The File menu
+
+ The "compare" command allows to compare tagged file or dirs in source,
+with corresponging ones in target. The function acts recursively inside 
+subdirectories. It works differently than compare functions of the Dir menu.
+
+
+ The Dir menu
+
+ Here you have several functions to compare source and target directories.
+ The functions are not recursive and act on the full list of files.
+- Compare names:    select files in source not found in target directory.
+- Compare versions: select same files with more recents dates (ignore size).
+- Compare contents: select same files with different size or content.
+- Compare any:          performs all of above (test if exists, date, content).
+
+
+ The Archive menu
+
+ To manage zip, Pkzip compatible archive (other formats will be added further).
+- View to display it's content meanwhile it doesn't have a zip extension.
+- Extract to unarchive the compressed file into the target directory
+  Archiving is processed from the Archiver panel according to selected items
+inside the source directory.
+
+
+ The Tools menu
+
+ Most of these tools come with the operating system.
+ Under Windows, if these tools don't work, they are not included in the path. 
+ For example, the path for Windows' Explorer is c:\windows or the directory
+where Windows is installed, and this directory must be included in the
+PATH= list, in autoexec.bat or equivalent file.
+
+ To build a list of tools, for each program you want to add, select a 32 bit
+executable, and click on the "Add to Tools" menu item in the popup menu (use
+the right mouse button).
+ To run a program with a file, select a file and click in this menu.
+ If you want to run a program with no file, type Escape to clear any selection,
+or click on the green cross.
+
+
+ The Web pages menu
+
+ Three tools are allowed to generate Web pages.
+The "Html page common" section of the setup allows to set some common options.
+Other options are displayed at the command, inside a panel.
+The path is the target path, you can change it from the panel.
+Once the fields are filled, you have to click on the "Make" button to
+generate the html page.
+
+
+  - Thumbnail
+
+ Allows to make a page of graphic files selected in the source directory.
+This generates an html file that you may use on an Internet site.
+ If no file is selected,  images in source having format recognized by browsers
+(gif, jpg, bmp, png) are displayed.
+ If you want the image displayed directly, the target directory, where the html
+file is generated, must be the source directory.
+ Note: AE is not able to keep proportions of BMP images in this version.
+
+
+  - File list
+
+ This function allows to create an html page of the whole current directory, or
+of selected files...
+
+
+  - Help file
+
+ This powerful function automatically converts a simple unformatted text file
+into an help file with symmary, and you may also use the generated html file
+on the web!
+ Simply select a file in the source directory and click on "Outlined text" in
+the menu.
+ 
+ The parser that convert the text requires only 3 rules:
+1) First and centered lines form the main title.
+2) A no-blank line, that follows a blank line, and that is followed by a blank
+   line, is a header.
+3) The depth level of a header depends of the number of space starting the line. 
+   Until 5 depth levels are allowed.
+   For example:
+Title = level one
+ sub-title = level two
+  sub-title = level three
+  (No blank line in this example because this text has to be converted also ;)
+
+ Look at AEEng.txt for an example... This is the text used to produce AEEng.htm!
+ As you have noticed, the body of a chapter never contains a single line. 
+
+
+ The References menu
+
+ This menu holds a permanent list of texts, and works as the Tools list at left.
+ In addition, the currently displayed or edited text can be added to also.
+
+
+ The Recents menu
+
+ The "Recents" list holds the last loaded document of various formats. Older 
+ones are removed to  make room when the list is full (see at setup for the size).
+
+
+ The Manual menu item
+
+ This item displays a manual. The default is AEEng.txt or AEEng.html if
+generated. You can change it from the setup providing that a corresponding
+AExxx.txt is placed in the AE  directory.
+
+
+ The file manager
+
+  Icons
+
+ Opened folder      opens  a file according to its extension and type:
+ Folder             displays the content.
+ House              go to root directory.
+ Left array         go to parent directory.
+ Opened sub-dir     make a new sub-directory.
+                    In the target window, it is also opened or not according
+                    to setup.
+ Striped sheet      delete a file/dir or the tagged list.
+                    Click again to confirm deletion of striked out entries.
+ Green cross        cancel either selection or crossing.
+                    Refresh if nothing is selected or striked out.
+
+ The Open button, (or a press on Enter) performs according to the extension: 
+- EXE    under Windows, run a program.  
+         MS-DOS program must be ran from within Explorer (Icon on the tool bar).
+         Commands with exe or com extension must be called from the DOS window
+         (Tools menu). You cannot launch a program inside an archive.
+- GIF,JPG, PNG     are displayed on image panel.
+- ZIP              are opened to display the content.
+- DOC/RTF/WRI/HLP  are viewed with the external editor or winhelp under Windows.
+- Other            are opened with the associated program if one, otherwise displayed as text.
+
+
+Keyboard commands (source and target):
+Tab:               change to source or target window.
+Up, Down, Page Up/Down, Home/End keys:  move the cursor.
+ctrl-up/down:      select and move.
+Left key:          return to parent directory.
+Enter:             process the selected file.
+Space:             select and move down.
+Delete:            delete the selected file(s).
+Escape:            clear selection and cancel crossing out for deletion.
+                   Press again to refresh the directory list.
+a-z:               select the next file of which it is the first letter.
+ctrl-i             more info for a file, disk occupation for a dir or a tagged
+                   list.
+ctrl-l:            locate a file or dir.
+ctrl-k:            make a sub-directory (ctrl-m also works).
+ctrl-n:            rename.
+ctrl-s:            swap source and target.
+
+Commands usable from the source dir only:
+ctrl-c:            copy selection to target.
+ctrl-d:            copy selection inside a not opened directory.
+ctrl-p:            compare source and target recursively.
+ctrl-u:            unarchive in target.
+ctrl-z             make an archive from the selection.
+
+Mouse
+ Click on a file to select it (all others will be deselected).
+Press Control and click on files to select several file together.
+Press Alt and click on file to select a block of files.
+Double-click the left button or click the right button to open a file.
+
+
+ The drop-down lists of paths
+
+ They are displayed above directory lists. They are parts of the memory of the
+program and have multiple functions:
+- Displaying the current directory.
+- Allowing you to type directly a path.
+- Selecting a path in the drop-down list.
+- They can include a zip filename to display its content.
+- They can include a mask to filter the directory's content .
+
+ They have a permanent part that is sorted out.
+ If the operating system is Windows, this permanent part will contains
+the list of drive units in order, otherwise its size is user-defined from the
+Setup panel.  
+ 
+Entering a path
+ When you have typed a path in the edit box, press Enter to display this 
+directory. See below for how to add this path to the permanent list.
+ Use control+x or the popup menu to clear the edit box.
+
+Selecting a path
+ Click on the button at right of the edit box and select one.
+
+ The right mouse button allows to manage the lists of paths.
+- Add the current path to the list.          Ctrl+a is the shortcut.
+- Remove the current path from the list.     Ctrl+y is the shortcut.
+
+
+Filtering
+ You may add a filter to the path of the source directory.
+ These examples are correct:
+    *.jpg 
+    myfile.*
+ Filtering is not allowed in the target path.
+ Filtering concerns only files and not directories or archive's content.
+
+Clearing a list
+ You may clear a list of paths by reducing the size (for the two lists) from
+the General Setup panel. You may also delete the AE.Memory file, at the cost
+of a new Auto Setup to perform.
+ You may erase an entry with the Control and y keys pressed. 
+
+ You may manually edit the disk image of the two lists, stored in a file named 
+AE.Memory, with another text editor for example, but only when A.E. if not 
+running.
+
+ List of commands inside path text box:
+
+ctrl+a       add the current path to the list.
+ctrl+y       remove the current path from the list.
+ctrl+x       clear the field.
+
+
+ The text editor
+
+ Keyboard commands are these:
+- Home/End:             go to start/end or line.
+- Control-Home/End:     go to start/end of text.
+- Up/Down:              scroll up or down a line.
+- Page up/down:         scroll up/down a screen.
+- Control-D             display current line and column.
+  If editing is enabled (the default) more keyboard commands also work:
+
+Selection
+  Hold down the SHIFT key and use cursor to select a portion of text.
+  You may also select a part of text with the mouse.
+
+Editing
+- Control-E:      clear until end of line.
+- Control-Y:      clear the line.
+- Control-Z:      can undo the effect of ctrl-E, ctrl-Y, backspace, del
+                  (not ctrl-X).
+
+Searching
+- Control-F:      open a dialog box to find a string.
+- F3:             find the selected string if one,  or find the previous
+                  searched string again if one. Otherwise, open the dialog box.
+- Control-R:      find and replace a string.
+
+File functions
+- Control-S:      save the text in the original file (a backup is made with
+                  BAK extension).
+- Alt-W:          write the selected block of text as a file.
+- Alt-I:          insert a text file at cursor location.
+
+Cut, copy, paste
+- Control-X:      move the selected text to the clipboard.
+- Control-C:      copy the selected text to the clipboard.
+- Control-V:      copy the clipboard's content to the cursor location.
+  You may also use the right mouse button.    
+   
+
+ The tree panel
+
+ Keyboard commands:
+- Up key          move up one folder.
+- Down key        move down one folder.
+- Right           open a folder/go to sub-folder.
+- Left            go to parent folder.
+- Home            jump to first folder.
+- End             jump to last folder.
+- Page Up         display previous screen.
+- Page Down       display next screen.
+- Space           open/close the selected folder.
+- Enter           select the folder as source and go to the File Manager.
+
+ You can use the buttons "Source" and "Target" to open the selected directory
+either in the soure or target window. 
+ A double-click on a folder sets it also the source directory.
+ The "Rebuild" button is useful to update display of removable disks.
+ 
+
+ Archiving / Unarchiving
+
+ Unarchiving a ZIP file is done by a press on the ZIP button in the main toolbar. 
+ Options are available from within the File Management of the setup.
+ Archiving  is done by the special Archiver panel.
+ You have to select file or dirs you want to archive from the source directory,
+and select also the destination directory as target or type it in the textfield.
+ Then type a filename for the archive in the input field, and press the Make
+button.
+
+
+ Image panel
+
+ When you open a file with a supported graphic format (the icon of which being
+a picture), it is displayed inside this window.
+ Click on the image to display it full screen. Click on the full screen image
+to exit it.
+
+
+ The Locate dialog box
+
+ This window is used to locate a file from the file manager or from the setup
+panel.
+ Type the name of the file to find. If the operating system handles drive units,
+type the drive letter, example:
+  c:wordpad.exe
+ The file is searched for, and occurences are listed with full paths.
+ Click the one you want to select.
+ Then push the "Go to path" button to enter its directory or "Open" to directly
+process the file, according to its extension.
+
+
+ Setup
+
+ You must click on the "Save" button (with a disk image), to save your settings
+into the AE.init file and retrieve them at next session. This is always
+performed if the Auto Save option is checked on in the Desktop section.
+
+
+  Auto Setup
+
+ This allows to automatically recognizes drives units and paths of necessary
+programs.
+ If removable disk units are present, a disk must be inserted in the drive to
+it be recognized. To avoid searching of common program on removable disks,
+insert them only after the searching is achieved.
+ If multiple navigators or other tools are found, select one in the list.
+Otherwise they are already selected for you.
+ Then press the Accept button.
+ You can select "First found only" to stop the searching when a program is
+found, otherwise the engine will browse all drives to find all occurences of
+them.
+
+
+  Desktop
+
+ This panel allows to configure
+- The desptop.
+- The setup itself.
+
+
+  Style
+
+  Select an item in the second list and set its style with the choice lists.
+  There are special colors for the component:
+  - control: color of any control objets, toolbar for example.
+  - window: color of background for containers.
+  - controlText and windowText.
+
+
+  File management
+
+ Option for security.
+ Archive  options.
+ Label of special button above the source directory. Type a label, a path (under
+ Windows this may be a drive letter followed by :) and click on the Set button.
+
+
+  Editor / Html
+
+ From this panel you may select an external  editor as replacement for the text
+editor (it is required for formatted or big text files.) and the browser.
+ You may either use the Browse button or type the path directly.
+ Thanks to the checkboxes: you may choose to display any text files with the
+selected editor and ignore the buit-in one.
+
+
+  Image
+
+  Settings for the image panel.
+  Check if you want the image scaled.
+
+
+  Associations
+
+ A.E. allows associations in various ways:
+- Selecting a file and launching a program previously added to the "Tools" menu.
+- Built-in association of
+   RTF,  Doc (Word), Wri (Write)  files with the editor entered in setup.
+   HTM or HTML  files with the navigator entered in setup.
+   Windows' HLP files with Winhelp.exe.
+- Any association defined from within the setup panel.
+
+ Select the Association panel.
+- To add an association, type the extension and the program to launch into the
+  edit fields.
+  For example:   
+  Into the first field:          wav
+  Into the second field:    c:/windows/mplayer.exe
+  Then don't forget to click on the Add button...
+- To suppress one, select either the extension or the program and click on the
+  Clear button.
+
+
+  Web pages
+
+  For the three kind of generated pages, you can choose a background color.
+  And more in further version.
+
+
+AE.config  
+
+ This file holds the name of programs to associate with extensions. It is used
+only by the AutoSetup command. It can be edited from the built-in editor before
+you to press the AutoSetup button.
+ With the Windows exe version, this file may be missing in the archive,  it is
+useless.
+ With the Java version, the file should be filled according to the programs
+available on the operating system.
+
+ 
+AE.init
+
+ This is the setup file.
+Most components of the GUI are defined by a style, which includes a background,
+a foreground, police and font style and size.
+You may edit this file. If this causes the program to don't properly work erase
+it, and from within the Setup panel, press the "Save" button to generate a new
+one.
+
+
+AE.memory
+ 
+ This is the file image of the program's memory.
+ You can't edit it when A.E. is running, because it's content is loaded at start
+and saved at exit.
+
+
+LICENCE - NO REGISTER
+
+ You don't need to register this program.
+ However you may send me a postal card to suggest any improvement or signal a
+bug. Before that, look at the "Problems" section below in this document.
+Take in mind that this program is free and that I can't afford the cost of
+answer to each user. This will be made instead by the changes in the program
+and a special FAQ added file.
+ My current address is in the Vendor.txt file.
+
+
+HISTORY
+
+ Any thing in the world has an history.
+ Unfortunaly, when you read the history file that comes along with a software,
+you got a list of bugs and when they have been discovered.
+
+ I have written the first MS-Dos version of this program at the (far) time of
+the success of a little program named "List" that simply displays a text with
+commands to scroll it. I was needing for a version of List with a directory
+window to pick text by filename with no any typing and I wrote my own.
+ When CD-Rom and BBS archived files became common, I was expecting to read texts
+directly inside zip archive and I improve my program to do that. I named it
+CD-List.
+ I added then a lot of functions to manage the files on CDs.
+ I never found a Win 95 program with its ease of use and I have continued to
+use this Dos program until the current Windows (and other OS) version was
+achieved. The present version keeps all the functionalities of the DOS version
+and extends them with memories, text editing, image display and so one...
+
+
+FAQ, PROBLEMS, TIPS
+
+
+  Problems with colors
+
+ Colors are made of three RGB values allowing to create 256 * 256 * 256 colors. 
+ The system performs adjustments for lower display, with limitations.
+
+  Why is Worpad directly loaded sometimes for text viewing?
+
+ On Windows, the text editor uses a Windows' component that displays only small
+texts (less than  38 to 64 Kilobytes depending of its humour. When AE can't
+display a text file with its built-in component, it chains by loading Wordpad
+or the selected editor.
+ Look at the setup panel for path setting of your editor.
+
+  Texts contain garbage characters.
+
+ Importing a Dos text with accents is not performed with conversion to Windows'
+format. You have to import it from Wordpad or the editor by using its import
+command.
+
+  Why is the AExxx.html file missing?
+
+ The message  "Enable to load AExxx.html" is not an error or a missing file.
+ AExxx.html files have to be written at this day. AEEng.html is provided as
+standard and generated from AEEng.txt also provided.
+
+  How to have the units recognized under Windows?
+
+ The program can only distinguish removable units from fixed ones, when the
+user remove or insert disks into the units. This is a drawback of a 
+machine-independent programming language. This can be achieved during
+the auto-setup process.
+
+  Some archives are not handled.
+
+ Zip archives made with PKZip 2.0 (c) and compatible programs are managed by AE.
+Archives made with PKZip 1.1 are not recognized.
+To overcome this drawback I suggest you to download either PKZip or a free
+compatible program (Info-Zip, Zip Central), and either add it to the association
+list or add it to the "Tools" menu.
+
+  Program want not run.
+
+ If you cannot launch a program with a file, either the path of the program is
+missing either this program can't be ran with a file as parameter.
+ In the first case, use the Find option from the Association panel in setup to
+set up the path of the program associated with this extension. Otherwise,
+nothing to do, but to use the loading command of the program to load the file.
+
+  Reference document can't be displayed
+
+ If you cannot display a document by associated programs, their paths are
+missing. Display the Setup panel and select the Editor/Html panel. Browse the
+disk to found the path of the program: iexplore.exe, netscape.exe, wordpad.exe
+etc...
+
+
+  The program hangs up.
+
+ I have not tested A.E with all versions of Windows and Java. If launching a
+program fails and AE is stopped, you have to use the task manager (ctrl+alt+del)
+to kill the task of this program.
+
+  How to play a wav file from a control panel?
+
+ I you want a control panel to play a wav file, you can thick "priority" in
+the association setup panel to use default or user association rather than
+built-in process.
+
+  Sound problems
+
+ I noticed some problems with the Windows' wav player that is sndrec32.exe.
+Nothing to do again that, but restarting the computer! To avoid that, use the
+option "association first" as Mplayer.exe used for association is more stable.
+ If the sound player hang up, you will be enabled to use it until the computer
+is restarted. To continue sound playing without to restart it, you have to set
+associations priority over buit-il tools.
+
+ Gif image not displayed
+
+ The runtime doesn't display gif image without global colormap. If you are the
+creator of the animation, change your setup.
+
+
+CREDITS AND LEGAL STUFF
+
+ PKZip and PKUnzip are trademarks of PKWare Inc. 
+ Windows is a trademark of Microsoft Corp.
+ Java is a programming language made by Sun Inc.
+ Linux is an open source software.
+

@@ -1,0 +1,148 @@
+/*=====================================================================*\
+|| ###################################################################
+|| # RGB Converter
+|| # Copyright (c)2002-2010 Blue Static
+|| #
+|| # This program is free software; you can redistribute it and/or modify
+|| # it under the terms of the GNU General Public License as published by
+|| # the Free Software Foundation; version 2 of the License.
+|| #
+|| # This program is distributed in the hope that it will be useful, but
+|| # WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+|| # or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for
+|| # more details.
+|| #
+|| # You should have received a copy of the GNU General Public License along
+|| # with this program; if not, write to the Free Software Foundation, Inc.,
+|| # 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+|| ###################################################################
+\*=====================================================================*/
+
+/* ################################################################### */
+/* Global */
+
+body {
+  margin: 0px;
+  font-family: "Lucida Grande";
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+#shadow {
+  z-index: -1000;
+  position: absolute;
+}
+
+#wheel {
+  margin-top: 7px;
+  margin-left: 7px;
+}
+
+/* ################################################################### */
+/* Front */
+
+input[type="text"] {
+  font-family: Menlo, Monaco, Courier;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+
+  border-width: 0px 0px 2px 0px;
+  border-style: solid;
+
+  background-color: rgba(0,0,0,.3);
+  color: white;
+}
+
+#redinput {
+  border-color: red;
+
+  position: absolute;
+  top: 32px;
+  left: 108px;
+}
+
+#greeninput {
+  border-color: green;
+
+  position: absolute;
+  top: 140px;
+  left: 114px;
+}
+
+#blueinput {
+  border-color: blue;
+
+  position: absolute;
+  top: 85px;
+  left: 13px;
+}
+
+#hexinput {
+  z-index: 1000;
+  font-weight: bold;
+  border-color: white;
+
+  position: absolute;
+  top: 85px;
+  left: 65px;
+}
+
+/* ################################################################### */
+/* Back */
+
+#backtext {
+  position: absolute;
+  top: 90px;
+  left: 27px;
+  width: 140px;
+  font-size: 10px;
+}
+
+#backbutton {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* ################################################################### */
+/* Flip insturments */
+
+.flip {
+  position: absolute;
+  top: 170px;
+  left: 155px;
+  width: 13px;
+  height: 13px;
+}
+
+#flip {
+  opacity: 0;
+  background: url(file:///System/Library/WidgetResources/ibutton/white_i.png) no-repeat top left;
+  z-index: 8000;
+}
+
+#fliprollie {
+  display: none;
+  opacity: 0.25;
+  background: url(file:///System/Library/WidgetResources/ibutton/white_rollie.png) no-repeat top left;
+  z-index: 7999;
+}
+
+#front {
+  display: block;
+} 
+
+#back {
+  display: none;
+} 
+
+.doneButton {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}

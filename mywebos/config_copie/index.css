@@ -1,0 +1,55 @@
+body
+{
+   background-color: #808080;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+.ui-widget
+{
+   font-size: 1em !important;
+}
+.ui-dialog
+{
+   padding: 4px 4px 4px 4px;
+}
+.ui-dialog .ui-dialog-title
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   color: #FFFFFF;
+}
+.ui-dialog .ui-dialog-titlebar
+{
+   padding: 10px 10px 10px 30px;
+}
+.ui-dialog .ui-dialog-titlebar-close
+{
+   outline: 0;
+   right: 10px;
+}
+.jQueryDialog1, .jQueryDialog1 .ui-corner-all
+{
+   -webkit-border-radius: 0px;
+   -moz-border-radius: 0px;
+   border-radius: 0px;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}

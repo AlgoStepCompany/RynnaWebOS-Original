@@ -1,0 +1,8 @@
+On accède aux nombres par la pavé numérique.
+Idem pour les opérateurs.
+Egal : Espace
+On/c : o
+Carré (x²) : c
+Virgule : .(point)
+Effacer : r
+ 

@@ -1,0 +1,47 @@
+<les-series>
+	
+<!--
+	La partie ci-dessous est réservée au tirage au sort de listes.
+	Indiquez le titre de la liste et les différents items.
+-->
+
+	<les-listes>
+
+		<liste titre="Les élèves">
+			<t>Martin C.</t>
+			<t>Elodie B.</t>
+			<t>Ludovic T.</t>
+			<t>Benoît B.</t>
+			<t>Noémie C.</t>
+			<t>Chloë B.</t>
+			<t>Alex R.</t>
+			<t>Tristan P.</t>
+		</liste>
+
+		<liste titre="Les jeux">
+			<t>Le pendu</t>
+			<t>La dame chinoise</t>
+			<t>Sudoku</t>
+			<t>Mots croisés</t>
+		</liste>
+
+	</les-listes>
+	
+<!--
+	La partie ci-dessous est réservée au tirage au sort d'images.
+	Indiquez le nom du dossier et le nombre d'images.
+-->
+
+	<les-images>
+
+		<dossier nom="chiffres">
+			<images>10</images>
+		</dossier>
+
+		<dossier nom="majuscules">
+			<images>26</images>
+		</dossier>
+
+	</les-images>
+
+</les-series>

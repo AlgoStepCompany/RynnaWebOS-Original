@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>tt</title>
+<style type="text/css">
+
+body{
+	background-color:white;	
+}
+
+</style>
+
+<link rel="stylesheet" type="text/css" href="res/k_mur_16.css"></style>
+<link rel="stylesheet" type="text/css" href="res/player_4.css"></style>
+
+<script type="text/javascript" src="res/k_mur_video_16.js"></script>
+<script type="text/javascript" src="res/videoclass.js"></script>
+
+
+<script type="text/javascript">
+
+function mur_instance(){
+	
+	var ob2=Object.create(k_mur_video);
+
+	ob2.nombre=8;
+	ob2.nb_hauteur=2,
+	ob2.angle_max=(Math.PI/4);
+	ob2.marge=-1.5;
+	ob2.bord=10;
+	ob2.ctn=document.getElementById("ctn2");
+	ob2.chemin="http://scriptevol.free.fr/contenu/video_curve/video/"
+	ob2.video_nom="Streamzilla.mp4";
+	ob2.vivi=document.getElementById("vivi")
+	ob2.init_video();
+}
+
+window.addEventListener('load',mur_instance, false);
+
+</script>
+
+</head>
+<body>
+
+<div class="container2" id='ctn2'>
+
+</div>
+<input type="file" id="btr">charger</input>
+</body>
+</html>

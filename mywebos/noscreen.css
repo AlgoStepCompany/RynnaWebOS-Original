@@ -1,0 +1,418 @@
+body
+{
+   background-color: #000000;
+   background-image: url(images/newscreenx2.jpg);
+   background-attachment: fixed;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#wb_PageHeader
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #454744;
+   background-image: none;
+   border: 0px #CCCCCC solid;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#PageHeader
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#PageHeader .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#PageHeader .col-1
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#PageHeader .col-1
+{
+   float: left;
+}
+#PageHeader .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   width: 100%;
+   text-align: left;
+}
+#PageHeader:before,
+#PageHeader:after,
+#PageHeader .row:before,
+#PageHeader .row:after
+{
+   display: table;
+   content: " ";
+}
+#PageHeader:after,
+#PageHeader .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#PageHeader .col-1
+{
+   float: none;
+   width: 100%;
+}
+}
+#wb_PanelMenu1 a, #PanelMenu1_markup li a
+{
+   display: block;
+   text-align: left;
+   vertical-align: middle;
+}
+#PanelMenu1_markup
+{
+   display: none;
+   margin: 0;
+   padding: 0;
+}
+#PanelMenu1_panel #PanelMenu1_markup
+{
+   display: block;
+}
+#PanelMenu1_markup ul
+{
+   list-style: none;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+#PanelMenu1_markup li a, #PanelMenu1_markup li a:hover
+{
+   padding: 10px 10px 10px 10px;
+   border-width: 0;
+   border-bottom-width: 0px;
+   border-radius: 0;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+   box-shadow: none;
+}
+#PanelMenu1_panel
+{
+   display: none;
+   position: absolute;
+   position: fixed;
+   top: 0;
+   height: 100%;
+   width: 250px;
+   z-index: 9999;
+}
+#PanelMenu1_overlay
+{
+   display: none;
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   background-color: #000000;
+   opacity: 0.5;
+   z-index: 9998;
+}
+#wb_PanelMenu1 a, #PanelMenu1_markup li a
+{
+   color: #F7F7F7;
+   border: 0px #2E2E2E solid;
+   background-color: #454744;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   text-decoration: none;
+}
+#wb_PanelMenu1 a:hover, #PanelMenu1_markup li a:hover
+{
+   color: #454744;
+   background-color: #B7B7B7;
+   border: 0px #2E2E2E solid;
+}
+#PanelMenu1_panel
+{
+   background-color: #454744;
+   overflow-y: auto;
+}
+#PanelMenu1
+{
+   padding-right: 48px;
+}
+#PanelMenu1:after
+{
+   position: absolute;
+   top: 50%;
+   right: 16px;
+   width: 32px;
+   height: 32px;
+   margin-top: -16px;
+   content: "\f0c9";
+   display: inline-block;
+   font-family: FontAwesome;
+   font-size: 32px;
+   line-height: 32px;
+}
+#PanelMenu1
+{
+   line-height: 70px;
+   width: 15px;
+   height: 70px;
+   position: absolute;
+}
+#PanelMenu1_markup ul li i
+{
+   font-size: 32px;
+   padding: 0px 10px 0px 0px;
+   vertical-align: middle;
+   width: 32px;
+}
+#PanelMenu1_markup span
+{
+   display: inline-block;
+   height: 32px;
+   vertical-align: middle;
+   line-height: 32px;
+}
+#wb_Heading1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #FFFFFF solid;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 15px 0px 15px 0px;
+}
+#Heading1
+{
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 21px;
+   margin: 0;
+   text-align: center;
+}
+#wb_BlockQuote
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #FFFFFF;
+   background-color: rgba(255,255,255,0.39);
+   background-image: none;
+   border: 0px #CCCCCC solid;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1024px;
+}
+#BlockQuote
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 20px 15px 20px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#BlockQuote .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#BlockQuote .col-1
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#BlockQuote .col-1
+{
+   float: left;
+}
+#BlockQuote .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   width: 100%;
+   text-align: center;
+}
+#BlockQuote:before,
+#BlockQuote:after,
+#BlockQuote .row:before,
+#BlockQuote .row:after
+{
+   display: table;
+   content: " ";
+}
+#BlockQuote:after,
+#BlockQuote .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#BlockQuote .col-1
+{
+   float: none;
+   width: 100%;
+}
+}
+#BlockQuote-overlay
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background-color: #FFFFFF;
+   opacity: 0.39;
+}
+#wb_Quote 
+{
+   background-color: transparent;
+   background-image: none;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 0px;
+   border-left-width: 4px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #275A87;
+   border-right-color: #275A87;
+   border-bottom-color: #275A87;
+   border-left-color: #275A87;
+   padding: 10px 20px 10px 20px;
+   margin: 0;
+   text-align: left;
+}
+#wb_Quote div
+{
+   text-align: left;
+}
+#wb_LayoutGrid9
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #4F4F4F;
+   background-image: none;
+   border: 0px #F5F5F5 solid;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#LayoutGrid9
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 25px 15px 25px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid9 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid9 .col-1
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid9 .col-1
+{
+   float: left;
+}
+#LayoutGrid9 .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGrid9:before,
+#LayoutGrid9:after,
+#LayoutGrid9 .row:before,
+#LayoutGrid9 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid9:after,
+#LayoutGrid9 .row:after
+{
+   clear: both;
+}
+@media (max-width: 768px)
+{
+#LayoutGrid9 .col-1
+{
+   float: none;
+   width: 100%;
+}
+}
+#wb_Text8 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 10px 0px 10px 0px;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text8 div
+{
+   text-align: center;
+}

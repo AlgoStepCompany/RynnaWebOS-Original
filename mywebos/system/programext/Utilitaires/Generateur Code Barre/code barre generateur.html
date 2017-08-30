@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+ <head>
+<title>code barre generateur</title>
+<meta charset="UTF-8">
+<style type="text/css">
+
+      body{
+background: #C63D0F
+}
+
+.div_cvs{
+width:515px;
+margin:auto;
+background:#3B3738;
+padding:10px;
+}
+
+input:in-range{
+
+width:200px;
+background:#3B3738;
+margin:5px;
+}
+
+.div_range{
+display:inline-block;
+background:#3B3738;
+height:30px
+}
+
+.inp_coul{
+border:none;
+width:210px;
+height:25px;
+background:#3B3738;
+padding:2px;
+cursor:pointer;
+}
+
+.z_btn{
+
+float:right;
+display:inline-block;
+margin-left:10px;
+margin-top:-250px;
+background:#3B3738;
+padding:20px;
+height:200px;
+
+}
+
+.z_btn button, .z_btn_g{
+
+	width:100%;
+	background:#ff5959;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #a12727;
+    border-radius: 2px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff4a4a), to(#992727));
+    background: -moz-linear-gradient(top, #ff4a4a, #992727);
+    background: linear-gradient(to bottom, #ff4a4a, #992727);
+    text-shadow: #591717 1px 1px 1px;
+     color: #ffffff;
+    text-decoration: none;
+	cursor:pointer;
+	margin-top:5px;
+}
+
+.z_btn button:hover, .bouton_fic:hover{
+    background: #ff5959;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff5959), to(#b62f2f));
+    background: -moz-linear-gradient(top, #ff5959, #b62f2f);
+    background: linear-gradient(to bottom, #ff5959, #b62f2f);
+}
+
+
+.div_g{
+	display:inline-block;
+	background:#3B3738;
+	padding:5px
+}
+.z_btn_g{
+	margin-top:0px;
+	width:200px;
+	height:20px;
+}
+
+.div_code{
+
+}
+
+.inp_code{
+	width:200px;
+	height:20px;
+	font-size:22px;
+}
+
+.cadre{
+
+	position:fixed;
+	background:#3B3738;
+	color: white;
+	font-family: sans-serif;
+	border-radius: 3px;
+	font-size: smaller;
+	text-align:center;
+	min-height:100px;
+	width:320px;
+	border:2px solid #111111;
+	border-radius:10px;
+	box-shadow:0 0 15px #aaa;
+
+}
+
+.cadre span{
+	color:red;
+}
+
+.input_fic{
+	margin:20px;
+	border-radius:5px;
+}
+
+.bouton_fic{
+	margin:10px;
+	border: 1px solid #a12727;
+    border-radius: 2px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff4a4a), to(#992727));
+    background: -moz-linear-gradient(top, #ff4a4a, #992727);
+    background: linear-gradient(to bottom, #ff4a4a, #992727);
+    text-shadow: #591717 1px 1px 1px;
+    color: #ffffff;
+    text-decoration: none;
+	text-align: center;
+    vertical-align: middle;
+	width:100px;
+	cursor:pointer;
+}
+
+
+</style>
+ <script type="text/javascript" src="res/k_code_13.js"></script>
+  </head>
+  <body>
+  
+  <div class="div_cvs">
+  <canvas style=' background:white;margin:auto;' id='canvas'height='160' width='515'></canvas>
+  </div>
+  
+  <br>
+  <div class="div_g">
+    <input class="inp_code" type='text'  value='4901780190737' width=50 id='code' />
+	</div>
+	<br><br>
+	
+	<div class="div_g">
+	<button class="z_btn_g" onclick="k_barre.crea_barre_b()">generer</button>
+	</div>
+	
+	<br>	<br>
+	<div style='width:800px'>
+	
+	<div style='float:left;margin-right:10px;'>
+	largeur code
+	<br>
+	<div class="div_range">
+	 <input type="range" min="1" max="10" value='5' id="largeur" onchange ='k_barre.dimension(this)'>
+	 </div>
+	 <br><br>
+	hauteur code
+	<br>
+	<div class="div_range">
+	 <input type="range" min="20" max="200" value='80'  id="hauteur"onchange ='k_barre.dimension_h(this)'>
+	 </div>
+	 <br><br>
+	 taille de bordure
+	 <br>
+	 <div class="div_range">
+	 <input type="range" min="0" max="50" value='20' id="bordure" onchange ='k_barre.bordure(this)'>
+	 </div>
+	 <br><br>
+	 bordure gauche
+	 <br>
+	 <div class="div_range">
+	 <input type="range" min="0" max="100" value='25' id="bordure_g" onchange ='k_barre.bordure_gauche(this)'>
+	 </div>
+	 </div>
+	 
+	 <div>
+	 taille de la police
+	 <br>
+	 <div class="div_range">
+	 <input type="range" min="5" max="80" value='40' id="police" onchange ='k_barre.police(this)'>
+	 </div>
+	 <br><br>
+	 position du texte
+	 <br>
+	 <div class="div_range">
+	 <input type="range" min="10" max="300" value='140' id="posi_texte" onchange ='k_barre.posilice(this)'>
+	 </div>
+	  <br><br>
+	 bordure du bas
+	 <br>
+	 <div class="div_range">
+	 <input type="range" min="0" max="100" value='20' id="bordure_b" onchange ='k_barre.bordure_bas(this)'>
+	 </div>
+	 <br><br>
+	  couleur du fond
+	 <br>
+	 <div class="div_range">
+	 <input class="inp_coul"  type="color" value="#fad345" id="coul_fond" onchange ='k_barre.coul_fond(this)'>
+	 </div>
+	 
+	</div>
+	
+	<div class='z_btn' >
+	 
+	 <button onclick="k_barre.boite('image')">sauvegarder image</button>
+	 <br><hr>
+	 <button onclick="k_barre.boite('fichier')">sauvegarder configuration</button>
+	  <br>
+	 <button onclick="k_barre.fichier_clic(event)">charger configuration</button>
+	 <br><hr>
+	 <button onclick="k_barre.conserver(event)">memoriser configuration</button>
+	  <br>
+	 <button onclick="k_barre.charger(event)">configuration memorisé</button>
+	 <input type="file" id="fileinput" style="display:none" onchange="k_barre.charger_fichier(event)">
+	</div>
+	
+	
+	</div>
+  </body>
+  
+</html>

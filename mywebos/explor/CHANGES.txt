@@ -1,0 +1,20 @@
+
+Advanced Explorer - Changes
+
+2009 March 2009
+- Changed the URL
+- Changed the About dialog.
+
+2.6. January 2004
+- Fixed some minor incompatibilities with jre 1.4
+- Lot of change to make the program compatible with Linux or Unix.
+- Added the state of search in the locate dialog (current directory).
+- Added a ctrl-a command in directory field.
+
+
+2.4 December 2003
+- Rewritten for compatibilty with Java 1.4
+
+
+1.0 March 1999
+- First version available as an executable for Windows.

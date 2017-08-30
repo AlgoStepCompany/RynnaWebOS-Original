@@ -1,0 +1,35 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+.ui-widget
+{
+   font-size: 1em !important;
+}
+.ui-dialog
+{
+   padding: 4px 4px 4px 4px;
+}
+.ui-dialog .ui-dialog-title
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   color: #222222;
+}
+.ui-dialog .ui-dialog-titlebar
+{
+   padding: 10px 10px 10px 30px;
+}
+.ui-dialog .ui-dialog-titlebar-close
+{
+   right: 10px;
+}

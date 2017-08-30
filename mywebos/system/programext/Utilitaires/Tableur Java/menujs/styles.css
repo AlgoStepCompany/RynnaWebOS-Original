@@ -1,0 +1,142 @@
+#mtm_wrap {
+	BORDER-RIGHT: black 2px solid; BORDER-TOP: black 2px solid; BORDER-LEFT: black 2px solid; WIDTH: 700px; BORDER-BOTTOM: black 2px solid
+}
+#mtm_menu {
+	
+}
+#mtm_menu A {
+	BORDER-RIGHT: #fff 1px solid; PADDING-RIGHT: 15px; DISPLAY: block; PADDING-LEFT: 15px; FONT-WEIGHT: bold; FONT-SIZE: 11px; FLOAT: left; PADDING-BOTTOM: 0px; COLOR: #fff; LINE-HEIGHT: 25px; PADDING-TOP: 0px; FONT-FAMILY: Tahoma, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+#mtm_menu A.hover {
+	BACKGROUND:#B4BED3;
+}
+#mtm_menu SPAN.active {
+	DISPLAY: inline
+}
+#mtm_menu SPAN {
+	DISPLAY: none
+}
+#mtm_menu #img {
+	VERTICAL-ALIGN: bottom
+}
+#mtm_menu #subnav {
+	FONT-SIZE: 10px; MARGIN-BOTTOM: 2em; 
+}
+#mtm_menu #subnav A {
+	COLOR: #fff; MARGIN-RIGHT: 1em
+}
+#mtm_menu #subnav SPAN {
+	COLOR: #fff; MARGIN-RIGHT: 1em
+}
+TABLE.items TR.item TD {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #424242; FONT-FAMILY: Tahoma, Helvetica, sans-serif
+}
+.dummy {
+	FONT-SIZE: 10px
+}
+TD {
+	FONT-FAMILY: verdana, arial, sans-serif, Century Gothic
+}
+.s {
+	FONT-SIZE: 10px
+}
+.text {
+	FONT-SIZE: 10px
+}
+.midtext {
+	FONT-SIZE: 12px
+}
+.headline {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px
+}
+.midheadline {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px
+}
+.midbigheadline {
+	FONT-WEIGHT: bold; FONT-SIZE: 15px; font-face: arial
+}
+.bigheadline {
+	FONT-SIZE: 20px; LINE-HEIGHT: 22px
+}
+.xlheadline {
+	FONT-WEIGHT: bold; FONT-SIZE: 24px; LINE-HEIGHT: 26px; FONT-FAMILY: arial, helvetica, sans-serif
+}
+A {
+	FONT-FAMILY: verdana, arial, sans-serif
+}
+.leftnav {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; LINE-HEIGHT: 14px; TEXT-DECORATION: none
+}
+.leftnav:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; LINE-HEIGHT: 14px; TEXT-DECORATION: underline
+}
+.link {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #0066ff
+}
+.linkbuynow {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ff0000
+}
+.midlink {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #0066ff
+}
+.fastfood {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; TEXT-DECORATION: none
+}
+.fastfood:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; TEXT-DECORATION: underline
+}
+.navigation {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; TEXT-DECORATION: none
+}
+.navigation:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; TEXT-DECORATION: underline
+}
+.topnav {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+BR {
+	FONT-FAMILY: arial,helvetica,sans-serif
+}
+.t2 {
+	FONT-SIZE: 2px; LINE-HEIGHT: 2px
+}
+.t3 {
+	FONT-SIZE: 3px; LINE-HEIGHT: 3px
+}
+.t5 {
+	FONT-SIZE: 5px; LINE-HEIGHT: 5px
+}
+.lbuf5 {
+	MARGIN-LEFT: 5px
+}
+.lbuf10 {
+	MARGIN-LEFT: 10px
+}
+.lrbuf5 {
+	MARGIN-LEFT: 5px; MARGIN-RIGHT: 5px
+}
+.lrbuf10 {
+	MARGIN-LEFT: 10px; MARGIN-RIGHT: 10px
+}
+.small {
+	FONT-SIZE: 10px; FONT-FAMILY: verdana,arial,helvetica,sans-serif
+}
+.normal {
+	FONT-SIZE: 10px; FONT-FAMILY: verdana,arial,helvetica,sans-serif
+}
+.normalbold {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; FONT-FAMILY: arial,helvetica,sans-serif
+}
+.smallbluebold {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #697a93; FONT-FAMILY: verdana,arial,helvetica,sans-serif
+}
+.bigblue {
+	FONT-SIZE: 13px; COLOR: #ffcc33; FONT-FAMILY: verdana,arial,helvetica,sans-serif
+}
+.ttds {
+	FONT-SIZE: 10px; FONT-FAMILY: verdana,arial,helvetica,sans-serif; TEXT-DECORATION: none
+}
+.ttds:hover {
+	FONT-SIZE: 10px; FONT-FAMILY: verdana,arial,helvetica,sans-serif; TEXT-DECORATION: underline
+}
+

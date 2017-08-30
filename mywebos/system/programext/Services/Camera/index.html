@@ -1,0 +1,35 @@
+<html>	
+	<head>	
+		<title>	
+			VIDEO WEBRTC
+		</title>
+		<link href="css/core.css" rel="stylesheet" media="all"/>
+	</head>
+	<body>
+		<div class="booth">	
+			<video id="video" width="400" height="300" autoplay></video>
+		</div>
+			<script src="js/video.js">	</script>
+	</body>
+	<script>	
+	//var typeS=window.mozopenDatabase("db_bokolongono","1.0","Database Bokolongono",10*1024*1024);
+	var type_database=window.openDatabase("db_bokolongono","1.0","Database Bokolongono",10*1024*1024);
+	   type_database.transaction(function(transact){
+
+       transact.executeSql('CREATE TABLE IF NOT EXISTS MYACCOUNT (ID INTEGER PRIMARY KEY ,NOM VARCHAR(50),PHONE VARCHAR(15),DATESUB VARCHAR(10),TIMESUB VARCHAR(10),PICTURE TEXT,STATE)');
+           type_database.transaction(function(transact){
+       transact.executeSql('INSERT INTO MYACCOUNT (ID,NOM,PHONE,DATESUB,TIMESUB,PICTURE,STATE) VALUES(?,?,?,?,?,?,?)',[22,"nom","phone","datesub","timesub","picture","status_user"]);
+     
+        alert('ended');
+    });
+         
+               //  alert('OK');
+   //transact.executeSql('DROP TABLE LISTCONTACTS');
+
+         
+      // transact.executeSql("DELETE FROM MYACCOUNT");
+      
+        
+    });
+	</script>
+</html>

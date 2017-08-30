@@ -1,0 +1,2 @@
+Ce fichier sert de point d'encrage pour une diffusion sur GITHUB (dépot officiel).
+Vous pouvez le supprimer une fois sur votre ordinateur.

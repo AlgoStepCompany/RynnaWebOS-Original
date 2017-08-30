@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>eCalc_Scientific</string>
+	<key>CFBundleDisplayName</key>
+	<string>eCalc Scientific</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.eCalc.widget.ecalcScientific</string>
+	<key>CFBundleVersion</key>
+	<string>1.5.0</string>
+	<key>MainHTML</key> 
+	<string>main.html</string>
+	<key>Height</key>
+	<integer>560</integer>
+	<key>Width</key>
+	<integer>391</integer>
+	<key>CloseBoxInsetX</key>
+	<integer>5</integer>
+	<key>CloseBoxInsetY</key>
+	<integer>7</integer>
+	<key>AllowNetworkAccess</key>
+	<true/>
+</dict>
+</plist>

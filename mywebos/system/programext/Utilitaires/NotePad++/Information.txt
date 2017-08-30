@@ -1,0 +1,3 @@
+NotePad++ présent ici est au format Virtualisé : vous pouvez donc l'executer directement sur votre ordinateur sans installation.
+Ce logiciel est un logiciel LIBRE (gratuit) sous licence éditeur et protection.
+Incrémentation dans Rynna WebOS depuis le 01/03/2017 en TEST-VIRTUALISATION.

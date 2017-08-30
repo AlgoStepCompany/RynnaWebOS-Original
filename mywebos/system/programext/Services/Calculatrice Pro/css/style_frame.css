@@ -1,0 +1,11 @@
+body
+	{
+		width: 320px;
+		height: 461px;
+		margin-left: 0;
+		background-color: RGB(55,55,55);
+		background-image: url(../images/fond.png);
+		background-repeat:no-repeat;
+		background-position: left 0px;
+		
+	}

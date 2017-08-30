@@ -1,0 +1,18 @@
+
+body { width:398px; background-repeat:no-repeat; background-color:#25262b; padding:0; margin: auto; }
+
+img { border:0; }
+
+
+#iphone{ height:398px; width:801px; margin-left:0px; position:absolute; top:50px; }
+#numericbar { position:absolute; width: 320px; height: 20px; margin-left: 39px; margin-top: 170px;}
+#frame { height:461px; width:320px; margin-left:39px; position:absolute; top:190px; background-color:#000000; overflow:hidden; }
+#respring { height:78px; width:78px; margin-left:161px; position:absolute; top:664px; }
+
+
+
+
+
+
+
+

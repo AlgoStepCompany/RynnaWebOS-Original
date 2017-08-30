@@ -1,0 +1,185 @@
+body
+{
+   background-color: #000000;
+   background-image: url(images/newscreenx2.jpg);
+   background-attachment: fixed;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+.ui-widget
+{
+   font-size: 1em !important;
+}
+.jQueryDialog2.ui-dialog
+{
+   padding: 4px 4px 4px 4px;
+}
+.jQueryDialog2.ui-dialog .ui-dialog-title
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   color: #FFFFFF;
+}
+.jQueryDialog2.ui-dialog .ui-widget-header
+{
+   padding: 10px 10px 10px 30px;
+}
+.ui-dialog .ui-dialog-titlebar-close
+{
+   outline: 0;
+   right: 10px;
+}
+.jQueryDialog2, .jQueryDialog2 .ui-corner-all
+{
+   border-radius: 0px;
+}
+#Signup1
+{
+   background-color: #C0C0C0;
+   border-color:#808080;
+   border-width:1px;
+   border-style: solid;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   text-align: right;
+   border-spacing: 4px;
+   width: 598px;
+   height: 219px;
+}
+#Signup1 td
+{
+   padding: 0;
+}
+#Signup1 .header
+{
+   background-color: #FF8C00;
+   color: #FFFFFF;
+   height: 16px;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+}
+#Signup1 .label
+{
+   height: 20px;
+   width:307px;
+}
+#Signup1 .row
+{
+   height: 20px;
+   text-align: left;
+}
+#Signup1 .input
+{
+   background-color: #FFFFFF;
+   border-color: #878787;
+   border-width: 1px;
+   border-style: solid;
+   border-radius: 3px;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   width: 150px;
+   height: 18px;
+   padding: 1px 1px 1px 1px;
+}
+#Signup1 .button
+{
+   background-color: #FFFFFF;
+   border-color: #878787;
+   border-width: 1px;
+   border-style: solid;
+   border-radius: 3px;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   width: 90px;
+   height: 20px;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
+#Button1
+{
+   border: 1px #A9A9A9 solid;
+   background-color: #F0F0F0;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}
+.ui-widget
+{
+   font-size: 1em !important;
+}
+.jQueryDialog1.ui-dialog
+{
+   padding: 4px 4px 4px 4px;
+}
+.jQueryDialog1.ui-dialog .ui-dialog-title
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   color: #FFFFFF;
+}
+.jQueryDialog1.ui-dialog .ui-widget-header
+{
+   padding: 10px 10px 10px 30px;
+}
+.ui-dialog .ui-dialog-titlebar-close
+{
+   outline: 0;
+   right: 10px;
+}
+.jQueryDialog1, .jQueryDialog1 .ui-corner-all
+{
+   border-radius: 0px;
+}
+#Button2
+{
+   border: 1px #2E6DA4 solid;
+   border-radius: 4px;
+   background-color: #FF8C00;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}
+#Button3
+{
+   border: 1px #2E6DA4 solid;
+   border-radius: 4px;
+   background-color: #2E8B57;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}

@@ -1,0 +1,684 @@
+body
+{
+   background-color: #000000;
+   background-image: url(images/newscreenx2.jpg);
+   background-attachment: fixed;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+.ui-widget
+{
+   font-size: 1em !important;
+}
+.jQueryDialog1.ui-dialog
+{
+   padding: 4px 4px 4px 4px;
+}
+.jQueryDialog1.ui-dialog .ui-dialog-title
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   color: #FFFFFF;
+}
+.jQueryDialog1.ui-dialog .ui-widget-header
+{
+   padding: 10px 10px 10px 30px;
+}
+.ui-dialog .ui-dialog-titlebar-close
+{
+   outline: 0;
+   right: 10px;
+}
+.jQueryDialog1, .jQueryDialog1 .ui-corner-all
+{
+   border-radius: 0px;
+}
+#Login1
+{
+   background-color: #FFA500;
+   border-color:#FFA500;
+   border-width:1px;
+   border-style: solid;
+   color: #000000;
+   border-spacing: 4px;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   text-align: right;
+   width: 568px;
+   height: 151px;
+}
+#Login1 td
+{
+   padding: 0;
+}
+#Login1 .header
+{
+   background-color: #FFFFFF;
+   color: #FFA500;
+   height: 16px;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+}
+#Login1 .label
+{
+   height: 20px;
+   width:336px;
+}
+#Login1 .row
+{
+   height: 20px;
+   text-align: left;
+}
+#Login1 .input
+{
+   background-color: #FFFFFF;
+   border-color: #878787;
+   border-width: 1px;
+   border-style: solid;
+   border-radius: 2px;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   width: 100px;
+   height: 18px;
+   padding: 1px 1px 1px 1px;
+}
+#Login1 .button
+{
+   background-color: #FFFFFF;
+   border-color: #878787;
+   border-width: 1px;
+   border-style: solid;
+   border-radius: 3px;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   width: 70px;
+   height: 20px;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: justify;
+}
+#wb_Text2 div
+{
+   text-align: justify;
+}
+#Button1
+{
+   border: 1px #A9A9A9 solid;
+   background-color: #F0F0F0;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 13px;
+}
+#Button1:hover
+{
+   background-color: #FFA500;
+   -webkit-transition: background-color 500ms linear 0ms;
+   -moz-transition: background-color 500ms linear 0ms;
+   transition: background-color 500ms linear 0ms;
+}
+.ui-widget
+{
+   font-size: 1em !important;
+}
+.jQueryDialog5.ui-dialog
+{
+   padding: 4px 4px 4px 4px;
+}
+.jQueryDialog5.ui-dialog .ui-dialog-title
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   color: #FFFFFF;
+}
+.jQueryDialog5.ui-dialog .ui-widget-header
+{
+   padding: 10px 10px 10px 30px;
+}
+.ui-dialog .ui-dialog-titlebar-close
+{
+   outline: 0;
+   right: 10px;
+}
+.jQueryDialog5, .jQueryDialog5 .ui-corner-all
+{
+   border-radius: 0px;
+}
+#wb_FontAwesomeIcon1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px transparent solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+}
+#wb_FontAwesomeIcon1:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px transparent solid;
+}
+#FontAwesomeIcon1
+{
+   height: 116px;
+   width: 113px;
+}
+#FontAwesomeIcon1 i
+{
+   color: #FFA500;
+   display: inline-block;
+   font-size: 113px;
+   line-height: 116px;
+   vertical-align: middle;
+   width: 112px;
+}
+#wb_FontAwesomeIcon1:hover i
+{
+   color: #FFA500;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: justify;
+}
+#wb_Text1 div
+{
+   text-align: justify;
+}
+.ui-widget
+{
+   font-size: 1em !important;
+}
+.jQueryDialog6.ui-dialog
+{
+   padding: 4px 4px 4px 4px;
+}
+.jQueryDialog6.ui-dialog .ui-dialog-title
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   color: #FFFFFF;
+}
+.jQueryDialog6.ui-dialog .ui-widget-header
+{
+   padding: 10px 10px 10px 30px;
+}
+.ui-dialog .ui-dialog-titlebar-close
+{
+   outline: 0;
+   right: 10px;
+}
+.jQueryDialog6, .jQueryDialog6 .ui-corner-all
+{
+   border-radius: 0px;
+}
+#Blog1
+{
+   background-color: transparent;
+   border-width: 0;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.2;
+   text-align: left;
+}
+#Blog1 .blogitem
+{
+   background-color: #EEEEEE;
+   margin-bottom: 6px;
+   padding: 0px;
+}
+#Blog1 .blogdate
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 13px;
+   color: #000000;
+}
+#Blog1 .blogsubject, #Blog1 .blogsubject a:link, #Blog1 .blogsubject a:visited, #Blog1 .blogsubject a:hover
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 13px;
+   color: #666666;
+   text-decoration: none;
+}
+#Blog1 .blogcomments, #Blog1 .blogcomments a:link, #Blog1 .blogcomments a:visited, #Blog1 .blogcomments a:hover
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   color: #000000;
+   text-decoration: underline;
+}
+#Blog1 .blogcomments
+{
+   text-decoration: none;
+}
+#Blog1 .no-thumb
+{
+   display: none;
+}
+#Blog1 .blogsubject
+{
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#Blog1 .blogthumb
+{
+   margin: 0 0 5px 0;
+   float: right;
+   padding: 0 5px 0 0;
+}
+#Blog1 .blogthumb img
+{
+   border-width: 0px;
+   width: 120px;
+   height: auto;
+}
+#Button2
+{
+   border: 1px #2E6DA4 solid;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text3 div
+{
+   text-align: center;
+}
+#Image1
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Layer2
+{
+   background-color: transparent;
+   background-image: none;
+}
+#Layer3
+{
+   background-color: #FF8C00;
+   background-image: none;
+   border: 2px #FFA500 solid;
+   border-radius: 2px;
+   -moz-box-shadow: 10px 10px 7px #FFAF4F;
+   -webkit-box-shadow: 10px 10px 7px #FFAF4F;
+   box-shadow: 10px 10px 7px #FFAF4F;
+}
+#Button3
+{
+   border: 1px #000000 solid;
+   border-radius: 4px;
+   background-color: #4F4F4F;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}
+#Button4
+{
+   border: 1px #2E6DA4 solid;
+   border-radius: 4px;
+   background-color: #DCDCDC;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: italic;
+   font-size: 11px;
+}
+#wb_FontAwesomeIcon2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+}
+#wb_FontAwesomeIcon2:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#FontAwesomeIcon2
+{
+   height: 100px;
+   width: 100px;
+}
+#FontAwesomeIcon2 i
+{
+   color: #FFA500;
+   display: inline-block;
+   font-size: 100px;
+   line-height: 100px;
+   vertical-align: middle;
+   width: 86px;
+}
+#wb_FontAwesomeIcon2:hover i
+{
+   color: #FFD700;
+}
+#wb_Text4 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text4 div
+{
+   text-align: center;
+}
+#wb_FontAwesomeIcon3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+}
+#wb_FontAwesomeIcon3:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#FontAwesomeIcon3
+{
+   height: 100px;
+   width: 100px;
+}
+#FontAwesomeIcon3 i
+{
+   color: #FFA500;
+   display: inline-block;
+   font-size: 100px;
+   line-height: 100px;
+   vertical-align: middle;
+   width: 86px;
+}
+#wb_FontAwesomeIcon3:hover i
+{
+   color: #FFD700;
+}
+#wb_Text6 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text6 div
+{
+   text-align: center;
+}
+#wb_FontAwesomeIcon4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+}
+#wb_FontAwesomeIcon4:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#FontAwesomeIcon4
+{
+   height: 100px;
+   width: 100px;
+}
+#FontAwesomeIcon4 i
+{
+   color: #FFA500;
+   display: inline-block;
+   font-size: 100px;
+   line-height: 100px;
+   vertical-align: middle;
+   width: 93px;
+}
+#wb_FontAwesomeIcon4:hover i
+{
+   color: #FFD700;
+}
+#wb_Text7 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text7 div
+{
+   text-align: center;
+}
+#wb_FontAwesomeIcon5
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+}
+#wb_FontAwesomeIcon5:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#FontAwesomeIcon5
+{
+   height: 100px;
+   width: 100px;
+}
+#FontAwesomeIcon5 i
+{
+   color: #FFA500;
+   display: inline-block;
+   font-size: 100px;
+   line-height: 100px;
+   vertical-align: middle;
+   width: 64px;
+}
+#wb_FontAwesomeIcon5:hover i
+{
+   color: #FFD700;
+}
+#wb_Text8 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text8 div
+{
+   text-align: center;
+}
+#wb_Text10 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text10 div
+{
+   text-align: left;
+}
+#Layer1
+{
+   background-color: transparent;
+   background-image: url(images/96544255_o.png);
+   background-repeat: no-repeat;
+   background-position: left top;
+   background-size: 100% 100%;
+}
+#Layer5
+{
+   background-color: transparent;
+   background-image: url(images/php7.png);
+   background-repeat: no-repeat;
+   background-position: left top;
+   background-size: 100% 100%;
+}
+#Layer6
+{
+   background-color: transparent;
+   background-image: url(images/cookies_ifn.png);
+   background-repeat: no-repeat;
+   background-position: left top;
+   background-size: 100% 100%;
+}
+.ui-widget
+{
+   font-size: 1em !important;
+}
+.jQueryDialog3.ui-dialog
+{
+   padding: 4px 4px 4px 4px;
+}
+.jQueryDialog3.ui-dialog .ui-dialog-title
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   color: #FFFFFF;
+}
+.jQueryDialog3.ui-dialog .ui-widget-header
+{
+   padding: 10px 10px 10px 30px;
+}
+.ui-dialog .ui-dialog-titlebar-close
+{
+   outline: 0;
+   right: 10px;
+}
+.jQueryDialog3, .jQueryDialog3 .ui-corner-all
+{
+   border-radius: 0px;
+}
+#wb_Text5 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: justify;
+}
+#wb_Text5 div
+{
+   text-align: justify;
+}
+#Button7
+{
+   border: 1px #2E6DA4 solid;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}
+#Layer4
+{
+   background-color: transparent;
+   background-image: url(images/original.png);
+   background-repeat: no-repeat;
+   background-position: left top;
+   background-size: 100% 100%;
+   border: 2px transparent solid;
+   border-radius: 1px;
+}
+#Button5
+{
+   border: 1px #2E6DA4 solid;
+   border-radius: 4px;
+   background-color: #F5F5F5;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}
+#Layer7
+{
+   background-color: transparent;
+   background-image: url(images/flagusen.png);
+   background-repeat: no-repeat;
+   background-position: left top;
+   background-size: 100% 100%;
+}

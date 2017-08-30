@@ -1,0 +1,17 @@
+body 
+{
+	height:461px; 
+	width:320px; 
+	background-repeat:no-repeat; 
+	left: center; 
+	background-color:#25262b; 
+	padding:0; 
+	margin: auto; 
+	margin-top: 50px; 
+}
+a { outline:none; }
+p { padding:0; margin:0; }
+img { border:0; }
+ .ico_txt { text-align:center; font-family:Georgia, Times, serif; font-size:16px; color:#d4d4d5; }
+ .icon1 { height:150px; width:150px; margin-left:85px; position:absolute; top:38px; }
+ .icon2 { height:150px; width:150px; margin-left:85px; position:absolute; top:238px; }

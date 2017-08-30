@@ -1,0 +1,97 @@
+body
+{
+   background-color: #4F4F4F;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+.ui-widget
+{
+   font-size: 1em !important;
+}
+.jQueryDialog2.ui-dialog
+{
+   padding: 4px 4px 4px 4px;
+}
+.jQueryDialog2.ui-dialog .ui-dialog-title
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   color: #FFFFFF;
+}
+.jQueryDialog2.ui-dialog .ui-widget-header
+{
+   padding: 10px 10px 10px 30px;
+}
+.ui-dialog .ui-dialog-titlebar-close
+{
+   outline: 0;
+   right: 10px;
+}
+.jQueryDialog2, .jQueryDialog2 .ui-corner-all
+{
+   border-radius: 0px;
+}
+#Button2
+{
+   border: 1px #A9A9A9 solid;
+   background-color: #FFA500;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #000000 solid;
+   border-radius: 1px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text2 div
+{
+   text-align: left;
+}
+#wb_FontAwesomeIcon2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+}
+#wb_FontAwesomeIcon2:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#FontAwesomeIcon2
+{
+   height: 100px;
+   width: 135px;
+}
+#FontAwesomeIcon2 i
+{
+   color: #0000FF;
+   display: inline-block;
+   font-size: 100px;
+   line-height: 100px;
+   vertical-align: middle;
+   width: 114px;
+}
+#wb_FontAwesomeIcon2:hover i
+{
+   color: #0000FF;
+}

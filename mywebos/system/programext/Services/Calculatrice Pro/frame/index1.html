@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   
+   <head>
+        <title>calculatrice</title>
+	    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	    <link rel="stylesheet" type="text/css" href="../css/style_frame.css"/>
+		<script type="text/javascript" src="../javascript/script.js"></script>
+
+
+</head><body>
+ 
+<table border="0"><tr style="margin-left:0px; top:0px; color:grey; position:absolute; " ><td><table style="background-color:transparent; border:0px; font-size:35px; color:black;" cellspacing="0" ><tr><td height="20" width="295" align="right"><div id=aff style="cursor:defaut"></div></td></tr></table></td><td> <div id=f></div></td></tr></table>
+
+<table border="0"><tr style="margin-left:0px; top:38px; color:grey; position:absolute;" ><td><table style="background-color:transparent; border:0px; font-size:35px; color:black;"cellspacing="0" ><tr><td height="20" width="295" align="right"><div id=euro style="cursor:defaut"></div></td></tr></table></td><td> <div id=e></div></td></tr></table>
+
+<table border="0">
+<tr>
+<td style="margin-left:241px; top:99px;  position:absolute;" height="30" width="30"><A HREF=# onclick='tretour()'><table id=nretour border="0" bordercolor="black" cellspacing="0" ><tr height="15" align="center"><td width="20"><img border="0" src="../images/Boutonc_2.png" onmouseover="this.src='../images/Boutonc.png';" onmouseout="this.src='../images/Boutonc_2.png';" alt="" /></td></tr></table></a></td>
+<td style="margin-left:241px; top:161px; position:absolute;" height="30" width="30"><A HREF=# onclick='top(3)'   ><table id=nfois   border="0" bordercolor="black" cellspacing="0" ><tr height="15" align="center"><td width="20"><img border="0" src="../images/Boutonx_2.png"   onmouseover="this.src='../images/Boutonx.png';" onmouseout="this.src='../images/Boutonx_2.png';" alt="" /></td></tr></table></a></td>
+<td style="margin-left:241px; top:221px; position:absolute;" height="30" width="30"><A HREF=# onclick='top(2)'   ><table id=nmoins  border="0" bordercolor="black" cellspacing="0" ><tr height="15" align="center"><td width="20"><img border="0" src="../images/Bouton-_2.png"       onmouseover="this.src='../images/Bouton-.png';" onmouseout="this.src='../images/Bouton-_2.png';" alt="" /></td></tr></table></a></td>
+<td style="margin-left:241px; top:282px; position:absolute;" height="30" width="30"><A HREF=# onclick='top(1)'   ><table id=nplus   border="0" bordercolor="black" cellspacing="0" ><tr height="15" align="center"><td width="20"><img border="0" src="../images/Boutonplus_2.png"       onmouseover="this.src='../images/Boutonplus.png';" onmouseout="this.src='../images/Boutonplus_2.png';" alt="" /></td></tr></table></a></td>
+<td style="margin-left:241px; top:343px; position:absolute;" height="30" width="30"><A HREF=# onclick='tegal()'  ><table id=negal   border="0" bordercolor="black" cellspacing="0" ><tr height="15" align="center"><td width="50"><img border="0" src="../images/Boutonegal_2.png"    onmouseover="this.src='../images/Boutonegal.png';" onmouseout="this.src='../images/Boutonegal_2.png';" alt="" /></td></tr></table></a></td>
+</tr>
+
+<tr>
+<td style="margin-left:6px; top:221px; position:absolute;" height="30" width="30"><A HREF=# onclick='t1(7)' ><table id=n7  border="0" bordercolor="black" cellspacing="0" ><tr height="15" align="center"><td width="20"><img border="0" src="../images/Bouton7_2.png"  onmouseover="this.src='../images/Bouton7.png';"  onmouseout="this.src='../images/Bouton7_2.png';" alt="" /></td></tr></table></a></td>
+<td style="margin-left:6px; top:282px; position:absolute;" height="30" width="30"><A HREF=# onclick='t1(4)' ><table id=n4  border="0" bordercolor="black" cellspacing="0" ><tr height="15" align="center"><td width="20"><img border="0" src="../images/Bouton4_2.png"  onmouseover="this.src='../images/Bouton4.png';"  onmouseout="this.src='../images/Bouton4_2.png';" alt="" /></td></tr></table></a></td>
+<td style="margin-left:6px; top:161px; position:absolute;" height="30" width="30"><A HREF=# onclick='tce()' ><table id=nce border="0" bordercolor="black" cellspacing="0" ><tr height="15" align="center"><td width="20"><img border="0" src="../images/BoutonAC_2.png" onmouseover="this.src='../images/BoutonAC.png';"  onmouseout="this.src='../images/BoutonAC_2.png';" alt="" /></td></tr></table></a></td>
+<td style="margin-left:6px; top:343px; position:absolute;" height="30" width="30"><A HREF=# onclick='t1(1)' ><table id=n1  border="0" bordercolor="black" cellspacing="0" ><tr height="15" align="center"><td width="20"><img border="0" src="../images/Bouton1_2.png"  onmouseover="this.src='../images/Bouton1.png';"  onmouseout="this.src='../images/Bouton1_2.png';" alt="" /></td></tr></table></a></td>
+<td style="margin-left:6px; top:405px; position:absolute;" height="30" width="30"><A HREF=# onclick='t0()'  ><table id=n0  border="0" bordercolor="black" cellspacing="0" ><tr height="15" align="center"><td width="20"><img border="0" src="../images/Bouton0_2.png"  onmouseover="this.src='../images/Bouton0.png';"  onmouseout="this.src='../images/Bouton0_2.png';" alt="" /></td></tr></table></a></td>
+</tr>
+
+<tr>
+<td style="margin-left:84px; top:221px; position:absolute;" height="30" width="30"><A HREF=# onclick='t1(8)' ><table id=n8   border="0" bordercolor="black" cellspacing="0" ><tr height="15" align="center"><td width="20"><img border="0" src="../images/Bouton8_2.png"  onmouseover="this.src='../images/Bouton8.png';" onmouseout="this.src='../images/Bouton8_2.png';" alt="" /></td></tr></table></a></td>
+<td style="margin-left:84px; top:282px; position:absolute;" height="30" width="30"><A HREF=# onclick='t1(5)' ><table id=n5   border="0" bordercolor="black" cellspacing="0" ><tr height="15" align="center"><td width="20"><img border="0" src="../images/Bouton5_2.png"  onmouseover="this.src='../images/Bouton5.png';" onmouseout="this.src='../images/Bouton5_2.png';" alt="" /></td></tr></table></a></td>
+<td style="margin-left:84px; top:343px; position:absolute;" height="30" width="30"><A HREF=# onclick='t1(2)' ><table id=n2   border="0" bordercolor="black" cellspacing="0" ><tr height="15" align="center"><td width="20"><img border="0" src="../images/Bouton2_2.png"  onmouseover="this.src='../images/Bouton2.png';" onmouseout="this.src='../images/Bouton2_2.png';" alt="" /></td></tr></table></a></td>
+<td style="margin-left:84px; top:161px; position:absolute;" height="30" width="30"><A HREF=# onclick='tneg()'><table id=nneg border="0" bordercolor="black" cellspacing="0" ><tr height="15" align="center"><td width="20"><img border="0" src="../images/Bouton+-_2.png" onmouseover="this.src='../images/Bouton+-.png';" onmouseout="this.src='../images/Bouton+-_2.png';" alt="" /></td></tr></table></a></td>
+</tr>
+
+<tr>
+<td style="margin-left:162px; top:221px; position:absolute;" height="30" width="30"><A HREF=# onclick='t1(9)'   ><table id=n9      border="0" bordercolor="black" cellspacing="0" ><tr height="15" align="center"><td width="20"><img border="0" src="../images/Bouton9_2.png"     onmouseover="this.src='../images/Bouton9.png';" onmouseout="this.src='../images/Bouton9_2.png';" alt="" /></td></tr></table></a></td>
+<td style="margin-left:162px; top:161px; position:absolute;" height="30" width="30"><A HREF=# onclick='top(4)'  ><table id=ndivise border="0" bordercolor="black" cellspacing="0" ><tr height="15" align="center"><td width="20"><img border="0" src="../images/Boutondiv_2.png" onmouseover="this.src='../images/Boutondiv.png';" onmouseout="this.src='../images/Boutondiv_2.png';" alt="" /></td></tr></table></a></td>
+<td style="margin-left:162px; top:282px; position:absolute;" height="30" width="30"><A HREF=# onclick='t1(6)'   ><table id=n6      border="0" bordercolor="black" cellspacing="0" ><tr height="15" align="center"><td width="20"><img border="0" src="../images/Bouton6_2.png"     onmouseover="this.src='../images/Bouton6.png';" onmouseout="this.src='../images/Bouton6_2.png';" alt="" /></td></tr></table></a></td>
+<td style="margin-left:162px; top:343px; position:absolute;" height="30" width="30"><A HREF=# onclick='t1(3)'   ><table id=n3      border="0" bordercolor="black" cellspacing="0" ><tr height="15" align="center"><td width="20"><img border="0" src="../images/Bouton3_2.png"     onmouseover="this.src='../images/Bouton3.png';" onmouseout="this.src='../images/Bouton3_2.png';" alt="" /></td></tr></table></a></td>
+<td style="margin-left:162px; top:405px; position:absolute;" height="30" width="30"><A HREF=# onclick='tvirg()' ><table id=nvirg   border="0" bordercolor="black" cellspacing="0" ><tr height="15" align="center"><td width="20"><img border="0" src="../images/Boutonvir_2.png"   onmouseover="this.src='../images/Boutonvir.png';" onmouseout="this.src='../images/Boutonvir_2.png';" alt="" /></td></tr></table></a></td>
+<td style="margin-left:162px; top:99px;  position:absolute;" height="30" width="30"><A HREF=# onclick='nfe()'   ><table id=nfe     border="0" bordercolor="black" cellspacing="0" ><tr height="15" align="center"><td width="20"><img border="0" src="../images/Boutone-fr_2.png" onmouseover="this.src='../images/Boutone-fr.png';" onmouseout="this.src='../images/Boutone-fr_2.png';" alt="" /></td></tr></table></a></td>
+</tr>
+
+
+</table>
+<script type="text/javascript" src="../javascript/script2.js"></script>
+
+
+</body>
+</html>

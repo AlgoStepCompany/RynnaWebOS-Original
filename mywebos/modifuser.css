@@ -1,0 +1,140 @@
+body
+{
+   background-color: #000000;
+   background-image: url(images/newscreenx2.jpg);
+   background-attachment: fixed;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+.ui-widget
+{
+   font-size: 1em !important;
+}
+.jQueryDialog2.ui-dialog
+{
+   padding: 4px 4px 4px 4px;
+}
+.jQueryDialog2.ui-dialog .ui-dialog-title
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   color: #FFFFFF;
+}
+.jQueryDialog2.ui-dialog .ui-widget-header
+{
+   padding: 10px 10px 10px 30px;
+}
+.ui-dialog .ui-dialog-titlebar-close
+{
+   outline: 0;
+   right: 10px;
+}
+.jQueryDialog2, .jQueryDialog2 .ui-corner-all
+{
+   border-radius: 0px;
+}
+#EditProfile1
+{
+   background-color: #F5F5F5;
+   border-color:#FFA500;
+   border-width:1px;
+   border-style: solid;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   text-align: right;
+   border-spacing: 4px;
+   width: 621px;
+   height: 231px;
+}
+#EditProfile1 td
+{
+   padding: 0;
+}
+#EditProfile1 .header
+{
+   background-color: #2F4F4F;
+   color: #FFFFFF;
+   height: 16px;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+}
+#EditProfile1 .label
+{
+   height: 20px;
+   width:177px;
+}
+#EditProfile1 .row
+{
+   height: 20px;
+   text-align: left;
+}
+#EditProfile1 .input
+{
+   background-color: #FFFFFF;
+   border-color: #878787;
+   border-width: 1px;
+   border-style: solid;
+   border-radius: 3px;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   width: 150px;
+   height: 18px;
+   padding: 1px 1px 1px 1px;
+}
+#EditProfile1 .input:focus
+{
+   border-color: #66AFE9;
+   outline: 0;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+}
+#EditProfile1 .button
+{
+   background-color: #FFFFFF;
+   border-color: #878787;
+   border-width: 1px;
+   border-style: solid;
+   border-radius: 3px;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   width: 90px;
+   height: 20px;
+}
+#wb_Text9 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text9 div
+{
+   text-align: left;
+}
+#wb_LoginName1
+{
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 15px;
+   text-align: left;
+}

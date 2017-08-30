@@ -1,0 +1,72 @@
+﻿<Calendrier couleur="0x993300">
+     <annee1>
+	<photo urlimage="images/image1_1.jpg" miniatureimage="miniatures/im1_1.jpg" />
+	<photo urlimage="images/image2_1.jpg" miniatureimage="miniatures/im2_1.jpg" />
+	<photo urlimage="images/image3_1.jpg" miniatureimage="miniatures/im3_1.jpg" />
+	<photo urlimage="images/image4_1.jpg" miniatureimage="miniatures/im4_1.jpg" />
+	<photo urlimage="images/image5_1.jpg" miniatureimage="miniatures/im5_1.jpg" />
+	<photo urlimage="images/image6_1.jpg" miniatureimage="miniatures/im6_1.jpg" />
+	<photo urlimage="images/image7_1.jpg" miniatureimage="miniatures/im7_1.jpg" />
+	<photo urlimage="images/image8_1.jpg" miniatureimage="miniatures/im8_1.jpg" />
+	<photo urlimage="images/image9_1.jpg" miniatureimage="miniatures/im9_1.jpg" />
+	<photo urlimage="images/image10_1.jpg" miniatureimage="miniatures/im10_1.jpg" />
+	<photo urlimage="images/image11_1.jpg" miniatureimage="miniatures/im11_1.jpg" />
+	<photo urlimage="images/image12_1.jpg" miniatureimage="miniatures/im12_1.jpg" />
+     </annee1>
+     <annee2>
+	<photo urlimage="images/image1_2.jpg" miniatureimage="miniatures/im1_2.jpg" />
+	<photo urlimage="images/image2_2.jpg" miniatureimage="miniatures/im2_2.jpg" />
+	<photo urlimage="images/image3_2.jpg" miniatureimage="miniatures/im3_2.jpg" />
+	<photo urlimage="images/image4_2.jpg" miniatureimage="miniatures/im4_2.jpg" />
+	<photo urlimage="images/image5_2.jpg" miniatureimage="miniatures/im5_2.jpg" />
+	<photo urlimage="images/image6_2.jpg" miniatureimage="miniatures/im6_2.jpg" />
+	<photo urlimage="images/image7_2.jpg" miniatureimage="miniatures/im7_2.jpg" />
+	<photo urlimage="images/image8_2.jpg" miniatureimage="miniatures/im8_2.jpg" />
+	<photo urlimage="images/image9_2.jpg" miniatureimage="miniatures/im9_2.jpg" />
+	<photo urlimage="images/image10_2.jpg" miniatureimage="miniatures/im10_2.jpg" />
+	<photo urlimage="images/image11_2.jpg" miniatureimage="miniatures/im11_2.jpg" />
+	<photo urlimage="images/image12_2.jpg" miniatureimage="miniatures/im12_2.jpg" />
+     </annee2>
+     <annee3>
+	<photo urlimage="images/image1_3.jpg" miniatureimage="miniatures/im1_3.jpg" />
+	<photo urlimage="images/image2_3.jpg" miniatureimage="miniatures/im2_3.jpg" />
+	<photo urlimage="images/image3_3.jpg" miniatureimage="miniatures/im3_3.jpg" />
+	<photo urlimage="images/image4_3.jpg" miniatureimage="miniatures/im4_3.jpg" />
+	<photo urlimage="images/image5_3.jpg" miniatureimage="miniatures/im5_3.jpg" />
+	<photo urlimage="images/image6_3.jpg" miniatureimage="miniatures/im6_3.jpg" />
+	<photo urlimage="images/image7_3.jpg" miniatureimage="miniatures/im7_3.jpg" />
+	<photo urlimage="images/image8_3.jpg" miniatureimage="miniatures/im8_3.jpg" />
+	<photo urlimage="images/image9_3.jpg" miniatureimage="miniatures/im9_3.jpg" />
+	<photo urlimage="images/image10_3.jpg" miniatureimage="miniatures/im10_3.jpg" />
+	<photo urlimage="images/image11_3.jpg" miniatureimage="miniatures/im11_3.jpg" />
+	<photo urlimage="images/image12_3.jpg" miniatureimage="miniatures/im12_3.jpg" />
+     </annee3>
+     <annee4>
+	<photo urlimage="images/image1_4.jpg" miniatureimage="miniatures/im1_4.jpg" />
+	<photo urlimage="images/image2_4.jpg" miniatureimage="miniatures/im2_4.jpg" />
+	<photo urlimage="images/image3_4.jpg" miniatureimage="miniatures/im3_4.jpg" />
+	<photo urlimage="images/image4_4.jpg" miniatureimage="miniatures/im4_4.jpg" />
+	<photo urlimage="images/image5_4.jpg" miniatureimage="miniatures/im5_4.jpg" />
+	<photo urlimage="images/image6_4.jpg" miniatureimage="miniatures/im6_4.jpg" />
+	<photo urlimage="images/image7_4.jpg" miniatureimage="miniatures/im7_4.jpg" />
+	<photo urlimage="images/image8_4.jpg" miniatureimage="miniatures/im8_4.jpg" />
+	<photo urlimage="images/image9_4.jpg" miniatureimage="miniatures/im9_4.jpg" />
+	<photo urlimage="images/image10_4.jpg" miniatureimage="miniatures/im10_4.jpg" />
+	<photo urlimage="images/image11_4.jpg" miniatureimage="miniatures/im11_4.jpg" />
+	<photo urlimage="images/image12_4.jpg" miniatureimage="miniatures/im12_4.jpg" />
+     </annee4>
+     <annee5>
+	<photo urlimage="images/image1_5.jpg" miniatureimage="miniatures/im1_5.jpg" />
+	<photo urlimage="images/image2_5.jpg" miniatureimage="miniatures/im2_5.jpg" />
+	<photo urlimage="images/image3_5.jpg" miniatureimage="miniatures/im3_5.jpg" />
+	<photo urlimage="images/image4_5.jpg" miniatureimage="miniatures/im4_5.jpg" />
+	<photo urlimage="images/image5_5.jpg" miniatureimage="miniatures/im5_5.jpg" />
+	<photo urlimage="images/image6_5.jpg" miniatureimage="miniatures/im6_5.jpg" />
+	<photo urlimage="images/image7_5.jpg" miniatureimage="miniatures/im7_5.jpg" />
+	<photo urlimage="images/image8_5.jpg" miniatureimage="miniatures/im8_5.jpg" />
+	<photo urlimage="images/image9_5.jpg" miniatureimage="miniatures/im9_5.jpg" />
+	<photo urlimage="images/image10_5.jpg" miniatureimage="miniatures/im10_5.jpg" />
+	<photo urlimage="images/image11_5.jpg" miniatureimage="miniatures/im11_5.jpg" />
+	<photo urlimage="images/image12_5.jpg" miniatureimage="miniatures/im12_5.jpg" />
+     </annee5>
+</Calendrier>

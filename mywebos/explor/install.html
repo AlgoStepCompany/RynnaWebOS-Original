@@ -1,0 +1,116 @@
+<HTML>
+<HEAD>
+<TITLE>Advanced Explorer - How to install</TITLE>
+<STYLE TYPE="text/css" MEDIA=screen >
+<!--
+ BODY { font-face: "Courrier New", Courrier, mono, Monospaced, Arial }
+ .toc { font-face: "Courrier New", Courrier, mono, Monospaced, Arial  }
+ H3  { font-size: 18pt; color: #0008080 }
+ H4  { font-size: 16pt; color: #0008080 }
+ H5  { font-size: 14pt; color: #0008080 }
+ H6  { font-size: 12pt; color: #0008080 }
+ H7  { font-size: 11pt; color: #0008080 }
+ PRE { font-size: "12pt"; font-face: "Courrier New", Courrier, mono, Monospaced, Arial;  color: "#000000" }
+ A:link { text-decoration: none; color: #000080 }
+ A:visited { text-decoration: none; color: #00099 }
+ A:hover { text-decoration: none; color: #990066 }
+-->
+</STYLE>
+</HEAD>
+<BODY bgcolor=#FFFFFF>
+<span style="font size=18pt"><center>Advanced Explorer - How to install</center></span>
+<br>
+<HR><br>
+<TABLE name="toc" align="center" width="500">
+<TR><TD>
+<a href="#title0"><span style="font size=18pt color=green">INSTALLING AE UNDER WINDOWS</span></a><br>
+&nbsp;<a href="#title1"><span style="font size=16pt color=green">If AE comes as a JAR file</span></a><br>
+&nbsp;<a href="#title2"><span style="font size=16pt color=green">Installing AE.JAR without classpath</span></a><br>
+&nbsp;<a href="#title3"><span style="font size=16pt color=green">If A.E. comes inside an archive</span></a><br>
+<a href="#title4"><span style="font size=18pt color=green">SETTING UP THE PROGRAM</span></a><br>
+<a href="#title5"><span style="font size=18pt color=green">INSTALLING AE under LINUX</span></a><br>
+</TD></TR>
+</TABLE>
+<HR><br>
+
+
+
+
+<h3><a name="title0"></a>
+INSTALLING AE UNDER WINDOWS</h3> <pre>
+
+</pre>
+<h3><a name="title1"></a>
+ If AE comes as a JAR file</h3> <pre>
+
+ This is the java version, the sole that is maintained starting July 2001.
+ The Java 1.3 package must be installed. It may be already installed along with
+your Internet browser. Otherwise you have to download the JRE from the Sun's
+site   http://java.sun.com
+ or from another freeware site, or a cdrom.
+
+ The autoexec.bat file should contains the line:
+            CLASSPATH=c:\ae24\ae.jar
+
+ You must add an icon to the desktop and the program path should be:
+            javaw  -jar c:\ae24\ae.jar
+
+N.B:
+- If the classpath is already used, you can add c:\ae\ae.jar to it, separated by
+a semi-colon.
+- the path c:\ae  should be replaced by the one you choose to install AE into.
+- the working directory should be preferably the path of ae.jar.
+
+
+</pre>
+<h3><a name="title2"></a>
+ Installing AE.JAR without classpath</h3> <pre>
+
+ If the process above seems too much complicate for you, you may process
+diferently:
+
+1) Unzip the ae.jar archive inside a directory, c:\ae for example.
+2) Create an icon for the javaw.exe program (inside the Java path).
+3) Change the properties. Add ae as parameter to javaw.exe
+    Example:
+    c:\jre\bin\javaw.exe ae
+   Set the working path the one where ae.jar is unzipped.
+ 
+
+
+</pre>
+<h3><a name="title3"></a>
+ If A.E. comes inside an archive</h3> <pre>
+
+ This is the case if you want to update the program. Use a program as PKzip or
+or Zipcentral or Info-Zip.
+(Unziping can be done also by AE itself if a previous version is installed).
+
+
+
+</pre>
+<h3><a name="title4"></a>
+SETTING UP THE PROGRAM</h3> <pre>
+
+ Once AE is installed you have to set it up, for associating extensions with
+programs, (specially HTML) and detecting the available drives.
+ This is achieved by a click on the AutoSetup button at top of the Setup panel
+(the last tab).
+ Associations can be created also with the Association panel in Setup.
+ Drives units may be added also by typing their name, ex:        a:
+ in the fields on top of each directory windows (followed by a press on the
+Enter key). Use the right mouse button to open a menu that allows to register
+permanently the path.
+
+
+</pre>
+<h3><a name="title5"></a>
+INSTALLING AE under LINUX</h3> <pre>
+
+  Just extract the archive.
+You can run the program with the command:
+  java -jar ae.jar
+you can create an icon with this command as property.
+</pre>
+</BODY>
+</HTML>

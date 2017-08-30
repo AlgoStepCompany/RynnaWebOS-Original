@@ -1,0 +1,2 @@
+Ce dossier "config" est à copier à chaque nouveau compte dans /home/|username]/
+Cette copie est automatique (inclus dans newsuser.php) !
