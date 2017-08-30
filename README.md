@@ -53,7 +53,7 @@ Exemple :
 Vous devriez être redirigé sur la page "index.php" du WebOS.
 
 7 - Vérifiez que vous avez autorisé les droits d'écritures et modifications sur les dossier et fichiers suivants : 
-- DOSSIERS : applisgenerated ; applisweb_vierge ; config_copie ; generatiug ; home
+- DOSSIERS : applisgenerated ; applisweb_vierge ; config_copie ; generatiug ; home ; uploads
 - FICHIERS : fileuploader.php ; newuser.php ; myexplorer.php ; modifuser.php
 
 8 - Votre WebOS devrait être prêt à fonctionner !
@@ -114,7 +114,7 @@ Example:
 You should be redirected to the webOS "index.php" page.
 
 7 - Verify that you have allowed write and change permissions to the following folders and files:
-- FOLDERS: applisgenerated; Applisweb_vierge; Config_copy; Generatiug; home
+- FOLDERS: applisgenerated; Applisweb_vierge; Config_copy; Generatiug; home ; uploads
 - FILES: fileuploader.php; Newuser.php; Myexplorer.php; modifuser.php
 
 8 - Your WebOS should be ready to run!
