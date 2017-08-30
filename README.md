@@ -5,7 +5,9 @@ FR -- Rynna WebOS est un système d'exploitation internet (Desktop Virtual Manag
 US -- Rynna WebOS is an Internet operating system (Desktop Virtual Manager) designed in PHP 7, CSS 3, JQuery and Javascript since 2015. The first version to be available on this repository is there V 9.0 (Original).
 
 /!\ PASSWORD WebOS USER : 
+
 user = password
+
 root = password
 
 
