@@ -1,10 +1,12 @@
 # RynnaWebOS-Original
 
-Vous visionnez en ce moment la version 9.0 (Release) du code source.
+# Vous visionnez en ce moment la version 9.1 (Release) du code source.
 Cette version sera mise à jour en fonction de l'avancement du WebOS.
 
-(You are currently viewing version 9.0 (Version) of the source code.
+# (You are currently viewing version 9.1 (Version) of the source code.
 This version will be updated according to the progress of WebOS.)
+
+****************
 
 FR -- Rynna WebOS est un système d'exploitation internet (Desktop Virtual Manager) conçu en PHP 7, CSS 3, JQuery et Javascript depuis 2015.
 
