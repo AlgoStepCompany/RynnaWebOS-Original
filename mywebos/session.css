@@ -3762,72 +3762,6 @@ body
 {
    text-align: left;
 }
-#wb_MaterialIcon4
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #245580 solid;
-   text-align: center;
-   padding: 0px 0px 0px 0px;
-   vertical-align: top;
-}
-#wb_MaterialIcon4:hover
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #245580 solid;
-}
-#MaterialIcon4
-{
-   height: 36px;
-   width: 36px;
-}
-#MaterialIcon4 i
-{
-   color: #DCDCDC;
-   display: inline-block;
-   font-size: 36px;
-   line-height: 36px;
-   vertical-align: middle;
-   width: 36px;
-}
-#wb_MaterialIcon4:hover i
-{
-   color: #DCDCDC;
-}
-#wb_MaterialIcon30
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #245580 solid;
-   text-align: center;
-   padding: 0px 0px 0px 0px;
-   vertical-align: top;
-}
-#wb_MaterialIcon30:hover
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #245580 solid;
-}
-#MaterialIcon30
-{
-   height: 36px;
-   width: 36px;
-}
-#MaterialIcon30 i
-{
-   color: #FFA500;
-   display: inline-block;
-   font-size: 36px;
-   line-height: 36px;
-   vertical-align: middle;
-   width: 36px;
-}
-#wb_MaterialIcon30:hover i
-{
-   color: #FFD700;
-}
 .jQueryToolTip4
 {
    background-image: none;
@@ -4694,39 +4628,6 @@ body
 .jQueryDialog61, .jQueryDialog61 .ui-corner-all
 {
    border-radius: 0px;
-}
-#wb_MaterialIcon33
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #245580 solid;
-   text-align: center;
-   padding: 0px 0px 0px 0px;
-   vertical-align: top;
-}
-#wb_MaterialIcon33:hover
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #245580 solid;
-}
-#MaterialIcon33
-{
-   height: 36px;
-   width: 36px;
-}
-#MaterialIcon33 i
-{
-   color: #DCDCDC;
-   display: inline-block;
-   font-size: 36px;
-   line-height: 36px;
-   vertical-align: middle;
-   width: 36px;
-}
-#wb_MaterialIcon33:hover i
-{
-   color: #DCDCDC;
 }
 #Image12
 {
@@ -6155,72 +6056,6 @@ body
    background-repeat: no-repeat;
    background-position: center center;
    background-size: cover;
-}
-#wb_MaterialIcon19
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #245580 solid;
-   text-align: center;
-   padding: 0px 0px 0px 0px;
-   vertical-align: top;
-}
-#wb_MaterialIcon19:hover
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #245580 solid;
-}
-#MaterialIcon19
-{
-   height: 36px;
-   width: 36px;
-}
-#MaterialIcon19 i
-{
-   color: #FFA500;
-   display: inline-block;
-   font-size: 36px;
-   line-height: 36px;
-   vertical-align: middle;
-   width: 36px;
-}
-#wb_MaterialIcon19:hover i
-{
-   color: #FFD700;
-}
-#wb_MaterialIcon28
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #245580 solid;
-   text-align: center;
-   padding: 0px 0px 0px 0px;
-   vertical-align: top;
-}
-#wb_MaterialIcon28:hover
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #245580 solid;
-}
-#MaterialIcon28
-{
-   height: 36px;
-   width: 36px;
-}
-#MaterialIcon28 i
-{
-   color: #FFA500;
-   display: inline-block;
-   font-size: 36px;
-   line-height: 36px;
-   vertical-align: middle;
-   width: 36px;
-}
-#wb_MaterialIcon28:hover i
-{
-   color: #FF4500;
 }
 .ui-widget
 {
@@ -8420,4 +8255,210 @@ body
 .jQueryDialog62, .jQueryDialog62 .ui-corner-all
 {
    border-radius: 0px;
+}
+#wb_MaterialIcon24
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+}
+#wb_MaterialIcon24:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#MaterialIcon24
+{
+   height: 36px;
+   width: 36px;
+}
+#MaterialIcon24 i
+{
+   color: #FFA500;
+   display: inline-block;
+   font-size: 36px;
+   line-height: 36px;
+   vertical-align: middle;
+   width: 36px;
+}
+#wb_MaterialIcon24:hover i
+{
+   color: #FFD700;
+}
+#wb_MaterialIcon4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+}
+#wb_MaterialIcon4:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#MaterialIcon4
+{
+   height: 36px;
+   width: 36px;
+}
+#MaterialIcon4 i
+{
+   color: #DCDCDC;
+   display: inline-block;
+   font-size: 36px;
+   line-height: 36px;
+   vertical-align: middle;
+   width: 36px;
+}
+#wb_MaterialIcon4:hover i
+{
+   color: #DCDCDC;
+}
+#wb_MaterialIcon30
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+}
+#wb_MaterialIcon30:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#MaterialIcon30
+{
+   height: 36px;
+   width: 36px;
+}
+#MaterialIcon30 i
+{
+   color: #FFA500;
+   display: inline-block;
+   font-size: 36px;
+   line-height: 36px;
+   vertical-align: middle;
+   width: 36px;
+}
+#wb_MaterialIcon30:hover i
+{
+   color: #FFD700;
+}
+#wb_MaterialIcon33
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+}
+#wb_MaterialIcon33:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#MaterialIcon33
+{
+   height: 36px;
+   width: 36px;
+}
+#MaterialIcon33 i
+{
+   color: #DCDCDC;
+   display: inline-block;
+   font-size: 36px;
+   line-height: 36px;
+   vertical-align: middle;
+   width: 36px;
+}
+#wb_MaterialIcon33:hover i
+{
+   color: #DCDCDC;
+}
+#wb_MaterialIcon19
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+}
+#wb_MaterialIcon19:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#MaterialIcon19
+{
+   height: 36px;
+   width: 36px;
+}
+#MaterialIcon19 i
+{
+   color: #FFA500;
+   display: inline-block;
+   font-size: 36px;
+   line-height: 36px;
+   vertical-align: middle;
+   width: 36px;
+}
+#wb_MaterialIcon19:hover i
+{
+   color: #FFD700;
+}
+#wb_MaterialIcon28
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+}
+#wb_MaterialIcon28:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#MaterialIcon28
+{
+   height: 36px;
+   width: 36px;
+}
+#MaterialIcon28 i
+{
+   color: #FFA500;
+   display: inline-block;
+   font-size: 36px;
+   line-height: 36px;
+   vertical-align: middle;
+   width: 36px;
+}
+#wb_MaterialIcon28:hover i
+{
+   color: #FF4500;
+}
+#Layer23
+{
+   background-color: transparent;
+   background-image: url(images/astuces.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: 100% 100%;
 }
