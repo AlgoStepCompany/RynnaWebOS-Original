@@ -148,10 +148,15 @@ For any questions, our team is at your disposal by e-mail on support@rynnawebos.
 Si vous être développeur et que vous avez déjà modifier du code du WebOS sur votre serveur nous vous conseillons de remplacer uniquement les pages mises à jour. Sinon vous pouvez faire ceci :
 
 1 - Télécharger le contenu ZIP du projet
+
 2 - Remplacer tout le contenu PHP, CSS, JS à la racine dans votre dossier WebOS
+
 3 - Remplacez tout les dossiers sur votre serveur SAUF les dossiers suivants : home ; applisgenerated ; uploads
+
 4 - Remettez toutes vos informations de connexion au serveur MySQL (ou local MySQL) en modifiant les pages suivantes : index.php ; newuser.php ; modifuser.php ; passwdperdu.php
+
 5 - Votre WebOS sur votre serveur est maintenant à jour dans la nouvelle version
+
 
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
@@ -160,7 +165,12 @@ Si vous être développeur et que vous avez déjà modifier du code du WebOS sur
 If you are a developer and have already modified WebOS code on your server, we recommend that you only replace the updated pages. Otherwise you can do this:
 
 1 - Download ZIP content of the project
+
 2 - Replace all PHP, CSS, JS content at the root in your WebOS folder
+
 3 - Replace all folders on your server EXCEPT the following folders: home; Applisgenerated; uploads
+
 4 - Give all your login information to the MySQL (or local MySQL) server by modifying the following pages: index.php; Newuser.php; Modifuser.php; passwdperdu.php
+
 5 - Your WebOS on your server is now up to date in the new version
+
