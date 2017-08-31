@@ -142,3 +142,9 @@ If your goal is to upload this WebOS on a network server (company or internation
 For any questions, our team is at your disposal by e-mail on support@rynnawebos.fr
 *********************************************
 ---------------------------------------------
+
+//////// FRENCH - FRANCE - METTRE A JOUR VOTRE CODE SUR VOTRE SERVEUR \\\\\\\\\
+
+1 - Télécharger le contenu ZIP du projet
+2 - Remplacer tout le contenu PHP, CSS, JS à la racine dans votre dossier WebOS
+3 - Remplacez tout les dossiers sur votre serveur SAUF : 
