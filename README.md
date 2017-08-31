@@ -2,6 +2,7 @@
 
 Vous visionnez en ce moment la version 9.0 (Release) du code source.
 Cette version sera mise à jour en fonction de l'avancement du WebOS.
+
 (You are currently viewing version 9.0 (Version) of the source code.
 This version will be updated according to the progress of WebOS.)
 
