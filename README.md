@@ -3,8 +3,8 @@
 # Vous visionnez en ce moment la version 9.1 (Release) du code source.
 Cette version sera mise à jour en fonction de l'avancement du WebOS.
 
-# (You are currently viewing version 9.1 (Version) of the source code.
-This version will be updated according to the progress of WebOS.)
+# You are currently viewing version 9.1 (Release) of the source code.
+This version will be updated according to the progress of WebOS.
 
 ****************
 
@@ -12,7 +12,7 @@ FR -- Rynna WebOS est un système d'exploitation internet (Desktop Virtual Manag
 
 US -- Rynna WebOS is an Internet operating system (Desktop Virtual Manager) designed in PHP 7, CSS 3, JQuery and Javascript since 2015.
 
-/!\ PASSWORD WebOS USER : 
+/!\ PASSWORD/MOT DE PASSE (WebOS USER DEFAULT/UTILISATEUR PAR DEFAUT) : 
 
 user = password
 
@@ -40,9 +40,11 @@ Exemple :
                |_ (contenu du WebOS)
 
 5 - Editer les fichiers suivants pour y insérer les informations de votre serveur local (ou en ligne) ainsi que votre nom d'utilisateur, mot de passe serveur et le nom de votre base de données :
+
 - modifuser.php
 - newuser.php
 - passwdperdu.php
+- index.php
 
 Exemple "newuser.php" : 
 
@@ -87,7 +89,7 @@ You can also test the WebOS in an English version in development on http://rynna
 
 Installing Rynna WebOS on your local server:
 
-1 - Install Wamp Server (Windows) or Lamp (Linux) or any Apache PHP 5 compatible PHP 7 engine
+1 - Install Wamp Server (Windows) or Lamp (Linux) or any Apache PHP 5, compatible PHP 7 engine
 
 2 - Design a MySQL database
 
@@ -104,6 +106,7 @@ Example:
 - modifuser.php
 - newuser.php
 - passwdperdu.php
+- index.php
 
 Example "newuser.php":
 
