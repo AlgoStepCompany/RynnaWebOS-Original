@@ -3696,72 +3696,6 @@ body
 {
    text-align: left;
 }
-#wb_MaterialIcon4
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #245580 solid;
-   text-align: center;
-   padding: 0px 0px 0px 0px;
-   vertical-align: top;
-}
-#wb_MaterialIcon4:hover
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #245580 solid;
-}
-#MaterialIcon4
-{
-   height: 36px;
-   width: 36px;
-}
-#MaterialIcon4 i
-{
-   color: #DCDCDC;
-   display: inline-block;
-   font-size: 36px;
-   line-height: 36px;
-   vertical-align: middle;
-   width: 36px;
-}
-#wb_MaterialIcon4:hover i
-{
-   color: #DCDCDC;
-}
-#wb_MaterialIcon30
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #245580 solid;
-   text-align: center;
-   padding: 0px 0px 0px 0px;
-   vertical-align: top;
-}
-#wb_MaterialIcon30:hover
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #245580 solid;
-}
-#MaterialIcon30
-{
-   height: 36px;
-   width: 36px;
-}
-#MaterialIcon30 i
-{
-   color: #FFA500;
-   display: inline-block;
-   font-size: 36px;
-   line-height: 36px;
-   vertical-align: middle;
-   width: 36px;
-}
-#wb_MaterialIcon30:hover i
-{
-   color: #FFD700;
-}
 .jQueryToolTip4
 {
    background-image: none;
@@ -4628,39 +4562,6 @@ body
 .jQueryDialog61, .jQueryDialog61 .ui-corner-all
 {
    border-radius: 0px;
-}
-#wb_MaterialIcon33
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #245580 solid;
-   text-align: center;
-   padding: 0px 0px 0px 0px;
-   vertical-align: top;
-}
-#wb_MaterialIcon33:hover
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #245580 solid;
-}
-#MaterialIcon33
-{
-   height: 36px;
-   width: 36px;
-}
-#MaterialIcon33 i
-{
-   color: #DCDCDC;
-   display: inline-block;
-   font-size: 36px;
-   line-height: 36px;
-   vertical-align: middle;
-   width: 36px;
-}
-#wb_MaterialIcon33:hover i
-{
-   color: #DCDCDC;
 }
 #Image12
 {
@@ -5728,6 +5629,71 @@ body
 {
    text-align: left;
 }
+#Blog1
+{
+   background-color: transparent;
+   border-width: 0;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.2;
+   text-align: left;
+}
+#Blog1 .blogitem
+{
+   background-color: #EEEEEE;
+   margin-bottom: 6px;
+   padding: 0px;
+}
+#Blog1 .blogdate
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 13px;
+   color: #000000;
+}
+#Blog1 .blogsubject, #Blog1 .blogsubject a:link, #Blog1 .blogsubject a:visited, #Blog1 .blogsubject a:hover
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 13px;
+   color: #666666;
+   text-decoration: none;
+}
+#Blog1 .blogcomments, #Blog1 .blogcomments a:link, #Blog1 .blogcomments a:visited, #Blog1 .blogcomments a:hover
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   color: #000000;
+   text-decoration: underline;
+}
+#Blog1 .blogcomments
+{
+   text-decoration: none;
+}
+#Blog1 .no-thumb
+{
+   display: none;
+}
+#Blog1 .blogsubject
+{
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#Blog1 .blogthumb
+{
+   margin: 0 0 5px 0;
+   float: right;
+   padding: 0 5px 0 0;
+}
+#Blog1 .blogthumb img
+{
+   border-width: 0px;
+   width: 120px;
+   height: auto;
+}
 .ui-widget
 {
    font-size: 1em !important;
@@ -6024,72 +5990,6 @@ body
    background-repeat: no-repeat;
    background-position: center center;
    background-size: cover;
-}
-#wb_MaterialIcon19
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #245580 solid;
-   text-align: center;
-   padding: 0px 0px 0px 0px;
-   vertical-align: top;
-}
-#wb_MaterialIcon19:hover
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #245580 solid;
-}
-#MaterialIcon19
-{
-   height: 36px;
-   width: 36px;
-}
-#MaterialIcon19 i
-{
-   color: #FFA500;
-   display: inline-block;
-   font-size: 36px;
-   line-height: 36px;
-   vertical-align: middle;
-   width: 36px;
-}
-#wb_MaterialIcon19:hover i
-{
-   color: #FFD700;
-}
-#wb_MaterialIcon28
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #245580 solid;
-   text-align: center;
-   padding: 0px 0px 0px 0px;
-   vertical-align: top;
-}
-#wb_MaterialIcon28:hover
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #245580 solid;
-}
-#MaterialIcon28
-{
-   height: 36px;
-   width: 36px;
-}
-#MaterialIcon28 i
-{
-   color: #FFA500;
-   display: inline-block;
-   font-size: 36px;
-   line-height: 36px;
-   vertical-align: middle;
-   width: 36px;
-}
-#wb_MaterialIcon28:hover i
-{
-   color: #FF4500;
 }
 .ui-widget
 {
@@ -8289,4 +8189,210 @@ body
 .jQueryDialog62, .jQueryDialog62 .ui-corner-all
 {
    border-radius: 0px;
+}
+#wb_MaterialIcon24
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+}
+#wb_MaterialIcon24:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#MaterialIcon24
+{
+   height: 36px;
+   width: 36px;
+}
+#MaterialIcon24 i
+{
+   color: #FFA500;
+   display: inline-block;
+   font-size: 36px;
+   line-height: 36px;
+   vertical-align: middle;
+   width: 36px;
+}
+#wb_MaterialIcon24:hover i
+{
+   color: #FFD700;
+}
+#wb_MaterialIcon4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+}
+#wb_MaterialIcon4:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#MaterialIcon4
+{
+   height: 36px;
+   width: 36px;
+}
+#MaterialIcon4 i
+{
+   color: #DCDCDC;
+   display: inline-block;
+   font-size: 36px;
+   line-height: 36px;
+   vertical-align: middle;
+   width: 36px;
+}
+#wb_MaterialIcon4:hover i
+{
+   color: #DCDCDC;
+}
+#wb_MaterialIcon30
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+}
+#wb_MaterialIcon30:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#MaterialIcon30
+{
+   height: 36px;
+   width: 36px;
+}
+#MaterialIcon30 i
+{
+   color: #FFA500;
+   display: inline-block;
+   font-size: 36px;
+   line-height: 36px;
+   vertical-align: middle;
+   width: 36px;
+}
+#wb_MaterialIcon30:hover i
+{
+   color: #FFD700;
+}
+#wb_MaterialIcon33
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+}
+#wb_MaterialIcon33:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#MaterialIcon33
+{
+   height: 36px;
+   width: 36px;
+}
+#MaterialIcon33 i
+{
+   color: #DCDCDC;
+   display: inline-block;
+   font-size: 36px;
+   line-height: 36px;
+   vertical-align: middle;
+   width: 36px;
+}
+#wb_MaterialIcon33:hover i
+{
+   color: #DCDCDC;
+}
+#wb_MaterialIcon19
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+}
+#wb_MaterialIcon19:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#MaterialIcon19
+{
+   height: 36px;
+   width: 36px;
+}
+#MaterialIcon19 i
+{
+   color: #FFA500;
+   display: inline-block;
+   font-size: 36px;
+   line-height: 36px;
+   vertical-align: middle;
+   width: 36px;
+}
+#wb_MaterialIcon19:hover i
+{
+   color: #FFD700;
+}
+#wb_MaterialIcon28
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+}
+#wb_MaterialIcon28:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#MaterialIcon28
+{
+   height: 36px;
+   width: 36px;
+}
+#MaterialIcon28 i
+{
+   color: #FFA500;
+   display: inline-block;
+   font-size: 36px;
+   line-height: 36px;
+   vertical-align: middle;
+   width: 36px;
+}
+#wb_MaterialIcon28:hover i
+{
+   color: #FF4500;
+}
+#Layer23
+{
+   background-color: transparent;
+   background-image: url(images/astuces.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: 100% 100%;
 }
