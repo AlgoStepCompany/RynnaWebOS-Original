@@ -30,6 +30,7 @@ $(document).ready(function()
 </head>
 <body>
 <div id="jQueryDialog2" style="z-index:3;" title="Erreur g&#233;n&#233;rale">
+   <!-- La session.php vérifie d'elle même si l'utilisateur est connecté -->
 <input type="submit" id="Button2" onclick="window.location.href='./../session.php';return false;" name="" value="Revenir sur la session (si non connecté, retour login)" style="position:absolute;left:26px;top:21px;width:576px;height:25px;z-index:0;">
 <div id="wb_Text2" style="position:absolute;left:25px;top:167px;width:576px;height:57px;z-index:1;">
 <span style="color:#000000;font-family:Arial;font-size:16px;"><strong>Une authentification est nécessaire pour accéder à la ressource demandée.<br><br>ERREUR CLIENT-USER (401)</strong></span></div>
