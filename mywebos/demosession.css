@@ -5629,71 +5629,6 @@ body
 {
    text-align: left;
 }
-#Blog1
-{
-   background-color: transparent;
-   border-width: 0;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   line-height: 1.2;
-   text-align: left;
-}
-#Blog1 .blogitem
-{
-   background-color: #EEEEEE;
-   margin-bottom: 6px;
-   padding: 0px;
-}
-#Blog1 .blogdate
-{
-   font-family: Arial;
-   font-weight: bold;
-   font-size: 13px;
-   color: #000000;
-}
-#Blog1 .blogsubject, #Blog1 .blogsubject a:link, #Blog1 .blogsubject a:visited, #Blog1 .blogsubject a:hover
-{
-   font-family: Arial;
-   font-weight: bold;
-   font-size: 13px;
-   color: #666666;
-   text-decoration: none;
-}
-#Blog1 .blogcomments, #Blog1 .blogcomments a:link, #Blog1 .blogcomments a:visited, #Blog1 .blogcomments a:hover
-{
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   color: #000000;
-   text-decoration: underline;
-}
-#Blog1 .blogcomments
-{
-   text-decoration: none;
-}
-#Blog1 .no-thumb
-{
-   display: none;
-}
-#Blog1 .blogsubject
-{
-   display: block;
-   margin: 0;
-   padding: 0;
-}
-#Blog1 .blogthumb
-{
-   margin: 0 0 5px 0;
-   float: right;
-   padding: 0 5px 0 0;
-}
-#Blog1 .blogthumb img
-{
-   border-width: 0px;
-   width: 120px;
-   height: auto;
-}
 .ui-widget
 {
    font-size: 1em !important;
@@ -5974,14 +5909,6 @@ body
    -webkit-border-top-right-radius: 4px;
    -moz-border-top-right-radius: 4px;
    border-top-right-radius: 4px;
-}
-#Layer2
-{
-   background-color: transparent;
-   background-image: url(images/Ohj5NR2.png);
-   background-repeat: no-repeat;
-   background-position: center center;
-   background-size: cover;
 }
 #Layer3
 {
@@ -8395,4 +8322,37 @@ body
    background-repeat: no-repeat;
    background-position: center center;
    background-size: 100% 100%;
+}
+#Layer24
+{
+   background-color: transparent;
+   background-image: url(images/backgifloading.jpg);
+   background-repeat: repeat;
+   background-position: center center;
+}
+#Layer2
+{
+   background-color: transparent;
+   background-image: url(images/19-1.gif);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: 100% 100%;
+}
+#Layer25
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text5 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text5 div
+{
+   text-align: center;
 }
