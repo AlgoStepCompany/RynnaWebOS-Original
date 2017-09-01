@@ -6041,14 +6041,6 @@ body
    -moz-border-top-right-radius: 4px;
    border-top-right-radius: 4px;
 }
-#Layer2
-{
-   background-color: transparent;
-   background-image: url(images/Ohj5NR2.png);
-   background-repeat: no-repeat;
-   background-position: center center;
-   background-size: cover;
-}
 #Layer3
 {
    background-color: transparent;
@@ -8461,4 +8453,37 @@ body
    background-repeat: no-repeat;
    background-position: center center;
    background-size: 100% 100%;
+}
+#Layer24
+{
+   background-color: transparent;
+   background-image: url(images/backgifloading.jpg);
+   background-repeat: repeat;
+   background-position: center center;
+}
+#Layer2
+{
+   background-color: transparent;
+   background-image: url(images/19-1.gif);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: 100% 100%;
+}
+#Layer25
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text5 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text5 div
+{
+   text-align: center;
 }
