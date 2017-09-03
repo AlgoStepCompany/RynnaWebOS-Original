@@ -25,7 +25,7 @@ root = password
 **********************************************
 Ce WebOS a été conçu uniquement en Français !
 Cependant une branche "ENGLISH-VERSION" a été conçu pour ceux qui souhaitent le traduire en anglais.
-Vous pouvez également tester le WebOS dans une version anglaise en développement sur http://rynnawebos.fr/loginus
+
 
 L'installation de Rynna WebOS sur votre serveur local est simple : 
 
@@ -87,7 +87,7 @@ Pour toutes questions notre équipe se tiens à votre disposition par e-mail sur
 **********************************************
 This WebOS has been designed exclusively in French!
 However, a branch "ENGLISH-VERSION" has been designed for those who wish to translate it into English.
-You can also test the WebOS in an English version in development on http://rynnawebos.fr/loginus
+
 
 Installing Rynna WebOS on your local server:
 
