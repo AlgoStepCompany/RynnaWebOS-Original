@@ -4,7 +4,7 @@ Nom du projet : Rynna WebOS
 Date de la dernière modification officielle (Entreprise) : 30/08/2017
 Code source mise à disposition (complet) depuis le : 30/08/2017, en version : 9.0 (Release)
 Version Thème : Original
-Autre version disponible : Nebular (non disponible pour le moment) ; Luxury (non disponible pour le moment)
+Autre version disponible : Nebular (disponible en thème patch) ; Luxury (disponible en thème patch) ; Redar (disponible en thème patch)
 Langages : Français
 Autres langages disponibles : Anglais (en cours de traduction sur la branche "ENGLISH-VERSION")
 Site internet de démonstration (officiel) : http://www.rynnawebos.fr
@@ -17,3 +17,7 @@ Co-concepteur : Maxime D. (Chef projet et Marketing)
 Gestion Entreprise : Now-Coworking
 Ville d'inscription : Rouen (France), 76000
 N° d'identification unique du projet "Rynna WebOS" : N.C.
+
+Licence déposée : oui (GPL-3)
+Brevet déposé : non (non possible car source publique)
+Serveur officiel : 217.160.0.66
