@@ -142,7 +142,6 @@ $(document).ready(function()
    };
    $("#jQueryDialog3").dialog(jQueryDialog3Options);
    $("#Layer4").stickylayer({orientation: 5, position: [0, 0], delay: 1});
-   $("#Layer7").stickylayer({orientation: 3, position: [10, 10], delay: 1000});
 });
 </script>
 </head>
@@ -170,7 +169,7 @@ $(document).ready(function()
 <a href="javascript:popupwnd('https://www.1and1.fr/hebergement-windows','yes','yes','yes','yes','yes','yes','5','5','1024','768')" target="_self"><img src="images/1and1.png" id="Image1" alt=""></a></div>
 </div>
 
-<div id="jQueryDialog5" style="z-index:37;" title="Informations Kernel">
+<div id="jQueryDialog5" style="z-index:36;" title="Informations Kernel">
 <div id="wb_FontAwesomeIcon1" style="position:absolute;left:9px;top:8px;width:113px;height:116px;text-align:center;z-index:10;">
 <div id="FontAwesomeIcon1"><i class="fa fa-server">&nbsp;</i></div></div>
 <div id="wb_Text1" style="position:absolute;left:139px;top:16px;width:478px;height:176px;text-align:justify;z-index:11;">
@@ -178,7 +177,7 @@ $(document).ready(function()
 <input type="submit" id="Button2" onclick="window.location.href='https://github.com/AlgoStepCompany';return false;" name="" value="Découvrir, apprendre et télécharger le code source de Rynna WebOS" style="position:absolute;left:28px;top:210px;width:616px;height:43px;z-index:12;">
 </div>
 
-<div id="jQueryDialog6" style="z-index:38;" title="Bugs signal&#233;s">
+<div id="jQueryDialog6" style="z-index:37;" title="Bugs signal&#233;s">
 <div id="Blog1" style="overflow:auto;position:absolute;left:30px;top:23px;width:598px;height:288px;z-index:13;">
 <div class="blogitem">
    <span class="blogsubject">Problème SSL sur iframes</span>
@@ -191,7 +190,7 @@ $(document).ready(function()
 </div>
 </div>
 
-<div id="Layer2" style="position:fixed;text-align:left;left:0;top:0;right:0;bottom:0;z-index:39;">
+<div id="Layer2" style="position:fixed;text-align:left;left:0;top:0;right:0;bottom:0;z-index:38;">
 <div id="Layer3" style="position:absolute;text-align:center;left:158px;top:143px;width:627px;height:392px;z-index:20;">
 <div id="Layer3_Container" style="width:627px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="wb_Text2" style="position:absolute;left:28px;top:42px;width:568px;height:128px;text-align:justify;z-index:14;">
@@ -227,7 +226,7 @@ $(document).ready(function()
 </div>
 </div>
 <div id="wb_Text10" style="position:absolute;left:7px;top:7px;width:250px;height:44px;z-index:21;">
-<span style="color:#000000;font-family:Arial;font-size:13px;"><em>Version 9.1b (Release)<br>Desktop Virtual Manager (DVM)<br></em></span><span style="color:#000000;font-family:Arial;font-size:9.3px;"><em>PHP 7, CSS 3, JQuery 3.1.1</em></span></div>
+<span style="color:#000000;font-family:Arial;font-size:13px;"><em>Version 9.2 (Release)<br>Desktop Virtual Manager (DVM)<br></em></span><span style="color:#000000;font-family:Arial;font-size:9.3px;"><em>PHP 7, CSS 3, JQuery 3.1.1</em></span></div>
 <div id="Layer1" style="position:absolute;text-align:center;left:277px;top:564px;width:393px;height:83px;z-index:22;">
 <div id="Layer1_Container" style="width:393px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 </div>
@@ -258,16 +257,11 @@ else
 {
 }
 </script>
-<!-- ATTENTION : MODIFIER le chemin ci-dessous pour pointer sur la version Anglaise du code source ! -->
-<div id="Layer7" style="position:absolute;text-align:center;left:877px;top:609px;width:92px;height:52px;z-index:27;" onclick="window.location.href='http://rynnawebos.fr/loginus/index.php';return false;">
-<div id="Layer7_Container" style="width:92px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 </div>
-</div>
-</div>
-<div id="jQueryDialog3" style="z-index:40;" title="Informations sur les Cookies">
-<div id="wb_Text5" style="position:absolute;left:14px;top:17px;width:650px;height:400px;text-align:justify;z-index:34;">
+<div id="jQueryDialog3" style="z-index:39;" title="Informations sur les Cookies">
+<div id="wb_Text5" style="position:absolute;left:14px;top:17px;width:650px;height:400px;text-align:justify;z-index:33;">
 <span style="color:#000000;font-family:Arial;font-size:13px;"><strong><u>Cookies information</u></strong><br><br>Les cookies sont de petits fichiers texte qui sont placés sur votre ordinateur par les sites web que vous visitez. Ils sont largement utilisés afin de permettre le fonctionnement des sites ou de rendre leur fonctionnement plus efficace, et de fournir des informations à leur propriétaire. L'utilisation de cookies est aujourd’hui la norme pour la plupart des sites. Vous pouvez gérer et contrôler les cookies en utilisant votre navigateur. Vous pouvez également les supprimer dans votre navigateur lorsque vous quittez le site.<br>Gestion des cookies<br><br>Pour la gestion des Cookies et de vos choix, la configuration de chaque navigateur est différente. Elle est décrite dans le menu d'aide de votre navigateur, qui vous permettra de savoir de quelle manière modifier vos souhaits en matière de Cookies.<br><br><strong><em>Types de cookies:<br></em></strong><br>&nbsp;&nbsp;&nbsp; - « Cookies de Session » restent stockés dans votre navigateur seulement durant votre session de navigation c'est à dire jusqu'à ce que vous quittiez le site.<br>&nbsp;&nbsp;&nbsp; - « Cookies Persistants » restent dans votre navigateur après la session (sauf si vous les avez supprimés).<br>&nbsp;&nbsp;&nbsp; - « Cookies de Performance » collectent des informations sur votre utilisation du site, comme les pages web visitées et les messages d'erreur, ils ne recueillent pas de renseignements concernant des personnes identifiées, et les informations collectées sont agrégées de sorte qu’elles sont rendues anonymes. Les cookies de performance sont utilisés pour améliorer la façon dont fonctionne un site web.<br>&nbsp;&nbsp;&nbsp; - « Cookies de Fonctionnalité » permettent au site de se rappeler les choix que vous faites sur le site web (tels que des modifications de la taille du texte, des pages personnalisées) ou activer des services tels que des commentaires sur un blog.</span></div>
-<input type="button" id="Button7" onclick="$('#jQueryDialog3').dialog('close');return false;" name="" value="Compris" style="position:absolute;left:229px;top:449px;width:235px;height:25px;z-index:35;">
+<input type="button" id="Button7" onclick="$('#jQueryDialog3').dialog('close');return false;" name="" value="Compris" style="position:absolute;left:229px;top:449px;width:235px;height:25px;z-index:34;">
 </div>
 
 </body>
