@@ -5909,125 +5909,6 @@ body
 {
    text-align: center;
 }
-.ui-widget
-{
-   font-size: 1em !important;
-}
-.jQueryDialog17.ui-dialog
-{
-   padding: 4px 4px 4px 4px;
-}
-.jQueryDialog17.ui-dialog .ui-dialog-title
-{
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   font-style: normal;
-   color: #FFFFFF;
-}
-.jQueryDialog17.ui-dialog .ui-widget-header
-{
-   padding: 10px 10px 10px 30px;
-}
-.ui-dialog .ui-dialog-titlebar-close
-{
-   outline: 0;
-   right: 10px;
-}
-.jQueryDialog17, .jQueryDialog17 .ui-corner-all
-{
-   border-radius: 0px;
-}
-#jQueryButton1
-{
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   font-style: normal;
-}
-#jQueryButton1 .ui-button
-{
-   position: absolute;
-   padding: 0;
-}
-#jQueryButton1.ui-corner-all
-{
-   -webkit-border-bottom-left-radius: 4px;
-   -moz-border-bottom-left-radius: 4px;
-   border-bottom-left-radius: 4px;
-   -webkit-border-top-left-radius: 4px;
-   -moz-border-top-left-radius: 4px;
-   border-top-left-radius: 4px;
-}
-#jQueryButton1.ui-corner-all
-{
-   -webkit-border-bottom-right-radius: 4px;
-   -moz-border-bottom-right-radius: 4px;
-   border-bottom-right-radius: 4px;
-   -webkit-border-top-right-radius: 4px;
-   -moz-border-top-right-radius: 4px;
-   border-top-right-radius: 4px;
-}
-#jQueryButton2
-{
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   font-style: normal;
-}
-#jQueryButton2 .ui-button
-{
-   position: absolute;
-   padding: 0;
-}
-#jQueryButton2.ui-corner-all
-{
-   -webkit-border-bottom-left-radius: 4px;
-   -moz-border-bottom-left-radius: 4px;
-   border-bottom-left-radius: 4px;
-   -webkit-border-top-left-radius: 4px;
-   -moz-border-top-left-radius: 4px;
-   border-top-left-radius: 4px;
-}
-#jQueryButton2.ui-corner-all
-{
-   -webkit-border-bottom-right-radius: 4px;
-   -moz-border-bottom-right-radius: 4px;
-   border-bottom-right-radius: 4px;
-   -webkit-border-top-right-radius: 4px;
-   -moz-border-top-right-radius: 4px;
-   border-top-right-radius: 4px;
-}
-#jQueryButton3
-{
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   font-style: normal;
-}
-#jQueryButton3 .ui-button
-{
-   position: absolute;
-   padding: 0;
-}
-#jQueryButton3.ui-corner-all
-{
-   -webkit-border-bottom-left-radius: 4px;
-   -moz-border-bottom-left-radius: 4px;
-   border-bottom-left-radius: 4px;
-   -webkit-border-top-left-radius: 4px;
-   -moz-border-top-left-radius: 4px;
-   border-top-left-radius: 4px;
-}
-#jQueryButton3.ui-corner-all
-{
-   -webkit-border-bottom-right-radius: 4px;
-   -moz-border-bottom-right-radius: 4px;
-   border-bottom-right-radius: 4px;
-   -webkit-border-top-right-radius: 4px;
-   -moz-border-top-right-radius: 4px;
-   border-top-right-radius: 4px;
-}
 #Layer3
 {
    background-color: transparent;
@@ -7757,11 +7638,11 @@ body
    border: 0px #000000 solid;
    padding: 0;
    margin: 0;
-   text-align: left;
+   text-align: center;
 }
 #wb_Text32 div
 {
-   text-align: left;
+   text-align: center;
 }
 #wb_MaterialIcon13
 {
@@ -8473,4 +8354,408 @@ body
 #wb_Text5 div
 {
    text-align: center;
+}
+#wb_FontAwesomeIcon3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+}
+#wb_FontAwesomeIcon3:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#FontAwesomeIcon3
+{
+   height: 59px;
+   width: 69px;
+}
+#FontAwesomeIcon3 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 59px;
+   line-height: 59px;
+   vertical-align: middle;
+   width: 63px;
+}
+#wb_FontAwesomeIcon3:hover i
+{
+   color: #FFFFFF;
+}
+#wb_FontAwesomeIcon3:hover
+{
+   opacity: 0.7;
+   -webkit-transition: opacity 500ms ease-in-out 0ms;
+   -moz-transition: opacity 500ms ease-in-out 0ms;
+   transition: opacity 500ms ease-in-out 0ms;
+}
+#wb_Text15 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text15 div
+{
+   text-align: center;
+}
+#Layer26
+{
+   background-color: #4F4F4F;
+   background-image: none;
+   filter: alpha(opacity=70);
+   opacity: 0.70;
+}
+#wb_Text17 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text17 div
+{
+   text-align: left;
+}
+#Line2
+{
+   color: #A0A0A0;
+   background-color: #A0A0A0;
+   border-width: 0;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text22 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text22 div
+{
+   text-align: left;
+}
+#wb_Text26 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text26 div
+{
+   text-align: left;
+}
+#wb_Text46 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text46 div
+{
+   text-align: left;
+}
+#wb_Text48 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text48 div
+{
+   text-align: left;
+}
+#wb_Text51 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text51 div
+{
+   text-align: left;
+}
+#Line3
+{
+   color: #A0A0A0;
+   background-color: #A0A0A0;
+   border-width: 0;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text66 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text66 div
+{
+   text-align: left;
+}
+#wb_Text69 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text69 div
+{
+   text-align: left;
+}
+#Layer27
+{
+   background-color: #000000;
+   background-image: none;
+   border: 1px #696969 solid;
+   filter: alpha(opacity=90);
+   opacity: 0.90;
+}
+#Layer28
+{
+   background-color: transparent;
+   background-image: url(images/CPj1cLq.gif);
+   background-repeat: no-repeat;
+   background-position: left top;
+   background-size: 100% 100%;
+}
+#Layer29
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text70 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text70 div
+{
+   text-align: center;
+}
+.ui-widget
+{
+   font-size: 1em !important;
+}
+.jQueryDialog17.ui-dialog
+{
+   padding: 4px 4px 4px 4px;
+}
+.jQueryDialog17.ui-dialog .ui-dialog-title
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   color: #FFFFFF;
+}
+.jQueryDialog17.ui-dialog .ui-widget-header
+{
+   padding: 10px 10px 10px 30px;
+}
+.ui-dialog .ui-dialog-titlebar-close
+{
+   outline: 0;
+   right: 10px;
+}
+.jQueryDialog17, .jQueryDialog17 .ui-corner-all
+{
+   border-radius: 0px;
+}
+#wb_Text71 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text71 div
+{
+   text-align: left;
+}
+#Button2
+{
+   border: 1px #2E6DA4 solid;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}
+#Button4
+{
+   border: 1px #2E6DA4 solid;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}
+.ui-widget
+{
+   font-size: 1em !important;
+}
+.jQueryDialog63.ui-dialog
+{
+   padding: 4px 4px 4px 4px;
+}
+.jQueryDialog63.ui-dialog .ui-dialog-title
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   color: #FFFFFF;
+}
+.jQueryDialog63.ui-dialog .ui-widget-header
+{
+   padding: 10px 10px 10px 30px;
+}
+.ui-dialog .ui-dialog-titlebar-close
+{
+   outline: 0;
+   right: 10px;
+}
+.jQueryDialog63, .jQueryDialog63 .ui-corner-all
+{
+   border-radius: 0px;
+}
+#wb_Text72 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text72 div
+{
+   text-align: left;
+}
+#Button7
+{
+   border: 1px #2E6DA4 solid;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}
+#wb_FontAwesomeIcon5
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+}
+#wb_FontAwesomeIcon5:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#FontAwesomeIcon5
+{
+   height: 80px;
+   width: 95px;
+}
+#FontAwesomeIcon5 i
+{
+   color: #FFA500;
+   display: inline-block;
+   font-size: 80px;
+   line-height: 80px;
+   vertical-align: middle;
+   width: 57px;
+}
+#wb_FontAwesomeIcon5:hover i
+{
+   color: #FFA500;
+}
+#Button9
+{
+   border: 1px #2E6DA4 solid;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}
+.ui-widget
+{
+   font-size: 1em !important;
+}
+.jQueryDialog77.ui-dialog
+{
+   padding: 4px 4px 4px 4px;
+}
+.jQueryDialog77.ui-dialog .ui-dialog-title
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   color: #FFFFFF;
+}
+.jQueryDialog77.ui-dialog .ui-widget-header
+{
+   padding: 10px 10px 10px 30px;
+}
+.ui-dialog .ui-dialog-titlebar-close
+{
+   outline: 0;
+   right: 10px;
+}
+.jQueryDialog77, .jQueryDialog77 .ui-corner-all
+{
+   border-radius: 0px;
 }
