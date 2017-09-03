@@ -20,4 +20,4 @@ N° d'identification unique du projet "Rynna WebOS" : N.C.
 
 Licence déposée : oui (GPL-3)
 Brevet déposé : non (non possible car source publique)
-Serveur officiel : 217.160.0.66
+Serveur officiel : 2001:8d8:100f:f000::241
