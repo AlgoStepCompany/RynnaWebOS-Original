@@ -674,11 +674,3 @@ body
    font-weight: normal;
    font-size: 13px;
 }
-#Layer7
-{
-   background-color: transparent;
-   background-image: url(images/flagusen.png);
-   background-repeat: no-repeat;
-   background-position: left top;
-   background-size: 100% 100%;
-}
