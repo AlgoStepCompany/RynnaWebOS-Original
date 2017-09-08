@@ -125,8 +125,6 @@ $(document).ready(function()
    $("#jQueryDialog6").dialog(jQueryDialog6Options);
    $("#Layer3").stickylayer({orientation: 9, position: [0, 0], delay: 1});
    $("#Layer1").stickylayer({orientation: 7, position: [0, 0], delay: 1000});
-   $("#Layer5").stickylayer({orientation: 4, position: [10, 10], delay: 1000});
-   $("#Layer6").stickylayer({orientation: 2, position: [0, 0], delay: 1000});
    var jQueryDialog3Options =
    {
       width: 694,
@@ -226,16 +224,16 @@ $(document).ready(function()
 </div>
 </div>
 <div id="wb_Text10" style="position:absolute;left:7px;top:7px;width:250px;height:44px;z-index:21;">
-<span style="color:#000000;font-family:Arial;font-size:13px;"><em>Version 9.3 (Release)<br>Desktop Virtual Manager (DVM)<br></em></span><span style="color:#000000;font-family:Arial;font-size:9.3px;"><em>PHP 7, CSS 3, JQuery 3.1.1</em></span></div>
+<span style="color:#000000;font-family:Arial;font-size:13px;"><em>Version 9.4 (Release)<br>Desktop Virtual Manager (DVM)<br></em></span><span style="color:#000000;font-family:Arial;font-size:9.3px;"><em>PHP 7, CSS 3, JQuery 3.1.1</em></span></div>
 <div id="Layer1" style="position:absolute;text-align:center;left:277px;top:564px;width:393px;height:83px;z-index:22;">
 <div id="Layer1_Container" style="width:393px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 </div>
 </div>
-<div id="Layer5" style="position:absolute;text-align:center;left:13px;top:555px;width:72px;height:106px;z-index:23;">
+<div id="Layer5" style="position:fixed;text-align:center;left:10px;top:auto;bottom:10px;width:72px;height:106px;z-index:23;">
 <div id="Layer5_Container" style="width:72px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 </div>
 </div>
-<div id="Layer6" style="position:absolute;text-align:center;left:873px;top:16px;width:100px;height:100px;z-index:24;" onclick="$('#jQueryDialog3').dialog('open');return false;">
+<div id="Layer6" style="position:fixed;text-align:center;left:auto;right:0px;top:0px;width:100px;height:100px;z-index:24;" onclick="$('#jQueryDialog3').dialog('open');return false;">
 <div id="Layer6_Container" style="width:100px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 </div>
 </div>
