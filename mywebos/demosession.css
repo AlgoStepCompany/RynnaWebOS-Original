@@ -1061,6 +1061,24 @@ body
    outline: 0;
    right: 10px;
 }
+.ui-dialog .ui-dialog-buttonpane
+{
+   padding: 0;
+   margin: 0;
+}
+.ui-dialog .ui-dialog-buttonpane BUTTON
+{
+   padding: 4px 8px 4px 8px;
+}
+.ui-button-text-only .ui-button-text
+{
+   padding: 0;
+   margin: 0;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   color: #FFFFFF;
+}
 .jQueryDialog19, .jQueryDialog19 .ui-corner-all
 {
    border-radius: 0px;
@@ -8692,4 +8710,16 @@ body
 .jQueryDialog77, .jQueryDialog77 .ui-corner-all
 {
    border-radius: 0px;
+}
+.jQueryToolTip11
+{
+   background-image: none;
+   background-color: #FFFFFF;
+   border: 1px #CCCCCC solid !important;
+   border-radius: 0px;
+   padding: 4px 4px 4px 4px;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+   box-shadow: none;
+   text-align: left;
 }
