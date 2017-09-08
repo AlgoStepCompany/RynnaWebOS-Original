@@ -94,7 +94,9 @@ input.ui-button::-moz-focus-inner,button.ui-button::-moz-focus-inner{border:0;pa
 .ui-dialog{position:absolute;top:0;left:0;padding:.2em;outline:0}
 .ui-dialog .ui-dialog-titlebar{padding:.4em 1em;position:relative}
 .ui-dialog .ui-dialog-title{float:left;margin:.1em 0;white-space:nowrap;width:90%;overflow:hidden;text-overflow:ellipsis}
+/*.ui-dialog .ui-dialog-titlebar-close{position:absolute;right:.3em;top:50%;width:20px(taille);margin:-10px(hauteur) 0(bas) 0(bas) 0(bas);padding:1px;height:20px(taille)}*/
 .ui-dialog .ui-dialog-titlebar-close{position:absolute;right:.3em;top:50%;width:20px;margin:-10px 0 0 0;padding:1px;height:20px}
+.ui-dialog .ui-dialog-titlebar-minus{position:relative;right:.3em;top:50%;width:20px;margin:-10px 0 0 0;padding:1px;height:20px}
 .ui-dialog .ui-dialog-content{position:relative;border:0;padding:.5em 1em;background:none;overflow:auto}
 .ui-dialog .ui-dialog-buttonpane{text-align:left;border-width:1px 0 0 0;background-image:none;margin-top:.5em;padding:.3em 1em .5em .4em}
 .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset{float:right}
@@ -108,7 +110,8 @@ input.ui-button::-moz-focus-inner,button.ui-button::-moz-focus-inner{border:0;pa
 .ui-dialog .ui-resizable-sw{left:0;bottom:0}
 .ui-dialog .ui-resizable-ne{right:0;top:0}
 .ui-dialog .ui-resizable-nw{left:0;top:0}
-.ui-draggable .ui-dialog-titlebar{cursor:move}
+.ui-draggable .ui-dialog-titlebar{cursor:default}
+/*.ui-draggable .ui-dialog-titlebar{cursor:move} --ancien code de deplacement du WebOS */
 .ui-draggable-handle{-ms-touch-action:none;touch-action:none}
 .ui-resizable{position:relative}
 .ui-resizable-handle{position:absolute;font-size:0.1px;display:block;-ms-touch-action:none;touch-action:none}
@@ -310,6 +313,7 @@ body .ui-tooltip{border-width:2px}
 .ui-icon-minus{background-position:-48px -128px}
 .ui-icon-minusthick{background-position:-64px -128px}
 .ui-icon-close{background-position:-80px -128px}
+/*.ui-icon-close{background-position:-32px -192px}*/
 .ui-icon-closethick{background-position:-96px -128px}
 .ui-icon-key{background-position:-112px -128px}
 .ui-icon-lightbulb{background-position:-128px -128px}

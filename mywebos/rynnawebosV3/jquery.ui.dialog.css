@@ -36,6 +36,15 @@
 	padding: 1px;
 	height: 20px;
 }
+/*.ui-dialog .ui-dialog-titlebar-minus {
+	position: relative;
+	right: .3em;
+	top: 50%;
+	width: 21px;
+	margin: -10px 0 0 0;
+	padding: 1px;
+	height: 20px;
+}*/
 .ui-dialog .ui-dialog-content {
 	position: relative;
 	border: 0;
@@ -55,7 +64,7 @@
 }
 .ui-dialog .ui-dialog-buttonpane button {
 	margin: .5em .4em .5em 0;
-	cursor: pointer;
+	cursor: default;
 }
 .ui-dialog .ui-resizable-se {
 	width: 12px;
@@ -65,5 +74,5 @@
 	background-position: 16px 16px;
 }
 .ui-draggable .ui-dialog-titlebar {
-	cursor: move;
+	cursor: default;
 }
