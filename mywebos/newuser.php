@@ -1,11 +1,9 @@
 <?php
-//define('PREFIX_SALT', 'de3r7b8cc8');
-//define('SUFFIX_SALT', 'B49u0781Wc');
-$mysql_server = '';
-$mysql_username = '';
-$mysql_password = '';
-$mysql_database = '';
-$mysql_table = 'userswebos';
+$mysql_server = 'db698210632.db.1and1.com';
+$mysql_username = 'dbo698210632';
+$mysql_password = '1A2Z3E4R5T@@';
+$mysql_database = 'db698210632';
+$mysql_table = 'userswebosv2';
 $success_page = './createuser.php';
 $error_message = "";
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST['form_name'] == 'signupform')
@@ -21,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST
       $error_message = 'Les mots de passe ne correspondent pas. Merci de reessayer.';
    }
    else
-	   // Uniquement les minuscules pour le compte utilisateur !
+	   // Majuscules interdites
    if (!preg_match("/^[a-z0-9_!@$]{1,50}$/", $newusername))
    {
       $error_message = 'Votre nom de compte n est pas valide. Veuillez reessayer.';
@@ -43,33 +41,31 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST
    }
    if (empty($error_message))
    {
-      $db = mysql_connect($mysql_server, $mysql_username, $mysql_password);
+      $db = mysqli_connect($mysql_server, $mysql_username, $mysql_password);
       if (!$db)
       {
-         die('Failed to connect to database server!<br>'.mysql_error());
+         die('Failed to connect to database server!<br>'.mysqli_error($db));
       }
-      mysql_select_db($mysql_database, $db) or die('Failed to select database<br>'.mysql_error());
-      mysql_set_charset('utf8', $db);
+      mysqli_select_db($db, $mysql_database) or die('Failed to select database<br>'.mysqli_error($db));
+      mysqli_set_charset($db, 'utf8');
       $sql = "SELECT username FROM ".$mysql_table." WHERE username = '".$newusername."'";
-      $result = mysql_query($sql, $db);
-      if ($data = mysql_fetch_array($result))
+      $result = mysqli_query($db, $sql);
+      if ($data = mysqli_fetch_array($result))
       {
          $error_message = 'Le nom de compte renseigner existe deja. Merci d en choisir un autre.';
       }
    }
    if (empty($error_message))
    {
-	   // Double-Salt de protection
-      //$crypt_pass = md5(PREFIX_SALT.'$newpassword'.SUFFIX_SALT);
-	  $crypt_pass = md5($newpassword);
-      $newusername = mysql_real_escape_string($newusername);
-      $newemail = mysql_real_escape_string($newemail);
-      $newfullname = mysql_real_escape_string($newfullname);
+      $crypt_pass = md5($newpassword);
+      $newusername = mysqli_real_escape_string($db, $newusername);
+      $newemail = mysqli_real_escape_string($db, $newemail);
+      $newfullname = mysqli_real_escape_string($db, $newfullname);
       $sql = "INSERT `".$mysql_table."` (`username`, `password`, `fullname`, `email`, `active`, `code`) VALUES ('$newusername', '$crypt_pass', '$newfullname', '$newemail', 1, '$code')";
-      $result = mysql_query($sql, $db);
-      mysql_close($db);
-	  	  // Procédure de création de la session personnelle (30 secondes maximums de créations)
-	  // Dernière modification : Version 8.9 de Rynna WebOS
+      $result = mysqli_query($db, $sql);
+      mysqli_close($db);
+	  	  	  // Procédure de création de la session personnelle (30 secondes maximums de créations)
+	  // Dernière modification : Version 7.8 de Rynna WebOS
 	  $mkusercreate = 'home/' . $_POST["username"];
 		$mktempusercreate = mkdir($mkusercreate);
 		// Nouvelle ajout : le dossier config pour les nouveaux comptes pour les sessions personnalisables
@@ -97,23 +93,25 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST
 			copy($algofile9, "$mkusercreate/config/onglet4.txt");
 			copy($algofile10, "$mkusercreate/config/temp.txt");
 			// Fin de la copie des fichiers dans le répertoire de l utilisateur
+      $mailfrom = 'support@rynnawebos.fr';
+      ini_set('sendmail_from', $mailfrom);
       $subject = 'Compte WebOS Rynna creer !';
       $message = 'Votre nom de compte a bien ete creer.';
       $message .= "\r\nUsername: ";
       $message .= $newusername;
-	  $message .= "\r\n";
+      $message .= "\r\n";
 	  $message .= 'Bienvenue sur votre nouveau bureau virtuel !';
+      $message .= "\r\n";
+	  $message .= 'Vous pouvez desormais vous connecter sur http://rynnawebos.fr/login/index.php ';
       $message .= "\r\n";
       $header  = "From: support@rynnawebos.fr"."\r\n";
       $header .= "Reply-To: support@rynnawebos.fr"."\r\n";
       $header .= "MIME-Version: 1.0"."\r\n";
       $header .= "Content-Type: text/plain; charset=utf-8"."\r\n";
       $header .= "Content-Transfer-Encoding: 8bit"."\r\n";
-	  // PHP 5 ou 7 meme resultat (module PHP 4 pour la premiere compilation, puis module ajoute manuellement en PHP 5 compatible PHP 7)
       $header .= "X-Mailer: PHP v".phpversion();
-      mail($newemail, $subject, $message, $header);
-	  // On envoi un petit mail au support technique pour indiquer l arrive d un nouvel utilisateur (sans MDP ni info sensibles)
-	  mail('support@rynnawebos.fr', $subject, $message, $header);
+      mail("{$newemail} <{$newemail}>", $subject, $message, $header, '-f'.$mailfrom);
+      mail('support@rynnawebos.fr', $subject, $message, $header);
       header('Location: '.$success_page);
       exit;
    }
