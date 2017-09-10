@@ -1,10 +1,10 @@
 -- phpMyAdmin SQL Dump
--- version 4.1.14.8
+-- version 4.1 - To 5.6 MySQLi (PHP)
 -- http://www.phpmyadmin.net
 --
 -- Auteur : AlgoStep Company
 -- Généré le :  Mar 29 Août 2017 à 16:10
--- PHP 5.1 et 7 - MySQL classique (chiffrage MD5)
+-- PHP 5.6 et 7 - MySQL classique (chiffrage MD5)
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
