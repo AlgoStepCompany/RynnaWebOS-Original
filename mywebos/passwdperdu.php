@@ -9,16 +9,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST
    $mysql_password = '';
    $mysql_database = '';
    $mysql_table = 'userswebos';
-   $db = mysql_connect($mysql_server, $mysql_username, $mysql_password);
+   $db = mysqli_connect($mysql_server, $mysql_username, $mysql_password);
    if (!$db)
    {
-      die('Impossible de se connecter a la base de donnees!<br>'.mysql_error());
+      die('Failed to connect to database server!<br>'.mysqli_error($db));
    }
-   mysql_select_db($mysql_database, $db) or die('Impossible d acceder a la table<br>'.mysql_error());
-   mysql_set_charset('utf8', $db);
-   $sql = "SELECT * FROM ".$mysql_table." WHERE email = '".mysql_real_escape_string($email)."'";
-   $result = mysql_query($sql, $db);
-   if ($data = mysql_fetch_array($result))
+   mysqli_select_db($db, $mysql_database) or die('Failed to select database<br>'.mysqli_error($db));
+   mysqli_set_charset($db, 'utf8');
+   $sql = "SELECT * FROM ".$mysql_table." WHERE email = '".mysqli_real_escape_string($db, $email)."'";
+   $result = mysqli_query($db, $sql);
+   if ($data = mysqli_fetch_array($result))
    {
       $alphanum = array('a','b','c','d','e','f','g','h','i','j','k','m','n','o','p','q','r','s','t','u','v','x','y','z','A','B','C','D','E','F','G','H','I','J','K','M','N','P','Q','R','S','T','U','V','W','X','Y','Z','2','3','4','5','6','7','8','9');
       $chars = sizeof($alphanum);
@@ -31,9 +31,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST
       }
       $crypt_pass = md5($newpassword);
       $sql = "UPDATE `".$mysql_table."` SET `password` = '$crypt_pass' WHERE `email` = '$email'";
-      mysql_query($sql, $db);
+      mysqli_query($db, $sql);
       $mailto = $_POST['email'];
+      $mailfrom = 'passwdrecovery@rynnawebos.fr';
+      ini_set('sendmail_from', $mailfrom);
       $subject = 'Recuperation mot de passe WebOS';
+	  // Espace à la fin pour indiquer le nouveau MDP
       $message = 'Voici votre mot de passe pour votre session Rynna WebOS:   ';
       $message .= $newpassword;
       $header  = "From: passwdrecovery@rynnawebos.fr"."\r\n";
@@ -42,14 +45,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST
       $header .= "Content-Type: text/plain; charset=utf-8"."\r\n";
       $header .= "Content-Transfer-Encoding: 8bit"."\r\n";
       $header .= "X-Mailer: PHP v".phpversion();
-      mail($mailto, $subject, $message, $header);
+      mail("{$mailto} <{$mailto}>", $subject, $message, $header, '-f'.$mailfrom);
       header('Location: '.$success_page);
    }
    else
    {
       header('Location: '.$error_page);
    }
-   mysql_close($db);
+   mysqli_close($db);
    exit;
 }
 ?>

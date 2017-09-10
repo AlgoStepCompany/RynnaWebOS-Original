@@ -57,7 +57,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST
       $error_message = 'Les mots de passes ne correspondent pas. Veuillez reessayer.';
    }
    else
-	   // Uniquement en minuscules pour le compte utilisateur (pour eviter les doubles comptes et la faille de securite des casses SQL !)
+	   // Majuscules interdites
    if (!preg_match("/^[a-z0-9_!@$]{1,50}$/", $newusername))
    {
       $error_message = 'Votre nom de compte n existe pas. Veuillez reessayer.';
@@ -79,18 +79,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST
    }
    else
    {
-      $db = mysql_connect($mysql_server, $mysql_username, $mysql_password);
+      $db = mysqli_connect($mysql_server, $mysql_username, $mysql_password);
       if (!$db)
       {
-         die('Failed to connect to database server!<br>'.mysql_error());
+         die('Failed to connect to database server!<br>'.mysqli_error($db));
       }
-      mysql_select_db($mysql_database, $db) or die('Failed to select database<br>'.mysql_error());
-      mysql_set_charset('utf8', $db);
+      mysqli_select_db($db, $mysql_database) or die('Failed to select database<br>'.mysqli_error($db));
+      mysqli_set_charset($db, 'utf8');
       if ($oldusername != $newusername)
       {
-         $sql = "SELECT username FROM ".$mysql_table." WHERE username = '".mysql_real_escape_string($newusername)."'";
-         $result = mysql_query($sql, $db);
-         if ($data = mysql_fetch_array($result))
+         $sql = "SELECT username FROM ".$mysql_table." WHERE username = '".mysqli_real_escape_string($db, $newusername)."'";
+         $result = mysqli_query($db, $sql);
+         if ($data = mysqli_fetch_array($result))
          {
             $error_message = '';
          }
@@ -98,18 +98,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST
       if (empty($error_message))
       {
          $crypt_pass = md5($newpassword);
-         $newusername = mysql_real_escape_string($newusername);
-         $newemail = mysql_real_escape_string($newemail);
-         $newfullname = mysql_real_escape_string($newfullname);
+         $newusername = mysqli_real_escape_string($db, $newusername);
+         $newemail = mysqli_real_escape_string($db, $newemail);
+         $newfullname = mysqli_real_escape_string($db, $newfullname);
          $sql = "UPDATE `".$mysql_table."` SET `username` = '$newusername', `fullname` = '$newfullname', `email` = '$newemail' WHERE `username` = '$oldusername'";
-         mysql_query($sql, $db);
+         mysqli_query($db, $sql);
          if (!empty($newpassword))
          {
             $sql = "UPDATE `".$mysql_table."` SET `password` = '$crypt_pass' WHERE `username` = '$oldusername'";
-            mysql_query($sql, $db);
+            mysqli_query($db, $sql);
          }
       }
-      mysql_close($db);
+      mysqli_close($db);
       if (empty($error_message))
       {
          $_SESSION['username'] = $newusername;
@@ -119,22 +119,22 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST
       }
    }
 }
-$db = mysql_connect($mysql_server, $mysql_username, $mysql_password);
+$db = mysqli_connect($mysql_server, $mysql_username, $mysql_password);
 if (!$db)
 {
-   die('Failed to connect to database server!<br>'.mysql_error());
+   die('Failed to connect to database server!<br>'.mysqli_error($db));
 }
-mysql_select_db($mysql_database, $db) or die('Failed to select database<br>'.mysql_error());
-mysql_set_charset('utf8', $db);
+mysqli_select_db($db, $mysql_database) or die('Failed to select database<br>'.mysqli_error($db));
+mysqli_set_charset($db, 'utf8');
 $sql = "SELECT * FROM ".$mysql_table." WHERE username = '".$_SESSION['username']."'";
-$result = mysql_query($sql, $db);
-if ($data = mysql_fetch_array($result))
+$result = mysqli_query($db, $sql);
+if ($data = mysqli_fetch_array($result))
 {
    $db_username = $data['username'];
    $db_fullname = $data['fullname'];
    $db_email = $data['email'];
 }
-mysql_close($db);
+mysqli_close($db);
 if (session_id() == "")
 {
    session_start();

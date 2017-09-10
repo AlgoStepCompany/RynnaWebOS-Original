@@ -674,3 +674,56 @@ body
    font-weight: normal;
    font-size: 13px;
 }
+#Layer7
+{
+   background-color: #4F4F4F;
+   background-image: none;
+   border: 2px #FFA500 solid;
+   border-radius: 1px;
+}
+#wb_FontAwesomeIcon6
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+}
+#wb_FontAwesomeIcon6:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#FontAwesomeIcon6
+{
+   height: 100px;
+   width: 100px;
+}
+#FontAwesomeIcon6 i
+{
+   color: #FFA500;
+   display: inline-block;
+   font-size: 100px;
+   line-height: 100px;
+   vertical-align: middle;
+   width: 100px;
+}
+#wb_FontAwesomeIcon6:hover i
+{
+   color: #FFA500;
+}
+#wb_Text9 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text9 div
+{
+   text-align: left;
+}
