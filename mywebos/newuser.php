@@ -1,9 +1,9 @@
 <?php
-$mysql_server = 'db698210632.db.1and1.com';
-$mysql_username = 'dbo698210632';
-$mysql_password = '1A2Z3E4R5T@@';
-$mysql_database = 'db698210632';
-$mysql_table = 'userswebosv2';
+$mysql_server = '';
+$mysql_username = '';
+$mysql_password = '';
+$mysql_database = '';
+$mysql_table = 'userswebos';
 $success_page = './createuser.php';
 $error_message = "";
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST['form_name'] == 'signupform')
