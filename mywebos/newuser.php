@@ -8,6 +8,7 @@ $success_page = './createuser.php';
 $error_message = "";
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST['form_name'] == 'signupform')
 {
+	// Nouveauté MySQLi
    $newusername = $_POST['username'];
    $newemail = $_POST['email'];
    $newpassword = $_POST['password'];
