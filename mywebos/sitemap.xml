@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" >
 	<url>
 		<loc>http://www.rynnawebos.fr/</loc>
-		<lastmod>2017-09-08</lastmod>
+		<lastmod>2017-09-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/session.php</loc>
-		<lastmod>2017-09-08</lastmod>
+		<lastmod>2017-09-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/modif.php</loc>
-		<lastmod>2017-09-08</lastmod>
+		<lastmod>2017-09-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
@@ -32,19 +32,19 @@
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/newuser.php</loc>
-		<lastmod>2017-09-08</lastmod>
+		<lastmod>2017-09-09</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/passwdperdu.php</loc>
-		<lastmod>2017-09-08</lastmod>
+		<lastmod>2017-09-09</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/errormailstats.php</loc>
-		<lastmod>2017-08-22</lastmod>
+		<lastmod>2017-09-09</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
@@ -92,7 +92,7 @@
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/addeosapps/meteo.php</loc>
-		<lastmod>2017-08-29</lastmod>
+		<lastmod>2017-09-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
@@ -110,7 +110,7 @@
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/addeosapps/ipiccy.php</loc>
-		<lastmod>2017-08-21</lastmod>
+		<lastmod>2017-09-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
@@ -253,6 +253,12 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
+		<loc>http://www.rynnawebos.fr/addeosapps/sng.php</loc>
+		<lastmod>2017-09-10</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
 		<loc>http://www.rynnawebos.fr/generatiug/generatiugtest.php</loc>
 		<lastmod>2017-08-22</lastmod>
 		<changefreq>monthly</changefreq>
@@ -272,7 +278,7 @@
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/modifuser.php</loc>
-		<lastmod>2017-09-08</lastmod>
+		<lastmod>2017-09-09</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
@@ -536,13 +542,13 @@
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/index.php</loc>
-		<lastmod>2017-09-08</lastmod>
+		<lastmod>2017-09-09</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/demosession.php</loc>
-		<lastmod>2017-09-08</lastmod>
+		<lastmod>2017-09-10</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
