@@ -1,12 +1,12 @@
 # RynnaWebOS-Original
 
-# Vous visionnez en ce moment la version 9.4 (Release) du code source.
+# Vous visionnez en ce moment la version 9.5 (Release) du code source.
 Cette version sera mise à jour en fonction de l'avancement du WebOS.
 
-# You are currently viewing version 9.4 (Release) of the source code.
+# You are currently viewing version 9.5 (Release) of the source code.
 This version will be updated according to the progress of WebOS.
 
-# UPDATE : 08/09/2017
+# UPDATE : 10/09/2017
 
 ****************
 
@@ -29,9 +29,9 @@ Cependant une branche "ENGLISH-VERSION" a été conçu pour ceux qui souhaitent 
 
 L'installation de Rynna WebOS sur votre serveur local est simple : 
 
-1 - Installer Wamp Server (Windows) ou Lamp (Linux) ou tout autre moteur Apache PHP 5 compatible PHP 7
+1 - Installer Wamp Server (Windows) ou Lamp (Linux) ou tout autre moteur Apache PHP 5.6 compatible PHP 7
 
-2 - Concevez une base de données MySQL
+2 - Concevez une base de données MySQL (compatible MySQLi)
 
 3 - Injecter le fichier "inj-MySQL.sql" sur votre base de données MySQL
 
@@ -91,9 +91,9 @@ However, a branch "ENGLISH-VERSION" has been designed for those who wish to tran
 
 Installing Rynna WebOS on your local server:
 
-1 - Install Wamp Server (Windows) or Lamp (Linux) or any Apache PHP 5, compatible PHP 7 engine
+1 - Install Wamp Server (Windows) or Lamp (Linux) or any Apache PHP 5.6, compatible PHP 7 engine
 
-2 - Design a MySQL database
+2 - Design a MySQL database (compatibility MySQLi)
 
 3 - Inject the file "inj-MySQL.sql" on your MySQL database
 
