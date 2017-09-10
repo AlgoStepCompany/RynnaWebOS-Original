@@ -11,6 +11,7 @@ Site internet de démonstration (officiel) : http://www.rynnawebos.fr
 Site de liaison (intra-communautaire) : N.C.
 Serveur PHP du site de démonstration (officiel) : 1and1 Unlimited Windows Pro (base Windows Server 2012)
 Serveur MySQL du site de démonstration (officiel) : Debian
+Database type : MySQLi
 
 Concepteur origine : AlgoStep Company (A. Loïc), SIRET : 817 727 357 00011
 Co-concepteur : Maxime D. (Chef projet et Marketing)
