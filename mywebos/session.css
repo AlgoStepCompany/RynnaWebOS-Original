@@ -8849,3 +8849,49 @@ body
 {
    border-radius: 0px;
 }
+.ui-widget
+{
+   font-size: 1em !important;
+}
+#jQueryTabs2
+{
+   padding: 4px 4px 4px 4px;
+}
+#jQueryTabs2 .ui-tabs-nav
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   padding: 4px 4px 0px 4px;
+}
+#jQueryTabs2 .ui-tabs-nav li
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   margin: 0px 2px -1px 0px;
+}
+#jQueryTabs2 .ui-tabs-nav li a
+{
+   padding: 8px 10px 8px 10px;
+}
+#jQueryTabs2, #jQueryTabs2 .ui-corner-all, #jQueryTabs2 .ui-corner-top
+{
+   border-top-left-radius: 0px;
+   border-top-right-radius: 0px;
+}
+#jQueryTabs2, #jQueryTabs2 .ui-corner-all, #jQueryTabs2 .ui-corner-bottom
+{
+   border-bottom-right-radius: 0px;
+   border-bottom-left-radius: 0px;
+}
+#jQueryTabs2 .ui-helper-reset
+{
+   line-height: 16px;
+}
+#jQueryTabs2 .ui-tabs-panel
+{
+   overflow: auto;
+   padding: 0;
+}
