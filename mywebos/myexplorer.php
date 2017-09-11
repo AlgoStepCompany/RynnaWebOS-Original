@@ -1,121 +1,123 @@
 <?php
-/*------------------------------------------------------------------------------
-     The contents of this file are subject to the Mozilla Public License
-     Version 1.1 (the "License"); you may not use this file except in
-     compliance with the License. You may obtain a copy of the License at
-     http://www.mozilla.org/MPL/
+/*
+Copyright (c) 2009 Grzegorz Żydek
 
-     Software distributed under the License is distributed on an "AS IS"
-     basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the
-     License for the specific language governing rights and limitations
-     under the License.
+This file is part of PGRFileManager v2.1.0
 
-     The Original Code is index.php, released on 2003-04-02.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of PGRFileManager and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-     The Initial Developer of the Original Code is The QuiX project.
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
 
-     Alternatively, the contents of this file may be used under the terms
-     of the GNU General Public License Version 2 or later (the "GPL"), in
-     which case the provisions of the GPL are applicable instead of
-     those above. If you wish to allow use of your version of this file only
-     under the terms of the GPL and not to allow others to use
-     your version of this file under the MPL, indicate your decision by
-     deleting  the provisions above and replace  them with the notice and
-     other provisions required by the GPL.  If you do not delete
-     the provisions above, a recipient may use your version of this file
-     under either the MPL or the GPL."
-------------------------------------------------------------------------------*/
-/*------------------------------------------------------------------------------
-Author: The QuiX project
-	quix@free.fr
-	http://www.quix.tk
-	http://quixplorer.sourceforge.net
+PGRFileManager IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+*/
 
-Comment:
-	QuiXplorer Version 2.3
-	Main File
-	
-	Have Fun...
-------------------------------------------------------------------------------*/
-//------------------------------------------------------------------------------
-umask(002); // Added to make created files/dirs group writable
-//------------------------------------------------------------------------------
-require "./.include/init.php";	// Init
-//------------------------------------------------------------------------------
-switch($GLOBALS["action"]) {		// Execute action
-//------------------------------------------------------------------------------
-// EDIT FILE
-case "edit":
-	require "./.include/fun_edit.php";
-	edit_file($GLOBALS["dir"], $GLOBALS["item"]);
-break;
-//------------------------------------------------------------------------------
-// DELETE FILE(S)/DIR(S)
-case "delete":
-	require "./.include/fun_del.php";
-	del_items($GLOBALS["dir"]);
-break;
-//------------------------------------------------------------------------------
-// COPY/MOVE FILE(S)/DIR(S)
-case "copy":	case "move":
-	require "./.include/fun_copy_move.php";
-	copy_move_items($GLOBALS["dir"]);
-break;
-//------------------------------------------------------------------------------
-// DOWNLOAD FILE
-case "download":
-	ob_start(); // prevent unwanted output
-	require "./.include/fun_down.php";
-	ob_end_clean(); // get rid of cached unwanted output
-	download_item($GLOBALS["dir"], $GLOBALS["item"]);
-	ob_start(false); // prevent unwanted output
-	exit;
-break;
-//------------------------------------------------------------------------------
-// UPLOAD FILE(S)
-case "upload":
-	require "./.include/fun_up.php";
-	upload_items($GLOBALS["dir"]);
-break;
-//------------------------------------------------------------------------------
-// CREATE DIR/FILE
-case "mkitem":
-	require "./.include/fun_mkitem.php";
-	make_item($GLOBALS["dir"]);
-break;
-//------------------------------------------------------------------------------
-// CHMOD FILE/DIR
-case "chmod":
-	require "./.include/fun_chmod.php";
-	chmod_item($GLOBALS["dir"], $GLOBALS["item"]);
-break;
-//------------------------------------------------------------------------------
-// SEARCH FOR FILE(S)/DIR(S)
-case "search":
-	require "./.include/fun_search.php";
-	search_items($GLOBALS["dir"]);
-break;
-//------------------------------------------------------------------------------
-// CREATE ARCHIVE
-case "arch":
-	require "./.include/fun_archive.php";
-	archive_items($GLOBALS["dir"]);
-break;
-//------------------------------------------------------------------------------
-// USER-ADMINISTRATION
-case "admin":
-	require "./.include/fun_admin.php";
-	show_admin($GLOBALS["dir"]);
-break;
-//------------------------------------------------------------------------------
-// DEFAULT: LIST FILES & DIRS
-case "list":
-default:
-	require "./.include/fun_list.php";
-	list_dir($GLOBALS["dir"]);
-//------------------------------------------------------------------------------
-}				// end switch-statement
-//------------------------------------------------------------------------------
-show_footer();
-//------------------------------------------------------------------------------
+    include_once dirname(__FILE__) . '/php/init.php';
+    $PGRUploaderExtension = "";
+    if (PGRFileManagerConfig::$allowedExtensions == "") $PGRUploaderExtension = "*.*";
+    else
+    foreach(explode("|", PGRFileManagerConfig::$allowedExtensions) as $key => $extension) { 
+        if ($key > 0) $PGRUploaderExtension .= ";";
+        $PGRUploaderExtension .= "*." . $extension;   
+    }
 ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>PGRFileManager v2.1.0</title>
+  <link rel="stylesheet" type="text/css" href="css/sunny2/jquery-ui-1.8.1.custom.css" />
+  <link rel="stylesheet" type="text/css" href="css/jquery.treeview.css" />
+  <link rel="stylesheet" type="text/css" href="css/fancybox/jquery.fancybox.css" />
+  <link rel="stylesheet" type="text/css" href="css/PGRFileManager.css" />
+  <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+  <script type="text/javascript" src="js/jquery-ui-1.8.1.custom.min.js"></script>
+  <script type="text/javascript" src="js/jquery.treeview.js"></script>
+  <script type="text/javascript" src="SWFUpload v2.2.0.1 Core/swfupload.js"></script>
+  <script type="text/javascript" src="js/jquery.i18n.js"></script>
+  <script type="text/javascript" src="js/jquery.fancybox-1.2.1.pack.js"></script>
+  <?php if (PGRFileManagerConfig::$ckEditorScriptPath):?>
+  <script type="text/javascript" src="<?php echo PGRFileManagerConfig::$ckEditorScriptPath ?>"></script>
+  <?php endif;?>
+  <script type="text/javascript" src="lang/lang.js"></script>
+  <script type="text/javascript" src="js/PGRUploader.js"></script>
+  <script type="text/javascript" src="js/PGRContextMenu.js"></script>
+  <script type="text/javascript" src="js/PGRSelectable.js"></script>
+  <script type="text/javascript" src="js/PGRFileManager.js"></script>
+  <script type="text/javascript" src="js/PGRFileManagerContent.js"></script>
+  
+  </head>
+  <body>   
+    <div id="container" class="ui-widget ui-widget-content">
+      <div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix">
+        <span id="ui-dialog-title-dialog" class="ui-dialog-title">PGRFileManager</span>
+        <a class="ui-dialog-titlebar-close ui-corner-all" href="#"><span class="ui-icon ui-icon-closethick">close</span></a>
+      </div>
+      <div id="buttons">
+      	<?php if (isset($_SESSION['PGRFileManagerAuthorized'])):?>
+      	<form method="post">
+      		<div>
+        	<button id="btnLogoff" name="logoff" type="submit" class="ui-state-default ui-corner-all" style="float:left">sign out</button>
+        	</div>
+        </form>
+        <?php endif;?>
+        <button id="btnRefresh" class="ui-state-default ui-corner-all">refresh</button>
+        <button id="btnSelectAllFiles" class="ui-state-default ui-corner-all">select all files</button>
+        <button id="btnUnselectAllFiles" class="ui-state-default ui-corner-all">unselect all files</button>
+        <select id="fileListType" class="ui-state-default ui-corner-all">
+            <option value="icons">icons</option>
+            <option value="list">list</option>
+        </select>
+      </div>
+      <div id="content" class="ui-dialog-content ui-widget-content">
+        <div id="leftColumn">
+          <div id="folderList">
+          </div>
+          <?php if (PGRFileManagerConfig::$allowEdit):?>
+          <div id="uploadPanel" class="ui-widget-content" >
+            <input type="file" name="fileInput" id="fileInput"  />
+            <img id="uploadFiles" src="img/blank.gif" />
+            <img id="removeFiles" src="img/blank.gif" />
+            <div id="fsUploadProgress"></div>
+          </div>
+          <?php endif;?>
+        </div>
+        <div id="rightColumn">
+          <div id="fileList" class="unselectable">                      
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+        function _(str)
+        {
+            return $.i18n._(str);
+        }
+        $(function() {        	            
+            var filemanager = new PGRFileManager({
+            	sId : "<?php echo session_id()?>", 
+                rootDir : "<?php echo PGRFileManagerConfig::$urlPath?>", 
+                allowedExtension : "<?php echo $PGRUploaderExtension?>", 
+                fileDescription : "<?php echo $PGRUploaderDescription?>", 
+                filesType : "<?php echo $PGRUploaderType?>",
+                fileMaxSize : "<?php echo PGRFileManagerConfig::$fileMaxSize?> B",
+                lang: "<?php echo $PGRLang?>",
+                ckEditorFuncNum: "<?php echo $ckEditorFuncNum?>",
+                allowEdit: <?php echo PGRFileManagerConfig::$allowEdit?'true':'false'?>
+            });
+            filemanager.init();
+        });    
+    </script>  
+  </body>
+</html>
