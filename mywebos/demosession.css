@@ -14,6 +14,15 @@ body
    margin: 0;
    padding: 0;
 }
+#Image40
+{
+   border: 0px transparent solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
 #Layer21
 {
    background-color: transparent;
@@ -6607,15 +6616,6 @@ body
 {
    text-align: left;
 }
-#Image40
-{
-   border: 0px transparent solid;
-   padding: 0px 0px 0px 0px;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
 #Image42
 {
    border: 0px transparent solid;
@@ -7505,35 +7505,6 @@ body
 #wb_Text107 div
 {
    text-align: left;
-}
-.ui-widget
-{
-   font-size: 1em !important;
-}
-.jQueryDialog74.ui-dialog
-{
-   padding: 4px 4px 4px 4px;
-}
-.jQueryDialog74.ui-dialog .ui-dialog-title
-{
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   font-style: normal;
-   color: #FFFFFF;
-}
-.jQueryDialog74.ui-dialog .ui-widget-header
-{
-   padding: 10px 10px 10px 30px;
-}
-.ui-dialog .ui-dialog-titlebar-close
-{
-   outline: 0;
-   right: 10px;
-}
-.jQueryDialog74, .jQueryDialog74 .ui-corner-all
-{
-   border-radius: 0px;
 }
 #wb_Text108 
 {
@@ -8828,4 +8799,147 @@ body
 {
    overflow: auto;
    padding: 0;
+}
+.ui-widget
+{
+   font-size: 1em !important;
+}
+#jQueryTabs3
+{
+   padding: 4px 4px 4px 4px;
+}
+#jQueryTabs3 .ui-tabs-nav
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   padding: 4px 4px 0px 4px;
+}
+#jQueryTabs3 .ui-tabs-nav li
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   margin: 0px 2px -1px 0px;
+}
+#jQueryTabs3 .ui-tabs-nav li a
+{
+   padding: 8px 10px 8px 10px;
+}
+#jQueryTabs3, #jQueryTabs3 .ui-corner-all, #jQueryTabs3 .ui-corner-top
+{
+   border-top-left-radius: 0px;
+   border-top-right-radius: 0px;
+}
+#jQueryTabs3, #jQueryTabs3 .ui-corner-all, #jQueryTabs3 .ui-corner-bottom
+{
+   border-bottom-right-radius: 0px;
+   border-bottom-left-radius: 0px;
+}
+#jQueryTabs3 .ui-helper-reset
+{
+   line-height: 16px;
+}
+#jQueryTabs3 .ui-tabs-panel
+{
+   overflow: auto;
+   padding: 0;
+}
+#wb_Text74 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text74 div
+{
+   text-align: left;
+}
+#wb_Text75 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text75 div
+{
+   text-align: left;
+}
+.ui-widget
+{
+   font-size: 1em !important;
+}
+.jQueryDialog79.ui-dialog
+{
+   padding: 4px 4px 4px 4px;
+}
+.jQueryDialog79.ui-dialog .ui-dialog-title
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   color: #FFFFFF;
+}
+.jQueryDialog79.ui-dialog .ui-widget-header
+{
+   padding: 10px 10px 10px 30px;
+}
+.ui-dialog .ui-dialog-titlebar-close
+{
+   outline: 0;
+   right: 10px;
+}
+.jQueryDialog79, .jQueryDialog79 .ui-corner-all
+{
+   border-radius: 0px;
+}
+#wb_Text76 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text76 div
+{
+   text-align: left;
+}
+.ui-widget
+{
+   font-size: 1em !important;
+}
+.jQueryDialog74.ui-dialog
+{
+   padding: 4px 4px 4px 4px;
+}
+.jQueryDialog74.ui-dialog .ui-dialog-title
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   color: #FFFFFF;
+}
+.jQueryDialog74.ui-dialog .ui-widget-header
+{
+   padding: 10px 10px 10px 30px;
+}
+.ui-dialog .ui-dialog-titlebar-close
+{
+   outline: 0;
+   right: 10px;
+}
+.jQueryDialog74, .jQueryDialog74 .ui-corner-all
+{
+   border-radius: 0px;
 }
