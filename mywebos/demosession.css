@@ -2485,9 +2485,9 @@ body
 }
 .jQueryDialog37.ui-dialog
 {
-   background-color: #FF8C00;
+   background-color: transparent;
    background-image: none;
-   border: 1px solid #DDDDDD;
+   border: 1px solid #FFA500;
    padding: 4px 4px 4px 4px;
 }
 .jQueryDialog37.ui-dialog .ui-dialog-title
@@ -2502,7 +2502,7 @@ body
 {
    background-color: #4F4F4F;
    background-image: none;
-   border: 1px solid #4F4F4F;
+   border: 1px solid #FFA500;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -2513,39 +2513,6 @@ body
 .jQueryDialog37, .jQueryDialog37 .ui-corner-all
 {
    border-radius: 0px;
-}
-#wb_MaterialIcon18
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #245580 solid;
-   text-align: center;
-   padding: 0px 0px 0px 0px;
-   vertical-align: top;
-}
-#wb_MaterialIcon18:hover
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #245580 solid;
-}
-#MaterialIcon18
-{
-   height: 37px;
-   width: 37px;
-}
-#MaterialIcon18 i
-{
-   color: #FFFFFF;
-   display: inline-block;
-   font-size: 37px;
-   line-height: 37px;
-   vertical-align: middle;
-   width: 36px;
-}
-#wb_MaterialIcon18:hover i
-{
-   color: #DCDCDC;
 }
 .ui-widget
 {
@@ -2798,7 +2765,7 @@ body
 }
 #MaterialIcon21 i
 {
-   color: #008000;
+   color: #4169E1;
    display: inline-block;
    font-size: 100px;
    line-height: 100px;
@@ -2807,7 +2774,7 @@ body
 }
 #wb_MaterialIcon21:hover i
 {
-   color: #008000;
+   color: #4169E1;
 }
 #wb_Text37 
 {
@@ -3707,19 +3674,6 @@ body
    text-align: left;
 }
 #wb_Text49 div
-{
-   text-align: left;
-}
-#wb_Text50 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text50 div
 {
    text-align: left;
 }
@@ -5168,24 +5122,6 @@ body
 {
    border-radius: 0px;
 }
-#Button5
-{
-   border: 1px #FFA500 solid;
-   border-radius: 4px;
-   background-color: #4F4F4F;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-}
-#Button5:hover
-{
-   background-color: #FF8C00;
-   -webkit-transition: background-color 500ms linear 0ms;
-   -moz-transition: background-color 500ms linear 0ms;
-   transition: background-color 500ms linear 0ms;
-}
 #Button28
 {
    border: 1px #FFA500 solid;
@@ -5764,19 +5700,6 @@ body
    font-family: Arial;
    font-weight: bold;
    font-size: 13px;
-}
-#wb_Text28 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_Text28 div
-{
-   text-align: center;
 }
 #wb_MaterialIcon23
 {
@@ -7372,6 +7295,15 @@ body
    width: 100%;
    height: 100%;
 }
+#Image45:hover
+{
+   -webkit-transform: rotate(0deg) scale(1.1,1.1) ;
+   -moz-transform: rotate(0deg) scale(1.1,1.1) ;
+   transform: rotate(0deg) scale(1.1,1.1) ;
+   -webkit-transition: -webkit-transform 500ms linear 0ms;
+   -moz-transition: transform 500ms linear 0ms;
+   transition: transform 500ms linear 0ms;
+}
 #wb_Text105 
 {
    background-color: transparent;
@@ -7492,19 +7424,6 @@ body
 {
    background-color: transparent;
    background-image: none;
-}
-#wb_Text107 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text107 div
-{
-   text-align: left;
 }
 #wb_Text108 
 {
@@ -8806,6 +8725,9 @@ body
 }
 #jQueryTabs3
 {
+   background-color: transparent;
+   background-image: none;
+   border: 1px solid #FFA500;
    padding: 4px 4px 4px 4px;
 }
 #jQueryTabs3 .ui-tabs-nav
@@ -8841,78 +8763,52 @@ body
 {
    line-height: 16px;
 }
+#jQueryTabs3 .ui-widget-content
+{
+   background-color: transparent;
+   background-image: none;
+   border-color: #FFA500;
+}
+#jQueryTabs3 .ui-widget-header
+{
+   border: 1px solid #FFA500;
+   background-color: #808080;
+   background-image: none;
+}
+#jQueryTabs3 .ui-state-default, #jQueryTabs3 .ui-widget-content .ui-state-default
+{
+   border-color: #D3D3D3;
+   background-color: #C0C0C0;
+   background-image: none;
+}
+#jQueryTabs3 .ui-state-hover, #jQueryTabs3 .ui-widget-content .ui-state-hover
+{
+   border-color: #FFA500;
+   background-color: #4F4F4F;
+   background-image: none;
+}
+#jQueryTabs3 .ui-state-active, #jQueryTabs3 .ui-widget-content .ui-state-active
+{
+   border-color: #FFA500;
+   background-color: #FFD700;
+   background-image: none;
+}
+#jQueryTabs3 .ui-state-default a, #jQueryTabs3 .ui-widget-content .ui-state-default a
+{
+   color: #000000;
+}
+#jQueryTabs3 .ui-state-hover a, #jQueryTabs3 .ui-widget-content .ui-state-hover a
+{
+   color: #FFFFFF;
+}
+#jQueryTabs3 .ui-state-active a, #jQueryTabs3 .ui-widget-content .ui-state-active a
+{
+   color: #000000;
+}
 #jQueryTabs3 .ui-tabs-panel
 {
    overflow: auto;
    padding: 0;
-}
-#wb_Text74 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text74 div
-{
-   text-align: left;
-}
-#wb_Text75 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text75 div
-{
-   text-align: left;
-}
-.ui-widget
-{
-   font-size: 1em !important;
-}
-.jQueryDialog79.ui-dialog
-{
-   padding: 4px 4px 4px 4px;
-}
-.jQueryDialog79.ui-dialog .ui-dialog-title
-{
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   font-style: normal;
-   color: #FFFFFF;
-}
-.jQueryDialog79.ui-dialog .ui-widget-header
-{
-   padding: 10px 10px 10px 30px;
-}
-.ui-dialog .ui-dialog-titlebar-close
-{
-   outline: 0;
-   right: 10px;
-}
-.jQueryDialog79, .jQueryDialog79 .ui-corner-all
-{
-   border-radius: 0px;
-}
-#wb_Text76 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text76 div
-{
-   text-align: left;
 }
 .ui-widget
 {
