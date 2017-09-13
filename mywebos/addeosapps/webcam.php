@@ -20,9 +20,9 @@ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#ve
 <param name="loop" value="false">
 <param name="menu" value="false">
 <param name="allowfullscreen" value="false">
-<param name="allowscriptaccess" value="sameDomain">
+<param name="allowscriptaccess" value="always">
 <param name="sAlign" value="tl">
-<embed src="jscam_canvas_only.swf" width="100%" height="100%" quality="High" wmode="Transparent" loop="false" play="true" menu="false" allowfullscreen="false" allowscriptaccess="sameDomain" scale="ExactFit" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflash">
+<embed src="jscam_canvas_only.swf" width="100%" height="100%" quality="High" wmode="Transparent" loop="false" play="true" menu="false" allowfullscreen="false" allowscriptaccess="always" scale="ExactFit" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflash">
 </embed>
 </object>
 </div>
