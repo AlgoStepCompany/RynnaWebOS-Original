@@ -16,7 +16,7 @@ $(document).ready(function()
 </script>
 </head>
 <body>
-<div id="Layer1" style="position:absolute;text-align:center;left:227px;top:256px;width:536px;height:158px;z-index:3;">
+<div id="Layer1" style="position:absolute;text-align:center;left:19px;top:21px;width:536px;height:158px;z-index:3;">
 <div id="Layer1_Container" style="width:536px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <input type="button" id="Button2" name="" value="Commande effectuée avec succès !" style="position:absolute;left:11px;top:10px;width:512px;height:25px;z-index:0;" disabled>
 <div id="wb_Text1" style="position:absolute;left:16px;top:53px;width:494px;height:36px;z-index:1;">

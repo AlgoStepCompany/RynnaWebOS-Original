@@ -1481,6 +1481,16 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 <span style="color:#000000;font-family:Arial;font-size:13px;">Ci-dessous retrouvez les dernières mises à jour de votre WebOS. Seul les 6 dernières mises à jours sont indiqués :</span></div>
 <div id="Blog1" style="overflow-y:scroll;position:absolute;left:23px;top:195px;width:689px;height:171px;z-index:3;">
 <div class="blogitem">
+   <span class="blogsubject">Version 9.8</span>
+   <div class="no-thumb"></div>
+   <div class="blogdate">14/09/17<br></div>
+   <span style="color:#000000;">- Modification de toutes les iframes accessibles et à affichages normalisés en balise OBJECT<br>
+- Plus de blocage mobiles et tablettes (acvcès autorisé au mobiles et tablettes)<br>
+- Quelques petits ajustements de codes</span><br>
+   <div class="blogcomments"></div>
+</div>
+<div class="clearfix visible-col1"></div>
+<div class="blogitem">
    <span class="blogsubject">Version 9.7c</span>
    <div class="no-thumb"></div>
    <div class="blogdate">13/09/17<br></div>
@@ -1529,16 +1539,6 @@ Objectif prochain, réduire le temps de chargement par la suppression du prêt-c
    <span style="color:#000000;">- Passage du serveur MySQL en PHP 5.6 compatible WebOS compilation PHP 7 (serveur migré, nouvelle base de données)<br>
 - Passage MySQL en MySQLi<br>
 - Nouvelle Application internet ; Sticky Notes Generator (by WebesTools)</span><br>
-   <div class="blogcomments"></div>
-</div>
-<div class="clearfix visible-col1"></div>
-<div class="blogitem">
-   <span class="blogsubject">Version 9.4</span>
-   <div class="no-thumb"></div>
-   <div class="blogdate">05/09/17<br></div>
-   <span style="color:#000000;">- Intégration de la verification de la taille de l'écran (résolution complète) sur deux variables simples ; larg et haut, pour les appels des fenêtres JQuery<br>
-- Framework Jquery modifié pour préparer la venu des options réductions et agrandissements automatique des fenêtres<br>
-- Modification des curseurs d'alertes et de mobilités des fenêtres pour se rapprocher de Windows ou Linux (visuellement)</span><br>
    <div class="blogcomments"></div>
 </div>
 <div class="clearfix visible-col1"></div>
@@ -1894,9 +1894,7 @@ Objectif prochain, réduire le temps de chargement par la suppression du prêt-c
 </div>
 
 <div id="jQueryDialog4" style="z-index:509;" title="Calculatrice (system/program/calculatrice)">
-<iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
-   src="addeosapps/calc.php">
-</iframe>
+<object data="addeosapps/calc.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog5" style="z-index:510;" title="Explorateur de fichiers - Votre espace personnel (50 Go maximum)">
@@ -1925,15 +1923,11 @@ Objectif prochain, réduire le temps de chargement par la suppression du prêt-c
 </div>
 
 <div id="jQueryDialog8" style="z-index:511;" title="Navigateur web Qwant (all&#233;g&#233;, sans onglet)">
-<iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-   src="addeosapps/navigateur.php">
-</iframe>
+<object data="addeosapps/navigateur.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog14" style="z-index:512;" title="Editeur de texte (FullPro CK Series 2016)">
-<iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
-   src="system/program/texteditor/editor.html">
-</iframe><br />
+<object data="system/program/texteditor/editor.html" type="text/html" width="100%" height="100%" style="overflow:auto" ></object>
 </div>
 
 <div id="jQueryDialog19" style="z-index:513;" title="Rynna Search (Rechercher une page du WebOS)">
@@ -1946,21 +1940,15 @@ Objectif prochain, réduire le temps de chargement par la suppression du prêt-c
 </div>
 
 <div id="jQueryDialog23" style="z-index:514;" title="Jeu de Hasard (system/program/dee)">
-<iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-   src="addeosapps/deeint.php">
-</iframe>
+<object data="addeosapps/deeint.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog28" style="z-index:515;" title="WordPad - Editeur de texte avanc&#233;">
-<iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
-   src="addeosapps/wordpad.php">
-</iframe>
+<object data="addeosapps/wordpad.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog7" style="z-index:516;" title="Informations sur votre location - M&#233;t&#233;o temps r&#233;el [HTTPS non compatible]">
-<iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
-   src="addeosapps/meteo.php">
-</iframe>
+<object data="addeosapps/meteo.php" type="text/html" width="100%" height="100%" style="overflow:auto" ></object>
 </div>
 
 
@@ -2023,15 +2011,11 @@ Objectif prochain, réduire le temps de chargement par la suppression du prêt-c
 
 
 <div id="jQueryDialog41" style="z-index:524;" title="Gestionnaire de Jeux">
-<iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
-   src="gamemanager.php">
-</iframe><br />
+<object data="gamemanager.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog20" style="z-index:525;" title="D&#233;part RER SNCF par ville (system/program/sncfappli) [HTTPS non compatible]">
-<iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-   src="addeosapps/sncf.php">
-</iframe>
+<object data="addeosapps/sncf.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog16" style="z-index:526;" title="StreetView">
@@ -2790,15 +2774,11 @@ function myFunctionmovies1114() {
 </div>
 
 <div id="jQueryDialog25" style="z-index:534;" title="Calculateur Euro (system/program/eurocalc)">
-<iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-   src="addeosapps/calceuro.php">
-</iframe>
+<object data="addeosapps/calceuro.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog24" style="z-index:535;" title="Horloge interactive (system/program/horloge)">
-<iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-   src="addeosapps/horlogeint.php">
-</iframe>
+<object data="addeosapps/horlogeint.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog34" style="z-index:536;" title="Affichage de votre adresse IP [Ne fonctionne pas en HHTPS]">
@@ -2823,9 +2803,7 @@ echo $_SERVER["REMOTE_ADDR"];
 </div>
 
 <div id="jQueryDialog40" style="z-index:538;" title="Editeur 3D Tridiv CSS 3">
-<iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-   src="addeosapps/tridiv3d.php">
-</iframe>
+<object data="addeosapps/tridiv3d.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog35" style="z-index:539;" title="Supprimer votre compte">
@@ -3017,9 +2995,9 @@ function TimerStopTimer8()
 </div>
 
 <div id="jQueryDialog22" style="z-index:559;" title="Concepteur d&#39;applications Web (version PHP)">
-<iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+<iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
    src="generatiug/generatiugtest.php">
-</iframe>
+</iframe><br />
 </div>
 
 <div id="jQueryDialog54" style="z-index:560;" title="Applis Web Communautaires">
@@ -3046,45 +3024,31 @@ function TimerStopTimer1()
 </script>
 
 <div id="jQueryDialog51" style="z-index:562;" title="Forum Veler Software (d&#233;veloppement Rynna WebOS et divers projets)">
-<iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
-   src="http://forumvelersoftware.bbactif.com/t2085-rynna-webos-natif-projet-mini-webos-by-algostep-company">
-</iframe>
+<object data="http://forumvelersoftware.bbactif.com/t2085-rynna-webos-natif-projet-mini-webos-by-algostep-company" type="text/html" width="100%" height="100%" style="overflow:auto" ></object>
 </div>
 
 <div id="jQueryDialog56" style="z-index:563;" title="Ipiccy - Retouches photos en ligne">
-<iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
-   src="addeosapps/ipiccy.php">
-</iframe>
+<object data="addeosapps/ipiccy.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog57" style="z-index:564;" title="Le Bon Coin - Ventes et achats en ligne en France">
-<iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
-   src="addeosapps/leboncoin.php">
-</iframe>
+<object data="addeosapps/leboncoin.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog58" style="z-index:565;" title="Orange TV - toutes vos chaines en ligne (stream)">
-<iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
-   src="addeosapps/orangetv.php">
-</iframe>
+<object data="addeosapps/orangetv.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog59" style="z-index:566;" title="PrintFriendly - Votre page web au format PDF imprimable">
-<iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
-   src="addeosapps/webpdf.php">
-</iframe>
+<object data="addeosapps/webpdf.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog60" style="z-index:567;" title="01net - Blog, actualit&#233;s et logiciels informatiques et nouvelle technologie">
-<iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
-   src="addeosapps/01net.php">
-</iframe>
+<object data="addeosapps/01net.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog61" style="z-index:568;" title="CDiscount">
-<iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
-   src="addeosapps/cdiscount.php">
-</iframe>
+<object data="addeosapps/cdiscount.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 
@@ -3428,16 +3392,12 @@ TimerStartTimer3();
 </div>
 
 <div id="jQueryDialog13" style="z-index:581;" title="Messagerie personelle Europ&#233;enne (Net Courriel)">
-<iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-   src="addeosapps/messagerienetc.php">
-</iframe>
+<object data="addeosapps/messagerienetc.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 
 <div id="jQueryDialog69" style="z-index:583;" title="[WIDGET] Horloge">
-<iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-   src="addeosapps/horloge.php">
-</iframe>
+<object data="addeosapps/horloge.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="Layer4" style="position:fixed;text-align:right;right:0;top:0;bottom:0;width:118px;z-index:584;" onmouseleave="ShowObject('Layer4', 0);return false;">
@@ -3474,13 +3434,11 @@ TimerStartTimer10();
 <div id="jQueryDialog70" style="z-index:586;" title="Webcam">
 <iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
    src="addeosapps/webcam.php">
-</iframe>
+</iframe><br />
 </div>
 
 <div id="jQueryDialog71" style="z-index:587;" title="Calendrier g&#233;n&#233;ral">
-<iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
-   src="addeosapps/agenda.php">
-</iframe>
+<object data="addeosapps/agenda.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="Layer5" style="position:fixed;text-align:left;left:0;top:0;right:0;bottom:0;z-index:588;" onclick="ShowObject('Layer5', 0);return false;">
@@ -3514,9 +3472,7 @@ TimerStartTimer11();
 </script>
 
 <div id="jQueryDialog72" style="z-index:590;" title="Devises">
-<iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
-   src="addeosapps/devise.php">
-</iframe>
+<object data="addeosapps/devise.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog73" style="z-index:591;" title="Sauvegarde local de votre session">
@@ -4127,45 +4083,31 @@ TimerStartTimer41();
 </script>
 
 <div id="jQueryDialog9" style="z-index:608;" title="Wikip&#233;dia">
-<iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
-   src="addeosapps/wikipedia.php">
-</iframe>
+<object data="addeosapps/wikipedia.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog31" style="z-index:609;" title="Le Monde - Actualit&#233;s de France">
-<iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
-   src="addeosapps/lemonde.php">
-</iframe>
+<object data="addeosapps/lemonde.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog55" style="z-index:610;" title="Forum Etienne BAUDOUX - Forum li&#233; au projet Rynna WebOS">
-<iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
-   src="addeosapps/sz.php">
-</iframe>
+<object data="addeosapps/sz.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog68" style="z-index:611;" title="OpenClassRoom - Tutoriels et cours en ligne">
-<iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
-   src="addeosapps/ocr.php">
-</iframe>
+<object data="addeosapps/ocr.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog75" style="z-index:612;" title="SUMO PAINT - Dessin (demonstration gratuite)">
-<iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
-   src="addeosapps/paint.php">
-</iframe>
+<object data="addeosapps/paint.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog76" style="z-index:613;" title="Now-Coworking - Espace Coworking pour votre Entreprise">
-<iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
-   src="addeosapps/nowcoworking.php">
-</iframe>
+<object data="addeosapps/nowcoworking.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog62" style="z-index:614;" title="Notes dropbox - FARGO (gratuit)">
-<iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
-   src="addeosapps/fargo.php">
-</iframe>
+<object data="addeosapps/fargo.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="Layer23" style="position:fixed;text-align:left;left:0;top:0;right:0;bottom:0;z-index:615;" onclick="ShowObject('Layer23', 0);return false;">
@@ -4360,16 +4302,12 @@ function TimerStopTimer46()
 </div>
 
 <div id="jQueryDialog77" style="z-index:623;" title="Code source du projet (Rynna WebOS - Github) - Gratuit">
-<iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
-   src="addeosapps/github.php">
-</iframe>
+<object data="addeosapps/github.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 
 <div id="jQueryDialog78" style="z-index:625;" title="Sticky-Notes Generator (WebesTools)">
-<iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-   src="addeosapps/sng.php">
-</iframe>
+<object data="addeosapps/sng.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog74" style="z-index:626;" title="Bienvenue dans la session de d&#233;monstration !">
