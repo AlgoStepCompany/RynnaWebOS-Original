@@ -1,6 +1,7 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST['form_name'] == 'loginform')
 {
+   // Mysqli fonction
    $success_page = './session.php';
    $error_page = './index.php';
    $mysql_server = '';
