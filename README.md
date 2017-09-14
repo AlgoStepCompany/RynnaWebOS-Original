@@ -1,9 +1,9 @@
 # RynnaWebOS-Original
 
-# Vous visionnez en ce moment la version 9.8 (Release) du code source.
+# Vous visionnez en ce moment la version 9.8b (Release) du code source.
 Cette version sera mise à jour en fonction de l'avancement du WebOS.
 
-# You are currently viewing version 9.8 (Release) of the source code.
+# You are currently viewing version 9.8b (Release) of the source code.
 This version will be updated according to the progress of WebOS.
 
 # UPDATE : 14/09/2017
