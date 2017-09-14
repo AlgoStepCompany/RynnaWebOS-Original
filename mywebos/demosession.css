@@ -14,7 +14,21 @@ body
    margin: 0;
    padding: 0;
 }
+#Layer30
+{
+   background-color: #000000;
+   background-image: none;
+}
 #Image40
+{
+   border: 0px transparent solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image42
 {
    border: 0px transparent solid;
    padding: 0px 0px 0px 0px;
@@ -6513,41 +6527,6 @@ body
    font-weight: normal;
    font-size: 13px;
 }
-#wb_Text95 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text95 div
-{
-   text-align: left;
-}
-#wb_Text96 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text96 div
-{
-   text-align: left;
-}
-#Image42
-{
-   border: 0px transparent solid;
-   padding: 0px 0px 0px 0px;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
 #wb_Text97 
 {
    background-color: transparent;
@@ -8836,6 +8815,122 @@ body
    right: 10px;
 }
 .jQueryDialog74, .jQueryDialog74 .ui-corner-all
+{
+   border-radius: 0px;
+}
+.ui-widget
+{
+   font-size: 1em !important;
+}
+.jQueryDialog79.ui-dialog
+{
+   padding: 4px 4px 4px 4px;
+}
+.jQueryDialog79.ui-dialog .ui-dialog-title
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   color: #FFFFFF;
+}
+.jQueryDialog79.ui-dialog .ui-widget-header
+{
+   padding: 10px 10px 10px 30px;
+}
+.ui-dialog .ui-dialog-titlebar-close
+{
+   outline: 0;
+   right: 10px;
+}
+.jQueryDialog79, .jQueryDialog79 .ui-corner-all
+{
+   border-radius: 0px;
+}
+.ui-widget
+{
+   font-size: 1em !important;
+}
+.jQueryDialog80.ui-dialog
+{
+   padding: 4px 4px 4px 4px;
+}
+.jQueryDialog80.ui-dialog .ui-dialog-title
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   color: #FFFFFF;
+}
+.jQueryDialog80.ui-dialog .ui-widget-header
+{
+   padding: 10px 10px 10px 30px;
+}
+.ui-dialog .ui-dialog-titlebar-close
+{
+   outline: 0;
+   right: 10px;
+}
+.jQueryDialog80, .jQueryDialog80 .ui-corner-all
+{
+   border-radius: 0px;
+}
+.ui-widget
+{
+   font-size: 1em !important;
+}
+.jQueryDialog81.ui-dialog
+{
+   padding: 4px 4px 4px 4px;
+}
+.jQueryDialog81.ui-dialog .ui-dialog-title
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   color: #FFFFFF;
+}
+.jQueryDialog81.ui-dialog .ui-widget-header
+{
+   padding: 10px 10px 10px 30px;
+}
+.ui-dialog .ui-dialog-titlebar-close
+{
+   outline: 0;
+   right: 10px;
+}
+.jQueryDialog81, .jQueryDialog81 .ui-corner-all
+{
+   border-radius: 0px;
+}
+.ui-widget
+{
+   font-size: 1em !important;
+}
+.jQueryDialog82.ui-dialog
+{
+   padding: 4px 4px 4px 4px;
+}
+.jQueryDialog82.ui-dialog .ui-dialog-title
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   color: #FFFFFF;
+}
+.jQueryDialog82.ui-dialog .ui-widget-header
+{
+   padding: 10px 10px 10px 30px;
+}
+.ui-dialog .ui-dialog-titlebar-close
+{
+   outline: 0;
+   right: 10px;
+}
+.jQueryDialog82, .jQueryDialog82 .ui-corner-all
 {
    border-radius: 0px;
 }
