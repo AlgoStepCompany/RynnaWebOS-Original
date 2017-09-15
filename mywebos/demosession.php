@@ -1537,6 +1537,15 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 <span style="color:#000000;font-family:Arial;font-size:13px;">Ci-dessous retrouvez les dernières mises à jour de votre WebOS. Seul les 6 dernières mises à jours sont indiqués :</span></div>
 <div id="Blog1" style="overflow-y:scroll;position:absolute;left:23px;top:195px;width:689px;height:171px;z-index:3;">
 <div class="blogitem">
+   <span class="blogsubject">Version 9.9</span>
+   <div class="no-thumb"></div>
+   <div class="blogdate">15/09/17<br></div>
+   <span style="color:#000000;">- Amélioration de la page de connexion<br>
+<em>- Ajout d'un EstarEggs sur la page de connexion</em></span><br>
+   <div class="blogcomments"></div>
+</div>
+<div class="clearfix visible-col1"></div>
+<div class="blogitem">
    <span class="blogsubject">Version 9.8b</span>
    <div class="no-thumb"></div>
    <div class="blogdate">14/09/17<br></div>
@@ -1584,16 +1593,6 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    <span style="color:#000000;">- Nouvelle explorateur de fichiers (licence-PGR.txt à la racine ./login/licence-PGR.txt)<br>
 - Ajout d'onglet sur l'explorateur de fichiers pour traiter jusqu'à 3 opérations simultanées<br>
 - Serveur Unlimited Plus Windows (serveur) par défaut : votre espace personnel est augmenté à présent à 50Go par compte (gratuit, uniquement sur http://rynnawebos.fr/login)</span><br>
-   <div class="blogcomments"></div>
-</div>
-<div class="clearfix visible-col1"></div>
-<div class="blogitem">
-   <span class="blogsubject">Version 9.6</span>
-   <div class="no-thumb"></div>
-   <div class="blogdate">10/09/17<br></div>
-   <span style="color:#000000;">- Rectification de liaison web et entre-pages<br>
-- Ajustement de certaines fenêtres<br>
-Objectif prochain, réduire le temps de chargement par la suppression du prêt-chargement des iframes (WebApps)</span><br>
    <div class="blogcomments"></div>
 </div>
 <div class="clearfix visible-col1"></div>

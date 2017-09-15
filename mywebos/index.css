@@ -45,7 +45,7 @@ body
 }
 #Login1
 {
-   background-color: #FFA500;
+   background-color: #EC9900;
    border-color:#FFA500;
    border-width:1px;
    border-style: solid;
@@ -55,7 +55,7 @@ body
    font-weight: normal;
    font-size: 13px;
    text-align: right;
-   width: 568px;
+   width: 448px;
    height: 151px;
 }
 #Login1 td
@@ -73,7 +73,7 @@ body
 #Login1 .label
 {
    height: 20px;
-   width:336px;
+   width:276px;
 }
 #Login1 .row
 {
@@ -108,19 +108,6 @@ body
    font-size: 13px;
    width: 70px;
    height: 20px;
-}
-#wb_Text2 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: justify;
-}
-#wb_Text2 div
-{
-   text-align: justify;
 }
 #Button1
 {
@@ -348,8 +335,10 @@ body
 }
 #Layer3
 {
-   background-color: #FF8C00;
-   background-image: none;
+   background-color: transparent;
+   background-image: url(images/newscreenx2.jpg);
+   background-repeat: no-repeat;
+   background-position: left top;
    border: 2px #FFA500 solid;
    border-radius: 2px;
    -moz-box-shadow: 10px 10px 7px #FFAF4F;
@@ -667,12 +656,13 @@ body
 {
    border: 1px #2E6DA4 solid;
    border-radius: 4px;
-   background-color: #F5F5F5;
+   background-color: transparent;
    background-image: none;
    color: #000000;
    font-family: Arial;
    font-weight: normal;
-   font-size: 13px;
+   font-style: italic;
+   font-size: 11px;
 }
 #Layer7
 {
@@ -726,4 +716,46 @@ body
 #wb_Text9 div
 {
    text-align: left;
+}
+#wb_FontAwesomeIcon7
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+}
+#wb_FontAwesomeIcon7:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#FontAwesomeIcon7
+{
+   height: 100px;
+   width: 93px;
+}
+#FontAwesomeIcon7 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 93px;
+   line-height: 100px;
+   vertical-align: middle;
+   width: 92px;
+}
+#wb_FontAwesomeIcon7:hover i
+{
+   color: #FFFFFF;
+}
+#Image2
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
 }

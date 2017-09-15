@@ -1,7 +1,6 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST['form_name'] == 'loginform')
 {
-   // Mysqli fonction
    $success_page = './session.php';
    $error_page = './index.php';
    $mysql_server = '';
@@ -113,7 +112,7 @@ $(document).ready(function()
    var jQueryDialog6Options =
    {
       width: 657,
-      height: 381,
+      height: 274,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -169,7 +168,7 @@ $(document).ready(function()
 <a href="javascript:popupwnd('https://www.1and1.fr/hebergement-windows','yes','yes','yes','yes','yes','yes','5','5','1024','768')" target="_self"><img src="images/1and1.png" id="Image1" alt=""></a></div>
 </div>
 
-<div id="jQueryDialog5" style="z-index:37;" title="Informations Kernel">
+<div id="jQueryDialog5" style="z-index:38;" title="Informations Kernel">
 <div id="wb_FontAwesomeIcon1" style="position:absolute;left:9px;top:8px;width:113px;height:116px;text-align:center;z-index:10;">
 <div id="FontAwesomeIcon1"><i class="fa fa-server">&nbsp;</i></div></div>
 <div id="wb_Text1" style="position:absolute;left:139px;top:16px;width:478px;height:176px;text-align:justify;z-index:11;">
@@ -177,8 +176,8 @@ $(document).ready(function()
 <input type="submit" id="Button2" onclick="window.location.href='https://github.com/AlgoStepCompany';return false;" name="" value="Découvrir, apprendre et télécharger le code source de Rynna WebOS" style="position:absolute;left:28px;top:210px;width:616px;height:43px;z-index:12;">
 </div>
 
-<div id="jQueryDialog6" style="z-index:38;" title="Bugs signal&#233;s">
-<div id="Blog1" style="overflow:auto;position:absolute;left:30px;top:23px;width:598px;height:288px;z-index:13;">
+<div id="jQueryDialog6" style="z-index:39;" title="Bugs signal&#233;s">
+<div id="Blog1" style="overflow:auto;position:absolute;left:30px;top:23px;width:598px;height:173px;z-index:13;">
 <div class="blogitem">
    <span class="blogsubject">Problème SSL sur iframes</span>
    <div class="no-thumb"></div>
@@ -190,12 +189,10 @@ $(document).ready(function()
 </div>
 </div>
 
-<div id="Layer2" style="position:fixed;text-align:left;left:0;top:0;right:0;bottom:0;z-index:39;">
-<div id="Layer3" style="position:absolute;text-align:center;left:158px;top:143px;width:627px;height:392px;z-index:20;">
+<div id="Layer2" style="position:fixed;text-align:left;left:0;top:0;right:0;bottom:0;z-index:40;">
+<div id="Layer3" style="position:absolute;text-align:center;left:158px;top:143px;width:627px;height:298px;z-index:20;">
 <div id="Layer3_Container" style="width:627px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
-<div id="wb_Text2" style="position:absolute;left:28px;top:42px;width:568px;height:128px;text-align:justify;z-index:14;">
-<span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><strong>Vous pouvez désormais vous connecter à votre compte à l'aide de vos identifiants. Vous devez respecter la casse utilisateur et de votre mot de passe.<br><br></strong></span><span style="color:#000000;font-family:Arial;font-size:13px;"><strong><em>Si vous souhaitez découvrir le WebOS sans créer de compte vous pouvez utiliser la démo en cliquant sur le bouton &quot;DEMO&quot; !</em></strong></span><span style="color:#1E90FF;font-family:Arial;font-size:13px;"><strong><em><br></em></strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><strong><br>Si vous n'avez pas encore de compte vous pouvez en créer un nouveau en cliquant sur &quot;Créer un nouveau compte&quot; :</strong></span></div>
-<div id="wb_Login1" style="position:absolute;left:28px;top:185px;width:568px;height:151px;text-align:right;z-index:15;">
+<div id="wb_Login1" style="position:absolute;left:149px;top:43px;width:448px;height:151px;text-align:right;z-index:14;">
 <form name="loginform" method="post" accept-charset="UTF-8" action="<?php echo basename(__FILE__); ?>" id="loginform">
 <input type="hidden" name="form_name" value="loginform">
 <table id="Login1">
@@ -219,14 +216,16 @@ $(document).ready(function()
 </table>
 </form>
 </div>
-<input type="submit" id="Button1" onclick="window.location.href='./newuser.php';return false;" name="" value="Créer un nouveau compte" style="position:absolute;left:384px;top:347px;width:211px;height:25px;z-index:16;">
-<input type="button" id="Button3" name="" value="Connexion à votre compte utilisateur" style="position:absolute;left:19px;top:8px;width:588px;height:25px;z-index:17;" disabled>
-<input type="button" id="Button4" onclick="$('#jQueryDialog1').dialog('open');return false;" name="" value="Infos complémentaires ?" style="position:absolute;left:28px;top:347px;width:156px;height:25px;z-index:18;">
-<input type="submit" id="Button5" onclick="window.location.href='./demosession.php';return false;" name="" value="DEMO" style="position:absolute;left:223px;top:347px;width:124px;height:25px;z-index:19;">
+<input type="submit" id="Button1" onclick="window.location.href='./newuser.php';return false;" name="" value="Créer un nouveau compte" style="position:absolute;left:396px;top:215px;width:211px;height:25px;z-index:15;">
+<input type="button" id="Button3" name="" value="Connexion à votre compte utilisateur" style="position:absolute;left:19px;top:8px;width:588px;height:25px;z-index:16;" disabled>
+<input type="button" id="Button4" onclick="$('#jQueryDialog1').dialog('open');return false;" name="" value="Infos complémentaires ?" style="position:absolute;left:19px;top:215px;width:156px;height:25px;z-index:17;">
+<input type="submit" id="Button5" onclick="window.location.href='./demosession.php';return false;" name="" value="Ouvrir une session de demonstration (limitée)" style="position:absolute;left:19px;top:255px;width:578px;height:25px;z-index:18;">
+<div id="wb_FontAwesomeIcon7" style="position:absolute;left:31px;top:76px;width:93px;height:100px;text-align:center;z-index:19;">
+<div id="FontAwesomeIcon7"><i class="fa fa-user-circle">&nbsp;</i></div></div>
 </div>
 </div>
 <div id="wb_Text10" style="position:absolute;left:7px;top:7px;width:250px;height:44px;z-index:21;">
-<span style="color:#000000;font-family:Arial;font-size:13px;"><em>Version 9.8b (Release)<br>Desktop Virtual Manager (DVM)<br></em></span><span style="color:#000000;font-family:Arial;font-size:9.3px;"><em>PHP 7, CSS 3, JQuery 3.1.1</em></span></div>
+<span style="color:#000000;font-family:Arial;font-size:13px;"><em>Version 9.9 (Release)<br>Desktop Virtual Manager (DVM)<br></em></span><span style="color:#000000;font-family:Arial;font-size:9.3px;"><em>PHP 7, CSS 3, JQuery 3.1.1</em></span></div>
 <div id="Layer1" style="position:absolute;text-align:center;left:277px;top:564px;width:393px;height:83px;z-index:22;">
 <div id="Layer1_Container" style="width:393px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 </div>
@@ -239,23 +238,25 @@ $(document).ready(function()
 <div id="Layer6_Container" style="width:100px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 </div>
 </div>
-<div id="Layer4" style="position:absolute;text-align:center;left:284px;top:12px;width:464px;height:105px;z-index:25;">
+<div id="Layer4" style="position:absolute;text-align:center;left:284px;top:12px;width:464px;height:105px;z-index:25;" onmouseenter="TimerStartTimer4();return false;" onmouseleave="ShowObject('wb_Image2', 0);TimerStopTimer4();return false;">
 <div id="Layer4_Container" style="width:464px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 </div>
 </div>
+<div id="wb_Image2" style="position:absolute;left:592px;top:52px;width:379px;height:515px;z-index:26;">
+<a href="#" onmouseenter="TimerStartTimer3();return false;"><img src="images/aigle_017.gif" id="Image2" alt=""></a></div>
 </div>
-<div id="jQueryDialog3" style="z-index:40;" title="Informations sur les Cookies">
-<div id="wb_Text5" style="position:absolute;left:14px;top:17px;width:650px;height:400px;text-align:justify;z-index:32;">
+<div id="jQueryDialog3" style="z-index:41;" title="Informations sur les Cookies">
+<div id="wb_Text5" style="position:absolute;left:14px;top:17px;width:650px;height:400px;text-align:justify;z-index:33;">
 <span style="color:#000000;font-family:Arial;font-size:13px;"><strong><u>Cookies information</u></strong><br><br>Les cookies sont de petits fichiers texte qui sont placés sur votre ordinateur par les sites web que vous visitez. Ils sont largement utilisés afin de permettre le fonctionnement des sites ou de rendre leur fonctionnement plus efficace, et de fournir des informations à leur propriétaire. L'utilisation de cookies est aujourd’hui la norme pour la plupart des sites. Vous pouvez gérer et contrôler les cookies en utilisant votre navigateur. Vous pouvez également les supprimer dans votre navigateur lorsque vous quittez le site.<br>Gestion des cookies<br><br>Pour la gestion des Cookies et de vos choix, la configuration de chaque navigateur est différente. Elle est décrite dans le menu d'aide de votre navigateur, qui vous permettra de savoir de quelle manière modifier vos souhaits en matière de Cookies.<br><br><strong><em>Types de cookies:<br></em></strong><br>&nbsp;&nbsp;&nbsp; - « Cookies de Session » restent stockés dans votre navigateur seulement durant votre session de navigation c'est à dire jusqu'à ce que vous quittiez le site.<br>&nbsp;&nbsp;&nbsp; - « Cookies Persistants » restent dans votre navigateur après la session (sauf si vous les avez supprimés).<br>&nbsp;&nbsp;&nbsp; - « Cookies de Performance » collectent des informations sur votre utilisation du site, comme les pages web visitées et les messages d'erreur, ils ne recueillent pas de renseignements concernant des personnes identifiées, et les informations collectées sont agrégées de sorte qu’elles sont rendues anonymes. Les cookies de performance sont utilisés pour améliorer la façon dont fonctionne un site web.<br>&nbsp;&nbsp;&nbsp; - « Cookies de Fonctionnalité » permettent au site de se rappeler les choix que vous faites sur le site web (tels que des modifications de la taille du texte, des pages personnalisées) ou activer des services tels que des commentaires sur un blog.</span></div>
-<input type="button" id="Button7" onclick="$('#jQueryDialog3').dialog('close');return false;" name="" value="Compris" style="position:absolute;left:229px;top:449px;width:235px;height:25px;z-index:33;">
+<input type="button" id="Button7" onclick="$('#jQueryDialog3').dialog('close');return false;" name="" value="Compris" style="position:absolute;left:229px;top:449px;width:235px;height:25px;z-index:34;">
 </div>
 
-<div id="Layer7" style="position:absolute;text-align:center;left:143px;top:1647px;width:540px;height:237px;z-index:41;">
+<div id="Layer7" style="position:absolute;text-align:center;left:143px;top:1647px;width:540px;height:237px;z-index:42;">
 <div id="Layer7_Container" style="width:540px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
-<div id="wb_FontAwesomeIcon6" style="position:absolute;left:12px;top:14px;width:100px;height:100px;text-align:center;z-index:34;">
+<div id="wb_FontAwesomeIcon6" style="position:absolute;left:12px;top:14px;width:100px;height:100px;text-align:center;z-index:35;">
 <div id="FontAwesomeIcon6"><i class="fa fa-exclamation-triangle">&nbsp;</i></div></div>
-<div id="wb_Text9" style="position:absolute;left:133px;top:14px;width:379px;height:198px;z-index:35;">
-<span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>SERVEUR Rynna WebOS en maintenance.<br><br>Suite à une passage du serveur MySQL en PHP 5.6 notre WebOS n'est plus compatible avec les fonctions SQL PHP 5.5<br><br>Le Serveur est en migration ; tout reviendra à la normale dans quelques heures.<br><br>Merci pour votre patience et nous sommes encore désolé pour les 4 derniers jours d'erreurs 500.</strong></span></div>
+<div id="wb_Text9" style="position:absolute;left:133px;top:14px;width:379px;height:180px;z-index:36;">
+<span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>SERVEUR Rynna WebOS en maintenance.<br><br>Ecrire ici votre texte pour avertir vos utilisateurs de la maintenance.<br><br>Pour afficher ce bloc-layer utilisez les Timer1 et TImer2.<br><br>Activer le Timer1 et désactiver le Timer2.<br>Pour revenir à la normal inversez les deux Timer.</strong></span></div>
 </div>
 </div>
 <script>
@@ -289,6 +290,40 @@ function TimerStopTimer2()
    clearTimeout(wb_Timer2);
 }
 TimerStartTimer2();
+</script>
+
+<script>
+var wb_Timer3;
+function TimerStartTimer3()
+{
+   wb_Timer3 = setTimeout(function()
+   {
+      var event = null;
+      ShowObject('wb_Image2', 0);
+   }, 40);
+}
+function TimerStopTimer3()
+{
+   clearTimeout(wb_Timer3);
+}
+TimerStartTimer3();
+</script>
+
+<script>
+var wb_Timer4;
+function TimerStartTimer4()
+{
+   wb_Timer4 = setTimeout(function()
+   {
+      var event = null;
+      ShowObject('wb_Image2', 1);
+      AnimateCss('wb_Image2', 'slide-right-in', 5, 15000);
+   }, 10000);
+}
+function TimerStopTimer4()
+{
+   clearTimeout(wb_Timer4);
+}
 </script>
 
 </body>
