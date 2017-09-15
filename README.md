@@ -6,7 +6,9 @@ Cette version sera mise à jour en fonction de l'avancement du WebOS.
 # You are currently viewing version 9.8b (Release) of the source code.
 This version will be updated according to the progress of WebOS.
 
-# UPDATE : 14/09/2017
+# UPDATE : 15/09/2017
+- Compression images (réduction favicon et images générales, gain de plus de 660Ko environ.
+- Compression images (reduction favicon and general images, gain of more than 680Kb about.
 
 ****************
 
