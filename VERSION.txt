@@ -1,24 +1,46 @@
-Rynna WebOS Version Informations
+Rynna WebOS
+Version Informations
 
 Nom du projet : Rynna WebOS
-Date de la dernière modification officielle (Entreprise) : 30/08/2017
+Nom de code de la version : Original
 Code source mise à disposition (complet) depuis le : 30/08/2017, en version : 9.0 (Release)
-Version Thème : Original
-Autre version disponible : Nebular (disponible en thème patch) ; Luxury (disponible en thème patch) ; Redar (disponible en thème patch) ; LifeIsStrange (disponible en thème patch)
+Version Thème : OriginalAutre version disponible : Nebular (disponible en thème patch) ; Luxury (disponible en thème patch) ; Redar (disponible en thème patch) ; LifeIsStrange (disponible en thème patch)
 Langages : Français
 Autres langages disponibles : AUCUN ; Anglais prochainement disponible
 Site internet de démonstration (officiel) : http://www.rynnawebos.fr
 Site de liaison (intra-communautaire) : N.C.
 Serveur PHP du site de démonstration (officiel) : 1and1 Unlimited Windows Pro (base Windows Server 2012)
-Serveur MySQL du site de démonstration (officiel) : Debian
-Database type : MySQLi (Apache PHP 5.6 ou supérieur)
-
+Serveur MySQL du site de démonstration (officiel) : DebianDatabase type : MySQLi (Apache PHP 5.6 ou supérieur)
 Concepteur origine : Entreprise AlgoStep Company (A. Loïc), SIRET : 817 727 357 00011
 Co-concepteur : Maxime D. (Chef projet et Marketing)
-Gestion Entreprise : Now-Coworking
 Ville d'inscription : Rouen (France), 76000
-N° d'identification unique du projet "Rynna WebOS" : N.C.
-
+N° d'identification unique du projet "Rynna WebOS" : 1456-3179-4720-1196-6439
 Licence déposée : oui (GPL-3)
 Brevet déposé : non (non possible car source publique)
 Serveur officiel : rynnawebos.fr
+
+----------------A PROPOS DES NOMS DE CODE DES VERSIONS TERMINEES ET VERROUILLEES : 
+Rynna WebOS est conçu de manière à valider tout les objectifs à chaque version majeure et qui puissent être verrouillées et terminées.
+Pour cela diverses branches Github seront mises en places :
+- MASTER = la branche toujours en développement (appelé avant "ORIGINAL" tant que la version 10.0 n'est pas fiable)
+- 10.0 - SOLARIS
+
+A chaque mise en place du version terminée et fiable les nouvelles versions changeront de nom de code.
+Voici les futurs noms réservés au cours de l'évolution du projet :
+0.1 - [AUCUN NOM DE CODE]
+1.0 - ORIGINAL
+<<< vous êtes ici : Rynna WebOS (9.X) Original >>>
+10.0 - SOLARIS
+20.0 - IMPORIUM
+30.0 - VEGASIS
+40.0 - CRIMERIA
+50.0 - RAZIOR
+60.0 - STARIS
+70.0 - VALERION
+80.0 - KUMINO
+90.0 - SARRIS
+REVIRA (100.0)
+ALTAIR (200.0)
+
+Les noms de codes Version sont réservés mais nous ne garantissons pas les versions indiqués.
+
