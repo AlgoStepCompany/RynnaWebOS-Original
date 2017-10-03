@@ -1,16 +1,12 @@
 # RynnaWebOS-Original
 
-### ATTENTION : Notre équipe de développement est en déplacement du 25/09 au 30/09 ; durant cette période le code source Github ne sera pas mise à jour. Nous continuerons le développement à notre retour dans l'objectif de sortir la Version 10.0 rapidement.
-
-### ATTENTION: Our development team is on the shifting from 09/25/17 to 09/30/17 ; during this period the source code Github will not be updated. We will continue development on our return in order to release Version 10.0 quickly.
-
-# Vous visionnez en ce moment la version 9.9 (Release) du code source.
+### Vous visionnez en ce moment la version 9.9b (Release) du code source.
 Cette version sera mise à jour en fonction de l'avancement du WebOS.
 
-# You are currently viewing version 9.9 (Release) of the source code.
+#### You are currently viewing version 9.9b (Release) of the source code.
 This version will be updated according to the progress of WebOS.
 
-# UPDATE : 15/09/2017
+# UPDATE : 03/10/2017
 
 ****************
 
@@ -37,7 +33,7 @@ L'installation de Rynna WebOS sur votre serveur local est simple :
 
 2 - Concevez une base de données MySQL (compatible MySQLi)
 
-3 - Injecter le fichier "inj-MySQL.sql" sur votre base de données MySQL
+3 - Injecter le fichier "inj-MySQLi.sql" sur votre base de données MySQL
 
 4 - Dans "www" (racine de votre site) déposez-y le contenu du projet dans un dossier que vous aurez préalablement créer :
 Exemple :
@@ -99,7 +95,7 @@ Installing Rynna WebOS on your local server:
 
 2 - Design a MySQL database (compatibility MySQLi)
 
-3 - Inject the file "inj-MySQL.sql" on your MySQL database
+3 - Inject the file "inj-MySQLi.sql" on your MySQL database
 
 4 - In "www" (root of your site) drop the contents of the project in a file that you will have previously created:
 Example:
