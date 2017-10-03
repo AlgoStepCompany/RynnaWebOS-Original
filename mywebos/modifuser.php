@@ -101,6 +101,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST
          $newusername = mysqli_real_escape_string($db, $newusername);
          $newemail = mysqli_real_escape_string($db, $newemail);
          $newfullname = mysqli_real_escape_string($db, $newfullname);
+		 // BDD X table rynnawebos (EDIT)
          $sql = "UPDATE `".$mysql_table."` SET `username` = '$newusername', `fullname` = '$newfullname', `email` = '$newemail' WHERE `username` = '$oldusername'";
          mysqli_query($db, $sql);
          if (!empty($newpassword))

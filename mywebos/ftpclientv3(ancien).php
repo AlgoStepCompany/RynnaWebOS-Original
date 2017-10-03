@@ -1,5 +1,8 @@
-<?php
-	$rootdir = "games";
+﻿<?php
+	session_start();
+	$rootdir = "en_attente_validation";
+	$imagedir = "images";
+	
 	$imagedir = "images";
 
 	if ( ! is_dir($rootdir) )
@@ -35,7 +38,7 @@
 	// evite tout probleme de securite MAISempeche les nom de rep avec .. dedans
 	$currentdir = str_replace("..", "", $currentdir);
 
-	// on traite les actions spéciales
+	// on traite les actions spÃ©ciales
 	$action = $_GET['action'];
 	switch($action)
 	{
@@ -50,6 +53,21 @@
 			else
 			{
 				$affiche_creer_formulaire = true;
+
+			}
+			break;
+			
+			case "touch":
+			if ( isset($_GET['arg'] ) )
+			{
+				// evite tout probleme de securite MAIS empeche les nom de rep avec .. dedans
+				$touch = str_replace("..", "", $_GET['arg']);
+				umask (0);
+				touch($rootdir . "/" . $currentdir . "/" . $touch);			
+			}
+			else
+			{
+				$affiche_creer_fichier = true;
 
 			}
 			break;
@@ -118,12 +136,12 @@
 <html>
 <head>
 <title>
-	Explorateur de fichier - /<?php echo $currentdir; ?>
+	Proposer votre application - /<?php echo $currentdir; ?>
 </title>
 </head>
 <body>
 
-<BIG><BIG>Gestionnaire de Jeux - /<?php echo $currentdir; ?></BIG></BIG>
+<BIG><BIG>Dossier public (en attente de validation)<?php echo $currentdir; ?></BIG></BIG>
 
 <table border=1 width=100%>
 <tr><td colspan=2>
@@ -131,8 +149,12 @@
 <!-- Toolbar -->
 <table width=100%>
 <tr><td>
-<a href="<? echo $_self . "?path=";  ?>">Racine</a> | 
+<!-- <a href="<? echo $_self . "?path=";  ?>">Racine</a> | -->
+<!-- <a href="<? echo $_self . "?action=mkdir&path=" . urlencode($currentdir); ?>">Creer Repertoire</a> |   -->
+<!-- <a href="<? echo $_self . "?action=touch&path=" . urlencode($currentdir); ?>">Creer Fichier</a> | --> 
+<a href="<? echo $_self . "?action=upload&path=" . urlencode($currentdir); ?>">Uploader</a>
 </td><td align=right>
+WebOS Uploader V3
 </td></tr>
 </table>
 <?php
@@ -146,6 +168,20 @@ if ( $affiche_creer_formulaire )
 	<input type="hidden" name="path" value="<? echo $currentdir ?>" />
 	<input type="hidden" name="action" value="mkdir" />
 	Nom du repertoire : <input type="text" name="arg" value=""/>
+	<input type="submit" value="Creer" />
+	</form>
+	<?php
+}
+
+if ( $affiche_creer_fichier )
+{
+	// affichage du formulaire pour creer un repertoire
+	?>
+	<hr>
+	<form method="get">
+	<input type="hidden" name="path" value="<? echo $currentdir ?>" />
+	<input type="hidden" name="action" value="touch" />
+	Nom du fichier + Extension (ex : nom.txt) : <input type="text" name="arg" value=""/>
 	<input type="submit" value="Creer" />
 	</form>
 	<?php
@@ -187,101 +223,7 @@ if ( $affiche_upload_formulaire )
 ?>
 
 </td></tr>
-<tr>
-<td valign=top width=20%>
-	<!-- Colonne pour les repertoires -->
-	
-	<table border=0 width=100% height=100%>
-	<tr><td colspan=3>
-		<table border=1 width=100%>
-		<tr>
-		<td width=100%><b>Repertoires</b></td>
-		</tr>
-		</table>
-	</td></tr>	
-	<?php
-		$directory = opendir( $rootdir . "/" . $currentdir );
-		while( $dir = readdir($directory) )	
-		{
-			if (is_dir( $rootdir . "/" . $currentdir . "/" . $dir) && $dir != "." )
-			{
-				// on affiche pas le ..  quand on est a la racine
-				if( $currentdir == "" && $dir != ".." || $currentdir != "")
-				{
-					echo "<tr><td width=30 height=30>";
-					echo "<img width=30 height=28 src=\"" . $imagedir . "/dir.png\">";
-					echo "</td><td width=80%>";
-					echo "<a href=\"" . $_self . "?path=" . urlencode($currentdir) . "/" . urlencode($dir) . "\">" . $dir . "</a>";
-					echo "</td><td align=right>&nbsp;";
-					if ( $dir != ".." )
-						//echo "<a href=\"" . $_self . "?action=rm&path=" . urlencode($currentdir) . "/" . urlencode($dir) . "\">X</a>";
-					echo "</td></tr>\n";
-				}
-			}
-		}
-		closedir($directory);
-	?>
-	</table>
-</td>
-<td valign=top width=80%>
-	<!-- Colonne pour les fichiers -->
-
-	<table border=0 width=100% height=100%>
-	<tr><td colspan=3>
-		<table border=1 width=100%>
-		<tr>
-		<td width=75%><b>Noms</b></td>
-		<td width=25% align=right><b>Taille</b></td>
-		</tr>
-		</table>
-	</td></tr>
-	<?php
-
-		$directory = opendir( $rootdir . "/" . $currentdir );
-		$foundone = false;
-		while( $file = readdir($directory) )	
-		{
-			if (is_file($rootdir . "/" . $currentdir . "/" . $file) )
-			{
-				$foundone = true;
-				echo "<tr><td width=30 height=35>";
-			
-				// selon l'extension du fichier
-				$ext = strtolower(substr($file,strrpos($file,".") + 1,strlen($file) - strrpos($file,".")));
-				switch($ext)
-				{
-					case "gif":
-					case "jpg":
-					case "png":
-						echo "<img width=30 height=28 src=\"miniature.php?gd=2&maxw=30&src=" . $rootdir . "/" . urlencode($currentdir) . "/" . urlencode($file) . "\"/>";
-						break;
-					default:
-						if ( is_file( $imagedir . "/" . $ext . ".gif" ) )
-							echo "<img width=30 height=28 src=\"miniature.php?gd=2&maxw=30&src=" . $imagedir . "/" . $ext . ".gif" . "\"/>";
-						else
-							echo strtoupper($ext);
-						break;
-				}
-				echo "</td><td>";
-				echo "<a href=\"" . $rootdir . "/" . $currentdir . "/" . $file . "\">" . $file . "</a>";
-				echo "</td><td align=right width=15%>";
-				echo filesize($rootdir . "/" . $currentdir . "/" . $file );
-				//echo "&nbsp;&nbsp;<a href=\"" . $_self . "?action=rm&path=" . urlencode($currentdir) . "&file=" . urlencode($file) . "\">X</a>";
-				echo "</td></tr>\n";
-			}
-		}
-		closedir($directory);	
-		if ( ! $foundone)
-		{
-			echo "<tr><td colspan=3 align=center><b>Aucun jeux disponibles...</b></td></tr>";
-		}
-	?>
-		
-	</table>
 
 </td>
 </tr>
 </table>
-</body>
-</html>
-

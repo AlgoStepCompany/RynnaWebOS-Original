@@ -37,7 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST
       ini_set('sendmail_from', $mailfrom);
       $subject = 'Recuperation mot de passe WebOS';
 	  // Espace à la fin pour indiquer le nouveau MDP
-      $message = 'Voici votre mot de passe pour votre session Rynna WebOS:   ';
+      $message = 'Voici votre mot de passe pour votre session:   ';
       $message .= $newpassword;
       $header  = "From: passwdrecovery@rynnawebos.fr"."\r\n";
       $header .= "Reply-To: passwdrecovery@rynnawebos.fr"."\r\n";

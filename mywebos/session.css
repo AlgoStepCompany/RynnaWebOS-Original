@@ -3149,19 +3149,6 @@ body
 {
    text-align: center;
 }
-#wb_Text44 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text44 div
-{
-   text-align: left;
-}
 .ui-widget
 {
    font-size: 1em !important;
@@ -3380,17 +3367,6 @@ body
    -moz-box-shadow: none;
    box-shadow: none;
    text-align: left;
-}
-#Button8
-{
-   border: 1px #2E6DA4 solid;
-   border-radius: 4px;
-   background-color: #3370B7;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
 }
 .ui-widget
 {
@@ -5724,52 +5700,6 @@ body
    width: 120px;
    height: auto;
 }
-.ui-widget
-{
-   font-size: 1em !important;
-}
-#jQueryTabs5
-{
-   padding: 4px 4px 4px 4px;
-}
-#jQueryTabs5 .ui-tabs-nav
-{
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   padding: 4px 4px 0px 4px;
-}
-#jQueryTabs5 .ui-tabs-nav li
-{
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-   margin: 0px 2px -1px 0px;
-}
-#jQueryTabs5 .ui-tabs-nav li a
-{
-   padding: 8px 10px 8px 10px;
-}
-#jQueryTabs5, #jQueryTabs5 .ui-corner-all, #jQueryTabs5 .ui-corner-top
-{
-   border-top-left-radius: 6px;
-   border-top-right-radius: 6px;
-}
-#jQueryTabs5, #jQueryTabs5 .ui-corner-all, #jQueryTabs5 .ui-corner-bottom
-{
-   border-bottom-right-radius: 6px;
-   border-bottom-left-radius: 6px;
-}
-#jQueryTabs5 .ui-helper-reset
-{
-   line-height: 16px;
-}
-#jQueryTabs5 .ui-tabs-panel
-{
-   overflow: auto;
-   padding: 0;
-}
 #Button12
 {
    border: 1px #000000 solid;
@@ -6878,54 +6808,6 @@ body
    -moz-box-shadow: none;
    box-shadow: none;
    text-align: left;
-}
-#YouTube1
-{
-   border-width: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#YouTube2
-{
-   border-width: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#YouTube3
-{
-   border-width: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#YouTube4
-{
-   border-width: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#YouTube5
-{
-   border-width: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#YouTube6
-{
-   border-width: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
 }
 #wb_MaterialIcon61
 {
@@ -8135,39 +8017,6 @@ body
 {
    color: #DCDCDC;
 }
-#wb_MaterialIcon19
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #245580 solid;
-   text-align: center;
-   padding: 0px 0px 0px 0px;
-   vertical-align: top;
-}
-#wb_MaterialIcon19:hover
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #245580 solid;
-}
-#MaterialIcon19
-{
-   height: 36px;
-   width: 36px;
-}
-#MaterialIcon19 i
-{
-   color: #FFA500;
-   display: inline-block;
-   font-size: 36px;
-   line-height: 36px;
-   vertical-align: middle;
-   width: 36px;
-}
-#wb_MaterialIcon19:hover i
-{
-   color: #FFD700;
-}
 #wb_MaterialIcon28
 {
    background-color: transparent;
@@ -8199,12 +8048,12 @@ body
 }
 #wb_MaterialIcon28:hover i
 {
-   color: #FF4500;
+   color: #FFD700;
 }
 #Layer23
 {
    background-color: transparent;
-   background-image: url(images/astuces.jpg);
+   background-image: url(images/astuces-minim.jpg);
    background-repeat: no-repeat;
    background-position: center center;
    background-size: 100% 100%;
@@ -8424,19 +8273,11 @@ body
 }
 #Layer27
 {
-   background-color: #000000;
+   background-color: #191919;
    background-image: none;
    border: 1px #696969 solid;
    filter: alpha(opacity=90);
    opacity: 0.90;
-}
-#Layer28
-{
-   background-color: transparent;
-   background-image: url(images/CPj1cLq.gif);
-   background-repeat: no-repeat;
-   background-position: left top;
-   background-size: 100% 100%;
 }
 #Layer29
 {
@@ -8999,4 +8840,156 @@ body
 .jQueryDialog82, .jQueryDialog82 .ui-corner-all
 {
    border-radius: 0px;
+}
+#wb_Text28 
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 2px #FFA500 solid;
+   border-radius: 1px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text28 div
+{
+   text-align: left;
+}
+#Layer28
+{
+   background-color: transparent;
+   background-image: url(images/19-1.gif);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: 100% 100%;
+   filter: alpha(opacity=90);
+   opacity: 0.90;
+}
+#wb_MaterialIcon19
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+}
+#wb_MaterialIcon19:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#MaterialIcon19
+{
+   height: 36px;
+   width: 36px;
+}
+#MaterialIcon19 i
+{
+   color: #FFA500;
+   display: inline-block;
+   font-size: 36px;
+   line-height: 36px;
+   vertical-align: middle;
+   width: 36px;
+}
+#wb_MaterialIcon19:hover i
+{
+   color: #FFD700;
+}
+#wb_MaterialIcon18
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+}
+#wb_MaterialIcon18:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#MaterialIcon18
+{
+   height: 36px;
+   width: 36px;
+}
+#MaterialIcon18 i
+{
+   color: #FFA500;
+   display: inline-block;
+   font-size: 36px;
+   line-height: 36px;
+   vertical-align: middle;
+   width: 36px;
+}
+#wb_MaterialIcon18:hover i
+{
+   color: #FF4500;
+}
+.jQueryToolTip12
+{
+   background-image: none;
+   background-color: #FFFFFF;
+   border: 1px #CCCCCC solid !important;
+   border-radius: 0px;
+   padding: 4px 4px 4px 4px;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+   box-shadow: none;
+   text-align: left;
+}
+#Layer32
+{
+   background-color: transparent;
+   background-image: url(images/loading2.gif);
+   background-repeat: no-repeat;
+   background-position: left top;
+   background-size: 100% 100%;
+}
+.ui-widget
+{
+   font-size: 1em !important;
+}
+.jQueryDialog83.ui-dialog
+{
+   padding: 4px 4px 4px 4px;
+}
+.jQueryDialog83.ui-dialog .ui-dialog-title
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   color: #FFFFFF;
+}
+.jQueryDialog83.ui-dialog .ui-widget-header
+{
+   padding: 10px 10px 10px 30px;
+}
+.ui-dialog .ui-dialog-titlebar-close
+{
+   outline: 0;
+   right: 10px;
+}
+.jQueryDialog83, .jQueryDialog83 .ui-corner-all
+{
+   border-radius: 0px;
+}
+#CmsLabel1
+{
+   border: 1px #C0C0C0 solid;
+   background-color: #FFFFFF;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: middle;
+   line-height: 330px;
 }
