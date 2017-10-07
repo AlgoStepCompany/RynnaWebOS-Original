@@ -224,8 +224,8 @@ $(document).ready(function()
 <input type="submit" id="Button5" onclick="window.location.href='./demosession.php';return false;" name="" value="Ouvrir une session de démonstration (limitée)" style="position:absolute;left:19px;top:253px;width:588px;height:25px;z-index:19;">
 </div>
 </div>
-<div id="wb_Text10" style="position:absolute;left:7px;top:7px;width:250px;height:44px;z-index:21;">
-<span style="color:#000000;font-family:Arial;font-size:13px;"><em>Version 9.9b (Release)<br>Desktop Virtual Manager (DVM)<br></em></span><span style="color:#000000;font-family:Arial;font-size:9.3px;"><em>PHP 7, CSS 3, JQuery 3.1.1</em></span></div>
+<div id="wb_Text10" style="position:absolute;left:7px;top:7px;width:250px;height:56px;z-index:21;">
+<span style="color:#000000;font-family:Arial;font-size:13px;"><em>Version 10.0 (Release)<br>Desktop Virtual Manager (DVM)<br></em></span><span style="color:#000000;font-family:Arial;font-size:9.3px;"><em>PHP 7, CSS 3, JQuery 3.1.1<br>SOLARIS</em></span></div>
 <div id="Layer1" style="position:absolute;text-align:center;left:277px;top:564px;width:393px;height:83px;z-index:22;">
 <div id="Layer1_Container" style="width:393px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 </div>
@@ -238,8 +238,8 @@ $(document).ready(function()
 <div id="Layer6_Container" style="width:100px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 </div>
 </div>
-<div id="Layer4" style="position:absolute;text-align:center;left:284px;top:12px;width:464px;height:105px;z-index:25;" onmouseenter="TimerStartTimer4();return false;" onmouseleave="ShowObject('wb_Image2', 0);TimerStopTimer4();return false;">
-<div id="Layer4_Container" style="width:464px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="Layer4" style="position:absolute;text-align:center;left:284px;top:12px;width:459px;height:116px;z-index:25;" onmouseenter="TimerStartTimer4();return false;" onmouseleave="ShowObject('wb_Image2', 0);TimerStopTimer4();return false;">
+<div id="Layer4_Container" style="width:459px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 </div>
 </div>
 <div id="wb_Image2" style="position:absolute;left:592px;top:52px;width:379px;height:515px;z-index:26;">

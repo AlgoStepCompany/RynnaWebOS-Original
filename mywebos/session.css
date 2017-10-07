@@ -8957,6 +8957,9 @@ body
 }
 .jQueryDialog83.ui-dialog
 {
+   background-color: #4169E1;
+   background-image: none;
+   border: 1px solid #FFFFFF;
    padding: 4px 4px 4px 4px;
 }
 .jQueryDialog83.ui-dialog .ui-dialog-title
@@ -8969,6 +8972,9 @@ body
 }
 .jQueryDialog83.ui-dialog .ui-widget-header
 {
+   background-color: #4F4F4F;
+   background-image: none;
+   border: 1px solid #4169E1;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -8980,16 +8986,330 @@ body
 {
    border-radius: 0px;
 }
-#CmsLabel1
+#Button5
 {
-   border: 1px #C0C0C0 solid;
-   background-color: #FFFFFF;
+   border: 1px #FFFFFF solid;
+   border-radius: 4px;
+   background-color: #3370B7;
    background-image: none;
-   color :#000000;
+   color: #FFFFFF;
    font-family: Arial;
    font-weight: normal;
    font-size: 13px;
-   text-align: left;
+}
+#wb_FontAwesomeIcon6
+{
+   background-color: transparent;
+   background-image: none;
+   border: 2px #FFFFFF solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+}
+#wb_FontAwesomeIcon6:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 2px #FFFFFF solid;
+}
+#FontAwesomeIcon6
+{
+   height: 42px;
+   width: 964px;
+}
+#FontAwesomeIcon6 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 42px;
+   line-height: 42px;
    vertical-align: middle;
-   line-height: 330px;
+   width: 41px;
+}
+#wb_FontAwesomeIcon6:hover i
+{
+   color: #FFFFFF;
+}
+#wb_Text44 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text44 div
+{
+   text-align: left;
+}
+.ui-widget
+{
+   font-size: 1em !important;
+}
+.jQueryDialog84.ui-dialog
+{
+   background-color: #4169E1;
+   background-image: none;
+   border: 1px solid #FFFFFF;
+   padding: 4px 4px 4px 4px;
+}
+.jQueryDialog84.ui-dialog .ui-dialog-title
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   color: #FFFFFF;
+}
+.jQueryDialog84.ui-dialog .ui-widget-header
+{
+   background-color: #4F4F4F;
+   background-image: none;
+   border: 1px solid #4169E1;
+   padding: 10px 10px 10px 30px;
+}
+.ui-dialog .ui-dialog-titlebar-close
+{
+   outline: 0;
+   right: 10px;
+}
+.jQueryDialog84, .jQueryDialog84 .ui-corner-all
+{
+   border-radius: 0px;
+}
+#wb_Text50 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text50 div
+{
+   text-align: left;
+}
+#wb_FontAwesomeIcon8
+{
+   background-color: transparent;
+   background-image: none;
+   border: 2px #FFFFFF solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+}
+#wb_FontAwesomeIcon8:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 2px #FFFFFF solid;
+}
+#FontAwesomeIcon8
+{
+   height: 42px;
+   width: 964px;
+}
+#FontAwesomeIcon8 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 42px;
+   line-height: 42px;
+   vertical-align: middle;
+   width: 53px;
+}
+#wb_FontAwesomeIcon8:hover i
+{
+   color: #FFFFFF;
+}
+#MediaPlayer1
+{
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+.ui-widget
+{
+   font-size: 1em !important;
+}
+.jQueryDialog85.ui-dialog
+{
+   padding: 4px 4px 4px 4px;
+}
+.jQueryDialog85.ui-dialog .ui-dialog-title
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   color: #FFFFFF;
+}
+.jQueryDialog85.ui-dialog .ui-widget-header
+{
+   padding: 10px 10px 10px 30px;
+}
+.ui-dialog .ui-dialog-titlebar-close
+{
+   outline: 0;
+   right: 10px;
+}
+.jQueryDialog85, .jQueryDialog85 .ui-corner-all
+{
+   border-radius: 0px;
+}
+#wb_Text74 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text74 div
+{
+   text-align: left;
+}
+#MediaPlayer2
+{
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+.ui-widget
+{
+   font-size: 1em !important;
+}
+.jQueryDialog86.ui-dialog
+{
+   background-color: #4169E1;
+   background-image: none;
+   border: 1px solid #FFFFFF;
+   padding: 4px 4px 4px 4px;
+}
+.jQueryDialog86.ui-dialog .ui-dialog-title
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   color: #FFFFFF;
+}
+.jQueryDialog86.ui-dialog .ui-widget-header
+{
+   background-color: #4F4F4F;
+   background-image: none;
+   border: 1px solid #4169E1;
+   padding: 10px 10px 10px 30px;
+}
+.ui-dialog .ui-dialog-titlebar-close
+{
+   outline: 0;
+   right: 10px;
+}
+.jQueryDialog86, .jQueryDialog86 .ui-corner-all
+{
+   border-radius: 0px;
+}
+#wb_FontAwesomeIcon9
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #FFFFFF solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+}
+#wb_FontAwesomeIcon9:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #FFFFFF solid;
+}
+#FontAwesomeIcon9
+{
+   height: 131px;
+   width: 238px;
+}
+#FontAwesomeIcon9 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 131px;
+   line-height: 131px;
+   vertical-align: middle;
+   width: 168px;
+}
+#wb_FontAwesomeIcon9:hover i
+{
+   color: #FFFFFF;
+}
+#Button8
+{
+   border: 1px #2E6DA4 solid;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}
+#MediaPlayer3
+{
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#MediaPlayer4
+{
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#MediaPlayer5
+{
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Button43
+{
+   border: 1px #2E6DA4 solid;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}
+#Button44
+{
+   border: 1px #2E6DA4 solid;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}
+#Button45
+{
+   border: 1px #2E6DA4 solid;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
 }

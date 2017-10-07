@@ -185,7 +185,7 @@ $(document).ready(function()
    $("#jQueryDialog3").dialog(jQueryDialog3Options);
    var jQueryDialog4Options =
    {
-      width: 425,
+      width: 400,
       height: 509,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
@@ -1134,7 +1134,7 @@ $(document).ready(function()
    var jQueryDialog67Options =
    {
       width: 901,
-      height: 319,
+      height: 341,
       position: { my: 'left top', at: 'right bottom', of: window },
       resizable: false,
       draggable: true,
@@ -1242,8 +1242,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#Layer8").stickylayer({orientation: 9, position: [0, 0], delay: 1});
    var jQueryDialog32Options =
    {
-      width: 653,
-      height: 587,
+      width: 770,
+      height: 634,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1254,15 +1254,15 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
       classes: { 'ui-dialog': 'jQueryDialog32'} 
    };
    $("#jQueryDialog32").dialog(jQueryDialog32Options);
-   $("#Layer12").stickylayer({orientation: 6, position: [15, 0], delay: 0});
-   $("#Layer13").stickylayer({orientation: 6, position: [15, 0], delay: 0});
-   $("#Layer14").stickylayer({orientation: 6, position: [15, 0], delay: 0});
-   $("#Layer15").stickylayer({orientation: 6, position: [15, 0], delay: 0});
-   $("#Layer16").stickylayer({orientation: 6, position: [15, 0], delay: 0});
-   $("#Layer17").stickylayer({orientation: 6, position: [15, 0], delay: 0});
-   $("#Layer18").stickylayer({orientation: 6, position: [15, 0], delay: 0});
-   $("#Layer19").stickylayer({orientation: 6, position: [15, 0], delay: 0});
-   $("#Layer20").stickylayer({orientation: 6, position: [15, 0], delay: 0});
+   $("#Layer12").stickylayer({orientation: 6, position: [20, 0], delay: 0});
+   $("#Layer13").stickylayer({orientation: 6, position: [20, 0], delay: 0});
+   $("#Layer14").stickylayer({orientation: 6, position: [20, 0], delay: 0});
+   $("#Layer15").stickylayer({orientation: 6, position: [20, 0], delay: 0});
+   $("#Layer16").stickylayer({orientation: 6, position: [20, 0], delay: 0});
+   $("#Layer17").stickylayer({orientation: 6, position: [20, 0], delay: 0});
+   $("#Layer18").stickylayer({orientation: 6, position: [20, 0], delay: 0});
+   $("#Layer19").stickylayer({orientation: 6, position: [20, 0], delay: 0});
+   $("#Layer20").stickylayer({orientation: 6, position: [20, 0], delay: 0});
    var jQueryDialog52Options =
    {
       width: 257,
@@ -1552,27 +1552,62 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#Layer32").stickylayer({orientation: 9, position: [0, 0], delay: 0});
    var jQueryDialog83Options =
    {
-      width: 626,
-      height: 400,
+      width: 1009,
+      height: 552,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
       closeOnEscape: true,
-      show: 'fade',
       hide: 'fade',
       autoOpen: false,
       classes: { 'ui-dialog': 'jQueryDialog83'} 
    };
    $("#jQueryDialog83").dialog(jQueryDialog83Options);
+   var jQueryDialog84Options =
+   {
+      width: 684,
+      height: 404,
+      position: { my: 'center', at: 'center', of: window },
+      resizable: true,
+      draggable: true,
+      closeOnEscape: true,
+      autoOpen: false,
+      classes: { 'ui-dialog': 'jQueryDialog84'} 
+   };
+   $("#jQueryDialog84").dialog(jQueryDialog84Options);
+   var jQueryDialog85Options =
+   {
+      width: 1009,
+      height: 692,
+      position: { my: 'center', at: 'center', of: window },
+      resizable: false,
+      draggable: false,
+      closeOnEscape: false,
+      autoOpen: false,
+      classes: { 'ui-dialog': 'jQueryDialog85'} 
+   };
+   $("#jQueryDialog85").dialog(jQueryDialog85Options);
+   var jQueryDialog86Options =
+   {
+      width: 296,
+      height: 582,
+      position: { my: 'left top', at: 'right bottom', of: window },
+      resizable: false,
+      draggable: true,
+      closeOnEscape: true,
+      autoOpen: false,
+      classes: { 'ui-dialog': 'jQueryDialog86'} 
+   };
+   $("#jQueryDialog86").dialog(jQueryDialog86Options);
    $('img[data-src]').lazyload();
 });
 </script>
 <!-- Insert Google Analytics code here -->
 </head>
 <body>
-<div id="Layer21" style="position:fixed;text-align:left;left:0;right:0;bottom:0;height:15px;z-index:492;" onmouseenter="ShowObject('Layer22', 1);AnimateCss('Layer22', 'animate-fade-in', 5, 500);return false;">
+<div id="Layer21" style="position:fixed;text-align:left;left:0;right:0;bottom:0;height:15px;z-index:508;" onmouseenter="ShowObject('Layer22', 1);AnimateCss('Layer22', 'animate-fade-in', 5, 500);return false;">
 </div>
-<div id="Layer1" style="position:absolute;text-align:center;left:2202px;top:1387px;width:755px;height:436px;z-index:493;">
+<div id="Layer1" style="position:absolute;text-align:center;left:2202px;top:1387px;width:755px;height:436px;z-index:509;">
 <div id="Layer1_Container" style="width:755px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="jQueryTabs1" style="position:absolute;left:0px;top:0px;width:745px;height:426px;z-index:5;">
 <ul>
@@ -1586,6 +1621,18 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 <div id="wb_Text86" style="position:absolute;left:23px;top:151px;width:689px;height:16px;z-index:2;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Ci-dessous retrouvez les dernières mises à jour de votre WebOS. Seul les 6 dernières mises à jours sont indiqués&nbsp;:</span></div>
 <div id="Blog1" style="overflow-y:scroll;position:absolute;left:23px;top:195px;width:689px;height:171px;z-index:3;">
+<div class="blogitem">
+   <span class="blogsubject">Version 10.0</span>
+   <div class="no-thumb"></div>
+   <div class="blogdate">06/10/17<br></div>
+   <span style="color:#000000;">- Version 10.0 étape fixe, le nom de code du projet est désormais SOLARIS !<br>
+- Ajustement de certaines fenêtres, styles CSS, variables, et ApplisWeb basiques<br>
+- Les scripts PHP liés au changement de fonds d'écran ont été supprimés ; aucune solution directe n'a été trouvée pour le moment, les nouvelles options de sauvegarde des fonds d'écran par session personnelle seront donc re-travailler et installés après la version 10.0<br>
+- Masquage des icones et fonctions Javascript<br>
+- Correction orthographique maximum sur les programmes internes à session.php</span><br>
+   <div class="blogcomments"></div>
+</div>
+<div class="clearfix visible-col1"></div>
 <div class="blogitem">
    <span class="blogsubject">Version 9.9b</span>
    <div class="no-thumb"></div>
@@ -1641,14 +1688,6 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 - Suppression de l'option Redémarrer la Session (à présent une simple actualisation de page (F5 au clavier) permet de re-charger le contenu)<br>
 - Scripts Webcam Flash, contenu appelé en Always-Scripts à présent pour une meilleur compatibilité sur différent navigateur<br>
 - Fenêtre des Widgets correctement replacé sur l'axe X (coordonnées xem286)</span><br>
-   <div class="blogcomments"></div>
-</div>
-<div class="clearfix visible-col1"></div>
-<div class="blogitem">
-   <span class="blogsubject">Version 9.7b</span>
-   <div class="no-thumb"></div>
-   <div class="blogdate">12/09/17<br></div>
-   <span style="color:#000000;">- Ajout de nouveaux fonds d'écran par défaut (disponible par double clique sur le bureau puis choisir &quot;Changer fond écran&quot;)</span><br>
    <div class="blogcomments"></div>
 </div>
 <div class="clearfix visible-col1"></div>
@@ -1888,7 +1927,7 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 </div>
 </div>
 
-<div id="jQueryDialog3" style="z-index:501;" title="Mes applications install&#233;es (Applis G&#233;n&#233;rales)">
+<div id="jQueryDialog3" style="z-index:517;" title="Mes applications install&#233;es (Applis G&#233;n&#233;rales)">
 <div id="wb_Image4" style="position:absolute;left:80px;top:9px;width:87px;height:86px;z-index:29;">
 <a href="#" onclick="$('#jQueryDialog27').dialog('open');return false;"><img src="images/img0007.png" id="Image4" alt=""></a></div>
 <div id="wb_FontAwesomeIcon17" style="position:absolute;left:177px;top:21px;width:51px;height:56px;text-align:center;z-index:30;">
@@ -1977,11 +2016,11 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 <span style="color:#000000;font-family:Arial;font-size:12px;">Notes Generator</span></div>
 </div>
 
-<div id="jQueryDialog4" style="z-index:502;" title="Calculatrice (system/program/calculatrice)">
+<div id="jQueryDialog4" style="z-index:518;" title="Calculatrice (system/program/calculatrice)">
 <object data="addeosapps/calc.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
-<div id="jQueryDialog5" style="z-index:503;" title="Explorateur de fichiers - Votre espace personnel (50 Go maximum)">
+<div id="jQueryDialog5" style="z-index:519;" title="Explorateur de fichiers - Votre espace personnel (50 Go maximum)">
 <div id="jQueryTabs2" style="position:absolute;left:7px;top:9px;width:956px;height:519px;z-index:76;">
 <ul>
 <li><a href="#jquerytabs2-page-0"><span>Onglet 1</span></a></li>
@@ -2006,15 +2045,15 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 </div>
 </div>
 
-<div id="jQueryDialog8" style="z-index:504;" title="Navigateur web Qwant (all&#233;g&#233;, sans onglet)">
+<div id="jQueryDialog8" style="z-index:520;" title="Navigateur web Qwant (all&#233;g&#233;, sans onglet)">
 <object data="addeosapps/navigateur.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
-<div id="jQueryDialog14" style="z-index:505;" title="Editeur de texte (FullPro CK Series 2016)">
+<div id="jQueryDialog14" style="z-index:521;" title="Editeur de texte (FullPro CK Series 2016)">
 <object data="system/program/texteditor/editor.html" type="text/html" width="100%" height="100%" style="overflow:auto" ></object>
 </div>
 
-<div id="jQueryDialog19" style="z-index:506;" title="Rynna Search (Rechercher une page du WebOS)">
+<div id="jQueryDialog19" style="z-index:522;" title="Rynna Search (Rechercher une page du WebOS)">
 <form name="SiteSearch1_form" id="SiteSearch1_form" accept-charset="UTF-8" onsubmit="return searchPage(features)">
 <input type="text" id="SiteSearch1" style="position:absolute;left:130px;top:49px;width:350px;height:20px;line-height:20px;z-index:79;" name="SiteSearch1" value="" spellcheck="false" placeholder="Rechercher un programme, une fen&#234;tre, un script"></form>
 <div id="SiteSearch1_dialog" title="Resultats"></div>
@@ -2023,22 +2062,22 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 <a href="#" onclick="AnimateCss('wb_FontAwesomeIcon19', 'transform-3d-flip-in-y', 0, 1200);return false;"><div id="FontAwesomeIcon20"><i class="fa fa-tencent-weibo">&nbsp;</i></div></a></div>
 </div>
 
-<div id="jQueryDialog23" style="z-index:507;" title="Jeu de Hasard (system/program/dee)">
+<div id="jQueryDialog23" style="z-index:523;" title="Jeu de Hasard (system/program/dee)">
 <object data="addeosapps/deeint.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
-<div id="jQueryDialog28" style="z-index:508;" title="WordPad - Editeur de texte avanc&#233;">
+<div id="jQueryDialog28" style="z-index:524;" title="WordPad - Editeur de texte avanc&#233;">
 <object data="addeosapps/wordpad.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
-<div id="jQueryDialog7" style="z-index:509;" title="Informations sur votre location - M&#233;t&#233;o temps r&#233;el [HTTPS non compatible]">
+<div id="jQueryDialog7" style="z-index:525;" title="Informations sur votre location - M&#233;t&#233;o temps r&#233;el [HTTPS non compatible]">
 <object data="addeosapps/meteo.php" type="text/html" width="100%" height="100%" style="overflow:auto" ></object>
 </div>
 
 
 
 
-<div id="jQueryDialog11" style="z-index:513;" title="Param&#232;tres et aides suppl&#233;mentaires">
+<div id="jQueryDialog11" style="z-index:529;" title="Param&#232;tres et aides suppl&#233;mentaires">
 <div id="wb_MaterialIcon5" style="position:absolute;left:26px;top:24px;width:116px;height:118px;text-align:center;z-index:85;">
 <a href="#" onclick="$('#jQueryDialog32').dialog('open');$('#jQueryDialog11').dialog('close');return false;"><div id="MaterialIcon5"><i class="material-icons">&#xe88f;</i></div></a></div>
 <div id="wb_Text1" style="position:absolute;left:22px;top:150px;width:124px;height:36px;text-align:center;z-index:86;">
@@ -2081,7 +2120,7 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 <span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>Changer de langues</strong></span></div>
 </div>
 
-<div id="jQueryDialog33" style="z-index:514;" title="Test de votre connexion internet">
+<div id="jQueryDialog33" style="z-index:530;" title="Test de votre connexion internet">
 <div id="wb_MaterialIcon14" style="position:absolute;left:4px;top:10px;width:37px;height:37px;text-align:center;z-index:105;">
 <a href="#" onclick="$('#jQueryDialog11').dialog('open');$('#jQueryDialog33').dialog('close');return false;"><div id="MaterialIcon14"><i class="material-icons">&#xe5cb;</i></div></a></div>
 <div id="wb_Text33" style="position:absolute;left:23px;top:56px;width:639px;height:16px;z-index:106;">
@@ -2094,15 +2133,15 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 
 
 
-<div id="jQueryDialog41" style="z-index:517;" title="Gestionnaire de Jeux">
+<div id="jQueryDialog41" style="z-index:533;" title="Gestionnaire de Jeux">
 <object data="gamemanager.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
-<div id="jQueryDialog20" style="z-index:518;" title="D&#233;part RER SNCF par ville (system/program/sncfappli) [HTTPS non compatible]">
+<div id="jQueryDialog20" style="z-index:534;" title="D&#233;part RER SNCF par ville (system/program/sncfappli) [HTTPS non compatible]">
 <object data="addeosapps/sncf.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
-<div id="jQueryDialog16" style="z-index:519;" title="StreetView">
+<div id="jQueryDialog16" style="z-index:535;" title="StreetView">
 <iframe
   width="100%"
   height="100%"
@@ -2113,7 +2152,7 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 </iframe>
 </div>
 
-<div id="jQueryDialog12" style="z-index:520;" title="Applications virtualis&#233;es">
+<div id="jQueryDialog12" style="z-index:536;" title="Applications virtualis&#233;es">
 <div id="wb_jQueryAccordion1" style="position:absolute;left:9px;top:11px;width:777px;height:430px;z-index:120;">
 <div id="jQueryAccordion1">
 <h3>Origine Windows</h3>
@@ -2150,26 +2189,26 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 </div>
 </div>
 
-<div id="jQueryDialog27" style="z-index:521;" title="Docteur Flashy - Analyse de votre ordinateur">
+<div id="jQueryDialog27" style="z-index:537;" title="Docteur Flashy - Analyse de votre ordinateur">
 <iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
    src="addeosapps/doctorflashy.php">
 </iframe>
 </div>
 
-<div id="jQueryDialog10" style="z-index:522;" title="Chat WebOS (Publique)">
+<div id="jQueryDialog10" style="z-index:538;" title="Chat WebOS (Publique)">
 <!-- Debut shoutbox - https://www.i-tchat.com -->
 <iframe src="https://www.i-tchat.com/shoutbox/shoutbox.php?idShoutbox=130310" width="100%" height="100%" frameborder="0" allowtransparency="true" >Votre navigateur semble incompatible, essayez d'ouvrir le <a href="https://www.i-tchat.com" title="tchat" onClick="window.open(this.href+'?130310');">tchat</a>, ou rencontrez le webmaster pour plus d'informations.</iframe>
 <br />Agrandir le <a href="https://www.i-tchat.com/?130310" onClick="window.open(this.href);return false;">chat</a> .
 <!-- Fin shoutbox -->
 </div>
 
-<div id="jQueryDialog29" style="z-index:523;" title="AVERTISSEMENT">
+<div id="jQueryDialog29" style="z-index:539;" title="AVERTISSEMENT">
 <div id="wb_Text6" style="position:absolute;left:13px;top:16px;width:379px;height:272px;z-index:132;">
 <span style="color:#000000;font-family:Arial;font-size:15px;">AVERTISSEMENT concernant l'utilisation du Chat publique.<br><br>Ce Chat vous permet de discuter entre tout les utilisateurs en ligne du WebOS.<br><br>Veuillez être polis et respectueux.<br>Toutes personnes utilisant le Chat en étant grossier, malveillants ou en publiant des choses illégales verra son compte fermé et son IP banni.<br><br>Nous autorisons la publicité sur ce Chat pour faire partager vos projets, vos actions ou votre entreprise, mais veuillez ne pas en abuser.<br><br>Merci pour votre compréhension.</span></div>
 <input type="submit" id="Button6" onclick="$('#jQueryDialog10').dialog('open');$('#jQueryDialog29').dialog('close');return false;" name="" value="J'accepte les conditions" style="position:absolute;left:15px;top:309px;width:374px;height:25px;z-index:133;">
 </div>
 
-<div id="jQueryDialog36" style="z-index:524;" title="Configuration clavier">
+<div id="jQueryDialog36" style="z-index:540;" title="Configuration clavier">
 <div id="wb_MaterialIcon17" style="position:absolute;left:4px;top:10px;width:37px;height:37px;text-align:center;z-index:134;">
 <a href="#" onclick="$('#jQueryDialog11').dialog('open');$('#jQueryDialog36').dialog('close');return false;"><div id="MaterialIcon17"><i class="material-icons">&#xe5cb;</i></div></a></div>
 <div id="wb_Text35" style="position:absolute;left:73px;top:19px;width:249px;height:16px;z-index:135;">
@@ -2193,7 +2232,7 @@ var larg = screen.width;
 var haut = screen.height;
 }
 
-document.write("Cette fenêtre fait " + larg + " de large et "+haut+" de haut");
+document.write("Cette fenêtre de navigateur fait " + larg + " de large et "+haut+" de haut");
 
 </script>
 
@@ -2205,7 +2244,7 @@ document.write("<div style='font-family:Arial;font-size:12px;color:#000000;text-
 </html> </div>
 </div>
 
-<div id="jQueryDialog37" style="z-index:525;" title="Configuration de votre interface personnelle">
+<div id="jQueryDialog37" style="z-index:541;" title="Configuration de votre interface personnelle">
 <div id="jQueryTabs3" style="position:absolute;left:13px;top:13px;width:676px;height:495px;z-index:179;">
 <ul>
 <li><a href="#jquerytabs3-page-0"><span>Defauts</span></a></li>
@@ -2228,17 +2267,6 @@ document.write("<div style='font-family:Arial;font-size:12px;color:#000000;text-
 function myFunction1() {
     document.body.style.backgroundColor = "#f3f3f3";
     document.body.style.backgroundImage = "url('backgroundimage/B00img901.jpg')";
-        <?php 
-    $ouverture1 = opendir ('home/' . $_SESSION['username']); 
-    unlink ('home/' . $_SESSION['username'] . '/mybg.jpg'); 
-    $file1 = 'backgroundimage/B00img901.jpg'; 
-    $newfile1 = 'home/' . $_SESSION['username'] . '/mybg.jpg';
-
-    if (!copy($file1, $newfile1)) {
-    echo "La copie du fichier a échoué mais le fond écran a été appliqué...\n"; 
-    }
-   closedir ($ouverture1);
-   ?>
 }
 </script>
 
@@ -2259,17 +2287,6 @@ function myFunction1() {
 function myFunction4() {
     document.body.style.backgroundColor = "#f3f3f3";
     document.body.style.backgroundImage = "url('backgroundimage/B03img904.jpg')";
-    <?php 
-    $ouverture2 = opendir ('home/' . $_SESSION['username']); 
-    unlink ('home/' . $_SESSION['username'] . '/mybg.jpg'); 
-    $file2 = 'backgroundimage/B03img904.jpg'; 
-    $newfile2 = 'home/' . $_SESSION['username'] . '/mybg.jpg';
-
-    if (!copy($file2, $newfile2)) {
-    echo "La copie du fichier a échoué mais le fond écran a été appliqué...\n"; 
-    }
-   closedir ($ouverture2);
-   ?>
 }
 
 </script>
@@ -2887,21 +2904,21 @@ function myFunctionmovies1114() {
 </div>
 </div>
 
-<div id="jQueryDialog38" style="z-index:526;" title="Calendrier d&#233;taill&#233;">
+<div id="jQueryDialog38" style="z-index:542;" title="Calendrier d&#233;taill&#233;">
 <iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
    src="http://www.2017calendrier.fr/">
 </iframe><br />
 </div>
 
-<div id="jQueryDialog25" style="z-index:527;" title="Calculateur Euro (system/program/eurocalc)">
+<div id="jQueryDialog25" style="z-index:543;" title="Calculateur Euro (system/program/eurocalc)">
 <object data="addeosapps/calceuro.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
-<div id="jQueryDialog24" style="z-index:528;" title="Horloge interactive (system/program/horloge)">
+<div id="jQueryDialog24" style="z-index:544;" title="Horloge interactive (system/program/horloge)">
 <object data="addeosapps/horlogeint.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
-<div id="jQueryDialog34" style="z-index:529;" title="Affichage de votre adresse IP [Ne fonctionne pas en HHTPS]">
+<div id="jQueryDialog34" style="z-index:545;" title="Affichage de votre adresse IP [Ne fonctionne pas en HHTPS]">
 <div id="wb_MaterialIcon15" style="position:absolute;left:4px;top:10px;width:37px;height:37px;text-align:center;z-index:183;">
 <a href="#" onclick="$('#jQueryDialog11').dialog('open');$('#jQueryDialog34').dialog('close');return false;"><div id="MaterialIcon15"><i class="material-icons">&#xe5cb;</i></div></a></div>
 <div id="Html21" style="position:absolute;left:51px;top:10px;width:666px;height:153px;z-index:184">
@@ -2913,7 +2930,7 @@ echo $_SERVER["REMOTE_ADDR"];
 ?></div>
 </div>
 
-<div id="jQueryDialog39" style="z-index:530;" title="Verification de la protection">
+<div id="jQueryDialog39" style="z-index:546;" title="Verification de la protection">
 <div id="wb_MaterialIcon20" style="position:absolute;left:4px;top:10px;width:37px;height:37px;text-align:center;z-index:185;">
 <a href="#" onclick="$('#jQueryDialog11').dialog('open');$('#jQueryDialog39').dialog('close');return false;"><div id="MaterialIcon20"><i class="material-icons">&#xe5cb;</i></div></a></div>
 <div id="wb_MaterialIcon21" style="position:absolute;left:48px;top:10px;width:106px;height:100px;text-align:center;z-index:186;">
@@ -2922,18 +2939,18 @@ echo $_SERVER["REMOTE_ADDR"];
 <span style="color:#000000;font-family:Arial;font-size:13px;">Ce serveur utilise par défaut une protection générale contre les programmes malveillants.<br>Le serveur par défaut rynnawebos.fr chez 1and1 permet également de protéger le serveur des attaques DDoS et PingOfDeath.</span></div>
 </div>
 
-<div id="jQueryDialog40" style="z-index:531;" title="Editeur 3D Tridiv CSS 3">
+<div id="jQueryDialog40" style="z-index:547;" title="Editeur 3D Tridiv CSS 3">
 <object data="addeosapps/tridiv3d.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
-<div id="jQueryDialog35" style="z-index:532;" title="Supprimer votre compte">
+<div id="jQueryDialog35" style="z-index:548;" title="Supprimer votre compte">
 <div id="wb_Text34" style="position:absolute;left:12px;top:61px;width:377px;height:112px;z-index:189;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Pour supprimer votre compte pour l'instant vous devez écrire un mail à support@rynnawebos.fr<br><br>Votre compte sera alors supprimé (ainsi que vos fichiers hébergés) dans les 72 heures.<br><br>Merci pour votre patience.</span></div>
 <div id="wb_MaterialIcon16" style="position:absolute;left:4px;top:10px;width:37px;height:37px;text-align:center;z-index:190;">
 <a href="#" onclick="$('#jQueryDialog11').dialog('open');$('#jQueryDialog35').dialog('close');return false;"><div id="MaterialIcon16"><i class="material-icons">&#xe5cb;</i></div></a></div>
 </div>
 
-<div id="jQueryDialog42" style="z-index:533;" title="Applications d&#39;Entreprise">
+<div id="jQueryDialog42" style="z-index:549;" title="Applications d&#39;Entreprise">
 <div id="wb_Image25" style="position:absolute;left:130px;top:17px;width:173px;height:119px;z-index:191;">
 <img src="images/logoentreprisesource.png" id="Image25" alt=""></div>
 <div id="wb_Image26" style="position:absolute;left:46px;top:157px;width:60px;height:60px;z-index:192;">
@@ -2962,37 +2979,37 @@ echo $_SERVER["REMOTE_ADDR"];
 <span style="color:#000000;font-family:Arial;font-size:15px;">DESCRIPTIF APPLI 4</span></div>
 </div>
 
-<div id="jQueryDialog43" style="z-index:534;" title="[APPLICATION CORRESPONDANTE ICONE 1 - ENTREPRISE]">
+<div id="jQueryDialog43" style="z-index:550;" title="[APPLICATION CORRESPONDANTE ICONE 1 - ENTREPRISE]">
 <iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
    src="infoentreprise.php">
 </iframe>
 </div>
 
-<div id="jQueryDialog44" style="z-index:535;" title="[APPLICATION CORRESPONDANTE ICONE 2 - ENTREPRISE]">
+<div id="jQueryDialog44" style="z-index:551;" title="[APPLICATION CORRESPONDANTE ICONE 2 - ENTREPRISE]">
 <iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
    src="infoentreprise.php">
 </iframe>
 </div>
 
-<div id="jQueryDialog45" style="z-index:536;" title="[APPLICATION CORRESPONDANTE ICONE 3 - ENTREPRISE]">
+<div id="jQueryDialog45" style="z-index:552;" title="[APPLICATION CORRESPONDANTE ICONE 3 - ENTREPRISE]">
 <iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
    src="infoentreprise.php">
 </iframe>
 </div>
 
-<div id="jQueryDialog46" style="z-index:537;" title="[APPLICATION CORRESPONDANTE ICONE 4 - ENTREPRISE]">
+<div id="jQueryDialog46" style="z-index:553;" title="[APPLICATION CORRESPONDANTE ICONE 4 - ENTREPRISE]">
 <iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
    src="infoentreprise.php">
 </iframe>
 </div>
 
-<div id="jQueryDialog47" style="z-index:538;" title="[APPLICATION CORRESPONDANTE ICONE 5 - ENTREPRISE]">
+<div id="jQueryDialog47" style="z-index:554;" title="[APPLICATION CORRESPONDANTE ICONE 5 - ENTREPRISE]">
 <iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
    src="infoentreprise.php">
 </iframe>
 </div>
 
-<div id="jQueryDialog48" style="z-index:539;" title="[APPLICATION CORRESPONDANTE ICONE 6 - ENTREPRISE]">
+<div id="jQueryDialog48" style="z-index:555;" title="[APPLICATION CORRESPONDANTE ICONE 6 - ENTREPRISE]">
 <iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
    src="infoentreprise.php">
 </iframe>
@@ -3032,7 +3049,7 @@ function TimerStopTimer7()
 }
 </script>
 
-<div id="jQueryDialog49" style="z-index:543;" title="Cette fen&#234;tre n&#39;est plus utilis&#233; [en attente de r&#233;-utilisation]">
+<div id="jQueryDialog49" style="z-index:559;" title="Cette fen&#234;tre n&#39;est plus utilis&#233; [en attente de r&#233;-utilisation]">
 <div id="wb_Text45" style="position:absolute;left:12px;top:15px;width:270px;height:16px;z-index:210;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Fenêtre non active</span></div>
 </div>
@@ -3069,7 +3086,7 @@ function TimerStopTimer7()
 <div style="height:376px;" id="jquerytabs4-page-1">
 <div id="wb_JavaScript2" style="position:absolute;left:21px;top:59px;width:555px;height:301px;z-index:228;">
 <script>
-document.write("<div style='font-family:Arial;font-size:12px;color:#000000;text-decoration:none;font-weight:normal;font-style:normal;text-align:left;text-decoration:none'>" + navigator.appName + " " + navigator.appVersion + "<\/div>");
+document.write("<div style='font-family:Arial;font-size:14px;color:#000000;text-decoration:none;font-weight:normal;font-style:normal;text-align:left;text-decoration:none'>" + navigator.appName + " " + navigator.appVersion + "<\/div>");
 </script>
 
 
@@ -3096,28 +3113,28 @@ function TimerStopTimer8()
 </script>
 
 
-<div id="jQueryDialog53" style="z-index:548;" title="[WIDGET] Notes">
+<div id="jQueryDialog53" style="z-index:564;" title="[WIDGET] Notes">
 <textarea name="TextArea1" id="TextArea1" style="position:absolute;left:14px;top:11px;width:238px;height:166px;z-index:249;" rows="9" cols="37" spellcheck="false"></textarea>
 </div>
 
-<div id="jQueryDialog15" style="z-index:549;" title="[WIDGET] Calendrier">
+<div id="jQueryDialog15" style="z-index:565;" title="[WIDGET] Calendrier">
 <input type="text" id="jQueryDatePicker1" style="position:absolute;left:18px;top:6px;width:236px;height:164px;line-height:164px;z-index:250;" name="jQueryDatePicker1" value="" spellcheck="false">
 </div>
 
 
-<div id="jQueryDialog30" style="z-index:551;" title="Concepteur d&#39;application Web (alpha 0.3)">
+<div id="jQueryDialog30" style="z-index:567;" title="Concepteur d&#39;application Web (alpha 0.3)">
 <input type="submit" id="Button3" onclick="$('#jQueryDialog22').dialog('open');$('#jQueryDialog30').dialog('close');return false;" name="" value="Ouvrir le concepteur d'application Web (version PHP/HTML)" style="position:absolute;left:45px;top:86px;width:404px;height:25px;z-index:251;">
 <div id="wb_Text8" style="position:absolute;left:15px;top:17px;width:451px;height:48px;text-align:justify;z-index:252;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Notre équipe remercie grandement Maxime G., développeur Web et ami, pour son aide à la conception du Concepteur d'Applications Web côté PHP et pour la sécurité du système.</span></div>
 </div>
 
-<div id="jQueryDialog22" style="z-index:552;" title="Concepteur d&#39;applications Web (version PHP)">
+<div id="jQueryDialog22" style="z-index:568;" title="Concepteur d&#39;applications Web (version PHP)">
 <iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
    src="generatiug/generatiugtest.php">
 </iframe><br />
 </div>
 
-<div id="jQueryDialog54" style="z-index:553;" title="Applis Web Communautaires">
+<div id="jQueryDialog54" style="z-index:569;" title="Applis Web Communautaires">
 Faite un clique droit sur ce texte puis choisissez RETOUR pour quitter une applis Web et revenir à sa racine.
 <iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
    src="exploreriug.php">
@@ -3140,31 +3157,31 @@ function TimerStopTimer1()
 }
 </script>
 
-<div id="jQueryDialog51" style="z-index:555;" title="Forum Veler Software (d&#233;veloppement Rynna WebOS et divers projets)">
+<div id="jQueryDialog51" style="z-index:571;" title="Forum Veler Software (d&#233;veloppement Rynna WebOS et divers projets)">
 <object data="http://forumvelersoftware.bbactif.com/t2085-rynna-webos-natif-projet-mini-webos-by-algostep-company" type="text/html" width="100%" height="100%" style="overflow:auto" ></object>
 </div>
 
-<div id="jQueryDialog56" style="z-index:556;" title="Ipiccy - Retouches photos en ligne">
+<div id="jQueryDialog56" style="z-index:572;" title="Ipiccy - Retouches photos en ligne">
 <object data="addeosapps/ipiccy.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
-<div id="jQueryDialog57" style="z-index:557;" title="Le Bon Coin - Ventes et achats en ligne en France">
+<div id="jQueryDialog57" style="z-index:573;" title="Le Bon Coin - Ventes et achats en ligne en France">
 <object data="addeosapps/leboncoin.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
-<div id="jQueryDialog58" style="z-index:558;" title="Orange TV - toutes vos chaines en ligne (stream)">
+<div id="jQueryDialog58" style="z-index:574;" title="Orange TV - toutes vos chaines en ligne (stream)">
 <object data="addeosapps/orangetv.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
-<div id="jQueryDialog59" style="z-index:559;" title="PrintFriendly - Votre page web au format PDF imprimable">
+<div id="jQueryDialog59" style="z-index:575;" title="PrintFriendly - Votre page web au format PDF imprimable">
 <object data="addeosapps/webpdf.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
-<div id="jQueryDialog60" style="z-index:560;" title="01net - Blog, actualit&#233;s et logiciels informatiques et nouvelle technologie">
+<div id="jQueryDialog60" style="z-index:576;" title="01net - Blog, actualit&#233;s et logiciels informatiques et nouvelle technologie">
 <object data="addeosapps/01net.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
-<div id="jQueryDialog61" style="z-index:561;" title="CDiscount">
+<div id="jQueryDialog61" style="z-index:577;" title="CDiscount">
 <object data="addeosapps/cdiscount.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
@@ -3179,7 +3196,7 @@ function TimerStopTimer1()
 </div>
 </div>
 
-<div id="jQueryDialog1" style="z-index:564;" title="Menu Applicatifs">
+<div id="jQueryDialog1" style="z-index:580;" title="Menu Applicatifs">
 <div id="wb_FontAwesomeIcon2" style="position:absolute;left:12px;top:12px;width:72px;height:64px;text-align:center;z-index:264;">
 <a href="#" onclick="$('#jQueryDialog3').dialog('open');$('#jQueryDialog1').dialog('close');return false;"><div id="FontAwesomeIcon2"><i class="fa fa-laptop">&nbsp;</i></div></a></div>
 <div id="wb_Text2" style="position:absolute;left:7px;top:84px;width:77px;height:28px;text-align:center;z-index:265;">
@@ -3264,7 +3281,7 @@ else
 <span style="color:#DC143C;font-family:Arial;font-size:13px;"><strong>Une erreur est survenue&nbsp;!<br>Nous ne pouvons rien faire pour vous...<br><br>Nous vous conseillons d'attendre une mise à jour du WebOS pour poursuivre l'action demandée.<br><br>Merci pour votre patience.</strong></span></div>
 </div>
 
-<div id="Layer3" style="position:fixed;text-align:center;left:0;top:0;right:0;bottom:0;z-index:566;" onclick="Toggle('Layer3', 'slidedown', 1200);ShowObject('wb_PageHeader', 0);ShowObject('wb_LayoutGrid1', 0);ShowObject('wb_LayoutGrid3', 0);ShowObject('wb_LayoutGrid4', 0);ShowObject('wb_LayoutGrid5', 0);ShowObject('wb_LayoutGrid6', 0);TimerStartTimer9();return false;">
+<div id="Layer3" style="position:fixed;text-align:center;left:0;top:0;right:0;bottom:0;z-index:582;" onclick="Toggle('Layer3', 'slidedown', 1200);ShowObject('wb_PageHeader', 0);ShowObject('wb_LayoutGrid1', 0);ShowObject('wb_LayoutGrid3', 0);ShowObject('wb_LayoutGrid4', 0);ShowObject('wb_LayoutGrid5', 0);ShowObject('wb_LayoutGrid6', 0);TimerStartTimer9();return false;">
 <div id="Layer3_Container" style="width:3000px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <script>
 var wb_Timer5;
@@ -3330,7 +3347,7 @@ TimerStartTimer3();
 <input type="submit" id="Button30" onclick="window.location.href='./modifuser.php';return false;" name="" value="OUI" style="position:absolute;left:262px;top:81px;width:96px;height:25px;z-index:300;">
 </div>
 
-<div id="jQueryDialog2" style="z-index:568;" title="Gestion des erreurs (Kernel PHP)">
+<div id="jQueryDialog2" style="z-index:584;" title="Gestion des erreurs (Kernel PHP)">
 <div id="wb_MaterialIcon55" style="position:absolute;left:4px;top:10px;width:37px;height:37px;text-align:center;z-index:301;">
 <a href="#" onclick="$('#jQueryDialog11').dialog('open');$('#jQueryDialog2').dialog('close');return false;"><div id="MaterialIcon55"><i class="material-icons">&#xe5cb;</i></div></a></div>
 <div id="wb_Text91" style="position:absolute;left:73px;top:19px;width:347px;height:16px;z-index:302;">
@@ -3415,14 +3432,14 @@ TimerStartTimer3();
 <input type="button" id="Button1" onclick="ShowObject('wb_PageHeader', 0);TimerStartTimer8();return false;" name="" value="Cliquez ici pour ouvrir le Gestionnaire de Tâches" style="position:absolute;left:23px;top:415px;width:401px;height:25px;z-index:304;">
 </div>
 
-<div id="jQueryDialog26" style="z-index:569;" title="Changer de langues">
+<div id="jQueryDialog26" style="z-index:585;" title="Changer de langues">
 <div id="wb_MaterialIcon56" style="position:absolute;left:4px;top:10px;width:37px;height:37px;text-align:center;z-index:305;">
 <a href="#" onclick="$('#jQueryDialog11').dialog('open');$('#jQueryDialog26').dialog('close');return false;"><div id="MaterialIcon56"><i class="material-icons">&#xe5cb;</i></div></a></div>
 <div id="wb_Text92" style="position:absolute;left:73px;top:19px;width:347px;height:192px;z-index:306;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Dans le futur nous proposerons également le WebOS en Anglais.<br><br>En attendant nous sommes désolé de ne pas pouvoir vous proposer ce WebOS dans une autre langue.<br><br>--------------------------<br><br>In the future we will also offer WebOS in English.<br><br>In the meantime we apologize for not being able to offer you WebOS in another language.</span></div>
 </div>
 
-<div id="jQueryDialog64" style="z-index:570;" title="Simulateur Smartphone (0.2)">
+<div id="jQueryDialog64" style="z-index:586;" title="Simulateur Smartphone (0.2)">
 <div id="wb_Text94" style="position:absolute;left:13px;top:12px;width:325px;height:96px;z-index:307;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Sélectionnez un site internet ou un lien vers une application Web pour WebOS (PHP, ASPX, FLASH) à tester sur le simulateur.<br>Si vous n'indiquez pas de cible le site par défaut qui sera affiché sera celui de test&nbsp;:<br>http://www.mobisite.fr/exemple/ (version mobile FR/US)</span></div>
 <input type="text" id="Editbox2" style="position:absolute;left:17px;top:125px;width:307px;height:16px;line-height:16px;z-index:308;" name="Editbox2" value="http://lien-site.fr (Non disponible pour le moment...)" disabled spellcheck="false">
@@ -3430,7 +3447,7 @@ TimerStartTimer3();
 <input type="button" id="Button32" onclick="$('#jQueryDialog66').dialog('open');$('#jQueryDialog64').dialog('close');return false;" name="" value="Simulateur Samsung Galaxy s8" style="position:absolute;left:17px;top:211px;width:317px;height:25px;z-index:310;">
 </div>
 
-<div id="jQueryDialog65" style="z-index:571;" title="Simulateur iPhone X (test de sites Web et WebApps)">
+<div id="jQueryDialog65" style="z-index:587;" title="Simulateur iPhone X (test de sites Web et WebApps)">
 <div id="Layer30" style="position:absolute;text-align:left;left:59px;top:42px;width:253px;height:40px;z-index:311;">
 </div>
 <div id="wb_Image40" style="position:absolute;left:31px;top:25px;width:307px;height:616px;z-index:312;">
@@ -3452,7 +3469,7 @@ TimerStartTimer3();
 <span style="color:#000000;font-family:Arial;font-size:12px;">Simulateur Smartphone conçu par AlgoStep Company - service gratuit</span></div>
 </div>
 
-<div id="jQueryDialog66" style="z-index:572;" title="Simulateur Samsung Galaxy s8 (test de sites Web et WebApps)">
+<div id="jQueryDialog66" style="z-index:588;" title="Simulateur Samsung Galaxy s8 (test de sites Web et WebApps)">
 <div id="wb_Image42" style="position:absolute;left:55px;top:16px;width:301px;height:642px;z-index:322;">
 <img src="images/Samsung-Galaxy-S8-0.png" id="Image42" alt=""></div>
 <div id="Html20" style="position:absolute;left:70px;top:57px;width:270px;height:563px;overflow:hidden;z-index:323">
@@ -3470,8 +3487,8 @@ TimerStartTimer3();
 <span style="color:#000000;font-family:Arial;font-size:12px;">Simulateur Smartphone conçu par AlgoStep Company - service gratuit</span></div>
 </div>
 
-<div id="jQueryDialog67" style="z-index:573;" title="Envoi rapide">
-<div id="wb_Extension1" style="position:absolute;left:21px;top:66px;width:845px;height:185px;z-index:331;">
+<div id="jQueryDialog67" style="z-index:589;" title="Envoi rapide">
+<div id="wb_Extension1" style="position:absolute;left:21px;top:66px;width:845px;height:212px;z-index:331;">
 <div id="Extension1">
 <div class="upload-drop-target"><h2>Glisser et déposer vos fichiers dans ce cadre (jpg, jpeg, gif ou png)</h2></div>
 <input type="file" multiple="">
@@ -3484,16 +3501,16 @@ TimerStartTimer3();
 <span style="color:#000000;font-family:Arial;font-size:13px;">Déposer sur le serveur une image de votre choix (taille limite&nbsp;: 4mo par image)<br>Pour partager votre image notez le chemin&nbsp;: </span><span style="color:#0000CD;font-family:Arial;font-size:13px;"><strong>http://rynnawebos.fr/login/uploads/[le nom de votre fichier].[son extension]</strong></span><span style="color:#000000;font-family:Arial;font-size:13px;">&nbsp; et partagez le à vos amies&nbsp;!</span></div>
 </div>
 
-<div id="jQueryDialog13" style="z-index:574;" title="Messagerie personelle Europ&#233;enne (Net Courriel)">
+<div id="jQueryDialog13" style="z-index:590;" title="Messagerie personelle Europ&#233;enne (Net Courriel)">
 <object data="addeosapps/messagerienetc.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 
-<div id="jQueryDialog69" style="z-index:576;" title="[WIDGET] Horloge">
+<div id="jQueryDialog69" style="z-index:592;" title="[WIDGET] Horloge">
 <object data="addeosapps/horloge.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
-<div id="Layer4" style="position:fixed;text-align:right;right:0;top:0;bottom:0;width:118px;z-index:577;" onmouseleave="ShowObject('Layer4', 0);return false;">
+<div id="Layer4" style="position:fixed;text-align:right;right:0;top:0;bottom:0;width:118px;z-index:593;" onmouseleave="ShowObject('Layer4', 0);return false;">
 <div id="Layer4_Container" style="width:3000px;position:relative;margin-left:auto;margin-right:0;text-align:left;">
 <div id="wb_FontAwesomeIcon21" style="position:absolute;left:25px;top:16px;width:78px;height:63px;text-align:center;z-index:335;">
 <a href="#" onclick="$('#jQueryDialog70').dialog('open');return false;"><div id="FontAwesomeIcon21"><i class="fa fa-camera">&nbsp;</i></div></a></div>
@@ -3524,17 +3541,17 @@ function TimerStopTimer10()
 TimerStartTimer10();
 </script>
 
-<div id="jQueryDialog70" style="z-index:579;" title="Webcam">
+<div id="jQueryDialog70" style="z-index:595;" title="Webcam">
 <iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
    src="addeosapps/webcam.php">
 </iframe><br />
 </div>
 
-<div id="jQueryDialog71" style="z-index:580;" title="Calendrier g&#233;n&#233;ral">
+<div id="jQueryDialog71" style="z-index:596;" title="Calendrier g&#233;n&#233;ral">
 <object data="addeosapps/agenda.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
-<div id="Layer5" style="position:fixed;text-align:left;left:0;top:0;right:0;bottom:0;z-index:581;" onclick="ShowObject('Layer5', 0);return false;">
+<div id="Layer5" style="position:fixed;text-align:left;left:0;top:0;right:0;bottom:0;z-index:597;" onclick="ShowObject('Layer5', 0);return false;">
 <div id="wb_TextArt1" style="position:absolute;left:119px;top:44px;width:815px;height:23px;z-index:343;">
 <img src="images/img0011.png" id="TextArt1" alt="HITEK - Les meilleurs actualit&#233;es des nouvelles technologies" title="HITEK - Les meilleurs actualit&#233;es des nouvelles technologies" style="width:815px;height:23px;"></div>
 <div id="Layer6" style="position:absolute;text-align:left;left:119px;top:147px;width:1046px;height:592px;z-index:344;">
@@ -3564,11 +3581,11 @@ function TimerStopTimer11()
 TimerStartTimer11();
 </script>
 
-<div id="jQueryDialog72" style="z-index:583;" title="Devises">
+<div id="jQueryDialog72" style="z-index:599;" title="Devises">
 <object data="addeosapps/devise.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
-<div id="jQueryDialog73" style="z-index:584;" title="Sauvegarde local de votre session">
+<div id="jQueryDialog73" style="z-index:600;" title="Sauvegarde local de votre session">
 <div id="wb_Text106" style="position:absolute;left:11px;top:12px;width:650px;height:160px;z-index:349;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">PAS ENCORE DISPONIBLE...<br><br>Dans l'objectif d'un système libre et fiable nous vous proposerons à l'avenir de pouvoir sauvegarder vos données personnels (contenus dans&nbsp;&quot;home/[votre compte]&quot;) sous forme compressé (*.ZIP) localement sur votre ordinateur.<br><br>Cela vous permettra de sauvegarder tout votre contenu (si vous quitter le WebOS durant plusieurs jours ou mois) et de vous assurer d'avoir accès à vos données, hébergées à l'origine en ligne sur notre serveur, directement et localement sur votre PC (voyez cette fonction comme une&nbsp;&quot;backup&quot;&nbsp;(sauvegarde) de votre contenu privé sur votre ordinateur).</span></div>
 </div>
@@ -3590,7 +3607,7 @@ function TimerStopTimer12()
 TimerStartTimer12();
 </script>
 
-<div id="Layer7" style="position:fixed;text-align:left;left:0;top:0;right:0;bottom:0;z-index:586;">
+<div id="Layer7" style="position:fixed;text-align:left;left:0;top:0;right:0;bottom:0;z-index:602;">
 <div id="Layer8" style="position:absolute;text-align:left;left:150px;top:82px;width:855px;height:460px;z-index:353;">
 <div id="Layer9" style="position:absolute;text-align:left;left:16px;top:11px;width:218px;height:436px;z-index:350;" onclick="$('#jQueryDialog3').dialog('open');ShowObject('Layer7', 0);return false;">
 </div>
@@ -3600,15 +3617,15 @@ TimerStartTimer12();
 </div>
 </div>
 </div>
-<div id="jQueryDialog32" style="z-index:587;" title="Informations sur le WebOS">
-<div id="wb_Text32" style="position:absolute;left:16px;top:56px;width:609px;height:416px;text-align:center;z-index:357;">
-<span style="color:#000000;font-family:Arial;font-size:13px;"><strong>Rynna WebOS est un WebOS libre d'utilisation pour tous.</strong><br>Son code source est disponible publiquement sur le dépôt GitHub.<br><br><strong>Liste des développeurs&nbsp;: <br></strong><br><em>Société AlgoStep Company&nbsp;:<br></em><br>Loïc A.<br>Jeremy N. (n'est plus dans l'entreprise depuis le 07/2017)<br>Maxime D.<br><br><em>Développeurs qui ont aidés à son développement ou pour leurs avis (remerciements)&nbsp;: <br></em><br>Polien (veler Software)<br>Softwarezatorman (veler Software)<br>Lereparateurdepc (veler Software)<br>Etienne Baudoux (IRL)<br>Jeremy60800 (veler Software)<br>Fandeonepiece2 (veler Software)<br>Coincero (veler Software)<br>Maxime G. (IRL)<br>Random Coder 99 (OpenClassRoom)<br>Jona (CCSources Co.)<br><br>Merci à tout nos amies à Rouen pour leurs conseils et leurs professionnalismes durant le développement long et fastidieux de ce projet&nbsp;!</span></div>
+<div id="jQueryDialog32" style="z-index:603;" title="Informations sur le WebOS">
+<div id="wb_Text32" style="position:absolute;left:27px;top:68px;width:714px;height:448px;text-align:center;z-index:357;">
+<span style="color:#000000;font-family:Arial;font-size:13px;"><strong>Rynna WebOS est un WebOS libre d'utilisation pour tous.</strong><br>Son code source est disponible publiquement sur le dépôt GitHub.<br><br></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><strong>NOM DE CODE DE VERSION&nbsp;: Solaris (10.0 et supérieur)</strong></span><span style="color:#000000;font-family:Arial;font-size:13px;"><br><br><strong>Liste des développeurs&nbsp;: <br></strong><br><em>Société AlgoStep Company&nbsp;:<br></em><br>Loïc A.<br>Jeremy N. (n'est plus dans l'entreprise depuis le 07/2017)<br>Maxime D.<br><br><em>Développeurs qui ont aidés à son développement ou pour leurs avis (remerciements)&nbsp;: <br></em><br>Polien (veler Software)<br>Softwarezatorman (veler Software)<br>Lereparateurdepc (veler Software)<br>Etienne Baudoux (IRL)<br>Jeremy60800 (veler Software)<br>Fandeonepiece2 (veler Software)<br>Coincero (veler Software)<br>Maxime G. (IRL)<br>Random Coder 99 (OpenClassRoom)<br>Jona (CCSources Co.)<br><br>Merci à tout nos amies à Rouen pour leurs conseils et leurs professionnalismes durant le développement long et fastidieux de ce projet&nbsp;!</span></div>
 <div id="wb_MaterialIcon13" style="position:absolute;left:4px;top:10px;width:37px;height:37px;text-align:center;z-index:358;">
 <a href="#" onclick="$('#jQueryDialog11').dialog('open');$('#jQueryDialog32').dialog('close');return false;"><div id="MaterialIcon13"><i class="material-icons">&#xe5cb;</i></div></a></div>
-<input type="button" id="Button9" onclick="window.location.href='https://github.com/AlgoStepCompany/RynnaWebOS-Original/archive/master.zip';return false;" name="" value="Télécharger le code source (github dépôt officiel) [master.zip]" style="position:absolute;left:33px;top:502px;width:580px;height:25px;z-index:359;">
+<input type="button" id="Button9" onclick="window.location.href='https://github.com/AlgoStepCompany/RynnaWebOS-Original/archive/master.zip';return false;" name="" value="Télécharger le code source (github dépôt officiel) [master.zip]" style="position:absolute;left:27px;top:546px;width:714px;height:25px;z-index:359;">
 </div>
 
-<div id="Layer12" style="position:absolute;text-align:left;left:1339px;top:13549px;width:473px;height:591px;z-index:588;">
+<div id="Layer12" style="position:absolute;text-align:left;left:1339px;top:13549px;width:473px;height:591px;z-index:604;">
 <script>
 var wb_Timer13;
 function TimerStartTimer13()
@@ -3660,7 +3677,7 @@ function TimerStopTimer15()
 </script>
 
 </div>
-<div id="Layer13" style="position:absolute;text-align:left;left:1842px;top:13549px;width:473px;height:591px;z-index:589;">
+<div id="Layer13" style="position:absolute;text-align:left;left:1842px;top:13549px;width:473px;height:591px;z-index:605;">
 <script>
 var wb_Timer16;
 function TimerStartTimer16()
@@ -3712,7 +3729,7 @@ function TimerStopTimer18()
 </script>
 
 </div>
-<div id="Layer14" style="position:absolute;text-align:left;left:2388px;top:13549px;width:473px;height:591px;z-index:590;">
+<div id="Layer14" style="position:absolute;text-align:left;left:2388px;top:13549px;width:473px;height:591px;z-index:606;">
 <script>
 var wb_Timer19;
 function TimerStartTimer19()
@@ -3764,7 +3781,7 @@ function TimerStopTimer21()
 </script>
 
 </div>
-<div id="Layer15" style="position:absolute;text-align:left;left:1339px;top:14166px;width:473px;height:591px;z-index:591;">
+<div id="Layer15" style="position:absolute;text-align:left;left:1339px;top:14166px;width:473px;height:591px;z-index:607;">
 <script>
 var wb_Timer22;
 function TimerStartTimer22()
@@ -3816,7 +3833,7 @@ function TimerStopTimer24()
 </script>
 
 </div>
-<div id="Layer16" style="position:absolute;text-align:left;left:1842px;top:14166px;width:473px;height:591px;z-index:592;">
+<div id="Layer16" style="position:absolute;text-align:left;left:1842px;top:14166px;width:473px;height:591px;z-index:608;">
 <script>
 var wb_Timer25;
 function TimerStartTimer25()
@@ -3868,7 +3885,7 @@ function TimerStopTimer27()
 </script>
 
 </div>
-<div id="Layer17" style="position:absolute;text-align:left;left:2371px;top:14150px;width:473px;height:591px;z-index:593;">
+<div id="Layer17" style="position:absolute;text-align:left;left:2371px;top:14150px;width:473px;height:591px;z-index:609;">
 <script>
 var wb_Timer28;
 function TimerStartTimer28()
@@ -3920,7 +3937,7 @@ function TimerStopTimer30()
 </script>
 
 </div>
-<div id="Layer18" style="position:absolute;text-align:left;left:1328px;top:14775px;width:473px;height:591px;z-index:594;">
+<div id="Layer18" style="position:absolute;text-align:left;left:1328px;top:14775px;width:473px;height:591px;z-index:610;">
 <script>
 var wb_Timer31;
 function TimerStartTimer31()
@@ -3972,7 +3989,7 @@ function TimerStopTimer33()
 </script>
 
 </div>
-<div id="Layer19" style="position:absolute;text-align:left;left:1867px;top:14775px;width:473px;height:591px;z-index:595;">
+<div id="Layer19" style="position:absolute;text-align:left;left:1867px;top:14775px;width:473px;height:591px;z-index:611;">
 <script>
 var wb_Timer34;
 function TimerStartTimer34()
@@ -4024,7 +4041,7 @@ function TimerStopTimer36()
 </script>
 
 </div>
-<div id="Layer20" style="position:absolute;text-align:left;left:2432px;top:14775px;width:473px;height:591px;z-index:596;">
+<div id="Layer20" style="position:absolute;text-align:left;left:2432px;top:14775px;width:473px;height:591px;z-index:612;">
 <script>
 var wb_Timer37;
 function TimerStartTimer37()
@@ -4076,7 +4093,7 @@ function TimerStopTimer39()
 </script>
 
 </div>
-<div id="jQueryDialog52" style="z-index:597;" title="Choisir un Widget ?">
+<div id="jQueryDialog52" style="z-index:613;" title="Choisir un Widget ?">
 <div id="wb_MaterialIcon31" style="position:absolute;left:10px;top:13px;width:67px;height:63px;text-align:center;z-index:387;">
 <a href="#" onclick="$('#jQueryDialog52').dialog('close');$('#jQueryDialog53').dialog('open');return false;"><div id="MaterialIcon31"><i class="material-icons">&#xe0d8;</i></div></a></div>
 <div id="wb_Text53" style="position:absolute;left:14px;top:82px;width:59px;height:15px;text-align:center;z-index:388;">
@@ -4092,8 +4109,8 @@ function TimerStopTimer39()
 <html>
    <body>
 
-<!-- On execute immediatement et sans delai la fonction backgroundscreenusrx -->
-<a href="#" onload="backgroundscreenusrx();">
+<!-- Version 10.0 - On n'execute plus la fonction, on essayera de trouver une autre solution plus tard pour les BackgroungImageFunction AutoLoad -->
+<!--  <a href="#" onload="backgroundscreenusrx();">  -->
 
 <script>
 
@@ -4124,18 +4141,15 @@ var usrxbg='<?php echo $_SESSION['username'];?>';
 </script>
 
 <!-- var usrxbg='<?php echo $_SESSION['username'];?>'; deja indiqué dans les variables de demarrage ci-dessus -->
-<!-- Chargement automatique de cette fonction pour afficher le fond d'écran par défaut de la session perso de l'utilisateur -->
-<!-- ATTENTION : si pas d'image au début le fond sera BLANC !!!!! -->
-
 
 <!-- <script language="text/javascript">document.getElementById('affichage').innerHTML = usrxbg;</script> -->
-<script>
+<!--<script>-->
 
-function backgroundscreenusrx() {
-    document.body.style.backgroundColor = "#050505";
-    document.body.style.backgroundImage = "url('home/' + usrxbg + '/mybg.jpg')";
-}
-</script>
+<!--function backgroundscreenusrx() {-->
+   <!-- document.body.style.backgroundColor = "#050505";-->
+  <!--  document.body.style.backgroundImage = "url('home/' + usrxbg + '/mybg.jpg')";-->
+<!--   }   -->
+<!--</script>-->
 
 </body>
 
@@ -4160,7 +4174,7 @@ function TimerStopTimer40()
 TimerStartTimer40();
 </script>
 
-<div id="Layer22" style="position:absolute;text-align:left;left:348px;top:5969px;width:1099px;height:152px;z-index:599;" onmouseleave="ShowObject('Layer22', 0);return false;">
+<div id="Layer22" style="position:absolute;text-align:left;left:348px;top:5969px;width:1099px;height:152px;z-index:615;" onmouseleave="ShowObject('Layer22', 0);return false;">
 <div id="wb_Image43" style="position:absolute;left:89px;top:39px;width:915px;height:100px;z-index:394;">
 <img src="images/coque_sfx_3D.png" id="Image43" alt=""></div>
 <div id="wb_Image51" style="position:absolute;left:732px;top:30px;width:80px;height:80px;z-index:395;">
@@ -4195,35 +4209,35 @@ function TimerStopTimer41()
 TimerStartTimer41();
 </script>
 
-<div id="jQueryDialog9" style="z-index:601;" title="Wikip&#233;dia">
+<div id="jQueryDialog9" style="z-index:617;" title="Wikip&#233;dia">
 <object data="addeosapps/wikipedia.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
-<div id="jQueryDialog31" style="z-index:602;" title="Le Monde - Actualit&#233;s de France">
+<div id="jQueryDialog31" style="z-index:618;" title="Le Monde - Actualit&#233;s de France">
 <object data="addeosapps/lemonde.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
-<div id="jQueryDialog55" style="z-index:603;" title="Forum Etienne BAUDOUX - Forum li&#233; au projet Rynna WebOS">
+<div id="jQueryDialog55" style="z-index:619;" title="Forum Etienne BAUDOUX - Forum li&#233; au projet Rynna WebOS">
 <object data="addeosapps/sz.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
-<div id="jQueryDialog68" style="z-index:604;" title="OpenClassRoom - Tutoriels et cours en ligne">
+<div id="jQueryDialog68" style="z-index:620;" title="OpenClassRoom - Tutoriels et cours en ligne">
 <object data="addeosapps/ocr.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
-<div id="jQueryDialog75" style="z-index:605;" title="SUMO PAINT - Dessin (demonstration gratuite)">
+<div id="jQueryDialog75" style="z-index:621;" title="SUMO PAINT - Dessin (demonstration gratuite)">
 <object data="addeosapps/paint.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
-<div id="jQueryDialog76" style="z-index:606;" title="Now-Coworking - Espace Coworking pour votre Entreprise">
+<div id="jQueryDialog76" style="z-index:622;" title="Now-Coworking - Espace Coworking pour votre Entreprise">
 <object data="addeosapps/nowcoworking.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
-<div id="jQueryDialog62" style="z-index:607;" title="Notes dropbox - FARGO (gratuit)">
+<div id="jQueryDialog62" style="z-index:623;" title="Notes dropbox - FARGO (gratuit)">
 <object data="addeosapps/fargo.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
-<div id="Layer23" style="position:fixed;text-align:left;left:0;top:0;right:0;bottom:0;z-index:608;" onclick="ShowObject('Layer23', 0);return false;">
+<div id="Layer23" style="position:fixed;text-align:left;left:0;top:0;right:0;bottom:0;z-index:624;" onclick="ShowObject('Layer23', 0);return false;">
 <script>
 var wb_Timer42;
 function TimerStartTimer42()
@@ -4259,7 +4273,7 @@ TimerStartTimer43();
 </script>
 
 </div>
-<div id="Layer24" style="position:fixed;text-align:left;left:0;top:0;right:0;bottom:0;z-index:609;">
+<div id="Layer24" style="position:fixed;text-align:left;left:0;top:0;right:0;bottom:0;z-index:625;">
 <div id="Layer2" style="position:absolute;text-align:left;left:198px;top:25px;width:529px;height:374px;z-index:412;">
 </div>
 <div id="Layer25" style="position:absolute;text-align:left;left:50px;top:443px;width:801px;height:63px;z-index:413;">
@@ -4284,7 +4298,7 @@ function TimerStopTimer4()
 TimerStartTimer4();
 </script>
 
-<div id="Layer26" style="position:absolute;text-align:left;left:2543px;top:696px;width:182px;height:302px;z-index:611;">
+<div id="Layer26" style="position:absolute;text-align:left;left:2543px;top:696px;width:182px;height:302px;z-index:627;">
 <div id="wb_Text17" style="position:absolute;left:8px;top:8px;width:163px;height:15px;z-index:415;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:12px;"><strong><em>Fonctions bureautique&nbsp;&nbsp; &nbsp;&nbsp; </em></strong></span><span style="color:#FF0000;font-family:Arial;font-size:12px;"><strong><a href="#" onclick="ShowObject('Layer26', 0);return false;">X</a></strong></span></div>
 <hr id="Line2" style="position:absolute;left:7px;top:35px;width:164px;height:4px;z-index:416;">
@@ -4321,7 +4335,7 @@ function TimerStopTimer2()
 TimerStartTimer2();
 </script>
 
-<div id="Layer27" style="position:fixed;text-align:left;left:0;top:0;right:0;bottom:0;z-index:613;">
+<div id="Layer27" style="position:fixed;text-align:left;left:0;top:0;right:0;bottom:0;z-index:629;">
 <script>
 var wb_Timer44;
 function TimerStartTimer44()
@@ -4370,7 +4384,7 @@ function TimerStopTimer45()
 
 <div id="Layer29" style="position:absolute;text-align:left;left:135px;top:423px;width:706px;height:104px;z-index:428;">
 <div id="wb_Text70" style="position:absolute;left:24px;top:28px;width:659px;height:46px;text-align:center;z-index:425;">
-<span style="color:#FFFFFF;font-family:Arial;font-size:20px;">Votre session est en cours de réparation<br>Cela ne prendra pas longtemps...</span></div>
+<span style="color:#FF0000;font-family:Arial;font-size:20px;">Votre session est en cours de réparation</span><span style="color:#FFFFFF;font-family:Arial;font-size:20px;"><br>Cela ne prendra pas longtemps...</span></div>
 </div>
 <script>
 var wb_Timer46;
@@ -4431,38 +4445,38 @@ TimerStartTimer47();
 <div id="FontAwesomeIcon5"><i class="fa fa-shield">&nbsp;</i></div></div>
 </div>
 
-<div id="jQueryDialog77" style="z-index:616;" title="Fenetre vide et disponible pour une autre applisweb">
+<div id="jQueryDialog77" style="z-index:632;" title="Fenetre vide et disponible pour une autre applisweb">
 <!-- Projet vide -->
 </div>
 
 
-<div id="jQueryDialog78" style="z-index:618;" title="Sticky-Notes Generator (WebesTools)">
+<div id="jQueryDialog78" style="z-index:634;" title="Sticky-Notes Generator (WebesTools)">
 <object data="addeosapps/sng.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
-<div id="jQueryDialog74" style="z-index:619;" title="Bienvenue dans la session de d&#233;monstration !">
+<div id="jQueryDialog74" style="z-index:635;" title="Bienvenue dans la session de d&#233;monstration !">
 <div id="wb_Text108" style="position:absolute;left:12px;top:13px;width:540px;height:195px;z-index:483;">
 <span style="color:#000000;font-family:Arial;font-size:16px;"><strong>Bienvenue dans la session de démonstration&nbsp;!</strong></span><span style="color:#000000;font-family:Arial;font-size:13px;"><br><br></span><span style="color:#FF0000;font-family:Arial;font-size:13px;"><strong>Celle-ci est une copie conforme du WebOS actuellement disponible sauf que vous n'avez pas accès à certaines propriétés qui sont les suivantes&nbsp;: </strong></span><span style="color:#000000;font-family:Arial;font-size:13px;"><br><br>- Chat du WebOS et de la communauté et quelques applications internes<br>- Modifier votre compte utilisateur<br>- Accéder à l'explorateur de fichiers et votre espace personnel (50Go)<br><br><strong>Créer un compte est <u>GRATUIT et ILLIMITE</u> si vous le souhaitez par la suite&nbsp;!<br></strong><br>Bon test sur votre session temporaire&nbsp;!</span></div>
 </div>
 
-<div id="jQueryDialog79" style="z-index:620;" title="[MACOSX-VIRTUALISATION]">
+<div id="jQueryDialog79" style="z-index:636;" title="[MACOSX-VIRTUALISATION]">
 <object data="apple/RGBConverter.apple/Widget.html" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
-<div id="jQueryDialog80" style="z-index:621;" title="[MACOSX-VIRTUALISATION]">
+<div id="jQueryDialog80" style="z-index:637;" title="[MACOSX-VIRTUALISATION]">
 <object data="apple/FLVPlayer.apple/FLVPlayer.html" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
-<div id="jQueryDialog81" style="z-index:622;" title="[MACOSX-VIRTUALISATION]">
+<div id="jQueryDialog81" style="z-index:638;" title="[MACOSX-VIRTUALISATION]">
 <object data="apple/eCalc_Scientific.apple/main.html" type="text/html" width="100%" height="100%" style="overflow:auto" ></object>
 </div>
 
-<div id="jQueryDialog82" style="z-index:623;" title="[LINUX-VIRTUALISATION]">
+<div id="jQueryDialog82" style="z-index:639;" title="[LINUX-VIRTUALISATION]">
 <object data="linux/helloworld/index.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 
-<div id="Layer32" style="position:absolute;text-align:left;left:2375px;top:3954px;width:411px;height:292px;z-index:625;">
+<div id="Layer32" style="position:absolute;text-align:left;left:2375px;top:3954px;width:411px;height:292px;z-index:641;">
 <script>
 var wb_Timer50;
 function TimerStartTimer50()
@@ -4515,8 +4529,54 @@ TimerStartTimer48();
 </script>
 
 </div>
-<div id="jQueryDialog83" style="z-index:626;" title="Gestionnaire de Serveur">
-<div id="CmsLabel1" style="position:absolute;left:22px;top:12px;width:578px;height:328px;z-index:491;"><?php echo "INDICATIF SERVEUR : $cms_name;$cms_views;$cms_created_by;$cms_create_date;$cms_extra_data;$cms_title;$cms_description;$cms_keywords"; ?></div>
+<div id="jQueryDialog83" style="z-index:642;" title="Gestionnaire de Serveur">
+<input type="button" id="Button5" onclick="$('#jQueryDialog83').dialog('close');return false;" name="" value="Fermer" style="position:absolute;left:819px;top:467px;width:163px;height:25px;z-index:491;">
+<div id="wb_Text44" style="position:absolute;left:13px;top:17px;width:251px;height:16px;z-index:492;">
+<span style="color:#FFFFFF;font-family:Arial;font-size:13px;">Links-Dialog</span></div>
+<div id="wb_Text50" style="position:absolute;left:13px;top:93px;width:251px;height:16px;z-index:493;">
+<span style="color:#FFFFFF;font-family:Arial;font-size:13px;">Aides Audio</span></div>
+<div id="wb_FontAwesomeIcon6" style="position:absolute;left:14px;top:33px;width:964px;height:42px;text-align:center;z-index:494;">
+<a href="#" onclick="$('#jQueryDialog84').dialog('open');return false;"><div id="FontAwesomeIcon6"><i class="fa fa-anchor">&nbsp;</i></div></a></div>
+<div id="wb_FontAwesomeIcon8" style="position:absolute;left:14px;top:109px;width:964px;height:42px;text-align:center;z-index:495;">
+<a href="#" onclick="PlayAudio('MediaPlayer1');$('#jQueryDialog86').dialog('open');return false;"><div id="FontAwesomeIcon8"><i class="fa fa-audio-description">&nbsp;</i></div></a></div>
+</div>
+
+<div id="jQueryDialog84" style="z-index:643;" title="Links-Dialog">
+<object data="sitemap.xml" type="text/html" width="100%" height="100%" style="overflow:auto" ></object>
+</div>
+
+<div id="jQueryDialog85" style="z-index:644;" title="[SOUND-HELP-MALENTENDANT]-ConfigurationScriptsDialog">
+<div id="wb_MediaPlayer1" style="position:absolute;left:22px;top:76px;width:67px;height:55px;z-index:497;">
+<audio src="001.wav" id="MediaPlayer1">
+</audio>
+</div>
+<div id="wb_Text74" style="position:absolute;left:10px;top:20px;width:959px;height:48px;z-index:498;">
+<span style="color:#000000;font-family:Arial;font-size:13px;">CETTE FENETRE EST CACHEE. ELLE NE DOIT JAMAIS POUVOIR ETRE APPELEE&nbsp;! ADMINISTRATEUR ET CONCEPTEUR&nbsp;; FAITE ATTENTION A VOS CODES ET FONCTIONS JS/PHP D'APPELS&nbsp;! CETTE FENETRE SERT EXCLUSIVEMENT A LANCER DES AUDIOS POUR LES MALENTENDANTS PAR EXEMPLE.</span></div>
+<div id="wb_MediaPlayer2" style="position:absolute;left:96px;top:76px;width:67px;height:55px;z-index:499;">
+<audio src="explorateurfichiers.wav" id="MediaPlayer2">
+</audio>
+</div>
+<div id="wb_MediaPlayer3" style="position:absolute;left:174px;top:76px;width:67px;height:55px;z-index:500;">
+<audio src="applisinternes.wav" id="MediaPlayer3">
+</audio>
+</div>
+<div id="wb_MediaPlayer4" style="position:absolute;left:254px;top:76px;width:67px;height:55px;z-index:501;">
+<audio src="bienvenue.wav" id="MediaPlayer4">
+</audio>
+</div>
+<div id="wb_MediaPlayer5" style="position:absolute;left:332px;top:76px;width:67px;height:55px;z-index:502;">
+<audio src="parametres.wav" id="MediaPlayer5">
+</audio>
+</div>
+</div>
+
+<div id="jQueryDialog86" style="z-index:645;" title="Audio-Help">
+<div id="wb_FontAwesomeIcon9" style="position:absolute;left:27px;top:17px;width:238px;height:131px;text-align:center;z-index:503;">
+<div id="FontAwesomeIcon9"><i class="fa fa-audio-description">&nbsp;</i></div></div>
+<input type="button" id="Button8" onclick="PlayAudio('MediaPlayer2');$('#jQueryDialog5').dialog('open');StopAudio('MediaPlayer3');StopAudio('MediaPlayer4');StopAudio('MediaPlayer5');return false;" name="" value="Explorateur de fichiers" style="position:absolute;left:26px;top:166px;width:241px;height:25px;z-index:504;">
+<input type="button" id="Button43" onclick="PlayAudio('MediaPlayer3');$('#jQueryDialog3').dialog('open');StopAudio('MediaPlayer2');StopAudio('MediaPlayer4');StopAudio('MediaPlayer5');return false;" name="" value="Applications Internes" style="position:absolute;left:26px;top:201px;width:241px;height:25px;z-index:505;">
+<input type="button" id="Button44" onclick="PlayAudio('MediaPlayer4');ShowObject('Layer1', 1);StopAudio('MediaPlayer2');StopAudio('MediaPlayer3');StopAudio('MediaPlayer5');return false;" name="" value="Fenêtre Bienvenue" style="position:absolute;left:26px;top:237px;width:241px;height:25px;z-index:506;">
+<input type="button" id="Button45" onclick="PlayAudio('MediaPlayer5');$('#jQueryDialog11').dialog('open');StopAudio('MediaPlayer2');StopAudio('MediaPlayer3');StopAudio('MediaPlayer4');return false;" name="" value="Paramètres session" style="position:absolute;left:26px;top:272px;width:241px;height:25px;z-index:507;">
 </div>
 
 </body>
