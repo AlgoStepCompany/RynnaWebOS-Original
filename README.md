@@ -1,12 +1,12 @@
 # RynnaWebOS-Original
 
-### Vous visionnez en ce moment la version 9.9b (Release) du code source.
+### Vous visionnez en ce moment la version 10.0 (Release) du code source.
 Cette version sera mise à jour en fonction de l'avancement du WebOS.
 
-### You are currently viewing version 9.9b (Release) of the source code.
+### You are currently viewing version 10.0 (Release) of the source code.
 This version will be updated according to the progress of WebOS.
 
-# UPDATE : 03/10/2017
+# UPDATE : 07/10/2017
 
 ****************
 
@@ -50,19 +50,13 @@ Exemple :
 
 Exemple "newuser.php" : 
 
-$mysql_server = '127.0.0.1';
-
-$mysql_username = 'root';
-
-$mysql_password = 'wampserver';
-
-$mysql_database = 'mywebosbdd';
-
-$mysql_table = 'userswebos';
-
-$success_page = './createuser.php';
-
-$error_message = " ";
+$mysql_server = '127.0.0.1';  
+$mysql_username = 'root';  
+$mysql_password = 'wampserver';  
+$mysql_database = 'mywebosbdd';  
+$mysql_table = 'userswebos';  
+$success_page = './createuser.php';  
+$error_message = " ";  
 
 
 6 - Ouvrez une page locale sur votre navigateur et testez l'accès à votre site local.
