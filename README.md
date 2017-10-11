@@ -6,7 +6,7 @@ Cette version sera mise à jour en fonction de l'avancement du WebOS.
 ### You are currently viewing version 10.1 (Release) of the source code.
 This version will be updated according to the progress of WebOS.
 
-# UPDATE : 07/10/2017
+# UPDATE : 11/10/2017
 
 ****************
 
