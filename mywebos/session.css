@@ -3397,19 +3397,6 @@ body
 {
    border-radius: 0px;
 }
-#wb_Text45 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text45 div
-{
-   text-align: left;
-}
 #wb_MaterialIcon27
 {
    background-color: transparent;
@@ -9266,8 +9253,7 @@ body
 }
 #Image54
 {
-   border: 0px #000000 solid;
-   padding: 0px 0px 0px 0px;
+   border-width: 0;
    left: 0;
    top: 0;
    width: 100%;
@@ -9323,4 +9309,80 @@ body
 .jQueryDialog87, .jQueryDialog87 .ui-corner-all
 {
    border-radius: 0px;
+}
+#wb_MaterialIcon26
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+}
+#wb_MaterialIcon26:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#MaterialIcon26
+{
+   height: 59px;
+   width: 70px;
+}
+#MaterialIcon26 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 59px;
+   line-height: 59px;
+   vertical-align: middle;
+   width: 59px;
+}
+#wb_MaterialIcon26:hover i
+{
+   color: #FFFFFF;
+}
+#wb_Text28 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text28 div
+{
+   text-align: center;
+}
+#Image55
+{
+   border-width: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image55:hover
+{
+   -webkit-transform: rotate(0deg) scale(1.1,1.1) ;
+   -moz-transform: rotate(0deg) scale(1.1,1.1) ;
+   transform: rotate(0deg) scale(1.1,1.1) ;
+   -webkit-transition: -webkit-transform 500ms linear 0ms;
+   -moz-transition: transform 500ms linear 0ms;
+   transition: transform 500ms linear 0ms;
+}
+#wb_Text45 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text45 div
+{
+   text-align: center;
 }
