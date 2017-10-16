@@ -19,6 +19,10 @@ N° d'identification unique du projet "Rynna WebOS" : 1456-3179-4720-1196-6439
 Licence déposée : oui (GPL-3)
 Brevet déposé : non (non possible car source publique)
 Serveur officiel : rynnawebos.fr
+Version PHP : 7
+Compatible PHP : 5, 5.5, 7, 7.1
+Version CSS : 3
+Version JQuery : 3.2.1
 
 ----------------A PROPOS DES NOMS DE CODE DES VERSIONS TERMINEES ET VERROUILLEES : 
 Rynna WebOS est conçu de manière à valider tout les objectifs à chaque version majeure et qui puissent être verrouillées et terminées.
