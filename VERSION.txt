@@ -34,8 +34,8 @@ A chaque mise en place du version terminée et fiable les nouvelles versions cha
 Voici les futurs noms réservés au cours de l'évolution du projet :
 0.1 - [AUCUN NOM DE CODE]
 1.0 - ORIGINAL
-<<< vous êtes ici : Rynna WebOS (9.X) Original >>>
 10.0 - SOLARIS
+<<< vous êtes ici : Rynna WebOS (10.0 et supérieur) Solaris >>>
 20.0 - IMPORIUM
 30.0 - VEGASIS
 40.0 - CRIMERIA
