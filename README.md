@@ -1,4 +1,4 @@
-# RynnaWebOS-Solaris
+# RynnaWebOS-Solaris (basé/based sur/to RynnaWebOS-Original)
 
 ### Vous visionnez en ce moment la version 10.3 (Release) du code source.
 Cette version sera mise à jour en fonction de l'avancement du WebOS.
