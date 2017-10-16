@@ -914,7 +914,7 @@ body
    -moz-transition: opacity 500ms ease-in-out 0ms;
    transition: opacity 500ms ease-in-out 0ms;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -930,8 +930,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog3.ui-dialog .ui-widget-header
+.jQueryDialog3.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -943,7 +944,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -959,8 +960,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog4.ui-dialog .ui-widget-header
+.jQueryDialog4.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -972,7 +974,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -988,8 +990,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog5.ui-dialog .ui-widget-header
+.jQueryDialog5.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -1001,7 +1004,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -1017,8 +1020,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog8.ui-dialog .ui-widget-header
+.jQueryDialog8.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -1030,7 +1034,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -1046,8 +1050,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog14.ui-dialog .ui-widget-header
+.jQueryDialog14.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -1059,7 +1064,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -1075,8 +1080,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog19.ui-dialog .ui-widget-header
+.jQueryDialog19.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -1174,7 +1180,7 @@ body
    -moz-transition: transform 500ms linear 0ms;
    transition: transform 500ms linear 0ms;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -1190,8 +1196,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog23.ui-dialog .ui-widget-header
+.jQueryDialog23.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -1264,7 +1271,7 @@ body
    font-weight: normal;
    font-size: 13px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -1280,8 +1287,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog28.ui-dialog .ui-widget-header
+.jQueryDialog28.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -1343,7 +1351,7 @@ body
 {
    color: #FFFF00;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -1359,8 +1367,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog7.ui-dialog .ui-widget-header
+.jQueryDialog7.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -1507,7 +1516,7 @@ body
    box-shadow: none;
    text-align: left;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -1526,11 +1535,12 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog11.ui-dialog .ui-widget-header
+.jQueryDialog11.ui-dialog .ui-dialog-titlebar
 {
    background-color: #4F4F4F;
    background-image: none;
    border: 1px solid #4F4F4F;
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -1910,7 +1920,7 @@ body
 {
    text-align: center;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -1929,11 +1939,12 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog33.ui-dialog .ui-widget-header
+.jQueryDialog33.ui-dialog .ui-dialog-titlebar
 {
    background-color: #4F4F4F;
    background-image: none;
    border: 1px solid #4F4F4F;
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -2048,7 +2059,7 @@ body
    box-shadow: none;
    text-align: left;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -2064,8 +2075,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog41.ui-dialog .ui-widget-header
+.jQueryDialog41.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -2094,7 +2106,7 @@ body
    -moz-transition: transform 500ms linear 0ms;
    transition: transform 500ms linear 0ms;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -2110,8 +2122,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog20.ui-dialog .ui-widget-header
+.jQueryDialog20.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -2123,7 +2136,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -2139,8 +2152,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog16.ui-dialog .ui-widget-header
+.jQueryDialog16.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -2152,7 +2166,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -2168,8 +2182,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog12.ui-dialog .ui-widget-header
+.jQueryDialog12.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -2309,7 +2324,7 @@ body
    width: 100%;
    height: 100%;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -2325,8 +2340,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog27.ui-dialog .ui-widget-header
+.jQueryDialog27.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -2338,7 +2354,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -2354,8 +2370,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog10.ui-dialog .ui-widget-header
+.jQueryDialog10.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -2367,7 +2384,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -2383,8 +2400,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog29.ui-dialog .ui-widget-header
+.jQueryDialog29.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -2420,7 +2438,7 @@ body
    font-weight: normal;
    font-size: 13px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -2439,11 +2457,12 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog36.ui-dialog .ui-widget-header
+.jQueryDialog36.ui-dialog .ui-dialog-titlebar
 {
    background-color: #4F4F4F;
    background-image: none;
    border: 1px solid #4F4F4F;
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -2559,7 +2578,7 @@ body
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
    outline: 0;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -2578,11 +2597,12 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog37.ui-dialog .ui-widget-header
+.jQueryDialog37.ui-dialog .ui-dialog-titlebar
 {
    background-color: #4F4F4F;
    background-image: none;
    border: 1px solid #FFA500;
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -2594,7 +2614,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -2613,11 +2633,12 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog38.ui-dialog .ui-widget-header
+.jQueryDialog38.ui-dialog .ui-dialog-titlebar
 {
    background-color: #4F4F4F;
    background-image: none;
    border: 1px solid #4F4F4F;
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -2629,7 +2650,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -2645,8 +2666,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog25.ui-dialog .ui-widget-header
+.jQueryDialog25.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -2658,7 +2680,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -2674,8 +2696,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog24.ui-dialog .ui-widget-header
+.jQueryDialog24.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -2687,7 +2710,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -2706,11 +2729,12 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog34.ui-dialog .ui-widget-header
+.jQueryDialog34.ui-dialog .ui-dialog-titlebar
 {
    background-color: #4F4F4F;
    background-image: none;
    border: 1px solid #4F4F4F;
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -2755,7 +2779,7 @@ body
 {
    color: #DCDCDC;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -2774,11 +2798,12 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog39.ui-dialog .ui-widget-header
+.jQueryDialog39.ui-dialog .ui-dialog-titlebar
 {
    background-color: #4F4F4F;
    background-image: none;
    border: 1px solid #4F4F4F;
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -2869,7 +2894,7 @@ body
 {
    text-align: justify;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -2885,8 +2910,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog40.ui-dialog .ui-widget-header
+.jQueryDialog40.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -2898,7 +2924,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -2917,11 +2943,12 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog35.ui-dialog .ui-widget-header
+.jQueryDialog35.ui-dialog .ui-dialog-titlebar
 {
    background-color: #4F4F4F;
    background-image: none;
    border: 1px solid #4F4F4F;
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -2979,7 +3006,7 @@ body
 {
    color: #DCDCDC;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -2995,8 +3022,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog42.ui-dialog .ui-widget-header
+.jQueryDialog42.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -3149,7 +3177,7 @@ body
 {
    text-align: center;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -3165,8 +3193,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog43.ui-dialog .ui-widget-header
+.jQueryDialog43.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -3178,7 +3207,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -3194,8 +3223,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog44.ui-dialog .ui-widget-header
+.jQueryDialog44.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -3207,7 +3237,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -3223,8 +3253,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog45.ui-dialog .ui-widget-header
+.jQueryDialog45.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -3236,7 +3267,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -3252,8 +3283,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog46.ui-dialog .ui-widget-header
+.jQueryDialog46.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -3265,7 +3297,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -3281,8 +3313,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog47.ui-dialog .ui-widget-header
+.jQueryDialog47.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -3294,7 +3327,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -3310,8 +3343,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog48.ui-dialog .ui-widget-header
+.jQueryDialog48.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -3368,7 +3402,7 @@ body
    box-shadow: none;
    text-align: left;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -3384,8 +3418,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog49.ui-dialog .ui-widget-header
+.jQueryDialog49.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -3442,7 +3477,7 @@ body
    box-shadow: none;
    text-align: left;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -3458,8 +3493,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog50.ui-dialog .ui-widget-header
+.jQueryDialog50.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -3661,7 +3697,7 @@ body
    font-weight: bold;
    font-size: 13px;
 }
-.ui-widget
+#jQueryTabs4.ui-widget
 {
    font-size: 1em !important;
 }
@@ -3778,7 +3814,7 @@ body
 {
    text-align: center;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -3799,11 +3835,12 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog53.ui-dialog .ui-widget-header
+.jQueryDialog53.ui-dialog .ui-dialog-titlebar
 {
    background-color: #4F4F4F;
    background-image: none;
    border: 1px solid #FFA500;
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -3951,7 +3988,7 @@ body
 {
    text-align: center;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -3970,11 +4007,12 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog15.ui-dialog .ui-widget-header
+.jQueryDialog15.ui-dialog .ui-dialog-titlebar
 {
    background-color: #4F4F4F;
    background-image: none;
    border: 1px solid #FFA500;
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -4110,7 +4148,7 @@ body
 {
    text-align: center;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -4126,8 +4164,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog30.ui-dialog .ui-widget-header
+.jQueryDialog30.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -4150,7 +4189,7 @@ body
    font-weight: normal;
    font-size: 13px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -4166,8 +4205,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog22.ui-dialog .ui-widget-header
+.jQueryDialog22.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -4179,7 +4219,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -4195,8 +4235,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog54.ui-dialog .ui-widget-header
+.jQueryDialog54.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -4208,7 +4249,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -4224,8 +4265,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog51.ui-dialog .ui-widget-header
+.jQueryDialog51.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -4400,7 +4442,7 @@ body
 {
    text-align: center;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -4416,8 +4458,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog56.ui-dialog .ui-widget-header
+.jQueryDialog56.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -4429,7 +4472,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -4445,8 +4488,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog57.ui-dialog .ui-widget-header
+.jQueryDialog57.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -4458,7 +4502,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -4474,8 +4518,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog58.ui-dialog .ui-widget-header
+.jQueryDialog58.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -4487,7 +4532,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -4503,8 +4548,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog59.ui-dialog .ui-widget-header
+.jQueryDialog59.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -4516,7 +4562,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -4532,8 +4578,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog60.ui-dialog .ui-widget-header
+.jQueryDialog60.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -4545,7 +4592,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -4561,8 +4608,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog61.ui-dialog .ui-widget-header
+.jQueryDialog61.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -5136,7 +5184,7 @@ body
    box-shadow: none;
    text-align: left;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -5152,8 +5200,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog6.ui-dialog .ui-widget-header
+.jQueryDialog6.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -5201,9 +5250,14 @@ body
 }
 #Line1
 {
-   color: #A0A0A0;
-   background-color: #A0A0A0;
-   border-width: 0;
+   border-color: #A0A0A0;
+   border-style: solid;
+   border-bottom-width: 1px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
    margin: 0;
    padding: 0;
 }
@@ -5272,7 +5326,7 @@ body
    -moz-transition: transform 500ms linear 0ms;
    transition: transform 500ms linear 0ms;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -5291,11 +5345,12 @@ body
    font-style: normal;
    color: #F5F5F5;
 }
-.jQueryDialog1.ui-dialog .ui-widget-header
+.jQueryDialog1.ui-dialog .ui-dialog-titlebar
 {
    background-color: #4F4F4F;
    background-image: none;
    border: 1px solid #FFA500;
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -5507,7 +5562,7 @@ body
    -moz-transition: transform 500ms linear 0ms;
    transition: transform 500ms linear 0ms;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -5523,8 +5578,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog21.ui-dialog .ui-widget-header
+.jQueryDialog21.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -5536,7 +5592,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+#jQueryTabs1.ui-widget
 {
    font-size: 1em !important;
 }
@@ -5798,7 +5854,7 @@ body
    background-position: center center;
    background-size: cover;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -5814,8 +5870,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog18.ui-dialog .ui-widget-header
+.jQueryDialog18.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -5954,7 +6011,7 @@ body
 {
    text-align: center;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -5973,11 +6030,12 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog2.ui-dialog .ui-widget-header
+.jQueryDialog2.ui-dialog .ui-dialog-titlebar
 {
    background-color: #4F4F4F;
    background-image: none;
    border: 1px solid #4F4F4F;
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -6070,7 +6128,7 @@ body
    vertical-align: top;
    height: 20px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -6089,11 +6147,12 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog26.ui-dialog .ui-widget-header
+.jQueryDialog26.ui-dialog .ui-dialog-titlebar
 {
    background-color: #4F4F4F;
    background-image: none;
    border: 1px solid #4F4F4F;
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -6181,7 +6240,7 @@ body
 {
    text-align: center;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -6197,8 +6256,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog64.ui-dialog .ui-widget-header
+.jQueryDialog64.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -6232,7 +6292,7 @@ body
    font-weight: normal;
    font-size: 13px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -6248,8 +6308,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog65.ui-dialog .ui-widget-header
+.jQueryDialog65.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -6358,7 +6419,7 @@ body
    font-weight: normal;
    font-size: 13px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -6374,8 +6435,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog66.ui-dialog .ui-widget-header
+.jQueryDialog66.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -6501,7 +6563,7 @@ body
 {
    text-align: left;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -6517,8 +6579,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog67.ui-dialog .ui-widget-header
+.jQueryDialog67.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -6720,7 +6783,7 @@ body
 {
    text-align: left;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -6736,8 +6799,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog13.ui-dialog .ui-widget-header
+.jQueryDialog13.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -6807,7 +6871,7 @@ body
 {
    text-align: center;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -6826,11 +6890,12 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog69.ui-dialog .ui-widget-header
+.jQueryDialog69.ui-dialog .ui-dialog-titlebar
 {
    background-color: #4F4F4F;
    background-image: none;
    border: 1px solid #808080;
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -6879,7 +6944,6 @@ body
 {
    background-color: #FFA74F;
    background-image: none;
-   filter: alpha(opacity=75);
    opacity: 0.75;
 }
 #wb_FontAwesomeIcon21
@@ -6915,7 +6979,7 @@ body
 {
    color: #4F4F4F;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -6931,8 +6995,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog70.ui-dialog .ui-widget-header
+.jQueryDialog70.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -6971,7 +7036,7 @@ body
    font-size: 68px;
    line-height: 68px;
    vertical-align: middle;
-   width: 68px;
+   width: 39px;
 }
 #wb_FontAwesomeIcon22:hover i
 {
@@ -7004,7 +7069,7 @@ body
    font-size: 61px;
    line-height: 61px;
    vertical-align: middle;
-   width: 69px;
+   width: 56px;
 }
 #wb_FontAwesomeIcon23:hover i
 {
@@ -7056,7 +7121,7 @@ body
 {
    text-align: left;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -7072,8 +7137,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog71.ui-dialog .ui-widget-header
+.jQueryDialog71.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -7092,14 +7158,12 @@ body
    background-repeat: no-repeat;
    background-position: left top;
    background-size: 100% 100%;
-   filter: alpha(opacity=95);
    opacity: 0.95;
 }
 #Layer6
 {
    background-color: #D3D3D3;
    background-image: none;
-   filter: alpha(opacity=97);
    opacity: 0.97;
 }
 #TextArt1
@@ -7136,7 +7200,7 @@ body
    font-size: 13px;
    text-align: left;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -7152,8 +7216,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog72.ui-dialog .ui-widget-header
+.jQueryDialog72.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -7229,7 +7294,7 @@ body
 {
    color: #4F4F4F;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -7245,8 +7310,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog73.ui-dialog .ui-widget-header
+.jQueryDialog73.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -7278,7 +7344,6 @@ body
    background-repeat: no-repeat;
    background-position: left top;
    background-size: 100% 100%;
-   filter: alpha(opacity=85);
    opacity: 0.85;
 }
 #Layer8
@@ -7317,7 +7382,7 @@ body
 {
    text-align: left;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -7336,11 +7401,12 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog32.ui-dialog .ui-widget-header
+.jQueryDialog32.ui-dialog .ui-dialog-titlebar
 {
    background-color: #4F4F4F;
    background-image: none;
    border: 1px solid #4F4F4F;
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -7416,7 +7482,6 @@ body
    background-repeat: no-repeat;
    background-position: left top;
    background-size: 100% 100%;
-   filter: alpha(opacity=60);
    opacity: 0.60;
    -webkit-animation: transform-pulse 1000ms linear 0ms infinite normal both;
    -moz-animation: transform-pulse 1000ms linear 0ms infinite normal both;
@@ -7429,7 +7494,6 @@ body
    background-repeat: no-repeat;
    background-position: left top;
    background-size: 100% 100%;
-   filter: alpha(opacity=60);
    opacity: 0.60;
    -webkit-animation: transform-pulse 1000ms linear 0ms infinite normal both;
    -moz-animation: transform-pulse 1000ms linear 0ms infinite normal both;
@@ -7442,7 +7506,6 @@ body
    background-repeat: no-repeat;
    background-position: left top;
    background-size: 100% 100%;
-   filter: alpha(opacity=60);
    opacity: 0.60;
    -webkit-animation: transform-pulse 1000ms linear 0ms infinite normal both;
    -moz-animation: transform-pulse 1000ms linear 0ms infinite normal both;
@@ -7455,7 +7518,6 @@ body
    background-repeat: no-repeat;
    background-position: left top;
    background-size: 100% 100%;
-   filter: alpha(opacity=60);
    opacity: 0.60;
    -webkit-animation: transform-pulse 1000ms linear 0ms infinite normal both;
    -moz-animation: transform-pulse 1000ms linear 0ms infinite normal both;
@@ -7468,7 +7530,6 @@ body
    background-repeat: no-repeat;
    background-position: left top;
    background-size: 100% 100%;
-   filter: alpha(opacity=60);
    opacity: 0.60;
    -webkit-animation: transform-pulse 1000ms linear 0ms infinite normal both;
    -moz-animation: transform-pulse 1000ms linear 0ms infinite normal both;
@@ -7481,7 +7542,6 @@ body
    background-repeat: no-repeat;
    background-position: left top;
    background-size: 100% 100%;
-   filter: alpha(opacity=60);
    opacity: 0.60;
    -webkit-animation: transform-pulse 1000ms linear 0ms infinite normal both;
    -moz-animation: transform-pulse 1000ms linear 0ms infinite normal both;
@@ -7494,7 +7554,6 @@ body
    background-repeat: no-repeat;
    background-position: left top;
    background-size: 100% 100%;
-   filter: alpha(opacity=60);
    opacity: 0.60;
    -webkit-animation: transform-pulse 1000ms linear 0ms infinite normal both;
    -moz-animation: transform-pulse 1000ms linear 0ms infinite normal both;
@@ -7507,7 +7566,6 @@ body
    background-repeat: no-repeat;
    background-position: left top;
    background-size: 100% 100%;
-   filter: alpha(opacity=60);
    opacity: 0.60;
    -webkit-animation: transform-pulse 1000ms linear 0ms infinite normal both;
    -moz-animation: transform-pulse 1000ms linear 0ms infinite normal both;
@@ -7520,13 +7578,12 @@ body
    background-repeat: no-repeat;
    background-position: left top;
    background-size: 100% 100%;
-   filter: alpha(opacity=60);
    opacity: 0.60;
    -webkit-animation: transform-pulse 1000ms linear 0ms infinite normal both;
    -moz-animation: transform-pulse 1000ms linear 0ms infinite normal both;
    animation: transform-pulse 1000ms linear 0ms infinite normal both;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -7545,11 +7602,12 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog52.ui-dialog .ui-widget-header
+.jQueryDialog52.ui-dialog .ui-dialog-titlebar
 {
    background-color: #4F4F4F;
    background-image: none;
    border: 1px solid #FFFF00;
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -7584,7 +7642,7 @@ body
    width: 100%;
    height: 100%;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -7600,8 +7658,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog9.ui-dialog .ui-widget-header
+.jQueryDialog9.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -7613,7 +7672,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -7629,8 +7688,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog31.ui-dialog .ui-widget-header
+.jQueryDialog31.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -7642,7 +7702,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -7658,8 +7718,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog55.ui-dialog .ui-widget-header
+.jQueryDialog55.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -7671,7 +7732,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -7687,8 +7748,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog68.ui-dialog .ui-widget-header
+.jQueryDialog68.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -7700,7 +7762,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -7716,8 +7778,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog75.ui-dialog .ui-widget-header
+.jQueryDialog75.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -7729,7 +7792,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -7745,8 +7808,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog76.ui-dialog .ui-widget-header
+.jQueryDialog76.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -7808,7 +7872,7 @@ body
    width: 100%;
    height: 100%;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -7824,8 +7888,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog62.ui-dialog .ui-widget-header
+.jQueryDialog62.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -8100,7 +8165,6 @@ body
 {
    background-color: #4F4F4F;
    background-image: none;
-   filter: alpha(opacity=70);
    opacity: 0.70;
 }
 #wb_Text17 
@@ -8118,9 +8182,14 @@ body
 }
 #Line2
 {
-   color: #A0A0A0;
-   background-color: #A0A0A0;
-   border-width: 0;
+   border-color: #A0A0A0;
+   border-style: solid;
+   border-bottom-width: 4px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
    margin: 0;
    padding: 0;
 }
@@ -8134,32 +8203,6 @@ body
    text-align: left;
 }
 #wb_Text22 div
-{
-   text-align: left;
-}
-#wb_Text26 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text26 div
-{
-   text-align: left;
-}
-#wb_Text46 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text46 div
 {
    text-align: left;
 }
@@ -8191,9 +8234,14 @@ body
 }
 #Line3
 {
-   color: #A0A0A0;
-   background-color: #A0A0A0;
-   border-width: 0;
+   border-color: #A0A0A0;
+   border-style: solid;
+   border-bottom-width: 4px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
    margin: 0;
    padding: 0;
 }
@@ -8228,7 +8276,6 @@ body
    background-color: #191919;
    background-image: none;
    border: 1px #696969 solid;
-   filter: alpha(opacity=90);
    opacity: 0.90;
 }
 #Layer29
@@ -8249,7 +8296,7 @@ body
 {
    text-align: center;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -8265,8 +8312,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog17.ui-dialog .ui-widget-header
+.jQueryDialog17.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -8313,7 +8361,7 @@ body
    font-weight: normal;
    font-size: 13px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -8329,8 +8377,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog63.ui-dialog .ui-widget-header
+.jQueryDialog63.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -8410,7 +8459,7 @@ body
    font-weight: normal;
    font-size: 13px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -8426,8 +8475,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog77.ui-dialog .ui-widget-header
+.jQueryDialog77.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -8482,7 +8532,7 @@ body
 {
    text-align: center;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -8498,8 +8548,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog78.ui-dialog .ui-widget-header
+.jQueryDialog78.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -8511,7 +8562,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+#jQueryTabs2.ui-widget
 {
    font-size: 1em !important;
 }
@@ -8557,7 +8608,7 @@ body
    overflow: auto;
    padding: 0;
 }
-.ui-widget
+#jQueryTabs3.ui-widget
 {
    font-size: 1em !important;
 }
@@ -8648,7 +8699,7 @@ body
    overflow: auto;
    padding: 0;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -8664,8 +8715,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog74.ui-dialog .ui-widget-header
+.jQueryDialog74.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -8677,7 +8729,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -8693,8 +8745,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog79.ui-dialog .ui-widget-header
+.jQueryDialog79.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -8706,7 +8759,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -8722,8 +8775,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog80.ui-dialog .ui-widget-header
+.jQueryDialog80.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -8735,7 +8789,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -8751,8 +8805,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog81.ui-dialog .ui-widget-header
+.jQueryDialog81.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -8764,7 +8819,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -8780,8 +8835,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog82.ui-dialog .ui-widget-header
+.jQueryDialog82.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -8800,7 +8856,6 @@ body
    background-repeat: no-repeat;
    background-position: center center;
    background-size: 100% 100%;
-   filter: alpha(opacity=90);
    opacity: 0.90;
 }
 #wb_MaterialIcon19
@@ -8881,15 +8936,7 @@ body
    box-shadow: none;
    text-align: left;
 }
-#Layer32
-{
-   background-color: transparent;
-   background-image: url(images/loading2.gif);
-   background-repeat: no-repeat;
-   background-position: left top;
-   background-size: 100% 100%;
-}
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -8908,11 +8955,12 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog83.ui-dialog .ui-widget-header
+.jQueryDialog83.ui-dialog .ui-dialog-titlebar
 {
    background-color: #4F4F4F;
    background-image: none;
    border: 1px solid #4169E1;
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -8953,7 +9001,7 @@ body
 #FontAwesomeIcon6
 {
    height: 42px;
-   width: 964px;
+   width: 470px;
 }
 #FontAwesomeIcon6 i
 {
@@ -8981,7 +9029,7 @@ body
 {
    text-align: left;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -9000,11 +9048,12 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog84.ui-dialog .ui-widget-header
+.jQueryDialog84.ui-dialog .ui-dialog-titlebar
 {
    background-color: #4F4F4F;
    background-image: none;
    border: 1px solid #4169E1;
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -9047,7 +9096,7 @@ body
 #FontAwesomeIcon8
 {
    height: 42px;
-   width: 964px;
+   width: 470px;
 }
 #FontAwesomeIcon8 i
 {
@@ -9069,7 +9118,7 @@ body
    width: 100%;
    height: 100%;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -9085,8 +9134,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog85.ui-dialog .ui-widget-header
+.jQueryDialog85.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -9118,7 +9168,7 @@ body
    width: 100%;
    height: 100%;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -9137,11 +9187,12 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog86.ui-dialog .ui-widget-header
+.jQueryDialog86.ui-dialog .ui-dialog-titlebar
 {
    background-color: #4F4F4F;
    background-image: none;
    border: 1px solid #4169E1;
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -9281,7 +9332,7 @@ body
 {
    text-align: center;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -9297,8 +9348,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog87.ui-dialog .ui-widget-header
+.jQueryDialog87.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
