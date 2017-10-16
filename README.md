@@ -1,12 +1,12 @@
 # RynnaWebOS-Solaris
 
-### Vous visionnez en ce moment la version 10.2 (Release) du code source.
+### Vous visionnez en ce moment la version 10.3 (Release) du code source.
 Cette version sera mise à jour en fonction de l'avancement du WebOS.
 
-### You are currently viewing version 10.2 (Release) of the source code.
+### You are currently viewing version 10.3 (Release) of the source code.
 This version will be updated according to the progress of WebOS.
 
-# UPDATE : 13/10/2017
+# UPDATE : 16/10/2017
 
 ****************
 
