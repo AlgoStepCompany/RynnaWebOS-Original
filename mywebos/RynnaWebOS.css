@@ -1,6 +1,6 @@
 @font-face
 {
-   font-family: 'Material Icons';
+   font-family: "Material Icons";
    font-style: normal;
    font-weight: 400;
    src: url(MaterialIcons-Regular.eot);
@@ -12,7 +12,7 @@
 }
 .material-icons
 {
-   font-family: 'Material Icons';
+   font-family: "Material Icons";
    font-weight: normal;
    font-style: normal;
    font-size: 24px;
@@ -26,7 +26,7 @@
    -webkit-font-smoothing: antialiased;
    text-rendering: optimizeLegibility;
    -moz-osx-font-smoothing: grayscale;
-   font-feature-settings: 'liga';
+   font-feature-settings: "liga";
 }
 @-webkit-keyframes animate-fade-in
 {
@@ -296,7 +296,6 @@ h1
    font-family: Arial;
    font-weight: bold;
    font-size: 32px;
-   font-style: normal;
    text-decoration: none;
    color: #000000;
    background-color: transparent;
@@ -309,7 +308,6 @@ h2
    font-family: Arial;
    font-weight: bold;
    font-size: 27px;
-   font-style: normal;
    text-decoration: none;
    color: #000000;
    background-color: transparent;
@@ -320,9 +318,7 @@ h2
 h3
 {
    font-family: Arial;
-   font-weight: normal;
    font-size: 24px;
-   font-style: normal;
    text-decoration: none;
    color: #000000;
    background-color: transparent;
@@ -333,7 +329,6 @@ h3
 h4
 {
    font-family: Arial;
-   font-weight: normal;
    font-size: 21px;
    font-style: italic;
    text-decoration: none;
@@ -346,9 +341,7 @@ h4
 h5
 {
    font-family: Arial;
-   font-weight: normal;
    font-size: 19px;
-   font-style: normal;
    text-decoration: none;
    color: #000000;
    background-color: transparent;
@@ -359,9 +352,7 @@ h5
 h6
 {
    font-family: Arial;
-   font-weight: normal;
    font-size: 16px;
-   font-style: normal;
    text-decoration: none;
    color: #000000;
    background-color: transparent;
@@ -374,7 +365,6 @@ h6
    font-family: "Courier New";
    font-weight: bold;
    font-size: 16px;
-   font-style: normal;
    text-decoration: none;
    color: #000080;
    background-color: transparent;
