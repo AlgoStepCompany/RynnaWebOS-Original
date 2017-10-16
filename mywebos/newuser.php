@@ -64,8 +64,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST
       $sql = "INSERT `".$mysql_table."` (`username`, `password`, `fullname`, `email`, `active`, `code`) VALUES ('$newusername', '$crypt_pass', '$newfullname', '$newemail', 1, '$code')";
       $result = mysqli_query($db, $sql);
       mysqli_close($db);
-	  	  	  // Procédure de création de la session personnelle (30 secondes maximums de créations)
-	  // Dernière modification : Version 9.9b de Rynna WebOS
+	  // Procédure de création de la session personnelle (30 secondes maximums de créations)
+	  // Dernière modification : Version 11.0 de Rynna WebOS
 	  $mkusercreate = 'home/' . $_POST["username"];
 		$mktempusercreate = mkdir($mkusercreate);
 		// Nouvelle ajout : le dossier config pour les nouveaux comptes pour les sessions personnalisables
@@ -96,7 +96,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST
       $mailfrom = 'support@rynnawebos.fr';
       ini_set('sendmail_from', $mailfrom);
       $subject = 'Compte WebOS Rynna creer !';
-      $message = 'Votre nom de compte a bien ete creer.';
+      $message = 'Votre nom de compte a bien ete cree.';
       $message .= "\r\nUsername: ";
       $message .= $newusername;
       $message .= "\r\n";
@@ -120,14 +120,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST
 <!doctype html>
 <html>
 <head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta charset="utf-8">
 <title>RynnaWebOS</title>
 <meta name="generator" content="AlgoStep Company - 2006-2017">
 <link href="rynnawebosV3/jquery-ui.min.css" rel="stylesheet">
 <link href="RynnaWebOS.css" rel="stylesheet">
 <link href="newuser.css" rel="stylesheet">
-<script src="jquery-3.1.1.min.js"></script>
+<script src="jquery-3.2.1.min.js"></script>
 <script src="jquery-ui.min.js"></script>
+<script src="wb.stickylayer.min.js"></script>
 <script src="wwb12.min.js"></script>
 <script>
 $(document).ready(function()
@@ -142,30 +144,16 @@ $(document).ready(function()
       closeOnEscape: true,
       show: 'highlight',
       hide: 'highlight',
-      autoOpen: true,
+      autoOpen: false,
       classes: { 'ui-dialog': 'jQueryDialog2'} 
    };
    $("#jQueryDialog2").dialog(jQueryDialog2Options);
-   var jQueryDialog1Options =
-   {
-      modal: true,
-      width: 865,
-      height: 470,
-      position: { my: 'center', at: 'center', of: window },
-      resizable: false,
-      draggable: false,
-      closeOnEscape: false,
-      show: 'highlight',
-      hide: 'fade',
-      autoOpen: true,
-      classes: { 'ui-dialog': 'jQueryDialog1'} 
-   };
-   $("#jQueryDialog1").dialog(jQueryDialog1Options);
+   $("#Layer1").stickylayer({orientation: 9, position: [0, 0], delay: 0});
 });
 </script>
 </head>
 <body>
-<div id="jQueryDialog2" style="z-index:6;" title="Cr&#233;er un nouveau compte utilisateur">
+<div id="jQueryDialog2" style="z-index:7;" title="Cr&#233;er un nouveau compte utilisateur">
 <div id="wb_Signup1" style="position:absolute;left:17px;top:111px;width:598px;height:219px;text-align:right;z-index:0;">
 <form name="signupform" method="post" accept-charset="UTF-8" action="<?php echo basename(__FILE__); ?>" id="signupform">
 <input type="hidden" name="form_name" value="signupform">
@@ -207,30 +195,16 @@ $(document).ready(function()
 <span style="color:#000000;font-family:Arial;font-size:13px;"><strong>Une fois valider merci de patienter. La création d'un nouveau compte peut prendre jusqu'à 1 minute.<br>ATTENTION : les caractères que vous utiliserez pour créer votre Nom de Compte doivent être uniquement en minuscules. Par contre pour votre mot de passe celui-ci devra respecter la casse (minuscules et/ou majuscules).</strong></span></div>
 </div>
 
-<script>
-var wb_Timer1;
-function TimerStartTimer1()
-{
-   wb_Timer1 = setInterval(function()
-   {
-      var event = null;
-      $('#jQueryDialog2').dialog('open');
-   }, 1000);
-}
-function TimerStopTimer1()
-{
-   clearInterval(wb_Timer1);
-}
-</script>
-
-<div id="jQueryDialog1" title="Licence Utilisateur (OBLIGATOIRE)">
-<div id="Html17" style="position:absolute;left:11px;top:13px;width:821px;height:351px;overflow:auto;z-index:3">
+<div id="Layer1" style="position:absolute;text-align:center;left:7px;top:506px;width:891px;height:483px;z-index:8;">
+<div id="Layer1_Container" style="width:889px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="Html1" style="position:absolute;left:13px;top:53px;width:861px;height:351px;overflow:auto;z-index:3">
 <iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
    src="addeosapps/licencenewusers.php">
 </iframe><br /></div>
-<input type="submit" id="Button2" onclick="window.location.href='./index.php';return false;" name="" value="Je refuse la licence" style="position:absolute;left:28px;top:382px;width:222px;height:25px;z-index:4;">
-<input type="submit" id="Button3" onclick="TimerStartTimer1();$('#jQueryDialog1').dialog('close');return false;" name="" value="J'accepte la licence" style="position:absolute;left:584px;top:382px;width:248px;height:25px;z-index:5;">
+<input type="submit" id="Button2" onclick="alert('Vous ne pouvez pas creer de compte gratuit si vous refusez la licence. Vous serez rediriger vers la page login.');window.location.href='./index.php';return false;" name="" value="Je refuse la licence" style="position:absolute;left:13px;top:434px;width:222px;height:25px;z-index:4;">
+<input type="submit" id="Button3" onclick="$('#jQueryDialog2').dialog('open');ShowObject('Layer1', 0);return false;" name="" value="J'accepte la licence" style="position:absolute;left:626px;top:434px;width:248px;height:25px;z-index:5;">
+<input type="button" id="Button4" name="" value="Licence utilisateur (OBLIGATOIRE)" style="position:absolute;left:11px;top:10px;width:863px;height:25px;z-index:6;" disabled>
 </div>
-
+</div>
 </body>
 </html>

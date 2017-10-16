@@ -14,7 +14,7 @@ body
    margin: 0;
    padding: 0;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -30,8 +30,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog1.ui-dialog .ui-widget-header
+.jQueryDialog1.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -58,9 +59,14 @@ body
 }
 #Line1
 {
-   color: #A0A0A0;
-   background-color: #A0A0A0;
-   border-width: 0;
+   border-color: #A0A0A0;
+   border-style: solid;
+   border-bottom-width: 30px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
    margin: 0;
    padding: 0;
    -webkit-animation: transform-rotate 450ms linear 0ms infinite normal both;

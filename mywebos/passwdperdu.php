@@ -36,8 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST
       $mailfrom = 'passwdrecovery@rynnawebos.fr';
       ini_set('sendmail_from', $mailfrom);
       $subject = 'Recuperation mot de passe WebOS';
-	  // Espace à la fin pour indiquer le nouveau MDP
-      $message = 'Voici votre mot de passe pour votre session:   ';
+      $message = 'Voici votre mot de passe pour votre session Rynna WebOS:   ';
       $message .= $newpassword;
       $header  = "From: passwdrecovery@rynnawebos.fr"."\r\n";
       $header .= "Reply-To: passwdrecovery@rynnawebos.fr"."\r\n";
@@ -59,37 +58,27 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST
 <!doctype html>
 <html>
 <head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta charset="utf-8">
 <title>RynnaWebOS</title>
 <meta name="generator" content="AlgoStep Company - 2006-2017">
-<link href="rynnawebosV3/jquery-ui.min.css" rel="stylesheet">
 <link href="RynnaWebOS.css" rel="stylesheet">
 <link href="passwdperdu.css" rel="stylesheet">
-<script src="jquery-3.1.1.min.js"></script>
-<script src="jquery-ui.min.js"></script>
+<script src="jquery-3.2.1.min.js"></script>
+<script src="wb.stickylayer.min.js"></script>
 <script>
 $(document).ready(function()
 {
-   var jQueryDialog1Options =
-   {
-      width: 652,
-      height: 211,
-      position: { my: 'center', at: 'center', of: window },
-      resizable: false,
-      draggable: false,
-      closeOnEscape: false,
-      show: 'highlight',
-      hide: 'highlight',
-      autoOpen: true,
-      classes: { 'ui-dialog': 'jQueryDialog1'} 
-   };
-   $("#jQueryDialog1").dialog(jQueryDialog1Options);
+   $("#Layer1").stickylayer({orientation: 9, position: [0, 0], delay: 1});
 });
 </script>
 </head>
 <body>
-<div id="jQueryDialog1" style="z-index:2;" title="Vous avez perdu votre mot de passe ?">
-<div id="wb_PasswordRecovery1" style="position:absolute;left:21px;top:12px;width:596px;height:108px;text-align:right;z-index:0;">
+<div id="Layer1" style="position:absolute;text-align:center;left:24px;top:12px;width:598px;height:234px;z-index:3;">
+<div id="Layer1_Container" style="width:596px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<input type="button" id="Button2" name="" value="Récupération du mot de passe via e-mail" style="position:absolute;left:11px;top:10px;width:566px;height:25px;z-index:0;" disabled>
+<input type="submit" id="Button3" onclick="window.location.href='./index.php';return false;" name="" value="Annuler" style="position:absolute;left:481px;top:196px;width:96px;height:25px;z-index:1;">
+<div id="wb_PasswordRecovery1" style="position:absolute;left:29px;top:63px;width:527px;height:108px;text-align:right;z-index:2;">
 <form name="forgotpasswordform" method="post" accept-charset="UTF-8" action="<?php echo basename(__FILE__); ?>" id="forgotpasswordform">
 <input type="hidden" name="form_name" value="forgotpasswordform">
 <table id="PasswordRecovery1">
@@ -106,8 +95,7 @@ $(document).ready(function()
 </table>
 </form>
 </div>
-<input type="submit" id="Button1" onclick="window.location.href='./index.php';return false;" name="" value="Annuler" style="position:absolute;left:521px;top:130px;width:96px;height:25px;z-index:1;">
 </div>
-
+</div>
 </body>
 </html>

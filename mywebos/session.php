@@ -1464,6 +1464,7 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryTabs3").tabs(jQueryTabs3Options);
    var jQueryDialog74Options =
    {
+      modal: true,
       width: 572,
       height: 272,
       position: { my: 'center', at: 'center', of: window },
@@ -1627,6 +1628,21 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 <span style="color:#000000;font-family:Arial;font-size:13px;">Ci-dessous retrouvez les dernières mises à jour de votre WebOS. Seul les 6 dernières mises à jours sont indiqués&nbsp;:</span></div>
 <div id="Blog1" style="overflow-y:scroll;position:absolute;left:23px;top:195px;width:689px;height:171px;z-index:3;">
 <div class="blogitem">
+   <span class="blogsubject">Version 11.0</span>
+   <div class="no-thumb"></div>
+   <div class="blogdate">16/10/17<br></div>
+   <span style="color:#000000;">- Nouveau moteur PHP<br>
+- Nouveau moteur JQuery<br>
+- Framework avancé modifié JQuery<br>
+- Modification des pages principales (améliorations du code)<br>
+- Ajustement des principales fenêtres et options PHP/SQL<br>
+- Licence ajustée et mise à jour<br>
+- Pages mode compatibilité Edge+Chrome ajoutés pour les pages principales<br>
+- Compilation modifié sur une base PHP 7 compatible PHP 7.1</span><br>
+   <div class="blogcomments"></div>
+</div>
+<div class="clearfix visible-col1"></div>
+<div class="blogitem">
    <span class="blogsubject">Version 10.3</span>
    <div class="no-thumb"></div>
    <div class="blogdate">16/10/17<br></div>
@@ -1683,15 +1699,6 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 - Laposte.fr servant de test mobile sur les Simulateurs de Smartphone ont changés par un autre site plus léger<br>
 - Les fonds d'écran ont été modifiés en aperçu par des miniatures (plus de 10 Mo énocomisés)<br>
 - Ajout Gestionnaire de Serveur pour divers informations sur le serveur source (peut être désactiver par le masquage de l'icone dans le code source si vous êtes un développeur)</span><br>
-   <div class="blogcomments"></div>
-</div>
-<div class="clearfix visible-col1"></div>
-<div class="blogitem">
-   <span class="blogsubject">Version 9.9</span>
-   <div class="no-thumb"></div>
-   <div class="blogdate">15/09/17<br></div>
-   <span style="color:#000000;">- Amélioration de la page de connexion<br>
-<em>- Ajout d'un EasterEggs sur la page de connexion</em></span><br>
    <div class="blogcomments"></div>
 </div>
 <div class="clearfix visible-col1"></div>
@@ -3277,7 +3284,7 @@ else
 <div id="wb_Text15" style="position:absolute;left:14px;top:315px;width:75px;height:28px;text-align:center;z-index:290;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:11px;">Modifier fonds d'écran</span></div>
 <div id="wb_MaterialIcon26" style="position:absolute;left:106px;top:245px;width:70px;height:59px;text-align:center;z-index:291;">
-<a href="#" onclick="TimerStartTimer50();ShowObject('Layer32', 1);$('#jQueryDialog1').dialog('close');return false;"><div id="MaterialIcon26"><i class="material-icons">&#xe1b2;</i></div></a></div>
+<a href="#" onclick="$('#jQueryDialog83').dialog('open');$('#jQueryDialog1').dialog('close');return false;"><div id="MaterialIcon26"><i class="material-icons">&#xe1b2;</i></div></a></div>
 <div id="wb_Text28" style="position:absolute;left:109px;top:315px;width:64px;height:28px;text-align:center;z-index:292;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:11px;">Gestionnaire Serveur</span></div>
 </div>
@@ -4452,7 +4459,7 @@ TimerStartTimer47();
 <object data="addeosapps/sng.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
-<div id="jQueryDialog74" style="z-index:630;" title="Bienvenue dans la session de d&#233;monstration !">
+<div id="jQueryDialog74" title="Bienvenue dans la session de d&#233;monstration !">
 <div id="wb_Text108" style="position:absolute;left:12px;top:13px;width:540px;height:195px;z-index:480;">
 <span style="color:#000000;font-family:Arial;font-size:16px;"><strong>Bienvenue dans la session de démonstration&nbsp;!</strong></span><span style="color:#000000;font-family:Arial;font-size:13px;"><br><br></span><span style="color:#FF0000;font-family:Arial;font-size:13px;"><strong>Celle-ci est une copie conforme du WebOS actuellement disponible sauf que vous n'avez pas accès à certaines propriétés qui sont les suivantes&nbsp;: </strong></span><span style="color:#000000;font-family:Arial;font-size:13px;"><br><br>- Chat du WebOS et de la communauté et quelques applications internes<br>- Modifier votre compte utilisateur<br>- Accéder à l'explorateur de fichiers et votre espace personnel (50Go)<br><br><strong>Créer un compte est <u>GRATUIT et ILLIMITE</u> si vous le souhaitez par la suite&nbsp;!<br></strong><br>Bon test sur votre session temporaire&nbsp;!</span></div>
 </div>

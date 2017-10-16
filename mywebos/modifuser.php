@@ -57,7 +57,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST
       $error_message = 'Les mots de passes ne correspondent pas. Veuillez reessayer.';
    }
    else
-	   // Majuscules interdites
+	   	   // Majuscules interdites
    if (!preg_match("/^[a-z0-9_!@$]{1,50}$/", $newusername))
    {
       $error_message = 'Votre nom de compte n existe pas. Veuillez reessayer.';
@@ -101,7 +101,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST
          $newusername = mysqli_real_escape_string($db, $newusername);
          $newemail = mysqli_real_escape_string($db, $newemail);
          $newfullname = mysqli_real_escape_string($db, $newfullname);
-		 // BDD X table rynnawebos (EDIT)
          $sql = "UPDATE `".$mysql_table."` SET `username` = '$newusername', `fullname` = '$newfullname', `email` = '$newemail' WHERE `username` = '$oldusername'";
          mysqli_query($db, $sql);
          if (!empty($newpassword))
@@ -144,13 +143,14 @@ if (session_id() == "")
 <!doctype html>
 <html>
 <head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta charset="utf-8">
 <title>RynnaWebOS</title>
 <meta name="generator" content="AlgoStep Company - 2006-2017">
 <link href="rynnawebosV3/jquery-ui.min.css" rel="stylesheet">
 <link href="RynnaWebOS.css" rel="stylesheet">
 <link href="modifuser.css" rel="stylesheet">
-<script src="jquery-3.1.1.min.js"></script>
+<script src="jquery-3.2.1.min.js"></script>
 <script src="jquery-ui.min.js"></script>
 <script src="wwb12.min.js"></script>
 <script>
@@ -213,7 +213,7 @@ $(document).ready(function()
 </form>
 </div>
 <div id="wb_Text9" style="position:absolute;left:15px;top:42px;width:623px;height:32px;z-index:1;">
-<span style="color:#000000;font-family:Arial;font-size:13px;">Modifier votre compte entrainera un re-démarrage de votre session !<br>Modifier votre nom de compte provoquera la perte de votre espace personnel sur l'hébergeur de fichiers !</span></div>
+<span style="color:#000000;font-family:Arial;font-size:13px;"><strong>Modifier votre compte entrainera un re-démarrage de votre session !</strong><br>Modifier votre nom de compte provoquera la perte de votre espace personnel sur l'hébergeur de fichiers !</span></div>
 <div id="wb_LoginName1" style="position:absolute;left:15px;top:11px;width:461px;height:26px;z-index:2;">
 <span id="LoginName1">Bienvenue <?php
 if (isset($_SESSION['username']))

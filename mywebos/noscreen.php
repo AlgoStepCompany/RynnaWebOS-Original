@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta charset="utf-8">
 <title>RynnaWebOS</title>
 <meta name="generator" content="AlgoStep Company - 2006-2017">
@@ -8,7 +9,7 @@
 <link href="font-awesome.min.css" rel="stylesheet">
 <link href="RynnaWebOS.css" rel="stylesheet">
 <link href="noscreen.css" rel="stylesheet">
-<script src="jquery-3.1.1.min.js"></script>
+<script src="jquery-3.2.1.min.js"></script>
 <script src="wb.panel.min.js"></script>
 <script>
 $(document).ready(function()

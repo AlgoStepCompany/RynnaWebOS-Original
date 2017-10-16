@@ -75,7 +75,7 @@ Dev AlgoStep Company - SIRET 817 727 357 00011">
 <link href="font-awesome.min.css" rel="stylesheet">
 <link href="RynnaWebOS.css" rel="stylesheet">
 <link href="index.css" rel="stylesheet">
-<script src="jquery-3.1.1.min.js"></script>
+<script src="jquery-3.2.1.min.js"></script>
 <script src="jquery-ui.min.js"></script>
 <script src="wb.stickylayer.min.js"></script>
 <script src="wwb12.min.js"></script>
@@ -191,7 +191,7 @@ $(document).ready(function()
 
 <div id="Layer2" style="position:fixed;text-align:left;left:0;top:0;right:0;bottom:0;z-index:40;">
 <div id="Layer3" style="position:absolute;text-align:center;left:158px;top:143px;width:627px;height:292px;z-index:20;">
-<div id="Layer3_Container" style="width:627px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="Layer3_Container" style="width:623px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="wb_Login1" style="position:absolute;left:149px;top:43px;width:448px;height:151px;text-align:right;z-index:14;">
 <form name="loginform" method="post" accept-charset="UTF-8" action="<?php echo basename(__FILE__); ?>" id="loginform">
 <input type="hidden" name="form_name" value="loginform">
@@ -225,7 +225,7 @@ $(document).ready(function()
 </div>
 </div>
 <div id="wb_Text10" style="position:absolute;left:7px;top:7px;width:250px;height:56px;z-index:21;">
-<span style="color:#000000;font-family:Arial;font-size:13px;"><em>Version 10.3 (Release)<br>Desktop Virtual Manager (DVM)<br></em></span><span style="color:#000000;font-family:Arial;font-size:9.3px;"><em>PHP 7, CSS 3, JQuery 3.1.1<br>SOLARIS</em></span></div>
+<span style="color:#000000;font-family:Arial;font-size:13px;"><em>Version 11.0 (Release)<br>Desktop Virtual Manager (DVM)<br></em></span><span style="color:#000000;font-family:Arial;font-size:9.3px;"><em>PHP 7, CSS 3, JQuery 3.1.1<br>SOLARIS</em></span></div>
 <div id="Layer1" style="position:absolute;text-align:center;left:277px;top:564px;width:393px;height:83px;z-index:22;">
 <div id="Layer1_Container" style="width:393px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 </div>
@@ -239,7 +239,7 @@ $(document).ready(function()
 </div>
 </div>
 <div id="Layer4" style="position:absolute;text-align:center;left:284px;top:12px;width:459px;height:116px;z-index:25;" onmouseenter="TimerStartTimer4();return false;" onmouseleave="ShowObject('wb_Image2', 0);TimerStopTimer4();return false;">
-<div id="Layer4_Container" style="width:459px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="Layer4_Container" style="width:455px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 </div>
 </div>
 <div id="wb_Image2" style="position:absolute;left:592px;top:52px;width:379px;height:515px;z-index:26;">
@@ -252,7 +252,7 @@ $(document).ready(function()
 </div>
 
 <div id="Layer7" style="position:absolute;text-align:center;left:143px;top:1647px;width:540px;height:237px;z-index:42;">
-<div id="Layer7_Container" style="width:540px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="Layer7_Container" style="width:536px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="wb_FontAwesomeIcon6" style="position:absolute;left:12px;top:14px;width:100px;height:100px;text-align:center;z-index:35;">
 <div id="FontAwesomeIcon6"><i class="fa fa-exclamation-triangle">&nbsp;</i></div></div>
 <div id="wb_Text9" style="position:absolute;left:133px;top:14px;width:379px;height:180px;z-index:36;">

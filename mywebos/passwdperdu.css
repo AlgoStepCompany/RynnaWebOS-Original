@@ -14,35 +14,6 @@ body
    margin: 0;
    padding: 0;
 }
-.ui-widget
-{
-   font-size: 1em !important;
-}
-.jQueryDialog1.ui-dialog
-{
-   padding: 4px 4px 4px 4px;
-}
-.jQueryDialog1.ui-dialog .ui-dialog-title
-{
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   font-style: normal;
-   color: #FFFFFF;
-}
-.jQueryDialog1.ui-dialog .ui-widget-header
-{
-   padding: 10px 10px 10px 30px;
-}
-.ui-dialog .ui-dialog-titlebar-close
-{
-   outline: 0;
-   right: 10px;
-}
-.jQueryDialog1, .jQueryDialog1 .ui-corner-all
-{
-   border-radius: 0px;
-}
 #PasswordRecovery1
 {
    background-color: #EEEEEE;
@@ -55,7 +26,7 @@ body
    font-size: 13px;
    text-align: right;
    border-spacing: 4px;
-   width: 596px;
+   width: 527px;
    height: 108px;
 }
 #PasswordRecovery1 td
@@ -73,7 +44,7 @@ body
 #PasswordRecovery1 .label
 {
    height: 20px;
-   width:260px;
+   width:225px;
 }
 #PasswordRecovery1 .row
 {
@@ -109,7 +80,25 @@ body
    width: 70px;
    height: 20px;
 }
-#Button1
+#Layer1
+{
+   background-color: #F5F5F5;
+   background-image: none;
+   border: 1px #FFA500 solid;
+   border-radius: 1px;
+}
+#Button2
+{
+   border: 1px #000000 solid;
+   border-radius: 4px;
+   background-color: #4F4F4F;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+}
+#Button3
 {
    border: 1px #A9A9A9 solid;
    background-color: #F0F0F0;

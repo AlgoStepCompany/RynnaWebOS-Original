@@ -14,7 +14,7 @@ body
    margin: 0;
    padding: 0;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -30,8 +30,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog2.ui-dialog .ui-widget-header
+.jQueryDialog2.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -105,7 +106,7 @@ body
 }
 #EditProfile1 .button
 {
-   background-color: #FFFFFF;
+   background-color: #F5F5F5;
    border-color: #878787;
    border-width: 1px;
    border-style: solid;

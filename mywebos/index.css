@@ -14,7 +14,7 @@ body
    margin: 0;
    padding: 0;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -30,8 +30,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog1.ui-dialog .ui-widget-header
+.jQueryDialog1.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -126,7 +127,7 @@ body
    -moz-transition: background-color 500ms linear 0ms;
    transition: background-color 500ms linear 0ms;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -142,8 +143,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog5.ui-dialog .ui-widget-header
+.jQueryDialog5.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -201,7 +203,7 @@ body
 {
    text-align: justify;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -217,8 +219,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog6.ui-dialog .ui-widget-header
+.jQueryDialog6.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -589,7 +592,7 @@ body
    background-position: left top;
    background-size: 100% 100%;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -605,8 +608,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog3.ui-dialog .ui-widget-header
+.jQueryDialog3.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
