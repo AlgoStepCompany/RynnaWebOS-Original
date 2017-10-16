@@ -9,7 +9,7 @@ body
    margin: 0;
    padding: 0;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -25,8 +25,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog1.ui-dialog .ui-widget-header
+.jQueryDialog1.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
