@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" >
 	<url>
 		<loc>http://www.rynnawebos.fr/</loc>
-		<lastmod>2017-10-16</lastmod>
+		<lastmod>2017-10-18</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/session.php</loc>
-		<lastmod>2017-10-16</lastmod>
+		<lastmod>2017-10-18</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/modif.php</loc>
-		<lastmod>2017-10-16</lastmod>
+		<lastmod>2017-10-18</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/createuser.php</loc>
-		<lastmod>2017-10-16</lastmod>
+		<lastmod>2017-10-18</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/logoutuser.php</loc>
-		<lastmod>2017-10-16</lastmod>
+		<lastmod>2017-10-18</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
@@ -548,19 +548,19 @@
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/index.php</loc>
-		<lastmod>2017-10-16</lastmod>
+		<lastmod>2017-10-18</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/infoentreprise.php</loc>
-		<lastmod>2017-10-16</lastmod>
+		<lastmod>2017-10-18</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/demosession.php</loc>
-		<lastmod>2017-10-16</lastmod>
+		<lastmod>2017-10-18</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
