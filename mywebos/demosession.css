@@ -9379,3 +9379,35 @@ body
 {
    text-align: center;
 }
+#Layer31
+{
+   background-color: transparent;
+   background-image: url(images/coin_superieur_gauche.png);
+   background-repeat: no-repeat;
+   background-position: left top;
+   background-size: 100% 100%;
+}
+#Layer32
+{
+   background-color: transparent;
+   background-image: url(images/coin_superieur_droit.png);
+   background-repeat: no-repeat;
+   background-position: left top;
+   background-size: 100% 100%;
+}
+#Layer33
+{
+   background-color: transparent;
+   background-image: url(images/coin_inferieur_droit.png);
+   background-repeat: no-repeat;
+   background-position: left top;
+   background-size: 100% 100%;
+}
+#Layer34
+{
+   background-color: transparent;
+   background-image: url(images/coin_inferieur_gauche.png);
+   background-repeat: no-repeat;
+   background-position: left top;
+   background-size: 100% 100%;
+}
