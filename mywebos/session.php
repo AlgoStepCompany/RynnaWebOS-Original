@@ -1227,7 +1227,7 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog72").dialog(jQueryDialog72Options);
    var jQueryDialog73Options =
    {
-      width: 686,
+      width: 375,
       height: 242,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
@@ -3185,8 +3185,10 @@ TimerStartTimer11();
 </div>
 
 <div id="jQueryDialog73" style="z-index:588;" title="Sauvegarde local de votre session">
-<div id="wb_Text106" style="position:absolute;left:11px;top:12px;width:650px;height:160px;z-index:351;">
-<span style="color:#000000;font-family:Arial;font-size:13px;">PAS ENCORE DISPONIBLE...<br><br>Dans l'objectif d'un système libre et fiable nous vous proposerons à l'avenir de pouvoir sauvegarder vos données personnels (contenus dans&nbsp;&quot;home/[votre compte]&quot;) sous forme compressé (*.ZIP) localement sur votre ordinateur.<br><br>Cela vous permettra de sauvegarder tout votre contenu (si vous quitter le WebOS durant plusieurs jours ou mois) et de vous assurer d'avoir accès à vos données, hébergées à l'origine en ligne sur notre serveur, directement et localement sur votre PC (voyez cette fonction comme une&nbsp;&quot;backup&quot;&nbsp;(sauvegarde) de votre contenu privé sur votre ordinateur).</span></div>
+<div id="Html58" style="position:absolute;left:13px;top:11px;width:336px;height:175px;z-index:351">
+<iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
+   src="zipaction.php">
+</iframe><br /></div>
 </div>
 
 <script>
@@ -3495,6 +3497,15 @@ TimerStartTimer2();
 <span style="color:#000000;font-family:Arial;font-size:13px;">Ci-dessous retrouvez les dernières mises à jour de votre WebOS. Seul les 6 dernières mises à jours sont indiqués&nbsp;:</span></div>
 <div id="Blog1" style="overflow-y:scroll;position:absolute;left:23px;top:195px;width:689px;height:171px;z-index:3;">
 <div class="blogitem">
+   <span class="blogsubject">Version 12.0</span>
+   <div class="no-thumb"></div>
+   <div class="blogdate">13/11/17<br></div>
+   <span style="color:#000000;">- Ajout de la fonction de création d'archive ZIP pour l'extraction des documents personnels (barre d'action droite)<br>
+- Ajustement du code et des fenêtres</span><br>
+   <div class="blogcomments"></div>
+</div>
+<div class="clearfix visible-col1"></div>
+<div class="blogitem">
    <span class="blogsubject">Version 11.2</span>
    <div class="no-thumb"></div>
    <div class="blogdate">07/11/17<br></div>
@@ -3547,17 +3558,6 @@ TimerStartTimer2();
    <span style="color:#000000;">- Ajustement des WebApps PHP/HTML 5 en HTTPS et si non compatible alors on affiche une information type HTTPS NON COMPATIBLE sur le titre des Applis Web cibles.<br>
 - Agrandissement léger de la zones des Applis Internes pour augmenter la place possible de la bibliothèque par défaut du WebOS.<br>
 - Une nouvelle application interne disponible ; Studio Fitness</span><br>
-   <div class="blogcomments"></div>
-</div>
-<div class="clearfix visible-col1"></div>
-<div class="blogitem">
-   <span class="blogsubject">Version 10.1</span>
-   <div class="no-thumb"></div>
-   <div class="blogdate">11/10/17<br></div>
-   <span style="color:#000000;">- Ajout de l'application Liligo demandé par la communautée<br>
-- Amélioration d'affichages<br>
-- Amélioration de l'audio d'aides et réduction du temps de lancement du Gestionnaire de Serveur<br>
-- Suppression du mode Changement de Thème qui ne fonctionne plus</span><br>
    <div class="blogcomments"></div>
 </div>
 <div class="clearfix visible-col1"></div>
