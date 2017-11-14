@@ -1,12 +1,12 @@
 # RynnaWebOS-Solaris (basé/based sur/to RynnaWebOS-Original)
 
-### Vous visionnez en ce moment la version 11.2 (Release) du code source.
+### Vous visionnez en ce moment la version 12.0 (Release) du code source.
 Cette version sera mise à jour en fonction de l'avancement du WebOS.
 
-### You are currently viewing version 11.2 (Release) of the source code.
+### You are currently viewing version 12.0 (Release) of the source code.
 This version will be updated according to the progress of WebOS.
 
-# UPDATE : 07/11/2017
+# UPDATE : 14/11/2017
 
 ****************
 
@@ -65,7 +65,7 @@ Vous devriez être redirigé sur la page "index.php" du WebOS.
 
 7 - Vérifiez que vous avez autorisé les droits d'écritures et modifications sur les dossier et fichiers suivants : 
 - DOSSIERS : applisgenerated ; applisweb_vierge ; config_copie ; generatiug ; home ; uploads
-- FICHIERS : fileuploader.php ; newuser.php ; myexplorer.php ; modifuser.php
+- FICHIERS : fileuploader.php ; newuser.php ; myexplorer.php ; modifuser.php ; zipaction.php
 
 8 - Votre WebOS devrait être prêt à fonctionner !
 
@@ -125,7 +125,7 @@ You should be redirected to the webOS "index.php" page.
 
 7 - Verify that you have allowed write and change permissions to the following folders and files:
 - FOLDERS: applisgenerated; Applisweb_vierge; Config_copy; Generatiug; home ; uploads
-- FILES: fileuploader.php; Newuser.php; Myexplorer.php; modifuser.php
+- FILES: fileuploader.php; Newuser.php; Myexplorer.php; modifuser.php ; zipaction.php
 
 8 - Your WebOS should be ready to run!
 
