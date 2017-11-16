@@ -1594,7 +1594,7 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    var jQueryDialog87Options =
    {
       width: 926,
-      height: 561,
+      height: 532,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -3497,6 +3497,18 @@ TimerStartTimer2();
 <span style="color:#000000;font-family:Arial;font-size:13px;">Ci-dessous retrouvez les dernières mises à jour de votre WebOS. Seul les 6 dernières mises à jours sont indiqués&nbsp;:</span></div>
 <div id="Blog1" style="overflow-y:scroll;position:absolute;left:23px;top:195px;width:689px;height:171px;z-index:3;">
 <div class="blogitem">
+   <span class="blogsubject">Version 13.0</span>
+   <div class="no-thumb"></div>
+   <div class="blogdate">15/11/17<br></div>
+   <span style="color:#000000;">- Changement Kernel global comportemental<br>
+- Ajout de l'INITUSER permettant de choisir le fonctionnement de la session d'un utilisateur connecté (complet et normal, minimal et sans echec (debogage) ou version catalogue et information WebOS)<br>
+- Modification du fonctionnement de la page INDEX<br>
+- Incrémentation des nouvelles sessions<br>
+- Modification langage TYPE-INDEX sur INDEX</span><br>
+   <div class="blogcomments"></div>
+</div>
+<div class="clearfix visible-col1"></div>
+<div class="blogitem">
    <span class="blogsubject">Version 12.0</span>
    <div class="no-thumb"></div>
    <div class="blogdate">13/11/17<br></div>
@@ -3548,16 +3560,6 @@ TimerStartTimer2();
 - Modification du Gestionnaire de Serveur<br>
 - Modification des icones de la Barre Latérale de lancement rapide (devise et calendrier)<br>
 - Suppression de la méthode de création/suppression d'icones bureautiques non nécessaires dans les Fonctions Bureautique (double clic sur le bureau)</span><br>
-   <div class="blogcomments"></div>
-</div>
-<div class="clearfix visible-col1"></div>
-<div class="blogitem">
-   <span class="blogsubject">Version 10.2</span>
-   <div class="no-thumb"></div>
-   <div class="blogdate">12/10/17<br></div>
-   <span style="color:#000000;">- Ajustement des WebApps PHP/HTML 5 en HTTPS et si non compatible alors on affiche une information type HTTPS NON COMPATIBLE sur le titre des Applis Web cibles.<br>
-- Agrandissement léger de la zones des Applis Internes pour augmenter la place possible de la bibliothèque par défaut du WebOS.<br>
-- Une nouvelle application interne disponible ; Studio Fitness</span><br>
    <div class="blogcomments"></div>
 </div>
 <div class="clearfix visible-col1"></div>

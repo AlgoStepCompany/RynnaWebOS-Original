@@ -1,6 +1,6 @@
 <?php
 // Créer par Maxime G. avec le soutient de Loic A. (AlgoStep Company) dans le cadre du developpement de Rynna WebOS (ZIP ACTION ARCHIVE UsernameSession)
-session_start();
+//session_start();
 session_status();
 
 //$_SESSION['username'] = 'usename_variable_session';

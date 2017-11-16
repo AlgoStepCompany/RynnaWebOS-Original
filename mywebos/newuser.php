@@ -65,7 +65,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST
       $result = mysqli_query($db, $sql);
       mysqli_close($db);
 	  // Procédure de création de la session personnelle (30 secondes maximums de créations)
-	  // Dernière modification : Version 11.0 de Rynna WebOS
+	  // Dernière modification : Version 7.8 de Rynna WebOS
 	  $mkusercreate = 'home/' . $_POST["username"];
 		$mktempusercreate = mkdir($mkusercreate);
 		// Nouvelle ajout : le dossier config pour les nouveaux comptes pour les sessions personnalisables
