@@ -3497,6 +3497,15 @@ TimerStartTimer2();
 <span style="color:#000000;font-family:Arial;font-size:13px;">Ci-dessous retrouvez les dernières mises à jour de votre WebOS. Seul les 6 dernières mises à jours sont indiqués&nbsp;:</span></div>
 <div id="Blog1" style="overflow-y:scroll;position:absolute;left:23px;top:195px;width:689px;height:171px;z-index:3;">
 <div class="blogitem">
+   <span class="blogsubject">Version 13.1</span>
+   <div class="no-thumb"></div>
+   <div class="blogdate">17/11/17<br></div>
+   <span style="color:#000000;">- Correction mineure de fonctionnement Session Mode Sans Echec<br>
+- Ajout de l'opérateur d'analyse fonctionnement et redemarrage applet en Session Mode Sans Echec</span><br>
+   <div class="blogcomments"></div>
+</div>
+<div class="clearfix visible-col1"></div>
+<div class="blogitem">
    <span class="blogsubject">Version 13.0</span>
    <div class="no-thumb"></div>
    <div class="blogdate">15/11/17<br></div>
@@ -3549,17 +3558,6 @@ TimerStartTimer2();
 - Licence ajustée et mise à jour<br>
 - Pages mode compatibilité Edge+Chrome ajoutés pour les pages principales<br>
 - Compilation modifié sur une base PHP 7 compatible PHP 7.1</span><br>
-   <div class="blogcomments"></div>
-</div>
-<div class="clearfix visible-col1"></div>
-<div class="blogitem">
-   <span class="blogsubject">Version 10.3</span>
-   <div class="no-thumb"></div>
-   <div class="blogdate">16/10/17<br></div>
-   <span style="color:#000000;">- Nouveau compilateur PHP 7 (modification comportemental)<br>
-- Modification du Gestionnaire de Serveur<br>
-- Modification des icones de la Barre Latérale de lancement rapide (devise et calendrier)<br>
-- Suppression de la méthode de création/suppression d'icones bureautiques non nécessaires dans les Fonctions Bureautique (double clic sur le bureau)</span><br>
    <div class="blogcomments"></div>
 </div>
 <div class="clearfix visible-col1"></div>
