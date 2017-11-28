@@ -4,7 +4,8 @@ Version Informations
 Nom du projet : Rynna WebOS
 Nom de code de la version : Original
 Code source mise à disposition (complet) depuis le : 30/08/2017, en version : 9.0 (Release)
-Version Thème : OriginalAutre version disponible : Nebular (disponible en thème patch) ; Luxury (disponible en thème patch) ; Redar (disponible en thème patch) ; LifeIsStrange (disponible en thème patch)
+Version Thème : Original
+Autre version disponible : Nebular (disponible en thème patch) ; Luxury (disponible en thème patch) ; Redar (disponible en thème patch) ; LifeIsStrange (disponible en thème patch)
 Langages : Français
 Autres langages disponibles : AUCUN ; Anglais prochainement disponible
 Site internet de démonstration (officiel) : http://www.rynnawebos.fr
