@@ -47,5 +47,5 @@ Voici les futurs noms réservés au cours de l'évolution du projet :
 REVIRA (100.0)
 ALTAIR (200.0)
 
-Les noms de codes Version sont réservés mais nous ne garantissons pas les versions indiqués.
+Les noms de codes Version sont réservés mais nous ne garantissons pas la sortie des versions indiqués.
 
