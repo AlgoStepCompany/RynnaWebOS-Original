@@ -21,6 +21,12 @@ body
    margin: 0;
    text-align: center;
 }
+#Layer5
+{
+   background-color: #F4A460;
+   background-image: none;
+   opacity: 0.40;
+}
 #Layer30
 {
    background-color: #000000;
@@ -7613,7 +7619,7 @@ body
 #MaterialIcon24
 {
    height: 36px;
-   width: 43px;
+   width: 46px;
 }
 #MaterialIcon24 i
 {
@@ -7646,16 +7652,16 @@ body
 #MaterialIcon4
 {
    height: 36px;
-   width: 34px;
+   width: 36px;
 }
 #MaterialIcon4 i
 {
    color: #DCDCDC;
    display: inline-block;
-   font-size: 34px;
+   font-size: 36px;
    line-height: 36px;
    vertical-align: middle;
-   width: 33px;
+   width: 36px;
 }
 #wb_MaterialIcon4:hover i
 {
@@ -9221,4 +9227,53 @@ body
 #wb_MaterialIcon34:hover i
 {
    color: #FFD700;
+}
+#wb_MaterialIcon35
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   -webkit-animation: transform-rotate 2500ms ease-in 0ms infinite normal both;
+   -moz-animation: transform-rotate 2500ms ease-in 0ms infinite normal both;
+   animation: transform-rotate 2500ms ease-in 0ms infinite normal both;
+   vertical-align: top;
+}
+#wb_MaterialIcon35:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#MaterialIcon35
+{
+   height: 52px;
+   width: 58px;
+}
+#MaterialIcon35 i
+{
+   color: #A52A2A;
+   display: inline-block;
+   font-size: 52px;
+   line-height: 52px;
+   vertical-align: middle;
+   width: 52px;
+}
+#wb_MaterialIcon35:hover i
+{
+   color: #A52A2A;
+}
+#wb_Text38 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: right;
+}
+#wb_Text38 div
+{
+   text-align: right;
 }

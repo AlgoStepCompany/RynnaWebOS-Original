@@ -81,7 +81,7 @@ $(document).ready(function()
 </div>
 </div>
 
-<div id="Layer2" style="position:absolute;text-align:left;left:18px;top:449px;width:601px;height:247px;z-index:8;">
+<div id="Layer2" style="position:absolute;text-align:left;left:666px;top:265px;width:477px;height:184px;z-index:8;">
 </div>
 <script>
 var wb_Timer1;
@@ -102,9 +102,9 @@ function TimerStopTimer1()
 TimerStartTimer1();
 </script>
 
-<div id="Layer3" style="position:absolute;text-align:left;left:652px;top:449px;width:601px;height:247px;z-index:10;">
+<div id="Layer3" style="position:absolute;text-align:left;left:666px;top:479px;width:477px;height:208px;z-index:10;">
 </div>
-<div id="Layer4" style="position:absolute;text-align:left;left:652px;top:149px;width:601px;height:247px;z-index:11;">
+<div id="Layer4" style="position:absolute;text-align:left;left:666px;top:34px;width:477px;height:191px;z-index:11;">
 </div>
 </body>
 </html>
