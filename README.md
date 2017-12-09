@@ -1,12 +1,13 @@
 # RynnaWebOS-Solaris (basé/based sur/to RynnaWebOS-Original)
 
-### Vous visionnez en ce moment la version 13.4 (Release) du code source.
+### Vous visionnez en ce moment la version 14.0 (Release) du code source.
 Cette version sera mise à jour en fonction de l'avancement du WebOS.
 
-### You are currently viewing version 13.4 (Release) of the source code.
+### You are currently viewing version 14.0 (Release) of the source code.
 This version will be updated according to the progress of WebOS.
 
 # UPDATE : 08/12/2017
+THANKS YOU MAXIME G. ! :)
 
 ****************
 
