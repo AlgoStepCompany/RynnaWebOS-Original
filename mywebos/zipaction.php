@@ -1,31 +1,86 @@
 <?php
+
 // Créer par Maxime G. avec le soutient de Loic A. (AlgoStep Company) dans le cadre du developpement de Rynna WebOS (ZIP ACTION ARCHIVE UsernameSession)
-//session_start();
+session_start();
 session_status();
 
-//$_SESSION['username'] = 'usename_variable_session';
+
+class zip
+{
+   private $zip;
+   public function __construct( $file_name, $zip_directory)
+   {
+        $this->zip = new ZipArchive();
+        $this->path = $zip_directory . $file_name . '.zip';
+        $this->zip->open( $this->path, ZipArchive::CREATE );
+    }
+      
+   /**
+     * Get the absolute path to the zip file
+     * @return string
+     */
+    public function get_zip_path()
+    {
+        return $this->path;
+    }
+       
+    /**
+     * Add a directory to the zip
+     * @param $directory
+     */
+    public function add_directory( $directory )
+    {
+        if( is_dir( $directory ) && $handle = opendir( $directory ) )
+        {
+            $this->zip->addEmptyDir( $directory );
+            while( ( $file = readdir( $handle ) ) !== false )
+            {
+                if (!is_file($directory . '/' . $file))
+                {
+                    if (!in_array($file, array('.', '..')))
+                    {
+                        $this->add_directory($directory . '/' . $file );
+                    }
+                }
+                else
+                {
+                    $this->add_file($directory . '/' . $file);                }
+            }
+        }
+    }
+   
+    /**
+     * Add a single file to the zip
+     * @param string $path
+     */
+    public function add_file( $path )
+    {
+        $this->zip->addFile( $path, $path);
+    }
+   
+    /**
+     * Close the zip file
+     */
+    public function save()
+    {
+        $this->zip->close();
+    }
+}
+
+
+
+
+$path = __DIR__ . '\\home\\' . $_SESSION['username']; // Chemin du répertoire personnel
+$pathSave = __DIR__ . '\\home\\' . $_SESSION['username'] . '\\' . $_SESSION['username'] . '.zip'; // Chemin de sauvegarde de l'archive
 
 if (isset($_POST['process']) && $_POST['process'] == true) { // Si une requête est effectuée et qu'une variable 'process' vaut true
-    $path = '/home/' . $_SESSION['username']; // Chemin du répertoire personnel
-    $pathSave = '/home/' . $_SESSION['username'] . '/' . $_SESSION['username'] . '.zip'; // Chemin de sauvegarde de l'archive
 
-    // Création de l'archive
-    $zip = new ZipArchive();
+	$zip = new zip($_SESSION['username'],  'home/' . $_SESSION['username'] . '/');
+	$zip->add_directory(__DIR__ . '\\home\\' . $_SESSION['username'] . '\\');
+	$zip->save();
 
-    if($zip->open($pathSave, ZipArchive::CREATE) == true) { // Si succès de l'ouverture/création de l'archive
-
-        // Ajout d'un fichier à l'archive
-        $zip->addFile($path . '/home/protector.txt');
-
-        // Fermeture/Sauvegarde de l'archive
-        $zip->close();
-
-        // On retourne les informations
-        echo json_encode(array('success' => true, 'message' => 'Archive créée avec succès !', 'path' => $pathSave));
-    } else { // Echec de l'ouverture/créaion
-        // On retourne un message d'erreur
-        echo json_encode(array('success' => false, 'message' => 'Impossible de créer l\'archive.'));
-    }
+	// On retourne les informations
+	echo json_encode(array('success' => true, 'message' => 'Archive créée avec succès !', 'path' => $pathSave));
     exit;
 }
 
@@ -63,7 +118,7 @@ if (isset($_POST['process']) && $_POST['process'] == true) { // Si une requête 
 
                 // Appel ajax
                 $.ajax({
-                    url: 'zipaction.php', // URL d'appel (dans ce cas, on appelle ce fichier)
+                    url: '/login/zipaction.php', // URL d'appel (dans ce cas, on appelle ce fichier)
                     type: 'POST', // Type de requête (GET ou POST)
                     data : { process : 'true' }, // Données envoyées
                     dataType : 'json', // On précise que le format est JSON pour le bon transport des données dans les deux sens
