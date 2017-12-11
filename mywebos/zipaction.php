@@ -1,7 +1,43 @@
 <?php
 
 // Créer par Maxime G. avec le soutient de Loic A. (AlgoStep Company) dans le cadre du developpement de Rynna WebOS (ZIP ACTION ARCHIVE UsernameSession)
-session_start();
+// VERSION 1.1 - Ajout de la securite (correction faille)
+if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST['form_name'] == 'logoutform')
+{
+   if (session_id() == "")
+   {
+      session_start();
+   }
+   unset($_SESSION['username']);
+   unset($_SESSION['fullname']);
+   header('Location: ./index.php');
+   exit;
+}
+if (session_id() == "")
+{
+   session_start();
+}
+if (!isset($_SESSION['username']))
+{
+   header('Location: ./index.php');
+   exit;
+}
+if (isset($_SESSION['expires_by']))
+{
+   $expires_by = intval($_SESSION['expires_by']);
+   if (time() < $expires_by)
+   {
+      $_SESSION['expires_by'] = time() + intval($_SESSION['expires_timeout']);
+   }
+   else
+   {
+      unset($_SESSION['username']);
+      unset($_SESSION['expires_by']);
+      unset($_SESSION['expires_timeout']);
+      header('Location: ./index.php');
+      exit;
+   }
+}
 session_status();
 
 
