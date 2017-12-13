@@ -3023,36 +3023,6 @@ body
 {
    font-size: 1em !important;
 }
-.jQueryDialog42.ui-dialog
-{
-   padding: 4px 4px 4px 4px;
-}
-.jQueryDialog42.ui-dialog .ui-dialog-title
-{
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   font-style: normal;
-   color: #FFFFFF;
-}
-.jQueryDialog42.ui-dialog .ui-dialog-titlebar
-{
-   font-weight: normal;
-   padding: 10px 10px 10px 30px;
-}
-.ui-dialog .ui-dialog-titlebar-close
-{
-   outline: 0;
-   right: 10px;
-}
-.jQueryDialog42, .jQueryDialog42 .ui-corner-all
-{
-   border-radius: 0px;
-}
-.ui-dialog.ui-widget
-{
-   font-size: 1em !important;
-}
 .jQueryDialog43.ui-dialog
 {
    padding: 4px 4px 4px 4px;
@@ -3106,36 +3076,6 @@ body
    right: 10px;
 }
 .jQueryDialog44, .jQueryDialog44 .ui-corner-all
-{
-   border-radius: 0px;
-}
-.ui-dialog.ui-widget
-{
-   font-size: 1em !important;
-}
-.jQueryDialog45.ui-dialog
-{
-   padding: 4px 4px 4px 4px;
-}
-.jQueryDialog45.ui-dialog .ui-dialog-title
-{
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   font-style: normal;
-   color: #FFFFFF;
-}
-.jQueryDialog45.ui-dialog .ui-dialog-titlebar
-{
-   font-weight: normal;
-   padding: 10px 10px 10px 30px;
-}
-.ui-dialog .ui-dialog-titlebar-close
-{
-   outline: 0;
-   right: 10px;
-}
-.jQueryDialog45, .jQueryDialog45 .ui-corner-all
 {
    border-radius: 0px;
 }
@@ -5668,10 +5608,9 @@ body
 #Layer3
 {
    background-color: transparent;
-   background-image: url(images/verrouillage_rapide.jpg);
-   background-repeat: no-repeat;
+   background-image: url(images/background_green_load.png);
+   background-repeat: repeat;
    background-position: center center;
-   background-size: cover;
 }
 .ui-dialog.ui-widget
 {
@@ -7843,14 +7782,14 @@ body
 #Layer24
 {
    background-color: transparent;
-   background-image: url(images/backgifloading.jpg);
+   background-image: url(images/background_loader2.png);
    background-repeat: repeat;
    background-position: center center;
 }
 #Layer2
 {
    background-color: transparent;
-   background-image: url(images/19-1.gif);
+   background-image: url(images/game_loader.gif);
    background-repeat: no-repeat;
    background-position: center center;
    background-size: 100% 100%;
@@ -9342,4 +9281,381 @@ body
 #wb_Text38 div
 {
    text-align: right;
+}
+#Image25
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text39 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: right;
+}
+#wb_Text39 div
+{
+   text-align: right;
+}
+#Layer6
+{
+   background-color: transparent;
+   background-image: url(images/clock_2x.gif);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: 100% 100%;
+}
+#Layer35
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text40 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text40 div
+{
+   text-align: center;
+}
+#Button46
+{
+   border: 1px #2E6DA4 solid;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}
+#Image26
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image27
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image28
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image29
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image30
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image31
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image44
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image56
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_MaterialIcon36
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+}
+#wb_MaterialIcon36:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#MaterialIcon36
+{
+   height: 118px;
+   width: 116px;
+}
+#MaterialIcon36 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 116px;
+   line-height: 118px;
+   vertical-align: middle;
+   width: 116px;
+}
+#wb_MaterialIcon36:hover i
+{
+   color: #FFFFFF;
+}
+#wb_Text41 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text41 div
+{
+   text-align: center;
+}
+.ui-dialog.ui-widget
+{
+   font-size: 1em !important;
+}
+.jQueryDialog45.ui-dialog
+{
+   padding: 4px 4px 4px 4px;
+}
+.jQueryDialog45.ui-dialog .ui-dialog-title
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   color: #FFFFFF;
+}
+.jQueryDialog45.ui-dialog .ui-dialog-titlebar
+{
+   font-weight: normal;
+   padding: 10px 10px 10px 30px;
+}
+.ui-dialog .ui-dialog-titlebar-close
+{
+   outline: 0;
+   right: 10px;
+}
+.jQueryDialog45, .jQueryDialog45 .ui-corner-all
+{
+   border-radius: 0px;
+}
+#wb_Text43 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text43 div
+{
+   text-align: center;
+}
+#wb_Text42 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text42 div
+{
+   text-align: left;
+}
+#wb_Text46 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text46 div
+{
+   text-align: left;
+}
+#wb_Text76 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text76 div
+{
+   text-align: left;
+}
+#Button47
+{
+   border: 1px #2E6DA4 solid;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}
+#wb_MaterialIcon37
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+}
+#wb_MaterialIcon37:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#MaterialIcon37
+{
+   height: 63px;
+   width: 67px;
+}
+#MaterialIcon37 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 63px;
+   line-height: 63px;
+   vertical-align: middle;
+   width: 63px;
+}
+#wb_MaterialIcon37:hover i
+{
+   color: #DCDCDC;
+}
+#wb_Text77 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text77 div
+{
+   text-align: center;
+}
+.ui-dialog.ui-widget
+{
+   font-size: 1em !important;
+}
+.jQueryDialog42.ui-dialog
+{
+   padding: 4px 4px 4px 4px;
+}
+.jQueryDialog42.ui-dialog .ui-dialog-title
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   color: #FFFFFF;
+}
+.jQueryDialog42.ui-dialog .ui-dialog-titlebar
+{
+   font-weight: normal;
+   padding: 10px 10px 10px 30px;
+}
+.ui-dialog .ui-dialog-titlebar-close
+{
+   outline: 0;
+   right: 10px;
+}
+.jQueryDialog42, .jQueryDialog42 .ui-corner-all
+{
+   border-radius: 0px;
+}
+#Button48
+{
+   border: 1px #2E6DA4 solid;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}
+#Button49
+{
+   border: 1px #2E6DA4 solid;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}
+#Image57
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
 }

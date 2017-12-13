@@ -33,13 +33,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST
       $sql = "UPDATE `".$mysql_table."` SET `password` = '$crypt_pass' WHERE `email` = '$email'";
       mysqli_query($db, $sql);
       $mailto = $_POST['email'];
-      $mailfrom = 'passwdrecovery@rynnawebos.fr';
+      $mailfrom = 'passwdrecovery@votreserveurmail.fr';
       ini_set('sendmail_from', $mailfrom);
       $subject = 'Recuperation mot de passe WebOS';
       $message = 'Voici votre mot de passe pour votre session Rynna WebOS:   ';
       $message .= $newpassword;
-      $header  = "From: passwdrecovery@rynnawebos.fr"."\r\n";
-      $header .= "Reply-To: passwdrecovery@rynnawebos.fr"."\r\n";
+      $header  = "From: passwdrecovery@votreserveurmail.fr"."\r\n";
+      $header .= "Reply-To: passwdrecovery@votreserveurmail.fr"."\r\n";
       $header .= "MIME-Version: 1.0"."\r\n";
       $header .= "Content-Type: text/plain; charset=utf-8"."\r\n";
       $header .= "Content-Transfer-Encoding: 8bit"."\r\n";

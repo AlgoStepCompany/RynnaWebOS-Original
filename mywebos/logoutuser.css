@@ -14,35 +14,25 @@ body
    margin: 0;
    padding: 0;
 }
-.ui-dialog.ui-widget
+#Layer1
 {
-   font-size: 1em !important;
+   background-color: transparent;
+   background-image: url(images/background_blackblue.png);
+   background-repeat: repeat;
+   background-position: left top;
 }
-.jQueryDialog1.ui-dialog
+#Layer2
 {
-   padding: 4px 4px 4px 4px;
+   background-color: transparent;
+   background-image: url(images/shutdown.gif);
+   background-repeat: no-repeat;
+   background-position: left top;
+   background-size: 100% 100%;
 }
-.jQueryDialog1.ui-dialog .ui-dialog-title
+#Layer3
 {
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   font-style: normal;
-   color: #FFFFFF;
-}
-.jQueryDialog1.ui-dialog .ui-dialog-titlebar
-{
-   font-weight: normal;
-   padding: 10px 10px 10px 30px;
-}
-.ui-dialog .ui-dialog-titlebar-close
-{
-   outline: 0;
-   right: 10px;
-}
-.jQueryDialog1, .jQueryDialog1 .ui-corner-all
-{
-   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
 }
 #wb_Text1 
 {
@@ -51,25 +41,9 @@ body
    border: 0px #000000 solid;
    padding: 0;
    margin: 0;
-   text-align: justify;
+   text-align: center;
 }
 #wb_Text1 div
 {
-   text-align: justify;
-}
-#Line1
-{
-   border-color: #A0A0A0;
-   border-style: solid;
-   border-bottom-width: 30px;
-   border-top: 0px;
-   border-left: 0px;
-   border-right: 0px;
-   height: 0 !important;
-   line-height: 0px !important;
-   margin: 0;
-   padding: 0;
-   -webkit-animation: transform-rotate 450ms linear 0ms infinite normal both;
-   -moz-animation: transform-rotate 450ms linear 0ms infinite normal both;
-   animation: transform-rotate 450ms linear 0ms infinite normal both;
+   text-align: center;
 }

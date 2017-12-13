@@ -67,7 +67,7 @@ $(document).ready(function()
 <div id="Layer1" style="position:absolute;text-align:center;left:88px;top:66px;width:536px;height:328px;z-index:6;">
 <div id="Layer1_Container" style="width:534px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <input type="button" id="Button2" name="" value="Choix d'ouverture de session" style="position:absolute;left:11px;top:10px;width:512px;height:25px;z-index:0;" disabled>
-<div id="wb_Text1" style="position:absolute;left:20px;top:53px;width:494px;height:18px;z-index:1;">
+<div id="wb_Text1" style="position:absolute;left:20px;top:53px;width:494px;height:18px;text-align:center;z-index:1;">
 <span style="color:#000000;font-family:Arial;font-size:16px;">Quel type de session souhaitez-vous ouvrir ?</span></div>
 <button type="button" id="jQueryButton1" onclick="window.location.href='./session.php';return false;" onmouseenter="ShowObject('Layer2', 1);ShowObject('Layer3', 0);ShowObject('Layer4', 0);return false;" onmouseleave="ShowObject('Layer2', 0);return false;" name="" value="Session normale (par défaut)" style="position:absolute;left:28px;top:90px;width:482px;height:40px;z-index:2;">Session normale (par défaut)</button>
 <button type="button" id="jQueryButton2" onclick="window.location.href='./sessionmse.php';return false;" onmouseenter="ShowObject('Layer4', 1);ShowObject('Layer2', 0);ShowObject('Layer3', 0);return false;" onmouseleave="ShowObject('Layer4', 0);return false;" name="" value="Session allégée (mode sans echec)" style="position:absolute;left:28px;top:143px;width:482px;height:40px;z-index:3;">Session allégée (mode sans echec)</button>

@@ -154,7 +154,7 @@ if (isset($_POST['process']) && $_POST['process'] == true) { // Si une requête 
 
                 // Appel ajax
                 $.ajax({
-                    url: '/login/zipaction.php', // URL d'appel (dans ce cas, on appelle ce fichier)
+                    url: '/mywebos/zipaction.php', // URL d'appel (dans ce cas, on appelle ce fichier)
                     type: 'POST', // Type de requête (GET ou POST)
                     data : { process : 'true' }, // Données envoyées
                     dataType : 'json', // On précise que le format est JSON pour le bon transport des données dans les deux sens

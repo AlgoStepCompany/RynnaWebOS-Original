@@ -65,6 +65,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST
       $result = mysqli_query($db, $sql);
       mysqli_close($db);
 	  // Procédure de création de la session personnelle (30 secondes maximums de créations)
+	  // Dernière modification : Version 20.0 de Rynna WebOS
 	  $mkusercreate = 'home/' . $_POST["username"];
 		$mktempusercreate = mkdir($mkusercreate);
 		// Nouvelle ajout : le dossier config pour les nouveaux comptes pour les sessions personnalisables
@@ -92,7 +93,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST
 			copy($algofile9, "$mkusercreate/config/onglet4.txt");
 			copy($algofile10, "$mkusercreate/config/temp.txt");
 			// Fin de la copie des fichiers dans le répertoire de l utilisateur
-      $mailfrom = 'support@rynnawebos.fr';
+      $mailfrom = 'support@votreserveurmail.fr';
       ini_set('sendmail_from', $mailfrom);
       $subject = 'Compte WebOS Rynna creer !';
       $message = 'Votre nom de compte a bien ete cree.';
@@ -101,16 +102,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST
       $message .= "\r\n";
 	  $message .= 'Bienvenue sur votre nouveau bureau virtuel !';
       $message .= "\r\n";
-	  $message .= 'Vous pouvez desormais vous connecter sur http://rynnawebos.fr/login/index.php ';
-      $message .= "\r\n";
-      $header  = "From: support@rynnawebos.fr"."\r\n";
-      $header .= "Reply-To: support@rynnawebos.fr"."\r\n";
+      $header  = "From: support@votreserveurmail.fr"."\r\n";
+      $header .= "Reply-To: support@votreserveurmail.fr"."\r\n";
       $header .= "MIME-Version: 1.0"."\r\n";
       $header .= "Content-Type: text/plain; charset=utf-8"."\r\n";
       $header .= "Content-Transfer-Encoding: 8bit"."\r\n";
       $header .= "X-Mailer: PHP v".phpversion();
       mail("{$newemail} <{$newemail}>", $subject, $message, $header, '-f'.$mailfrom);
-      mail('support@rynnawebos.fr', $subject, $message, $header);
+      mail('support@votreserveurmail.fr', $subject, $message, $header);
       header('Location: '.$success_page);
       exit;
    }
