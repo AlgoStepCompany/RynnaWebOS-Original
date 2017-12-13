@@ -7,7 +7,7 @@ Code source mise à disposition (complet) depuis le : 30/08/2017, en version : 9
 Version Thème : Original
 Autre version disponible : Nebular (disponible en thème patch) ; Luxury (disponible en thème patch) ; Redar (disponible en thème patch) ; LifeIsStrange (disponible en thème patch)
 Langages : Français
-Autres langages disponibles : AUCUN ; Anglais prochainement disponible
+Autres langages disponibles : AUCUNE (pour le moment)
 Site internet de démonstration (officiel) : http://www.rynnawebos.fr
 Site de liaison (intra-communautaire) : N.C.
 Serveur PHP du site de démonstration (officiel) : 1and1 Unlimited Windows Pro (base Windows Server 2012)
@@ -21,7 +21,7 @@ Licence déposée : oui (GPL-3)
 Brevet déposé : non (non possible car source publique)
 Serveur officiel : rynnawebos.fr
 Version PHP : 7
-Compatible PHP : 5, 5.6, 7, 7.1
+Compatible PHP : 5, 5.5, 5.6, 7, 7.1
 Version CSS : 3
 Version JQuery : 3.2.1
 
@@ -30,14 +30,15 @@ Rynna WebOS est conçu de manière à valider tout les objectifs à chaque versi
 Pour cela diverses branches Github seront mises en places :
 - MASTER = la branche toujours en développement (appelé avant "ORIGINAL" tant que la version 10.0 n'est pas fiable)
 - 10.0 - SOLARIS
+- 20.0 - IMPORIUM
 
 A chaque mise en place du version terminée et fiable les nouvelles versions changeront de nom de code.
 Voici les futurs noms réservés au cours de l'évolution du projet :
 0.1 - [AUCUN NOM DE CODE]
 1.0 - ORIGINAL
 10.0 - SOLARIS
-<<< vous êtes ici : Rynna WebOS (10.0 et supérieur) Solaris >>>
 20.0 - IMPORIUM
+<<< vous êtes ici : Rynna WebOS (20.0 et supérieur) Imporium >>>
 30.0 - VEGASIS
 40.0 - CRIMERIA
 50.0 - RAZIOR
