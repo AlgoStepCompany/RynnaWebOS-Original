@@ -4,8 +4,6 @@
 
 ### You are currently viewing version 20.0 (Release) of the source code.
 
-# RELEASE DATE : 13/12/2017
-
 ****************
 
 FR -- Rynna WebOS est un système d'exploitation internet (Desktop Virtual Manager) conçu en PHP 7, CSS 3, JQuery et Javascript depuis 2015.
