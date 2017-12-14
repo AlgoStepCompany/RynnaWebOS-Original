@@ -1,4 +1,4 @@
-# RynnaWebOS-Imporium (basé/based sur/to RynnaWebOS-Original et/and RynnaWebOS-Solaris)
+# RynnaWebOS-Imporium
 
 ### Vous visionnez en ce moment la version 20.0 (Release) du code source.
 
