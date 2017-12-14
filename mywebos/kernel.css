@@ -66,7 +66,7 @@ body
    font-weight: normal;
    font-size: 13px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -82,8 +82,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog1.ui-dialog .ui-widget-header
+.jQueryDialog1.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -95,7 +96,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -111,8 +112,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog2.ui-dialog .ui-widget-header
+.jQueryDialog2.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -124,7 +126,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -140,8 +142,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog3.ui-dialog .ui-widget-header
+.jQueryDialog3.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -153,7 +156,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -169,8 +172,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog4.ui-dialog .ui-widget-header
+.jQueryDialog4.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -182,7 +186,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -198,8 +202,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog5.ui-dialog .ui-widget-header
+.jQueryDialog5.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -211,7 +216,7 @@ body
 {
    border-radius: 0px;
 }
-.ui-widget
+.ui-dialog.ui-widget
 {
    font-size: 1em !important;
 }
@@ -227,8 +232,9 @@ body
    font-style: normal;
    color: #FFFFFF;
 }
-.jQueryDialog6.ui-dialog .ui-widget-header
+.jQueryDialog6.ui-dialog .ui-dialog-titlebar
 {
+   font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
 .ui-dialog .ui-dialog-titlebar-close
@@ -558,7 +564,7 @@ body
 {
    border-bottom-right-radius: 0px;
 }
-.ui-widget
+#jQueryTabs1.ui-widget
 {
    font-size: 1em !important;
 }

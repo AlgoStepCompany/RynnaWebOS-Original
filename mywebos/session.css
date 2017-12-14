@@ -9659,3 +9659,15 @@ body
    width: 100%;
    height: 100%;
 }
+.jQueryToolTip13
+{
+   background-image: none;
+   background-color: #FFFFFF;
+   border: 1px #CCCCCC solid !important;
+   border-radius: 0px;
+   padding: 4px 4px 4px 4px;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+   box-shadow: none;
+   text-align: left;
+}

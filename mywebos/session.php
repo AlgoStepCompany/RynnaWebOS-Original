@@ -1604,6 +1604,16 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
       classes: { 'ui-dialog': 'jQueryDialog42'} 
    };
    $("#jQueryDialog42").dialog(jQueryDialog42Options);
+   var jQueryToolTip13Options =
+   {
+      hide: true,
+      show: true,
+      content: "<span style=\"color:#000000;font-family:'MS Shell Dlg';font-size:11px;\">Afficher/Cacher les fenêtres ouvertes</span>",
+      items: '#wb_MaterialIcon62',
+      position: { my: "right bottom", at: "left top", collision: "flipfit" },
+      classes: { 'ui-tooltip' : 'jQueryToolTip13' }
+   };
+   $("#wb_MaterialIcon62").tooltip(jQueryToolTip13Options);
    $('img[data-src]').lazyload();
 });
 </script>
@@ -3537,7 +3547,7 @@ function TimerStopTimer51()
    src="http://rynnawebos.fr/login/maj.php">
 </iframe></div>
 <div id="wb_Text43" style="position:absolute;left:14px;top:68px;width:848px;height:24px;text-align:center;z-index:507;">
-<span style="color:#FF6347;font-family:Arial;font-size:21px;"><strong>20.0</strong></span></div>
+<span style="color:#FF6347;font-family:Arial;font-size:21px;"><strong>20.1</strong></span></div>
 <div id="wb_Text42" style="position:absolute;left:14px;top:120px;width:460px;height:16px;z-index:508;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">La dernière version disponible (code source) est la suivante&nbsp;:</span></div>
 <div id="wb_Text46" style="position:absolute;left:14px;top:18px;width:460px;height:16px;z-index:509;">
@@ -3554,16 +3564,17 @@ function TimerStopTimer51()
 <img src="images/bibliotheque.gif" id="Image57" alt=""></div>
 </div>
 
+
 </div>
-<div id="Layer5" style="position:fixed;text-align:left;left:auto;right:0px;top:auto;bottom:0px;width:455px;height:87px;z-index:631;">
+<div id="Layer5" style="position:fixed;text-align:left;left:auto;right:0px;top:auto;bottom:0px;width:455px;height:87px;z-index:632;">
 <div id="wb_MaterialIcon35" style="position:absolute;left:382px;top:16px;width:58px;height:52px;text-align:center;z-index:0;">
 <div id="MaterialIcon35"><i class="material-icons">&#xe335;</i></div></div>
 <div id="wb_Text38" style="position:absolute;left:15px;top:33px;width:359px;height:18px;text-align:right;z-index:1;">
 <span style="color:#000000;font-family:Arial;font-size:15px;"><strong>Le WebOS charge du contenu en arrière plan...</strong></span></div>
 </div>
-<div id="Layer21" style="position:fixed;text-align:left;left:0;right:0;bottom:0;height:15px;z-index:632;" onmouseenter="ShowObject('Layer22', 1);AnimateCss('Layer22', 'animate-fade-in', 5, 500);return false;">
+<div id="Layer21" style="position:fixed;text-align:left;left:0;right:0;bottom:0;height:15px;z-index:633;" onmouseenter="ShowObject('Layer22', 1);AnimateCss('Layer22', 'animate-fade-in', 5, 500);return false;">
 </div>
-<div id="Layer1" style="position:absolute;text-align:center;left:2202px;top:1387px;width:755px;height:436px;z-index:633;">
+<div id="Layer1" style="position:absolute;text-align:center;left:2202px;top:1387px;width:755px;height:436px;z-index:634;">
 <div id="Layer1_Container" style="width:755px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="jQueryTabs1" style="position:absolute;left:0px;top:0px;width:745px;height:426px;z-index:7;">
 <ul>
@@ -3577,6 +3588,15 @@ function TimerStopTimer51()
 <div id="wb_Text86" style="position:absolute;left:23px;top:168px;width:689px;height:16px;z-index:4;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Ci-dessous retrouvez les dernières mises à jour de votre WebOS. Seul les 6 dernières mises à jours sont indiqués&nbsp;:</span></div>
 <div id="Blog1" style="overflow-y:scroll;position:absolute;left:23px;top:195px;width:689px;height:171px;z-index:5;">
+<div class="blogitem">
+   <span class="blogsubject">Version 20.1</span>
+   <div class="no-thumb"></div>
+   <div class="blogdate">14/12/17<br></div>
+   <span style="color:#000000;">- Amélioration Kernel PHP<br>
+- Ajout de l'info bulle pour l'icone de réduction des fenêtres</span><br>
+   <div class="blogcomments"></div>
+</div>
+<div class="clearfix visible-col1"></div>
 <div class="blogitem">
    <span class="blogsubject">Version 20.0</span>
    <div class="no-thumb"></div>
@@ -3627,20 +3647,6 @@ ATTENTION : Si vous ne l'avez pas encore fait ; videz le Cache de votre navigate
    <div class="blogdate">27/11/17<br></div>
    <span style="color:#000000;">- Nouveau pyctogramme en haut à gauche dans la barre des tâches pour afficher ou masquer les fenêtres en cours et ainsi retrouver le bureau<br>
 - Espaces augmentés sur les icones de la Barre des Tâches pour un visuel plus facile et pour éviter les erreurs de clic</span><br>
-   <div class="blogcomments"></div>
-</div>
-<div class="clearfix visible-col1"></div>
-<div class="blogitem">
-   <span class="blogsubject">Version 13.2</span>
-   <div class="no-thumb"></div>
-   <div class="blogdate">21/11/17<br></div>
-   <span style="color:#000000;">- Suppression des options des fenêtres d'Entreprise (puisqu'à présent il est possible de concevoir des Applis WebOS pointant sur des sites internet les fenêtres propres aux Entreprises ne servent plus)<br>
-- Préparation d'un mode de conception d'Applications pour WebOS plus complet (remplacement JQD)<br>
-- Ajustement des propriétés d'affichages 3D au survol curseur sur les icones<br>
-- Amélioration de la stabilité en réparant les liens potentiellements cassés<br>
-- Suppression du Drag&amp;Drop bureautique des icones (car non fonctionnel pour le moment)<br>
-- Modification application HITEK (actualités numériques et technologiques) en mode fenêtré et non plus plein écran<br>
-- Ajustement prévention bug d'affichage en forçant au démarrage le passage en non-visible des barres latérales et bas de page sur la session</span><br>
    <div class="blogcomments"></div>
 </div>
 <div class="clearfix visible-col1"></div>
@@ -3882,7 +3888,7 @@ ATTENTION : Si vous ne l'avez pas encore fait ; videz le Cache de votre navigate
 </div>
 </div>
 </div>
-<div id="Layer3" style="position:fixed;text-align:center;left:0;top:0;right:0;bottom:0;z-index:634;" onclick="ShowObject('Layer3', 0);return false;">
+<div id="Layer3" style="position:fixed;text-align:center;left:0;top:0;right:0;bottom:0;z-index:635;" onclick="ShowObject('Layer3', 0);return false;">
 <div id="Layer3_Container" style="width:3000px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <script>
 var wb_Timer5;
@@ -3926,7 +3932,7 @@ TimerStartTimer3();
 </div>
 </div>
 </div>
-<div id="Layer4" style="position:fixed;text-align:right;right:0;top:0;bottom:0;width:118px;z-index:635;" onmouseleave="ShowObject('Layer4', 0);return false;">
+<div id="Layer4" style="position:fixed;text-align:right;right:0;top:0;bottom:0;width:118px;z-index:636;" onmouseleave="ShowObject('Layer4', 0);return false;">
 <div id="Layer4_Container" style="width:3000px;position:relative;margin-left:auto;margin-right:0;text-align:left;">
 <div id="wb_FontAwesomeIcon21" style="position:absolute;left:25px;top:16px;width:78px;height:63px;text-align:center;z-index:331;">
 <a href="#" onclick="$('#jQueryDialog70').dialog('open');return false;"><div id="FontAwesomeIcon21"><i class="fa fa-camera">&nbsp;</i></div></a></div>
@@ -3940,7 +3946,7 @@ TimerStartTimer3();
 <a href="#" onclick="$('#jQueryDialog71').dialog('open');return false;"><div id="FontAwesomeIcon23"><i class="fa fa-calendar">&nbsp;</i></div></a></div>
 </div>
 </div>
-<div id="Layer7" style="position:fixed;text-align:left;left:0;top:0;right:0;bottom:0;z-index:636;">
+<div id="Layer7" style="position:fixed;text-align:left;left:0;top:0;right:0;bottom:0;z-index:637;">
 <div id="Layer8" style="position:absolute;text-align:left;left:150px;top:82px;width:855px;height:460px;z-index:343;">
 <div id="Layer9" style="position:absolute;text-align:left;left:16px;top:11px;width:218px;height:436px;z-index:340;" onclick="$('#jQueryDialog3').dialog('open');ShowObject('Layer7', 0);return false;">
 </div>
@@ -3950,7 +3956,7 @@ TimerStartTimer3();
 </div>
 </div>
 </div>
-<div id="Layer12" style="position:absolute;text-align:left;left:1339px;top:13549px;width:473px;height:591px;z-index:637;">
+<div id="Layer12" style="position:absolute;text-align:left;left:1339px;top:13549px;width:473px;height:591px;z-index:638;">
 <script>
 var wb_Timer13;
 function TimerStartTimer13()
@@ -4002,7 +4008,7 @@ function TimerStopTimer15()
 </script>
 
 </div>
-<div id="Layer13" style="position:absolute;text-align:left;left:1842px;top:13549px;width:473px;height:591px;z-index:638;">
+<div id="Layer13" style="position:absolute;text-align:left;left:1842px;top:13549px;width:473px;height:591px;z-index:639;">
 <script>
 var wb_Timer16;
 function TimerStartTimer16()
@@ -4054,7 +4060,7 @@ function TimerStopTimer18()
 </script>
 
 </div>
-<div id="Layer14" style="position:absolute;text-align:left;left:2388px;top:13549px;width:473px;height:591px;z-index:639;">
+<div id="Layer14" style="position:absolute;text-align:left;left:2388px;top:13549px;width:473px;height:591px;z-index:640;">
 <script>
 var wb_Timer19;
 function TimerStartTimer19()
@@ -4106,7 +4112,7 @@ function TimerStopTimer21()
 </script>
 
 </div>
-<div id="Layer15" style="position:absolute;text-align:left;left:1339px;top:14166px;width:473px;height:591px;z-index:640;">
+<div id="Layer15" style="position:absolute;text-align:left;left:1339px;top:14166px;width:473px;height:591px;z-index:641;">
 <script>
 var wb_Timer22;
 function TimerStartTimer22()
@@ -4158,7 +4164,7 @@ function TimerStopTimer24()
 </script>
 
 </div>
-<div id="Layer16" style="position:absolute;text-align:left;left:1842px;top:14166px;width:473px;height:591px;z-index:641;">
+<div id="Layer16" style="position:absolute;text-align:left;left:1842px;top:14166px;width:473px;height:591px;z-index:642;">
 <script>
 var wb_Timer25;
 function TimerStartTimer25()
@@ -4210,7 +4216,7 @@ function TimerStopTimer27()
 </script>
 
 </div>
-<div id="Layer17" style="position:absolute;text-align:left;left:2371px;top:14150px;width:473px;height:591px;z-index:642;">
+<div id="Layer17" style="position:absolute;text-align:left;left:2371px;top:14150px;width:473px;height:591px;z-index:643;">
 <script>
 var wb_Timer28;
 function TimerStartTimer28()
@@ -4262,7 +4268,7 @@ function TimerStopTimer30()
 </script>
 
 </div>
-<div id="Layer18" style="position:absolute;text-align:left;left:1328px;top:14775px;width:473px;height:591px;z-index:643;">
+<div id="Layer18" style="position:absolute;text-align:left;left:1328px;top:14775px;width:473px;height:591px;z-index:644;">
 <script>
 var wb_Timer31;
 function TimerStartTimer31()
@@ -4314,7 +4320,7 @@ function TimerStopTimer33()
 </script>
 
 </div>
-<div id="Layer19" style="position:absolute;text-align:left;left:1867px;top:14775px;width:473px;height:591px;z-index:644;">
+<div id="Layer19" style="position:absolute;text-align:left;left:1867px;top:14775px;width:473px;height:591px;z-index:645;">
 <script>
 var wb_Timer34;
 function TimerStartTimer34()
@@ -4366,7 +4372,7 @@ function TimerStopTimer36()
 </script>
 
 </div>
-<div id="Layer20" style="position:absolute;text-align:left;left:2432px;top:14775px;width:473px;height:591px;z-index:645;">
+<div id="Layer20" style="position:absolute;text-align:left;left:2432px;top:14775px;width:473px;height:591px;z-index:646;">
 <script>
 var wb_Timer37;
 function TimerStartTimer37()
@@ -4418,7 +4424,7 @@ function TimerStopTimer39()
 </script>
 
 </div>
-<div id="Layer22" style="position:absolute;text-align:left;left:348px;top:5969px;width:1099px;height:152px;z-index:646;" onmouseleave="ShowObject('Layer22', 0);return false;">
+<div id="Layer22" style="position:absolute;text-align:left;left:348px;top:5969px;width:1099px;height:152px;z-index:647;" onmouseleave="ShowObject('Layer22', 0);return false;">
 <div id="wb_Image43" style="position:absolute;left:89px;top:39px;width:915px;height:100px;z-index:386;">
 <img src="images/coque_sfx_3D.png" id="Image43" alt=""></div>
 <div id="wb_Image51" style="position:absolute;left:732px;top:30px;width:80px;height:80px;z-index:387;">
@@ -4436,7 +4442,7 @@ function TimerStopTimer39()
 <div id="wb_Image52" style="position:absolute;left:838px;top:30px;width:80px;height:80px;z-index:393;">
 <a href="#" onclick="$('#jQueryDialog62').dialog('open');return false;" onmouseenter="AnimateCss('wb_Image52', 'transform-wiggle', 0, 500);return false;"><img src="images/fargo.png" id="Image52" alt=""></a></div>
 </div>
-<div id="Layer23" style="position:fixed;text-align:left;left:0;top:0;right:0;bottom:0;z-index:647;" onclick="ShowObject('Layer23', 0);return false;">
+<div id="Layer23" style="position:fixed;text-align:left;left:0;top:0;right:0;bottom:0;z-index:648;" onclick="ShowObject('Layer23', 0);return false;">
 <script>
 var wb_Timer42;
 function TimerStartTimer42()
@@ -4472,7 +4478,7 @@ TimerStartTimer43();
 </script>
 
 </div>
-<div id="Layer24" style="position:fixed;text-align:left;left:0;top:0;right:0;bottom:0;z-index:648;">
+<div id="Layer24" style="position:fixed;text-align:left;left:0;top:0;right:0;bottom:0;z-index:649;">
 <div id="Layer2" style="position:absolute;text-align:left;left:198px;top:25px;width:511px;height:363px;z-index:404;">
 </div>
 <div id="Layer25" style="position:absolute;text-align:left;left:50px;top:432px;width:801px;height:74px;z-index:405;">
@@ -4488,7 +4494,7 @@ TimerStartTimer43();
 <div id="Layer34" style="position:fixed;text-align:left;left:0px;top:auto;bottom:0px;width:46px;height:41px;z-index:409;">
 </div>
 </div>
-<div id="Layer26" style="position:absolute;text-align:left;left:2533px;top:721px;width:182px;height:248px;z-index:649;">
+<div id="Layer26" style="position:absolute;text-align:left;left:2533px;top:721px;width:182px;height:248px;z-index:650;">
 <div id="wb_Text17" style="position:absolute;left:8px;top:8px;width:163px;height:15px;z-index:411;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:12px;"><strong><em>Fonctions bureautique&nbsp;&nbsp; &nbsp;&nbsp; </em></strong></span><span style="color:#FF0000;font-family:Arial;font-size:12px;"><strong><a href="#" onclick="ShowObject('Layer26', 0);return false;">X</a></strong></span></div>
 <hr id="Line2" style="position:absolute;left:7px;top:35px;width:164px;z-index:412;">
@@ -4504,7 +4510,7 @@ TimerStartTimer43();
 <div id="wb_Text69" style="position:absolute;left:7px;top:197px;width:163px;height:16px;z-index:418;cursor: pointer;" onclick="ShowObject('wb_PageHeader', 1);ShowObject('wb_LayoutGrid1', 1);ShowObject('wb_LayoutGrid3', 1);ShowObject('wb_LayoutGrid4', 1);ShowObject('wb_LayoutGrid5', 1);ShowObject('wb_LayoutGrid6', 1);ShowObject('Layer26', 0);return false;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:13px;">Actualiser les objets</span></div>
 </div>
-<div id="Layer27" style="position:fixed;text-align:left;left:0;top:0;right:0;bottom:0;z-index:650;">
+<div id="Layer27" style="position:fixed;text-align:left;left:0;top:0;right:0;bottom:0;z-index:651;">
 <script>
 var wb_Timer44;
 function TimerStartTimer44()

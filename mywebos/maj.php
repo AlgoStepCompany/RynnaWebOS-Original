@@ -10,6 +10,6 @@
 </head>
 <body>
 <div id="wb_Text1" style="position:absolute;left:11px;top:12px;width:250px;height:22px;z-index:0;">
-<span style="color:#9932CC;font-family:Arial;font-size:19px;"><strong>20.0</strong></span></div>
+<span style="color:#9932CC;font-family:Arial;font-size:19px;"><strong>20.1</strong></span></div>
 </body>
 </html>

@@ -8,7 +8,7 @@
 <link href="rynnawebosV3/jquery-ui.min.css" rel="stylesheet">
 <link href="WebOSKernel.css" rel="stylesheet">
 <link href="background_style.css" rel="stylesheet">
-<script src="jquery-3.1.1.min.js"></script>
+<script src="jquery-3.2.1.min.js"></script>
 <script src="jquery-ui.min.js"></script>
 <script src="listview.min.js"></script>
 <script src="wwb12.min.js"></script>
