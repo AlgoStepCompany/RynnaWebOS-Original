@@ -9,7 +9,7 @@
 </head>
 <body>
 <div id="Layer1" style="position:fixed;overflow:hidden;text-align:left;left:0;top:0;right:0;bottom:0;z-index:1;">
-<object data="https://qwant.com" type="text/html" width="100%" height="100%" style="overflow:auto" ></object>
+<object data="https://www.startpage.com/" type="text/html" width="100%" height="100%" style="overflow:auto" ></object>
 </div>
 </body>
 </html>
