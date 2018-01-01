@@ -26,7 +26,7 @@ function TimerStartTimer1()
    {
       var event = null;
       window.location.href='./index.php';
-   }, 4500);
+   }, 4000);
 }
 function TimerStopTimer1()
 {
