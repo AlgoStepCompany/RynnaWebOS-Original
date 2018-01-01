@@ -6089,72 +6089,6 @@ body
    width: 100%;
    height: 100%;
 }
-#wb_MaterialIcon57
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #245580 solid;
-   text-align: center;
-   padding: 0px 0px 0px 0px;
-   vertical-align: top;
-}
-#wb_MaterialIcon57:hover
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #245580 solid;
-}
-#MaterialIcon57
-{
-   height: 41px;
-   width: 40px;
-}
-#MaterialIcon57 i
-{
-   color: #265A88;
-   display: inline-block;
-   font-size: 40px;
-   line-height: 41px;
-   vertical-align: middle;
-   width: 40px;
-}
-#wb_MaterialIcon57:hover i
-{
-   color: #337AB7;
-}
-#Button33
-{
-   border: 1px #2E6DA4 solid;
-   border-radius: 4px;
-   background-color: #1E90FF;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-}
-#Button34
-{
-   border: 1px #2E6DA4 solid;
-   border-radius: 4px;
-   background-color: #1E90FF;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-}
-#Button35
-{
-   border: 1px #2E6DA4 solid;
-   border-radius: 4px;
-   background-color: #1E90FF;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-}
 #Button36
 {
    border: 1px #2E6DA4 solid;
@@ -6207,62 +6141,7 @@ body
 {
    border-radius: 0px;
 }
-#wb_MaterialIcon58
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #245580 solid;
-   text-align: center;
-   padding: 0px 0px 0px 0px;
-   vertical-align: top;
-}
-#wb_MaterialIcon58:hover
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #245580 solid;
-}
-#MaterialIcon58
-{
-   height: 41px;
-   width: 40px;
-}
-#MaterialIcon58 i
-{
-   color: #265A88;
-   display: inline-block;
-   font-size: 40px;
-   line-height: 41px;
-   vertical-align: middle;
-   width: 40px;
-}
-#wb_MaterialIcon58:hover i
-{
-   color: #337AB7;
-}
 #Button38
-{
-   border: 1px #2E6DA4 solid;
-   border-radius: 4px;
-   background-color: #1E90FF;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-}
-#Button39
-{
-   border: 1px #2E6DA4 solid;
-   border-radius: 4px;
-   background-color: #1E90FF;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-}
-#Button40
 {
    border: 1px #2E6DA4 solid;
    border-radius: 4px;
@@ -9604,6 +9483,9 @@ body
 }
 .jQueryDialog42.ui-dialog
 {
+   background-color: #6A5ACD;
+   background-image: none;
+   border: 1px solid #FFA500;
    padding: 4px 4px 4px 4px;
 }
 .jQueryDialog42.ui-dialog .ui-dialog-title
@@ -9616,6 +9498,9 @@ body
 }
 .jQueryDialog42.ui-dialog .ui-dialog-titlebar
 {
+   background-color: #4F4F4F;
+   background-image: none;
+   border: 1px solid #000000;
    font-weight: normal;
    padding: 10px 10px 10px 30px;
 }
@@ -9670,4 +9555,34 @@ body
    -moz-box-shadow: none;
    box-shadow: none;
    text-align: left;
+}
+.ui-dialog.ui-widget
+{
+   font-size: 1em !important;
+}
+.jQueryDialog88.ui-dialog
+{
+   padding: 4px 4px 4px 4px;
+}
+.jQueryDialog88.ui-dialog .ui-dialog-title
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   color: #FFFFFF;
+}
+.jQueryDialog88.ui-dialog .ui-dialog-titlebar
+{
+   font-weight: normal;
+   padding: 10px 10px 10px 30px;
+}
+.ui-dialog .ui-dialog-titlebar-close
+{
+   outline: 0;
+   right: 10px;
+}
+.jQueryDialog88, .jQueryDialog88 .ui-corner-all
+{
+   border-radius: 0px;
 }
