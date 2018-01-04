@@ -12,7 +12,7 @@
 <script>
 $(document).ready(function()
 {
-   $("#Layer1").stickylayer({orientation: 9, position: [0, 0], delay: 1});
+   $("#Layer1").stickylayer({orientation: 9, position: [0, 0], delay: 0});
 });
 </script>
 </head>

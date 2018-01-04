@@ -7,17 +7,9 @@
 <meta name="generator" content="AlgoStep Company - 2006-2017">
 <link href="RynnaWebOS.css" rel="stylesheet">
 <link href="refused.css" rel="stylesheet">
-<script src="jquery-3.2.1.min.js"></script>
-<script src="wb.stickylayer.min.js"></script>
-<script>
-$(document).ready(function()
-{
-   $("#Layer1").stickylayer({orientation: 1, position: [0, 0], delay: 1});
-});
-</script>
 </head>
 <body>
-<div id="Layer1" style="position:absolute;text-align:center;left:11px;top:9px;width:536px;height:299px;z-index:2;">
+<div id="Layer1" style="position:fixed;text-align:center;left:0px;top:0px;width:536px;height:299px;z-index:2;">
 <div id="Layer1_Container" style="width:534px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <input type="button" id="Button2" name="" value="Accès refusé" style="position:absolute;left:11px;top:10px;width:512px;height:25px;z-index:0;" disabled>
 <div id="wb_Text1" style="position:absolute;left:16px;top:53px;width:494px;height:222px;z-index:1;">

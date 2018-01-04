@@ -12,12 +12,12 @@
 <script>
 $(document).ready(function()
 {
-   $("#Layer1").stickylayer({orientation: 9, position: [0, 0], delay: 1});
+   $("#Layer1").stickylayer({orientation: 9, position: [0, 0], delay: 0});
 });
 </script>
 </head>
 <body>
-<div id="Layer1" style="position:absolute;text-align:center;left:53px;top:43px;width:598px;height:155px;z-index:3;">
+<div id="Layer1" style="position:absolute;text-align:center;left:53px;top:42px;width:598px;height:155px;z-index:3;">
 <div id="Layer1_Container" style="width:596px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <input type="button" id="Button2" name="" value="Erreur d'identification e-mail" style="position:absolute;left:11px;top:10px;width:566px;height:25px;z-index:0;" disabled>
 <input type="submit" id="Button1" onclick="window.location.href='./passwdperdu.php';return false;" name="" value="Recommencer" style="position:absolute;left:221px;top:103px;width:157px;height:25px;z-index:1;">

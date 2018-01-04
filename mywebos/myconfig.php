@@ -1,5 +1,5 @@
 <?php
-// Nouvelle version de l'explorateur de fichiers ; compatible BDD MySQLi et accès sécurisé SSL
+// Nouvelle version de l'explorateur de fichiers ; compatible BDD MySQLi et accès securisé SSL
 if (session_id() == "")
 {
    session_start();

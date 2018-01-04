@@ -53,7 +53,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST
 <script>
 $(document).ready(function()
 {
-   $("#Layer1").stickylayer({orientation: 9, position: [0, 0], delay: 1});
+   $("#Layer1").stickylayer({orientation: 9, position: [0, 0], delay: 0});
    $("#jQueryButton1").button({ icon: 'ui-icon-folder-collapsed', iconPosition: 'beginning' });
    $("#jQueryButton2").button({ icon: 'ui-icon-wrench', iconPosition: 'beginning' });
    $("#jQueryButton3").button({ icon: 'ui-icon-grip-diagonal-se', iconPosition: 'beginning' });

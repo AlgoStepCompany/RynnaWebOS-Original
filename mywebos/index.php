@@ -86,7 +86,7 @@ $(document).ready(function()
    {
       modal: true,
       width: 718,
-      height: 417,
+      height: 397,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: false,
@@ -123,7 +123,7 @@ $(document).ready(function()
       classes: { 'ui-dialog': 'jQueryDialog6'} 
    };
    $("#jQueryDialog6").dialog(jQueryDialog6Options);
-   $("#Layer3").stickylayer({orientation: 9, position: [0, 0], delay: 1});
+   $("#Layer3").stickylayer({orientation: 9, position: [0, 0], delay: 0});
    $("#Layer1").stickylayer({orientation: 7, position: [0, 0], delay: 1000});
    var jQueryDialog3Options =
    {
@@ -164,7 +164,7 @@ $(document).ready(function()
 <span style="color:#000000;font-family:Arial;font-size:13px;">&quot;J'ai perdu mon mot de passe&quot;</span></div>
 <div id="wb_Text3" style="position:absolute;left:17px;top:209px;width:671px;height:32px;text-align:center;z-index:8;">
 <span style="color:#000000;font-family:Arial;font-size:13px;"><strong>Où est héberger le WebOS&nbsp;? Sur quel serveur&nbsp;? Cliquez sur le logo ci-dessous pour découvrir 1and1 et le type de serveur utilisé (Unlimited Windows Pro)</strong></span></div>
-<div id="wb_Image1" style="position:absolute;left:197px;top:259px;width:323px;height:95px;z-index:9;">
+<div id="wb_Image1" style="position:absolute;left:230px;top:260px;width:241px;height:70px;z-index:9;">
 <a href="javascript:popupwnd('https://www.1and1.fr/hebergement-windows','yes','yes','yes','yes','yes','yes','5','5','1024','768')" target="_self"><img src="images/1and1.png" id="Image1" alt=""></a></div>
 </div>
 
@@ -172,7 +172,7 @@ $(document).ready(function()
 <div id="wb_FontAwesomeIcon1" style="position:absolute;left:9px;top:8px;width:113px;height:116px;text-align:center;z-index:10;">
 <div id="FontAwesomeIcon1"><i class="fa fa-server">&nbsp;</i></div></div>
 <div id="wb_Text1" style="position:absolute;left:139px;top:16px;width:478px;height:176px;text-align:justify;z-index:11;">
-<span style="color:#000000;font-family:Arial;font-size:13px;">Rynna WebOS utilise un moteur PHP 7 (appelé noyau PHP) pour fonctionner.<br>Le WebOS est codé en différents langages&nbsp;: PHP, CSS, Javascript, JQuery et utilise des applications et outils développés majoritairement en Java, Flash Player, Ajax et ASPX pour les applications virtualisées.<br><br>Rynna WebOS a été conçu par 3 développeurs depuis Mars 2015 à l'aide des logiciels suivants&nbsp;: Notepad++ (gratuit), Wysiwyg Web Builder (payant), Paint.NET (gratuit), Visual Studio ASP.NET (gratuit), OpenElement (gratuit) et Blisk (gratuit).<br><br>Le code source complet de Rynna WebOS est disponible ici même&nbsp;:</span></div>
+<span style="color:#000000;font-family:Arial;font-size:13px;">Rynna WebOS utilise un moteur PHP 7 (appelé noyau PHP) pour fonctionner.<br>Le WebOS est codé en différents langages&nbsp;: PHP, CSS, Javascript, JQuery et utilise des applications et outils développés majoritairement en Java, Flash Player, Ajax et ASPX pour les applications virtualisées.<br><br>Rynna WebOS a été conçu par 13 développeurs depuis Mars 2015 à l'aide des logiciels suivants&nbsp;: Notepad++ (gratuit), Wysiwyg Web Builder (payant), Paint.NET (gratuit), Visual Studio ASP.NET (gratuit), OpenElement (gratuit) et Blisk (gratuit).<br><br>Le code source complet de Rynna WebOS est disponible ici même&nbsp;:</span></div>
 <input type="submit" id="Button2" onclick="window.location.href='https://github.com/AlgoStepCompany';return false;" name="" value="Découvrir, apprendre et télécharger le code source de Rynna WebOS" style="position:absolute;left:28px;top:210px;width:616px;height:43px;z-index:12;">
 </div>
 
@@ -181,7 +181,7 @@ $(document).ready(function()
 <div class="blogitem">
    <span class="blogsubject">Problème SSL sur iframes</span>
    <div class="no-thumb"></div>
-   <div class="blogdate">13/08/2017<br></div>
+   <div class="blogdate">04/01/2018<br></div>
    <span style="color:#000000;">Certains programmes ne fonctionneront pas en version HTTPS (SSL sécurisé) sur le WebOS.</span><br>
    <div class="blogcomments"><a href="mailto:support@rynnaebos.fr?subject=Probl%E8me%20SSL%20sur%20iframes">Envoyer un mail</a></div>
 </div>
@@ -224,8 +224,8 @@ $(document).ready(function()
 <input type="submit" id="Button5" onclick="window.location.href='./demosession.php';return false;" name="" value="Ouvrir une session de démonstration (limitée)" style="position:absolute;left:19px;top:253px;width:588px;height:25px;z-index:19;">
 </div>
 </div>
-<div id="wb_Text10" style="position:absolute;left:7px;top:7px;width:250px;height:56px;z-index:21;">
-<span style="color:#000000;font-family:Arial;font-size:13px;"><em>Version 20.3 (Release)<br>Desktop Virtual Manager (DVM)<br></em></span><span style="color:#000000;font-family:Arial;font-size:9.3px;"><em>PHP 7, CSS 3, JQuery 3.1.1<br>IMPORIUM - SPECIAL NOEL</em></span></div>
+<div id="wb_Text10" style="position:absolute;left:7px;top:7px;width:250px;height:59px;z-index:21;">
+<span style="color:#000000;font-family:Arial;font-size:13px;"><em>Version 21.0 (Release)<br>Desktop Virtual Manager (DVM)<br></em></span><span style="color:#000000;font-family:Arial;font-size:9.3px;"><em>PHP 7, CSS 3, JQuery 3.2.1<br></em></span><span style="color:#0000CD;font-family:Arial;font-size:12px;"><strong><em>IMPORIUM</em></strong></span></div>
 <div id="Layer1" style="position:absolute;text-align:center;left:277px;top:564px;width:393px;height:83px;z-index:22;">
 <div id="Layer1_Container" style="width:393px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 </div>
@@ -234,7 +234,7 @@ $(document).ready(function()
 <div id="Layer5_Container" style="width:72px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 </div>
 </div>
-<div id="Layer6" style="position:fixed;text-align:center;left:auto;right:0px;top:0px;width:100px;height:100px;z-index:24;" onclick="$('#jQueryDialog3').dialog('open');return false;">
+<div id="Layer6" style="position:fixed;text-align:center;left:auto;right:0px;top:0px;width:100px;height:100px;z-index:24;cursor: pointer;" onclick="$('#jQueryDialog3').dialog('open');return false;">
 <div id="Layer6_Container" style="width:100px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 </div>
 </div>
@@ -245,7 +245,7 @@ $(document).ready(function()
 <div id="wb_Image2" style="position:absolute;left:592px;top:52px;width:379px;height:515px;z-index:26;">
 <a href="#" onmouseenter="TimerStartTimer3();return false;"><img src="images/aigle_017.gif" id="Image2" alt=""></a></div>
 </div>
-<div id="jQueryDialog3" style="z-index:41;" title="Informations sur les Cookies">
+<div id="jQueryDialog3" style="z-index:41;" title="Informations sur les Cookies g&#233;n&#233;rals et leurs utilisations dans le WebOS">
 <div id="wb_Text5" style="position:absolute;left:14px;top:17px;width:650px;height:400px;text-align:justify;z-index:33;">
 <span style="color:#000000;font-family:Arial;font-size:13px;"><strong><u>Cookies information</u></strong><br><br>Les cookies sont de petits fichiers texte qui sont placés sur votre ordinateur par les sites web que vous visitez. Ils sont largement utilisés afin de permettre le fonctionnement des sites ou de rendre leur fonctionnement plus efficace, et de fournir des informations à leur propriétaire. L'utilisation de cookies est aujourd’hui la norme pour la plupart des sites. Vous pouvez gérer et contrôler les cookies en utilisant votre navigateur. Vous pouvez également les supprimer dans votre navigateur lorsque vous quittez le site.<br>Gestion des cookies<br><br>Pour la gestion des Cookies et de vos choix, la configuration de chaque navigateur est différente. Elle est décrite dans le menu d'aide de votre navigateur, qui vous permettra de savoir de quelle manière modifier vos souhaits en matière de Cookies.<br><br><strong><em>Types de cookies:<br></em></strong><br>&nbsp;&nbsp;&nbsp; - «&nbsp;Cookies de Session&nbsp;» restent stockés dans votre navigateur seulement durant votre session de navigation c'est à dire jusqu'à ce que vous quittiez le site.<br>&nbsp;&nbsp;&nbsp; - «&nbsp;Cookies Persistants&nbsp;» restent dans votre navigateur après la session (sauf si vous les avez supprimés).<br>&nbsp;&nbsp;&nbsp; - «&nbsp;Cookies de Performance&nbsp;» collectent des informations sur votre utilisation du site, comme les pages web visitées et les messages d'erreur, ils ne recueillent pas de renseignements concernant des personnes identifiées, et les informations collectées sont agrégées de sorte qu’elles sont rendues anonymes. Les cookies de performance sont utilisés pour améliorer la façon dont fonctionne un site web.<br>&nbsp;&nbsp;&nbsp; - «&nbsp;Cookies de Fonctionnalité&nbsp;» permettent au site de se rappeler les choix que vous faites sur le site web (tels que des modifications de la taille du texte, des pages personnalisées) ou activer des services tels que des commentaires sur un blog.</span></div>
 <input type="button" id="Button7" onclick="$('#jQueryDialog3').dialog('close');return false;" name="" value="Compris" style="position:absolute;left:229px;top:449px;width:235px;height:25px;z-index:34;">
