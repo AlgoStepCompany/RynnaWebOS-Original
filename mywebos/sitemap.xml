@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" >
 	<url>
 		<loc>http://www.rynnawebos.fr/</loc>
-		<lastmod>2018-01-04</lastmod>
+		<lastmod>2018-01-07</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/session.php</loc>
-		<lastmod>2018-01-04</lastmod>
+		<lastmod>2018-01-07</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
@@ -272,7 +272,7 @@
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/addeosapps/annonce.php</loc>
-		<lastmod>2018-01-01</lastmod>
+		<lastmod>2018-01-07</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
@@ -584,7 +584,7 @@
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/maj.php</loc>
-		<lastmod>2018-01-04</lastmod>
+		<lastmod>2018-01-07</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
@@ -596,7 +596,7 @@
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/demosession.php</loc>
-		<lastmod>2018-01-04</lastmod>
+		<lastmod>2018-01-07</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
