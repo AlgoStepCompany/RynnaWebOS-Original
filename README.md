@@ -1,12 +1,12 @@
 # RynnaWebOS-Imporium (basé/based sur/to RynnaWebOS-Original et/and RynnaWebOS-Solaris)
 
-### Vous visionnez en ce moment la version 21.0 (Release) du code source.
+### Vous visionnez en ce moment la version 21.1 (Release) du code source.
 Cette version sera mise à jour en fonction de l'avancement du WebOS.
 
-### You are currently viewing version 21.0 (Release) of the source code.
+### You are currently viewing version 21.1 (Release) of the source code.
 This version will be updated according to the progress of WebOS.
 
-# UPDATE : 05/01/2018
+# UPDATE : 07/01/2018
 
 ****************
 
