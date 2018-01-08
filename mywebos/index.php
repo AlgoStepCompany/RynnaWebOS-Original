@@ -140,7 +140,6 @@ $(document).ready(function()
    };
    $("#jQueryDialog3").dialog(jQueryDialog3Options);
    $("#Layer4").stickylayer({orientation: 5, position: [0, 0], delay: 1});
-   $("#Layer7").stickylayer({orientation: 9, position: [0, 0], delay: 0});
 });
 </script>
 </head>
@@ -173,7 +172,7 @@ $(document).ready(function()
 <div id="FontAwesomeIcon1"><i class="fa fa-server">&nbsp;</i></div></div>
 <div id="wb_Text1" style="position:absolute;left:139px;top:16px;width:478px;height:176px;text-align:justify;z-index:11;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Rynna WebOS utilise un moteur PHP 7 (appelé noyau PHP) pour fonctionner.<br>Le WebOS est codé en différents langages&nbsp;: PHP, CSS, Javascript, JQuery et utilise des applications et outils développés majoritairement en Java, Flash Player, Ajax et ASPX pour les applications virtualisées.<br><br>Rynna WebOS a été conçu par 13 développeurs depuis Mars 2015 à l'aide des logiciels suivants&nbsp;: Notepad++ (gratuit), Wysiwyg Web Builder (payant), Paint.NET (gratuit), Visual Studio ASP.NET (gratuit), OpenElement (gratuit) et Blisk (gratuit).<br><br>Le code source complet de Rynna WebOS est disponible ici même&nbsp;:</span></div>
-<input type="submit" id="Button2" onclick="window.location.href='https://github.com/AlgoStepCompany';return false;" name="" value="Découvrir, apprendre et télécharger le code source de Rynna WebOS" style="position:absolute;left:28px;top:210px;width:616px;height:43px;z-index:12;">
+<input type="submit" id="Button2" onclick="window.location.href='https://github.com/AlgoStepCompany';return false;" name="" value="Se rendre sur Github pour découvrir et télécharger le code source du WebOS" style="position:absolute;left:28px;top:210px;width:616px;height:43px;z-index:12;">
 </div>
 
 <div id="jQueryDialog6" style="z-index:39;" title="Bugs signal&#233;s">
@@ -225,7 +224,7 @@ $(document).ready(function()
 </div>
 </div>
 <div id="wb_Text10" style="position:absolute;left:7px;top:7px;width:250px;height:59px;z-index:21;">
-<span style="color:#000000;font-family:Arial;font-size:13px;"><em>Version 21.1 (Release)<br>Desktop Virtual Manager (DVM)<br></em></span><span style="color:#000000;font-family:Arial;font-size:9.3px;"><em>PHP 7, CSS 3, JQuery 3.2.1<br></em></span><span style="color:#0000CD;font-family:Arial;font-size:12px;"><strong><em>IMPORIUM</em></strong></span></div>
+<span style="color:#000000;font-family:Arial;font-size:13px;"><em>Version 21.2 (Release)<br>Desktop Virtual Manager (DVM)<br></em></span><span style="color:#000000;font-family:Arial;font-size:9.3px;"><em>PHP 7, CSS 3, JQuery 3.2.1<br></em></span><span style="color:#0000CD;font-family:Arial;font-size:12px;"><strong><em>IMPORIUM</em></strong></span></div>
 <div id="Layer1" style="position:absolute;text-align:center;left:277px;top:564px;width:393px;height:83px;z-index:22;">
 <div id="Layer1_Container" style="width:393px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 </div>
@@ -251,47 +250,14 @@ $(document).ready(function()
 <input type="button" id="Button7" onclick="$('#jQueryDialog3').dialog('close');return false;" name="" value="Compris" style="position:absolute;left:229px;top:449px;width:235px;height:25px;z-index:34;">
 </div>
 
-<div id="Layer7" style="position:absolute;text-align:center;left:143px;top:1647px;width:540px;height:237px;z-index:42;">
-<div id="Layer7_Container" style="width:536px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
-<div id="wb_FontAwesomeIcon6" style="position:absolute;left:12px;top:14px;width:100px;height:100px;text-align:center;z-index:35;">
+<div id="Layer7" style="position:fixed;text-align:center;left:0;top:0;right:0;bottom:0;z-index:42;">
+<div id="Layer7_Container" style="width:2996px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_FontAwesomeIcon6" style="position:absolute;left:25px;top:23px;width:120px;height:96px;text-align:center;z-index:35;">
 <div id="FontAwesomeIcon6"><i class="fa fa-exclamation-triangle">&nbsp;</i></div></div>
-<div id="wb_Text9" style="position:absolute;left:133px;top:14px;width:379px;height:180px;z-index:36;">
-<span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>SERVEUR Rynna WebOS en maintenance.<br><br>Ecrire ici votre texte pour avertir vos utilisateurs de la maintenance.<br><br>Pour afficher ce bloc-layer utilisez les Timer1 et TImer2.<br><br>Activer le Timer1 et désactiver le Timer2.<br>Pour revenir à la normal inversez les deux Timer.</strong></span></div>
+<div id="wb_Text9" style="position:absolute;left:177px;top:23px;width:505px;height:396px;z-index:36;">
+<span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>OUPS&nbsp;!<br><br>Il semblerais que le WebOS ne soit pas compatible avec votre navigateur Web actuel...<br><br>Pour remédier à cela nous vous conseillons d'utiliser les navigateurs suivants&nbsp;: <br><br>- Mozilla Firefox<br>- Google Chrome<br>- Internet Explorer<br>- Microsoft Edge<br>- Opéra (Néon)<br><br>et de vous assurer que ceux-ci sont à jour pour pouvoir supporter une interface internet dynamique (JQuery/PHP/CSS 3).<br><br>Vous pouvez aussi essayer de vider le Cache de votre navigateur internet actuel.<br><br>Si le problème persiste&nbsp;; contactez l'administrateur du serveur sur support@rynnawebos.fr pour plus d'information.</strong></span></div>
 </div>
 </div>
-<script>
-var wb_Timer1;
-function TimerStartTimer1()
-{
-   wb_Timer1 = setTimeout(function()
-   {
-      var event = null;
-      ShowObject('Layer2', 0);
-   }, 75);
-}
-function TimerStopTimer1()
-{
-   clearTimeout(wb_Timer1);
-}
-</script>
-
-<script>
-var wb_Timer2;
-function TimerStartTimer2()
-{
-   wb_Timer2 = setTimeout(function()
-   {
-      var event = null;
-      ShowObject('Layer7', 0);
-   }, 65);
-}
-function TimerStopTimer2()
-{
-   clearTimeout(wb_Timer2);
-}
-TimerStartTimer2();
-</script>
-
 <script>
 var wb_Timer3;
 function TimerStartTimer3()
@@ -324,6 +290,40 @@ function TimerStopTimer4()
 {
    clearTimeout(wb_Timer4);
 }
+</script>
+
+<script>
+var wb_Timer1;
+function TimerStartTimer1()
+{
+   wb_Timer1 = setTimeout(function()
+   {
+      var event = null;
+      ShowObject('Layer7', 0);
+   }, 35);
+}
+function TimerStopTimer1()
+{
+   clearTimeout(wb_Timer1);
+}
+TimerStartTimer1();
+</script>
+
+<script>
+var wb_Timer2;
+function TimerStartTimer2()
+{
+   wb_Timer2 = setTimeout(function()
+   {
+      var event = null;
+      ShowObject('Layer7', 0);
+   }, 90);
+}
+function TimerStopTimer2()
+{
+   clearTimeout(wb_Timer2);
+}
+TimerStartTimer2();
 </script>
 
 </body>

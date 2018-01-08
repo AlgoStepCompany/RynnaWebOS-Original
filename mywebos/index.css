@@ -670,6 +670,9 @@ body
    border: 0px #245580 solid;
    text-align: center;
    padding: 0px 0px 0px 0px;
+   -webkit-animation: transform-bounch 2500ms linear 0ms infinite normal both;
+   -moz-animation: transform-bounch 2500ms linear 0ms infinite normal both;
+   animation: transform-bounch 2500ms linear 0ms infinite normal both;
    vertical-align: top;
 }
 #wb_FontAwesomeIcon6:hover
@@ -680,17 +683,17 @@ body
 }
 #FontAwesomeIcon6
 {
-   height: 100px;
-   width: 100px;
+   height: 96px;
+   width: 120px;
 }
 #FontAwesomeIcon6 i
 {
    color: #FFA500;
    display: inline-block;
-   font-size: 100px;
-   line-height: 100px;
+   font-size: 96px;
+   line-height: 96px;
    vertical-align: middle;
-   width: 100px;
+   width: 96px;
 }
 #wb_FontAwesomeIcon6:hover i
 {
