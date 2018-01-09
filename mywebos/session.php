@@ -1022,7 +1022,7 @@ $(document).ready(function()
    {
       modal: true,
       width: 405,
-      height: 156,
+      height: 168,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: false,
@@ -1551,7 +1551,7 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    var jQueryDialog86Options =
    {
       width: 296,
-      height: 478,
+      height: 428,
       position: { my: 'left top', at: 'right bottom', of: window },
       resizable: false,
       draggable: true,
@@ -3171,7 +3171,7 @@ TimerStartTimer12();
 <html>
    <body>
 
-<!-- Version 10.0 et + ; On n'execute plus la fonction, on essayera de trouver une autre solution plus tard pour les BackgroungImageFunction AutoLoad -->
+<!-- Version 20.0 et + ; On n'execute plus la fonction, on essayera de trouver une autre solution plus tard pour les BackgroungImageFunction AutoLoad -->
 <!--  <a href="#" onload="backgroundscreenusrx();">  -->
 
 <script>
@@ -3200,6 +3200,15 @@ var csd = "1x999";
 var csg = "1x000";
 var cid = "0x999";
 var cig = "0x000";
+<!-- Variables de sécurités 2018 LOD -->
+var chromecore = "/security";
+var mozillacore = "/security";
+var iecore = "/security";
+var edgecore = "/security";
+var neoncore = "/security";
+var passlod = "1";
+var autorizedactlod = "1";
+var othercore = "nop.php";
 <!-- Affichera la variable de la session sous la forme   '[username]'; -->
 var usrxbg='<?php echo $_SESSION['username'];?>';
 }
@@ -3529,7 +3538,7 @@ function TimerStopTimer51()
    src="http://rynnawebos.fr/login/maj.php">
 </iframe></div>
 <div id="wb_Text43" style="position:absolute;left:14px;top:68px;width:848px;height:24px;text-align:center;z-index:502;">
-<span style="color:#FF6347;font-family:Arial;font-size:21px;"><strong>21.2</strong></span></div>
+<span style="color:#FF6347;font-family:Arial;font-size:21px;"><strong>22.0</strong></span></div>
 <div id="wb_Text42" style="position:absolute;left:14px;top:120px;width:460px;height:16px;z-index:503;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">La dernière version disponible (code source) est la suivante&nbsp;:</span></div>
 <div id="wb_Text46" style="position:absolute;left:14px;top:18px;width:460px;height:16px;z-index:504;">
@@ -3679,6 +3688,15 @@ TimerStartTimer57();
 <span style="color:#000000;font-family:Arial;font-size:13px;">Ci-dessous retrouvez les dernières mises à jour de votre WebOS. Seul les 6 dernières mises à jours sont indiqués&nbsp;:</span></div>
 <div id="Blog1" style="overflow-y:scroll;position:absolute;left:23px;top:195px;width:689px;height:171px;z-index:5;">
 <div class="blogitem">
+   <span class="blogsubject">Version 22.0</span>
+   <div class="no-thumb"></div>
+   <div class="blogdate">09/01/18<br></div>
+   <span style="color:#000000;">- Mise à jour globale de sécurité (suivis maintenance)<br>
+- Ajout des nouvelles variables d'environnements</span><br>
+   <div class="blogcomments"></div>
+</div>
+<div class="clearfix visible-col1"></div>
+<div class="blogitem">
    <span class="blogsubject">Version 21.2</span>
    <div class="no-thumb"></div>
    <div class="blogdate">08/01/18<br></div>
@@ -3723,15 +3741,6 @@ TimerStartTimer57();
    <div class="blogdate">22/12/17<br></div>
    <span style="color:#000000;">- Qwant (site web de recherches) par défaut sur le navigateur internet n'est plus compatible avec les fonctions iframes/object sur le WebOS, par conséquent Qwant est remplacé par StartPage temporairement.<br>
 - Joyeux Noël à tous avec notre fond animé (valable jusqu'à la version 20.3 futur)</span><br>
-   <div class="blogcomments"></div>
-</div>
-<div class="clearfix visible-col1"></div>
-<div class="blogitem">
-   <span class="blogsubject">Version 20.1</span>
-   <div class="no-thumb"></div>
-   <div class="blogdate">14/12/17<br></div>
-   <span style="color:#000000;">- Amélioration Kernel PHP<br>
-- Ajout de l'info bulle pour l'icone de réduction des fenêtres</span><br>
    <div class="blogcomments"></div>
 </div>
 <div class="clearfix visible-col1"></div>

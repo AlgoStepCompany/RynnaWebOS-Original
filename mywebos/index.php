@@ -139,7 +139,7 @@ $(document).ready(function()
       classes: { 'ui-dialog': 'jQueryDialog3'} 
    };
    $("#jQueryDialog3").dialog(jQueryDialog3Options);
-   $("#Layer4").stickylayer({orientation: 5, position: [0, 0], delay: 1});
+   $("#Layer4").stickylayer({orientation: 5, position: [0, 0], delay: 0});
 });
 </script>
 </head>
@@ -180,7 +180,7 @@ $(document).ready(function()
 <div class="blogitem">
    <span class="blogsubject">Problème SSL sur iframes</span>
    <div class="no-thumb"></div>
-   <div class="blogdate">04/01/2018<br></div>
+   <div class="blogdate">09/01/2018<br></div>
    <span style="color:#000000;">Certains programmes ne fonctionneront pas en version HTTPS (SSL sécurisé) sur le WebOS.</span><br>
    <div class="blogcomments"><a href="mailto:support@rynnaebos.fr?subject=Probl%E8me%20SSL%20sur%20iframes">Envoyer un mail</a></div>
 </div>
@@ -223,8 +223,8 @@ $(document).ready(function()
 <input type="submit" id="Button5" onclick="window.location.href='./demosession.php';return false;" name="" value="Ouvrir une session de démonstration (limitée)" style="position:absolute;left:19px;top:253px;width:588px;height:25px;z-index:19;">
 </div>
 </div>
-<div id="wb_Text10" style="position:absolute;left:7px;top:7px;width:250px;height:59px;z-index:21;">
-<span style="color:#000000;font-family:Arial;font-size:13px;"><em>Version 21.2 (Release)<br>Desktop Virtual Manager (DVM)<br></em></span><span style="color:#000000;font-family:Arial;font-size:9.3px;"><em>PHP 7, CSS 3, JQuery 3.2.1<br></em></span><span style="color:#0000CD;font-family:Arial;font-size:12px;"><strong><em>IMPORIUM</em></strong></span></div>
+<div id="wb_Text10" style="position:absolute;left:13px;top:16px;width:250px;height:59px;z-index:21;">
+<span style="color:#000000;font-family:Arial;font-size:13px;"><em>Version 22.0 (Release)<br>Desktop Virtual Manager (DVM)<br></em></span><span style="color:#000000;font-family:Arial;font-size:9.3px;"><em>PHP 7, CSS 3, JQuery 3.2.1<br></em></span><span style="color:#0000CD;font-family:Arial;font-size:12px;"><strong><em>IMPORIUM</em></strong></span></div>
 <div id="Layer1" style="position:absolute;text-align:center;left:277px;top:564px;width:393px;height:83px;z-index:22;">
 <div id="Layer1_Container" style="width:393px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 </div>
@@ -254,8 +254,8 @@ $(document).ready(function()
 <div id="Layer7_Container" style="width:2996px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="wb_FontAwesomeIcon6" style="position:absolute;left:25px;top:23px;width:120px;height:96px;text-align:center;z-index:35;">
 <div id="FontAwesomeIcon6"><i class="fa fa-exclamation-triangle">&nbsp;</i></div></div>
-<div id="wb_Text9" style="position:absolute;left:177px;top:23px;width:505px;height:396px;z-index:36;">
-<span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>OUPS&nbsp;!<br><br>Il semblerais que le WebOS ne soit pas compatible avec votre navigateur Web actuel...<br><br>Pour remédier à cela nous vous conseillons d'utiliser les navigateurs suivants&nbsp;: <br><br>- Mozilla Firefox<br>- Google Chrome<br>- Internet Explorer<br>- Microsoft Edge<br>- Opéra (Néon)<br><br>et de vous assurer que ceux-ci sont à jour pour pouvoir supporter une interface internet dynamique (JQuery/PHP/CSS 3).<br><br>Vous pouvez aussi essayer de vider le Cache de votre navigateur internet actuel.<br><br>Si le problème persiste&nbsp;; contactez l'administrateur du serveur sur support@rynnawebos.fr pour plus d'information.</strong></span></div>
+<div id="wb_Text9" style="position:absolute;left:177px;top:23px;width:505px;height:414px;z-index:36;">
+<span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>OUPS&nbsp;!<br><br>Il semblerais que le WebOS ne soit pas compatible avec votre navigateur Web actuel ou que votre navigateur internet actuel a un problème...<br><br>Pour remédier à cela nous vous conseillons d'utiliser les navigateurs suivants&nbsp;: <br><br>- Mozilla Firefox<br>- Google Chrome<br>- Internet Explorer<br>- Microsoft Edge<br>- Opéra (Néon)<br><br>et de vous assurer que ceux-ci sont à jour pour pouvoir supporter une interface internet dynamique (JQuery/PHP/CSS 3).<br><br>Vous pouvez aussi essayer de vider le Cache de votre navigateur internet actuel.<br><br>Si le problème persiste&nbsp;; contactez l'administrateur du serveur sur support@rynnawebos.fr pour plus d'information.</strong></span></div>
 </div>
 </div>
 <script>

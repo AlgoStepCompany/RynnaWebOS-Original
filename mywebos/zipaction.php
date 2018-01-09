@@ -2,6 +2,7 @@
 
 // Créer par Maxime G. avec le soutient de Loic A. (AlgoStep Company) dans le cadre du developpement de Rynna WebOS (ZIP ACTION ARCHIVE UsernameSession)
 // VERSION 1.1 - Ajout de la securite (correction faille)
+// VERSION 1.2 - Mise à niveau du patch page de sécurité
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST['form_name'] == 'logoutform')
 {
    if (session_id() == "")
@@ -10,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST
    }
    unset($_SESSION['username']);
    unset($_SESSION['fullname']);
-   header('Location: ./index.php');
+   header('Location: ./errorzip.php');
    exit;
 }
 if (session_id() == "")
@@ -19,7 +20,7 @@ if (session_id() == "")
 }
 if (!isset($_SESSION['username']))
 {
-   header('Location: ./index.php');
+   header('Location: ./errorzip.php');
    exit;
 }
 if (isset($_SESSION['expires_by']))
@@ -34,7 +35,7 @@ if (isset($_SESSION['expires_by']))
       unset($_SESSION['username']);
       unset($_SESSION['expires_by']);
       unset($_SESSION['expires_timeout']);
-      header('Location: ./index.php');
+      header('Location: ./errorzip.php');
       exit;
    }
 }
@@ -154,7 +155,7 @@ if (isset($_POST['process']) && $_POST['process'] == true) { // Si une requête 
 
                 // Appel ajax
                 $.ajax({
-                    url: '/mywebos/zipaction.php', // URL d'appel (dans ce cas, on appelle ce fichier)
+                    url: '/login/zipaction.php', // URL d'appel (dans ce cas, on appelle ce fichier)
                     type: 'POST', // Type de requête (GET ou POST)
                     data : { process : 'true' }, // Données envoyées
                     dataType : 'json', // On précise que le format est JSON pour le bon transport des données dans les deux sens
