@@ -66,6 +66,7 @@ $(document).ready(function()
 </form>
 </div>
 <textarea name="TextArea1" id="TextArea1" style="position:absolute;left:16px;top:101px;width:764px;height:350px;z-index:2;" rows="22" cols="149" spellcheck="false">EN COURS DE DEVELOPPEMENT...
+(50% effectué)
 </textarea>
 <html>
    <body>

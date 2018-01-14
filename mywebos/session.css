@@ -21,12 +21,6 @@ body
    margin: 0;
    text-align: center;
 }
-#Layer5
-{
-   background-color: #F4A460;
-   background-image: none;
-   opacity: 0.40;
-}
 #Layer30
 {
    background-color: #000000;
@@ -9079,55 +9073,6 @@ body
 {
    color: #FFD700;
 }
-#wb_MaterialIcon35
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #245580 solid;
-   text-align: center;
-   padding: 0px 0px 0px 0px;
-   -webkit-animation: transform-rotate 2500ms ease-in 0ms infinite normal both;
-   -moz-animation: transform-rotate 2500ms ease-in 0ms infinite normal both;
-   animation: transform-rotate 2500ms ease-in 0ms infinite normal both;
-   vertical-align: top;
-}
-#wb_MaterialIcon35:hover
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #245580 solid;
-}
-#MaterialIcon35
-{
-   height: 52px;
-   width: 58px;
-}
-#MaterialIcon35 i
-{
-   color: #A52A2A;
-   display: inline-block;
-   font-size: 52px;
-   line-height: 52px;
-   vertical-align: middle;
-   width: 52px;
-}
-#wb_MaterialIcon35:hover i
-{
-   color: #A52A2A;
-}
-#wb_Text38 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: right;
-}
-#wb_Text38 div
-{
-   text-align: right;
-}
 #Image25
 {
    border: 0px #000000 solid;
@@ -9552,19 +9497,6 @@ body
 .jQueryDialog88, .jQueryDialog88 .ui-corner-all
 {
    border-radius: 0px;
-}
-#wb_Text78 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 1px #FFFFFF solid;
-   padding: 0;
-   margin: 0;
-   text-align: justify;
-}
-#wb_Text78 div
-{
-   text-align: justify;
 }
 #wb_MaterialIcon38
 {
