@@ -21,22 +21,6 @@ Au final les versions normale seront toujours comme ceci (exemple) :
 9.1 (mineure, rectification N°1)  
 ...  
 
-ATTENTION
-
-- Si vous découvrez une version X suivie du symbôle "$" (exemple : 8.2$) nous vous déconseillons TRES fortement de l'utiliser pour votre serveur local ou en ligne car il s'agit d'une version qui présente un problème au niveau de la gestion de la mémoire de la session PHP, ou encore un problème de performance trop importante.  
-Dans ce cas nous vous conseillons d'attendre la version supérieur.  
-Mais si vous êtes "joueur" vous pouvez tout de même mettre à jour votre système avec une version "$"  
-
-- Si vous découvrez une version X suivie du symbôle "&" (exemple : 8.2&) nous vous déconseillons de l'utiliser pour votre serveur local ou en ligne car cette version est utilisée pour des tests de comportements lors de changement de plugins ou JQuery/Javascript/ActionScript interne (comme un changement de JQuery par exemple ou un changement au niveau du comportement de la session ou du "core" lié au noyau).  
-Dans ce cas nous vous conseillons d'attende la version supérieur.  
-Mais si vous êtes "joueur" vous pouvez tout de même mettre à jour votre système avec une version "&"  
-
-- Si vous découvrez une version X suivie du symbôle "em+" (exemple : 8.2em+) nous vous déconseillons de l'utiliser pour votre serveur local ou en ligne car cette version est utilisée pour des tests de comportements lors du changement interne JQuery du comportement des fenêtres et du thème par défaut (exemple ; agrandissement, positionnement, reflexion, prgem ou encore ID/GUID).  
-Dans ce cas nous vous conseillons d'attende la version supérieur.  
-Mais si vous êtes "joueur" vous pouvez tout de même mettre à jour votre système avec une version "em+"  
-
-Dans ces cas particuliés nous ne serons pas responsable en cas de dommage lors de l'intégration sur votre serveur d'une version "&" ou "$" ou "em+" !
-
 ------------------------
 
 # MAJOR VERSION AND MINOR VERSION (English / Anglais)
@@ -62,18 +46,3 @@ In the end the normal versions will always be like this (example):
 9.1 (minor, rectification No. 1)  
 ...  
 
-WARNING
-
-- If you discover an X version followed by the "$" symbol (example: 8.2$) we strongly discourage you from using it for your local or online server because it is a version with a problem Of the memory management of the session PHP, or a problem of performance too large.  
-In this case we advise you to wait for the higher version.  
-But if you are a "player" you can still update your system with a "$"  
-
-- If you discover an X version followed by the "&" symbol (example: 8.2&) we do not recommend using it for your local or online server because this version is used for behavior testing when changing plugins or JQuery / Javascript / internal ActionScript (such as a change in JQuery, for example, or a change in the behavior of the kernel session or core).  
-In this case we advise you to wait for the higher version.  
-But if you are a "player" you can still update your system with an "&"  
-
-- If you discover an X version followed by the "em +" symbol (example: 8.2em+) we do not recommend using it for your local or online server because this version is used for behavioral testing during the internal JQuery behavior change Windows and the default theme (eg, enlargement, positioning, reflection, prgem or ID / GUID).  
-In this case we advise you to wait for the higher version.  
-But if you are "player" you can still update your system with an "em +" version  
-
-In these special cases we will not be responsible for any damage when integrating an "&" or "$" or "em +" version on your server!
