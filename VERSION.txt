@@ -2,7 +2,8 @@ Rynna WebOS
 Version Informations
 
 Nom du projet : Rynna WebOS
-Nom de code de la version : Original
+Nom de code de la version de base : Original
+Nom de code de la version en cours de développement : Vegasis (depuis le 17/01/2018)
 Code source mise à disposition (complet) depuis le : 30/08/2017, en version : 9.0 (Release)
 Version Thème : Original
 Autre version disponible : Nebular (disponible en thème patch) ; Luxury (disponible en thème patch) ; Redar (disponible en thème patch) ; LifeIsStrange (disponible en thème patch)
@@ -28,9 +29,10 @@ Version JQuery : 3.2.1
 ----------------A PROPOS DES NOMS DE CODE DES VERSIONS TERMINEES ET VERROUILLEES : 
 Rynna WebOS est conçu de manière à valider tout les objectifs à chaque version majeure et qui puissent être verrouillées et terminées.
 Pour cela diverses branches Github seront mises en places :
-- MASTER = la branche toujours en développement (appelé avant "ORIGINAL" tant que la version 10.0 n'est pas fiable)
+- MASTER = la branche toujours en développement (Basé sur la dernière branche disponible)
 - 10.0 - SOLARIS
 - 20.0 - IMPORIUM
+- 30.0 - VEGASIS
 
 A chaque mise en place du version terminée et fiable les nouvelles versions changeront de nom de code.
 Voici les futurs noms réservés au cours de l'évolution du projet :
@@ -38,8 +40,8 @@ Voici les futurs noms réservés au cours de l'évolution du projet :
 1.0 - ORIGINAL
 10.0 - SOLARIS
 20.0 - IMPORIUM
-<<< vous êtes ici : Rynna WebOS (20.0 et supérieur) Imporium >>>
 30.0 - VEGASIS
+<<< vous êtes ici : Rynna WebOS (30.0 et supérieur) Vegasis >>>
 40.0 - CRIMERIA
 50.0 - RAZIOR
 60.0 - STARIS
