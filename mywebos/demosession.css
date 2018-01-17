@@ -5136,8 +5136,8 @@ body
    box-sizing: border-box;
    padding: 0px 0px 0px 0px;
    display: inline-block;
-   width: 84px;
-   height: 98px;
+   width: 85px;
+   height: 99px;
    vertical-align: top;
 }
 #Image34:hover
@@ -5236,8 +5236,8 @@ body
    box-sizing: border-box;
    padding: 0px 0px 0px 0px;
    display: inline-block;
-   width: 84px;
-   height: 98px;
+   width: 85px;
+   height: 99px;
    vertical-align: top;
 }
 #Image38:hover
@@ -7736,19 +7736,6 @@ body
 {
    text-align: left;
 }
-#wb_Text69 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text69 div
-{
-   text-align: left;
-}
 #Layer27
 {
    background-color: #191919;
@@ -9497,4 +9484,135 @@ body
 #wb_MaterialIcon62:hover i
 {
    color: #FFD700;
+}
+#wb_Image58
+{
+   vertical-align: top;
+}
+#Image58
+{
+   border: 0px #000000 solid;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 0px 0px 0px 0px;
+   display: inline-block;
+   width: 90px;
+   height: 105px;
+   vertical-align: top;
+}
+#Image58:hover
+{
+   -webkit-transform: rotate(0deg) scale(1.1,1.1) ;
+   -moz-transform: rotate(0deg) scale(1.1,1.1) ;
+   transform: rotate(0deg) scale(1.1,1.1) ;
+   -webkit-transition: -webkit-transform 500ms linear 0ms;
+   -moz-transition: transform 500ms linear 0ms;
+   transition: transform 500ms linear 0ms;
+}
+#Button33
+{
+   border: 1px #2E6DA4 solid;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}
+#wb_Text38 
+{
+   background-color: #808080;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text38 div
+{
+   text-align: left;
+}
+#wb_Text69 
+{
+   background-color: #808080;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text69 div
+{
+   text-align: left;
+}
+#wb_Text78 
+{
+   background-color: #808080;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text78 div
+{
+   text-align: left;
+}
+#wb_Text79 
+{
+   background-color: #808080;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text79 div
+{
+   text-align: left;
+}
+.ui-dialog.ui-widget
+{
+   font-size: 1em !important;
+}
+.jQueryDialog89.ui-dialog
+{
+   padding: 4px 4px 4px 4px;
+}
+.jQueryDialog89.ui-dialog .ui-dialog-title
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   color: #FFFFFF;
+}
+.jQueryDialog89.ui-dialog .ui-dialog-titlebar
+{
+   font-weight: normal;
+   padding: 10px 10px 10px 30px;
+}
+.ui-dialog .ui-dialog-titlebar-close
+{
+   outline: 0;
+   right: 10px;
+}
+.jQueryDialog89, .jQueryDialog89 .ui-corner-all
+{
+   border-radius: 0px;
+}
+#wb_Text80 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text80 div
+{
+   text-align: left;
 }

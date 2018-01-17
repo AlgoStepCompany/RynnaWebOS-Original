@@ -224,7 +224,7 @@ $(document).ready(function()
 </div>
 </div>
 <div id="wb_Text10" style="position:absolute;left:13px;top:16px;width:250px;height:59px;z-index:21;">
-<span style="color:#000000;font-family:Arial;font-size:13px;"><em>Version 22.1 (Release)<br>Desktop Virtual Manager (DVM)<br></em></span><span style="color:#000000;font-family:Arial;font-size:9.3px;"><em>PHP 7, CSS 3, JQuery 3.2.1<br></em></span><span style="color:#0000CD;font-family:Arial;font-size:12px;"><strong><em>IMPORIUM</em></strong></span></div>
+<span style="color:#000000;font-family:Arial;font-size:13px;"><em>Version 30.0 (Release)<br>Desktop Virtual Manager (DVM)<br></em></span><span style="color:#000000;font-family:Arial;font-size:9.3px;"><em>PHP 7, CSS 3, JQuery 3.2.1<br></em></span><span style="color:#0000CD;font-family:Arial;font-size:12px;"><strong><em>VEGASIS</em></strong></span></div>
 <div id="Layer1" style="position:absolute;text-align:center;left:277px;top:564px;width:393px;height:83px;z-index:22;">
 <div id="Layer1_Container" style="width:393px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 </div>
@@ -237,8 +237,8 @@ $(document).ready(function()
 <div id="Layer6_Container" style="width:100px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 </div>
 </div>
-<div id="Layer4" style="position:absolute;text-align:center;left:309px;top:12px;width:269px;height:66px;z-index:25;" onmouseenter="TimerStartTimer4();return false;" onmouseleave="ShowObject('wb_Image2', 0);TimerStopTimer4();return false;">
-<div id="Layer4_Container" style="width:265px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="Layer4" style="position:absolute;text-align:center;left:316px;top:14px;width:310px;height:100px;z-index:25;" onmouseenter="TimerStartTimer4();return false;" onmouseleave="ShowObject('wb_Image2', 0);TimerStopTimer4();return false;">
+<div id="Layer4_Container" style="width:306px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 </div>
 </div>
 <div id="wb_Image2" style="position:absolute;left:592px;top:52px;width:379px;height:515px;z-index:26;">

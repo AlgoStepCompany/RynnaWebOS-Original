@@ -119,43 +119,6 @@ body
    -moz-border-top-right-radius: 4px;
    border-top-right-radius: 4px;
 }
-#jQueryButton3
-{
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   font-style: normal;
-}
-#jQueryButton3 .ui-button
-{
-   position: absolute;
-   padding: 0;
-}
-#jQueryButton3 .ui-icon
-{
-   left: 10px;
-   position: absolute;
-   top: 50%;
-   margin-top: -8px;
-}
-#jQueryButton3.ui-corner-all
-{
-   -webkit-border-bottom-left-radius: 4px;
-   -moz-border-bottom-left-radius: 4px;
-   border-bottom-left-radius: 4px;
-   -webkit-border-top-left-radius: 4px;
-   -moz-border-top-left-radius: 4px;
-   border-top-left-radius: 4px;
-}
-#jQueryButton3.ui-corner-all
-{
-   -webkit-border-bottom-right-radius: 4px;
-   -moz-border-bottom-right-radius: 4px;
-   border-bottom-right-radius: 4px;
-   -webkit-border-top-right-radius: 4px;
-   -moz-border-top-right-radius: 4px;
-   border-top-right-radius: 4px;
-}
 #Logout1
 {
    background-color: #4F4F4F;
@@ -176,14 +139,6 @@ body
 {
    background-color: transparent;
    background-image: url(images/initnormale.png);
-   background-repeat: no-repeat;
-   background-position: left top;
-   background-size: 100% 100%;
-}
-#Layer3
-{
-   background-color: transparent;
-   background-image: url(images/initcatalog.png);
    background-repeat: no-repeat;
    background-position: left top;
    background-size: 100% 100%;

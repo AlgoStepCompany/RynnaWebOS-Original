@@ -56,23 +56,20 @@ $(document).ready(function()
    $("#Layer1").stickylayer({orientation: 9, position: [0, 0], delay: 0});
    $("#jQueryButton1").button({ icon: 'ui-icon-folder-collapsed', iconPosition: 'beginning' });
    $("#jQueryButton2").button({ icon: 'ui-icon-wrench', iconPosition: 'beginning' });
-   $("#jQueryButton3").button({ icon: 'ui-icon-grip-diagonal-se', iconPosition: 'beginning' });
    $("#Layer2").stickylayer({orientation: 5, position: [0, 0], delay: 0});
-   $("#Layer3").stickylayer({orientation: 5, position: [0, 0], delay: 0});
    $("#Layer4").stickylayer({orientation: 5, position: [0, 0], delay: 0});
 });
 </script>
 </head>
 <body>
-<div id="Layer1" style="position:absolute;text-align:center;left:88px;top:66px;width:536px;height:328px;z-index:6;">
+<div id="Layer1" style="position:absolute;text-align:center;left:88px;top:66px;width:536px;height:285px;z-index:5;">
 <div id="Layer1_Container" style="width:534px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <input type="button" id="Button2" name="" value="Choix d'ouverture de session" style="position:absolute;left:11px;top:10px;width:512px;height:25px;z-index:0;" disabled>
 <div id="wb_Text1" style="position:absolute;left:20px;top:53px;width:494px;height:18px;text-align:center;z-index:1;">
 <span style="color:#000000;font-family:Arial;font-size:16px;">Quel type de session souhaitez-vous ouvrir ?</span></div>
 <button type="button" id="jQueryButton1" onclick="window.location.href='./session.php';return false;" onmouseenter="ShowObject('Layer2', 1);ShowObject('Layer3', 0);ShowObject('Layer4', 0);return false;" onmouseleave="ShowObject('Layer2', 0);return false;" name="" value="Session normale (par défaut)" style="position:absolute;left:28px;top:90px;width:482px;height:40px;z-index:2;">Session normale (par défaut)</button>
 <button type="button" id="jQueryButton2" onclick="window.location.href='./sessionmse.php';return false;" onmouseenter="ShowObject('Layer4', 1);ShowObject('Layer2', 0);ShowObject('Layer3', 0);return false;" onmouseleave="ShowObject('Layer4', 0);return false;" name="" value="Session allégée (mode sans echec)" style="position:absolute;left:28px;top:143px;width:482px;height:40px;z-index:3;">Session allégée (mode sans echec)</button>
-<button type="button" id="jQueryButton3" onclick="window.location.href='./sessioncat.php';return false;" onmouseenter="ShowObject('Layer3', 1);ShowObject('Layer2', 0);ShowObject('Layer4', 0);return false;" onmouseleave="ShowObject('Layer3', 0);return false;" name="" value="Session catalogue (CommandLine)" style="position:absolute;left:28px;top:198px;width:482px;height:40px;z-index:4;">Session catalogue (CommandLine)</button>
-<div id="wb_Logout1" style="position:absolute;left:28px;top:273px;width:480px;height:35px;z-index:5;">
+<div id="wb_Logout1" style="position:absolute;left:28px;top:222px;width:480px;height:35px;z-index:4;">
 <form name="logoutform" method="post" action="<?php echo basename(__FILE__); ?>" id="logoutform">
 <input type="hidden" name="form_name" value="logoutform">
 <input type="submit" name="logout" value="Annuler et retour arrière (se déconnecter)" id="Logout1">
@@ -81,7 +78,7 @@ $(document).ready(function()
 </div>
 </div>
 
-<div id="Layer2" style="position:absolute;text-align:left;left:666px;top:265px;width:477px;height:184px;z-index:8;">
+<div id="Layer2" style="position:absolute;text-align:left;left:666px;top:265px;width:477px;height:184px;z-index:7;">
 </div>
 <script>
 var wb_Timer1;
@@ -102,9 +99,7 @@ function TimerStopTimer1()
 TimerStartTimer1();
 </script>
 
-<div id="Layer3" style="position:absolute;text-align:left;left:666px;top:479px;width:477px;height:208px;z-index:10;">
-</div>
-<div id="Layer4" style="position:absolute;text-align:left;left:666px;top:34px;width:477px;height:191px;z-index:11;">
+<div id="Layer4" style="position:absolute;text-align:left;left:666px;top:34px;width:477px;height:191px;z-index:9;">
 </div>
 </body>
 </html>
