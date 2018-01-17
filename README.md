@@ -1,12 +1,8 @@
-# RynnaWebOS-Vegasis (basé/based sur/to RynnaWebOS-Imporium et/and RynnaWebOS-Solaris/Original)
+# RynnaWebOS-Vegasis
 
 ### Vous visionnez en ce moment la version 30.0 (Release) du code source.
-Cette version sera mise à jour en fonction de l'avancement du WebOS.
 
 ### You are currently viewing version 30.0 (Release) of the source code.
-This version will be updated according to the progress of WebOS.
-
-# UPDATE : (FIXE) 17/01/2018
 
 ****************
 
