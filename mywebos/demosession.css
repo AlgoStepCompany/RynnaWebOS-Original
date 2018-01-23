@@ -2362,11 +2362,11 @@ body
    border: 0px #000000 solid;
    padding: 0;
    margin: 0;
-   text-align: left;
+   text-align: center;
 }
 #wb_Text6 div
 {
-   text-align: left;
+   text-align: center;
 }
 #Button6
 {
@@ -9615,4 +9615,72 @@ body
 #wb_Text80 div
 {
    text-align: left;
+}
+#wb_Text81 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: justify;
+}
+#wb_Text81 div
+{
+   text-align: justify;
+}
+.ui-dialog.ui-widget
+{
+   font-size: 1em !important;
+}
+.jQueryDialog90.ui-dialog
+{
+   padding: 4px 4px 4px 4px;
+}
+.jQueryDialog90.ui-dialog .ui-dialog-title
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   color: #FFFFFF;
+}
+.jQueryDialog90.ui-dialog .ui-dialog-titlebar
+{
+   font-weight: normal;
+   padding: 10px 10px 10px 30px;
+}
+.ui-dialog .ui-dialog-titlebar-close
+{
+   outline: 0;
+   right: 10px;
+}
+.jQueryDialog90, .jQueryDialog90 .ui-corner-all
+{
+   border-radius: 0px;
+}
+#wb_Image59
+{
+   vertical-align: top;
+}
+#Image59
+{
+   border: 0px #000000 solid;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 0px 0px 0px 0px;
+   display: inline-block;
+   width: 90px;
+   height: 105px;
+   vertical-align: top;
+}
+#Image59:hover
+{
+   -webkit-transform: rotate(0deg) scale(1.1,1.1) ;
+   -moz-transform: rotate(0deg) scale(1.1,1.1) ;
+   transform: rotate(0deg) scale(1.1,1.1) ;
+   -webkit-transition: -webkit-transform 500ms linear 0ms;
+   -moz-transition: transform 500ms linear 0ms;
+   transition: transform 500ms linear 0ms;
 }
