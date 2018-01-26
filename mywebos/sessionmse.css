@@ -5353,31 +5353,6 @@ body
 {
    color: #FFD700;
 }
-#Layer24
-{
-   background-color: transparent;
-   background-image: url(images/backgifloading.jpg);
-   background-repeat: repeat;
-   background-position: center center;
-}
-#Layer25
-{
-   background-color: transparent;
-   background-image: none;
-}
-#wb_Text5 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_Text5 div
-{
-   text-align: center;
-}
 #Layer27
 {
    background-color: #191919;
@@ -6148,38 +6123,6 @@ body
 {
    text-align: center;
 }
-#Layer31
-{
-   background-color: transparent;
-   background-image: url(images/coin_superieur_gauche.png);
-   background-repeat: no-repeat;
-   background-position: left top;
-   background-size: 100% 100%;
-}
-#Layer32
-{
-   background-color: transparent;
-   background-image: url(images/coin_superieur_droit.png);
-   background-repeat: no-repeat;
-   background-position: left top;
-   background-size: 100% 100%;
-}
-#Layer33
-{
-   background-color: transparent;
-   background-image: url(images/coin_inferieur_droit.png);
-   background-repeat: no-repeat;
-   background-position: left top;
-   background-size: 100% 100%;
-}
-#Layer34
-{
-   background-color: transparent;
-   background-image: url(images/coin_inferieur_gauche.png);
-   background-repeat: no-repeat;
-   background-position: left top;
-   background-size: 100% 100%;
-}
 #wb_FontAwesomeIcon1
 {
    background-color: transparent;
@@ -6362,11 +6305,6 @@ body
 #wb_Text7 div
 {
    text-align: left;
-}
-#Layer1
-{
-   background-color: transparent;
-   background-image: none;
 }
 #wb_Text9 
 {

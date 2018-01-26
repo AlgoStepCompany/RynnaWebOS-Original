@@ -188,8 +188,8 @@ $(document).ready(function()
    $("#jQueryDialog5").dialog(jQueryDialog5Options);
    var jQueryDialog8Options =
    {
-      width: 1078,
-      height: 636,
+      width: 1044,
+      height: 599,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -271,8 +271,8 @@ $(document).ready(function()
    });
    var jQueryDialog28Options =
    {
-      width: 770,
-      height: 765,
+      width: 898,
+      height: 566,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -329,8 +329,8 @@ $(document).ready(function()
    $("#wb_FontAwesomeIcon16").tooltip(jQueryToolTip3Options);
    var jQueryDialog11Options =
    {
-      width: 906,
-      height: 654,
+      width: 814,
+      height: 575,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -343,8 +343,8 @@ $(document).ready(function()
    $("#jQueryDialog11").dialog(jQueryDialog11Options);
    var jQueryDialog33Options =
    {
-      width: 893,
-      height: 554,
+      width: 786,
+      height: 485,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -582,8 +582,8 @@ $(document).ready(function()
    $("#jQueryDialog39").dialog(jQueryDialog39Options);
    var jQueryDialog40Options =
    {
-      width: 981,
-      height: 535,
+      width: 936,
+      height: 534,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1213,7 +1213,7 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    {
       width: 257,
       height: 317,
-      position: { my: 'left top', at: 'left+232 top+37', of: window },
+      position: { my: 'left top', at: 'left+323 top+37', of: window },
       resizable: false,
       draggable: false,
       closeOnEscape: false,
@@ -1796,49 +1796,49 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 
 
 <div id="jQueryDialog11" style="z-index:566;" title="Param&#232;tres et aides suppl&#233;mentaires">
-<div id="wb_MaterialIcon5" style="position:absolute;left:26px;top:24px;width:116px;height:118px;text-align:center;z-index:91;">
+<div id="wb_MaterialIcon5" style="position:absolute;left:26px;top:24px;width:96px;height:79px;text-align:center;z-index:91;">
 <a href="#" onclick="$('#jQueryDialog32').dialog('open');$('#jQueryDialog11').dialog('close');return false;"><div id="MaterialIcon5"><i class="material-icons">&#xe88f;</i></div></a></div>
-<div id="wb_Text1" style="position:absolute;left:22px;top:150px;width:124px;height:36px;text-align:center;z-index:92;">
+<div id="wb_Text1" style="position:absolute;left:8px;top:123px;width:124px;height:36px;text-align:center;z-index:92;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>Informations sur le WebOS</strong></span></div>
-<div id="wb_MaterialIcon6" style="position:absolute;left:205px;top:24px;width:116px;height:118px;text-align:center;z-index:93;">
+<div id="wb_MaterialIcon6" style="position:absolute;left:181px;top:24px;width:98px;height:79px;text-align:center;z-index:93;">
 <a href="#" onclick="$('#jQueryDialog33').dialog('open');$('#jQueryDialog11').dialog('close');return false;"><div id="MaterialIcon6"><i class="material-icons">&#xe894;</i></div></a></div>
-<div id="wb_Text4" style="position:absolute;left:201px;top:150px;width:124px;height:54px;text-align:center;z-index:94;">
+<div id="wb_Text4" style="position:absolute;left:168px;top:123px;width:124px;height:54px;text-align:center;z-index:94;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>Tester la connexion internet</strong></span></div>
-<div id="wb_MaterialIcon7" style="position:absolute;left:383px;top:24px;width:116px;height:118px;text-align:center;z-index:95;">
+<div id="wb_MaterialIcon7" style="position:absolute;left:336px;top:24px;width:91px;height:79px;text-align:center;z-index:95;">
 <a href="#" onclick="$('#jQueryDialog34').dialog('open');$('#jQueryDialog11').dialog('close');return false;"><div id="MaterialIcon7"><i class="material-icons">&#xe0c8;</i></div></a></div>
-<div id="wb_Text11" style="position:absolute;left:379px;top:150px;width:124px;height:36px;text-align:center;z-index:96;">
+<div id="wb_Text11" style="position:absolute;left:319px;top:123px;width:124px;height:36px;text-align:center;z-index:96;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>Connaître mon adresse IP</strong></span></div>
-<div id="wb_MaterialIcon8" style="position:absolute;left:566px;top:24px;width:116px;height:118px;text-align:center;z-index:97;">
+<div id="wb_MaterialIcon8" style="position:absolute;left:499px;top:24px;width:89px;height:79px;text-align:center;z-index:97;">
 <a href="#" onclick="$('#jQueryDialog35').dialog('open');$('#jQueryDialog11').dialog('close');return false;"><div id="MaterialIcon8"><i class="material-icons">&#xe0da;</i></div></a></div>
-<div id="wb_Text14" style="position:absolute;left:566px;top:150px;width:124px;height:36px;text-align:center;z-index:98;">
+<div id="wb_Text14" style="position:absolute;left:484px;top:123px;width:124px;height:36px;text-align:center;z-index:98;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>Supprimer votre compte</strong></span></div>
-<div id="wb_MaterialIcon9" style="position:absolute;left:23px;top:236px;width:116px;height:118px;text-align:center;z-index:99;">
+<div id="wb_MaterialIcon9" style="position:absolute;left:25px;top:201px;width:99px;height:76px;text-align:center;z-index:99;">
 <a href="#" onclick="$('#jQueryDialog36').dialog('open');$('#jQueryDialog11').dialog('close');return false;"><div id="MaterialIcon9"><i class="material-icons">&#xe312;</i></div></a></div>
-<div id="wb_Text16" style="position:absolute;left:19px;top:354px;width:124px;height:36px;text-align:center;z-index:100;">
+<div id="wb_Text16" style="position:absolute;left:8px;top:285px;width:124px;height:36px;text-align:center;z-index:100;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>Tester mon clavier</strong></span></div>
-<div id="wb_MaterialIcon10" style="position:absolute;left:205px;top:236px;width:116px;height:118px;text-align:center;z-index:101;">
+<div id="wb_MaterialIcon10" style="position:absolute;left:186px;top:206px;width:89px;height:71px;text-align:center;z-index:101;">
 <a href="#" onclick="$('#jQueryDialog89').dialog('open');$('#jQueryDialog37').dialog('open');Toggle('jQueryDialog11', 'fade', 500);return false;"><div id="MaterialIcon10"><i class="material-icons">&#xe3c4;</i></div></a></div>
-<div id="wb_Text29" style="position:absolute;left:201px;top:354px;width:124px;height:54px;text-align:center;z-index:102;">
+<div id="wb_Text29" style="position:absolute;left:168px;top:285px;width:124px;height:54px;text-align:center;z-index:102;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>Configuration de l'interface personnelle</strong></span></div>
-<div id="wb_MaterialIcon11" style="position:absolute;left:383px;top:236px;width:116px;height:118px;text-align:center;z-index:103;">
+<div id="wb_MaterialIcon11" style="position:absolute;left:341px;top:201px;width:81px;height:76px;text-align:center;z-index:103;">
 <a href="#" onclick="$('#jQueryDialog39').dialog('open');$('#jQueryDialog11').dialog('close');return false;"><div id="MaterialIcon11"><i class="material-icons">&#xe8e8;</i></div></a></div>
-<div id="wb_Text30" style="position:absolute;left:379px;top:354px;width:124px;height:36px;text-align:center;z-index:104;">
+<div id="wb_Text30" style="position:absolute;left:319px;top:285px;width:124px;height:36px;text-align:center;z-index:104;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>Verifier la protection</strong></span></div>
-<div id="wb_MaterialIcon12" style="position:absolute;left:570px;top:236px;width:116px;height:118px;text-align:center;z-index:105;">
+<div id="wb_MaterialIcon12" style="position:absolute;left:510px;top:199px;width:78px;height:86px;text-align:center;z-index:105;">
 <a href="#" onclick="$('#jQueryDialog38').dialog('open');return false;"><div id="MaterialIcon12"><i class="material-icons">&#xe8df;</i></div></a></div>
-<div id="wb_Text31" style="position:absolute;left:566px;top:354px;width:124px;height:36px;text-align:center;z-index:106;">
+<div id="wb_Text31" style="position:absolute;left:487px;top:285px;width:124px;height:36px;text-align:center;z-index:106;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>Calendrier détaillé</strong></span></div>
-<div id="wb_MaterialIcon29" style="position:absolute;left:750px;top:24px;width:116px;height:118px;text-align:center;z-index:107;">
+<div id="wb_MaterialIcon29" style="position:absolute;left:655px;top:24px;width:99px;height:79px;text-align:center;z-index:107;">
 <a href="#" onclick="$('#jQueryDialog2').dialog('open');$('#jQueryDialog11').dialog('close');return false;"><div id="MaterialIcon29"><i class="material-icons">&#xe8c2;</i></div></a></div>
-<div id="wb_MaterialIcon32" style="position:absolute;left:750px;top:236px;width:116px;height:118px;text-align:center;z-index:108;">
+<div id="wb_MaterialIcon32" style="position:absolute;left:670px;top:199px;width:68px;height:80px;text-align:center;z-index:108;">
 <a href="#" onclick="$('#jQueryDialog26').dialog('open');$('#jQueryDialog11').dialog('close');return false;"><div id="MaterialIcon32"><i class="material-icons">&#xe06d;</i></div></a></div>
-<div id="wb_Text9" style="position:absolute;left:746px;top:150px;width:124px;height:36px;text-align:center;z-index:109;">
+<div id="wb_Text9" style="position:absolute;left:642px;top:123px;width:124px;height:36px;text-align:center;z-index:109;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>Gestion des erreurs</strong></span></div>
-<div id="wb_Text90" style="position:absolute;left:746px;top:354px;width:124px;height:36px;text-align:center;z-index:110;">
+<div id="wb_Text90" style="position:absolute;left:642px;top:285px;width:124px;height:36px;text-align:center;z-index:110;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>Test écran et netteté</strong></span></div>
-<div id="wb_MaterialIcon36" style="position:absolute;left:23px;top:422px;width:116px;height:118px;text-align:center;z-index:111;">
+<div id="wb_MaterialIcon36" style="position:absolute;left:29px;top:361px;width:90px;height:72px;text-align:center;z-index:111;">
 <a href="#" onclick="$('#jQueryDialog45').dialog('open');return false;"><div id="MaterialIcon36"><i class="material-icons">&#xe328;</i></div></a></div>
-<div id="wb_Text41" style="position:absolute;left:19px;top:540px;width:124px;height:36px;text-align:center;z-index:112;">
+<div id="wb_Text41" style="position:absolute;left:12px;top:453px;width:124px;height:36px;text-align:center;z-index:112;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>Vérification mise à jour WebOS</strong></span></div>
 </div>
 
@@ -1847,7 +1847,7 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 <a href="#" onclick="$('#jQueryDialog11').dialog('open');$('#jQueryDialog33').dialog('close');return false;"><div id="MaterialIcon14"><i class="material-icons">&#xe5cb;</i></div></a></div>
 <div id="wb_Text33" style="position:absolute;left:94px;top:21px;width:639px;height:16px;z-index:114;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Testez votre connexion internet (débit montant/descendant)&nbsp;:</span></div>
-<div id="Html19" style="position:absolute;left:18px;top:59px;width:846px;height:426px;z-index:115">
+<div id="Html19" style="position:absolute;left:18px;top:59px;width:727px;height:354px;z-index:115">
 <iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
    src="http://www.ariase.com/fr/vitesse/">
 </iframe><br /></div>
@@ -3796,7 +3796,7 @@ TimerStartTimer49();
    src="http://rynnawebos.fr/login/maj.php">
 </iframe></div>
 <div id="wb_Text43" style="position:absolute;left:14px;top:68px;width:848px;height:24px;text-align:center;z-index:543;">
-<span style="color:#FF6347;font-family:Arial;font-size:21px;"><strong>30.1</strong></span></div>
+<span style="color:#FF6347;font-family:Arial;font-size:21px;"><strong>30.2</strong></span></div>
 <div id="wb_Text42" style="position:absolute;left:14px;top:120px;width:460px;height:16px;z-index:544;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">La dernière version disponible (code source) est la suivante&nbsp;:</span></div>
 <div id="wb_Text46" style="position:absolute;left:14px;top:18px;width:460px;height:16px;z-index:545;">
@@ -3915,6 +3915,15 @@ TimerStartTimer55();
 <span style="color:#000000;font-family:Arial;font-size:13px;">Ci-dessous retrouvez les dernières mises à jour de votre WebOS. Seul les 6 dernières mises à jours sont indiqués&nbsp;:</span></div>
 <div id="Blog1" style="overflow-y:scroll;position:absolute;left:23px;top:195px;width:689px;height:171px;z-index:3;">
 <div class="blogitem">
+   <span class="blogsubject">Version 30.2</span>
+   <div class="no-thumb"></div>
+   <div class="blogdate">26/01/18<br></div>
+   <span style="color:#000000;">- Amélioration de la session Mode Sans Echec (sessionmse)<br>
+- Réduction de certaines tailles de fenêtres trop grandes par défaut pour les petites résolutions (inférieur ou égal&nbsp; à 1280X1080)</span><br>
+   <div class="blogcomments"></div>
+</div>
+<div class="clearfix visible-col1"></div>
+<div class="blogitem">
    <span class="blogsubject">Version 30.1</span>
    <div class="no-thumb"></div>
    <div class="blogdate">23/01/18<br></div>
@@ -3960,14 +3969,6 @@ TimerStartTimer55();
    <div class="blogdate">08/01/18<br></div>
    <span style="color:#000000;">- Ajout d'un système d'affichage en cas d'erreur de compatibilité sur l'écran de connexion des utilisateurs<br>
 - Suite aux conseils des testeurs le logo &quot;Afficher/Cacher les fenêtres afficher à l'écran&quot; dans la barre des tâches a été positionné sur la gauche, ceci dans le but d'éviter le doublement de la barre des tâches</span><br>
-   <div class="blogcomments"></div>
-</div>
-<div class="clearfix visible-col1"></div>
-<div class="blogitem">
-   <span class="blogsubject">Version 21.1</span>
-   <div class="no-thumb"></div>
-   <div class="blogdate">07/01/18<br></div>
-   <span style="color:#000000;">- Amélioration du processus de démarrage et de chargement de la session (inclus protection forçage fermeture de la page de chargement de la session pour les ordinateurs peut puissant sur un délai de 30 secondes maximums)</span><br>
    <div class="blogcomments"></div>
 </div>
 <div class="clearfix visible-col1"></div>
