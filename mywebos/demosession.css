@@ -9684,3 +9684,85 @@ body
    -moz-transition: transform 500ms linear 0ms;
    transition: transform 500ms linear 0ms;
 }
+.ui-dialog.ui-widget
+{
+   font-size: 1em !important;
+}
+.jQueryDialog91.ui-dialog
+{
+   background-color: #A9A9A9;
+   background-image: none;
+   border: 1px solid #FFA500;
+   padding: 4px 4px 4px 4px;
+}
+.jQueryDialog91.ui-dialog .ui-dialog-title
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   color: #FFFFFF;
+}
+.jQueryDialog91.ui-dialog .ui-dialog-titlebar
+{
+   background-color: #4F4F4F;
+   background-image: none;
+   border: 1px solid #000000;
+   font-weight: normal;
+   padding: 10px 10px 10px 30px;
+}
+.ui-dialog .ui-dialog-titlebar-close
+{
+   outline: 0;
+   right: 10px;
+}
+.jQueryDialog91, .jQueryDialog91 .ui-corner-all
+{
+   border-radius: 0px;
+}
+#wb_MaterialIcon35
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+}
+#wb_MaterialIcon35:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#MaterialIcon35
+{
+   height: 63px;
+   width: 67px;
+}
+#MaterialIcon35 i
+{
+   color: #1E90FF;
+   display: inline-block;
+   font-size: 63px;
+   line-height: 63px;
+   vertical-align: middle;
+   width: 63px;
+}
+#wb_MaterialIcon35:hover i
+{
+   color: #87CEFA;
+}
+#wb_Text82 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text82 div
+{
+   text-align: center;
+}

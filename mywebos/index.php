@@ -182,7 +182,7 @@ $(document).ready(function()
    <div class="no-thumb"></div>
    <div class="blogdate">09/01/2018<br></div>
    <span style="color:#000000;">Certains programmes ne fonctionneront pas en version HTTPS (SSL sécurisé) sur le WebOS.</span><br>
-   <div class="blogcomments"><a href="mailto:support@rynnaebos.fr?subject=Probl%E8me%20SSL%20sur%20iframes">Envoyer un mail</a></div>
+   <div class="blogcomments"><a href="mailto:support@rynnawebos.fr?subject=Probl%E8me%20SSL%20sur%20iframes">Envoyer un mail</a></div>
 </div>
 <div class="clearfix visible-col1"></div>
 </div>
@@ -224,7 +224,7 @@ $(document).ready(function()
 </div>
 </div>
 <div id="wb_Text10" style="position:absolute;left:13px;top:16px;width:250px;height:59px;z-index:21;">
-<span style="color:#000000;font-family:Arial;font-size:13px;"><em>Version 30.2 (Release)<br>Desktop Virtual Manager (DVM)<br></em></span><span style="color:#000000;font-family:Arial;font-size:9.3px;"><em>PHP 7, CSS 3, JQuery 3.2.1<br></em></span><span style="color:#0000CD;font-family:Arial;font-size:12px;"><strong><em>VEGASIS</em></strong></span></div>
+<span style="color:#000000;font-family:Arial;font-size:13px;"><em>Version 30.3 (Release)<br>Desktop Virtual Manager (DVM)<br></em></span><span style="color:#000000;font-family:Arial;font-size:9.3px;"><em>PHP 7, CSS 3, JQuery 3.2.1<br></em></span><span style="color:#0000CD;font-family:Arial;font-size:12px;"><strong><em>VEGASIS</em></strong></span></div>
 <div id="Layer1" style="position:absolute;text-align:center;left:277px;top:564px;width:393px;height:83px;z-index:22;">
 <div id="Layer1_Container" style="width:393px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 </div>
