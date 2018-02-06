@@ -5,12 +5,12 @@
 <title>RynnaWebOS</title>
 <meta name="generator" content="AlgoStep Company - 2006-2017">
 <link href="RynnaWebOS.css" rel="stylesheet">
-<link href="fargo.css" rel="stylesheet">
+<link href="laposte.css" rel="stylesheet">
 </head>
 <body>
 <div id="Layer1" style="position:fixed;overflow:hidden;text-align:left;left:0;top:0;right:0;bottom:0;z-index:1;">
 
-<object data="http://littleoutliner.com" type="text/html" width="100%" height="100%" style="overflow:auto" ></object>
+<object data="https://www.laposte.fr" type="text/html" width="100%" height="100%" style="overflow:auto" ></object>
 </div>
 </body>
 </html>
