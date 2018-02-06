@@ -3840,7 +3840,7 @@ TimerStartTimer49();
    src="http://rynnawebos.fr/login/maj.php">
 </iframe></div>
 <div id="wb_Text43" style="position:absolute;left:14px;top:68px;width:848px;height:24px;text-align:center;z-index:547;">
-<span style="color:#FF6347;font-family:Arial;font-size:21px;"><strong>30.3</strong></span></div>
+<span style="color:#FF6347;font-family:Arial;font-size:21px;"><strong>31.0</strong></span></div>
 <div id="wb_Text42" style="position:absolute;left:14px;top:120px;width:460px;height:16px;z-index:548;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">La dernière version disponible (code source) est la suivante&nbsp;:</span></div>
 <div id="wb_Text46" style="position:absolute;left:14px;top:18px;width:460px;height:16px;z-index:549;">
@@ -3970,6 +3970,15 @@ Vous ne pouvez lancer qu'un processus à la fois !</div>
 <span style="color:#000000;font-family:Arial;font-size:13px;">Ci-dessous retrouvez les dernières mises à jour de votre WebOS. Seul les 6 dernières mises à jours sont indiqués&nbsp;:</span></div>
 <div id="Blog1" style="overflow-y:scroll;position:absolute;left:23px;top:195px;width:689px;height:171px;z-index:3;">
 <div class="blogitem">
+   <span class="blogsubject">Version 31.0</span>
+   <div class="no-thumb"></div>
+   <div class="blogdate">06/02/18<br></div>
+   <span style="color:#000000;">- Mise à jour de stabilité noyau<br>
+- Ajout d'u nouveau système de gestion performance</span><br>
+   <div class="blogcomments"></div>
+</div>
+<div class="clearfix visible-col1"></div>
+<div class="blogitem">
    <span class="blogsubject">Version 30.3</span>
    <div class="no-thumb"></div>
    <div class="blogdate">31/01/18<br></div>
@@ -4014,15 +4023,6 @@ Vous ne pouvez lancer qu'un processus à la fois !</div>
    <div class="blogdate">14/01/18<br></div>
    <span style="color:#000000;">- Ajustement pour la préparation de la nouvelle version du WebOS<br>
 - Allégement de certaines fonctions</span><br>
-   <div class="blogcomments"></div>
-</div>
-<div class="clearfix visible-col1"></div>
-<div class="blogitem">
-   <span class="blogsubject">Version 22.0</span>
-   <div class="no-thumb"></div>
-   <div class="blogdate">09/01/18<br></div>
-   <span style="color:#000000;">- Mise à jour globale de sécurité (suivis maintenance)<br>
-- Ajout des nouvelles variables d'environnements</span><br>
    <div class="blogcomments"></div>
 </div>
 <div class="clearfix visible-col1"></div>
