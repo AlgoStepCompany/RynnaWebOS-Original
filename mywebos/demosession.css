@@ -7559,6 +7559,7 @@ body
    background-image: url(images/background_loader2.png);
    background-repeat: repeat;
    background-position: center center;
+   opacity: 0.90;
 }
 #Layer2
 {

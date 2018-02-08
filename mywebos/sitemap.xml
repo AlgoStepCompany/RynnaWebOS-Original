@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" >
 	<url>
 		<loc>http://www.rynnawebos.fr/</loc>
-		<lastmod>2018-02-06</lastmod>
+		<lastmod>2018-02-08</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/session.php</loc>
-		<lastmod>2018-02-06</lastmod>
+		<lastmod>2018-02-08</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
@@ -566,37 +566,61 @@
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/index.php</loc>
-		<lastmod>2018-02-06</lastmod>
+		<lastmod>2018-02-08</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/inituser.php</loc>
-		<lastmod>2018-02-06</lastmod>
+		<lastmod>2018-02-08</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/sessionmse.php</loc>
-		<lastmod>2018-02-06</lastmod>
+		<lastmod>2018-02-08</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/maj.php</loc>
-		<lastmod>2018-02-06</lastmod>
+		<lastmod>2018-02-08</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/security/index.php</loc>
-		<lastmod>2018-01-16</lastmod>
+		<lastmod>2018-02-08</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>http://www.rynnawebos.fr/install/install.php</loc>
+		<lastmod>2018-02-08</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>http://www.rynnawebos.fr/install/gjsydoialpml1.php</loc>
+		<lastmod>2018-02-08</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>http://www.rynnawebos.fr/install/lshdyatrjk2op2.php</loc>
+		<lastmod>2018-02-08</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>http://www.rynnawebos.fr/install/terminated.php</loc>
+		<lastmod>2018-02-08</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/demosession.php</loc>
-		<lastmod>2018-02-06</lastmod>
+		<lastmod>2018-02-08</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
