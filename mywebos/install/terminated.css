@@ -106,9 +106,9 @@ body
    border: 0px #245580 solid;
    text-align: center;
    padding: 0px 0px 0px 0px;
-   -webkit-animation: transform-rotate 500ms linear 0ms infinite normal both;
-   -moz-animation: transform-rotate 500ms linear 0ms infinite normal both;
-   animation: transform-rotate 500ms linear 0ms infinite normal both;
+   -webkit-animation: transform-rotate 1500ms linear 0ms infinite normal both;
+   -moz-animation: transform-rotate 1500ms linear 0ms infinite normal both;
+   animation: transform-rotate 1500ms linear 0ms infinite normal both;
    vertical-align: top;
 }
 #wb_FontAwesomeIcon1:hover

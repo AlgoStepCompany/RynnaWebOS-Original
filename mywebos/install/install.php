@@ -60,7 +60,7 @@ Avant tout vous devez disposer d'un serveur (FTP ou dédié) sous Windows, Linux
 Si vous n'avez pas de serveur prêt installé, merci d'en installer un avant de déployer votre propre WebOS à partir de cette procédure.
 
 Les codes sources qui vous seront proposés dépendent de l'avancement du WebOS ; vous aurez plusieurs choix au moment venu mais sachez que la licence incluse sur le projet (GPL3) devra être formellement respectée.</textarea>
-<input type="submit" id="Button1" onclick="window.location.href='./gjsydoialpml1.php';return false;" name="" value="Suivant" style="position:absolute;left:684px;top:450px;width:155px;height:25px;z-index:5;">
+<input type="submit" id="Button1" onclick="window.location.href='./lshdyatrjk2op2.php';return false;" name="" value="Suivant" style="position:absolute;left:684px;top:450px;width:155px;height:25px;z-index:5;">
 <input type="submit" id="Button3" onclick="window.location.href='./../inituser.php';return false;" name="" value="Précédent" style="position:absolute;left:11px;top:450px;width:155px;height:25px;z-index:6;">
 </div>
 </div>

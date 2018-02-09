@@ -68,7 +68,7 @@ function TimerStartTimer1()
    {
       var event = null;
       window.location.href='./../inituser.php';
-   }, 10000);
+   }, 5000);
 }
 function TimerStopTimer1()
 {
