@@ -46,6 +46,7 @@ $GLOBALS["used_mime_types"]=array(
 	"jpg"	=> array($GLOBALS["mimes"]["jpg"],"image.gif","\.jpg$|\.jpeg$"),
 	"bmp"	=> array($GLOBALS["mimes"]["bmp"],"image.gif","\.bmp$"),
 	"png"	=> array($GLOBALS["mimes"]["png"],"image.gif","\.png$"),
+	"dds"	=> array($GLOBALS["mimes"]["dds"],"image.gif","\.dds$"),
 	
 	// compressed
 	"zip"	=> array($GLOBALS["mimes"]["zip"],"zip.gif","\.zip$"),
@@ -68,9 +69,10 @@ $GLOBALS["used_mime_types"]=array(
 	"mov"	=> array($GLOBALS["mimes"]["mov"],"video.gif","\.mov$"),
 	"avi"	=> array($GLOBALS["mimes"]["avi"],"video.gif","\.avi$"),
 	"flash"	=> array($GLOBALS["mimes"]["flash"],"flash.gif","\.swf$"),
+	"mkv"	=> array($GLOBALS["mimes"]["mkv"],"video.gif","\.mkv$"),
 	
 	// Micosoft / Adobe
-	"word"	=> array($GLOBALS["mimes"]["word"],"word.gif","\.doc$"),
+	"word"	=> array($GLOBALS["mimes"]["word"],"word.gif","\.doc$|\.docx$"),
 	"excel"	=> array($GLOBALS["mimes"]["excel"],"spread.gif","\.xls$"),
 	"pdf"	=> array($GLOBALS["mimes"]["pdf"],"pdf.gif","\.pdf$")
 );
