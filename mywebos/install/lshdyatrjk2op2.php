@@ -50,7 +50,7 @@ $(document).ready(function()
 <div id="wb_MaterialIcon1" style="position:absolute;left:25px;top:50px;width:100px;height:100px;text-align:center;z-index:1;">
 <div id="MaterialIcon1"><i class="material-icons">&#xe564;</i></div></div>
 <div id="wb_Text1" style="position:absolute;left:165px;top:91px;width:642px;height:19px;z-index:2;">
-<span style="color:#000000;font-family:Arial;font-size:17px;"><strong>ETAPE 3 - INSTALLATION DU CODE SOURCE SUR VOTRE SERVEUR</strong></span></div>
+<span style="color:#000000;font-family:Arial;font-size:17px;"><strong>ETAPE 2 - INSTALLATION DU CODE SOURCE SUR VOTRE SERVEUR</strong></span></div>
 <hr id="Line1" style="position:absolute;left:11px;top:150px;width:828px;z-index:3;">
 <input type="submit" id="Button1" onclick="window.location.href='./terminated.php';return false;" name="" value="Terminé" style="position:absolute;left:684px;top:450px;width:155px;height:25px;z-index:4;">
 <input type="submit" id="Button3" onclick="window.location.href='./install.php';return false;" name="" value="Précédent" style="position:absolute;left:11px;top:450px;width:155px;height:25px;z-index:5;">
