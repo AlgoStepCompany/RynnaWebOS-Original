@@ -72,7 +72,7 @@ if (isset($_SESSION['expires_by']))
 	$GLOBALS["home_dir"] = 'home/' . $_SESSION['username'];
 	
 	// the url corresponding with the home directory: (no trailing '/')
-	$GLOBALS["home_url"] = "http://rynnawebos.fr/login/home/public";
+	$GLOBALS["home_url"] = "127.0.0.1/login/home/public";
 	
 	// show hidden files in QuiXplorer: (hide files starting with '.', as in Linux/UNIX)
 	$GLOBALS["show_hidden"] = true;
