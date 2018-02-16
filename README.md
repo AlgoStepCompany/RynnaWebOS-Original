@@ -46,6 +46,8 @@ Exemple :
 - newuser.php
 - passwdperdu.php
 - index.php
+- /mobileaccess/DeX.php
+- /mobileaccess/mobilelogin.php
 
 Exemple "newuser.php" : 
 
@@ -100,6 +102,8 @@ Example:
 - newuser.php
 - passwdperdu.php
 - index.php
+- /mobileaccess/DeX.php
+- /mobileaccess/mobilelogin.php
 
 Example "newuser.php":
 
