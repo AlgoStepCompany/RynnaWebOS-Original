@@ -2,10 +2,12 @@
 
 ### Vous visionnez en ce moment la version 32.2 (Release) du code source.
 Cette version sera mise à jour en fonction de l'avancement du WebOS.
+
 ATTENTION VERSION 32.2 !! Deux nouveaux fichiers sont à éditer (MySQL) !! Veuillez lire plus bas l'emplacement de ceux-ci !!
 
 ### You are currently viewing version 32.2 (Release) of the source code.
 This version will be updated according to the progress of WebOS.
+
 WARNING VERSION 32.2 !! Two new files are to be edited (MySQL) !! Please read below the location of these !!
 
 # UPDATE : 16/02/2018
