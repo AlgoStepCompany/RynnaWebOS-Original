@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Session Mobile</title>
+<meta name="generator" content="AlgoStep Company - 2006-2017">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="classic/jquery.mobile.theme-1.4.5.css" rel="stylesheet">
+<link href="classic/jquery.mobile.icons-1.4.5.min.css" rel="stylesheet">
+<link href="jquery.mobile.structure-1.4.5.min.css" rel="stylesheet">
+<link href="RynnaWebOS_mobile.css" rel="stylesheet">
+<link href="infosmobile.css" rel="stylesheet">
+<script src="jquery-3.2.1.min.js"></script>
+<script>
+$(document).on("mobileinit", function()
+{
+   $.mobile.ajaxEnabled = false;
+   $.mobile.defaultPageTransition = "slide";
+});
+</script>
+<script src="jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+<div data-role="page" data-theme="b" data-title="Session Mobile" id="infosmobile">
+<div class="ui-content" role="main">
+<div id="wb_Text1">
+<span style="color:#FFFFFF;font-family:Arial;font-size:16px;"><strong>Nous avons détecté que vous utilisez un smartphone pour accéder à Rynna WebOS.<br><br>Pour valider votre demande et vous connecter cliquez sur le lien ci-dessous :</strong></span>
+</div>
+<hr id="Line1" style="">
+<input type="button" id="Button1" onclick="window.location.href='./mobilelogin.php';return false;" name="" value="Se connecter">
+<input type="button" id="Button2" onclick="window.location.href='./../newuser.php';return false;" name="" value="Créer un nouveau compte">
+<hr id="Line2" style="">
+<input type="button" id="Button3" onclick="window.location.href='http://rynnawebos.fr';return false;" name="" value="Abandonner">
+<hr id="Line3" style="">
+<input type="button" id="Button4" onclick="window.location.href='./DeX.php';return false;" name="" value="Utiliser le DeX Samsung">
+</div>
+</div>
+</body>
+</html>

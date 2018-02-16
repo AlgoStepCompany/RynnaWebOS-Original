@@ -1,0 +1,23 @@
+#mobilelogin
+{
+   text-align: center;
+}
+body
+{
+   background-color: #4F4F4F;
+}
+#Line1
+{
+   border-color: #A0A0A0;
+   border-style: solid;
+   border-bottom-width: 2px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   height: 2px;
+   vertical-align: top;
+   margin: 5px 0px 5px 0px;
+   padding: 0;
+}
