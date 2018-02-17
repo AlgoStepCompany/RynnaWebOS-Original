@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" >
 	<url>
 		<loc>http://www.rynnawebos.fr/</loc>
-		<lastmod>2018-02-16</lastmod>
+		<lastmod>2018-02-17</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/session.php</loc>
-		<lastmod>2018-02-16</lastmod>
+		<lastmod>2018-02-17</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
@@ -104,7 +104,7 @@
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/addeosapps/ipiccy.php</loc>
-		<lastmod>2017-10-13</lastmod>
+		<lastmod>2018-02-17</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
@@ -291,6 +291,12 @@
 	<url>
 		<loc>http://www.rynnawebos.fr/addeosapps/uploadsms.php</loc>
 		<lastmod>2018-02-16</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>http://www.rynnawebos.fr/addeosapps/stellarium.php</loc>
+		<lastmod>2018-02-17</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
@@ -578,7 +584,7 @@
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/index.php</loc>
-		<lastmod>2018-02-16</lastmod>
+		<lastmod>2018-02-17</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
@@ -596,7 +602,7 @@
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/maj.php</loc>
-		<lastmod>2018-02-16</lastmod>
+		<lastmod>2018-02-17</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
@@ -625,38 +631,38 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://www.rynnawebos.fr/demosession.php</loc>
-		<lastmod>2018-02-16</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.5</priority>
-	</url>
-	<url>
 		<loc>http://www.rynnawebos.fr/mobileaccess/index.php</loc>
-		<lastmod>2018-02-15</lastmod>
+		<lastmod>2018-02-17</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/mobileaccess/sessionmobile.php</loc>
-		<lastmod>2018-02-16</lastmod>
+		<lastmod>2018-02-17</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/mobileaccess/infosmobile.html</loc>
-		<lastmod>2018-02-16</lastmod>
+		<lastmod>2018-02-17</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/mobileaccess/mobilelogin.php</loc>
-		<lastmod>2018-02-16</lastmod>
+		<lastmod>2018-02-17</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/mobileaccess/DeX.php</loc>
-		<lastmod>2018-02-16</lastmod>
+		<lastmod>2018-02-17</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>http://www.rynnawebos.fr/demosession.php</loc>
+		<lastmod>2018-02-17</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
