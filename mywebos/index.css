@@ -347,6 +347,7 @@ body
    -moz-box-shadow: 10px 10px 7px #FFAF4F;
    -webkit-box-shadow: 10px 10px 7px #FFAF4F;
    box-shadow: 10px 10px 7px #FFAF4F;
+   opacity: 0.90;
 }
 #Button3
 {
@@ -730,16 +731,16 @@ body
 #FontAwesomeIcon7
 {
    height: 100px;
-   width: 93px;
+   width: 87px;
 }
 #FontAwesomeIcon7 i
 {
    color: #FFFFFF;
    display: inline-block;
-   font-size: 93px;
+   font-size: 87px;
    line-height: 100px;
    vertical-align: middle;
-   width: 92px;
+   width: 87px;
 }
 #wb_FontAwesomeIcon7:hover i
 {

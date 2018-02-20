@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST
    $mysql_username = '';
    $mysql_password = '';
    $mysql_database = '';
-   $mysql_table = 'userswebos';
+   $mysql_table = 'userwebos';
    $crypt_pass = md5($_POST['password']);
    $found = false;
    $fullname = '';
@@ -218,13 +218,13 @@ $(document).ready(function()
 <input type="submit" id="Button1" onclick="window.location.href='./newuser.php';return false;" name="" value="Créer un nouveau compte" style="position:absolute;left:396px;top:215px;width:211px;height:25px;z-index:15;">
 <input type="button" id="Button3" name="" value="Connexion à votre compte utilisateur" style="position:absolute;left:19px;top:8px;width:588px;height:25px;z-index:16;" disabled>
 <input type="button" id="Button4" onclick="$('#jQueryDialog1').dialog('open');return false;" name="" value="Infos complémentaires ?" style="position:absolute;left:19px;top:215px;width:156px;height:25px;z-index:17;">
-<div id="wb_FontAwesomeIcon7" style="position:absolute;left:31px;top:76px;width:93px;height:100px;text-align:center;z-index:18;">
-<div id="FontAwesomeIcon7"><i class="fa fa-user-circle">&nbsp;</i></div></div>
+<div id="wb_FontAwesomeIcon7" style="position:absolute;left:37px;top:76px;width:87px;height:100px;text-align:center;z-index:18;">
+<div id="FontAwesomeIcon7"><i class="fa fa-user-circle-o">&nbsp;</i></div></div>
 <input type="submit" id="Button5" onclick="window.location.href='./demosession.php';return false;" name="" value="Ouvrir une session de démonstration (limitée)" style="position:absolute;left:19px;top:253px;width:588px;height:25px;z-index:19;">
 </div>
 </div>
 <div id="wb_Text10" style="position:absolute;left:13px;top:16px;width:250px;height:59px;z-index:21;">
-<span style="color:#000000;font-family:Arial;font-size:13px;"><em>Version 33.0 (Release)<br>Desktop Virtual Manager (DVM)<br></em></span><span style="color:#000000;font-family:Arial;font-size:9.3px;"><em>PHP 7, CSS 3, JQuery 3.2.1<br></em></span><span style="color:#0000CD;font-family:Arial;font-size:12px;"><strong><em>VEGASIS</em></strong></span></div>
+<span style="color:#000000;font-family:Arial;font-size:13px;"><em>Version 33.1 (Release)<br>Desktop Virtual Manager (DVM)<br></em></span><span style="color:#000000;font-family:Arial;font-size:9.3px;"><em>PHP 7, CSS 3, JQuery 3.2.1<br></em></span><span style="color:#0000CD;font-family:Arial;font-size:12px;"><strong><em>VEGASIS</em></strong></span></div>
 <div id="Layer1" style="position:absolute;text-align:center;left:277px;top:564px;width:393px;height:83px;z-index:22;">
 <div id="Layer1_Container" style="width:393px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 </div>
