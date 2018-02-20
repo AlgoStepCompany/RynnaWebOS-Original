@@ -1,20 +1,16 @@
 # RynnaWebOS-Vegasis (basé/based sur/to RynnaWebOS-Imporium et/and RynnaWebOS-Solaris/Original)
 
-### Vous visionnez en ce moment la version 33.0 (Release) du code source.
+### Vous visionnez en ce moment la version 33.1 (Release) du code source.
 Cette version sera mise à jour en fonction de l'avancement du WebOS.
 
 ATTENTION VERSION 32.2+ !! Deux nouveaux fichiers sont à éditer (MySQL) !! Veuillez lire plus bas l'emplacement de ceux-ci !!
 
-### TEMPORAIRE : le TChat du WebOS a été désactivé dans cette version 33.0 suite à un piratage du site i-tchat.com qui redirige le client vers un Cheval de Troie (virus) ; ceci n'a pas d'impact sur le WebOS. Le TChat est cependant inaccessible jusqu'au rétablissement de cette situation.
-
-### You are currently viewing version 33.0 (Release) of the source code.
+### You are currently viewing version 33.1 (Release) of the source code.
 This version will be updated according to the progress of WebOS.
 
 WARNING VERSION 32.2+ !! Two new files are to be edited (MySQL) !! Please read below the location of these !!
 
-### TEMPORARY: the WebOS TChat has been disabled in this version 33.0 following a hacking of the i-tchat.com site which redirects the client to a Trojan horse (virus); this has no impact on the WebOS. TChat is inaccessible until this situation is restored.
-
-# UPDATE : 17/02/2018
+# UPDATE : 20/02/2018
 
 ****************
 
