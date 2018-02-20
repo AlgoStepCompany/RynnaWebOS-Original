@@ -5,7 +5,7 @@ if (session_id() == "")
 }
 if (!isset($_SESSION['username']))
 {
-   header('Location: ./loginusers.php');
+   header('Location: ./index.php');
    exit;
 }
 if (isset($_SESSION['expires_by']))
@@ -20,7 +20,7 @@ if (isset($_SESSION['expires_by']))
       unset($_SESSION['username']);
       unset($_SESSION['expires_by']);
       unset($_SESSION['expires_timeout']);
-      header('Location: ./loginusers.php');
+      header('Location: ./index.php');
       exit;
    }
 }
