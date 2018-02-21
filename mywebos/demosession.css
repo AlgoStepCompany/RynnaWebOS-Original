@@ -2082,7 +2082,7 @@ body
 }
 #wb_MaterialIcon22:hover i
 {
-   color: #C0C0C0;
+   color: #D3D3D3;
 }
 .jQueryToolTip5
 {
@@ -10248,4 +10248,211 @@ body
 #wb_Text104 div
 {
    text-align: left;
+}
+#wb_FontAwesomeIcon29
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+   text-align: center;
+   padding: 0px 0px 0px 0px;
+   vertical-align: top;
+}
+#wb_FontAwesomeIcon29:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #245580 solid;
+}
+#FontAwesomeIcon29
+{
+   height: 39px;
+   width: 45px;
+}
+#FontAwesomeIcon29 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 39px;
+   line-height: 39px;
+   vertical-align: middle;
+   width: 33px;
+}
+#wb_FontAwesomeIcon29:hover i
+{
+   color: #FFFFFF;
+}
+#wb_FontAwesomeIcon29:hover
+{
+   opacity: 0.7;
+   -webkit-transition: opacity 500ms ease-in-out 0ms;
+   -moz-transition: opacity 500ms ease-in-out 0ms;
+   transition: opacity 500ms ease-in-out 0ms;
+}
+#wb_Text106 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text106 div
+{
+   text-align: left;
+}
+.ui-dialog.ui-widget
+{
+   font-size: 1em !important;
+}
+.jQueryDialog96.ui-dialog
+{
+   padding: 4px 4px 4px 4px;
+}
+.jQueryDialog96.ui-dialog .ui-dialog-title
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   color: #FFFFFF;
+}
+.jQueryDialog96.ui-dialog .ui-dialog-titlebar
+{
+   font-weight: normal;
+   padding: 10px 10px 10px 30px;
+}
+.ui-dialog .ui-dialog-titlebar-close
+{
+   outline: 0;
+   right: 10px;
+}
+.jQueryDialog96, .jQueryDialog96 .ui-corner-all
+{
+   border-radius: 0px;
+}
+.ui-dialog.ui-widget
+{
+   font-size: 1em !important;
+}
+.jQueryDialog97.ui-dialog
+{
+   padding: 4px 4px 4px 4px;
+}
+.jQueryDialog97.ui-dialog .ui-dialog-title
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   color: #FFFFFF;
+}
+.jQueryDialog97.ui-dialog .ui-dialog-titlebar
+{
+   font-weight: normal;
+   padding: 10px 10px 10px 30px;
+}
+.ui-dialog .ui-dialog-titlebar-close
+{
+   outline: 0;
+   right: 10px;
+}
+.jQueryDialog97, .jQueryDialog97 .ui-corner-all
+{
+   border-radius: 0px;
+}
+#wb_Text107 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text107 div
+{
+   text-align: left;
+}
+#Button9
+{
+   border: 1px #2E6DA4 solid;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}
+#Button28
+{
+   border: 1px #2E6DA4 solid;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}
+.ui-dialog.ui-widget
+{
+   font-size: 1em !important;
+}
+.jQueryDialog98.ui-dialog
+{
+   padding: 4px 4px 4px 4px;
+}
+.jQueryDialog98.ui-dialog .ui-dialog-title
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   color: #FFFFFF;
+}
+.jQueryDialog98.ui-dialog .ui-dialog-titlebar
+{
+   font-weight: normal;
+   padding: 10px 10px 10px 30px;
+}
+.ui-dialog .ui-dialog-titlebar-close
+{
+   outline: 0;
+   right: 10px;
+}
+.jQueryDialog98, .jQueryDialog98 .ui-corner-all
+{
+   border-radius: 0px;
+}
+#wb_Shape1 a img
+{
+   position: absolute;
+   left: 0;
+}
+#wb_Shape1 span
+{
+   position: absolute;
+   left: 0;
+}
+#wb_Shape1 a .hover
+{
+   visibility: hidden;
+}
+#wb_Shape1 a:hover .hover
+{
+   visibility: visible;
+}
+#wb_Shape1 a:hover span
+{
+   visibility: hidden;
+}
+#Shape1
+{
+   border-width: 0;
+   -webkit-animation: animate-background 3500ms linear 0ms infinite normal both;
+   -moz-animation: animate-background 3500ms linear 0ms infinite normal both;
+   animation: animate-background 3500ms linear 0ms infinite normal both;
 }
