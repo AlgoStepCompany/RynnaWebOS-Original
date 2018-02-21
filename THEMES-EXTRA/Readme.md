@@ -1,4 +1,4 @@
-# INSTALLATION THEMES EXTRA (Version 9.0 +)
+# INSTALLATION THEMES EXTRA (Compatible/Compatibility + V. 30.0+ Velocity)
 
 *** FRENCH / FRANCAIS ***
 
