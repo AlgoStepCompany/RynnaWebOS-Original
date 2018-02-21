@@ -1,4 +1,4 @@
-# INSTALLATION THEMES EXTRA (Compatible/Compatibility + V. 30.0+ Velocity)
+# INSTALLATION THEMES EXTRA (Compatible/Compatibility + V. 30.0+ Vegasis)
 
 *** FRENCH / FRANCAIS ***
 
