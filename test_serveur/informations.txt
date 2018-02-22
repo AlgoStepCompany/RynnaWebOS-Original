@@ -1,0 +1,1 @@
+Ce dossier peut vous servir, après parametrage de votre part, de tester la connexion à votre serveur en MySQL, MySQLi (BDD actuelle) ou PDO.
