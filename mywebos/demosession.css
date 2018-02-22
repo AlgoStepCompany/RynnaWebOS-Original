@@ -14,6 +14,13 @@ body
    margin: 0;
    padding: 0;
 }
+#Layer14
+{
+   background-color: #000000;
+   background-image: none;
+   border: 2px #4F4F4F solid;
+   opacity: 0.40;
+}
 .jQueryToolTip25
 {
    padding: 4px 4px 4px 4px;
@@ -6608,14 +6615,6 @@ body
 {
    color: #DCDCDC;
 }
-#Layer23
-{
-   background-color: transparent;
-   background-image: url(images/astuces-minim.jpg);
-   background-repeat: no-repeat;
-   background-position: center center;
-   background-size: 100% 100%;
-}
 #Layer24
 {
    background-color: transparent;
@@ -10427,32 +10426,16 @@ body
 {
    border-radius: 0px;
 }
-#wb_Shape1 a img
+#wb_Text109 
 {
-   position: absolute;
-   left: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
 }
-#wb_Shape1 span
+#wb_Text109 div
 {
-   position: absolute;
-   left: 0;
-}
-#wb_Shape1 a .hover
-{
-   visibility: hidden;
-}
-#wb_Shape1 a:hover .hover
-{
-   visibility: visible;
-}
-#wb_Shape1 a:hover span
-{
-   visibility: hidden;
-}
-#Shape1
-{
-   border-width: 0;
-   -webkit-animation: animate-background 3500ms linear 0ms infinite normal both;
-   -moz-animation: animate-background 3500ms linear 0ms infinite normal both;
-   animation: animate-background 3500ms linear 0ms infinite normal both;
+   text-align: center;
 }

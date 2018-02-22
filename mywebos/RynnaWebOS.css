@@ -28,31 +28,6 @@
    -moz-osx-font-smoothing: grayscale;
    font-feature-settings: "liga";
 }
-@-webkit-keyframes animate-background
-{
-   0% { background-color: #FFA500;  }
-   100% { background-color: #FFD700;  }
-}
-@-moz-keyframes animate-background
-{
-   0% { background-color: #FFA500;  }
-   100% { background-color: #FFD700;  }
-}
-@-o-keyframes animate-background
-{
-   0% { background-color: #FFA500;  }
-   100% { background-color: #FFD700;  }
-}
-@-ms-keyframes animate-background
-{
-   0% { background-color: #FFA500;  }
-   100% { background-color: #FFD700;  }
-}
-@keyframes animate-background
-{
-   0% { background-color: #FFA500;  }
-   100% { background-color: #FFD700;  }
-}
 @-webkit-keyframes animate-fade-in
 {
    0% { opacity: 0;  }

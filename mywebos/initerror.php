@@ -68,8 +68,8 @@ $(document).ready(function()
 <input type="submit" name="logout" value="Annuler et retour arrière (se déconnecter)" id="Logout1">
 </form>
 </div>
-<div id="wb_Text1" style="position:absolute;left:14px;top:48px;width:509px;height:109px;text-align:center;z-index:3;">
-<span style="color:#FF0000;font-family:Arial;font-size:16px;"><strong>AVERTISSEMENT</strong> : votre résolution actuelle est inférieur à 1180X720, en conséquance il est possible que la session du WebOS ne s'affiche pas correctement !<br>Par sécurité nous avons désactivé l'accès à la session Sans Echec (débogage) et à l'installateur du code source proposé via cette page d'initialisation.</span></div>
+<div id="wb_Text1" style="position:absolute;left:14px;top:51px;width:509px;height:91px;text-align:center;z-index:3;">
+<span style="color:#FF0000;font-family:Arial;font-size:16px;"><strong>AVERTISSEMENT</strong> : votre résolution actuelle est inférieur à 1180X720, en conséquance il est possible que la session du WebOS ne s'affiche pas correctement !<br>Vous pouvez tout de même accéder à votre session normale mais nous vous conseillons d'augmenter votre résolution d'écran.</span></div>
 </div>
 </div>
 
