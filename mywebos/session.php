@@ -63,6 +63,7 @@ if (session_id() == "")
 <script src="wb.stickylayer.min.js"></script>
 <script src="jquery.ui.datepicker-fr.js"></script>
 <script src="wb.lazyload.min.js"></script>
+<script src="wb.rotate.min.js"></script>
 <script src="./searchindex.js"></script>
 <script>
 var features = '';
@@ -185,8 +186,8 @@ $(document).ready(function()
    $("#Layer1").stickylayer({orientation: 9, position: [0, 0], delay: 1});
    var jQueryDialog3Options =
    {
-      width: 694,
-      height: 598,
+      width: 692,
+      height: 608,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -199,8 +200,8 @@ $(document).ready(function()
    $("#jQueryDialog3").dialog(jQueryDialog3Options);
    var jQueryDialog4Options =
    {
-      width: 400,
-      height: 509,
+      width: 398,
+      height: 519,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -213,8 +214,8 @@ $(document).ready(function()
    $("#jQueryDialog4").dialog(jQueryDialog4Options);
    var jQueryDialog5Options =
    {
-      width: 994,
-      height: 591,
+      width: 992,
+      height: 601,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -227,8 +228,8 @@ $(document).ready(function()
    $("#jQueryDialog5").dialog(jQueryDialog5Options);
    var jQueryDialog8Options =
    {
-      width: 1044,
-      height: 599,
+      width: 1042,
+      height: 609,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -241,8 +242,8 @@ $(document).ready(function()
    $("#jQueryDialog8").dialog(jQueryDialog8Options);
    var jQueryDialog14Options =
    {
-      width: 931,
-      height: 575,
+      width: 929,
+      height: 585,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -255,8 +256,8 @@ $(document).ready(function()
    $("#jQueryDialog14").dialog(jQueryDialog14Options);
    var jQueryDialog19Options =
    {
-      width: 507,
-      height: 211,
+      width: 505,
+      height: 221,
       position: { my: 'center', at: 'center', of: window },
       buttons:
       {
@@ -276,8 +277,8 @@ $(document).ready(function()
    $("#jQueryDialog19").dialog(jQueryDialog19Options);
    var jQueryDialog23Options =
    {
-      width: 883,
-      height: 590,
+      width: 881,
+      height: 600,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -310,8 +311,8 @@ $(document).ready(function()
    });
    var jQueryDialog28Options =
    {
-      width: 898,
-      height: 566,
+      width: 896,
+      height: 576,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -324,8 +325,8 @@ $(document).ready(function()
    $("#jQueryDialog28").dialog(jQueryDialog28Options);
    var jQueryDialog7Options =
    {
-      width: 808,
-      height: 532,
+      width: 806,
+      height: 542,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -358,8 +359,8 @@ $(document).ready(function()
    $("#wb_FontAwesomeIcon16").tooltip(jQueryToolTip3Options);
    var jQueryDialog11Options =
    {
-      width: 814,
-      height: 575,
+      width: 812,
+      height: 585,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -372,8 +373,8 @@ $(document).ready(function()
    $("#jQueryDialog11").dialog(jQueryDialog11Options);
    var jQueryDialog33Options =
    {
-      width: 786,
-      height: 485,
+      width: 784,
+      height: 495,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -398,7 +399,7 @@ $(document).ready(function()
    {
       hide: true,
       show: true,
-      content: "<span style=\"color:#000000;font-family:'MS Shell Dlg';font-size:11px;\">Double clic : Affichage nocturne <strong>(en test peut <br>provoquer un crash de session !)</strong></span>",
+      content: "<span style=\"color:#000000;font-family:'MS Shell Dlg';font-size:11px;\">Réduire la visibilité des objets du bureau</span>",
       items: '#wb_MaterialIcon24',
       position: { my: "right bottom", at: "left top", collision: "flipfit" },
       classes: { 'ui-tooltip' : 'jQueryToolTip6' }
@@ -406,8 +407,8 @@ $(document).ready(function()
    $("#wb_MaterialIcon24").tooltip(jQueryToolTip6Options);
    var jQueryDialog41Options =
    {
-      width: 893,
-      height: 575,
+      width: 891,
+      height: 585,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -420,8 +421,8 @@ $(document).ready(function()
    $("#jQueryDialog41").dialog(jQueryDialog41Options);
    var jQueryDialog20Options =
    {
-      width: 915,
-      height: 536,
+      width: 913,
+      height: 546,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -434,8 +435,8 @@ $(document).ready(function()
    $("#jQueryDialog20").dialog(jQueryDialog20Options);
    var jQueryDialog16Options =
    {
-      width: 891,
-      height: 548,
+      width: 889,
+      height: 558,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -448,8 +449,8 @@ $(document).ready(function()
    $("#jQueryDialog16").dialog(jQueryDialog16Options);
    var jQueryDialog12Options =
    {
-      width: 828,
-      height: 566,
+      width: 826,
+      height: 576,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -471,8 +472,8 @@ $(document).ready(function()
    $("#jQueryAccordion1").accordion(jQueryAccordion1Options);
    var jQueryDialog27Options =
    {
-      width: 738,
-      height: 529,
+      width: 736,
+      height: 539,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -485,8 +486,8 @@ $(document).ready(function()
    $("#jQueryDialog27").dialog(jQueryDialog27Options);
    var jQueryDialog10Options =
    {
-      width: 934,
-      height: 496,
+      width: 932,
+      height: 506,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -499,8 +500,8 @@ $(document).ready(function()
    $("#jQueryDialog10").dialog(jQueryDialog10Options);
    var jQueryDialog29Options =
    {
-      width: 417,
-      height: 470,
+      width: 415,
+      height: 480,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -513,8 +514,8 @@ $(document).ready(function()
    $("#jQueryDialog29").dialog(jQueryDialog29Options);
    var jQueryDialog36Options =
    {
-      width: 583,
-      height: 223,
+      width: 581,
+      height: 233,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -527,8 +528,8 @@ $(document).ready(function()
    $("#jQueryDialog36").dialog(jQueryDialog36Options);
    var jQueryDialog37Options =
    {
-      width: 722,
-      height: 611,
+      width: 720,
+      height: 621,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -541,8 +542,8 @@ $(document).ready(function()
    $("#jQueryDialog37").dialog(jQueryDialog37Options);
    var jQueryDialog38Options =
    {
-      width: 747,
-      height: 562,
+      width: 745,
+      height: 572,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -555,8 +556,8 @@ $(document).ready(function()
    $("#jQueryDialog38").dialog(jQueryDialog38Options);
    var jQueryDialog25Options =
    {
-      width: 844,
-      height: 560,
+      width: 842,
+      height: 570,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -569,8 +570,8 @@ $(document).ready(function()
    $("#jQueryDialog25").dialog(jQueryDialog25Options);
    var jQueryDialog24Options =
    {
-      width: 860,
-      height: 629,
+      width: 858,
+      height: 639,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -583,8 +584,8 @@ $(document).ready(function()
    $("#jQueryDialog24").dialog(jQueryDialog24Options);
    var jQueryDialog34Options =
    {
-      width: 495,
-      height: 213,
+      width: 493,
+      height: 223,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -597,8 +598,8 @@ $(document).ready(function()
    $("#jQueryDialog34").dialog(jQueryDialog34Options);
    var jQueryDialog39Options =
    {
-      width: 725,
-      height: 210,
+      width: 723,
+      height: 220,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -611,8 +612,8 @@ $(document).ready(function()
    $("#jQueryDialog39").dialog(jQueryDialog39Options);
    var jQueryDialog40Options =
    {
-      width: 936,
-      height: 534,
+      width: 934,
+      height: 544,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -625,8 +626,8 @@ $(document).ready(function()
    $("#jQueryDialog40").dialog(jQueryDialog40Options);
    var jQueryDialog35Options =
    {
-      width: 425,
-      height: 252,
+      width: 423,
+      height: 262,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -639,8 +640,8 @@ $(document).ready(function()
    $("#jQueryDialog35").dialog(jQueryDialog35Options);
    var jQueryDialog43Options =
    {
-      width: 529,
-      height: 592,
+      width: 527,
+      height: 602,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -653,8 +654,8 @@ $(document).ready(function()
    $("#jQueryDialog43").dialog(jQueryDialog43Options);
    var jQueryDialog44Options =
    {
-      width: 1039,
-      height: 592,
+      width: 1037,
+      height: 602,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -667,8 +668,8 @@ $(document).ready(function()
    $("#jQueryDialog44").dialog(jQueryDialog44Options);
    var jQueryDialog46Options =
    {
-      width: 892,
-      height: 592,
+      width: 890,
+      height: 602,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -681,8 +682,8 @@ $(document).ready(function()
    $("#jQueryDialog46").dialog(jQueryDialog46Options);
    var jQueryDialog47Options =
    {
-      width: 981,
-      height: 592,
+      width: 979,
+      height: 602,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -695,8 +696,8 @@ $(document).ready(function()
    $("#jQueryDialog47").dialog(jQueryDialog47Options);
    var jQueryDialog48Options =
    {
-      width: 804,
-      height: 592,
+      width: 802,
+      height: 602,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -719,8 +720,8 @@ $(document).ready(function()
    $("#wb_MaterialIcon25").tooltip(jQueryToolTip7Options);
    var jQueryDialog49Options =
    {
-      width: 968,
-      height: 557,
+      width: 966,
+      height: 567,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -744,8 +745,8 @@ $(document).ready(function()
    var jQueryDialog50Options =
    {
       modal: true,
-      width: 640,
-      height: 539,
+      width: 638,
+      height: 549,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -775,8 +776,8 @@ $(document).ready(function()
    $("#wb_MaterialIcon30").tooltip(jQueryToolTip4Options);
    var jQueryDialog53Options =
    {
-      width: 279,
-      height: 240,
+      width: 277,
+      height: 250,
       position: { my: 'left top', at: 'right top+95', of: window },
       resizable: false,
       draggable: true,
@@ -789,8 +790,8 @@ $(document).ready(function()
    $("#jQueryDialog53").dialog(jQueryDialog53Options);
    var jQueryDialog15Options =
    {
-      width: 279,
-      height: 224,
+      width: 277,
+      height: 234,
       position: { my: 'left top', at: 'right top+46', of: window },
       resizable: false,
       draggable: true,
@@ -823,8 +824,8 @@ $(document).ready(function()
    $("#wb_MaterialIcon2").tooltip(jQueryToolTip9Options);
    var jQueryDialog30Options =
    {
-      width: 496,
-      height: 185,
+      width: 494,
+      height: 195,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -837,8 +838,8 @@ $(document).ready(function()
    $("#jQueryDialog30").dialog(jQueryDialog30Options);
    var jQueryDialog22Options =
    {
-      width: 687,
-      height: 479,
+      width: 685,
+      height: 489,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -851,8 +852,8 @@ $(document).ready(function()
    $("#jQueryDialog22").dialog(jQueryDialog22Options);
    var jQueryDialog54Options =
    {
-      width: 917,
-      height: 560,
+      width: 915,
+      height: 570,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -865,8 +866,8 @@ $(document).ready(function()
    $("#jQueryDialog54").dialog(jQueryDialog54Options);
    var jQueryDialog51Options =
    {
-      width: 899,
-      height: 540,
+      width: 897,
+      height: 550,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -879,8 +880,8 @@ $(document).ready(function()
    $("#jQueryDialog51").dialog(jQueryDialog51Options);
    var jQueryDialog56Options =
    {
-      width: 904,
-      height: 575,
+      width: 902,
+      height: 585,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -893,8 +894,8 @@ $(document).ready(function()
    $("#jQueryDialog56").dialog(jQueryDialog56Options);
    var jQueryDialog57Options =
    {
-      width: 972,
-      height: 575,
+      width: 970,
+      height: 585,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -907,8 +908,8 @@ $(document).ready(function()
    $("#jQueryDialog57").dialog(jQueryDialog57Options);
    var jQueryDialog58Options =
    {
-      width: 904,
-      height: 575,
+      width: 902,
+      height: 585,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -921,8 +922,8 @@ $(document).ready(function()
    $("#jQueryDialog58").dialog(jQueryDialog58Options);
    var jQueryDialog59Options =
    {
-      width: 904,
-      height: 575,
+      width: 902,
+      height: 585,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -935,8 +936,8 @@ $(document).ready(function()
    $("#jQueryDialog59").dialog(jQueryDialog59Options);
    var jQueryDialog60Options =
    {
-      width: 972,
-      height: 575,
+      width: 970,
+      height: 585,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -949,8 +950,8 @@ $(document).ready(function()
    $("#jQueryDialog60").dialog(jQueryDialog60Options);
    var jQueryDialog61Options =
    {
-      width: 904,
-      height: 575,
+      width: 902,
+      height: 585,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -964,8 +965,8 @@ $(document).ready(function()
    var jQueryDialog21Options =
    {
       modal: true,
-      width: 484,
-      height: 197,
+      width: 482,
+      height: 207,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -986,8 +987,8 @@ $(document).ready(function()
    var jQueryDialog18Options =
    {
       modal: true,
-      width: 405,
-      height: 168,
+      width: 403,
+      height: 178,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: false,
@@ -1000,8 +1001,8 @@ $(document).ready(function()
    $("#jQueryDialog18").dialog(jQueryDialog18Options);
    var jQueryDialog2Options =
    {
-      width: 458,
-      height: 495,
+      width: 456,
+      height: 505,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1014,8 +1015,8 @@ $(document).ready(function()
    $("#jQueryDialog2").dialog(jQueryDialog2Options);
    var jQueryDialog26Options =
    {
-      width: 458,
-      height: 246,
+      width: 456,
+      height: 256,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1028,8 +1029,8 @@ $(document).ready(function()
    $("#jQueryDialog26").dialog(jQueryDialog26Options);
    var jQueryDialog64Options =
    {
-      width: 359,
-      height: 167,
+      width: 357,
+      height: 177,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1042,8 +1043,8 @@ $(document).ready(function()
    $("#jQueryDialog64").dialog(jQueryDialog64Options);
    var jQueryDialog65Options =
    {
-      width: 624,
-      height: 718,
+      width: 622,
+      height: 728,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1056,8 +1057,8 @@ $(document).ready(function()
    $("#jQueryDialog65").dialog(jQueryDialog65Options);
    var jQueryDialog66Options =
    {
-      width: 624,
-      height: 718,
+      width: 622,
+      height: 728,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1070,8 +1071,8 @@ $(document).ready(function()
    $("#jQueryDialog66").dialog(jQueryDialog66Options);
    var jQueryDialog67Options =
    {
-      width: 901,
-      height: 341,
+      width: 899,
+      height: 351,
       position: { my: 'left top', at: 'right bottom', of: window },
       resizable: false,
       draggable: true,
@@ -1085,8 +1086,8 @@ $(document).ready(function()
 $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste'], script: 'fileuploader.php' });
    var jQueryDialog13Options =
    {
-      width: 1092,
-      height: 617,
+      width: 1090,
+      height: 627,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1109,8 +1110,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#wb_MaterialIcon19").tooltip(jQueryToolTip10Options);
    var jQueryDialog69Options =
    {
-      width: 290,
-      height: 279,
+      width: 288,
+      height: 289,
       position: { my: 'left top', at: 'right top+125', of: window },
       resizable: false,
       draggable: true,
@@ -1123,8 +1124,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog69").dialog(jQueryDialog69Options);
    var jQueryDialog70Options =
    {
-      width: 566,
-      height: 399,
+      width: 564,
+      height: 409,
       position: { my: 'center top', at: 'center top', of: window },
       resizable: true,
       draggable: true,
@@ -1135,8 +1136,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog70").dialog(jQueryDialog70Options);
    var jQueryDialog71Options =
    {
-      width: 751,
-      height: 521,
+      width: 749,
+      height: 531,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1149,8 +1150,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog71").dialog(jQueryDialog71Options);
    var jQueryDialog72Options =
    {
-      width: 920,
-      height: 519,
+      width: 918,
+      height: 529,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1163,8 +1164,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog72").dialog(jQueryDialog72Options);
    var jQueryDialog73Options =
    {
-      width: 375,
-      height: 242,
+      width: 373,
+      height: 252,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1178,8 +1179,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#Layer8").stickylayer({orientation: 9, position: [0, 0], delay: 1});
    var jQueryDialog32Options =
    {
-      width: 770,
-      height: 593,
+      width: 768,
+      height: 603,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1193,8 +1194,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#Layer22").stickylayer({orientation: 7, position: [0, 0], delay: 0});
    var jQueryDialog9Options =
    {
-      width: 1010,
-      height: 539,
+      width: 1008,
+      height: 549,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1207,8 +1208,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog9").dialog(jQueryDialog9Options);
    var jQueryDialog31Options =
    {
-      width: 1005,
-      height: 560,
+      width: 1003,
+      height: 570,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1221,8 +1222,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog31").dialog(jQueryDialog31Options);
    var jQueryDialog55Options =
    {
-      width: 920,
-      height: 570,
+      width: 918,
+      height: 580,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1235,8 +1236,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog55").dialog(jQueryDialog55Options);
    var jQueryDialog68Options =
    {
-      width: 1010,
-      height: 548,
+      width: 1008,
+      height: 558,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1249,8 +1250,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog68").dialog(jQueryDialog68Options);
    var jQueryDialog75Options =
    {
-      width: 936,
-      height: 569,
+      width: 934,
+      height: 579,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1263,8 +1264,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog75").dialog(jQueryDialog75Options);
    var jQueryDialog76Options =
    {
-      width: 921,
-      height: 559,
+      width: 919,
+      height: 569,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1277,8 +1278,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog76").dialog(jQueryDialog76Options);
    var jQueryDialog62Options =
    {
-      width: 1022,
-      height: 560,
+      width: 1020,
+      height: 570,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1295,8 +1296,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    var jQueryDialog17Options =
    {
       modal: true,
-      width: 488,
-      height: 354,
+      width: 486,
+      height: 364,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1310,8 +1311,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    var jQueryDialog63Options =
    {
       modal: true,
-      width: 504,
-      height: 187,
+      width: 502,
+      height: 197,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: false,
@@ -1324,8 +1325,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog63").dialog(jQueryDialog63Options);
    var jQueryDialog77Options =
    {
-      width: 1135,
-      height: 619,
+      width: 1133,
+      height: 629,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1336,8 +1337,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog77").dialog(jQueryDialog77Options);
    var jQueryDialog78Options =
    {
-      width: 992,
-      height: 566,
+      width: 990,
+      height: 576,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1364,8 +1365,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryTabs3").tabs(jQueryTabs3Options);
    var jQueryDialog79Options =
    {
-      width: 370,
-      height: 341,
+      width: 368,
+      height: 351,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1378,8 +1379,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog79").dialog(jQueryDialog79Options);
    var jQueryDialog80Options =
    {
-      width: 370,
-      height: 341,
+      width: 368,
+      height: 351,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1392,8 +1393,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog80").dialog(jQueryDialog80Options);
    var jQueryDialog81Options =
    {
-      width: 713,
-      height: 529,
+      width: 711,
+      height: 539,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1406,8 +1407,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog81").dialog(jQueryDialog81Options);
    var jQueryDialog82Options =
    {
-      width: 515,
-      height: 415,
+      width: 513,
+      height: 425,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1421,8 +1422,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#Layer28").stickylayer({orientation: 9, position: [0, 0], delay: 0});
    var jQueryDialog83Options =
    {
-      width: 521,
-      height: 278,
+      width: 519,
+      height: 288,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1434,8 +1435,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog83").dialog(jQueryDialog83Options);
    var jQueryDialog84Options =
    {
-      width: 810,
-      height: 424,
+      width: 808,
+      height: 434,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1446,8 +1447,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog84").dialog(jQueryDialog84Options);
    var jQueryDialog85Options =
    {
-      width: 1009,
-      height: 692,
+      width: 1007,
+      height: 702,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: false,
@@ -1458,8 +1459,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog85").dialog(jQueryDialog85Options);
    var jQueryDialog86Options =
    {
-      width: 296,
-      height: 428,
+      width: 294,
+      height: 438,
       position: { my: 'left top', at: 'right bottom', of: window },
       resizable: false,
       draggable: true,
@@ -1470,8 +1471,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog86").dialog(jQueryDialog86Options);
    var jQueryDialog87Options =
    {
-      width: 926,
-      height: 532,
+      width: 924,
+      height: 542,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1486,8 +1487,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#Layer35").stickylayer({orientation: 7, position: [0, 0], delay: 0});
    var jQueryDialog45Options =
    {
-      width: 892,
-      height: 418,
+      width: 890,
+      height: 428,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1500,8 +1501,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog45").dialog(jQueryDialog45Options);
    var jQueryDialog42Options =
    {
-      width: 278,
-      height: 247,
+      width: 276,
+      height: 257,
       position: { my: 'left top', at: 'right top+203', of: window },
       resizable: false,
       draggable: true,
@@ -1524,8 +1525,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#wb_MaterialIcon62").tooltip(jQueryToolTip13Options);
    var jQueryDialog88Options =
    {
-      width: 409,
-      height: 224,
+      width: 407,
+      height: 234,
       position: { my: 'left top', at: 'right top+46', of: window },
       resizable: false,
       draggable: false,
@@ -1537,8 +1538,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog88").dialog(jQueryDialog88Options);
    var jQueryDialog89Options =
    {
-      width: 372,
-      height: 134,
+      width: 370,
+      height: 144,
       position: { my: 'center top', at: 'center top', of: window },
       resizable: false,
       draggable: false,
@@ -1551,8 +1552,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog89").dialog(jQueryDialog89Options);
    var jQueryDialog90Options =
    {
-      width: 1020,
-      height: 554,
+      width: 1018,
+      height: 564,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1565,8 +1566,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog90").dialog(jQueryDialog90Options);
    var jQueryDialog91Options =
    {
-      width: 326,
-      height: 219,
+      width: 324,
+      height: 229,
       position: { my: 'left top', at: 'right top+254', of: window },
       resizable: false,
       draggable: true,
@@ -1579,8 +1580,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog91").dialog(jQueryDialog91Options);
    var jQueryDialog92Options =
    {
-      width: 779,
-      height: 557,
+      width: 777,
+      height: 567,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1693,8 +1694,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#wb_Image37").tooltip(jQueryToolTip24Options);
    var jQueryDialog93Options =
    {
-      width: 970,
-      height: 553,
+      width: 968,
+      height: 563,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1708,8 +1709,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    var jQueryDialog74Options =
    {
       modal: true,
-      width: 572,
-      height: 272,
+      width: 570,
+      height: 282,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1721,8 +1722,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    var jQueryDialog94Options =
    {
       modal: true,
-      width: 386,
-      height: 121,
+      width: 384,
+      height: 131,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: false,
@@ -1735,8 +1736,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    var jQueryDialog95Options =
    {
       modal: true,
-      width: 386,
-      height: 161,
+      width: 384,
+      height: 171,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: false,
@@ -1749,8 +1750,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#Layer12").stickylayer({orientation: 9, position: [0, 0], delay: 0});
    var jQueryDialog52Options =
    {
-      width: 404,
-      height: 175,
+      width: 402,
+      height: 185,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: false,
@@ -1763,8 +1764,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog52").dialog(jQueryDialog52Options);
    var jQueryDialog1Options =
    {
-      width: 404,
-      height: 164,
+      width: 402,
+      height: 174,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: false,
@@ -1778,8 +1779,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    var jQueryDialog6Options =
    {
       modal: true,
-      width: 404,
-      height: 169,
+      width: 402,
+      height: 179,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: false,
@@ -1792,8 +1793,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog6").dialog(jQueryDialog6Options);
    var jQueryDialog96Options =
    {
-      width: 815,
-      height: 587,
+      width: 813,
+      height: 597,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1806,8 +1807,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog96").dialog(jQueryDialog96Options);
    var jQueryDialog97Options =
    {
-      width: 431,
-      height: 175,
+      width: 429,
+      height: 185,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1820,8 +1821,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    var jQueryDialog98Options =
    {
       modal: true,
-      width: 1037,
-      height: 614,
+      width: 1035,
+      height: 624,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: false,
@@ -1830,14 +1831,22 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
       classes: { 'ui-dialog': 'jQueryDialog98'} 
    };
    $("#jQueryDialog98").dialog(jQueryDialog98Options);
+   var jQueryToolTip2Options =
+   {
+      hide: true,
+      show: true,
+      content: "<span style=\"color:#000000;font-family:'MS Shell Dlg';font-size:11px;\">Augmenter la visibilité des objets du bureau</span>",
+      items: '#wb_MaterialIcon1',
+      position: { my: "right bottom", at: "left top", collision: "flipfit" },
+      classes: { 'ui-tooltip' : 'jQueryToolTip2' }
+   };
+   $("#wb_MaterialIcon1").tooltip(jQueryToolTip2Options);
    $('img[data-src]').lazyload();
 });
 </script>
 <!-- Insert Google Analytics code here -->
 </head>
 <body>
-<div id="Layer14" style="position:fixed;text-align:left;left:0;top:0;right:0;bottom:0;z-index:552;">
-</div>
 
 <div id="Layer21" style="position:fixed;text-align:left;left:0;right:0;bottom:0;height:15px;z-index:554;" onmouseenter="ShowObject('Layer22', 1);AnimateCss('Layer22', 'animate-fade-in', 5, 500);return false;">
 </div>
@@ -1848,13 +1857,22 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 <li><a href="#jquerytabs1-page-0"><span>Informations</span></a></li>
 </ul>
 <div style="height:404px;" id="jquerytabs1-page-0">
-<div id="wb_Text7" style="position:absolute;left:23px;top:65px;width:639px;height:19px;z-index:0;">
+<div id="wb_Text7" style="position:absolute;left:18px;top:22px;width:639px;height:19px;z-index:0;">
 <span style="color:#000000;font-family:Arial;font-size:17px;">Bienvenue sur Rynna WebOS (Vegasis)&nbsp;!</span></div>
-<div id="wb_Text10" style="position:absolute;left:23px;top:97px;width:678px;height:54px;z-index:1;">
+<div id="wb_Text10" style="position:absolute;left:18px;top:54px;width:678px;height:54px;z-index:1;">
 <span style="color:#000000;font-family:Arial;font-size:16px;">Rynna WebOS est un système d'exploitation fonctionnant uniquement dans un navigateur internet sur n'importe quel système d'exploitation.<br></span><span style="color:#4169E1;font-family:Arial;font-size:15px;"><strong>Pour ouvrir les options bureautiques&nbsp;; effectuez un double clique gauche sur le bureau.</strong></span></div>
-<div id="wb_Text86" style="position:absolute;left:23px;top:168px;width:689px;height:16px;z-index:2;">
+<div id="wb_Text86" style="position:absolute;left:18px;top:125px;width:689px;height:16px;z-index:2;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Ci-dessous retrouvez les dernières mises à jour de votre WebOS. Seul les 6 dernières mises à jours sont indiqués&nbsp;:</span></div>
-<div id="Blog1" style="overflow-y:scroll;position:absolute;left:23px;top:195px;width:689px;height:171px;z-index:3;">
+<div id="Blog1" style="overflow-y:scroll;position:absolute;left:18px;top:152px;width:689px;height:171px;z-index:3;">
+<div class="blogitem">
+   <span class="blogsubject">Version 33.5</span>
+   <div class="no-thumb"></div>
+   <div class="blogdate">22/02/18<br></div>
+   <span style="color:#000000;">- Débogage final des effets de transparence ; WebOS désormais stable<br>
+- Amélioration des effets de transparences et ajout de la fonction baisser/augmenter la transparence du bureau</span><br>
+   <div class="blogcomments"></div>
+</div>
+<div class="clearfix visible-col1"></div>
 <div class="blogitem">
    <span class="blogsubject">Version 33.4</span>
    <div class="no-thumb"></div>
@@ -1904,18 +1922,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    <div class="blogcomments"></div>
 </div>
 <div class="clearfix visible-col1"></div>
-<div class="blogitem">
-   <span class="blogsubject">Version 32.2</span>
-   <div class="no-thumb"></div>
-   <div class="blogdate">16/02/18<br></div>
-   <span style="color:#000000;">- Ajout du mode mobile avec accès à une micro session adaptée pour mobile<br>
-- Ajout de l'accès spécial mobile vers DeX de Samsung avec prise en charge Jquery sur le DeX (variables d'accès)<br>
-Information : session mobile Version 0.1 (alpha)</span><br>
-   <div class="blogcomments"></div>
 </div>
-<div class="clearfix visible-col1"></div>
-</div>
-<input type="button" id="Button12" onclick="ShowObject('Layer1', 0);return false;" name="" value="Cliquez ici pour fermer la fenêtre et commencer à utiliser votre session" style="position:absolute;left:23px;top:379px;width:689px;height:25px;z-index:4;">
+<input type="button" id="Button12" onclick="ShowObject('Layer1', 0);return false;" name="" value="Cliquez ici pour fermer la fenêtre et commencer à utiliser votre session" style="position:absolute;left:18px;top:336px;width:689px;height:25px;z-index:4;">
 </div>
 </div>
 </div>
@@ -1939,29 +1947,32 @@ Information : session mobile Version 0.1 (alpha)</span><br>
 <a href="#" onclick="ShowObject('wb_PageHeader', 0);ShowObject('Layer1', 0);TimerStartTimer8();return false;"><div id="MaterialIcon27"><i class="material-icons">&#xe8b2;</i></div></a>
 </div>
 <div id="wb_MaterialIcon24" style="display:inline-block;width:49px;height:36px;text-align:center;z-index:11;">
-<a href="#" onclick="ShowObject('Layer14', 1);return false;"><div id="MaterialIcon24"><i class="material-icons">&#xe42e;</i></div></a>
+<a href="#" onclick="Animate('Layer5', '', '', '', '', '50', 1200, '');Animate('Layer13', '', '', '', '', '50', 1200, '');Animate('wb_PageHeader', '', '', '', '', '70', 1200, '');Animate('Layer12', '', '', '', '', '50', 1200, '');Animate('wb_LayoutGrid1', '', '', '', '', '50', 1200, '');Animate('wb_LayoutGrid3', '', '', '', '', '50', 1200, '');Animate('wb_LayoutGrid4', '', '', '', '', '50', 1200, '');Animate('wb_LayoutGrid5', '', '', '', '', '50', 1200, '');Animate('wb_LayoutGrid6', '', '', '', '', '50', 1200, '');return false;"><div id="MaterialIcon24"><i class="material-icons">&#xe42e;</i></div></a>
 </div>
-<div id="wb_MaterialIcon4" style="display:inline-block;width:36px;height:36px;text-align:center;z-index:12;">
+<div id="wb_MaterialIcon1" style="display:inline-block;width:49px;height:36px;text-align:center;z-index:12;">
+<a href="#" onclick="Animate('Layer5', '', '', '', '', '90', 1200, '');Animate('Layer13', '', '', '', '', '90', 1200, '');Animate('wb_PageHeader', '', '', '', '', '100', 1200, '');Animate('Layer12', '', '', '', '', '90', 1200, '');Animate('wb_LayoutGrid1', '', '', '', '', '100', 1200, '');Animate('wb_LayoutGrid3', '', '', '', '', '100', 1200, '');Animate('wb_LayoutGrid4', '', '', '', '', '100', 1200, '');Animate('wb_LayoutGrid5', '', '', '', '', '100', 1200, '');Animate('wb_LayoutGrid6', '', '', '', '', '100', 1200, '');return false;"><div id="MaterialIcon1"><i class="material-icons">&#xe436;</i></div></a>
+</div>
+<div id="wb_MaterialIcon4" style="display:inline-block;width:36px;height:36px;text-align:center;z-index:13;">
 <div id="MaterialIcon4"><i class="material-icons">&#xe5d4;</i></div>
 </div>
-<div id="wb_MaterialIcon30" style="display:inline-block;width:40px;height:36px;text-align:center;z-index:13;">
+<div id="wb_MaterialIcon30" style="display:inline-block;width:40px;height:36px;text-align:center;z-index:14;">
 <a href="#" onclick="ShowObject('Layer13', 1);TimerStartTimer11();return false;" ondblclick="TimerStartTimer19();return false;"><div id="MaterialIcon30"><i class="material-icons">&#xe41d;</i></div></a>
 </div>
-<div id="wb_MaterialIcon33" style="display:inline-block;width:35px;height:36px;text-align:center;z-index:14;">
+<div id="wb_MaterialIcon33" style="display:inline-block;width:35px;height:36px;text-align:center;z-index:15;">
 <div id="MaterialIcon33"><i class="material-icons">&#xe5d4;</i></div>
 </div>
-<div id="wb_MaterialIcon19" style="display:inline-block;width:43px;height:36px;text-align:center;z-index:15;">
+<div id="wb_MaterialIcon19" style="display:inline-block;width:43px;height:36px;text-align:center;z-index:16;">
 <a href="#" onclick="ShowObject('Layer5', 0);ShowObject('Layer13', 0);ShowObject('Layer12', 0);ShowObject('Layer3', 1);return false;"><div id="MaterialIcon19"><i class="material-icons">&#xe899;</i></div></a>
 </div>
-<div id="wb_MaterialIcon38" style="display:inline-block;width:35px;height:36px;text-align:center;z-index:16;">
+<div id="wb_MaterialIcon38" style="display:inline-block;width:35px;height:36px;text-align:center;z-index:17;">
 <div id="MaterialIcon38"><i class="material-icons">&#xe5d4;</i></div>
 </div>
-<div id="wb_MaterialIcon62" style="display:inline-block;width:50px;height:36px;text-align:center;z-index:17;">
+<div id="wb_MaterialIcon62" style="display:inline-block;width:50px;height:36px;text-align:center;z-index:18;">
 <a href="#" onclick="Toggle('jQueryDialog2', 'fade', 500);Toggle('jQueryDialog3', 'fade', 500);Toggle('jQueryDialog4', 'fade', 500);Toggle('jQueryDialog5', 'fade', 500);Toggle('jQueryDialog6', 'fade', 500);Toggle('jQueryDialog7', 'fade', 500);Toggle('jQueryDialog8', 'fade', 500);Toggle('jQueryDialog9', 'fade', 500);Toggle('jQueryDialog10', 'fade', 500);Toggle('jQueryDialog11', 'fade', 500);Toggle('jQueryDialog12', 'fade', 500);Toggle('jQueryDialog13', 'fade', 500);Toggle('jQueryDialog14', 'fade', 500);Toggle('jQueryDialog15', 'fade', 500);Toggle('jQueryDialog16', 'fade', 500);Toggle('jQueryDialog17', 'fade', 500);Toggle('jQueryDialog18', 'fade', 500);Toggle('jQueryDialog19', 'fade', 500);Toggle('jQueryDialog20', 'fade', 500);Toggle('jQueryDialog21', 'fade', 500);Toggle('jQueryDialog22', 'fade', 500);Toggle('jQueryDialog23', 'fade', 500);Toggle('jQueryDialog24', 'fade', 500);Toggle('jQueryDialog25', 'fade', 500);Toggle('jQueryDialog26', 'fade', 500);Toggle('jQueryDialog27', 'fade', 500);Toggle('jQueryDialog28', 'fade', 500);Toggle('jQueryDialog29', 'fade', 500);Toggle('jQueryDialog30', 'fade', 500);Toggle('jQueryDialog31', 'fade', 500);Toggle('jQueryDialog32', 'fade', 500);Toggle('jQueryDialog33', 'fade', 500);Toggle('jQueryDialog34', 'fade', 500);Toggle('jQueryDialog35', 'fade', 500);Toggle('jQueryDialog36', 'fade', 500);Toggle('jQueryDialog37', 'fade', 500);Toggle('jQueryDialog38', 'fade', 500);Toggle('jQueryDialog39', 'fade', 500);Toggle('jQueryDialog40', 'fade', 500);Toggle('jQueryDialog41', 'fade', 500);Toggle('jQueryDialog42', 'fade', 500);Toggle('jQueryDialog43', 'fade', 500);Toggle('jQueryDialog44', 'fade', 500);Toggle('jQueryDialog45', 'fade', 500);Toggle('jQueryDialog46', 'fade', 500);Toggle('jQueryDialog47', 'fade', 500);Toggle('jQueryDialog48', 'fade', 500);Toggle('jQueryDialog49', 'fade', 500);Toggle('jQueryDialog50', 'fade', 500);Toggle('jQueryDialog51', 'fade', 500);Toggle('jQueryDialog52', 'fade', 500);Toggle('jQueryDialog53', 'fade', 500);Toggle('jQueryDialog54', 'fade', 500);Toggle('jQueryDialog55', 'fade', 500);Toggle('jQueryDialog56', 'fade', 500);Toggle('jQueryDialog57', 'fade', 500);Toggle('jQueryDialog58', 'fade', 500);Toggle('jQueryDialog59', 'fade', 500);Toggle('jQueryDialog60', 'fade', 500);Toggle('jQueryDialog61', 'fade', 500);Toggle('jQueryDialog62', 'fade', 500);Toggle('jQueryDialog63', 'fade', 500);Toggle('jQueryDialog64', 'fade', 500);Toggle('jQueryDialog65', 'fade', 500);Toggle('jQueryDialog66', 'fade', 500);Toggle('jQueryDialog67', 'fade', 500);Toggle('jQueryDialog68', 'fade', 500);Toggle('jQueryDialog69', 'fade', 500);Toggle('jQueryDialog70', 'fade', 500);Toggle('jQueryDialog71', 'fade', 500);Toggle('jQueryDialog72', 'fade', 500);Toggle('jQueryDialog73', 'fade', 500);Toggle('jQueryDialog74', 'fade', 500);Toggle('jQueryDialog75', 'fade', 500);Toggle('jQueryDialog76', 'fade', 500);Toggle('jQueryDialog77', 'fade', 500);Toggle('jQueryDialog78', 'fade', 500);Toggle('jQueryDialog79', 'fade', 500);Toggle('jQueryDialog80', 'fade', 500);Toggle('jQueryDialog81', 'fade', 500);Toggle('jQueryDialog82', 'fade', 500);Toggle('jQueryDialog83', 'fade', 500);Toggle('jQueryDialog84', 'fade', 500);Toggle('jQueryDialog85', 'fade', 500);Toggle('jQueryDialog86', 'fade', 500);Toggle('jQueryDialog87', 'fade', 500);Toggle('jQueryDialog88', 'fade', 500);Toggle('jQueryDialog89', 'fade', 500);Toggle('jQueryDialog90', 'fade', 500);Toggle('jQueryDialog91', 'fade', 500);Toggle('jQueryDialog92', 'fade', 500);Toggle('jQueryDialog93', 'fade', 500);Toggle('jQueryDialog96', 'fade', 500);$('#jQueryDialog1').dialog('close');return false;"><div id="MaterialIcon62"><i class="material-icons">&#xe882;</i></div></a>
 </div>
 </div>
 <div class="col-2">
-<div id="wb_MaterialIcon34" style="display:inline-block;width:48px;height:36px;text-align:center;z-index:18;">
+<div id="wb_MaterialIcon34" style="display:inline-block;width:48px;height:36px;text-align:center;z-index:19;">
 <a href="#" onclick="ShowObject('Layer4', 1);return false;" onmouseenter="ShowObject('Layer4', 1);return false;"><div id="MaterialIcon34"><i class="material-icons">&#xe1b1;</i></div></a>
 </div>
 </div>
@@ -1970,17 +1981,17 @@ Information : session mobile Version 0.1 (alpha)</span><br>
 <div id="wb_LayoutGrid1" ondblclick="ShowObject('Layer26', 1);return false;">
 <div id="LayoutGrid1">
 <div class="col-1">
-<div id="wb_Image2" style="display:inline-block;width:90px;height:105px;z-index:19;">
+<div id="wb_Image2" style="display:inline-block;width:90px;height:105px;z-index:20;">
 <a href="#" onclick="$('#jQueryDialog3').dialog('open');AnimateCss('wb_Image2', 'transform-3d-flip-in-x', 0, 1200);return false;"><img src="images/placeholder.gif" data-src="images/21748-bubka-Explorer2.png" data-src-retina="images/21748-bubka-Explorer2.png" id="Image2" alt=""></a>
 </div>
 </div>
 <div class="col-2">
-<div id="wb_Image36" style="display:inline-block;width:90px;height:105px;z-index:20;">
+<div id="wb_Image36" style="display:inline-block;width:90px;height:105px;z-index:21;">
 <a href="#" onclick="$('#jQueryDialog41').dialog('open');AnimateCss('wb_Image36', 'transform-3d-flip-in-x', 0, 1200);return false;"><img src="images/placeholder.gif" data-src="images/30885-Sparky783-MicrosoftSecurityEssentials.png" data-src-retina="images/30885-Sparky783-MicrosoftSecurityEssentials.png" id="Image36" alt=""></a>
 </div>
 </div>
 <div class="col-3">
-<div id="wb_Image59" style="display:inline-block;width:90px;height:105px;z-index:21;">
+<div id="wb_Image59" style="display:inline-block;width:90px;height:105px;z-index:22;">
 <a href="#" onclick="$('#jQueryDialog90').dialog('open');AnimateCss('wb_Image59', 'transform-3d-flip-in-x', 0, 1200);return false;"><img src="images/placeholder.gif" data-src="images/icone_bureautique_4sync.png" data-src-retina="images/icone_bureautique_4sync.png" id="Image59" alt=""></a>
 </div>
 </div>
@@ -2007,12 +2018,12 @@ Information : session mobile Version 0.1 (alpha)</span><br>
 <div id="wb_LayoutGrid6" ondblclick="ShowObject('Layer26', 1);return false;">
 <div id="LayoutGrid6">
 <div class="col-1">
-<div id="wb_Image13" style="display:inline-block;width:82px;height:96px;z-index:22;">
+<div id="wb_Image13" style="display:inline-block;width:82px;height:96px;z-index:23;">
 <a href="#" onclick="$('#jQueryDialog5').dialog('open');AnimateCss('wb_Image13', 'transform-3d-flip-in-x', 0, 1200);return false;"><img src="images/placeholder.gif" data-src="images/20834-bubka-windowsexplorer.png" data-src-retina="images/20834-bubka-windowsexplorer.png" id="Image13" alt=""></a>
 </div>
 </div>
 <div class="col-2">
-<div id="wb_Image19" style="display:inline-block;width:87px;height:101px;z-index:23;">
+<div id="wb_Image19" style="display:inline-block;width:87px;height:101px;z-index:24;">
 <a href="#" onclick="$('#jQueryDialog54').dialog('open');AnimateCss('wb_Image19', 'transform-3d-flip-in-x', 0, 1200);return false;"><img src="images/placeholder.gif" data-src="images/30753-Cesco97-download256.png" data-src-retina="images/30753-Cesco97-download256.png" id="Image19" alt=""></a>
 </div>
 </div>
@@ -2041,12 +2052,12 @@ Information : session mobile Version 0.1 (alpha)</span><br>
 <div id="wb_LayoutGrid5" ondblclick="ShowObject('Layer26', 1);return false;">
 <div id="LayoutGrid5">
 <div class="col-1">
-<div id="wb_Image38" style="display:inline-block;width:85px;height:99px;z-index:24;">
+<div id="wb_Image38" style="display:inline-block;width:85px;height:99px;z-index:25;">
 <a href="#" onclick="$('#jQueryDialog8').dialog('open');AnimateCss('wb_Image38', 'transform-3d-flip-in-x', 0, 1200);return false;"><img src="images/placeholder.gif" data-src="images/startpage.png" data-src-retina="images/startpage.png" id="Image38" alt=""></a>
 </div>
 </div>
 <div class="col-2">
-<div id="wb_Image35" style="display:inline-block;width:86px;height:100px;z-index:25;">
+<div id="wb_Image35" style="display:inline-block;width:86px;height:100px;z-index:26;">
 <a href="#" onclick="$('#jQueryDialog14').dialog('open');AnimateCss('wb_Image35', 'transform-3d-flip-in-x', 0, 1200);return false;"><img src="images/placeholder.gif" data-src="images/23176-bubka-TextEdit.png" data-src-retina="images/23176-bubka-TextEdit.png" id="Image35" alt=""></a>
 </div>
 </div>
@@ -2075,12 +2086,12 @@ Information : session mobile Version 0.1 (alpha)</span><br>
 <div id="wb_LayoutGrid4" ondblclick="ShowObject('Layer26', 1);return false;">
 <div id="LayoutGrid4">
 <div class="col-1">
-<div id="wb_Image33" style="display:inline-block;width:87px;height:101px;z-index:26;">
+<div id="wb_Image33" style="display:inline-block;width:87px;height:101px;z-index:27;">
 <a href="#" onclick="$('#jQueryDialog16').dialog('open');AnimateCss('wb_Image33', 'transform-3d-flip-in-x', 0, 1200);return false;"><img src="images/placeholder.gif" data-src="images/20698-bubka-Maps.png" data-src-retina="images/20698-bubka-Maps.png" id="Image33" alt=""></a>
 </div>
 </div>
 <div class="col-2">
-<div id="wb_Image58" style="display:inline-block;width:90px;height:105px;z-index:27;">
+<div id="wb_Image58" style="display:inline-block;width:90px;height:105px;z-index:28;">
 <a href="#" onclick="$('#jQueryDialog48').dialog('open');AnimateCss('wb_Image58', 'transform-3d-flip-in-x', 0, 1200);return false;"><img src="images/placeholder.gif" data-src="images/hebergeur-icone-img.png" data-src-retina="images/hebergeur-icone-img.png" id="Image58" alt=""></a>
 </div>
 </div>
@@ -2109,12 +2120,12 @@ Information : session mobile Version 0.1 (alpha)</span><br>
 <div id="wb_LayoutGrid3" ondblclick="ShowObject('Layer26', 1);return false;">
 <div id="LayoutGrid3">
 <div class="col-1">
-<div id="wb_Image34" style="display:inline-block;width:85px;height:99px;z-index:28;">
+<div id="wb_Image34" style="display:inline-block;width:85px;height:99px;z-index:29;">
 <a href="#" onclick="$('#jQueryDialog13').dialog('open');AnimateCss('wb_Image34', 'transform-3d-flip-in-x', 0, 1200);return false;"><img src="images/placeholder.gif" data-src="images/22381-bubka-Mail.png" data-src-retina="images/22381-bubka-Mail.png" id="Image34" alt=""></a>
 </div>
 </div>
 <div class="col-2">
-<div id="wb_Image37" style="display:inline-block;width:90px;height:105px;z-index:29;">
+<div id="wb_Image37" style="display:inline-block;width:90px;height:105px;z-index:30;">
 <a href="#" onclick="$('#jQueryDialog11').dialog('open');AnimateCss('wb_Image37', 'transform-3d-flip-in-x', 0, 1200);return false;"><img src="images/placeholder.gif" data-src="images/30143-xsara54-Parametres.png" data-src-retina="images/30143-xsara54-Parametres.png" id="Image37" alt=""></a>
 </div>
 </div>
@@ -2142,103 +2153,103 @@ Information : session mobile Version 0.1 (alpha)</span><br>
 </div>
 
 <div id="jQueryDialog3" style="z-index:563;" title="Mes applications install&#233;es (Applis G&#233;n&#233;rales)">
-<div id="wb_Image4" style="position:absolute;left:80px;top:9px;width:87px;height:86px;z-index:30;">
+<div id="wb_Image4" style="position:absolute;left:80px;top:9px;width:87px;height:86px;z-index:31;">
 <a href="#" onclick="$('#jQueryDialog27').dialog('open');return false;"><img src="images/img0007.png" id="Image4" alt=""></a></div>
-<div id="wb_FontAwesomeIcon17" style="position:absolute;left:177px;top:21px;width:51px;height:56px;text-align:center;z-index:31;">
+<div id="wb_FontAwesomeIcon17" style="position:absolute;left:177px;top:21px;width:51px;height:56px;text-align:center;z-index:32;">
 <a href="#" onclick="$('#jQueryDialog7').dialog('open');return false;"><div id="FontAwesomeIcon17"><i class="fa fa-thermometer-three-quarters">&nbsp;</i></div></a></div>
-<div id="wb_Image10" style="position:absolute;left:248px;top:9px;width:86px;height:86px;z-index:32;">
+<div id="wb_Image10" style="position:absolute;left:248px;top:9px;width:86px;height:86px;z-index:33;">
 <a href="#" onclick="$('#jQueryDialog24').dialog('open');return false;"><img src="images/img0004.png" id="Image10" alt=""></a></div>
-<div id="wb_Image23" style="position:absolute;left:327px;top:9px;width:86px;height:86px;z-index:33;">
+<div id="wb_Image23" style="position:absolute;left:327px;top:9px;width:86px;height:86px;z-index:34;">
 <a href="#" onclick="$('#jQueryDialog23').dialog('open');return false;"><img src="images/img0025.png" id="Image23" alt=""></a></div>
-<div id="wb_Image18" style="position:absolute;left:166px;top:137px;width:88px;height:72px;z-index:34;">
+<div id="wb_Image18" style="position:absolute;left:166px;top:137px;width:88px;height:72px;z-index:35;">
 <a href="#" onclick="$('#jQueryDialog20').dialog('open');return false;"><img src="images/img0017.png" id="Image18" alt=""></a></div>
-<div id="wb_Image24" style="position:absolute;left:77px;top:131px;width:96px;height:85px;z-index:35;">
+<div id="wb_Image24" style="position:absolute;left:77px;top:131px;width:96px;height:85px;z-index:36;">
 <a href="#" onclick="$('#jQueryDialog41').dialog('open');return false;"><img src="images/pausecafe.png" id="Image24" alt=""></a></div>
-<div id="wb_Image22" style="position:absolute;left:2px;top:130px;width:86px;height:86px;z-index:36;">
+<div id="wb_Image22" style="position:absolute;left:2px;top:130px;width:86px;height:86px;z-index:37;">
 <a href="#" onclick="$('#jQueryDialog25').dialog('open');return false;"><img src="images/img0024.png" id="Image22" alt=""></a></div>
-<div id="wb_Text54" style="position:absolute;left:93px;top:86px;width:55px;height:32px;text-align:center;z-index:37;">
+<div id="wb_Text54" style="position:absolute;left:93px;top:86px;width:55px;height:32px;text-align:center;z-index:38;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Docteur Flashy</span></div>
-<div id="wb_Text55" style="position:absolute;left:167px;top:90px;width:71px;height:14px;text-align:center;z-index:38;">
+<div id="wb_Text55" style="position:absolute;left:167px;top:90px;width:71px;height:14px;text-align:center;z-index:39;">
 <span style="color:#000000;font-family:Arial;font-size:11px;">Température</span></div>
-<div id="wb_Text56" style="position:absolute;left:257px;top:86px;width:59px;height:48px;text-align:center;z-index:39;">
+<div id="wb_Text56" style="position:absolute;left:257px;top:86px;width:59px;height:48px;text-align:center;z-index:40;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Horloge interactive</span></div>
-<div id="wb_Text57" style="position:absolute;left:340px;top:86px;width:55px;height:32px;text-align:center;z-index:40;">
+<div id="wb_Text57" style="position:absolute;left:340px;top:86px;width:55px;height:32px;text-align:center;z-index:41;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Dés interactif</span></div>
-<div id="wb_Text59" style="position:absolute;left:15px;top:209px;width:55px;height:32px;text-align:center;z-index:41;">
+<div id="wb_Text59" style="position:absolute;left:15px;top:209px;width:55px;height:32px;text-align:center;z-index:42;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Monnaie interactif</span></div>
-<div id="wb_Text60" style="position:absolute;left:95px;top:209px;width:55px;height:32px;text-align:center;z-index:42;">
+<div id="wb_Text60" style="position:absolute;left:95px;top:209px;width:55px;height:32px;text-align:center;z-index:43;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Jeux Flash</span></div>
-<div id="wb_Text61" style="position:absolute;left:181px;top:209px;width:55px;height:16px;text-align:center;z-index:43;">
+<div id="wb_Text61" style="position:absolute;left:181px;top:209px;width:55px;height:16px;text-align:center;z-index:44;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">SNCF</span></div>
-<div id="wb_MaterialIcon2" style="position:absolute;left:15px;top:511px;width:32px;height:32px;text-align:center;z-index:44;">
+<div id="wb_MaterialIcon2" style="position:absolute;left:15px;top:511px;width:32px;height:32px;text-align:center;z-index:45;">
 <a href="#" onclick="$('#jQueryDialog12').dialog('open');return false;"><div id="MaterialIcon2"><i class="material-icons">&#xe1b8;</i></div></a></div>
-<div id="wb_FontAwesomeIcon1" style="position:absolute;left:262px;top:142px;width:53px;height:56px;text-align:center;z-index:45;">
+<div id="wb_FontAwesomeIcon1" style="position:absolute;left:262px;top:142px;width:53px;height:56px;text-align:center;z-index:46;">
 <a href="#" onclick="$('#jQueryDialog30').dialog('open');return false;"><div id="FontAwesomeIcon1"><i class="fa fa-code">&nbsp;</i></div></a></div>
-<div id="wb_Text23" style="position:absolute;left:256px;top:211px;width:60px;height:28px;text-align:center;z-index:46;">
+<div id="wb_Text23" style="position:absolute;left:256px;top:211px;width:60px;height:28px;text-align:center;z-index:47;">
 <span style="color:#000000;font-family:Arial;font-size:11px;">Créer vos Applis Web</span></div>
-<div id="wb_Text63" style="position:absolute;left:514px;top:89px;width:55px;height:16px;text-align:center;z-index:47;">
+<div id="wb_Text63" style="position:absolute;left:514px;top:89px;width:55px;height:16px;text-align:center;z-index:48;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Ipiccy</span></div>
-<div id="wb_Image3" style="position:absolute;left:500px;top:7px;width:93px;height:88px;z-index:48;">
+<div id="wb_Image3" style="position:absolute;left:500px;top:7px;width:93px;height:88px;z-index:49;">
 <a href="#" onclick="$('#jQueryDialog56').dialog('open');return false;"><img src="images/ipiccy.png" id="Image3" alt=""></a></div>
-<div id="wb_Image5" style="position:absolute;left:327px;top:130px;width:86px;height:86px;z-index:49;">
+<div id="wb_Image5" style="position:absolute;left:327px;top:130px;width:86px;height:86px;z-index:50;">
 <a href="#" onclick="$('#jQueryDialog57').dialog('open');return false;"><img src="images/Korben.png" id="Image5" alt=""></a></div>
-<div id="wb_Image6" style="position:absolute;left:416px;top:130px;width:86px;height:86px;z-index:50;">
+<div id="wb_Image6" style="position:absolute;left:416px;top:130px;width:86px;height:86px;z-index:51;">
 <a href="#" onclick="$('#jQueryDialog58').dialog('open');return false;"><img src="images/orange.png" id="Image6" alt=""></a></div>
-<div id="wb_Text64" style="position:absolute;left:339px;top:209px;width:55px;height:32px;text-align:center;z-index:51;">
+<div id="wb_Text64" style="position:absolute;left:339px;top:209px;width:55px;height:32px;text-align:center;z-index:52;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Le Bon Coin</span></div>
-<div id="wb_Text65" style="position:absolute;left:429px;top:209px;width:55px;height:32px;text-align:center;z-index:52;">
+<div id="wb_Text65" style="position:absolute;left:429px;top:209px;width:55px;height:32px;text-align:center;z-index:53;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Orange TV</span></div>
-<div id="wb_Text67" style="position:absolute;left:604px;top:86px;width:55px;height:32px;text-align:center;z-index:53;">
+<div id="wb_Text67" style="position:absolute;left:604px;top:86px;width:55px;height:32px;text-align:center;z-index:54;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">01net Blog</span></div>
-<div id="wb_Text68" style="position:absolute;left:15px;top:343px;width:55px;height:14px;text-align:center;z-index:54;">
+<div id="wb_Text68" style="position:absolute;left:15px;top:343px;width:55px;height:14px;text-align:center;z-index:55;">
 <span style="color:#000000;font-family:Arial;font-size:11px;">CDiscount</span></div>
-<div id="wb_Text87" style="position:absolute;left:13px;top:88px;width:58px;height:28px;text-align:center;z-index:55;">
+<div id="wb_Text87" style="position:absolute;left:13px;top:88px;width:58px;height:28px;text-align:center;z-index:56;">
 <span style="color:#000000;font-family:Arial;font-size:11px;">Calculatrice</span></div>
-<div id="wb_Text88" style="position:absolute;left:429px;top:89px;width:58px;height:16px;text-align:center;z-index:56;">
+<div id="wb_Text88" style="position:absolute;left:429px;top:89px;width:58px;height:16px;text-align:center;z-index:57;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Wordpad</span></div>
-<div id="wb_Image32" style="position:absolute;left:415px;top:9px;width:87px;height:87px;z-index:57;">
+<div id="wb_Image32" style="position:absolute;left:415px;top:9px;width:87px;height:87px;z-index:58;">
 <a href="#" onclick="$('#jQueryDialog28').dialog('open');return false;"><img src="images/notepad.png" id="Image32" alt=""></a></div>
-<div id="wb_Image12" style="position:absolute;left:2px;top:9px;width:87px;height:87px;z-index:58;">
+<div id="wb_Image12" style="position:absolute;left:2px;top:9px;width:87px;height:87px;z-index:59;">
 <a href="#" onclick="$('#jQueryDialog4').dialog('open');return false;"><img src="images/Calculatrice.png" id="Image12" alt=""></a></div>
-<div id="wb_Image20" style="position:absolute;left:2px;top:263px;width:86px;height:86px;z-index:59;">
+<div id="wb_Image20" style="position:absolute;left:2px;top:263px;width:86px;height:86px;z-index:60;">
 <a href="#" onclick="$('#jQueryDialog61').dialog('open');return false;"><img src="images/steam.png" id="Image20" alt=""></a></div>
-<div id="wb_Image21" style="position:absolute;left:591px;top:10px;width:85px;height:86px;z-index:60;">
+<div id="wb_Image21" style="position:absolute;left:591px;top:10px;width:85px;height:86px;z-index:61;">
 <a href="#" onclick="$('#jQueryDialog60').dialog('open');return false;"><img src="images/twitch.png" id="Image21" alt=""></a></div>
-<div id="wb_MaterialIcon23" style="position:absolute;left:95px;top:275px;width:54px;height:56px;text-align:center;z-index:61;">
+<div id="wb_MaterialIcon23" style="position:absolute;left:95px;top:275px;width:54px;height:56px;text-align:center;z-index:62;">
 <a href="#" onclick="$('#jQueryDialog40').dialog('open');return false;"><div id="MaterialIcon23"><i class="material-icons">&#xe84d;</i></div></a></div>
-<div id="wb_Text58" style="position:absolute;left:95px;top:343px;width:55px;height:32px;text-align:center;z-index:62;">
+<div id="wb_Text58" style="position:absolute;left:95px;top:343px;width:55px;height:32px;text-align:center;z-index:63;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Tridiv 3D (CSS)</span></div>
-<div id="wb_FontAwesomeIcon16" style="position:absolute;left:177px;top:275px;width:61px;height:56px;text-align:center;z-index:63;">
+<div id="wb_FontAwesomeIcon16" style="position:absolute;left:177px;top:275px;width:61px;height:56px;text-align:center;z-index:64;">
 <a href="javascript:popupwnd('https://onedrive.live.com/?id=root&cid=','no','no','no','yes','yes','no','60','110','750','550')" target="_self"><div id="FontAwesomeIcon16"><i class="fa fa-cloud-download">&nbsp;</i></div></a></div>
-<div id="wb_Text62" style="position:absolute;left:177px;top:343px;width:61px;height:30px;text-align:center;z-index:64;">
+<div id="wb_Text62" style="position:absolute;left:177px;top:343px;width:61px;height:30px;text-align:center;z-index:65;">
 <span style="color:#000000;font-family:Arial;font-size:12px;">OneDrive<br>[POP-UP]</span></div>
-<div id="wb_Image39" style="position:absolute;left:246px;top:263px;width:80px;height:80px;z-index:65;">
+<div id="wb_Image39" style="position:absolute;left:246px;top:263px;width:80px;height:80px;z-index:66;">
 <a href="#" onclick="$('#jQueryDialog64').dialog('open');return false;"><img src="images/12472264_561929810626918_2272385936819492695_n(1).png" id="Image39" alt=""></a></div>
-<div id="wb_Text93" style="position:absolute;left:253px;top:343px;width:70px;height:28px;text-align:center;z-index:66;">
+<div id="wb_Text93" style="position:absolute;left:253px;top:343px;width:70px;height:28px;text-align:center;z-index:67;">
 <span style="color:#000000;font-family:Arial;font-size:11px;">Simulateur Smartphone</span></div>
-<div id="wb_MaterialIcon59" style="position:absolute;left:340px;top:275px;width:52px;height:54px;text-align:center;z-index:67;">
+<div id="wb_MaterialIcon59" style="position:absolute;left:340px;top:275px;width:52px;height:54px;text-align:center;z-index:68;">
 <a href="#" onclick="$('#jQueryDialog67').dialog('open');return false;"><div id="MaterialIcon59"><i class="material-icons">&#xe25a;</i></div></a></div>
-<div id="wb_Text99" style="position:absolute;left:340px;top:339px;width:55px;height:32px;text-align:center;z-index:68;">
+<div id="wb_Text99" style="position:absolute;left:340px;top:339px;width:55px;height:32px;text-align:center;z-index:69;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Envoi rapides</span></div>
-<div id="wb_Image45" style="position:absolute;left:427px;top:275px;width:59px;height:56px;z-index:69;">
+<div id="wb_Image45" style="position:absolute;left:427px;top:275px;width:59px;height:56px;z-index:70;">
 <a href="#" onclick="$('#jQueryDialog44').dialog('open');return false;"><img src="images/hitek_logo_HD2.png" id="Image45" alt=""></a></div>
-<div id="wb_Text105" style="position:absolute;left:428px;top:343px;width:59px;height:14px;text-align:center;z-index:70;">
+<div id="wb_Text105" style="position:absolute;left:428px;top:343px;width:59px;height:14px;text-align:center;z-index:71;">
 <span style="color:#000000;font-family:Arial;font-size:11px;">HITEK</span></div>
-<div id="wb_Image53" style="position:absolute;left:601px;top:142px;width:59px;height:56px;z-index:71;">
+<div id="wb_Image53" style="position:absolute;left:601px;top:142px;width:59px;height:56px;z-index:72;">
 <a href="#" onclick="$('#jQueryDialog78').dialog('open');return false;"><img src="images/SNGappsm.png" id="Image53" alt=""></a></div>
-<div id="wb_Text73" style="position:absolute;left:600px;top:209px;width:63px;height:30px;text-align:center;z-index:72;">
+<div id="wb_Text73" style="position:absolute;left:600px;top:209px;width:63px;height:30px;text-align:center;z-index:73;">
 <span style="color:#000000;font-family:Arial;font-size:12px;">Notes Generator</span></div>
-<div id="wb_Image54" style="position:absolute;left:502px;top:144px;width:83px;height:59px;z-index:73;">
+<div id="wb_Image54" style="position:absolute;left:502px;top:144px;width:83px;height:59px;z-index:74;">
 <a href="#" onclick="$('#jQueryDialog87').dialog('open');return false;"><img src="images/liligoicone.png" id="Image54" alt=""></a></div>
-<div id="wb_Text75" style="position:absolute;left:514px;top:209px;width:53px;height:16px;text-align:center;z-index:74;">
+<div id="wb_Text75" style="position:absolute;left:514px;top:209px;width:53px;height:16px;text-align:center;z-index:75;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Liligo</span></div>
-<div id="wb_Image55" style="position:absolute;left:514px;top:273px;width:63px;height:58px;z-index:75;">
+<div id="wb_Image55" style="position:absolute;left:514px;top:273px;width:63px;height:58px;z-index:76;">
 <a href="#" onclick="$('#jQueryDialog49').dialog('open');return false;"><img src="images/studiofitness.png" id="Image55" alt=""></a></div>
-<div id="wb_Text45" style="position:absolute;left:516px;top:343px;width:59px;height:28px;text-align:center;z-index:76;">
+<div id="wb_Text45" style="position:absolute;left:516px;top:343px;width:59px;height:28px;text-align:center;z-index:77;">
 <span style="color:#000000;font-family:Arial;font-size:11px;">Studio Fitness</span></div>
-<div id="wb_Image60" style="position:absolute;left:601px;top:273px;width:58px;height:58px;z-index:77;">
+<div id="wb_Image60" style="position:absolute;left:601px;top:273px;width:58px;height:58px;z-index:78;">
 <a href="#" onclick="$('#jQueryDialog93').dialog('open');return false;"><img src="images/Stellarium-logo-300x300.png" id="Image60" alt=""></a></div>
-<div id="wb_Text84" style="position:absolute;left:601px;top:343px;width:59px;height:14px;text-align:center;z-index:78;">
+<div id="wb_Text84" style="position:absolute;left:601px;top:343px;width:59px;height:14px;text-align:center;z-index:79;">
 <span style="color:#000000;font-family:Arial;font-size:11px;">Stellarium</span></div>
 </div>
 
@@ -2247,7 +2258,7 @@ Information : session mobile Version 0.1 (alpha)</span><br>
 </div>
 
 <div id="jQueryDialog5" style="z-index:565;" title="Explorateur de fichiers - Votre espace personnel (50 Go maximum)">
-<div id="jQueryTabs2" style="position:absolute;left:7px;top:9px;width:956px;height:519px;z-index:83;">
+<div id="jQueryTabs2" style="position:absolute;left:7px;top:9px;width:956px;height:519px;z-index:84;">
 <ul>
 <li><a href="#jquerytabs2-page-0"><span>Onglet 1</span></a></li>
 <li><a href="#jquerytabs2-page-1"><span>Onglet 2</span></a></li>
@@ -2281,10 +2292,10 @@ Information : session mobile Version 0.1 (alpha)</span><br>
 
 <div id="jQueryDialog19" style="z-index:568;" title="Rynna Search (Rechercher une page du WebOS)">
 <form name="SiteSearch1_form" id="SiteSearch1_form" accept-charset="UTF-8" onsubmit="return searchPage(features)">
-<input type="text" id="SiteSearch1" style="position:absolute;left:130px;top:49px;width:350px;height:20px;line-height:20px;z-index:86;" name="SiteSearch1" value="" spellcheck="false" placeholder="Rechercher un programme, une fen&#234;tre, un script"></form>
+<input type="text" id="SiteSearch1" style="position:absolute;left:130px;top:49px;width:350px;height:20px;line-height:20px;z-index:87;" name="SiteSearch1" value="" spellcheck="false" placeholder="Rechercher un programme, une fen&#234;tre, un script"></form>
 <div id="SiteSearch1_dialog" title="Resultats"></div>
-<input type="button" id="Button15" onclick="searchPage();return false;" name="Search" value="Rechercher" style="position:absolute;left:383px;top:80px;width:96px;height:25px;z-index:87;">
-<div id="wb_FontAwesomeIcon20" style="position:absolute;left:11px;top:16px;width:103px;height:97px;text-align:center;z-index:88;">
+<input type="button" id="Button15" onclick="searchPage();return false;" name="Search" value="Rechercher" style="position:absolute;left:383px;top:80px;width:96px;height:25px;z-index:88;">
+<div id="wb_FontAwesomeIcon20" style="position:absolute;left:11px;top:16px;width:103px;height:97px;text-align:center;z-index:89;">
 <a href="#" onclick="AnimateCss('wb_FontAwesomeIcon19', 'transform-3d-flip-in-y', 0, 1200);return false;"><div id="FontAwesomeIcon20"><i class="fa fa-tencent-weibo">&nbsp;</i></div></a></div>
 </div>
 
@@ -2303,62 +2314,62 @@ Information : session mobile Version 0.1 (alpha)</span><br>
 
 
 <div id="jQueryDialog11" style="z-index:574;" title="Param&#232;tres et aides suppl&#233;mentaires">
-<div id="wb_MaterialIcon5" style="position:absolute;left:26px;top:24px;width:96px;height:79px;text-align:center;z-index:92;">
+<div id="wb_MaterialIcon5" style="position:absolute;left:26px;top:24px;width:96px;height:79px;text-align:center;z-index:93;">
 <a href="#" onclick="$('#jQueryDialog32').dialog('open');$('#jQueryDialog11').dialog('close');return false;"><div id="MaterialIcon5"><i class="material-icons">&#xe88f;</i></div></a></div>
-<div id="wb_Text1" style="position:absolute;left:8px;top:123px;width:124px;height:36px;text-align:center;z-index:93;">
+<div id="wb_Text1" style="position:absolute;left:8px;top:123px;width:124px;height:36px;text-align:center;z-index:94;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>Informations sur le WebOS</strong></span></div>
-<div id="wb_MaterialIcon6" style="position:absolute;left:181px;top:24px;width:98px;height:79px;text-align:center;z-index:94;">
+<div id="wb_MaterialIcon6" style="position:absolute;left:181px;top:24px;width:98px;height:79px;text-align:center;z-index:95;">
 <a href="#" onclick="$('#jQueryDialog33').dialog('open');$('#jQueryDialog11').dialog('close');return false;"><div id="MaterialIcon6"><i class="material-icons">&#xe894;</i></div></a></div>
-<div id="wb_Text4" style="position:absolute;left:168px;top:123px;width:124px;height:54px;text-align:center;z-index:95;">
+<div id="wb_Text4" style="position:absolute;left:168px;top:123px;width:124px;height:54px;text-align:center;z-index:96;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>Tester la connexion internet</strong></span></div>
-<div id="wb_MaterialIcon7" style="position:absolute;left:336px;top:24px;width:91px;height:79px;text-align:center;z-index:96;">
+<div id="wb_MaterialIcon7" style="position:absolute;left:336px;top:24px;width:91px;height:79px;text-align:center;z-index:97;">
 <a href="#" onclick="$('#jQueryDialog34').dialog('open');$('#jQueryDialog11').dialog('close');return false;"><div id="MaterialIcon7"><i class="material-icons">&#xe0c8;</i></div></a></div>
-<div id="wb_Text11" style="position:absolute;left:319px;top:123px;width:124px;height:36px;text-align:center;z-index:97;">
+<div id="wb_Text11" style="position:absolute;left:319px;top:123px;width:124px;height:36px;text-align:center;z-index:98;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>Connaître mon adresse IP</strong></span></div>
-<div id="wb_MaterialIcon8" style="position:absolute;left:499px;top:24px;width:89px;height:79px;text-align:center;z-index:98;">
+<div id="wb_MaterialIcon8" style="position:absolute;left:499px;top:24px;width:89px;height:79px;text-align:center;z-index:99;">
 <a href="#" onclick="$('#jQueryDialog35').dialog('open');$('#jQueryDialog11').dialog('close');return false;"><div id="MaterialIcon8"><i class="material-icons">&#xe0da;</i></div></a></div>
-<div id="wb_Text14" style="position:absolute;left:484px;top:123px;width:124px;height:36px;text-align:center;z-index:99;">
+<div id="wb_Text14" style="position:absolute;left:484px;top:123px;width:124px;height:36px;text-align:center;z-index:100;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>Supprimer votre compte</strong></span></div>
-<div id="wb_MaterialIcon9" style="position:absolute;left:25px;top:201px;width:99px;height:76px;text-align:center;z-index:100;">
+<div id="wb_MaterialIcon9" style="position:absolute;left:25px;top:201px;width:99px;height:76px;text-align:center;z-index:101;">
 <a href="#" onclick="$('#jQueryDialog36').dialog('open');$('#jQueryDialog11').dialog('close');return false;"><div id="MaterialIcon9"><i class="material-icons">&#xe312;</i></div></a></div>
-<div id="wb_Text16" style="position:absolute;left:8px;top:285px;width:124px;height:36px;text-align:center;z-index:101;">
+<div id="wb_Text16" style="position:absolute;left:8px;top:285px;width:124px;height:36px;text-align:center;z-index:102;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>Tester mon clavier</strong></span></div>
-<div id="wb_MaterialIcon10" style="position:absolute;left:186px;top:206px;width:89px;height:71px;text-align:center;z-index:102;">
+<div id="wb_MaterialIcon10" style="position:absolute;left:186px;top:206px;width:89px;height:71px;text-align:center;z-index:103;">
 <a href="#" onclick="$('#jQueryDialog89').dialog('open');$('#jQueryDialog37').dialog('open');Toggle('jQueryDialog11', 'fade', 500);return false;"><div id="MaterialIcon10"><i class="material-icons">&#xe3c4;</i></div></a></div>
-<div id="wb_Text29" style="position:absolute;left:168px;top:285px;width:124px;height:54px;text-align:center;z-index:103;">
+<div id="wb_Text29" style="position:absolute;left:168px;top:285px;width:124px;height:54px;text-align:center;z-index:104;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>Configuration de l'interface personnelle</strong></span></div>
-<div id="wb_MaterialIcon11" style="position:absolute;left:341px;top:201px;width:81px;height:76px;text-align:center;z-index:104;">
+<div id="wb_MaterialIcon11" style="position:absolute;left:341px;top:201px;width:81px;height:76px;text-align:center;z-index:105;">
 <a href="#" onclick="$('#jQueryDialog39').dialog('open');$('#jQueryDialog11').dialog('close');return false;"><div id="MaterialIcon11"><i class="material-icons">&#xe8e8;</i></div></a></div>
-<div id="wb_Text30" style="position:absolute;left:319px;top:285px;width:124px;height:36px;text-align:center;z-index:105;">
+<div id="wb_Text30" style="position:absolute;left:319px;top:285px;width:124px;height:36px;text-align:center;z-index:106;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>Verifier la protection</strong></span></div>
-<div id="wb_MaterialIcon12" style="position:absolute;left:510px;top:199px;width:78px;height:86px;text-align:center;z-index:106;">
+<div id="wb_MaterialIcon12" style="position:absolute;left:510px;top:199px;width:78px;height:86px;text-align:center;z-index:107;">
 <a href="#" onclick="$('#jQueryDialog38').dialog('open');return false;"><div id="MaterialIcon12"><i class="material-icons">&#xe8df;</i></div></a></div>
-<div id="wb_Text31" style="position:absolute;left:487px;top:285px;width:124px;height:36px;text-align:center;z-index:107;">
+<div id="wb_Text31" style="position:absolute;left:487px;top:285px;width:124px;height:36px;text-align:center;z-index:108;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>Calendrier détaillé</strong></span></div>
-<div id="wb_MaterialIcon29" style="position:absolute;left:655px;top:24px;width:99px;height:79px;text-align:center;z-index:108;">
+<div id="wb_MaterialIcon29" style="position:absolute;left:655px;top:24px;width:99px;height:79px;text-align:center;z-index:109;">
 <a href="#" onclick="$('#jQueryDialog2').dialog('open');$('#jQueryDialog11').dialog('close');return false;"><div id="MaterialIcon29"><i class="material-icons">&#xe8c2;</i></div></a></div>
-<div id="wb_MaterialIcon32" style="position:absolute;left:670px;top:199px;width:68px;height:80px;text-align:center;z-index:109;">
+<div id="wb_MaterialIcon32" style="position:absolute;left:670px;top:199px;width:68px;height:80px;text-align:center;z-index:110;">
 <a href="#" onclick="$('#jQueryDialog26').dialog('open');$('#jQueryDialog11').dialog('close');return false;"><div id="MaterialIcon32"><i class="material-icons">&#xe06d;</i></div></a></div>
-<div id="wb_Text9" style="position:absolute;left:642px;top:123px;width:124px;height:36px;text-align:center;z-index:110;">
+<div id="wb_Text9" style="position:absolute;left:642px;top:123px;width:124px;height:36px;text-align:center;z-index:111;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>Gestion des erreurs</strong></span></div>
-<div id="wb_Text90" style="position:absolute;left:642px;top:285px;width:124px;height:36px;text-align:center;z-index:111;">
+<div id="wb_Text90" style="position:absolute;left:642px;top:285px;width:124px;height:36px;text-align:center;z-index:112;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>Test écran et netteté</strong></span></div>
-<div id="wb_MaterialIcon36" style="position:absolute;left:29px;top:361px;width:90px;height:72px;text-align:center;z-index:112;">
+<div id="wb_MaterialIcon36" style="position:absolute;left:29px;top:361px;width:90px;height:72px;text-align:center;z-index:113;">
 <a href="#" onclick="$('#jQueryDialog45').dialog('open');return false;"><div id="MaterialIcon36"><i class="material-icons">&#xe328;</i></div></a></div>
-<div id="wb_Text41" style="position:absolute;left:12px;top:453px;width:124px;height:36px;text-align:center;z-index:113;">
+<div id="wb_Text41" style="position:absolute;left:12px;top:453px;width:124px;height:36px;text-align:center;z-index:114;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>Vérification mise à jour WebOS</strong></span></div>
-<div id="wb_MaterialIcon39" style="position:absolute;left:187px;top:361px;width:90px;height:72px;text-align:center;z-index:114;">
+<div id="wb_MaterialIcon39" style="position:absolute;left:187px;top:361px;width:90px;height:72px;text-align:center;z-index:115;">
 <a href="#" onclick="$('#jQueryDialog92').dialog('open');return false;"><div id="MaterialIcon39"><i class="material-icons">&#xe8ce;</i></div></a></div>
-<div id="wb_Text83" style="position:absolute;left:168px;top:453px;width:124px;height:36px;text-align:center;z-index:115;">
+<div id="wb_Text83" style="position:absolute;left:168px;top:453px;width:124px;height:36px;text-align:center;z-index:116;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>Registre d'extensions</strong></span></div>
 </div>
 
 <div id="jQueryDialog33" style="z-index:575;" title="Test de votre connexion internet">
-<div id="wb_MaterialIcon14" style="position:absolute;left:10px;top:11px;width:37px;height:37px;text-align:center;z-index:116;">
+<div id="wb_MaterialIcon14" style="position:absolute;left:10px;top:11px;width:37px;height:37px;text-align:center;z-index:117;">
 <a href="#" onclick="$('#jQueryDialog11').dialog('open');$('#jQueryDialog33').dialog('close');return false;"><div id="MaterialIcon14"><i class="material-icons">&#xe5cb;</i></div></a></div>
-<div id="wb_Text33" style="position:absolute;left:94px;top:21px;width:639px;height:16px;z-index:117;">
+<div id="wb_Text33" style="position:absolute;left:94px;top:21px;width:639px;height:16px;z-index:118;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Testez votre connexion internet (débit montant/descendant)&nbsp;:</span></div>
-<div id="Html19" style="position:absolute;left:18px;top:59px;width:727px;height:354px;z-index:118">
+<div id="Html19" style="position:absolute;left:18px;top:59px;width:727px;height:354px;z-index:119">
 <iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
    src="http://www.ariase.com/fr/vitesse/">
 </iframe><br /></div>
@@ -2386,36 +2397,36 @@ Information : session mobile Version 0.1 (alpha)</span><br>
 </div>
 
 <div id="jQueryDialog12" style="z-index:581;" title="Applications virtualis&#233;es">
-<div id="wb_jQueryAccordion1" style="position:absolute;left:9px;top:11px;width:788px;height:430px;z-index:131;">
+<div id="wb_jQueryAccordion1" style="position:absolute;left:9px;top:11px;width:788px;height:430px;z-index:132;">
 <div id="jQueryAccordion1">
 <h3>Origine Windows</h3>
 <div>
-<div id="wb_Image8" style="position:absolute;left:3px;top:1px;width:82px;height:82px;z-index:122;">
+<div id="wb_Image8" style="position:absolute;left:3px;top:1px;width:82px;height:82px;z-index:123;">
 <a href="javascript:popupwnd('https://office.live.com/start/Word.aspx?','no','no','no','yes','yes','no','20','20','920','750')" target="_self"><img src="images/word-live.png" id="Image8" alt="" title="Office 2016 (gratuit) - Word"></a></div>
-<div id="wb_Image11" style="position:absolute;left:137px;top:1px;width:82px;height:82px;z-index:123;">
+<div id="wb_Image11" style="position:absolute;left:137px;top:1px;width:82px;height:82px;z-index:124;">
 <a href="javascript:popupwnd('https://office.live.com/start/PowerPoint.aspx?ui=fr-FR','no','no','no','yes','yes','no','20','20','920','750')" target="_self"><img src="images/powerpoint-live.png" id="Image11" alt="" title="Office 2016 (gratuit) - PowerPoint"></a></div>
-<div id="wb_Image14" style="position:absolute;left:207px;top:1px;width:80px;height:80px;z-index:124;">
+<div id="wb_Image14" style="position:absolute;left:207px;top:1px;width:80px;height:80px;z-index:125;">
 <a href="javascript:popupwnd('https://keep.google.com/u/0/#home','no','no','no','yes','yes','no','20','20','950','650')" target="_self"><img src="images/keep-512.png" id="Image14" alt="" title="Google Keep - Bloc-Notes"></a></div>
-<div id="wb_Image9" style="position:absolute;left:71px;top:1px;width:82px;height:82px;z-index:125;">
+<div id="wb_Image9" style="position:absolute;left:71px;top:1px;width:82px;height:82px;z-index:126;">
 <a href="javascript:popupwnd('https://office.live.com/start/Excel.aspx?ui=fr-FR','no','no','no','yes','yes','no','20','20','920','750')" target="_self"><img src="images/excel-live.png" id="Image9" alt="" title="Office 2016 (gratuit) - Excel"></a></div>
 </div>
 <h3>Origine Linux</h3>
 <div>
-<div id="wb_Image1" style="position:absolute;left:3px;top:2px;width:85px;height:85px;z-index:126;">
+<div id="wb_Image1" style="position:absolute;left:3px;top:2px;width:85px;height:85px;z-index:127;">
 <a href="#" onclick="$('#jQueryDialog82').dialog('open');return false;"><img src="images/diJXUfgE_400x400.png" id="Image1" alt=""></a></div>
 </div>
 <h3>Origine MAC OSx</h3>
 <div>
-<div id="wb_Image7" style="position:absolute;left:5px;top:4px;width:89px;height:89px;z-index:127;">
+<div id="wb_Image7" style="position:absolute;left:5px;top:4px;width:89px;height:89px;z-index:128;">
 <a href="#" onclick="$('#jQueryDialog79').dialog('open');return false;"><img src="images/256x256bb.png" id="Image7" alt=""></a></div>
-<div id="wb_Image16" style="position:absolute;left:82px;top:4px;width:89px;height:89px;z-index:128;">
+<div id="wb_Image16" style="position:absolute;left:82px;top:4px;width:89px;height:89px;z-index:129;">
 <a href="#" onclick="$('#jQueryDialog80').dialog('open');return false;"><img src="images/aplus-flv-to-apple-tv-converter.png" id="Image16" alt=""></a></div>
-<div id="wb_Image17" style="position:absolute;left:155px;top:5px;width:89px;height:89px;z-index:129;">
+<div id="wb_Image17" style="position:absolute;left:155px;top:5px;width:89px;height:89px;z-index:130;">
 <a href="#" onclick="$('#jQueryDialog81').dialog('open');return false;"><img src="images/Calculatrice_apple.png" id="Image17" alt=""></a></div>
 </div>
 <h3>Origine Android</h3>
 <div>
-<div id="wb_Text27" style="position:absolute;left:16px;top:12px;width:717px;height:48px;z-index:130;">
+<div id="wb_Text27" style="position:absolute;left:16px;top:12px;width:717px;height:48px;z-index:131;">
 <span style="color:#000000;font-family:Arial;font-size:13px;"><em>Pour le moment aucune application Android n'est virtualisées.<br><br>Merci pour votre contribution&nbsp;!</em></span></div>
 </div>
 </div>
@@ -2429,7 +2440,7 @@ Information : session mobile Version 0.1 (alpha)</span><br>
 </div>
 
 <div id="jQueryDialog10" style="z-index:583;" title="TChat WebOS (Publique)">
-<div id="Html10" style="position:absolute;left:219px;top:16px;width:688px;height:416px;z-index:142">
+<div id="Html10" style="position:absolute;left:219px;top:16px;width:688px;height:416px;z-index:143">
 <!-- Debut shoutbox - https://www.i-tchat.com -->
 <!--<iframe src="https://www.i-tchat.com/shoutbox/shoutbox.php?idShoutbox=130310" width="100%" height="100%" frameborder="0" allowtransparency="true" >Votre navigateur semble incompatible, essayez d'ouvrir le <a href="https://www.i-tchat.com" title="tchat" onClick="window.open(this.href+'?130310');">tchat</a>, ou rencontrez le webmaster pour plus d'informations.</iframe>-->
 <!--<br />Agrandir le <a href="https://www.i-tchat.com/?130310" onClick="window.open(this.href);return false;">chat</a> .-->
@@ -2439,36 +2450,36 @@ Tchat du WebOS désactivé temporairement du WebOS suite à un piratage du site 
 Veuillez nous excuser pour la gêne occasionnée.
 <br>
 Ce problème n'impacte pas le WebOS.</div>
-<div id="wb_Image25" style="position:absolute;left:12px;top:16px;width:200px;height:150px;z-index:143;">
+<div id="wb_Image25" style="position:absolute;left:12px;top:16px;width:200px;height:150px;z-index:144;">
 <img src="images/deco_pausecafe_tchat.gif" id="Image25" alt=""></div>
-<div id="wb_Text39" style="position:absolute;left:14px;top:416px;width:197px;height:16px;text-align:right;z-index:144;">
+<div id="wb_Text39" style="position:absolute;left:14px;top:416px;width:197px;height:16px;text-align:right;z-index:145;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Tchat Version 1.1</span></div>
 </div>
 
 <div id="jQueryDialog29" style="z-index:584;" title="AVERTISSEMENT">
-<div id="wb_Text6" style="position:absolute;left:13px;top:16px;width:379px;height:273px;text-align:center;z-index:145;">
+<div id="wb_Text6" style="position:absolute;left:13px;top:16px;width:379px;height:273px;text-align:center;z-index:146;">
 <span style="color:#FF0000;font-family:Arial;font-size:15px;"><strong>AVERTISSEMENT</strong></span><span style="color:#000000;font-family:Arial;font-size:15px;"> concernant l'utilisation du Chat publique.<br><br>Ce Chat vous permet de discuter entre tout les utilisateurs en ligne du WebOS.<br><br>Veuillez être polis et respectueux.<br>Toutes personnes utilisant le Chat en étant grossier, malveillants ou en publiant des textes illégaux verra son compte fermé et son IP banni.<br><br>Nous autorisons la publicité sur ce Chat pour faire partager vos projets, vos actions ou votre entreprise, mais veuillez ne pas en abuser.<br><br>Merci pour votre compréhension.</span></div>
-<input type="submit" id="Button6" onclick="$('#jQueryDialog10').dialog('open');$('#jQueryDialog29').dialog('close');return false;" name="" value="J'accepte les conditions" style="position:absolute;left:15px;top:309px;width:374px;height:25px;z-index:146;">
-<div id="wb_Text81" style="position:absolute;left:11px;top:343px;width:383px;height:70px;text-align:justify;z-index:147;">
+<input type="submit" id="Button6" onclick="$('#jQueryDialog10').dialog('open');$('#jQueryDialog29').dialog('close');return false;" name="" value="J'accepte les conditions" style="position:absolute;left:15px;top:309px;width:374px;height:25px;z-index:147;">
+<div id="wb_Text81" style="position:absolute;left:11px;top:343px;width:383px;height:70px;text-align:justify;z-index:148;">
 <span style="color:#000000;font-family:Arial;font-size:11px;"><em>Le Chat est basé sur la Shoutbox N°130310 de i-tchat&nbsp;; elle est conçu pour le serveur rynnawebos.fr uniquement. Si vous êtes Administrateur de votre propre version du WebOS vous pouvez éditer le code du Tchat pour l'ajuster à votre propre Tchat. Vous pouvez aussi masquer ce texte en supprimant l'objet PHP ID&nbsp;&quot;Text81&quot;.</em></span></div>
 </div>
 
 <div id="jQueryDialog36" style="z-index:585;" title="Configuration clavier">
-<div id="wb_MaterialIcon17" style="position:absolute;left:4px;top:10px;width:37px;height:37px;text-align:center;z-index:148;">
+<div id="wb_MaterialIcon17" style="position:absolute;left:4px;top:10px;width:37px;height:37px;text-align:center;z-index:149;">
 <a href="#" onclick="$('#jQueryDialog11').dialog('open');$('#jQueryDialog36').dialog('close');return false;"><div id="MaterialIcon17"><i class="material-icons">&#xe5cb;</i></div></a></div>
-<div id="wb_Text35" style="position:absolute;left:73px;top:19px;width:249px;height:16px;z-index:149;">
+<div id="wb_Text35" style="position:absolute;left:73px;top:19px;width:249px;height:16px;z-index:150;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Paramètrage du clavier&nbsp;:</span></div>
-<div id="wb_Text36" style="position:absolute;left:14px;top:76px;width:141px;height:16px;z-index:150;">
+<div id="wb_Text36" style="position:absolute;left:14px;top:76px;width:141px;height:16px;z-index:151;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Langue du clavier&nbsp;: </span></div>
-<select name="Combobox1" size="1" id="Combobox1" style="position:absolute;left:165px;top:70px;width:176px;height:28px;z-index:151;">
+<select name="Combobox1" size="1" id="Combobox1" style="position:absolute;left:165px;top:70px;width:176px;height:28px;z-index:152;">
 <option selected value="fr-FR">Français (French)</option>
 <option value="en-US">Anglais (English)</option>
 </select>
-<input type="text" id="Editbox1" style="position:absolute;left:10px;top:126px;width:529px;height:16px;line-height:16px;z-index:152;" name="Editbox1" value="Tester votre clavier dans cette zone : " spellcheck="false">
+<input type="text" id="Editbox1" style="position:absolute;left:10px;top:126px;width:529px;height:16px;line-height:16px;z-index:153;" name="Editbox1" value="Tester votre clavier dans cette zone : " spellcheck="false">
 </div>
 
 <div id="jQueryDialog37" style="z-index:586;" title="Configuration de votre interface personnelle">
-<div id="jQueryTabs3" style="position:absolute;left:13px;top:13px;width:676px;height:532px;z-index:211;">
+<div id="jQueryTabs3" style="position:absolute;left:13px;top:13px;width:676px;height:532px;z-index:212;">
 <ul>
 <li><a href="#jquerytabs3-page-0"><span>Defauts</span></a></li>
 <li><a href="#jquerytabs3-page-1"><span>Jeux vidéo</span></a></li>
@@ -2476,7 +2487,7 @@ Ce problème n'impacte pas le WebOS.</div>
 <li><a href="#jquerytabs3-page-3"><span>Filip Hodas</span></a></li>
 </ul>
 <div style="height:510px;" id="jquerytabs3-page-0">
-<div id="Html49" style="position:absolute;left:23px;top:64px;width:151px;height:101px;overflow:hidden;z-index:153">
+<div id="Html49" style="position:absolute;left:18px;top:21px;width:151px;height:101px;overflow:hidden;z-index:154">
 
 
 <!DOCTYPE html>
@@ -2496,7 +2507,7 @@ function myFunction1() {
 
 </body>
 </html></div>
-<div id="Html52" style="position:absolute;left:184px;top:64px;width:148px;height:101px;overflow:hidden;z-index:154">
+<div id="Html52" style="position:absolute;left:179px;top:21px;width:148px;height:101px;overflow:hidden;z-index:155">
 
 
 <!DOCTYPE html>
@@ -2516,7 +2527,7 @@ function myFunction4() {
 
 </body>
 </html></div>
-<div id="Html55" style="position:absolute;left:342px;top:64px;width:153px;height:101px;overflow:hidden;z-index:155">
+<div id="Html55" style="position:absolute;left:337px;top:21px;width:153px;height:101px;overflow:hidden;z-index:156">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2533,7 +2544,7 @@ function myFunction7() {
 
 </body>
 </html></div>
-<div id="Html50" style="position:absolute;left:504px;top:64px;width:145px;height:101px;overflow:hidden;z-index:156">
+<div id="Html50" style="position:absolute;left:499px;top:21px;width:145px;height:101px;overflow:hidden;z-index:157">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2550,7 +2561,7 @@ function myFunction2() {
 
 </body>
 </html></div>
-<div id="Html53" style="position:absolute;left:23px;top:176px;width:151px;height:98px;overflow:hidden;z-index:157">
+<div id="Html53" style="position:absolute;left:18px;top:133px;width:151px;height:98px;overflow:hidden;z-index:158">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2567,7 +2578,7 @@ function myFunction5() {
 
 </body>
 </html></div>
-<div id="Html56" style="position:absolute;left:184px;top:176px;width:148px;height:98px;overflow:hidden;z-index:158">
+<div id="Html56" style="position:absolute;left:179px;top:133px;width:148px;height:98px;overflow:hidden;z-index:159">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2584,7 +2595,7 @@ function myFunction8() {
 
 </body>
 </html></div>
-<div id="Html51" style="position:absolute;left:342px;top:176px;width:153px;height:98px;overflow:hidden;z-index:159">
+<div id="Html51" style="position:absolute;left:337px;top:133px;width:153px;height:98px;overflow:hidden;z-index:160">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2601,7 +2612,7 @@ function myFunction3() {
 
 </body>
 </html></div>
-<div id="Html54" style="position:absolute;left:504px;top:176px;width:145px;height:98px;overflow:hidden;z-index:160">
+<div id="Html54" style="position:absolute;left:499px;top:133px;width:145px;height:98px;overflow:hidden;z-index:161">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2618,7 +2629,7 @@ function myFunction6() {
 
 </body>
 </html></div>
-<div id="Html57" style="position:absolute;left:23px;top:285px;width:151px;height:102px;overflow:hidden;z-index:161">
+<div id="Html57" style="position:absolute;left:18px;top:242px;width:151px;height:102px;overflow:hidden;z-index:162">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2635,11 +2646,11 @@ function myFunction9() {
 
 </body>
 </html></div>
-<div id="wb_Text38" style="position:absolute;left:22px;top:505px;width:642px;height:16px;z-index:162;">
+<div id="wb_Text38" style="position:absolute;left:17px;top:462px;width:642px;height:16px;z-index:163;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><em>Le changement d'un fond d'écran peut prendre quelques secondes en fonction de votre débit internet.</em></span></div>
 </div>
 <div style="height:510px;" id="jquerytabs3-page-1">
-<div id="Html64" style="position:absolute;left:17px;top:57px;width:101px;height:86px;overflow:hidden;z-index:163">
+<div id="Html64" style="position:absolute;left:12px;top:14px;width:101px;height:86px;overflow:hidden;z-index:164">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2656,7 +2667,7 @@ function myFunctiongames1001() {
 
 </body>
 </html></div>
-<div id="Html66" style="position:absolute;left:126px;top:57px;width:101px;height:86px;overflow:hidden;z-index:164">
+<div id="Html66" style="position:absolute;left:121px;top:14px;width:101px;height:86px;overflow:hidden;z-index:165">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2673,7 +2684,7 @@ function myFunctiongames1002() {
 
 </body>
 </html></div>
-<div id="Html67" style="position:absolute;left:233px;top:57px;width:101px;height:86px;overflow:hidden;z-index:165">
+<div id="Html67" style="position:absolute;left:228px;top:14px;width:101px;height:86px;overflow:hidden;z-index:166">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2690,7 +2701,7 @@ function myFunctiongames1003() {
 
 </body>
 </html></div>
-<div id="Html68" style="position:absolute;left:344px;top:57px;width:101px;height:86px;overflow:hidden;z-index:166">
+<div id="Html68" style="position:absolute;left:339px;top:14px;width:101px;height:86px;overflow:hidden;z-index:167">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2707,7 +2718,7 @@ function myFunctiongames1004() {
 
 </body>
 </html></div>
-<div id="Html69" style="position:absolute;left:454px;top:57px;width:101px;height:86px;overflow:hidden;z-index:167">
+<div id="Html69" style="position:absolute;left:449px;top:14px;width:101px;height:86px;overflow:hidden;z-index:168">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2724,7 +2735,7 @@ function myFunctiongames1005() {
 
 </body>
 </html></div>
-<div id="Html70" style="position:absolute;left:566px;top:57px;width:101px;height:86px;overflow:hidden;z-index:168">
+<div id="Html70" style="position:absolute;left:561px;top:14px;width:101px;height:86px;overflow:hidden;z-index:169">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2741,7 +2752,7 @@ function myFunctiongames1006() {
 
 </body>
 </html></div>
-<div id="Html71" style="position:absolute;left:18px;top:156px;width:101px;height:86px;overflow:hidden;z-index:169">
+<div id="Html71" style="position:absolute;left:13px;top:113px;width:101px;height:86px;overflow:hidden;z-index:170">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2758,7 +2769,7 @@ function myFunctiongames1007() {
 
 </body>
 </html></div>
-<div id="Html72" style="position:absolute;left:126px;top:156px;width:101px;height:86px;overflow:hidden;z-index:170">
+<div id="Html72" style="position:absolute;left:121px;top:113px;width:101px;height:86px;overflow:hidden;z-index:171">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2775,7 +2786,7 @@ function myFunctiongames1008() {
 
 </body>
 </html></div>
-<div id="Html73" style="position:absolute;left:233px;top:156px;width:101px;height:86px;overflow:hidden;z-index:171">
+<div id="Html73" style="position:absolute;left:228px;top:113px;width:101px;height:86px;overflow:hidden;z-index:172">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2792,7 +2803,7 @@ function myFunctiongames1009() {
 
 </body>
 </html></div>
-<div id="Html74" style="position:absolute;left:344px;top:156px;width:101px;height:86px;overflow:hidden;z-index:172">
+<div id="Html74" style="position:absolute;left:339px;top:113px;width:101px;height:86px;overflow:hidden;z-index:173">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2809,7 +2820,7 @@ function myFunctiongames1010() {
 
 </body>
 </html></div>
-<div id="Html75" style="position:absolute;left:454px;top:156px;width:101px;height:86px;overflow:hidden;z-index:173">
+<div id="Html75" style="position:absolute;left:449px;top:113px;width:101px;height:86px;overflow:hidden;z-index:174">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2826,7 +2837,7 @@ function myFunctiongames1011() {
 
 </body>
 </html></div>
-<div id="Html76" style="position:absolute;left:566px;top:156px;width:101px;height:86px;overflow:hidden;z-index:174">
+<div id="Html76" style="position:absolute;left:561px;top:113px;width:101px;height:86px;overflow:hidden;z-index:175">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2843,7 +2854,7 @@ function myFunctiongames1012() {
 
 </body>
 </html></div>
-<div id="Html77" style="position:absolute;left:18px;top:257px;width:101px;height:86px;overflow:hidden;z-index:175">
+<div id="Html77" style="position:absolute;left:13px;top:214px;width:101px;height:86px;overflow:hidden;z-index:176">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2860,7 +2871,7 @@ function myFunctiongames1013() {
 
 </body>
 </html></div>
-<div id="Html78" style="position:absolute;left:126px;top:257px;width:101px;height:86px;overflow:hidden;z-index:176">
+<div id="Html78" style="position:absolute;left:121px;top:214px;width:101px;height:86px;overflow:hidden;z-index:177">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2877,11 +2888,11 @@ function myFunctiongames1014() {
 
 </body>
 </html></div>
-<div id="wb_Text69" style="position:absolute;left:24px;top:505px;width:642px;height:16px;z-index:177;">
+<div id="wb_Text69" style="position:absolute;left:19px;top:462px;width:642px;height:16px;z-index:178;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><em>Le changement d'un fond d'écran peut prendre quelques secondes en fonction de votre débit internet.</em></span></div>
 </div>
 <div style="height:510px;" id="jquerytabs3-page-2">
-<div id="Html65" style="position:absolute;left:18px;top:57px;width:101px;height:86px;overflow:hidden;z-index:178">
+<div id="Html65" style="position:absolute;left:13px;top:14px;width:101px;height:86px;overflow:hidden;z-index:179">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2898,7 +2909,7 @@ function myFunctionmovies1101() {
 
 </body>
 </html></div>
-<div id="Html79" style="position:absolute;left:129px;top:57px;width:101px;height:86px;overflow:hidden;z-index:179">
+<div id="Html79" style="position:absolute;left:124px;top:14px;width:101px;height:86px;overflow:hidden;z-index:180">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2915,7 +2926,7 @@ function myFunctionmovies1102() {
 
 </body>
 </html></div>
-<div id="Html80" style="position:absolute;left:237px;top:57px;width:101px;height:86px;overflow:hidden;z-index:180">
+<div id="Html80" style="position:absolute;left:232px;top:14px;width:101px;height:86px;overflow:hidden;z-index:181">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2932,7 +2943,7 @@ function myFunctionmovies1103() {
 
 </body>
 </html></div>
-<div id="Html81" style="position:absolute;left:348px;top:57px;width:101px;height:86px;overflow:hidden;z-index:181">
+<div id="Html81" style="position:absolute;left:343px;top:14px;width:101px;height:86px;overflow:hidden;z-index:182">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2949,7 +2960,7 @@ function myFunctionmovies1104() {
 
 </body>
 </html></div>
-<div id="Html82" style="position:absolute;left:462px;top:57px;width:101px;height:86px;overflow:hidden;z-index:182">
+<div id="Html82" style="position:absolute;left:457px;top:14px;width:101px;height:86px;overflow:hidden;z-index:183">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2966,7 +2977,7 @@ function myFunctionmovies1105() {
 
 </body>
 </html></div>
-<div id="Html83" style="position:absolute;left:571px;top:57px;width:101px;height:86px;overflow:hidden;z-index:183">
+<div id="Html83" style="position:absolute;left:566px;top:14px;width:101px;height:86px;overflow:hidden;z-index:184">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2983,7 +2994,7 @@ function myFunctionmovies1106() {
 
 </body>
 </html></div>
-<div id="Html84" style="position:absolute;left:18px;top:154px;width:101px;height:86px;overflow:hidden;z-index:184">
+<div id="Html84" style="position:absolute;left:13px;top:111px;width:101px;height:86px;overflow:hidden;z-index:185">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3000,7 +3011,7 @@ function myFunctionmovies1107() {
 
 </body>
 </html></div>
-<div id="Html85" style="position:absolute;left:129px;top:154px;width:101px;height:86px;overflow:hidden;z-index:185">
+<div id="Html85" style="position:absolute;left:124px;top:111px;width:101px;height:86px;overflow:hidden;z-index:186">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3017,7 +3028,7 @@ function myFunctionmovies1108() {
 
 </body>
 </html></div>
-<div id="Html86" style="position:absolute;left:237px;top:154px;width:101px;height:86px;overflow:hidden;z-index:186">
+<div id="Html86" style="position:absolute;left:232px;top:111px;width:101px;height:86px;overflow:hidden;z-index:187">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3034,7 +3045,7 @@ function myFunctionmovies1109() {
 
 </body>
 </html></div>
-<div id="Html87" style="position:absolute;left:348px;top:154px;width:101px;height:86px;overflow:hidden;z-index:187">
+<div id="Html87" style="position:absolute;left:343px;top:111px;width:101px;height:86px;overflow:hidden;z-index:188">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3051,7 +3062,7 @@ function myFunctionmovies1110() {
 
 </body>
 </html></div>
-<div id="Html88" style="position:absolute;left:462px;top:154px;width:101px;height:86px;overflow:hidden;z-index:188">
+<div id="Html88" style="position:absolute;left:457px;top:111px;width:101px;height:86px;overflow:hidden;z-index:189">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3068,7 +3079,7 @@ function myFunctionmovies1111() {
 
 </body>
 </html></div>
-<div id="Html89" style="position:absolute;left:571px;top:154px;width:101px;height:86px;overflow:hidden;z-index:189">
+<div id="Html89" style="position:absolute;left:566px;top:111px;width:101px;height:86px;overflow:hidden;z-index:190">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3085,7 +3096,7 @@ function myFunctionmovies1112() {
 
 </body>
 </html></div>
-<div id="Html90" style="position:absolute;left:18px;top:249px;width:101px;height:86px;overflow:hidden;z-index:190">
+<div id="Html90" style="position:absolute;left:13px;top:206px;width:101px;height:86px;overflow:hidden;z-index:191">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3102,7 +3113,7 @@ function myFunctionmovies1113() {
 
 </body>
 </html></div>
-<div id="Html91" style="position:absolute;left:129px;top:249px;width:101px;height:86px;overflow:hidden;z-index:191">
+<div id="Html91" style="position:absolute;left:124px;top:206px;width:101px;height:86px;overflow:hidden;z-index:192">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3119,11 +3130,11 @@ function myFunctionmovies1114() {
 
 </body>
 </html></div>
-<div id="wb_Text78" style="position:absolute;left:24px;top:505px;width:642px;height:16px;z-index:192;">
+<div id="wb_Text78" style="position:absolute;left:19px;top:462px;width:642px;height:16px;z-index:193;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><em>Le changement d'un fond d'écran peut prendre quelques secondes en fonction de votre débit internet.</em></span></div>
 </div>
 <div style="height:510px;" id="jquerytabs3-page-3">
-<div id="Html28" style="position:absolute;left:19px;top:57px;width:146px;height:86px;overflow:hidden;z-index:193">
+<div id="Html28" style="position:absolute;left:14px;top:14px;width:146px;height:86px;overflow:hidden;z-index:194">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3140,7 +3151,7 @@ function myFunctionmovies91911() {
 
 </body>
 </html></div>
-<div id="Html29" style="position:absolute;left:177px;top:57px;width:146px;height:86px;overflow:hidden;z-index:194">
+<div id="Html29" style="position:absolute;left:172px;top:14px;width:146px;height:86px;overflow:hidden;z-index:195">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3157,7 +3168,7 @@ function myFunctionmovies91912() {
 
 </body>
 </html></div>
-<div id="Html60" style="position:absolute;left:339px;top:57px;width:146px;height:86px;overflow:hidden;z-index:195">
+<div id="Html60" style="position:absolute;left:334px;top:14px;width:146px;height:86px;overflow:hidden;z-index:196">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3174,7 +3185,7 @@ function myFunctionmovies91913() {
 
 </body>
 </html></div>
-<div id="Html99" style="position:absolute;left:499px;top:57px;width:146px;height:86px;overflow:hidden;z-index:196">
+<div id="Html99" style="position:absolute;left:494px;top:14px;width:146px;height:86px;overflow:hidden;z-index:197">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3191,7 +3202,7 @@ function myFunctionmovies91914() {
 
 </body>
 </html></div>
-<div id="Html100" style="position:absolute;left:19px;top:153px;width:146px;height:86px;overflow:hidden;z-index:197">
+<div id="Html100" style="position:absolute;left:14px;top:110px;width:146px;height:86px;overflow:hidden;z-index:198">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3208,7 +3219,7 @@ function myFunctionmovies91915() {
 
 </body>
 </html></div>
-<div id="Html101" style="position:absolute;left:179px;top:153px;width:146px;height:86px;overflow:hidden;z-index:198">
+<div id="Html101" style="position:absolute;left:174px;top:110px;width:146px;height:86px;overflow:hidden;z-index:199">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3225,7 +3236,7 @@ function myFunctionmovies91916() {
 
 </body>
 </html></div>
-<div id="Html102" style="position:absolute;left:339px;top:153px;width:146px;height:86px;overflow:hidden;z-index:199">
+<div id="Html102" style="position:absolute;left:334px;top:110px;width:146px;height:86px;overflow:hidden;z-index:200">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3242,7 +3253,7 @@ function myFunctionmovies91917() {
 
 </body>
 </html></div>
-<div id="Html103" style="position:absolute;left:499px;top:153px;width:146px;height:86px;overflow:hidden;z-index:200">
+<div id="Html103" style="position:absolute;left:494px;top:110px;width:146px;height:86px;overflow:hidden;z-index:201">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3259,7 +3270,7 @@ function myFunctionmovies91918() {
 
 </body>
 </html></div>
-<div id="Html104" style="position:absolute;left:19px;top:253px;width:146px;height:86px;overflow:hidden;z-index:201">
+<div id="Html104" style="position:absolute;left:14px;top:210px;width:146px;height:86px;overflow:hidden;z-index:202">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3276,7 +3287,7 @@ function myFunctionmovies91920() {
 
 </body>
 </html></div>
-<div id="Html105" style="position:absolute;left:179px;top:253px;width:146px;height:86px;overflow:hidden;z-index:202">
+<div id="Html105" style="position:absolute;left:174px;top:210px;width:146px;height:86px;overflow:hidden;z-index:203">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3293,7 +3304,7 @@ function myFunctionmovies91921() {
 
 </body>
 </html></div>
-<div id="Html106" style="position:absolute;left:339px;top:253px;width:146px;height:86px;overflow:hidden;z-index:203">
+<div id="Html106" style="position:absolute;left:334px;top:210px;width:146px;height:86px;overflow:hidden;z-index:204">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3310,7 +3321,7 @@ function myFunctionmovies91922() {
 
 </body>
 </html></div>
-<div id="Html107" style="position:absolute;left:499px;top:253px;width:146px;height:86px;overflow:hidden;z-index:204">
+<div id="Html107" style="position:absolute;left:494px;top:210px;width:146px;height:86px;overflow:hidden;z-index:205">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3327,7 +3338,7 @@ function myFunctionmovies91923() {
 
 </body>
 </html></div>
-<div id="Html108" style="position:absolute;left:19px;top:351px;width:146px;height:86px;overflow:hidden;z-index:205">
+<div id="Html108" style="position:absolute;left:14px;top:308px;width:146px;height:86px;overflow:hidden;z-index:206">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3344,7 +3355,7 @@ function myFunctionmovies91924() {
 
 </body>
 </html></div>
-<div id="Html109" style="position:absolute;left:179px;top:351px;width:146px;height:86px;overflow:hidden;z-index:206">
+<div id="Html109" style="position:absolute;left:174px;top:308px;width:146px;height:86px;overflow:hidden;z-index:207">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3361,7 +3372,7 @@ function myFunctionmovies91925() {
 
 </body>
 </html></div>
-<div id="Html110" style="position:absolute;left:339px;top:351px;width:146px;height:86px;overflow:hidden;z-index:207">
+<div id="Html110" style="position:absolute;left:334px;top:308px;width:146px;height:86px;overflow:hidden;z-index:208">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3378,7 +3389,7 @@ function myFunctionmovies91926() {
 
 </body>
 </html></div>
-<div id="Html111" style="position:absolute;left:499px;top:351px;width:146px;height:86px;overflow:hidden;z-index:208">
+<div id="Html111" style="position:absolute;left:494px;top:308px;width:146px;height:86px;overflow:hidden;z-index:209">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3395,7 +3406,7 @@ function myFunctionmovies91927() {
 
 </body>
 </html></div>
-<div id="Html112" style="position:absolute;left:19px;top:448px;width:146px;height:76px;overflow:hidden;z-index:209">
+<div id="Html112" style="position:absolute;left:14px;top:405px;width:146px;height:76px;overflow:hidden;z-index:210">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3412,7 +3423,7 @@ function myFunctionmovies91928() {
 
 </body>
 </html></div>
-<div id="wb_Text79" style="position:absolute;left:247px;top:492px;width:399px;height:32px;z-index:210;">
+<div id="wb_Text79" style="position:absolute;left:242px;top:449px;width:399px;height:32px;z-index:211;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><em>Le changement d'un fond d'écran peut prendre quelques secondes en fonction de votre débit internet.</em></span></div>
 </div>
 </div>
@@ -3433,25 +3444,25 @@ function myFunctionmovies91928() {
 </div>
 
 <div id="jQueryDialog34" style="z-index:590;" title="Affichage de votre adresse IP [Service non fonctionnel en HTTPS]">
-<div id="wb_MaterialIcon15" style="position:absolute;left:4px;top:10px;width:37px;height:37px;text-align:center;z-index:215;">
+<div id="wb_MaterialIcon15" style="position:absolute;left:4px;top:10px;width:37px;height:37px;text-align:center;z-index:216;">
 <a href="#" onclick="$('#jQueryDialog11').dialog('open');$('#jQueryDialog34').dialog('close');return false;"><div id="MaterialIcon15"><i class="material-icons">&#xe5cb;</i></div></a></div>
-<div id="Html21" style="position:absolute;left:51px;top:10px;width:411px;height:62px;z-index:216">
+<div id="Html21" style="position:absolute;left:51px;top:10px;width:411px;height:62px;z-index:217">
 ADRESSE IP : 
 <?
 
 echo $_SERVER["REMOTE_ADDR"];
 
 ?></div>
-<div id="wb_Text26" style="position:absolute;left:15px;top:84px;width:453px;height:64px;z-index:217;">
+<div id="wb_Text26" style="position:absolute;left:15px;top:84px;width:453px;height:64px;z-index:218;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">L'adresse IP inscrite ici dépend de votre carte réseau originelle et non pas du site internet du WebOS. Celle ci s'affiche en fonction de votre configuration&nbsp;; soit en Ipv4, ou bien en Ipv6. Elle ne peut pas être modifié via cette afficheur informatif.</span></div>
 </div>
 
 <div id="jQueryDialog39" style="z-index:591;" title="Verification de la protection">
-<div id="wb_MaterialIcon20" style="position:absolute;left:4px;top:10px;width:37px;height:37px;text-align:center;z-index:218;">
+<div id="wb_MaterialIcon20" style="position:absolute;left:4px;top:10px;width:37px;height:37px;text-align:center;z-index:219;">
 <a href="#" onclick="$('#jQueryDialog11').dialog('open');$('#jQueryDialog39').dialog('close');return false;"><div id="MaterialIcon20"><i class="material-icons">&#xe5cb;</i></div></a></div>
-<div id="wb_MaterialIcon21" style="position:absolute;left:48px;top:10px;width:106px;height:100px;text-align:center;z-index:219;">
+<div id="wb_MaterialIcon21" style="position:absolute;left:48px;top:10px;width:106px;height:100px;text-align:center;z-index:220;">
 <div id="MaterialIcon21"><i class="material-icons">&#xe32a;</i></div></div>
-<div id="wb_Text37" style="position:absolute;left:165px;top:10px;width:538px;height:128px;text-align:justify;z-index:220;">
+<div id="wb_Text37" style="position:absolute;left:165px;top:10px;width:538px;height:128px;text-align:justify;z-index:221;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Ce serveur utilise par défaut une protection générale contre les programmes malveillants.<br>Le serveur par défaut rynnawebos.fr chez 1and1 permet également de protéger le serveur des attaques DDoS et PingOfDeath.<br>Cette règle de sécurité ne s'applique que sur le serveur <strong><u>rynnawebos.fr</u></strong><br><br><strong>Si vous utilisez ce WebOS via <u>une autre adresse internet</u> et que son administrateur n'a pas modifié le texte ici présent, nous vous conseillons de le contacter pour vérifier avec lui les sécurités de son propre serveur.</strong></span></div>
 </div>
 
@@ -3460,14 +3471,14 @@ echo $_SERVER["REMOTE_ADDR"];
 </div>
 
 <div id="jQueryDialog35" style="z-index:593;" title="Supprimer votre compte">
-<div id="wb_Text34" style="position:absolute;left:12px;top:61px;width:377px;height:112px;z-index:222;">
+<div id="wb_Text34" style="position:absolute;left:12px;top:61px;width:377px;height:112px;z-index:223;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Pour supprimer votre compte pour l'instant vous devez écrire un mail à support@rynnawebos.fr<br><br>Votre compte sera alors supprimé (ainsi que vos fichiers hébergés) dans les 72 heures.<br><br>Merci pour votre patience.</span></div>
-<div id="wb_MaterialIcon16" style="position:absolute;left:4px;top:10px;width:37px;height:37px;text-align:center;z-index:223;">
+<div id="wb_MaterialIcon16" style="position:absolute;left:4px;top:10px;width:37px;height:37px;text-align:center;z-index:224;">
 <a href="#" onclick="$('#jQueryDialog11').dialog('open');$('#jQueryDialog35').dialog('close');return false;"><div id="MaterialIcon16"><i class="material-icons">&#xe5cb;</i></div></a></div>
 </div>
 
 <div id="jQueryDialog43" style="z-index:594;" title="Cr&#233;ateur d&#39;application WebOS (sans programmer)">
-<div id="wb_Text18" style="position:absolute;left:16px;top:19px;width:250px;height:16px;z-index:224;">
+<div id="wb_Text18" style="position:absolute;left:16px;top:19px;width:250px;height:16px;z-index:225;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Préparation en cours...</span></div>
 </div>
 
@@ -3486,9 +3497,9 @@ echo $_SERVER["REMOTE_ADDR"];
 </div>
 
 <div id="jQueryDialog48" style="z-index:598;" title="Hebergeur d&#39;Images en ligne (serveur)">
-<div id="Html113" style="position:absolute;left:17px;top:19px;width:765px;height:476px;z-index:228">
+<div id="Html113" style="position:absolute;left:17px;top:19px;width:765px;height:476px;z-index:229">
 <object data="uploads/index.php" type="text/html" width="100%" height="100%" style="overflow:auto" ></object></div>
-<input type="button" id="Button33" onclick="$('#jQueryDialog67').dialog('open');return false;" name="" value="Ajouter une nouvelle image au dossier (publique)" style="position:absolute;left:20px;top:507px;width:762px;height:25px;z-index:229;">
+<input type="button" id="Button33" onclick="$('#jQueryDialog67').dialog('open');return false;" name="" value="Ajouter une nouvelle image au dossier (publique)" style="position:absolute;left:20px;top:507px;width:762px;height:25px;z-index:230;">
 </div>
 
 <script>
@@ -3531,35 +3542,35 @@ function TimerStopTimer7()
 
 
 <div id="jQueryDialog50" title="Gestionnaire de t&#226;ches avanc&#233;s">
-<div id="wb_Text47" style="position:absolute;left:11px;top:15px;width:592px;height:48px;z-index:249;">
+<div id="wb_Text47" style="position:absolute;left:11px;top:15px;width:592px;height:48px;z-index:250;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Pour votre sécurité les pointeurs et la barre de tâches ont été actualisés.<br>Vous pouvez découvrir ici les applications principales du WebOS et gérer leurs fonctionnements ci-dessous&nbsp;:</span></div>
-<div id="jQueryTabs4" style="position:absolute;left:10px;top:73px;width:584px;height:398px;z-index:250;">
+<div id="jQueryTabs4" style="position:absolute;left:10px;top:73px;width:584px;height:398px;z-index:251;">
 <ul>
 <li><a href="#jquerytabs4-page-0"><span>Forcage fermeture</span></a></li>
 <li><a href="#jquerytabs4-page-1"><span>Information navigateur</span></a></li>
 </ul>
 <div style="height:376px;" id="jquerytabs4-page-0">
-<input type="button" id="Button10" onclick="$('#jQueryDialog1').dialog('close');return false;" name="" value="Menu Applicatifs" style="position:absolute;left:16px;top:58px;width:251px;height:25px;z-index:231;">
-<input type="button" id="Button11" onclick="$('#jQueryDialog3').dialog('close');return false;" name="" value="Applis installées" style="position:absolute;left:309px;top:58px;width:251px;height:25px;z-index:232;">
-<input type="button" id="Button13" onclick="$('#jQueryDialog9').dialog('close');return false;" name="" value="Application Windows" style="position:absolute;left:16px;top:93px;width:251px;height:25px;z-index:233;">
-<input type="button" id="Button14" onclick="$('#jQueryDialog13').dialog('close');return false;" name="" value="Messagerie NetCourriel" style="position:absolute;left:309px;top:93px;width:251px;height:25px;z-index:234;">
-<input type="button" id="Button16" onclick="$('#jQueryDialog31').dialog('close');return false;" name="" value="Dépôt Applications" style="position:absolute;left:16px;top:130px;width:251px;height:25px;z-index:235;">
-<input type="button" id="Button17" onclick="$('#jQueryDialog16').dialog('close');return false;" name="" value="Street View" style="position:absolute;left:309px;top:130px;width:251px;height:25px;z-index:236;">
-<input type="button" id="Button18" onclick="$('#jQueryDialog12').dialog('close');return false;" name="" value="Applications virtualisées" style="position:absolute;left:16px;top:167px;width:251px;height:25px;z-index:237;">
-<input type="button" id="Button19" onclick="$('#jQueryDialog10').dialog('close');return false;" name="" value="Chat WebOS" style="position:absolute;left:309px;top:167px;width:251px;height:25px;z-index:238;">
-<input type="button" id="Button20" onclick="$('#jQueryDialog40').dialog('close');return false;" name="" value="Editeur 3D Tridiv" style="position:absolute;left:16px;top:204px;width:251px;height:25px;z-index:239;">
-<input type="button" id="Button21" onclick="$('#jQueryDialog42').dialog('close');return false;" name="" value="Applications d'Entreprise" style="position:absolute;left:309px;top:204px;width:251px;height:25px;z-index:240;">
-<input type="button" id="Button22" onclick="$('#jQueryDialog11').dialog('close');return false;" name="" value="Paramètres et Aides" style="position:absolute;left:16px;top:240px;width:251px;height:25px;z-index:241;">
-<input type="button" id="Button23" onclick="$('#jQueryDialog41').dialog('close');return false;" name="" value="Gestionnaire de jeux" style="position:absolute;left:309px;top:240px;width:251px;height:25px;z-index:242;">
-<input type="button" id="Button24" onclick="$('#jQueryDialog19').dialog('close');return false;" name="" value="Terminal renseignements" style="position:absolute;left:16px;top:278px;width:251px;height:25px;z-index:243;">
-<input type="button" id="Button25" onclick="$('#jQueryDialog8').dialog('close');return false;" name="" value="Navigateur Web Qwant" style="position:absolute;left:309px;top:278px;width:251px;height:25px;z-index:244;">
-<input type="button" id="Button26" onclick="$('#jQueryDialog5').dialog('close');return false;" name="" value="Explorateur de fichiers" style="position:absolute;left:16px;top:315px;width:251px;height:25px;z-index:245;">
-<input type="button" id="Button27" onclick="$('#jQueryDialog21').dialog('close');return false;" name="" value="Fenêtre de Bienvenue" style="position:absolute;left:309px;top:315px;width:251px;height:25px;z-index:246;">
-<div id="wb_Text49" style="position:absolute;left:16px;top:372px;width:513px;height:16px;z-index:247;">
+<input type="button" id="Button10" onclick="$('#jQueryDialog1').dialog('close');return false;" name="" value="Menu Applicatifs" style="position:absolute;left:11px;top:15px;width:251px;height:25px;z-index:232;">
+<input type="button" id="Button11" onclick="$('#jQueryDialog3').dialog('close');return false;" name="" value="Applis installées" style="position:absolute;left:304px;top:15px;width:251px;height:25px;z-index:233;">
+<input type="button" id="Button13" onclick="$('#jQueryDialog9').dialog('close');return false;" name="" value="Application Windows" style="position:absolute;left:11px;top:50px;width:251px;height:25px;z-index:234;">
+<input type="button" id="Button14" onclick="$('#jQueryDialog13').dialog('close');return false;" name="" value="Messagerie NetCourriel" style="position:absolute;left:304px;top:50px;width:251px;height:25px;z-index:235;">
+<input type="button" id="Button16" onclick="$('#jQueryDialog31').dialog('close');return false;" name="" value="Dépôt Applications" style="position:absolute;left:11px;top:87px;width:251px;height:25px;z-index:236;">
+<input type="button" id="Button17" onclick="$('#jQueryDialog16').dialog('close');return false;" name="" value="Street View" style="position:absolute;left:304px;top:87px;width:251px;height:25px;z-index:237;">
+<input type="button" id="Button18" onclick="$('#jQueryDialog12').dialog('close');return false;" name="" value="Applications virtualisées" style="position:absolute;left:11px;top:124px;width:251px;height:25px;z-index:238;">
+<input type="button" id="Button19" onclick="$('#jQueryDialog10').dialog('close');return false;" name="" value="Chat WebOS" style="position:absolute;left:304px;top:124px;width:251px;height:25px;z-index:239;">
+<input type="button" id="Button20" onclick="$('#jQueryDialog40').dialog('close');return false;" name="" value="Editeur 3D Tridiv" style="position:absolute;left:11px;top:161px;width:251px;height:25px;z-index:240;">
+<input type="button" id="Button21" onclick="$('#jQueryDialog42').dialog('close');return false;" name="" value="Applications d'Entreprise" style="position:absolute;left:304px;top:161px;width:251px;height:25px;z-index:241;">
+<input type="button" id="Button22" onclick="$('#jQueryDialog11').dialog('close');return false;" name="" value="Paramètres et Aides" style="position:absolute;left:11px;top:197px;width:251px;height:25px;z-index:242;">
+<input type="button" id="Button23" onclick="$('#jQueryDialog41').dialog('close');return false;" name="" value="Gestionnaire de jeux" style="position:absolute;left:304px;top:197px;width:251px;height:25px;z-index:243;">
+<input type="button" id="Button24" onclick="$('#jQueryDialog19').dialog('close');return false;" name="" value="Terminal renseignements" style="position:absolute;left:11px;top:235px;width:251px;height:25px;z-index:244;">
+<input type="button" id="Button25" onclick="$('#jQueryDialog8').dialog('close');return false;" name="" value="Navigateur Web Qwant" style="position:absolute;left:304px;top:235px;width:251px;height:25px;z-index:245;">
+<input type="button" id="Button26" onclick="$('#jQueryDialog5').dialog('close');return false;" name="" value="Explorateur de fichiers" style="position:absolute;left:11px;top:272px;width:251px;height:25px;z-index:246;">
+<input type="button" id="Button27" onclick="$('#jQueryDialog21').dialog('close');return false;" name="" value="Fenêtre de Bienvenue" style="position:absolute;left:304px;top:272px;width:251px;height:25px;z-index:247;">
+<div id="wb_Text49" style="position:absolute;left:11px;top:329px;width:513px;height:16px;z-index:248;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Information&nbsp;: les programmes doivent être ouverts à l'écran pour être fermés.</span></div>
 </div>
 <div style="height:376px;" id="jquerytabs4-page-1">
-<div id="wb_JavaScript2" style="position:absolute;left:21px;top:59px;width:555px;height:301px;z-index:248;">
+<div id="wb_JavaScript2" style="position:absolute;left:16px;top:16px;width:555px;height:301px;z-index:249;">
 <script>
 document.write("<div style='font-family:Arial;font-size:14px;color:#000000;text-decoration:none;font-weight:normal;font-style:normal;text-align:left;text-decoration:none'>" + navigator.appName + " " + navigator.appVersion + "<\/div>");
 </script>
@@ -3589,17 +3600,17 @@ function TimerStopTimer8()
 
 
 <div id="jQueryDialog53" style="z-index:607;" title="[WIDGET] Notes">
-<textarea name="TextArea1" id="TextArea1" style="position:absolute;left:14px;top:11px;width:238px;height:166px;z-index:269;" rows="9" cols="37" spellcheck="false"></textarea>
+<textarea name="TextArea1" id="TextArea1" style="position:absolute;left:14px;top:11px;width:238px;height:166px;z-index:270;" rows="9" cols="37" spellcheck="false"></textarea>
 </div>
 
 <div id="jQueryDialog15" style="z-index:608;" title="[WIDGET] Calendrier">
-<input type="text" id="jQueryDatePicker1" style="position:absolute;left:18px;top:6px;width:236px;height:164px;line-height:164px;z-index:270;" name="jQueryDatePicker1" value="" spellcheck="false">
+<input type="text" id="jQueryDatePicker1" style="position:absolute;left:18px;top:6px;width:236px;height:164px;line-height:164px;z-index:271;" name="jQueryDatePicker1" value="" spellcheck="false">
 </div>
 
 
 <div id="jQueryDialog30" style="z-index:610;" title="Concepteur d&#39;application Web (alpha 0.3)">
-<input type="submit" id="Button3" onclick="$('#jQueryDialog22').dialog('open');$('#jQueryDialog30').dialog('close');return false;" name="" value="Ouvrir le concepteur d'application Web (version PHP/HTML)" style="position:absolute;left:45px;top:86px;width:404px;height:25px;z-index:271;">
-<div id="wb_Text8" style="position:absolute;left:15px;top:17px;width:451px;height:48px;text-align:justify;z-index:272;">
+<input type="submit" id="Button3" onclick="$('#jQueryDialog22').dialog('open');$('#jQueryDialog30').dialog('close');return false;" name="" value="Ouvrir le concepteur d'application Web (version PHP/HTML)" style="position:absolute;left:45px;top:86px;width:404px;height:25px;z-index:272;">
+<div id="wb_Text8" style="position:absolute;left:15px;top:17px;width:451px;height:48px;text-align:justify;z-index:273;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Notre équipe remercie grandement Maxime G., développeur Web et ami, pour son aide à la conception du Concepteur d'Applications Web côté PHP et pour la sécurité du système.</span></div>
 </div>
 
@@ -3661,7 +3672,7 @@ function TimerStopTimer1()
 </div>
 
 <div id="jQueryDialog21" title="Oups !">
-<div id="wb_Text103" style="position:absolute;left:15px;top:19px;width:438px;height:112px;z-index:282;">
+<div id="wb_Text103" style="position:absolute;left:15px;top:19px;width:438px;height:112px;z-index:283;">
 <span style="color:#DC143C;font-family:Arial;font-size:13px;"><strong>Une erreur est survenue&nbsp;!<br>Nous ne pouvons rien faire pour vous...<br><br>Nous vous conseillons d'attendre une mise à jour du WebOS pour poursuivre l'action demandée.<br><br>Merci pour votre patience.</strong></span></div>
 </div>
 
@@ -3700,26 +3711,26 @@ function TimerStopTimer3()
 TimerStartTimer3();
 </script>
 
-<div id="Layer6" style="position:absolute;text-align:left;left:247px;top:88px;width:527px;height:371px;z-index:291;">
+<div id="Layer6" style="position:absolute;text-align:left;left:247px;top:88px;width:527px;height:371px;z-index:292;">
 </div>
-<div id="Layer35" style="position:absolute;text-align:left;left:142px;top:518px;width:761px;height:136px;z-index:292;">
-<div id="wb_Text40" style="position:absolute;left:48px;top:30px;width:664px;height:67px;text-align:center;z-index:288;">
+<div id="Layer35" style="position:absolute;text-align:left;left:142px;top:518px;width:761px;height:136px;z-index:293;">
+<div id="wb_Text40" style="position:absolute;left:48px;top:30px;width:664px;height:67px;text-align:center;z-index:289;">
 <span style="color:#000000;font-family:Arial;font-size:19px;">Votre session est à présent en attente de reprise...<br></span><span style="color:#000000;font-family:Arial;font-size:12px;"><em><u>Cliquez n'importe où pour reprendre votre session<br></u><br>Attention&nbsp;: vous serez déconnecté dans 24 heures.</em></span></div>
 </div>
 </div>
 <div id="jQueryDialog18" title="Modifier votre session ?">
-<div id="wb_Text89" style="position:absolute;left:9px;top:12px;width:364px;height:48px;text-align:justify;z-index:293;">
+<div id="wb_Text89" style="position:absolute;left:9px;top:12px;width:364px;height:48px;text-align:justify;z-index:294;">
 <span style="color:#000000;font-family:Arial;font-size:13px;"><strong>Souhaitez-vous vraiment modifier votre session&nbsp;?</strong><br>Cela entrainera une fermeture de votre session mais ne vous deconnectera pas (vos Cookies doivent être autorisées).</span></div>
-<input type="button" id="Button29" onclick="$('#jQueryDialog18').dialog('close');return false;" name="" value="NON" style="position:absolute;left:35px;top:81px;width:96px;height:25px;z-index:294;">
-<input type="submit" id="Button30" onclick="window.location.href='./modifuser.php';return false;" name="" value="OUI" style="position:absolute;left:272px;top:81px;width:96px;height:25px;z-index:295;">
+<input type="button" id="Button29" onclick="$('#jQueryDialog18').dialog('close');return false;" name="" value="NON" style="position:absolute;left:35px;top:81px;width:96px;height:25px;z-index:295;">
+<input type="submit" id="Button30" onclick="window.location.href='./modifuser.php';return false;" name="" value="OUI" style="position:absolute;left:272px;top:81px;width:96px;height:25px;z-index:296;">
 </div>
 
 <div id="jQueryDialog2" style="z-index:624;" title="Gestion des erreurs (Kernel PHP)">
-<div id="wb_MaterialIcon55" style="position:absolute;left:4px;top:10px;width:37px;height:37px;text-align:center;z-index:296;">
+<div id="wb_MaterialIcon55" style="position:absolute;left:4px;top:10px;width:37px;height:37px;text-align:center;z-index:297;">
 <a href="#" onclick="$('#jQueryDialog11').dialog('open');$('#jQueryDialog2').dialog('close');return false;"><div id="MaterialIcon55"><i class="material-icons">&#xe5cb;</i></div></a></div>
-<div id="wb_Text91" style="position:absolute;left:73px;top:19px;width:347px;height:16px;z-index:297;">
+<div id="wb_Text91" style="position:absolute;left:73px;top:19px;width:347px;height:16px;z-index:298;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Listes des erreurs gérées par le WebOS&nbsp;:</span></div>
-<table style="position:absolute;left:23px;top:57px;width:401px;height:350px;z-index:298;" id="Table1">
+<table style="position:absolute;left:23px;top:57px;width:401px;height:350px;z-index:299;" id="Table1">
 <tr>
 <td class="cell0"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"> 300</span></td>
 <td class="cell0"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"> 301</span></td>
@@ -3796,55 +3807,55 @@ TimerStartTimer3();
 <td class="cell1"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;"> </span></td>
 </tr>
 </table>
-<input type="button" id="Button1" onclick="ShowObject('wb_PageHeader', 0);TimerStartTimer8();return false;" name="" value="Cliquez ici pour ouvrir le Gestionnaire de Tâches" style="position:absolute;left:23px;top:415px;width:401px;height:25px;z-index:299;">
+<input type="button" id="Button1" onclick="ShowObject('wb_PageHeader', 0);TimerStartTimer8();return false;" name="" value="Cliquez ici pour ouvrir le Gestionnaire de Tâches" style="position:absolute;left:23px;top:415px;width:401px;height:25px;z-index:300;">
 </div>
 
 <div id="jQueryDialog26" style="z-index:625;" title="Maintenance">
-<div id="wb_MaterialIcon56" style="position:absolute;left:4px;top:10px;width:37px;height:37px;text-align:center;z-index:300;">
+<div id="wb_MaterialIcon56" style="position:absolute;left:4px;top:10px;width:37px;height:37px;text-align:center;z-index:301;">
 <a href="#" onclick="$('#jQueryDialog11').dialog('open');$('#jQueryDialog26').dialog('close');return false;"><div id="MaterialIcon56"><i class="material-icons">&#xe5cb;</i></div></a></div>
-<div id="wb_Text92" style="position:absolute;left:73px;top:19px;width:347px;height:112px;z-index:301;">
+<div id="wb_Text92" style="position:absolute;left:73px;top:19px;width:347px;height:112px;z-index:302;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Vous pouvez tester la qualité de votre écran par Pixel/Afficheur animé en cliquant sur le bouton ci-dessous.<br><br>Si vous détectez des problèmes de netteté et d'affichages de pixels vous pouvez contatcter votre Administrateur Système ou changer d'écran (si possible) par un écran plus grand et de meilleure qualité (full HD préférable).</span></div>
-<input type="button" id="Button46" onclick="$('#jQueryDialog77').dialog('open');return false;" name="" value="Afficher le testeur" style="position:absolute;left:33px;top:159px;width:387px;height:25px;z-index:302;">
+<input type="button" id="Button46" onclick="$('#jQueryDialog77').dialog('open');return false;" name="" value="Afficher le testeur" style="position:absolute;left:33px;top:159px;width:387px;height:25px;z-index:303;">
 </div>
 
 <div id="jQueryDialog64" style="z-index:626;" title="Simulateur Smartphone (0.5)">
-<input type="button" id="Button31" onclick="$('#jQueryDialog65').dialog('open');$('#jQueryDialog64').dialog('close');return false;" name="" value="Simulateur iPhone X" style="position:absolute;left:20px;top:28px;width:317px;height:25px;z-index:303;">
-<input type="button" id="Button32" onclick="$('#jQueryDialog66').dialog('open');$('#jQueryDialog64').dialog('close');return false;" name="" value="Simulateur Samsung Galaxy s8" style="position:absolute;left:20px;top:68px;width:317px;height:25px;z-index:304;">
+<input type="button" id="Button31" onclick="$('#jQueryDialog65').dialog('open');$('#jQueryDialog64').dialog('close');return false;" name="" value="Simulateur iPhone X" style="position:absolute;left:20px;top:28px;width:317px;height:25px;z-index:304;">
+<input type="button" id="Button32" onclick="$('#jQueryDialog66').dialog('open');$('#jQueryDialog64').dialog('close');return false;" name="" value="Simulateur Samsung Galaxy s8" style="position:absolute;left:20px;top:68px;width:317px;height:25px;z-index:305;">
 </div>
 
 <div id="jQueryDialog65" style="z-index:627;" title="Simulateur iPhone X (test de sites Web et WebApps)">
-<div id="Layer30" style="position:absolute;text-align:left;left:59px;top:42px;width:253px;height:40px;z-index:305;">
+<div id="Layer30" style="position:absolute;text-align:left;left:59px;top:42px;width:253px;height:40px;z-index:306;">
 </div>
-<div id="wb_Image40" style="position:absolute;left:31px;top:25px;width:307px;height:616px;z-index:306;">
+<div id="wb_Image40" style="position:absolute;left:31px;top:25px;width:307px;height:616px;z-index:307;">
 <img src="images/nue_iphone8_design_final_2018.png" id="Image40" alt=""></div>
-<div id="Html18" style="position:absolute;left:51px;top:42px;width:268px;height:582px;overflow:hidden;z-index:307">
+<div id="Html18" style="position:absolute;left:51px;top:42px;width:268px;height:582px;overflow:hidden;z-index:308">
 <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
    src="addeosapps/mobiledemo.php">
 </iframe></div>
-<div id="wb_Image41" style="position:absolute;left:101px;top:42px;width:178px;height:29px;z-index:308;">
+<div id="wb_Image41" style="position:absolute;left:101px;top:42px;width:178px;height:29px;z-index:309;">
 <img src="images/iphone8_simulation_haut.png" id="Image41" alt=""></div>
-<input type="button" id="Button36" onclick="window.confirm('iOS 11');return false;" name="" value="Version iOS" style="position:absolute;left:352px;top:42px;width:222px;height:25px;z-index:309;">
-<input type="button" id="Button37" onclick="$('#jQueryDialog64').dialog('open');$('#jQueryDialog65').dialog('close');return false;" name="" value="Retour Simuateur" style="position:absolute;left:354px;top:616px;width:222px;height:25px;z-index:310;">
-<div id="wb_Text97" style="position:absolute;left:-1px;top:6px;width:474px;height:15px;z-index:311;">
+<input type="button" id="Button36" onclick="window.confirm('iOS 11');return false;" name="" value="Version iOS" style="position:absolute;left:352px;top:42px;width:222px;height:25px;z-index:310;">
+<input type="button" id="Button37" onclick="$('#jQueryDialog64').dialog('open');$('#jQueryDialog65').dialog('close');return false;" name="" value="Retour Simuateur" style="position:absolute;left:354px;top:616px;width:222px;height:25px;z-index:311;">
+<div id="wb_Text97" style="position:absolute;left:-1px;top:6px;width:474px;height:15px;z-index:312;">
 <span style="color:#000000;font-family:Arial;font-size:12px;">Simulateur Smartphone conçu par AlgoStep Company - service gratuit</span></div>
 </div>
 
 <div id="jQueryDialog66" style="z-index:628;" title="Simulateur Samsung Galaxy s8 (test de sites Web et WebApps)">
-<div id="wb_Image42" style="position:absolute;left:55px;top:16px;width:301px;height:642px;z-index:312;">
+<div id="wb_Image42" style="position:absolute;left:55px;top:16px;width:301px;height:642px;z-index:313;">
 <img src="images/Samsung-Galaxy-S8-0.png" id="Image42" alt=""></div>
-<div id="Html20" style="position:absolute;left:70px;top:57px;width:270px;height:563px;overflow:hidden;z-index:313">
+<div id="Html20" style="position:absolute;left:70px;top:57px;width:270px;height:563px;overflow:hidden;z-index:314">
 <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
    src="addeosapps/mobiledemo.php">
 </iframe></div>
-<input type="button" id="Button38" name="" value="Action bouton central (sous écran)" style="position:absolute;left:366px;top:42px;width:222px;height:25px;z-index:314;">
-<input type="button" id="Button41" onclick="window.confirm('Android 7.0');return false;" name="" value="Version Android" style="position:absolute;left:366px;top:90px;width:222px;height:25px;z-index:315;">
-<input type="button" id="Button42" onclick="$('#jQueryDialog64').dialog('open');$('#jQueryDialog66').dialog('close');return false;" name="" value="Retour Simuateur" style="position:absolute;left:370px;top:627px;width:222px;height:25px;z-index:316;">
-<div id="wb_Text98" style="position:absolute;left:8px;top:6px;width:474px;height:15px;z-index:317;">
+<input type="button" id="Button38" name="" value="Action bouton central (sous écran)" style="position:absolute;left:366px;top:42px;width:222px;height:25px;z-index:315;">
+<input type="button" id="Button41" onclick="window.confirm('Android 7.0');return false;" name="" value="Version Android" style="position:absolute;left:366px;top:90px;width:222px;height:25px;z-index:316;">
+<input type="button" id="Button42" onclick="$('#jQueryDialog64').dialog('open');$('#jQueryDialog66').dialog('close');return false;" name="" value="Retour Simuateur" style="position:absolute;left:370px;top:627px;width:222px;height:25px;z-index:317;">
+<div id="wb_Text98" style="position:absolute;left:8px;top:6px;width:474px;height:15px;z-index:318;">
 <span style="color:#000000;font-family:Arial;font-size:12px;">Simulateur Smartphone conçu par AlgoStep Company - service gratuit</span></div>
 </div>
 
 <div id="jQueryDialog67" style="z-index:629;" title="Envoi rapide">
-<div id="wb_Extension1" style="position:absolute;left:21px;top:66px;width:845px;height:212px;z-index:318;">
+<div id="wb_Extension1" style="position:absolute;left:21px;top:66px;width:845px;height:212px;z-index:319;">
 <div id="Extension1">
 <div class="upload-drop-target"><h2>Glisser et déposer vos fichiers dans ce cadre (jpg, jpeg, gif ou png)</h2></div>
 <input type="file" multiple="">
@@ -3853,7 +3864,7 @@ TimerStartTimer3();
 <a class="button upload-submit" href="#">Envoyer</a>
 </div>
 </div>
-<div id="wb_Text100" style="position:absolute;left:27px;top:13px;width:832px;height:32px;z-index:319;">
+<div id="wb_Text100" style="position:absolute;left:27px;top:13px;width:832px;height:32px;z-index:320;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Déposer sur le serveur une image de votre choix (taille limite&nbsp;: 4mo par image)<br>Pour partager votre image notez le chemin&nbsp;: </span><span style="color:#0000CD;font-family:Arial;font-size:13px;"><strong>[votre serveur]/uploads/[le nom de votre fichier].[son extension]</strong></span><span style="color:#000000;font-family:Arial;font-size:13px;">&nbsp; et partagez le à vos amies&nbsp;!</span></div>
 </div>
 
@@ -3898,7 +3909,7 @@ TimerStartTimer10();
 </div>
 
 <div id="jQueryDialog73" style="z-index:637;" title="Sauvegarde local de votre session">
-<div id="Html58" style="position:absolute;left:13px;top:11px;width:336px;height:175px;z-index:325">
+<div id="Html58" style="position:absolute;left:13px;top:11px;width:336px;height:175px;z-index:326">
 <iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
    src="zipaction.php">
 </iframe><br /></div>
@@ -3922,12 +3933,12 @@ TimerStartTimer12();
 </script>
 
 <div id="Layer7" style="position:fixed;text-align:left;left:0;top:0;right:0;bottom:0;z-index:639;">
-<div id="Layer8" style="position:absolute;text-align:left;left:150px;top:82px;width:855px;height:460px;z-index:329;">
-<div id="Layer9" style="position:absolute;text-align:left;left:16px;top:11px;width:218px;height:436px;z-index:326;" onclick="$('#jQueryDialog3').dialog('open');ShowObject('Layer7', 0);return false;">
+<div id="Layer8" style="position:absolute;text-align:left;left:150px;top:82px;width:855px;height:460px;z-index:330;">
+<div id="Layer9" style="position:absolute;text-align:left;left:16px;top:11px;width:218px;height:436px;z-index:327;" onclick="$('#jQueryDialog3').dialog('open');ShowObject('Layer7', 0);return false;">
 </div>
-<div id="Layer10" style="position:absolute;text-align:left;left:236px;top:11px;width:211px;height:436px;z-index:327;" onclick="$('#jQueryDialog5').dialog('open');ShowObject('Layer7', 0);return false;">
+<div id="Layer10" style="position:absolute;text-align:left;left:236px;top:11px;width:211px;height:436px;z-index:328;" onclick="$('#jQueryDialog5').dialog('open');ShowObject('Layer7', 0);return false;">
 </div>
-<div id="Layer11" style="position:absolute;text-align:left;left:453px;top:11px;width:373px;height:436px;z-index:328;" onclick="$('#jQueryDialog11').dialog('open');ShowObject('Layer7', 0);return false;">
+<div id="Layer11" style="position:absolute;text-align:left;left:453px;top:11px;width:373px;height:436px;z-index:329;" onclick="$('#jQueryDialog11').dialog('open');ShowObject('Layer7', 0);return false;">
 </div>
 </div>
 <script>
@@ -3949,9 +3960,9 @@ TimerStartTimer9();
 
 </div>
 <div id="jQueryDialog32" style="z-index:640;" title="Informations sur le WebOS">
-<div id="wb_Text32" style="position:absolute;left:27px;top:68px;width:714px;height:451px;text-align:center;z-index:334;">
+<div id="wb_Text32" style="position:absolute;left:27px;top:68px;width:714px;height:451px;text-align:center;z-index:335;">
 <span style="color:#000000;font-family:Arial;font-size:13px;"><strong>Rynna WebOS est un WebOS libre d'utilisation pour tous.</strong><br>Son code source est disponible publiquement sur le dépôt GitHub.<br><br></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><strong>NOM DE CODE DE VERSION&nbsp;:</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;"><strong> </strong></span><span style="color:#4169E1;font-family:Arial;font-size:16px;"><strong>Vegasis</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><strong> (30.0 et supérieur)</strong></span><span style="color:#000000;font-family:Arial;font-size:13px;"><br><br><strong>Liste des développeurs&nbsp;: <br></strong><br><em>Société AlgoStep Company&nbsp;:<br></em><br>Loïc A.<br>Maxime D.<br><br><em>Développeurs qui ont aidés à son développement ou pour leurs avis (remerciements)&nbsp;: <br></em><br>Polien (veler Software)<br>Softwarezatorman (veler Software)<br>Lereparateurdepc (veler Software)<br>Etienne Baudoux (IRL)<br>Jeremy60800 (veler Software)<br>Fandeonepiece2 (veler Software)<br>Coincero (veler Software)<br>Maxime G. (IRL)<br>Random Coder 99 (OpenClassRoom)<br>Jona (CCSources Co.)<br>Jeremy N. (IRL)<br><br>Merci à tout nos amies à Rouen pour leurs conseils et leurs professionnalismes durant le développement long et fastidieux de ce projet&nbsp;!</span></div>
-<div id="wb_MaterialIcon13" style="position:absolute;left:4px;top:10px;width:37px;height:37px;text-align:center;z-index:335;">
+<div id="wb_MaterialIcon13" style="position:absolute;left:4px;top:10px;width:37px;height:37px;text-align:center;z-index:336;">
 <a href="#" onclick="$('#jQueryDialog11').dialog('open');$('#jQueryDialog32').dialog('close');return false;"><div id="MaterialIcon13"><i class="material-icons">&#xe5cb;</i></div></a></div>
 </div>
 
@@ -3973,21 +3984,21 @@ TimerStartTimer40();
 </script>
 
 <div id="Layer22" style="position:absolute;text-align:left;left:348px;top:5969px;width:1099px;height:152px;z-index:642;" onmouseleave="ShowObject('Layer22', 0);return false;">
-<div id="wb_Image43" style="position:absolute;left:89px;top:39px;width:913px;height:98px;z-index:336;">
+<div id="wb_Image43" style="position:absolute;left:89px;top:39px;width:913px;height:98px;z-index:337;">
 <img src="images/coque_sfx_3D.png" id="Image43" alt=""></div>
-<div id="wb_Image51" style="position:absolute;left:732px;top:30px;width:80px;height:80px;z-index:337;">
+<div id="wb_Image51" style="position:absolute;left:732px;top:30px;width:80px;height:80px;z-index:338;">
 <a href="#" onclick="$('#jQueryDialog76').dialog('open');return false;" onmouseenter="AnimateCss('wb_Image51', 'transform-wiggle', 0, 500);return false;"><img src="images/nowcoworking.png" id="Image51" alt=""></a></div>
-<div id="wb_Image46" style="position:absolute;left:508px;top:17px;width:110px;height:110px;z-index:338;">
+<div id="wb_Image46" style="position:absolute;left:508px;top:17px;width:110px;height:110px;z-index:339;">
 <a href="#" onclick="$('#jQueryDialog68').dialog('open');return false;" onmouseenter="AnimateCss('wb_Image46', 'transform-wiggle', 0, 500);return false;"><img src="images/OCR.png" id="Image46" alt=""></a></div>
-<div id="wb_Image47" style="position:absolute;left:386px;top:17px;width:110px;height:110px;z-index:339;">
+<div id="wb_Image47" style="position:absolute;left:386px;top:17px;width:110px;height:110px;z-index:340;">
 <a href="#" onclick="$('#jQueryDialog55').dialog('open');return false;" onmouseenter="AnimateCss('wb_Image47', 'transform-wiggle', 0, 500);return false;"><img src="images/sz.png" id="Image47" alt=""></a></div>
-<div id="wb_Image48" style="position:absolute;left:272px;top:17px;width:110px;height:110px;z-index:340;">
+<div id="wb_Image48" style="position:absolute;left:272px;top:17px;width:110px;height:110px;z-index:341;">
 <a href="#" onclick="$('#jQueryDialog31').dialog('open');return false;" onmouseenter="AnimateCss('wb_Image48', 'transform-wiggle', 0, 500);return false;"><img src="images/lemonde.png" id="Image48" alt=""></a></div>
-<div id="wb_Image49" style="position:absolute;left:153px;top:17px;width:110px;height:110px;z-index:341;">
+<div id="wb_Image49" style="position:absolute;left:153px;top:17px;width:110px;height:110px;z-index:342;">
 <a href="#" onclick="$('#jQueryDialog9').dialog('open');return false;" onmouseenter="AnimateCss('wb_Image49', 'transform-wiggle', 0, 500);return false;"><img src="images/wikipedia.png" id="Image49" alt=""></a></div>
-<div id="wb_Image50" style="position:absolute;left:626px;top:30px;width:80px;height:80px;z-index:342;">
+<div id="wb_Image50" style="position:absolute;left:626px;top:30px;width:80px;height:80px;z-index:343;">
 <a href="#" onclick="$('#jQueryDialog75').dialog('open');return false;" onmouseenter="AnimateCss('wb_Image50', 'transform-wiggle', 0, 500);return false;"><img src="images/dessinscreen.png" id="Image50" alt=""></a></div>
-<div id="wb_Image52" style="position:absolute;left:838px;top:30px;width:80px;height:80px;z-index:343;">
+<div id="wb_Image52" style="position:absolute;left:838px;top:30px;width:80px;height:80px;z-index:344;">
 <a href="#" onclick="$('#jQueryDialog62').dialog('open');return false;" onmouseenter="AnimateCss('wb_Image52', 'transform-wiggle', 0, 500);return false;"><img src="images/fargo.png" id="Image52" alt=""></a></div>
 </div>
 <script>
@@ -4036,19 +4047,19 @@ TimerStartTimer41();
 </div>
 
 <div id="Layer24" style="position:fixed;text-align:left;left:0;top:0;right:0;bottom:0;z-index:651;">
-<div id="Layer2" style="position:absolute;text-align:left;left:198px;top:25px;width:511px;height:363px;z-index:352;">
+<div id="Layer2" style="position:absolute;text-align:left;left:198px;top:25px;width:511px;height:363px;z-index:353;">
 </div>
-<div id="Layer25" style="position:absolute;text-align:left;left:50px;top:432px;width:801px;height:74px;z-index:353;">
-<div id="wb_Text5" style="position:absolute;left:29px;top:14px;width:739px;height:39px;text-align:center;z-index:351;">
+<div id="Layer25" style="position:absolute;text-align:left;left:50px;top:432px;width:801px;height:74px;z-index:354;">
+<div id="wb_Text5" style="position:absolute;left:29px;top:14px;width:739px;height:39px;text-align:center;z-index:352;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:20px;"><strong>Nous préparons votre session... Patientez quelques instants, merci<br></strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:12px;"><strong><em>Merci de vérifier que les bordures de votre écran soient visibles</em></strong></span></div>
 </div>
-<div id="Layer31" style="position:fixed;text-align:left;left:0px;top:0px;width:46px;height:41px;z-index:354;">
+<div id="Layer31" style="position:fixed;text-align:left;left:0px;top:0px;width:46px;height:41px;z-index:355;">
 </div>
-<div id="Layer32" style="position:fixed;text-align:left;left:auto;right:0px;top:0px;width:46px;height:41px;z-index:355;">
+<div id="Layer32" style="position:fixed;text-align:left;left:auto;right:0px;top:0px;width:46px;height:41px;z-index:356;">
 </div>
-<div id="Layer33" style="position:fixed;text-align:left;left:auto;right:0px;top:auto;bottom:0px;width:46px;height:41px;z-index:356;">
+<div id="Layer33" style="position:fixed;text-align:left;left:auto;right:0px;top:auto;bottom:0px;width:46px;height:41px;z-index:357;">
 </div>
-<div id="Layer34" style="position:fixed;text-align:left;left:0px;top:auto;bottom:0px;width:46px;height:41px;z-index:357;">
+<div id="Layer34" style="position:fixed;text-align:left;left:0px;top:auto;bottom:0px;width:46px;height:41px;z-index:358;">
 </div>
 </div>
 <script>
@@ -4069,17 +4080,17 @@ TimerStartTimer4();
 </script>
 
 <div id="Layer26" style="position:fixed;text-align:left;left:0px;top:auto;bottom:0px;width:182px;height:214px;z-index:653;">
-<div id="wb_Text17" style="position:absolute;left:8px;top:8px;width:163px;height:15px;z-index:359;">
+<div id="wb_Text17" style="position:absolute;left:8px;top:8px;width:163px;height:15px;z-index:360;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:12px;"><strong><em>Fonctions bureautique&nbsp;&nbsp; &nbsp;&nbsp; </em></strong></span><span style="color:#FF0000;font-family:Arial;font-size:12px;"><strong><a href="#" onclick="ShowObject('Layer26', 0);return false;">X</a></strong></span></div>
-<hr id="Line2" style="position:absolute;left:7px;top:35px;width:164px;z-index:360;">
-<div id="wb_Text22" style="position:absolute;left:8px;top:59px;width:163px;height:16px;z-index:361;cursor: pointer;" onclick="$('#jQueryDialog89').dialog('open');$('#jQueryDialog37').dialog('open');ShowObject('Layer26', 0);return false;">
+<hr id="Line2" style="position:absolute;left:7px;top:35px;width:164px;z-index:361;">
+<div id="wb_Text22" style="position:absolute;left:8px;top:59px;width:163px;height:16px;z-index:362;cursor: pointer;" onclick="$('#jQueryDialog89').dialog('open');$('#jQueryDialog37').dialog('open');ShowObject('Layer26', 0);return false;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:13px;">Changer fond écran</span></div>
-<div id="wb_Text48" style="position:absolute;left:7px;top:88px;width:163px;height:16px;z-index:362;cursor: pointer;" onclick="ShowObject('Layer22', 1);ShowObject('Layer26', 0);return false;">
+<div id="wb_Text48" style="position:absolute;left:7px;top:88px;width:163px;height:16px;z-index:363;cursor: pointer;" onclick="ShowObject('Layer22', 1);ShowObject('Layer26', 0);return false;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:13px;">Afficher la BottomBar</span></div>
-<div id="wb_Text51" style="position:absolute;left:7px;top:116px;width:163px;height:16px;z-index:363;cursor: pointer;" onclick="$('#jQueryDialog5').dialog('open');ShowObject('Layer26', 0);return false;">
+<div id="wb_Text51" style="position:absolute;left:7px;top:116px;width:163px;height:16px;z-index:364;cursor: pointer;" onclick="$('#jQueryDialog5').dialog('open');ShowObject('Layer26', 0);return false;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:13px;">Ouvrir l'explorateur</span></div>
-<hr id="Line3" style="position:absolute;left:9px;top:143px;width:164px;z-index:364;">
-<div id="wb_Text66" style="position:absolute;left:8px;top:167px;width:163px;height:16px;z-index:365;cursor: pointer;" onclick="$('#jQueryDialog17').dialog('open');ShowObject('Layer26', 0);return false;">
+<hr id="Line3" style="position:absolute;left:9px;top:143px;width:164px;z-index:365;">
+<div id="wb_Text66" style="position:absolute;left:8px;top:167px;width:163px;height:16px;z-index:366;cursor: pointer;" onclick="$('#jQueryDialog17').dialog('open');ShowObject('Layer26', 0);return false;">
 <span style="color:#FFA500;font-family:Arial;font-size:13px;">Réparer la session</span></div>
 </div>
 <script>
@@ -4147,8 +4158,8 @@ function TimerStopTimer45()
 }
 </script>
 
-<div id="Layer29" style="position:absolute;text-align:left;left:135px;top:423px;width:706px;height:104px;z-index:369;">
-<div id="wb_Text70" style="position:absolute;left:24px;top:28px;width:659px;height:46px;text-align:center;z-index:366;">
+<div id="Layer29" style="position:absolute;text-align:left;left:135px;top:423px;width:706px;height:104px;z-index:370;">
+<div id="wb_Text70" style="position:absolute;left:24px;top:28px;width:659px;height:46px;text-align:center;z-index:367;">
 <span style="color:#FF0000;font-family:Arial;font-size:20px;">Votre session est en cours de réparation</span><span style="color:#FFFFFF;font-family:Arial;font-size:20px;"><br>Cela ne prendra pas longtemps...</span></div>
 </div>
 <script>
@@ -4175,7 +4186,7 @@ function TimerStopTimer46()
 }
 </script>
 
-<div id="Layer28" style="position:absolute;text-align:left;left:232px;top:49px;width:529px;height:374px;z-index:371;">
+<div id="Layer28" style="position:absolute;text-align:left;left:232px;top:49px;width:529px;height:374px;z-index:372;">
 </div>
 <script>
 var wb_Timer47;
@@ -4196,36 +4207,36 @@ TimerStartTimer47();
 
 </div>
 <div id="jQueryDialog17" title="R&#233;paration de la session">
-<div id="wb_Text71" style="position:absolute;left:7px;top:13px;width:454px;height:240px;z-index:374;">
+<div id="wb_Text71" style="position:absolute;left:7px;top:13px;width:454px;height:240px;z-index:375;">
 <span style="color:#000000;font-family:Arial;font-size:13px;"><strong>Ce programme vous permet de recharger correctement votre session et son interface.<br></strong><br><u>Utile dans les cas suivants&nbsp;:<br></u>- Barre de tâches disparut<br>- Icônes non affichés<br>- Grille d'alignement qui affiche plusieurs icônes identiques<br>- Impossibilité de charger la BootomBar ou la Barre d'Action (droite)<br>- Actions qui ne répondent plus<br>- Accès aux programmes qui ne répondent plus<br><strong>Cette procédure vous évite de recharger la page&nbsp;&quot;session&quot;&nbsp;et vous permet de ne pas perdre votre travail.</strong><br><br>La réparation dure quelques instants et résout la plupart des problèmes d'affichages.</span></div>
-<input type="button" id="Button2" onclick="ShowObject('Layer27', 1);$('#jQueryDialog17').dialog('close');TimerStartTimer45();return false;" name="" value="Réparer maintenant" style="position:absolute;left:14px;top:276px;width:166px;height:25px;z-index:375;">
-<input type="button" id="Button4" onclick="$('#jQueryDialog17').dialog('close');return false;" name="" value="Annuler" style="position:absolute;left:299px;top:276px;width:166px;height:25px;z-index:376;">
+<input type="button" id="Button2" onclick="ShowObject('Layer27', 1);$('#jQueryDialog17').dialog('close');TimerStartTimer45();return false;" name="" value="Réparer maintenant" style="position:absolute;left:14px;top:276px;width:166px;height:25px;z-index:376;">
+<input type="button" id="Button4" onclick="$('#jQueryDialog17').dialog('close');return false;" name="" value="Annuler" style="position:absolute;left:299px;top:276px;width:166px;height:25px;z-index:377;">
 </div>
 
 <div id="jQueryDialog63" title="Proc&#233;dure de r&#233;paration">
-<div id="wb_Text72" style="position:absolute;left:111px;top:11px;width:379px;height:80px;z-index:377;">
+<div id="wb_Text72" style="position:absolute;left:111px;top:11px;width:379px;height:80px;z-index:378;">
 <span style="color:#000000;font-family:Arial;font-size:13px;"><strong>Procédure de réparation terminée&nbsp;!</strong><br><br>Si vous avez toujours un problème dans votre session nous vous conseillons de vider le cache et les fichiers temporaires de votre navigateur internet (Images et Cookies).</span></div>
-<input type="button" id="Button7" onclick="$('#jQueryDialog63').dialog('close');return false;" name="" value="Fermer" style="position:absolute;left:186px;top:112px;width:129px;height:25px;z-index:378;">
-<div id="wb_FontAwesomeIcon5" style="position:absolute;left:8px;top:11px;width:95px;height:80px;text-align:center;z-index:379;">
+<input type="button" id="Button7" onclick="$('#jQueryDialog63').dialog('close');return false;" name="" value="Fermer" style="position:absolute;left:186px;top:112px;width:129px;height:25px;z-index:379;">
+<div id="wb_FontAwesomeIcon5" style="position:absolute;left:8px;top:11px;width:95px;height:80px;text-align:center;z-index:380;">
 <div id="FontAwesomeIcon5"><i class="fa fa-shield">&nbsp;</i></div></div>
 </div>
 
 <div id="jQueryDialog77" style="z-index:658;" title="Testeur et Afficheur (screen test quality)">
-<div id="wb_Image26" style="position:absolute;left:18px;top:15px;width:540px;height:540px;z-index:380;">
+<div id="wb_Image26" style="position:absolute;left:18px;top:15px;width:540px;height:540px;z-index:381;">
 <img src="images/test_pixel_ecran.gif" id="Image26" alt=""></div>
-<div id="wb_Image27" style="position:absolute;left:556px;top:15px;width:274px;height:274px;z-index:381;">
+<div id="wb_Image27" style="position:absolute;left:556px;top:15px;width:274px;height:274px;z-index:382;">
 <img src="images/test_pixel_ecran.gif" id="Image27" alt=""></div>
-<div id="wb_Image29" style="position:absolute;left:556px;top:289px;width:142px;height:142px;z-index:382;">
+<div id="wb_Image29" style="position:absolute;left:556px;top:289px;width:142px;height:142px;z-index:383;">
 <img src="images/test_pixel_ecran.gif" id="Image29" alt=""></div>
-<div id="wb_Image30" style="position:absolute;left:698px;top:289px;width:142px;height:142px;z-index:383;">
+<div id="wb_Image30" style="position:absolute;left:698px;top:289px;width:142px;height:142px;z-index:384;">
 <img src="images/test_pixel_ecran.gif" id="Image30" alt=""></div>
-<div id="wb_Image31" style="position:absolute;left:838px;top:289px;width:142px;height:142px;z-index:384;">
+<div id="wb_Image31" style="position:absolute;left:838px;top:289px;width:142px;height:142px;z-index:385;">
 <img src="images/test_pixel_ecran.gif" id="Image31" alt=""></div>
-<div id="wb_Image44" style="position:absolute;left:975px;top:289px;width:131px;height:142px;z-index:385;">
+<div id="wb_Image44" style="position:absolute;left:975px;top:289px;width:131px;height:142px;z-index:386;">
 <img src="images/test_pixel_ecran.gif" id="Image44" alt=""></div>
-<div id="wb_Image56" style="position:absolute;left:556px;top:431px;width:550px;height:124px;z-index:386;">
+<div id="wb_Image56" style="position:absolute;left:556px;top:431px;width:550px;height:124px;z-index:387;">
 <img src="images/test_pixel_ecran.gif" id="Image56" alt=""></div>
-<div id="wb_Image28" style="position:absolute;left:832px;top:15px;width:274px;height:274px;z-index:387;">
+<div id="wb_Image28" style="position:absolute;left:832px;top:15px;width:274px;height:274px;z-index:388;">
 <img src="images/test_pixel_ecran.gif" id="Image28" alt=""></div>
 </div>
 
@@ -4250,14 +4261,14 @@ TimerStartTimer47();
 </div>
 
 <div id="jQueryDialog83" style="z-index:664;" title="Gestionnaire de Serveur">
-<input type="button" id="Button5" onclick="$('#jQueryDialog83').dialog('close');return false;" name="" value="Fermer" style="position:absolute;left:327px;top:176px;width:161px;height:25px;z-index:454;">
-<div id="wb_Text44" style="position:absolute;left:13px;top:17px;width:473px;height:16px;z-index:455;">
+<input type="button" id="Button5" onclick="$('#jQueryDialog83').dialog('close');return false;" name="" value="Fermer" style="position:absolute;left:327px;top:176px;width:161px;height:25px;z-index:455;">
+<div id="wb_Text44" style="position:absolute;left:13px;top:17px;width:473px;height:16px;z-index:456;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:13px;">Links-Dialog (sitemap public)</span></div>
-<div id="wb_Text50" style="position:absolute;left:13px;top:93px;width:473px;height:16px;z-index:456;">
+<div id="wb_Text50" style="position:absolute;left:13px;top:93px;width:473px;height:16px;z-index:457;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:13px;">Aides Audio (descriptif audio des fonctions du WebOS)</span></div>
-<div id="wb_FontAwesomeIcon6" style="position:absolute;left:14px;top:33px;width:470px;height:42px;text-align:center;z-index:457;">
+<div id="wb_FontAwesomeIcon6" style="position:absolute;left:14px;top:33px;width:470px;height:42px;text-align:center;z-index:458;">
 <a href="#" onclick="$('#jQueryDialog84').dialog('open');return false;"><div id="FontAwesomeIcon6"><i class="fa fa-anchor">&nbsp;</i></div></a></div>
-<div id="wb_FontAwesomeIcon8" style="position:absolute;left:14px;top:109px;width:470px;height:42px;text-align:center;z-index:458;">
+<div id="wb_FontAwesomeIcon8" style="position:absolute;left:14px;top:109px;width:470px;height:42px;text-align:center;z-index:459;">
 <a href="#" onclick="PlayAudio('MediaPlayer1');$('#jQueryDialog86').dialog('open');return false;"><div id="FontAwesomeIcon8"><i class="fa fa-audio-description">&nbsp;</i></div></a></div>
 </div>
 
@@ -4266,37 +4277,37 @@ TimerStartTimer47();
 </div>
 
 <div id="jQueryDialog85" style="z-index:666;" title="[SOUND-HELP-MALENTENDANT]-ConfigurationScriptsDialog">
-<div id="wb_MediaPlayer1" style="position:absolute;left:22px;top:76px;width:67px;height:55px;z-index:460;">
+<div id="wb_MediaPlayer1" style="position:absolute;left:22px;top:76px;width:67px;height:55px;z-index:461;">
 <audio src="001.wav" id="MediaPlayer1">
 </audio>
 </div>
-<div id="wb_Text74" style="position:absolute;left:10px;top:20px;width:959px;height:32px;z-index:461;">
+<div id="wb_Text74" style="position:absolute;left:10px;top:20px;width:959px;height:32px;z-index:462;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">CETTE FENETRE EST CACHEE. ELLE NE DOIT JAMAIS POUVOIR ETRE APPELEE&nbsp;! ADMINISTRATEUR ET CONCEPTEUR&nbsp;; FAITE ATTENTION A VOS CODES ET FONCTIONS JS/PHP D'APPELS&nbsp;! CETTE FENETRE SERT EXCLUSIVEMENT A LANCER DES AUDIOS.</span></div>
-<div id="wb_MediaPlayer2" style="position:absolute;left:96px;top:76px;width:67px;height:55px;z-index:462;">
+<div id="wb_MediaPlayer2" style="position:absolute;left:96px;top:76px;width:67px;height:55px;z-index:463;">
 <audio src="explorateurfichiers.wav" id="MediaPlayer2">
 </audio>
 </div>
-<div id="wb_MediaPlayer3" style="position:absolute;left:174px;top:76px;width:67px;height:55px;z-index:463;">
+<div id="wb_MediaPlayer3" style="position:absolute;left:174px;top:76px;width:67px;height:55px;z-index:464;">
 <audio src="applisinternes.wav" id="MediaPlayer3">
 </audio>
 </div>
-<div id="wb_MediaPlayer4" style="position:absolute;left:254px;top:76px;width:67px;height:55px;z-index:464;">
+<div id="wb_MediaPlayer4" style="position:absolute;left:254px;top:76px;width:67px;height:55px;z-index:465;">
 <audio src="bienvenue.wav" id="MediaPlayer4">
 </audio>
 </div>
-<div id="wb_MediaPlayer5" style="position:absolute;left:332px;top:76px;width:67px;height:55px;z-index:465;">
+<div id="wb_MediaPlayer5" style="position:absolute;left:332px;top:76px;width:67px;height:55px;z-index:466;">
 <audio src="parametres.wav" id="MediaPlayer5">
 </audio>
 </div>
 </div>
 
 <div id="jQueryDialog86" style="z-index:667;" title="Audio-Help">
-<div id="wb_FontAwesomeIcon9" style="position:absolute;left:27px;top:17px;width:238px;height:131px;text-align:center;z-index:466;">
+<div id="wb_FontAwesomeIcon9" style="position:absolute;left:27px;top:17px;width:238px;height:131px;text-align:center;z-index:467;">
 <div id="FontAwesomeIcon9"><i class="fa fa-audio-description">&nbsp;</i></div></div>
-<input type="button" id="Button8" onclick="PlayAudio('MediaPlayer2');$('#jQueryDialog5').dialog('open');StopAudio('MediaPlayer3');StopAudio('MediaPlayer4');StopAudio('MediaPlayer5');return false;" name="" value="Explorateur de fichiers" style="position:absolute;left:26px;top:166px;width:241px;height:25px;z-index:467;">
-<input type="button" id="Button43" onclick="PlayAudio('MediaPlayer3');$('#jQueryDialog3').dialog('open');StopAudio('MediaPlayer2');StopAudio('MediaPlayer4');StopAudio('MediaPlayer5');return false;" name="" value="Applications Internes" style="position:absolute;left:26px;top:201px;width:241px;height:25px;z-index:468;">
-<input type="button" id="Button44" onclick="PlayAudio('MediaPlayer4');ShowObject('Layer1', 1);StopAudio('MediaPlayer2');StopAudio('MediaPlayer3');StopAudio('MediaPlayer5');return false;" name="" value="Fenêtre Bienvenue" style="position:absolute;left:26px;top:237px;width:241px;height:25px;z-index:469;">
-<input type="button" id="Button45" onclick="PlayAudio('MediaPlayer5');$('#jQueryDialog11').dialog('open');StopAudio('MediaPlayer2');StopAudio('MediaPlayer3');StopAudio('MediaPlayer4');return false;" name="" value="Paramètres session" style="position:absolute;left:26px;top:272px;width:241px;height:25px;z-index:470;">
+<input type="button" id="Button8" onclick="PlayAudio('MediaPlayer2');$('#jQueryDialog5').dialog('open');StopAudio('MediaPlayer3');StopAudio('MediaPlayer4');StopAudio('MediaPlayer5');return false;" name="" value="Explorateur de fichiers" style="position:absolute;left:26px;top:166px;width:241px;height:25px;z-index:468;">
+<input type="button" id="Button43" onclick="PlayAudio('MediaPlayer3');$('#jQueryDialog3').dialog('open');StopAudio('MediaPlayer2');StopAudio('MediaPlayer4');StopAudio('MediaPlayer5');return false;" name="" value="Applications Internes" style="position:absolute;left:26px;top:201px;width:241px;height:25px;z-index:469;">
+<input type="button" id="Button44" onclick="PlayAudio('MediaPlayer4');ShowObject('Layer1', 1);StopAudio('MediaPlayer2');StopAudio('MediaPlayer3');StopAudio('MediaPlayer5');return false;" name="" value="Fenêtre Bienvenue" style="position:absolute;left:26px;top:237px;width:241px;height:25px;z-index:470;">
+<input type="button" id="Button45" onclick="PlayAudio('MediaPlayer5');$('#jQueryDialog11').dialog('open');StopAudio('MediaPlayer2');StopAudio('MediaPlayer3');StopAudio('MediaPlayer4');return false;" name="" value="Paramètres session" style="position:absolute;left:26px;top:272px;width:241px;height:25px;z-index:471;">
 </div>
 
 <div id="jQueryDialog87" style="z-index:668;" title="Liligo - Voyages Hotel, Voitures, S&#233;jours [NON COMPATIBLE EN HTTPS]">
@@ -4340,25 +4351,25 @@ TimerStartTimer49();
 </script>
 
 <div id="jQueryDialog45" style="z-index:671;" title="V&#233;rification des mises &#224; jour WebOS">
-<div id="Html14" style="position:absolute;left:14px;top:167px;width:850px;height:77px;z-index:473">
+<div id="Html14" style="position:absolute;left:14px;top:167px;width:850px;height:77px;z-index:474">
 <iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
    src="http://rynnawebos.fr/login/maj.php">
 </iframe></div>
-<div id="wb_Text43" style="position:absolute;left:14px;top:68px;width:848px;height:24px;text-align:center;z-index:474;">
-<span style="color:#FF6347;font-family:Arial;font-size:21px;"><strong>33.4</strong></span></div>
-<div id="wb_Text42" style="position:absolute;left:14px;top:120px;width:460px;height:16px;z-index:475;">
+<div id="wb_Text43" style="position:absolute;left:14px;top:68px;width:848px;height:24px;text-align:center;z-index:475;">
+<span style="color:#FF6347;font-family:Arial;font-size:21px;"><strong>33.5</strong></span></div>
+<div id="wb_Text42" style="position:absolute;left:14px;top:120px;width:460px;height:16px;z-index:476;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">La dernière version disponible (code source) est la suivante&nbsp;:</span></div>
-<div id="wb_Text46" style="position:absolute;left:14px;top:18px;width:460px;height:16px;z-index:476;">
+<div id="wb_Text46" style="position:absolute;left:14px;top:18px;width:460px;height:16px;z-index:477;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Votre version est actuellement&nbsp;:</span></div>
-<div id="wb_Text76" style="position:absolute;left:17px;top:257px;width:847px;height:32px;z-index:477;">
+<div id="wb_Text76" style="position:absolute;left:17px;top:257px;width:847px;height:32px;z-index:478;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Souhaitez-vous télécharger la dernière version&nbsp;?<br><em>Vous devez disposer d'un serveur local ou en ligne avec vos droits Administrateur pour pouvoir installer la dernière version&nbsp;!</em></span></div>
-<input type="submit" id="Button47" onclick="window.location.href='https://github.com/AlgoStepCompany/RynnaWebOS-Original/archive/master.zip';return false;" name="" value="Télécharger la dernière version disponible du WebOS (code source MASTER officiel et complet)" style="position:absolute;left:12px;top:321px;width:852px;height:25px;z-index:478;">
+<input type="submit" id="Button47" onclick="window.location.href='https://github.com/AlgoStepCompany/RynnaWebOS-Original/archive/master.zip';return false;" name="" value="Télécharger la dernière version disponible du WebOS (code source MASTER officiel et complet)" style="position:absolute;left:12px;top:321px;width:852px;height:25px;z-index:479;">
 </div>
 
 <div id="jQueryDialog42" style="z-index:672;" title="[WIDGET] Biblioth&#232;que">
-<input type="button" id="Button48" onclick="$('#jQueryDialog46').dialog('open');return false;" name="" value="Ouvrir la Bibliothèque locale" style="position:absolute;left:28px;top:22px;width:215px;height:25px;z-index:479;">
-<input type="button" id="Button49" onclick="$('#jQueryDialog47').dialog('open');return false;" name="" value="Télécharger de nouveau e-book" style="position:absolute;left:28px;top:60px;width:215px;height:25px;z-index:480;">
-<div id="wb_Image57" style="position:absolute;left:76px;top:97px;width:125px;height:93px;z-index:481;">
+<input type="button" id="Button48" onclick="$('#jQueryDialog46').dialog('open');return false;" name="" value="Ouvrir la Bibliothèque locale" style="position:absolute;left:28px;top:22px;width:215px;height:25px;z-index:480;">
+<input type="button" id="Button49" onclick="$('#jQueryDialog47').dialog('open');return false;" name="" value="Télécharger de nouveau e-book" style="position:absolute;left:28px;top:60px;width:215px;height:25px;z-index:481;">
+<div id="wb_Image57" style="position:absolute;left:76px;top:97px;width:125px;height:93px;z-index:482;">
 <img src="images/bibliotheque.gif" id="Image57" alt=""></div>
 </div>
 
@@ -4438,7 +4449,7 @@ TimerStartTimer55();
 </script>
 
 <div id="jQueryDialog89" style="z-index:679;" title="Informations sur votre session">
-<div id="wb_Text80" style="position:absolute;left:11px;top:8px;width:340px;height:64px;z-index:483;">
+<div id="wb_Text80" style="position:absolute;left:11px;top:8px;width:340px;height:64px;z-index:484;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Pour le moment le changement de votre fond d'écran ne sera pas sauvegardé.<br>Nous travaillons actuellement sur cette possibilitée.<br>Merci pour votre patience.</span></div>
 </div>
 
@@ -4447,7 +4458,7 @@ TimerStartTimer55();
 </div>
 
 <div id="jQueryDialog91" style="z-index:681;" title="[WIDGET] Multi-session">
-<div id="Html115" style="position:absolute;left:7px;top:18px;width:306px;height:143px;z-index:485">
+<div id="Html115" style="position:absolute;left:7px;top:18px;width:306px;height:143px;z-index:486">
 <a href="session.php"  onclick="open('session.php', 'Popup', 'scrollbars=1,resizable=1,height=768,width=1024'); return false;" >Dupliquer la session (1024X768)</a><br />
 <a href="session.php"  onclick="open('session.php', 'Popup', 'scrollbars=1,resizable=1,height=900,width=1180'); return false;" >Dupliquer la session (1180X900</a><br />
 <a href="session.php"  onclick="open('session.php', 'Popup', 'scrollbars=1,resizable=1,height=800,width=1120'); return false;" >Dupliquer la session (1120X800)</a><br />
@@ -4458,7 +4469,7 @@ Vous ne pouvez lancer qu'un processus à la fois !</div>
 </div>
 
 <div id="jQueryDialog92" style="z-index:682;" title="Registre des extensions WebOS (Consultation)">
-<textarea name="TextArea2" id="TextArea2" style="position:absolute;left:12px;top:194px;width:728px;height:247px;z-index:486;" rows="12" cols="71" readonly spellcheck="false">EXTENSIONS[
+<textarea name="TextArea2" id="TextArea2" style="position:absolute;left:12px;top:194px;width:728px;height:247px;z-index:487;" rows="12" cols="71" readonly spellcheck="false">EXTENSIONS[
 editable_ext(txt,php,php3,phtml,inc,sql,pl,htm,html,shtml,dhtml,xml,js,css,cgi,cpp,cc,cxx,hpp,h,pas,p,java,py,sh,tcl,tk);
 windows_ext(dir,exe,dll,file,bat,com,cur,ini,inf,log);
 text_ext(txt,doc,docx,wrpm,nod,nol,ndd,dne,log,rtf);
@@ -4469,7 +4480,7 @@ movie_ext(mpg,mov,mp4,avi,mkv,dvo,voda,flash,pnv,virol,vlcm);
 adobe_ext(pdf);
 other_ext(ico,cul,pnl,mod,nod,control,crl,cltr,dac,flac);
 ]</textarea>
-<textarea name="TextArea3" id="TextArea3" style="position:absolute;left:12px;top:17px;width:728px;height:154px;z-index:487;" rows="7" cols="71" readonly spellcheck="false">MODULES[
+<textarea name="TextArea3" id="TextArea3" style="position:absolute;left:12px;top:17px;width:728px;height:154px;z-index:488;" rows="7" cols="71" readonly spellcheck="false">MODULES[
 editable_ext=NOK
 windows_ext=WIN
 text_ext=WEB
@@ -4491,7 +4502,7 @@ other_ext=WEB
 // NTK = prise en charge par le noyau NT WRK de Microsoft
 // CPC = prise en charge CPCDOS
 // ERR = affiche une erreur de gestion d'ouverture, pratique pour tester un flux et une action précise d'une fenêtre ou des extensions cibles</textarea>
-<input type="submit" id="Button34" onclick="$('#jQueryDialog92').dialog('close');return false;" name="" value="Terminer" style="position:absolute;left:574px;top:471px;width:174px;height:25px;z-index:488;">
+<input type="submit" id="Button34" onclick="$('#jQueryDialog92').dialog('close');return false;" name="" value="Terminer" style="position:absolute;left:574px;top:471px;width:174px;height:25px;z-index:489;">
 </div>
 
 
@@ -4560,7 +4571,7 @@ TimerStartTimer14();
 </script>
 
 <div id="jQueryDialog74" title="Bienvenue dans la session de d&#233;monstration !">
-<div id="wb_Text108" style="position:absolute;left:12px;top:13px;width:540px;height:195px;z-index:490;">
+<div id="wb_Text108" style="position:absolute;left:12px;top:13px;width:540px;height:195px;z-index:491;">
 <span style="color:#000000;font-family:Arial;font-size:16px;"><strong>Bienvenue dans la session de démonstration&nbsp;!</strong></span><span style="color:#000000;font-family:Arial;font-size:13px;"><br><br></span><span style="color:#FF0000;font-family:Arial;font-size:13px;"><strong>Celle-ci est une copie conforme du WebOS actuellement disponible sauf que vous n'avez pas accès à certaines propriétés qui sont les suivantes&nbsp;: </strong></span><span style="color:#000000;font-family:Arial;font-size:13px;"><br><br>- Chat du WebOS et de la communauté et quelques applications internes<br>- Modifier votre compte utilisateur<br>- Accéder à l'explorateur de fichiers et votre espace personnel (50Go)<br><br><strong>Créer un compte est <u>GRATUIT et ILLIMITE</u> si vous le souhaitez par la suite&nbsp;!<br></strong><br>Bon test sur votre session temporaire&nbsp;!</span></div>
 </div>
 
@@ -4599,7 +4610,7 @@ TimerStartTimer16();
 </script>
 
 <div id="jQueryDialog94" title="Confirmer la fermeture">
-<div id="wb_Logout2" style="position:absolute;left:29px;top:25px;width:320px;height:22px;z-index:491;">
+<div id="wb_Logout2" style="position:absolute;left:29px;top:25px;width:320px;height:22px;z-index:492;">
 <form name="logoutform" method="post" action="<?php echo basename(__FILE__); ?>" id="logoutform">
 <input type="hidden" name="form_name" value="logoutform">
 <input type="submit" name="logout" value="Confirmer l'arrêt" id="Logout2">
@@ -4608,13 +4619,13 @@ TimerStartTimer16();
 </div>
 
 <div id="jQueryDialog95" title="Confirmer le red&#233;marrage">
-<div id="wb_Text95" style="position:absolute;left:26px;top:11px;width:325px;height:32px;z-index:492;">
+<div id="wb_Text95" style="position:absolute;left:26px;top:11px;width:325px;height:32px;z-index:493;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Vérifiez que vos données et programmes ouverts sont bien fermés pour éviter la perte de données.</span></div>
-<input type="submit" id="Button35" onclick="window.location.href='./session.php';return false;" name="" value="Confirmer le redémarrage" style="position:absolute;left:29px;top:64px;width:322px;height:25px;z-index:493;">
+<input type="submit" id="Button35" onclick="window.location.href='./session.php';return false;" name="" value="Confirmer le redémarrage" style="position:absolute;left:29px;top:64px;width:322px;height:25px;z-index:494;">
 </div>
 
 <div id="Layer5" style="position:absolute;text-align:left;left:0px;top:37px;width:326px;height:521px;z-index:702;">
-<div id="wb_LoginName2" style="position:absolute;left:81px;top:20px;width:213px;height:23px;z-index:494;">
+<div id="wb_LoginName2" style="position:absolute;left:81px;top:20px;width:213px;height:23px;z-index:495;">
 <span id="LoginName2">Bienvenue <?php
 if (isset($_SESSION['username']))
 {
@@ -4625,38 +4636,38 @@ else
    echo 'dans la session de demonstration';
 }
 ?> !</span></div>
-<div id="wb_FontAwesomeIcon10" style="position:absolute;left:14px;top:10px;width:67px;height:68px;text-align:center;z-index:495;">
+<div id="wb_FontAwesomeIcon10" style="position:absolute;left:14px;top:10px;width:67px;height:68px;text-align:center;z-index:496;">
 <div id="FontAwesomeIcon10"><i class="fa fa-id-badge">&nbsp;</i></div></div>
-<div id="wb_FontAwesomeIcon2" style="position:absolute;left:36px;top:90px;width:45px;height:35px;text-align:center;z-index:496;">
+<div id="wb_FontAwesomeIcon2" style="position:absolute;left:36px;top:90px;width:45px;height:35px;text-align:center;z-index:497;">
 <a href="#" onclick="$('#jQueryDialog3').dialog('open');ShowObject('Layer5', 0);return false;"><div id="FontAwesomeIcon2"><i class="fa fa-dropbox">&nbsp;</i></div></a></div>
-<div id="wb_Text2" style="position:absolute;left:92px;top:100px;width:190px;height:14px;z-index:497;cursor: pointer;" onclick="$('#jQueryDialog3').dialog('open');ShowObject('Layer5', 0);return false;">
+<div id="wb_Text2" style="position:absolute;left:92px;top:100px;width:190px;height:14px;z-index:498;cursor: pointer;" onclick="$('#jQueryDialog3').dialog('open');ShowObject('Layer5', 0);return false;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:11px;">Applications générales</span></div>
-<div id="wb_FontAwesomeIcon19" style="position:absolute;left:36px;top:138px;width:45px;height:36px;text-align:center;z-index:498;">
+<div id="wb_FontAwesomeIcon19" style="position:absolute;left:36px;top:138px;width:45px;height:36px;text-align:center;z-index:499;">
 <a href="#" onclick="$('#jQueryDialog19').dialog('open');ShowObject('Layer5', 0);return false;"><div id="FontAwesomeIcon19"><i class="fa fa-tencent-weibo">&nbsp;</i></div></a></div>
-<div id="wb_Text52" style="position:absolute;left:92px;top:146px;width:202px;height:14px;z-index:499;cursor: pointer;" onclick="$('#jQueryDialog19').dialog('open');ShowObject('Layer5', 0);return false;">
+<div id="wb_Text52" style="position:absolute;left:92px;top:146px;width:202px;height:14px;z-index:500;cursor: pointer;" onclick="$('#jQueryDialog19').dialog('open');ShowObject('Layer5', 0);return false;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:11px;">Rechercher une page précise</span></div>
-<div id="wb_FontAwesomeIcon4" style="position:absolute;left:36px;top:185px;width:45px;height:32px;text-align:center;z-index:500;">
+<div id="wb_FontAwesomeIcon4" style="position:absolute;left:36px;top:185px;width:45px;height:32px;text-align:center;z-index:501;">
 <a href="#" onclick="$('#jQueryDialog5').dialog('open');ShowObject('Layer5', 0);return false;"><div id="FontAwesomeIcon4"><i class="fa fa-folder-open-o">&nbsp;</i></div></a></div>
-<div id="wb_Text12" style="position:absolute;left:92px;top:194px;width:202px;height:14px;z-index:501;cursor: pointer;" onclick="$('#jQueryDialog5').dialog('open');ShowObject('Layer5', 0);return false;">
+<div id="wb_Text12" style="position:absolute;left:92px;top:194px;width:202px;height:14px;z-index:502;cursor: pointer;" onclick="$('#jQueryDialog5').dialog('open');ShowObject('Layer5', 0);return false;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:11px;">Explorateur Fichiers</span></div>
-<div id="wb_FontAwesomeIcon7" style="position:absolute;left:36px;top:226px;width:45px;height:42px;text-align:center;z-index:502;">
+<div id="wb_FontAwesomeIcon7" style="position:absolute;left:36px;top:226px;width:45px;height:42px;text-align:center;z-index:503;">
 <a href="#" onclick="$('#jQueryDialog54').dialog('open');ShowObject('Layer5', 0);return false;"><div id="FontAwesomeIcon7"><i class="fa fa-list-alt">&nbsp;</i></div></a></div>
-<div id="wb_Text13" style="position:absolute;left:92px;top:238px;width:212px;height:14px;z-index:503;cursor: pointer;" onclick="$('#jQueryDialog54').dialog('open');ShowObject('Layer5', 0);return false;">
+<div id="wb_Text13" style="position:absolute;left:92px;top:238px;width:212px;height:14px;z-index:504;cursor: pointer;" onclick="$('#jQueryDialog54').dialog('open');ShowObject('Layer5', 0);return false;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:11px;">Applis de la communautée</span></div>
-<div id="wb_FontAwesomeIcon18" style="position:absolute;left:36px;top:276px;width:45px;height:37px;text-align:center;z-index:504;">
+<div id="wb_FontAwesomeIcon18" style="position:absolute;left:36px;top:276px;width:45px;height:37px;text-align:center;z-index:505;">
 <a href="#" onclick="$('#jQueryDialog32').dialog('close');$('#jQueryDialog33').dialog('close');$('#jQueryDialog34').dialog('close');$('#jQueryDialog35').dialog('close');$('#jQueryDialog36').dialog('close');$('#jQueryDialog37').dialog('close');$('#jQueryDialog38').dialog('close');$('#jQueryDialog39').dialog('close');$('#jQueryDialog11').dialog('open');ShowObject('Layer5', 0);return false;"><div id="FontAwesomeIcon18"><i class="fa fa-gears">&nbsp;</i></div></a></div>
-<div id="wb_Text25" style="position:absolute;left:92px;top:288px;width:212px;height:14px;z-index:505;cursor: pointer;" onclick="$('#jQueryDialog32').dialog('close');$('#jQueryDialog33').dialog('close');$('#jQueryDialog34').dialog('close');$('#jQueryDialog35').dialog('close');$('#jQueryDialog36').dialog('close');$('#jQueryDialog37').dialog('close');$('#jQueryDialog38').dialog('close');$('#jQueryDialog39').dialog('close');ShowObject('Layer5', 0);$('#jQueryDialog11').dialog('open');return false;">
+<div id="wb_Text25" style="position:absolute;left:92px;top:288px;width:212px;height:14px;z-index:506;cursor: pointer;" onclick="$('#jQueryDialog32').dialog('close');$('#jQueryDialog33').dialog('close');$('#jQueryDialog34').dialog('close');$('#jQueryDialog35').dialog('close');$('#jQueryDialog36').dialog('close');$('#jQueryDialog37').dialog('close');$('#jQueryDialog38').dialog('close');$('#jQueryDialog39').dialog('close');ShowObject('Layer5', 0);$('#jQueryDialog11').dialog('open');return false;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:11px;">Paramètres et Aides</span></div>
-<div id="wb_FontAwesomeIcon14" style="position:absolute;left:36px;top:322px;width:45px;height:39px;text-align:center;z-index:506;">
+<div id="wb_FontAwesomeIcon14" style="position:absolute;left:36px;top:322px;width:45px;height:39px;text-align:center;z-index:507;">
 <a href="#" onclick="$('#jQueryDialog8').dialog('open');ShowObject('Layer5', 0);return false;"><div id="FontAwesomeIcon14"><i class="fa fa-at">&nbsp;</i></div></a></div>
-<div id="wb_Text24" style="position:absolute;left:92px;top:336px;width:212px;height:14px;z-index:507;cursor: pointer;" onclick="$('#jQueryDialog8').dialog('open');ShowObject('Layer5', 0);return false;">
+<div id="wb_Text24" style="position:absolute;left:92px;top:336px;width:212px;height:14px;z-index:508;cursor: pointer;" onclick="$('#jQueryDialog8').dialog('open');ShowObject('Layer5', 0);return false;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:11px;">Navigateur internet</span></div>
-<div id="wb_MaterialIcon26" style="position:absolute;left:26px;top:442px;width:41px;height:34px;text-align:center;z-index:508;">
+<div id="wb_MaterialIcon26" style="position:absolute;left:26px;top:442px;width:41px;height:34px;text-align:center;z-index:509;">
 <a href="#" onclick="ShowObject('Layer5', 0);$('#jQueryDialog18').dialog('open');return false;"><div id="MaterialIcon26"><i class="material-icons">&#xe1b2;</i></div></a></div>
-<div id="wb_Text28" style="position:absolute;left:14px;top:476px;width:64px;height:24px;text-align:center;z-index:509;">
+<div id="wb_Text28" style="position:absolute;left:14px;top:476px;width:64px;height:24px;text-align:center;z-index:510;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:9.3px;">Modifier ma session</span></div>
-<hr id="Line4" style="position:absolute;left:11px;top:430px;width:303px;z-index:510;">
-<div id="wb_JavaScript3" style="position:absolute;left:81px;top:46px;width:147px;height:23px;z-index:511;">
+<hr id="Line4" style="position:absolute;left:11px;top:430px;width:303px;z-index:511;">
+<div id="wb_JavaScript3" style="position:absolute;left:81px;top:46px;width:147px;height:23px;z-index:512;">
 <div style="color:#FFFFFF;font-size:12px;font-family:Arial;font-weight:normal;font-style:normal;text-align:left;text-decoration:none" id="basicclock"></div>
 <script>
 function clock() 
@@ -4677,27 +4688,27 @@ clock();
 </script>
 
 </div>
-<div id="wb_FontAwesomeIcon3" style="position:absolute;left:107px;top:444px;width:34px;height:30px;text-align:center;z-index:512;">
+<div id="wb_FontAwesomeIcon3" style="position:absolute;left:107px;top:444px;width:34px;height:30px;text-align:center;z-index:513;">
 <a href="#" onclick="$('#jQueryDialog89').dialog('open');$('#jQueryDialog37').dialog('open');$('#jQueryDialog1').dialog('close');return false;"><div id="FontAwesomeIcon3"><i class="fa fa-file-image-o">&nbsp;</i></div></a></div>
-<div id="wb_Text85" style="position:absolute;left:92px;top:476px;width:64px;height:24px;text-align:center;z-index:513;">
+<div id="wb_Text85" style="position:absolute;left:92px;top:476px;width:64px;height:24px;text-align:center;z-index:514;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:9.3px;">Changer fond d'écran</span></div>
-<div id="wb_FontAwesomeIcon26" style="position:absolute;left:181px;top:444px;width:34px;height:30px;text-align:center;z-index:514;">
+<div id="wb_FontAwesomeIcon26" style="position:absolute;left:181px;top:444px;width:34px;height:30px;text-align:center;z-index:515;">
 <a href="#" onclick="$('#jQueryDialog83').dialog('open');return false;"><div id="FontAwesomeIcon26"><i class="fa fa-flask">&nbsp;</i></div></a></div>
-<div id="wb_Text15" style="position:absolute;left:166px;top:476px;width:64px;height:24px;text-align:center;z-index:515;">
+<div id="wb_Text15" style="position:absolute;left:166px;top:476px;width:64px;height:24px;text-align:center;z-index:516;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:9.3px;">Ouvrir lecture serveur</span></div>
-<div id="wb_FontAwesomeIcon27" style="position:absolute;left:255px;top:444px;width:34px;height:30px;text-align:center;z-index:516;">
+<div id="wb_FontAwesomeIcon27" style="position:absolute;left:255px;top:444px;width:34px;height:30px;text-align:center;z-index:517;">
 <a href="#" onclick="ShowObject('Layer12', 1);ShowObject('Layer5', 0);ShowObject('Layer13', 0);return false;"><div id="FontAwesomeIcon27"><i class="fa fa-external-link">&nbsp;</i></div></a></div>
-<div id="wb_Text94" style="position:absolute;left:240px;top:476px;width:64px;height:24px;text-align:center;z-index:517;">
+<div id="wb_Text94" style="position:absolute;left:240px;top:476px;width:64px;height:24px;text-align:center;z-index:518;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:9.3px;">Options de session</span></div>
-<div id="wb_FontAwesomeIcon29" style="position:absolute;left:38px;top:375px;width:45px;height:39px;text-align:center;z-index:518;">
+<div id="wb_FontAwesomeIcon29" style="position:absolute;left:38px;top:375px;width:45px;height:39px;text-align:center;z-index:519;">
 <a href="#" onclick="$('#jQueryDialog96').dialog('open');ShowObject('Layer5', 0);$('#jQueryDialog97').dialog('open');return false;"><div id="FontAwesomeIcon29"><i class="fa fa-file-pdf-o">&nbsp;</i></div></a></div>
-<div id="wb_Text106" style="position:absolute;left:92px;top:387px;width:220px;height:14px;z-index:519;cursor: pointer;" onclick="$('#jQueryDialog96').dialog('open');ShowObject('Layer5', 0);return false;">
+<div id="wb_Text106" style="position:absolute;left:92px;top:387px;width:220px;height:14px;z-index:520;cursor: pointer;" onclick="$('#jQueryDialog96').dialog('open');ShowObject('Layer5', 0);return false;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:11px;">Lire le manuel d'utilisation</span></div>
 </div>
 <div id="Layer12" style="position:absolute;text-align:left;left:949px;top:245px;width:593px;height:279px;z-index:703;">
-<div id="wb_FontAwesomeIcon11" style="position:absolute;left:12px;top:15px;width:67px;height:68px;text-align:center;z-index:520;">
+<div id="wb_FontAwesomeIcon11" style="position:absolute;left:12px;top:15px;width:67px;height:68px;text-align:center;z-index:521;">
 <div id="FontAwesomeIcon11"><i class="fa fa-id-badge">&nbsp;</i></div></div>
-<div id="wb_LoginName1" style="position:absolute;left:89px;top:38px;width:440px;height:23px;z-index:521;">
+<div id="wb_LoginName1" style="position:absolute;left:89px;top:38px;width:440px;height:23px;z-index:522;">
 <span id="LoginName1">Que souhaitez vous faire <?php
 if (isset($_SESSION['username']))
 {
@@ -4708,40 +4719,40 @@ else
    echo 'dans la session de demonstration';
 }
 ?> ?</span></div>
-<div id="wb_FontAwesomeIcon12" style="position:absolute;left:416px;top:97px;width:100px;height:85px;text-align:center;z-index:522;">
+<div id="wb_FontAwesomeIcon12" style="position:absolute;left:416px;top:97px;width:100px;height:85px;text-align:center;z-index:523;">
 <a href="#" onclick="$('#jQueryDialog94').dialog('open');ShowObject('Layer12', 0);return false;"><div id="FontAwesomeIcon12"><i class="fa fa-power-off">&nbsp;</i></div></a></div>
-<div id="wb_FontAwesomeIcon13" style="position:absolute;left:254px;top:97px;width:100px;height:85px;text-align:center;z-index:523;">
+<div id="wb_FontAwesomeIcon13" style="position:absolute;left:254px;top:97px;width:100px;height:85px;text-align:center;z-index:524;">
 <a href="#" onclick="$('#jQueryDialog95').dialog('open');ShowObject('Layer12', 0);return false;"><div id="FontAwesomeIcon13"><i class="fa fa-refresh">&nbsp;</i></div></a></div>
-<div id="wb_FontAwesomeIcon28" style="position:absolute;left:79px;top:97px;width:100px;height:85px;text-align:center;z-index:524;">
+<div id="wb_FontAwesomeIcon28" style="position:absolute;left:79px;top:97px;width:100px;height:85px;text-align:center;z-index:525;">
 <a href="#" onclick="ShowObject('Layer12', 0);return false;"><div id="FontAwesomeIcon28"><i class="fa fa-undo">&nbsp;</i></div></a></div>
-<div id="wb_Text19" style="position:absolute;left:59px;top:202px;width:140px;height:36px;text-align:center;z-index:525;">
+<div id="wb_Text19" style="position:absolute;left:59px;top:202px;width:140px;height:36px;text-align:center;z-index:526;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>Annuler et revenir à la session</strong></span></div>
-<div id="wb_Text20" style="position:absolute;left:234px;top:202px;width:140px;height:36px;text-align:center;z-index:526;">
+<div id="wb_Text20" style="position:absolute;left:234px;top:202px;width:140px;height:36px;text-align:center;z-index:527;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>Recharger votre session</strong></span></div>
-<div id="wb_Text21" style="position:absolute;left:396px;top:202px;width:140px;height:36px;text-align:center;z-index:527;">
+<div id="wb_Text21" style="position:absolute;left:396px;top:202px;width:140px;height:36px;text-align:center;z-index:528;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>Fermer votre session</strong></span></div>
 </div>
 <div id="Layer4" style="position:fixed;text-align:right;right:0;top:0;bottom:0;width:118px;z-index:704;" onmouseleave="ShowObject('Layer4', 0);return false;">
 <div id="Layer4_Container" style="width:3000px;position:relative;margin-left:auto;margin-right:0;text-align:left;">
-<div id="wb_FontAwesomeIcon21" style="position:absolute;left:25px;top:16px;width:78px;height:63px;text-align:center;z-index:528;">
+<div id="wb_FontAwesomeIcon21" style="position:absolute;left:25px;top:16px;width:78px;height:63px;text-align:center;z-index:529;">
 <a href="#" onclick="$('#jQueryDialog70').dialog('open');return false;"><div id="FontAwesomeIcon21"><i class="fa fa-camera">&nbsp;</i></div></a></div>
-<div id="wb_FontAwesomeIcon22" style="position:absolute;left:25px;top:118px;width:78px;height:68px;text-align:center;z-index:529;">
+<div id="wb_FontAwesomeIcon22" style="position:absolute;left:25px;top:118px;width:78px;height:68px;text-align:center;z-index:530;">
 <a href="#" onclick="$('#jQueryDialog72').dialog('open');return false;"><div id="FontAwesomeIcon22"><i class="fa fa-euro">&nbsp;</i></div></a></div>
-<div id="wb_FontAwesomeIcon24" style="position:absolute;left:25px;top:325px;width:78px;height:70px;text-align:center;z-index:530;">
+<div id="wb_FontAwesomeIcon24" style="position:absolute;left:25px;top:325px;width:78px;height:70px;text-align:center;z-index:531;">
 <a href="#" onclick="$('#jQueryDialog3').dialog('close');$('#jQueryDialog5').dialog('close');$('#jQueryDialog11').dialog('close');ShowObject('Layer7', 1);return false;"><div id="FontAwesomeIcon24"><i class="fa fa-codepen">&nbsp;</i></div></a></div>
-<div id="wb_FontAwesomeIcon25" style="position:absolute;left:25px;top:435px;width:78px;height:64px;text-align:center;z-index:531;">
+<div id="wb_FontAwesomeIcon25" style="position:absolute;left:25px;top:435px;width:78px;height:64px;text-align:center;z-index:532;">
 <a href="#" onclick="$('#jQueryDialog73').dialog('open');return false;"><div id="FontAwesomeIcon25"><i class="fa fa-save">&nbsp;</i></div></a></div>
-<div id="wb_FontAwesomeIcon23" style="position:absolute;left:25px;top:227px;width:78px;height:61px;text-align:center;z-index:532;">
+<div id="wb_FontAwesomeIcon23" style="position:absolute;left:25px;top:227px;width:78px;height:61px;text-align:center;z-index:533;">
 <a href="#" onclick="$('#jQueryDialog71').dialog('open');return false;"><div id="FontAwesomeIcon23"><i class="fa fa-calendar">&nbsp;</i></div></a></div>
 </div>
 </div>
 <div id="jQueryDialog52" style="z-index:705;" title="WIDGETS_LOCK">
-<div id="wb_Text101" style="position:absolute;left:14px;top:16px;width:371px;height:64px;z-index:533;">
+<div id="wb_Text101" style="position:absolute;left:14px;top:16px;width:371px;height:64px;z-index:534;">
 <span style="color:#FF0000;font-family:Arial;font-size:13px;"><strong>Ancienne fenêtre de gestion principale liée à une session WebOS.<br>NE PAS SUPPRIMER au risque de provoquer une instabilité du système&nbsp;!</strong></span></div>
 </div>
 
 <div id="jQueryDialog1" style="z-index:706;" title="MENU_PRINCIPAL_LOCK">
-<div id="wb_Text96" style="position:absolute;left:16px;top:20px;width:371px;height:64px;z-index:534;">
+<div id="wb_Text96" style="position:absolute;left:16px;top:20px;width:371px;height:64px;z-index:535;">
 <span style="color:#FF0000;font-family:Arial;font-size:13px;"><strong>Ancienne fenêtre de gestion principale liée à une session WebOS.<br>NE PAS SUPPRIMER au risque de provoquer une instabilité du système&nbsp;!</strong></span></div>
 </div>
 
@@ -4795,26 +4806,26 @@ function TimerStopTimer19()
 }
 </script>
 
-<div id="Layer13" style="position:absolute;text-align:left;left:329px;top:37px;width:238px;height:297px;z-index:710;">
-<div id="wb_MaterialIcon31" style="position:absolute;left:15px;top:15px;width:52px;height:43px;text-align:center;z-index:535;">
+<div id="Layer13" style="position:absolute;text-align:left;left:376px;top:37px;width:238px;height:297px;z-index:710;">
+<div id="wb_MaterialIcon31" style="position:absolute;left:15px;top:15px;width:52px;height:43px;text-align:center;z-index:536;">
 <a href="#" onclick="$('#jQueryDialog52').dialog('close');$('#jQueryDialog53').dialog('open');return false;"><div id="MaterialIcon31"><i class="material-icons">&#xe0d8;</i></div></a></div>
-<div id="wb_Text53" style="position:absolute;left:79px;top:29px;width:130px;height:15px;z-index:536;">
+<div id="wb_Text53" style="position:absolute;left:79px;top:29px;width:130px;height:15px;z-index:537;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:12px;">Notes</span></div>
-<div id="wb_Image15" style="position:absolute;left:19px;top:58px;width:43px;height:43px;z-index:537;">
+<div id="wb_Image15" style="position:absolute;left:19px;top:58px;width:43px;height:43px;z-index:538;">
 <a href="#" onclick="$('#jQueryDialog15').dialog('open');$('#jQueryDialog52').dialog('close');return false;"><img src="images/52925.png" id="Image15" alt="" title="Calendrier"></a></div>
-<div id="wb_Text3" style="position:absolute;left:79px;top:71px;width:137px;height:15px;z-index:538;">
+<div id="wb_Text3" style="position:absolute;left:79px;top:71px;width:137px;height:15px;z-index:539;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:12px;">Calendrier</span></div>
-<div id="wb_MaterialIcon61" style="position:absolute;left:21px;top:104px;width:39px;height:37px;text-align:center;z-index:539;">
+<div id="wb_MaterialIcon61" style="position:absolute;left:21px;top:104px;width:39px;height:37px;text-align:center;z-index:540;">
 <a href="#" onclick="$('#jQueryDialog52').dialog('close');$('#jQueryDialog69').dialog('open');return false;"><div id="MaterialIcon61"><i class="material-icons">&#xe889;</i></div></a></div>
-<div id="wb_Text102" style="position:absolute;left:79px;top:115px;width:137px;height:15px;z-index:540;">
+<div id="wb_Text102" style="position:absolute;left:79px;top:115px;width:137px;height:15px;z-index:541;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:12px;">Horloge</span></div>
-<div id="wb_MaterialIcon37" style="position:absolute;left:20px;top:146px;width:42px;height:36px;text-align:center;z-index:541;">
+<div id="wb_MaterialIcon37" style="position:absolute;left:20px;top:146px;width:42px;height:36px;text-align:center;z-index:542;">
 <a href="#" onclick="$('#jQueryDialog52').dialog('close');$('#jQueryDialog42').dialog('open');return false;"><div id="MaterialIcon37"><i class="material-icons">&#xe865;</i></div></a></div>
-<div id="wb_Text77" style="position:absolute;left:79px;top:159px;width:130px;height:15px;z-index:542;">
+<div id="wb_Text77" style="position:absolute;left:79px;top:159px;width:130px;height:15px;z-index:543;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:12px;">Bibliothèque</span></div>
-<div id="wb_MaterialIcon35" style="position:absolute;left:21px;top:185px;width:38px;height:40px;text-align:center;z-index:543;">
+<div id="wb_MaterialIcon35" style="position:absolute;left:21px;top:185px;width:38px;height:40px;text-align:center;z-index:544;">
 <a href="#" onclick="$('#jQueryDialog52').dialog('close');$('#jQueryDialog91').dialog('open');return false;"><div id="MaterialIcon35"><i class="material-icons">&#xe22f;</i></div></a></div>
-<div id="wb_Text82" style="position:absolute;left:79px;top:199px;width:130px;height:15px;z-index:544;">
+<div id="wb_Text82" style="position:absolute;left:79px;top:199px;width:130px;height:15px;z-index:545;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:12px;">Duplicateur</span></div>
 <html>
    <body>
@@ -4883,7 +4894,7 @@ var usrxbg='<?php echo $_SESSION['username'];?>';
 </html> 
 </div>
 <div id="jQueryDialog6" title="CLOSE_SESSION_LOCK">
-<div id="wb_Text104" style="position:absolute;left:14px;top:27px;width:371px;height:64px;z-index:546;">
+<div id="wb_Text104" style="position:absolute;left:14px;top:27px;width:371px;height:64px;z-index:547;">
 <span style="color:#FF0000;font-family:Arial;font-size:13px;"><strong>Ancienne fenêtre de gestion principale liée à une session WebOS.<br>NE PAS SUPPRIMER au risque de provoquer une instabilité du système&nbsp;!</strong></span></div>
 </div>
 
@@ -4892,50 +4903,17 @@ var usrxbg='<?php echo $_SESSION['username'];?>';
 </div>
 
 <div id="jQueryDialog97" style="z-index:713;" title="Manuel en vid&#233;o ?">
-<div id="wb_Text107" style="position:absolute;left:16px;top:20px;width:396px;height:17px;z-index:548;">
+<div id="wb_Text107" style="position:absolute;left:16px;top:20px;width:396px;height:17px;z-index:549;">
 <span style="color:#000000;font-family:Arial;font-size:15px;">Souhaitez-vous plutôt découvrir Rynna WebOS en vidéo&nbsp;?</span></div>
-<input type="button" id="Button9" onclick="$('#jQueryDialog96').dialog('close');$('#jQueryDialog97').dialog('close');$('#jQueryDialog98').dialog('open');return false;" name="" value="Oui" style="position:absolute;left:38px;top:78px;width:150px;height:25px;z-index:549;">
-<input type="button" id="Button28" onclick="$('#jQueryDialog97').dialog('close');return false;" name="" value="Pas maintenant" style="position:absolute;left:245px;top:78px;width:150px;height:25px;z-index:550;">
+<input type="button" id="Button9" onclick="$('#jQueryDialog96').dialog('close');$('#jQueryDialog97').dialog('close');$('#jQueryDialog98').dialog('open');return false;" name="" value="Oui" style="position:absolute;left:38px;top:78px;width:150px;height:25px;z-index:550;">
+<input type="button" id="Button28" onclick="$('#jQueryDialog97').dialog('close');return false;" name="" value="Pas maintenant" style="position:absolute;left:245px;top:78px;width:150px;height:25px;z-index:551;">
 </div>
 
 <div id="jQueryDialog98" title="Manuel d&#39;utilisation du WebOS en vid&#233;o (fixe)">
-<div id="wb_Text109" style="position:absolute;left:401px;top:262px;width:250px;height:16px;text-align:center;z-index:551;">
+<div id="wb_Text109" style="position:absolute;left:401px;top:262px;width:250px;height:16px;text-align:center;z-index:552;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Prochainement&nbsp;!</span></div>
 </div>
 
-<script>
-var wb_Timer20;
-function TimerStartTimer20()
-{
-   wb_Timer20 = setTimeout(function()
-   {
-      var event = null;
-      ShowObject('Layer14', 0);
-   }, 25);
-}
-function TimerStopTimer20()
-{
-   clearTimeout(wb_Timer20);
-}
-TimerStartTimer20();
-</script>
-
-<script>
-var wb_Timer21;
-function TimerStartTimer21()
-{
-   wb_Timer21 = setTimeout(function()
-   {
-      var event = null;
-      ShowObject('Layer14', 0);
-   }, 40);
-}
-function TimerStopTimer21()
-{
-   clearTimeout(wb_Timer21);
-}
-TimerStartTimer21();
-</script>
 
 </body>
 </html>

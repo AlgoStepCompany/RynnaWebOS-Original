@@ -21,6 +21,7 @@ body
 .jQueryDialog1.ui-dialog
 {
    padding: 4px 4px 4px 4px;
+   display: none;
 }
 .jQueryDialog1.ui-dialog .ui-dialog-title
 {
@@ -43,6 +44,11 @@ body
 .jQueryDialog1, .jQueryDialog1 .ui-corner-all
 {
    border-radius: 0px;
+}
+#jQueryDialog1.ui-dialog-content
+{
+   overflow: visible;
+   padding: 0;
 }
 #Login1
 {
@@ -134,6 +140,7 @@ body
 .jQueryDialog5.ui-dialog
 {
    padding: 4px 4px 4px 4px;
+   display: none;
 }
 .jQueryDialog5.ui-dialog .ui-dialog-title
 {
@@ -156,6 +163,11 @@ body
 .jQueryDialog5, .jQueryDialog5 .ui-corner-all
 {
    border-radius: 0px;
+}
+#jQueryDialog5.ui-dialog-content
+{
+   overflow: visible;
+   padding: 0;
 }
 #wb_FontAwesomeIcon1
 {
@@ -210,6 +222,7 @@ body
 .jQueryDialog6.ui-dialog
 {
    padding: 4px 4px 4px 4px;
+   display: none;
 }
 .jQueryDialog6.ui-dialog .ui-dialog-title
 {
@@ -232,6 +245,11 @@ body
 .jQueryDialog6, .jQueryDialog6 .ui-corner-all
 {
    border-radius: 0px;
+}
+#jQueryDialog6.ui-dialog-content
+{
+   overflow: visible;
+   padding: 0;
 }
 #Blog1
 {
@@ -600,6 +618,7 @@ body
 .jQueryDialog3.ui-dialog
 {
    padding: 4px 4px 4px 4px;
+   display: none;
 }
 .jQueryDialog3.ui-dialog .ui-dialog-title
 {
@@ -622,6 +641,11 @@ body
 .jQueryDialog3, .jQueryDialog3 .ui-corner-all
 {
    border-radius: 0px;
+}
+#jQueryDialog3.ui-dialog-content
+{
+   overflow: visible;
+   padding: 0;
 }
 #wb_Text5 
 {
