@@ -2139,7 +2139,7 @@ body
 }
 #MaterialIcon22 i
 {
-   color: #C0C0C0;
+   color: #696969;
    display: inline-block;
    font-size: 36px;
    line-height: 36px;
@@ -2148,7 +2148,7 @@ body
 }
 #wb_MaterialIcon22:hover i
 {
-   color: #FFA500;
+   color: #C0C0C0;
 }
 .jQueryToolTip5
 {
@@ -11059,5 +11059,44 @@ body
    -webkit-box-shadow: none;
    -moz-box-shadow: none;
    box-shadow: none;
+   text-align: left;
+}
+#wb_Text110 
+{
+   background-color: #808080;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text110 div
+{
+   text-align: left;
+}
+#wb_Text111 
+{
+   background-color: #808080;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text111 div
+{
+   text-align: left;
+}
+#wb_Text112 
+{
+   background-color: #808080;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text112 div
+{
    text-align: left;
 }
