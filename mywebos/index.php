@@ -3,11 +3,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST
 {
    $success_page = './inituser.php';
    $error_page = './index.php';
-   $mysql_server = 'db698210632.db.1and1.com';
-   $mysql_username = 'dbo698210632';
-   $mysql_password = 'dji1A2Z3E4R5T@!';
-   $mysql_database = 'db698210632';
-   $mysql_table = 'userswebosv2';
+   $mysql_server = '';
+   $mysql_username = '';
+   $mysql_password = '';
+   $mysql_database = '';
+   $mysql_table = 'userswebos';
    $crypt_pass = md5($_POST['password']);
    $found = false;
    $fullname = '';
