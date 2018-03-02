@@ -2539,66 +2539,6 @@ body
 {
    font-size: 1em !important;
 }
-.jQueryDialog29.ui-dialog
-{
-   padding: 4px 4px 4px 4px;
-   display: none;
-}
-.jQueryDialog29.ui-dialog .ui-dialog-title
-{
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   font-style: normal;
-   color: #FFFFFF;
-}
-.jQueryDialog29.ui-dialog .ui-dialog-titlebar
-{
-   font-weight: normal;
-   padding: 10px 10px 10px 30px;
-}
-.ui-dialog .ui-dialog-titlebar-close
-{
-   outline: 0;
-   right: 10px;
-}
-.jQueryDialog29, .jQueryDialog29 .ui-corner-all
-{
-   border-radius: 0px;
-}
-#jQueryDialog29.ui-dialog-content
-{
-   overflow: visible;
-   padding: 0;
-}
-#wb_Text6 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_Text6 div
-{
-   text-align: center;
-}
-#Button6
-{
-   border: 1px #2E6DA4 solid;
-   border-radius: 4px;
-   background-color: #3370B7;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-}
-.ui-dialog.ui-widget
-{
-   font-size: 1em !important;
-}
 .jQueryDialog36.ui-dialog
 {
    background-color: #FF8C00;
@@ -8947,19 +8887,6 @@ body
 {
    text-align: left;
 }
-#wb_Text81 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: justify;
-}
-#wb_Text81 div
-{
-   text-align: justify;
-}
 .ui-dialog.ui-widget
 {
    font-size: 1em !important;
@@ -10794,19 +10721,6 @@ body
    overflow: visible;
    padding: 0;
 }
-#wb_Text104 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text104 div
-{
-   text-align: left;
-}
 #wb_FontAwesomeIcon29
 {
    background-color: transparent;
@@ -11099,4 +11013,77 @@ body
 #wb_Text112 div
 {
    text-align: left;
+}
+.ui-dialog.ui-widget
+{
+   font-size: 1em !important;
+}
+.jQueryDialog29.ui-dialog
+{
+   padding: 4px 4px 4px 4px;
+   display: none;
+}
+.jQueryDialog29.ui-dialog .ui-dialog-title
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   color: #FFFFFF;
+}
+.jQueryDialog29.ui-dialog .ui-dialog-titlebar
+{
+   font-weight: normal;
+   padding: 10px 10px 10px 30px;
+}
+.ui-dialog .ui-dialog-titlebar-close
+{
+   outline: 0;
+   right: 10px;
+}
+.jQueryDialog29, .jQueryDialog29 .ui-corner-all
+{
+   border-radius: 0px;
+}
+#jQueryDialog29.ui-dialog-content
+{
+   overflow: visible;
+   padding: 0;
+}
+#wb_Text6 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text6 div
+{
+   text-align: center;
+}
+#Button6
+{
+   border: 1px #2E6DA4 solid;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}
+#wb_Text81 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: justify;
+}
+#wb_Text81 div
+{
+   text-align: justify;
 }
