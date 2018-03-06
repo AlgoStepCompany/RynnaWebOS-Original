@@ -2139,7 +2139,7 @@ body
 }
 #MaterialIcon22 i
 {
-   color: #C0C0C0;
+   color: #808080;
    display: inline-block;
    font-size: 36px;
    line-height: 36px;
@@ -2148,7 +2148,7 @@ body
 }
 #wb_MaterialIcon22:hover i
 {
-   color: #A9A9A9;
+   color: #808080;
 }
 .jQueryToolTip5
 {
@@ -7269,7 +7269,7 @@ body
 }
 #FontAwesomeIcon5 i
 {
-   color: #FFA500;
+   color: #008000;
    display: inline-block;
    font-size: 80px;
    line-height: 80px;
@@ -7278,7 +7278,7 @@ body
 }
 #wb_FontAwesomeIcon5:hover i
 {
-   color: #FFA500;
+   color: #008000;
 }
 .ui-dialog.ui-widget
 {
@@ -11084,6 +11084,19 @@ body
    text-align: justify;
 }
 #wb_Text81 div
+{
+   text-align: justify;
+}
+#wb_Text104 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: justify;
+}
+#wb_Text104 div
 {
    text-align: justify;
 }

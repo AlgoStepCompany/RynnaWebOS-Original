@@ -1223,7 +1223,7 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    var jQueryDialog2Options =
    {
       width: 628,
-      height: 217,
+      height: 211,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
