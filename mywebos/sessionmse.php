@@ -169,8 +169,8 @@ $(document).ready(function()
 {
    var jQueryDialog3Options =
    {
-      width: 512,
-      height: 396,
+      width: 514,
+      height: 386,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -183,8 +183,8 @@ $(document).ready(function()
    $("#jQueryDialog3").dialog(jQueryDialog3Options);
    var jQueryDialog4Options =
    {
-      width: 398,
-      height: 519,
+      width: 400,
+      height: 509,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -197,8 +197,8 @@ $(document).ready(function()
    $("#jQueryDialog4").dialog(jQueryDialog4Options);
    var jQueryDialog5Options =
    {
-      width: 992,
-      height: 601,
+      width: 994,
+      height: 591,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -211,8 +211,8 @@ $(document).ready(function()
    $("#jQueryDialog5").dialog(jQueryDialog5Options);
    var jQueryDialog8Options =
    {
-      width: 1076,
-      height: 646,
+      width: 1078,
+      height: 636,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -225,8 +225,8 @@ $(document).ready(function()
    $("#jQueryDialog8").dialog(jQueryDialog8Options);
    var jQueryDialog14Options =
    {
-      width: 929,
-      height: 585,
+      width: 931,
+      height: 575,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -239,8 +239,8 @@ $(document).ready(function()
    $("#jQueryDialog14").dialog(jQueryDialog14Options);
    var jQueryDialog19Options =
    {
-      width: 505,
-      height: 206,
+      width: 507,
+      height: 196,
       position: { my: 'center', at: 'center', of: window },
       buttons:
       {
@@ -260,8 +260,8 @@ $(document).ready(function()
    $("#jQueryDialog19").dialog(jQueryDialog19Options);
    var jQueryDialog23Options =
    {
-      width: 881,
-      height: 600,
+      width: 883,
+      height: 590,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -294,8 +294,8 @@ $(document).ready(function()
    });
    var jQueryDialog28Options =
    {
-      width: 768,
-      height: 775,
+      width: 770,
+      height: 765,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -308,8 +308,8 @@ $(document).ready(function()
    $("#jQueryDialog28").dialog(jQueryDialog28Options);
    var jQueryDialog7Options =
    {
-      width: 806,
-      height: 542,
+      width: 808,
+      height: 532,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -322,8 +322,8 @@ $(document).ready(function()
    $("#jQueryDialog7").dialog(jQueryDialog7Options);
    var jQueryDialog11Options =
    {
-      width: 735,
-      height: 534,
+      width: 737,
+      height: 524,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -336,8 +336,8 @@ $(document).ready(function()
    $("#jQueryDialog11").dialog(jQueryDialog11Options);
    var jQueryDialog33Options =
    {
-      width: 891,
-      height: 611,
+      width: 893,
+      height: 601,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -350,8 +350,8 @@ $(document).ready(function()
    $("#jQueryDialog33").dialog(jQueryDialog33Options);
    var jQueryDialog41Options =
    {
-      width: 891,
-      height: 585,
+      width: 893,
+      height: 575,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -364,8 +364,8 @@ $(document).ready(function()
    $("#jQueryDialog41").dialog(jQueryDialog41Options);
    var jQueryDialog20Options =
    {
-      width: 913,
-      height: 546,
+      width: 915,
+      height: 536,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -378,8 +378,8 @@ $(document).ready(function()
    $("#jQueryDialog20").dialog(jQueryDialog20Options);
    var jQueryDialog16Options =
    {
-      width: 945,
-      height: 596,
+      width: 947,
+      height: 586,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -392,8 +392,8 @@ $(document).ready(function()
    $("#jQueryDialog16").dialog(jQueryDialog16Options);
    var jQueryDialog12Options =
    {
-      width: 826,
-      height: 576,
+      width: 828,
+      height: 566,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -415,8 +415,8 @@ $(document).ready(function()
    $("#jQueryAccordion1").accordion(jQueryAccordion1Options);
    var jQueryDialog27Options =
    {
-      width: 736,
-      height: 539,
+      width: 738,
+      height: 529,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -429,8 +429,8 @@ $(document).ready(function()
    $("#jQueryDialog27").dialog(jQueryDialog27Options);
    var jQueryDialog10Options =
    {
-      width: 647,
-      height: 506,
+      width: 649,
+      height: 496,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -443,8 +443,8 @@ $(document).ready(function()
    $("#jQueryDialog10").dialog(jQueryDialog10Options);
    var jQueryDialog29Options =
    {
-      width: 415,
-      height: 412,
+      width: 417,
+      height: 402,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -457,8 +457,8 @@ $(document).ready(function()
    $("#jQueryDialog29").dialog(jQueryDialog29Options);
    var jQueryDialog36Options =
    {
-      width: 581,
-      height: 393,
+      width: 583,
+      height: 383,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -471,8 +471,8 @@ $(document).ready(function()
    $("#jQueryDialog36").dialog(jQueryDialog36Options);
    var jQueryDialog37Options =
    {
-      width: 720,
-      height: 585,
+      width: 722,
+      height: 575,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -485,8 +485,8 @@ $(document).ready(function()
    $("#jQueryDialog37").dialog(jQueryDialog37Options);
    var jQueryDialog38Options =
    {
-      width: 745,
-      height: 613,
+      width: 747,
+      height: 603,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -499,8 +499,8 @@ $(document).ready(function()
    $("#jQueryDialog38").dialog(jQueryDialog38Options);
    var jQueryDialog25Options =
    {
-      width: 842,
-      height: 570,
+      width: 844,
+      height: 560,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -513,8 +513,8 @@ $(document).ready(function()
    $("#jQueryDialog25").dialog(jQueryDialog25Options);
    var jQueryDialog24Options =
    {
-      width: 858,
-      height: 639,
+      width: 860,
+      height: 629,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -527,8 +527,8 @@ $(document).ready(function()
    $("#jQueryDialog24").dialog(jQueryDialog24Options);
    var jQueryDialog34Options =
    {
-      width: 745,
-      height: 242,
+      width: 747,
+      height: 232,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -541,8 +541,8 @@ $(document).ready(function()
    $("#jQueryDialog34").dialog(jQueryDialog34Options);
    var jQueryDialog40Options =
    {
-      width: 979,
-      height: 545,
+      width: 981,
+      height: 535,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -555,8 +555,8 @@ $(document).ready(function()
    $("#jQueryDialog40").dialog(jQueryDialog40Options);
    var jQueryDialog35Options =
    {
-      width: 423,
-      height: 262,
+      width: 425,
+      height: 252,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -569,8 +569,8 @@ $(document).ready(function()
    $("#jQueryDialog35").dialog(jQueryDialog35Options);
    var jQueryDialog49Options =
    {
-      width: 966,
-      height: 567,
+      width: 968,
+      height: 557,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -584,8 +584,8 @@ $(document).ready(function()
    var jQueryDialog50Options =
    {
       modal: true,
-      width: 638,
-      height: 549,
+      width: 640,
+      height: 539,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -605,8 +605,8 @@ $(document).ready(function()
    $("#jQueryTabs4").tabs(jQueryTabs4Options);
    var jQueryDialog30Options =
    {
-      width: 494,
-      height: 195,
+      width: 496,
+      height: 185,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -619,8 +619,8 @@ $(document).ready(function()
    $("#jQueryDialog30").dialog(jQueryDialog30Options);
    var jQueryDialog22Options =
    {
-      width: 685,
-      height: 489,
+      width: 687,
+      height: 479,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -633,8 +633,8 @@ $(document).ready(function()
    $("#jQueryDialog22").dialog(jQueryDialog22Options);
    var jQueryDialog54Options =
    {
-      width: 915,
-      height: 570,
+      width: 917,
+      height: 560,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -647,8 +647,8 @@ $(document).ready(function()
    $("#jQueryDialog54").dialog(jQueryDialog54Options);
    var jQueryDialog51Options =
    {
-      width: 897,
-      height: 550,
+      width: 899,
+      height: 540,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -661,8 +661,8 @@ $(document).ready(function()
    $("#jQueryDialog51").dialog(jQueryDialog51Options);
    var jQueryDialog56Options =
    {
-      width: 902,
-      height: 585,
+      width: 904,
+      height: 575,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -675,8 +675,8 @@ $(document).ready(function()
    $("#jQueryDialog56").dialog(jQueryDialog56Options);
    var jQueryDialog57Options =
    {
-      width: 970,
-      height: 585,
+      width: 972,
+      height: 575,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -689,8 +689,8 @@ $(document).ready(function()
    $("#jQueryDialog57").dialog(jQueryDialog57Options);
    var jQueryDialog58Options =
    {
-      width: 902,
-      height: 585,
+      width: 904,
+      height: 575,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -703,8 +703,8 @@ $(document).ready(function()
    $("#jQueryDialog58").dialog(jQueryDialog58Options);
    var jQueryDialog59Options =
    {
-      width: 902,
-      height: 585,
+      width: 904,
+      height: 575,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -717,8 +717,8 @@ $(document).ready(function()
    $("#jQueryDialog59").dialog(jQueryDialog59Options);
    var jQueryDialog60Options =
    {
-      width: 970,
-      height: 585,
+      width: 972,
+      height: 575,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -731,8 +731,8 @@ $(document).ready(function()
    $("#jQueryDialog60").dialog(jQueryDialog60Options);
    var jQueryDialog61Options =
    {
-      width: 902,
-      height: 585,
+      width: 904,
+      height: 575,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -746,8 +746,8 @@ $(document).ready(function()
    var jQueryDialog6Options =
    {
       modal: true,
-      width: 465,
-      height: 158,
+      width: 467,
+      height: 148,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: false,
@@ -760,8 +760,8 @@ $(document).ready(function()
    $("#jQueryDialog6").dialog(jQueryDialog6Options);
    var jQueryDialog1Options =
    {
-      width: 493,
-      height: 464,
+      width: 495,
+      height: 454,
       position: { my: 'left top', at: 'left top+37', of: window },
       resizable: false,
       draggable: false,
@@ -775,8 +775,8 @@ $(document).ready(function()
    var jQueryDialog21Options =
    {
       modal: true,
-      width: 482,
-      height: 207,
+      width: 484,
+      height: 197,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -790,8 +790,8 @@ $(document).ready(function()
    var jQueryDialog18Options =
    {
       modal: true,
-      width: 393,
-      height: 166,
+      width: 395,
+      height: 156,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: false,
@@ -804,8 +804,8 @@ $(document).ready(function()
    $("#jQueryDialog18").dialog(jQueryDialog18Options);
    var jQueryDialog64Options =
    {
-      width: 357,
-      height: 177,
+      width: 359,
+      height: 167,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -818,8 +818,8 @@ $(document).ready(function()
    $("#jQueryDialog64").dialog(jQueryDialog64Options);
    var jQueryDialog65Options =
    {
-      width: 622,
-      height: 728,
+      width: 624,
+      height: 718,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -832,8 +832,8 @@ $(document).ready(function()
    $("#jQueryDialog65").dialog(jQueryDialog65Options);
    var jQueryDialog66Options =
    {
-      width: 622,
-      height: 728,
+      width: 624,
+      height: 718,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -846,8 +846,8 @@ $(document).ready(function()
    $("#jQueryDialog66").dialog(jQueryDialog66Options);
    var jQueryDialog67Options =
    {
-      width: 899,
-      height: 351,
+      width: 901,
+      height: 341,
       position: { my: 'left top', at: 'right bottom', of: window },
       resizable: false,
       draggable: true,
@@ -861,8 +861,8 @@ $(document).ready(function()
 $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste'], script: 'fileuploader.php' });
    var jQueryDialog13Options =
    {
-      width: 1090,
-      height: 627,
+      width: 1092,
+      height: 617,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -875,8 +875,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog13").dialog(jQueryDialog13Options);
    var jQueryDialog70Options =
    {
-      width: 564,
-      height: 409,
+      width: 566,
+      height: 399,
       position: { my: 'center top', at: 'center top', of: window },
       resizable: true,
       draggable: true,
@@ -887,8 +887,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog70").dialog(jQueryDialog70Options);
    var jQueryDialog71Options =
    {
-      width: 749,
-      height: 531,
+      width: 751,
+      height: 521,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -901,8 +901,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog71").dialog(jQueryDialog71Options);
    var jQueryDialog72Options =
    {
-      width: 918,
-      height: 529,
+      width: 920,
+      height: 519,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -915,8 +915,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog72").dialog(jQueryDialog72Options);
    var jQueryDialog73Options =
    {
-      width: 373,
-      height: 252,
+      width: 375,
+      height: 242,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -930,8 +930,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#Layer8").stickylayer({orientation: 9, position: [0, 0], delay: 1});
    var jQueryDialog32Options =
    {
-      width: 768,
-      height: 644,
+      width: 770,
+      height: 634,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -949,8 +949,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#Layer22").stickylayer({orientation: 7, position: [0, 0], delay: 0});
    var jQueryDialog9Options =
    {
-      width: 1008,
-      height: 549,
+      width: 1010,
+      height: 539,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -963,8 +963,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog9").dialog(jQueryDialog9Options);
    var jQueryDialog31Options =
    {
-      width: 1003,
-      height: 570,
+      width: 1005,
+      height: 560,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -977,8 +977,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog31").dialog(jQueryDialog31Options);
    var jQueryDialog55Options =
    {
-      width: 918,
-      height: 580,
+      width: 920,
+      height: 570,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -991,8 +991,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog55").dialog(jQueryDialog55Options);
    var jQueryDialog68Options =
    {
-      width: 1008,
-      height: 558,
+      width: 1010,
+      height: 548,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1005,8 +1005,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog68").dialog(jQueryDialog68Options);
    var jQueryDialog75Options =
    {
-      width: 934,
-      height: 579,
+      width: 936,
+      height: 569,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1019,8 +1019,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog75").dialog(jQueryDialog75Options);
    var jQueryDialog76Options =
    {
-      width: 919,
-      height: 569,
+      width: 921,
+      height: 559,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1033,8 +1033,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog76").dialog(jQueryDialog76Options);
    var jQueryDialog62Options =
    {
-      width: 1020,
-      height: 570,
+      width: 1022,
+      height: 560,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1049,8 +1049,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    var jQueryDialog17Options =
    {
       modal: true,
-      width: 486,
-      height: 364,
+      width: 488,
+      height: 354,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1064,8 +1064,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    var jQueryDialog63Options =
    {
       modal: true,
-      width: 502,
-      height: 197,
+      width: 504,
+      height: 187,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: false,
@@ -1078,8 +1078,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog63").dialog(jQueryDialog63Options);
    var jQueryDialog77Options =
    {
-      width: 614,
-      height: 591,
+      width: 616,
+      height: 581,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1092,8 +1092,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog77").dialog(jQueryDialog77Options);
    var jQueryDialog78Options =
    {
-      width: 990,
-      height: 576,
+      width: 992,
+      height: 566,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1114,8 +1114,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    var jQueryDialog74Options =
    {
       modal: true,
-      width: 570,
-      height: 398,
+      width: 572,
+      height: 388,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1126,8 +1126,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog74").dialog(jQueryDialog74Options);
    var jQueryDialog79Options =
    {
-      width: 368,
-      height: 351,
+      width: 370,
+      height: 341,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1140,8 +1140,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog79").dialog(jQueryDialog79Options);
    var jQueryDialog80Options =
    {
-      width: 368,
-      height: 351,
+      width: 370,
+      height: 341,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1154,8 +1154,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog80").dialog(jQueryDialog80Options);
    var jQueryDialog81Options =
    {
-      width: 711,
-      height: 539,
+      width: 713,
+      height: 529,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1168,8 +1168,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog81").dialog(jQueryDialog81Options);
    var jQueryDialog82Options =
    {
-      width: 513,
-      height: 425,
+      width: 515,
+      height: 415,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1183,8 +1183,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#Layer28").stickylayer({orientation: 9, position: [0, 0], delay: 0});
    var jQueryDialog83Options =
    {
-      width: 519,
-      height: 288,
+      width: 521,
+      height: 278,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1196,8 +1196,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog83").dialog(jQueryDialog83Options);
    var jQueryDialog84Options =
    {
-      width: 682,
-      height: 414,
+      width: 684,
+      height: 404,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1208,8 +1208,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog84").dialog(jQueryDialog84Options);
    var jQueryDialog87Options =
    {
-      width: 924,
-      height: 533,
+      width: 926,
+      height: 523,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1222,8 +1222,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog87").dialog(jQueryDialog87Options);
    var jQueryDialog2Options =
    {
-      width: 628,
-      height: 211,
+      width: 630,
+      height: 201,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1565,27 +1565,27 @@ function TimerStopTimer7()
 <li><a href="#jquerytabs4-page-1"><span>Information navigateur</span></a></li>
 </ul>
 <div style="height:376px;" id="jquerytabs4-page-0">
-<input type="button" id="Button10" onclick="$('#jQueryDialog1').dialog('close');return false;" name="" value="Menu Applicatifs" style="position:absolute;left:11px;top:15px;width:251px;height:25px;z-index:95;">
-<input type="button" id="Button11" onclick="$('#jQueryDialog3').dialog('close');return false;" name="" value="Applis installées" style="position:absolute;left:304px;top:15px;width:251px;height:25px;z-index:96;">
-<input type="button" id="Button13" onclick="$('#jQueryDialog9').dialog('close');return false;" name="" value="Application Windows" style="position:absolute;left:11px;top:50px;width:251px;height:25px;z-index:97;">
-<input type="button" id="Button14" onclick="$('#jQueryDialog13').dialog('close');return false;" name="" value="Messagerie NetCourriel" style="position:absolute;left:304px;top:50px;width:251px;height:25px;z-index:98;">
-<input type="button" id="Button16" onclick="$('#jQueryDialog31').dialog('close');return false;" name="" value="Dépôt Applications" style="position:absolute;left:11px;top:87px;width:251px;height:25px;z-index:99;">
-<input type="button" id="Button17" onclick="$('#jQueryDialog16').dialog('close');return false;" name="" value="Street View" style="position:absolute;left:304px;top:87px;width:251px;height:25px;z-index:100;">
-<input type="button" id="Button18" onclick="$('#jQueryDialog12').dialog('close');return false;" name="" value="Applications virtualisées" style="position:absolute;left:11px;top:124px;width:251px;height:25px;z-index:101;">
-<input type="button" id="Button19" onclick="$('#jQueryDialog10').dialog('close');return false;" name="" value="Chat WebOS" style="position:absolute;left:304px;top:124px;width:251px;height:25px;z-index:102;">
-<input type="button" id="Button20" onclick="$('#jQueryDialog40').dialog('close');return false;" name="" value="Editeur 3D Tridiv" style="position:absolute;left:11px;top:161px;width:251px;height:25px;z-index:103;">
-<input type="button" id="Button21" onclick="ShowObject('jQueryDialog42', 0);return false;" name="" value="Applications d'Entreprise" style="position:absolute;left:304px;top:161px;width:251px;height:25px;z-index:104;">
-<input type="button" id="Button22" onclick="$('#jQueryDialog11').dialog('close');return false;" name="" value="Paramètres et Aides" style="position:absolute;left:11px;top:197px;width:251px;height:25px;z-index:105;">
-<input type="button" id="Button23" onclick="$('#jQueryDialog41').dialog('close');return false;" name="" value="Gestionnaire de jeux" style="position:absolute;left:304px;top:197px;width:251px;height:25px;z-index:106;">
-<input type="button" id="Button24" onclick="$('#jQueryDialog19').dialog('close');return false;" name="" value="Terminal renseignements" style="position:absolute;left:11px;top:235px;width:251px;height:25px;z-index:107;">
-<input type="button" id="Button25" onclick="$('#jQueryDialog8').dialog('close');return false;" name="" value="Navigateur Web Qwant" style="position:absolute;left:304px;top:235px;width:251px;height:25px;z-index:108;">
-<input type="button" id="Button26" onclick="$('#jQueryDialog5').dialog('close');return false;" name="" value="Explorateur de fichiers" style="position:absolute;left:11px;top:272px;width:251px;height:25px;z-index:109;">
-<input type="button" id="Button27" onclick="$('#jQueryDialog21').dialog('close');return false;" name="" value="Fenêtre de Bienvenue" style="position:absolute;left:304px;top:272px;width:251px;height:25px;z-index:110;">
-<div id="wb_Text49" style="position:absolute;left:11px;top:329px;width:513px;height:16px;z-index:111;">
+<input type="button" id="Button10" onclick="$('#jQueryDialog1').dialog('close');return false;" name="" value="Menu Applicatifs" style="position:absolute;left:16px;top:58px;width:251px;height:25px;z-index:95;">
+<input type="button" id="Button11" onclick="$('#jQueryDialog3').dialog('close');return false;" name="" value="Applis installées" style="position:absolute;left:309px;top:58px;width:251px;height:25px;z-index:96;">
+<input type="button" id="Button13" onclick="$('#jQueryDialog9').dialog('close');return false;" name="" value="Application Windows" style="position:absolute;left:16px;top:93px;width:251px;height:25px;z-index:97;">
+<input type="button" id="Button14" onclick="$('#jQueryDialog13').dialog('close');return false;" name="" value="Messagerie NetCourriel" style="position:absolute;left:309px;top:93px;width:251px;height:25px;z-index:98;">
+<input type="button" id="Button16" onclick="$('#jQueryDialog31').dialog('close');return false;" name="" value="Dépôt Applications" style="position:absolute;left:16px;top:130px;width:251px;height:25px;z-index:99;">
+<input type="button" id="Button17" onclick="$('#jQueryDialog16').dialog('close');return false;" name="" value="Street View" style="position:absolute;left:309px;top:130px;width:251px;height:25px;z-index:100;">
+<input type="button" id="Button18" onclick="$('#jQueryDialog12').dialog('close');return false;" name="" value="Applications virtualisées" style="position:absolute;left:16px;top:167px;width:251px;height:25px;z-index:101;">
+<input type="button" id="Button19" onclick="$('#jQueryDialog10').dialog('close');return false;" name="" value="Chat WebOS" style="position:absolute;left:309px;top:167px;width:251px;height:25px;z-index:102;">
+<input type="button" id="Button20" onclick="$('#jQueryDialog40').dialog('close');return false;" name="" value="Editeur 3D Tridiv" style="position:absolute;left:16px;top:204px;width:251px;height:25px;z-index:103;">
+<input type="button" id="Button21" onclick="ShowObject('jQueryDialog42', 0);return false;" name="" value="Applications d'Entreprise" style="position:absolute;left:309px;top:204px;width:251px;height:25px;z-index:104;">
+<input type="button" id="Button22" onclick="$('#jQueryDialog11').dialog('close');return false;" name="" value="Paramètres et Aides" style="position:absolute;left:16px;top:240px;width:251px;height:25px;z-index:105;">
+<input type="button" id="Button23" onclick="$('#jQueryDialog41').dialog('close');return false;" name="" value="Gestionnaire de jeux" style="position:absolute;left:309px;top:240px;width:251px;height:25px;z-index:106;">
+<input type="button" id="Button24" onclick="$('#jQueryDialog19').dialog('close');return false;" name="" value="Terminal renseignements" style="position:absolute;left:16px;top:278px;width:251px;height:25px;z-index:107;">
+<input type="button" id="Button25" onclick="$('#jQueryDialog8').dialog('close');return false;" name="" value="Navigateur Web Qwant" style="position:absolute;left:309px;top:278px;width:251px;height:25px;z-index:108;">
+<input type="button" id="Button26" onclick="$('#jQueryDialog5').dialog('close');return false;" name="" value="Explorateur de fichiers" style="position:absolute;left:16px;top:315px;width:251px;height:25px;z-index:109;">
+<input type="button" id="Button27" onclick="$('#jQueryDialog21').dialog('close');return false;" name="" value="Fenêtre de Bienvenue" style="position:absolute;left:309px;top:315px;width:251px;height:25px;z-index:110;">
+<div id="wb_Text49" style="position:absolute;left:16px;top:372px;width:513px;height:16px;z-index:111;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Information&nbsp;: les programmes doivent être ouverts à l'écran pour être fermés.</span></div>
 </div>
 <div style="height:376px;" id="jquerytabs4-page-1">
-<div id="wb_JavaScript2" style="position:absolute;left:16px;top:16px;width:555px;height:301px;z-index:112;">
+<div id="wb_JavaScript2" style="position:absolute;left:21px;top:59px;width:555px;height:301px;z-index:112;">
 <script>
 document.write("<div style='font-family:Arial;font-size:14px;color:#000000;text-decoration:none;font-weight:normal;font-style:normal;text-align:left;text-decoration:none'>" + navigator.appName + " " + navigator.appVersion + "<\/div>");
 </script>

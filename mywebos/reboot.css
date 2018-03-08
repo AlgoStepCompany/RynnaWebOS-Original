@@ -1,0 +1,49 @@
+body
+{
+   background-color: #000000;
+   background-image: url(images/newscreenx2.jpg);
+   background-attachment: fixed;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#Layer1
+{
+   background-color: transparent;
+   background-image: url(images/background_blackblue.png);
+   background-repeat: repeat;
+   background-position: left top;
+}
+#Layer2
+{
+   background-color: transparent;
+   background-image: url(images/shutdown.gif);
+   background-repeat: no-repeat;
+   background-position: left top;
+   background-size: 100% 100%;
+}
+#Layer3
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1 div
+{
+   text-align: center;
+}
