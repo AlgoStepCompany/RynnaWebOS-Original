@@ -32,19 +32,19 @@
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/newuser.php</loc>
-		<lastmod>2018-02-20</lastmod>
+		<lastmod>2018-03-09</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/passwdperdu.php</loc>
-		<lastmod>2018-02-25</lastmod>
+		<lastmod>2018-03-09</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/errormailstats.php</loc>
-		<lastmod>2018-03-06</lastmod>
+		<lastmod>2018-03-09</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
@@ -578,7 +578,7 @@
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/refused.php</loc>
-		<lastmod>2018-03-06</lastmod>
+		<lastmod>2018-03-09</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
@@ -662,25 +662,25 @@
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/initerror.php</loc>
-		<lastmod>2018-03-08</lastmod>
+		<lastmod>2018-03-09</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/demousr.php</loc>
-		<lastmod>2018-03-08</lastmod>
+		<lastmod>2018-03-09</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/reboot.php</loc>
-		<lastmod>2018-03-08</lastmod>
+		<lastmod>2018-03-09</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/rebootdemo.php</loc>
-		<lastmod>2018-03-08</lastmod>
+		<lastmod>2018-03-09</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>

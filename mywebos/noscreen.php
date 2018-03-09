@@ -9,7 +9,7 @@
 <link href="font-awesome.min.css" rel="stylesheet">
 <link href="RynnaWebOS.css" rel="stylesheet">
 <link href="noscreen.css" rel="stylesheet">
-<script src="jquery-3.2.1.min.js"></script>
+<script src="jquery-3.3.1.min.js"></script>
 <script src="wb.panel.min.js"></script>
 <script>
 $(document).ready(function()
