@@ -171,8 +171,8 @@ $(document).ready(function()
    $("#Layer1").stickylayer({orientation: 9, position: [0, 0], delay: 1});
    var jQueryDialog3Options =
    {
-      width: 694,
-      height: 514,
+      width: 692,
+      height: 524,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -185,8 +185,8 @@ $(document).ready(function()
    $("#jQueryDialog3").dialog(jQueryDialog3Options);
    var jQueryDialog4Options =
    {
-      width: 400,
-      height: 509,
+      width: 398,
+      height: 519,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -199,8 +199,8 @@ $(document).ready(function()
    $("#jQueryDialog4").dialog(jQueryDialog4Options);
    var jQueryDialog5Options =
    {
-      width: 994,
-      height: 591,
+      width: 992,
+      height: 601,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -213,8 +213,8 @@ $(document).ready(function()
    $("#jQueryDialog5").dialog(jQueryDialog5Options);
    var jQueryDialog8Options =
    {
-      width: 1044,
-      height: 599,
+      width: 1042,
+      height: 609,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -227,8 +227,8 @@ $(document).ready(function()
    $("#jQueryDialog8").dialog(jQueryDialog8Options);
    var jQueryDialog14Options =
    {
-      width: 931,
-      height: 575,
+      width: 929,
+      height: 585,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -241,8 +241,8 @@ $(document).ready(function()
    $("#jQueryDialog14").dialog(jQueryDialog14Options);
    var jQueryDialog19Options =
    {
-      width: 507,
-      height: 211,
+      width: 505,
+      height: 221,
       position: { my: 'center', at: 'center', of: window },
       buttons:
       {
@@ -262,8 +262,8 @@ $(document).ready(function()
    $("#jQueryDialog19").dialog(jQueryDialog19Options);
    var jQueryDialog23Options =
    {
-      width: 883,
-      height: 590,
+      width: 881,
+      height: 600,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -296,8 +296,8 @@ $(document).ready(function()
    });
    var jQueryDialog28Options =
    {
-      width: 898,
-      height: 566,
+      width: 896,
+      height: 576,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -310,8 +310,8 @@ $(document).ready(function()
    $("#jQueryDialog28").dialog(jQueryDialog28Options);
    var jQueryDialog7Options =
    {
-      width: 808,
-      height: 532,
+      width: 806,
+      height: 542,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -344,8 +344,8 @@ $(document).ready(function()
    $("#wb_FontAwesomeIcon16").tooltip(jQueryToolTip3Options);
    var jQueryDialog11Options =
    {
-      width: 814,
-      height: 575,
+      width: 812,
+      height: 585,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -358,8 +358,8 @@ $(document).ready(function()
    $("#jQueryDialog11").dialog(jQueryDialog11Options);
    var jQueryDialog33Options =
    {
-      width: 786,
-      height: 485,
+      width: 784,
+      height: 495,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -392,8 +392,8 @@ $(document).ready(function()
    $("#wb_MaterialIcon24").tooltip(jQueryToolTip6Options);
    var jQueryDialog41Options =
    {
-      width: 893,
-      height: 575,
+      width: 891,
+      height: 585,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -406,8 +406,8 @@ $(document).ready(function()
    $("#jQueryDialog41").dialog(jQueryDialog41Options);
    var jQueryDialog20Options =
    {
-      width: 915,
-      height: 536,
+      width: 913,
+      height: 546,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -420,8 +420,8 @@ $(document).ready(function()
    $("#jQueryDialog20").dialog(jQueryDialog20Options);
    var jQueryDialog16Options =
    {
-      width: 891,
-      height: 548,
+      width: 889,
+      height: 558,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -434,8 +434,8 @@ $(document).ready(function()
    $("#jQueryDialog16").dialog(jQueryDialog16Options);
    var jQueryDialog12Options =
    {
-      width: 828,
-      height: 566,
+      width: 826,
+      height: 576,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -457,8 +457,8 @@ $(document).ready(function()
    $("#jQueryAccordion1").accordion(jQueryAccordion1Options);
    var jQueryDialog27Options =
    {
-      width: 738,
-      height: 529,
+      width: 736,
+      height: 539,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -471,8 +471,8 @@ $(document).ready(function()
    $("#jQueryDialog27").dialog(jQueryDialog27Options);
    var jQueryDialog10Options =
    {
-      width: 934,
-      height: 571,
+      width: 932,
+      height: 581,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -485,8 +485,8 @@ $(document).ready(function()
    $("#jQueryDialog10").dialog(jQueryDialog10Options);
    var jQueryDialog36Options =
    {
-      width: 583,
-      height: 223,
+      width: 581,
+      height: 233,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -499,8 +499,8 @@ $(document).ready(function()
    $("#jQueryDialog36").dialog(jQueryDialog36Options);
    var jQueryDialog37Options =
    {
-      width: 722,
-      height: 611,
+      width: 720,
+      height: 621,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -513,8 +513,8 @@ $(document).ready(function()
    $("#jQueryDialog37").dialog(jQueryDialog37Options);
    var jQueryDialog38Options =
    {
-      width: 747,
-      height: 562,
+      width: 745,
+      height: 572,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -527,8 +527,8 @@ $(document).ready(function()
    $("#jQueryDialog38").dialog(jQueryDialog38Options);
    var jQueryDialog25Options =
    {
-      width: 844,
-      height: 560,
+      width: 842,
+      height: 570,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -541,8 +541,8 @@ $(document).ready(function()
    $("#jQueryDialog25").dialog(jQueryDialog25Options);
    var jQueryDialog24Options =
    {
-      width: 860,
-      height: 629,
+      width: 858,
+      height: 639,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -555,8 +555,8 @@ $(document).ready(function()
    $("#jQueryDialog24").dialog(jQueryDialog24Options);
    var jQueryDialog34Options =
    {
-      width: 495,
-      height: 213,
+      width: 493,
+      height: 223,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -569,8 +569,8 @@ $(document).ready(function()
    $("#jQueryDialog34").dialog(jQueryDialog34Options);
    var jQueryDialog39Options =
    {
-      width: 725,
-      height: 210,
+      width: 723,
+      height: 220,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -583,8 +583,8 @@ $(document).ready(function()
    $("#jQueryDialog39").dialog(jQueryDialog39Options);
    var jQueryDialog40Options =
    {
-      width: 936,
-      height: 534,
+      width: 934,
+      height: 544,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -597,8 +597,8 @@ $(document).ready(function()
    $("#jQueryDialog40").dialog(jQueryDialog40Options);
    var jQueryDialog35Options =
    {
-      width: 425,
-      height: 252,
+      width: 423,
+      height: 262,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -611,8 +611,8 @@ $(document).ready(function()
    $("#jQueryDialog35").dialog(jQueryDialog35Options);
    var jQueryDialog43Options =
    {
-      width: 529,
-      height: 592,
+      width: 527,
+      height: 602,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -625,8 +625,8 @@ $(document).ready(function()
    $("#jQueryDialog43").dialog(jQueryDialog43Options);
    var jQueryDialog44Options =
    {
-      width: 1039,
-      height: 592,
+      width: 1037,
+      height: 602,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -639,8 +639,8 @@ $(document).ready(function()
    $("#jQueryDialog44").dialog(jQueryDialog44Options);
    var jQueryDialog46Options =
    {
-      width: 892,
-      height: 592,
+      width: 890,
+      height: 602,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -653,8 +653,8 @@ $(document).ready(function()
    $("#jQueryDialog46").dialog(jQueryDialog46Options);
    var jQueryDialog47Options =
    {
-      width: 981,
-      height: 592,
+      width: 979,
+      height: 602,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -667,8 +667,8 @@ $(document).ready(function()
    $("#jQueryDialog47").dialog(jQueryDialog47Options);
    var jQueryDialog48Options =
    {
-      width: 804,
-      height: 592,
+      width: 802,
+      height: 602,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -691,8 +691,8 @@ $(document).ready(function()
    $("#wb_MaterialIcon25").tooltip(jQueryToolTip7Options);
    var jQueryDialog49Options =
    {
-      width: 968,
-      height: 557,
+      width: 966,
+      height: 567,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -716,8 +716,8 @@ $(document).ready(function()
    var jQueryDialog50Options =
    {
       modal: true,
-      width: 640,
-      height: 539,
+      width: 638,
+      height: 549,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -747,8 +747,8 @@ $(document).ready(function()
    $("#wb_MaterialIcon30").tooltip(jQueryToolTip4Options);
    var jQueryDialog53Options =
    {
-      width: 279,
-      height: 240,
+      width: 277,
+      height: 250,
       position: { my: 'left top', at: 'right top+95', of: window },
       resizable: false,
       draggable: true,
@@ -761,8 +761,8 @@ $(document).ready(function()
    $("#jQueryDialog53").dialog(jQueryDialog53Options);
    var jQueryDialog15Options =
    {
-      width: 279,
-      height: 224,
+      width: 277,
+      height: 234,
       position: { my: 'left top', at: 'right top+46', of: window },
       resizable: false,
       draggable: true,
@@ -795,8 +795,8 @@ $(document).ready(function()
    $("#wb_MaterialIcon2").tooltip(jQueryToolTip9Options);
    var jQueryDialog30Options =
    {
-      width: 496,
-      height: 185,
+      width: 494,
+      height: 195,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -809,8 +809,8 @@ $(document).ready(function()
    $("#jQueryDialog30").dialog(jQueryDialog30Options);
    var jQueryDialog22Options =
    {
-      width: 687,
-      height: 479,
+      width: 685,
+      height: 489,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -823,8 +823,8 @@ $(document).ready(function()
    $("#jQueryDialog22").dialog(jQueryDialog22Options);
    var jQueryDialog54Options =
    {
-      width: 917,
-      height: 560,
+      width: 915,
+      height: 570,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -837,8 +837,8 @@ $(document).ready(function()
    $("#jQueryDialog54").dialog(jQueryDialog54Options);
    var jQueryDialog51Options =
    {
-      width: 899,
-      height: 540,
+      width: 897,
+      height: 550,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -851,8 +851,8 @@ $(document).ready(function()
    $("#jQueryDialog51").dialog(jQueryDialog51Options);
    var jQueryDialog56Options =
    {
-      width: 904,
-      height: 575,
+      width: 902,
+      height: 585,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -865,8 +865,8 @@ $(document).ready(function()
    $("#jQueryDialog56").dialog(jQueryDialog56Options);
    var jQueryDialog57Options =
    {
-      width: 972,
-      height: 575,
+      width: 970,
+      height: 585,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -879,8 +879,8 @@ $(document).ready(function()
    $("#jQueryDialog57").dialog(jQueryDialog57Options);
    var jQueryDialog58Options =
    {
-      width: 904,
-      height: 575,
+      width: 902,
+      height: 585,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -893,8 +893,8 @@ $(document).ready(function()
    $("#jQueryDialog58").dialog(jQueryDialog58Options);
    var jQueryDialog59Options =
    {
-      width: 904,
-      height: 575,
+      width: 902,
+      height: 585,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -907,8 +907,8 @@ $(document).ready(function()
    $("#jQueryDialog59").dialog(jQueryDialog59Options);
    var jQueryDialog60Options =
    {
-      width: 972,
-      height: 575,
+      width: 970,
+      height: 585,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -921,8 +921,8 @@ $(document).ready(function()
    $("#jQueryDialog60").dialog(jQueryDialog60Options);
    var jQueryDialog61Options =
    {
-      width: 904,
-      height: 575,
+      width: 902,
+      height: 585,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -936,8 +936,8 @@ $(document).ready(function()
    var jQueryDialog21Options =
    {
       modal: true,
-      width: 484,
-      height: 197,
+      width: 482,
+      height: 207,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -958,8 +958,8 @@ $(document).ready(function()
    var jQueryDialog18Options =
    {
       modal: true,
-      width: 405,
-      height: 168,
+      width: 403,
+      height: 178,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: false,
@@ -972,8 +972,8 @@ $(document).ready(function()
    $("#jQueryDialog18").dialog(jQueryDialog18Options);
    var jQueryDialog2Options =
    {
-      width: 458,
-      height: 495,
+      width: 456,
+      height: 505,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -986,8 +986,8 @@ $(document).ready(function()
    $("#jQueryDialog2").dialog(jQueryDialog2Options);
    var jQueryDialog26Options =
    {
-      width: 458,
-      height: 246,
+      width: 456,
+      height: 256,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1000,8 +1000,8 @@ $(document).ready(function()
    $("#jQueryDialog26").dialog(jQueryDialog26Options);
    var jQueryDialog64Options =
    {
-      width: 359,
-      height: 167,
+      width: 357,
+      height: 177,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1014,8 +1014,8 @@ $(document).ready(function()
    $("#jQueryDialog64").dialog(jQueryDialog64Options);
    var jQueryDialog65Options =
    {
-      width: 624,
-      height: 718,
+      width: 622,
+      height: 728,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1028,8 +1028,8 @@ $(document).ready(function()
    $("#jQueryDialog65").dialog(jQueryDialog65Options);
    var jQueryDialog66Options =
    {
-      width: 624,
-      height: 718,
+      width: 622,
+      height: 728,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1042,8 +1042,8 @@ $(document).ready(function()
    $("#jQueryDialog66").dialog(jQueryDialog66Options);
    var jQueryDialog67Options =
    {
-      width: 901,
-      height: 341,
+      width: 899,
+      height: 351,
       position: { my: 'left top', at: 'right bottom', of: window },
       resizable: false,
       draggable: true,
@@ -1057,8 +1057,8 @@ $(document).ready(function()
 $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste'], script: 'fileuploader.php' });
    var jQueryDialog13Options =
    {
-      width: 1092,
-      height: 617,
+      width: 1090,
+      height: 627,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1081,8 +1081,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#wb_MaterialIcon19").tooltip(jQueryToolTip10Options);
    var jQueryDialog69Options =
    {
-      width: 290,
-      height: 279,
+      width: 288,
+      height: 289,
       position: { my: 'left top', at: 'right top+125', of: window },
       resizable: false,
       draggable: true,
@@ -1095,8 +1095,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog69").dialog(jQueryDialog69Options);
    var jQueryDialog70Options =
    {
-      width: 566,
-      height: 399,
+      width: 564,
+      height: 409,
       position: { my: 'center top', at: 'center top', of: window },
       resizable: true,
       draggable: true,
@@ -1107,8 +1107,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog70").dialog(jQueryDialog70Options);
    var jQueryDialog71Options =
    {
-      width: 792,
-      height: 530,
+      width: 790,
+      height: 540,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1121,8 +1121,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog71").dialog(jQueryDialog71Options);
    var jQueryDialog72Options =
    {
-      width: 920,
-      height: 519,
+      width: 918,
+      height: 529,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1135,8 +1135,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog72").dialog(jQueryDialog72Options);
    var jQueryDialog73Options =
    {
-      width: 289,
-      height: 265,
+      width: 287,
+      height: 275,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1150,8 +1150,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#Layer8").stickylayer({orientation: 9, position: [0, 0], delay: 1});
    var jQueryDialog32Options =
    {
-      width: 770,
-      height: 593,
+      width: 768,
+      height: 603,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1165,8 +1165,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#Layer22").stickylayer({orientation: 7, position: [0, 0], delay: 0});
    var jQueryDialog9Options =
    {
-      width: 1010,
-      height: 539,
+      width: 1008,
+      height: 549,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1179,8 +1179,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog9").dialog(jQueryDialog9Options);
    var jQueryDialog31Options =
    {
-      width: 1005,
-      height: 560,
+      width: 1003,
+      height: 570,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1193,8 +1193,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog31").dialog(jQueryDialog31Options);
    var jQueryDialog55Options =
    {
-      width: 920,
-      height: 570,
+      width: 918,
+      height: 580,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1207,8 +1207,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog55").dialog(jQueryDialog55Options);
    var jQueryDialog68Options =
    {
-      width: 1010,
-      height: 548,
+      width: 1008,
+      height: 558,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1221,8 +1221,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog68").dialog(jQueryDialog68Options);
    var jQueryDialog75Options =
    {
-      width: 936,
-      height: 569,
+      width: 934,
+      height: 579,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1235,8 +1235,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog75").dialog(jQueryDialog75Options);
    var jQueryDialog76Options =
    {
-      width: 921,
-      height: 559,
+      width: 919,
+      height: 569,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1249,8 +1249,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog76").dialog(jQueryDialog76Options);
    var jQueryDialog62Options =
    {
-      width: 1022,
-      height: 560,
+      width: 1020,
+      height: 570,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1267,8 +1267,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    var jQueryDialog17Options =
    {
       modal: true,
-      width: 488,
-      height: 354,
+      width: 486,
+      height: 364,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1282,8 +1282,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    var jQueryDialog63Options =
    {
       modal: true,
-      width: 504,
-      height: 187,
+      width: 502,
+      height: 197,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: false,
@@ -1296,8 +1296,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog63").dialog(jQueryDialog63Options);
    var jQueryDialog77Options =
    {
-      width: 1135,
-      height: 619,
+      width: 1133,
+      height: 629,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1308,8 +1308,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog77").dialog(jQueryDialog77Options);
    var jQueryDialog78Options =
    {
-      width: 992,
-      height: 566,
+      width: 990,
+      height: 576,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1336,8 +1336,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryTabs3").tabs(jQueryTabs3Options);
    var jQueryDialog79Options =
    {
-      width: 370,
-      height: 341,
+      width: 368,
+      height: 351,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1350,8 +1350,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog79").dialog(jQueryDialog79Options);
    var jQueryDialog80Options =
    {
-      width: 370,
-      height: 341,
+      width: 368,
+      height: 351,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1364,8 +1364,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog80").dialog(jQueryDialog80Options);
    var jQueryDialog81Options =
    {
-      width: 713,
-      height: 529,
+      width: 711,
+      height: 539,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1378,8 +1378,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog81").dialog(jQueryDialog81Options);
    var jQueryDialog82Options =
    {
-      width: 515,
-      height: 415,
+      width: 513,
+      height: 425,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1393,8 +1393,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#Layer28").stickylayer({orientation: 9, position: [0, 0], delay: 0});
    var jQueryDialog83Options =
    {
-      width: 521,
-      height: 278,
+      width: 519,
+      height: 288,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1406,8 +1406,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog83").dialog(jQueryDialog83Options);
    var jQueryDialog84Options =
    {
-      width: 810,
-      height: 424,
+      width: 808,
+      height: 434,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1418,8 +1418,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog84").dialog(jQueryDialog84Options);
    var jQueryDialog85Options =
    {
-      width: 1009,
-      height: 692,
+      width: 1007,
+      height: 702,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: false,
@@ -1430,8 +1430,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog85").dialog(jQueryDialog85Options);
    var jQueryDialog86Options =
    {
-      width: 296,
-      height: 428,
+      width: 294,
+      height: 438,
       position: { my: 'left top', at: 'right bottom', of: window },
       resizable: false,
       draggable: true,
@@ -1442,8 +1442,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog86").dialog(jQueryDialog86Options);
    var jQueryDialog87Options =
    {
-      width: 926,
-      height: 532,
+      width: 924,
+      height: 542,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1458,8 +1458,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#Layer35").stickylayer({orientation: 7, position: [0, 0], delay: 0});
    var jQueryDialog45Options =
    {
-      width: 892,
-      height: 418,
+      width: 890,
+      height: 428,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1472,8 +1472,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog45").dialog(jQueryDialog45Options);
    var jQueryDialog42Options =
    {
-      width: 278,
-      height: 247,
+      width: 276,
+      height: 257,
       position: { my: 'left top', at: 'right top+203', of: window },
       resizable: false,
       draggable: true,
@@ -1496,8 +1496,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#wb_MaterialIcon62").tooltip(jQueryToolTip13Options);
    var jQueryDialog88Options =
    {
-      width: 409,
-      height: 224,
+      width: 407,
+      height: 234,
       position: { my: 'left top', at: 'right top+46', of: window },
       resizable: false,
       draggable: false,
@@ -1509,8 +1509,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog88").dialog(jQueryDialog88Options);
    var jQueryDialog89Options =
    {
-      width: 372,
-      height: 134,
+      width: 370,
+      height: 144,
       position: { my: 'center top', at: 'center top', of: window },
       resizable: false,
       draggable: false,
@@ -1523,8 +1523,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog89").dialog(jQueryDialog89Options);
    var jQueryDialog90Options =
    {
-      width: 1020,
-      height: 554,
+      width: 1018,
+      height: 564,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1537,8 +1537,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog90").dialog(jQueryDialog90Options);
    var jQueryDialog91Options =
    {
-      width: 326,
-      height: 219,
+      width: 324,
+      height: 229,
       position: { my: 'left top', at: 'right top+254', of: window },
       resizable: false,
       draggable: true,
@@ -1551,8 +1551,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog91").dialog(jQueryDialog91Options);
    var jQueryDialog92Options =
    {
-      width: 779,
-      height: 557,
+      width: 777,
+      height: 567,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1665,8 +1665,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#wb_Image37").tooltip(jQueryToolTip24Options);
    var jQueryDialog93Options =
    {
-      width: 970,
-      height: 553,
+      width: 968,
+      height: 563,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1680,8 +1680,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    var jQueryDialog74Options =
    {
       modal: true,
-      width: 572,
-      height: 272,
+      width: 570,
+      height: 282,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1693,8 +1693,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    var jQueryDialog94Options =
    {
       modal: true,
-      width: 386,
-      height: 121,
+      width: 384,
+      height: 131,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: false,
@@ -1707,8 +1707,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    var jQueryDialog95Options =
    {
       modal: true,
-      width: 386,
-      height: 161,
+      width: 384,
+      height: 171,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: false,
@@ -1721,8 +1721,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#Layer12").stickylayer({orientation: 9, position: [0, 0], delay: 0});
    var jQueryDialog52Options =
    {
-      width: 404,
-      height: 175,
+      width: 402,
+      height: 185,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: false,
@@ -1735,8 +1735,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog52").dialog(jQueryDialog52Options);
    var jQueryDialog1Options =
    {
-      width: 404,
-      height: 164,
+      width: 402,
+      height: 174,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: false,
@@ -1749,8 +1749,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog1").dialog(jQueryDialog1Options);
    var jQueryDialog6Options =
    {
-      width: 441,
-      height: 231,
+      width: 729,
+      height: 467,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1763,8 +1763,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog6").dialog(jQueryDialog6Options);
    var jQueryDialog96Options =
    {
-      width: 815,
-      height: 587,
+      width: 813,
+      height: 597,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1777,8 +1777,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog96").dialog(jQueryDialog96Options);
    var jQueryDialog97Options =
    {
-      width: 431,
-      height: 175,
+      width: 429,
+      height: 185,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1791,8 +1791,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    var jQueryDialog98Options =
    {
       modal: true,
-      width: 1037,
-      height: 614,
+      width: 1035,
+      height: 624,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: false,
@@ -1813,8 +1813,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#wb_MaterialIcon1").tooltip(jQueryToolTip2Options);
    var jQueryDialog29Options =
    {
-      width: 417,
-      height: 470,
+      width: 415,
+      height: 480,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1862,13 +1862,22 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 <li><a href="#jquerytabs1-page-0"><span>Informations</span></a></li>
 </ul>
 <div style="height:404px;" id="jquerytabs1-page-0">
-<div id="wb_Text7" style="position:absolute;left:23px;top:65px;width:639px;height:19px;z-index:0;">
+<div id="wb_Text7" style="position:absolute;left:18px;top:22px;width:639px;height:19px;z-index:0;">
 <span style="color:#000000;font-family:Arial;font-size:17px;">Bienvenue sur Rynna WebOS (Vegasis)&nbsp;!</span></div>
-<div id="wb_Text10" style="position:absolute;left:23px;top:97px;width:678px;height:54px;z-index:1;">
+<div id="wb_Text10" style="position:absolute;left:18px;top:54px;width:678px;height:54px;z-index:1;">
 <span style="color:#000000;font-family:Arial;font-size:16px;">Rynna WebOS est un système d'exploitation fonctionnant uniquement dans un navigateur internet sur n'importe quel système d'exploitation.<br></span><span style="color:#4169E1;font-family:Arial;font-size:15px;"><strong>Pour ouvrir les options bureautiques&nbsp;; effectuez un double clique gauche sur le bureau.</strong></span></div>
-<div id="wb_Text86" style="position:absolute;left:23px;top:168px;width:689px;height:16px;z-index:2;">
+<div id="wb_Text86" style="position:absolute;left:18px;top:125px;width:689px;height:16px;z-index:2;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Ci-dessous retrouvez les dernières mises à jour de votre WebOS. Seul les 6 dernières mises à jours sont indiqués&nbsp;:</span></div>
-<div id="Blog1" style="overflow-y:scroll;position:absolute;left:23px;top:195px;width:689px;height:171px;z-index:3;">
+<div id="Blog1" style="overflow-y:scroll;position:absolute;left:18px;top:152px;width:689px;height:171px;z-index:3;">
+<div class="blogitem">
+   <span class="blogsubject">Version 34.0</span>
+   <div class="no-thumb"></div>
+   <div class="blogdate">09/03/18<br></div>
+   <span style="color:#000000;">- Amélioration de l'appel des fenêtres des icones bureautiques en mode Pop-Up ainsi qu'un agrandissement des fenêtres Pop-Up de 10%<br>
+- Stabilisation et ajustement de certaines fonctions avancées du WebOS</span><br>
+   <div class="blogcomments"></div>
+</div>
+<div class="clearfix visible-col1"></div>
 <div class="blogitem">
    <span class="blogsubject">Version 33.9b</span>
    <div class="no-thumb"></div>
@@ -1920,18 +1929,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    <div class="blogcomments"></div>
 </div>
 <div class="clearfix visible-col1"></div>
-<div class="blogitem">
-   <span class="blogsubject">Version 33.6 (développement)</span>
-   <div class="no-thumb"></div>
-   <div class="blogdate">24/02/18<br></div>
-   <span style="color:#000000;">- Développement temporaire et tests en lignes des enregistrements de fonds d'écran par session personnelle.<br>
-<strong><em>Cette version n'est pas disponible sur GitHub.<br>
-</em></strong>Quand le développement sera terminé vous retrouverez la version officielle 34.0 sur GitHub.</span><br>
-   <div class="blogcomments"></div>
 </div>
-<div class="clearfix visible-col1"></div>
-</div>
-<input type="button" id="Button12" onclick="ShowObject('Layer1', 0);return false;" name="" value="Cliquez ici pour fermer la fenêtre et commencer à utiliser votre session" style="position:absolute;left:23px;top:379px;width:689px;height:25px;z-index:4;">
+<input type="button" id="Button12" onclick="ShowObject('Layer1', 0);return false;" name="" value="Cliquez ici pour fermer la fenêtre et commencer à utiliser votre session" style="position:absolute;left:18px;top:336px;width:689px;height:25px;z-index:4;">
 </div>
 </div>
 </div>
@@ -2037,7 +2036,7 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 </div>
 <div class="col-3">
 <div id="wb_Image61" style="display:inline-block;width:90px;height:105px;z-index:25;">
-<a href="#" onclick="popupwnd('https://youtube.com/','no','no','no','yes','yes','no','20','20','1050','538');AnimateCss('wb_Image61', 'transform-3d-flip-in-x', 0, 1200);return false;"><img src="images/placeholder.gif" data-src="images/logoyoutubepopup.png" data-src-retina="images/logoyoutubepopup.png" id="Image61" alt=""></a>
+<a href="#" onclick="popupwnd('https://youtube.com/','no','no','no','yes','yes','no','40','40','1100','588');AnimateCss('wb_Image61', 'transform-3d-flip-in-x', 0, 1200);return false;"><img src="images/placeholder.gif" data-src="images/logoyoutubepopup.png" data-src-retina="images/logoyoutubepopup.png" id="Image61" alt=""></a>
 </div>
 </div>
 <div class="col-4">
@@ -2074,7 +2073,7 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 </div>
 <div class="col-3">
 <div id="wb_Image62" style="display:inline-block;width:90px;height:105px;z-index:28;">
-<a href="#" onclick="popupwnd('https://facebook.com/','no','no','no','yes','yes','no','20','20','1050','538');AnimateCss('wb_Image62', 'transform-3d-flip-in-x', 0, 1200);return false;"><img src="images/placeholder.gif" data-src="images/logofacebookpopup.png" data-src-retina="images/logofacebookpopup.png" id="Image62" alt=""></a>
+<a href="#" onclick="popupwnd('https://facebook.com/','no','no','no','yes','yes','no','40','40','1100','588');AnimateCss('wb_Image62', 'transform-3d-flip-in-x', 0, 1200);return false;"><img src="images/placeholder.gif" data-src="images/logofacebookpopup.png" data-src-retina="images/logofacebookpopup.png" id="Image62" alt=""></a>
 </div>
 </div>
 <div class="col-4">
@@ -2111,7 +2110,7 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 </div>
 <div class="col-3">
 <div id="wb_Image63" style="display:inline-block;width:90px;height:105px;z-index:31;">
-<a href="#" onclick="popupwnd('https://twitter.com/','no','no','no','yes','yes','no','20','20','1050','538');AnimateCss('wb_Image63', 'transform-3d-flip-in-x', 0, 1200);return false;"><img src="images/placeholder.gif" data-src="images/logotwitterpopup.png" data-src-retina="images/logotwitterpopup.png" id="Image63" alt=""></a>
+<a href="#" onclick="popupwnd('https://twitter.com/','no','no','no','yes','yes','no','40','40','1100','588');AnimateCss('wb_Image63', 'transform-3d-flip-in-x', 0, 1200);return false;"><img src="images/placeholder.gif" data-src="images/logotwitterpopup.png" data-src-retina="images/logotwitterpopup.png" id="Image63" alt=""></a>
 </div>
 </div>
 <div class="col-4">
@@ -2489,7 +2488,7 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 <li><a href="#jquerytabs3-page-6"><span>OSx</span></a></li>
 </ul>
 <div style="height:510px;" id="jquerytabs3-page-0">
-<div id="Html49" style="position:absolute;left:23px;top:64px;width:151px;height:101px;overflow:hidden;z-index:154">
+<div id="Html49" style="position:absolute;left:18px;top:21px;width:151px;height:101px;overflow:hidden;z-index:154">
 
 
 <!DOCTYPE html>
@@ -2509,7 +2508,7 @@ function myFunction1() {
 
 </body>
 </html></div>
-<div id="Html52" style="position:absolute;left:184px;top:64px;width:148px;height:101px;overflow:hidden;z-index:155">
+<div id="Html52" style="position:absolute;left:179px;top:21px;width:148px;height:101px;overflow:hidden;z-index:155">
 
 
 <!DOCTYPE html>
@@ -2529,7 +2528,7 @@ function myFunction4() {
 
 </body>
 </html></div>
-<div id="Html55" style="position:absolute;left:342px;top:64px;width:153px;height:101px;overflow:hidden;z-index:156">
+<div id="Html55" style="position:absolute;left:337px;top:21px;width:153px;height:101px;overflow:hidden;z-index:156">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2546,7 +2545,7 @@ function myFunction7() {
 
 </body>
 </html></div>
-<div id="Html50" style="position:absolute;left:504px;top:64px;width:145px;height:101px;overflow:hidden;z-index:157">
+<div id="Html50" style="position:absolute;left:499px;top:21px;width:145px;height:101px;overflow:hidden;z-index:157">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2563,7 +2562,7 @@ function myFunction2() {
 
 </body>
 </html></div>
-<div id="Html53" style="position:absolute;left:23px;top:176px;width:151px;height:98px;overflow:hidden;z-index:158">
+<div id="Html53" style="position:absolute;left:18px;top:133px;width:151px;height:98px;overflow:hidden;z-index:158">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2580,7 +2579,7 @@ function myFunction5() {
 
 </body>
 </html></div>
-<div id="Html56" style="position:absolute;left:184px;top:176px;width:148px;height:98px;overflow:hidden;z-index:159">
+<div id="Html56" style="position:absolute;left:179px;top:133px;width:148px;height:98px;overflow:hidden;z-index:159">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2597,7 +2596,7 @@ function myFunction8() {
 
 </body>
 </html></div>
-<div id="Html51" style="position:absolute;left:342px;top:176px;width:153px;height:98px;overflow:hidden;z-index:160">
+<div id="Html51" style="position:absolute;left:337px;top:133px;width:153px;height:98px;overflow:hidden;z-index:160">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2614,7 +2613,7 @@ function myFunction3() {
 
 </body>
 </html></div>
-<div id="Html54" style="position:absolute;left:504px;top:176px;width:145px;height:98px;overflow:hidden;z-index:161">
+<div id="Html54" style="position:absolute;left:499px;top:133px;width:145px;height:98px;overflow:hidden;z-index:161">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2631,7 +2630,7 @@ function myFunction6() {
 
 </body>
 </html></div>
-<div id="Html57" style="position:absolute;left:23px;top:285px;width:151px;height:102px;overflow:hidden;z-index:162">
+<div id="Html57" style="position:absolute;left:18px;top:242px;width:151px;height:102px;overflow:hidden;z-index:162">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2648,11 +2647,11 @@ function myFunction9() {
 
 </body>
 </html></div>
-<div id="wb_Text38" style="position:absolute;left:22px;top:505px;width:642px;height:16px;z-index:163;">
+<div id="wb_Text38" style="position:absolute;left:17px;top:462px;width:642px;height:16px;z-index:163;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><em>Le changement d'un fond d'écran peut prendre quelques secondes en fonction de votre débit internet.</em></span></div>
 </div>
 <div style="height:510px;" id="jquerytabs3-page-1">
-<div id="Html64" style="position:absolute;left:17px;top:57px;width:101px;height:86px;overflow:hidden;z-index:164">
+<div id="Html64" style="position:absolute;left:12px;top:14px;width:101px;height:86px;overflow:hidden;z-index:164">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2669,7 +2668,7 @@ function myFunctiongames1001() {
 
 </body>
 </html></div>
-<div id="Html66" style="position:absolute;left:126px;top:57px;width:101px;height:86px;overflow:hidden;z-index:165">
+<div id="Html66" style="position:absolute;left:121px;top:14px;width:101px;height:86px;overflow:hidden;z-index:165">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2686,7 +2685,7 @@ function myFunctiongames1002() {
 
 </body>
 </html></div>
-<div id="Html67" style="position:absolute;left:233px;top:57px;width:101px;height:86px;overflow:hidden;z-index:166">
+<div id="Html67" style="position:absolute;left:228px;top:14px;width:101px;height:86px;overflow:hidden;z-index:166">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2703,7 +2702,7 @@ function myFunctiongames1003() {
 
 </body>
 </html></div>
-<div id="Html68" style="position:absolute;left:344px;top:57px;width:101px;height:86px;overflow:hidden;z-index:167">
+<div id="Html68" style="position:absolute;left:339px;top:14px;width:101px;height:86px;overflow:hidden;z-index:167">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2720,7 +2719,7 @@ function myFunctiongames1004() {
 
 </body>
 </html></div>
-<div id="Html69" style="position:absolute;left:454px;top:57px;width:101px;height:86px;overflow:hidden;z-index:168">
+<div id="Html69" style="position:absolute;left:449px;top:14px;width:101px;height:86px;overflow:hidden;z-index:168">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2737,7 +2736,7 @@ function myFunctiongames1005() {
 
 </body>
 </html></div>
-<div id="Html70" style="position:absolute;left:566px;top:57px;width:101px;height:86px;overflow:hidden;z-index:169">
+<div id="Html70" style="position:absolute;left:561px;top:14px;width:101px;height:86px;overflow:hidden;z-index:169">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2754,7 +2753,7 @@ function myFunctiongames1006() {
 
 </body>
 </html></div>
-<div id="Html71" style="position:absolute;left:18px;top:156px;width:101px;height:86px;overflow:hidden;z-index:170">
+<div id="Html71" style="position:absolute;left:13px;top:113px;width:101px;height:86px;overflow:hidden;z-index:170">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2771,7 +2770,7 @@ function myFunctiongames1007() {
 
 </body>
 </html></div>
-<div id="Html72" style="position:absolute;left:126px;top:156px;width:101px;height:86px;overflow:hidden;z-index:171">
+<div id="Html72" style="position:absolute;left:121px;top:113px;width:101px;height:86px;overflow:hidden;z-index:171">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2788,7 +2787,7 @@ function myFunctiongames1008() {
 
 </body>
 </html></div>
-<div id="Html73" style="position:absolute;left:233px;top:156px;width:101px;height:86px;overflow:hidden;z-index:172">
+<div id="Html73" style="position:absolute;left:228px;top:113px;width:101px;height:86px;overflow:hidden;z-index:172">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2805,7 +2804,7 @@ function myFunctiongames1009() {
 
 </body>
 </html></div>
-<div id="Html74" style="position:absolute;left:344px;top:156px;width:101px;height:86px;overflow:hidden;z-index:173">
+<div id="Html74" style="position:absolute;left:339px;top:113px;width:101px;height:86px;overflow:hidden;z-index:173">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2822,7 +2821,7 @@ function myFunctiongames1010() {
 
 </body>
 </html></div>
-<div id="Html75" style="position:absolute;left:454px;top:156px;width:101px;height:86px;overflow:hidden;z-index:174">
+<div id="Html75" style="position:absolute;left:449px;top:113px;width:101px;height:86px;overflow:hidden;z-index:174">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2839,7 +2838,7 @@ function myFunctiongames1011() {
 
 </body>
 </html></div>
-<div id="Html76" style="position:absolute;left:566px;top:156px;width:101px;height:86px;overflow:hidden;z-index:175">
+<div id="Html76" style="position:absolute;left:561px;top:113px;width:101px;height:86px;overflow:hidden;z-index:175">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2856,7 +2855,7 @@ function myFunctiongames1012() {
 
 </body>
 </html></div>
-<div id="Html77" style="position:absolute;left:18px;top:257px;width:101px;height:86px;overflow:hidden;z-index:176">
+<div id="Html77" style="position:absolute;left:13px;top:214px;width:101px;height:86px;overflow:hidden;z-index:176">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2873,7 +2872,7 @@ function myFunctiongames1013() {
 
 </body>
 </html></div>
-<div id="Html78" style="position:absolute;left:126px;top:257px;width:101px;height:86px;overflow:hidden;z-index:177">
+<div id="Html78" style="position:absolute;left:121px;top:214px;width:101px;height:86px;overflow:hidden;z-index:177">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2890,11 +2889,11 @@ function myFunctiongames1014() {
 
 </body>
 </html></div>
-<div id="wb_Text69" style="position:absolute;left:24px;top:505px;width:642px;height:16px;z-index:178;">
+<div id="wb_Text69" style="position:absolute;left:19px;top:462px;width:642px;height:16px;z-index:178;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><em>Le changement d'un fond d'écran peut prendre quelques secondes en fonction de votre débit internet.</em></span></div>
 </div>
 <div style="height:510px;" id="jquerytabs3-page-2">
-<div id="Html65" style="position:absolute;left:18px;top:57px;width:101px;height:86px;overflow:hidden;z-index:179">
+<div id="Html65" style="position:absolute;left:13px;top:14px;width:101px;height:86px;overflow:hidden;z-index:179">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2911,7 +2910,7 @@ function myFunctionmovies1101() {
 
 </body>
 </html></div>
-<div id="Html79" style="position:absolute;left:129px;top:57px;width:101px;height:86px;overflow:hidden;z-index:180">
+<div id="Html79" style="position:absolute;left:124px;top:14px;width:101px;height:86px;overflow:hidden;z-index:180">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2928,7 +2927,7 @@ function myFunctionmovies1102() {
 
 </body>
 </html></div>
-<div id="Html80" style="position:absolute;left:237px;top:57px;width:101px;height:86px;overflow:hidden;z-index:181">
+<div id="Html80" style="position:absolute;left:232px;top:14px;width:101px;height:86px;overflow:hidden;z-index:181">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2945,7 +2944,7 @@ function myFunctionmovies1103() {
 
 </body>
 </html></div>
-<div id="Html81" style="position:absolute;left:348px;top:57px;width:101px;height:86px;overflow:hidden;z-index:182">
+<div id="Html81" style="position:absolute;left:343px;top:14px;width:101px;height:86px;overflow:hidden;z-index:182">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2962,7 +2961,7 @@ function myFunctionmovies1104() {
 
 </body>
 </html></div>
-<div id="Html82" style="position:absolute;left:462px;top:57px;width:101px;height:86px;overflow:hidden;z-index:183">
+<div id="Html82" style="position:absolute;left:457px;top:14px;width:101px;height:86px;overflow:hidden;z-index:183">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2979,7 +2978,7 @@ function myFunctionmovies1105() {
 
 </body>
 </html></div>
-<div id="Html83" style="position:absolute;left:571px;top:57px;width:101px;height:86px;overflow:hidden;z-index:184">
+<div id="Html83" style="position:absolute;left:566px;top:14px;width:101px;height:86px;overflow:hidden;z-index:184">
 <!DOCTYPE html>
 <html>
 <body>
@@ -2996,7 +2995,7 @@ function myFunctionmovies1106() {
 
 </body>
 </html></div>
-<div id="Html84" style="position:absolute;left:18px;top:154px;width:101px;height:86px;overflow:hidden;z-index:185">
+<div id="Html84" style="position:absolute;left:13px;top:111px;width:101px;height:86px;overflow:hidden;z-index:185">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3013,7 +3012,7 @@ function myFunctionmovies1107() {
 
 </body>
 </html></div>
-<div id="Html85" style="position:absolute;left:129px;top:154px;width:101px;height:86px;overflow:hidden;z-index:186">
+<div id="Html85" style="position:absolute;left:124px;top:111px;width:101px;height:86px;overflow:hidden;z-index:186">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3030,7 +3029,7 @@ function myFunctionmovies1108() {
 
 </body>
 </html></div>
-<div id="Html86" style="position:absolute;left:237px;top:154px;width:101px;height:86px;overflow:hidden;z-index:187">
+<div id="Html86" style="position:absolute;left:232px;top:111px;width:101px;height:86px;overflow:hidden;z-index:187">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3047,7 +3046,7 @@ function myFunctionmovies1109() {
 
 </body>
 </html></div>
-<div id="Html87" style="position:absolute;left:348px;top:154px;width:101px;height:86px;overflow:hidden;z-index:188">
+<div id="Html87" style="position:absolute;left:343px;top:111px;width:101px;height:86px;overflow:hidden;z-index:188">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3064,7 +3063,7 @@ function myFunctionmovies1110() {
 
 </body>
 </html></div>
-<div id="Html88" style="position:absolute;left:462px;top:154px;width:101px;height:86px;overflow:hidden;z-index:189">
+<div id="Html88" style="position:absolute;left:457px;top:111px;width:101px;height:86px;overflow:hidden;z-index:189">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3081,7 +3080,7 @@ function myFunctionmovies1111() {
 
 </body>
 </html></div>
-<div id="Html89" style="position:absolute;left:571px;top:154px;width:101px;height:86px;overflow:hidden;z-index:190">
+<div id="Html89" style="position:absolute;left:566px;top:111px;width:101px;height:86px;overflow:hidden;z-index:190">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3098,7 +3097,7 @@ function myFunctionmovies1112() {
 
 </body>
 </html></div>
-<div id="Html90" style="position:absolute;left:18px;top:249px;width:101px;height:86px;overflow:hidden;z-index:191">
+<div id="Html90" style="position:absolute;left:13px;top:206px;width:101px;height:86px;overflow:hidden;z-index:191">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3115,7 +3114,7 @@ function myFunctionmovies1113() {
 
 </body>
 </html></div>
-<div id="Html91" style="position:absolute;left:129px;top:249px;width:101px;height:86px;overflow:hidden;z-index:192">
+<div id="Html91" style="position:absolute;left:124px;top:206px;width:101px;height:86px;overflow:hidden;z-index:192">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3132,11 +3131,11 @@ function myFunctionmovies1114() {
 
 </body>
 </html></div>
-<div id="wb_Text78" style="position:absolute;left:24px;top:505px;width:642px;height:16px;z-index:193;">
+<div id="wb_Text78" style="position:absolute;left:19px;top:462px;width:642px;height:16px;z-index:193;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><em>Le changement d'un fond d'écran peut prendre quelques secondes en fonction de votre débit internet.</em></span></div>
 </div>
 <div style="height:510px;" id="jquerytabs3-page-3">
-<div id="Html28" style="position:absolute;left:19px;top:57px;width:146px;height:86px;overflow:hidden;z-index:194">
+<div id="Html28" style="position:absolute;left:14px;top:14px;width:146px;height:86px;overflow:hidden;z-index:194">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3154,7 +3153,7 @@ function myFunctionmovies91911() {
 
 </body>
 </html></div>
-<div id="Html29" style="position:absolute;left:177px;top:57px;width:146px;height:86px;overflow:hidden;z-index:195">
+<div id="Html29" style="position:absolute;left:172px;top:14px;width:146px;height:86px;overflow:hidden;z-index:195">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3172,7 +3171,7 @@ function myFunctionmovies91912() {
 
 </body>
 </html></div>
-<div id="Html60" style="position:absolute;left:339px;top:57px;width:146px;height:86px;overflow:hidden;z-index:196">
+<div id="Html60" style="position:absolute;left:334px;top:14px;width:146px;height:86px;overflow:hidden;z-index:196">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3190,7 +3189,7 @@ function myFunctionmovies91913() {
 
 </body>
 </html></div>
-<div id="Html99" style="position:absolute;left:499px;top:57px;width:146px;height:86px;overflow:hidden;z-index:197">
+<div id="Html99" style="position:absolute;left:494px;top:14px;width:146px;height:86px;overflow:hidden;z-index:197">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3208,7 +3207,7 @@ function myFunctionmovies91914() {
 
 </body>
 </html></div>
-<div id="Html100" style="position:absolute;left:19px;top:153px;width:146px;height:86px;overflow:hidden;z-index:198">
+<div id="Html100" style="position:absolute;left:14px;top:110px;width:146px;height:86px;overflow:hidden;z-index:198">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3226,7 +3225,7 @@ function myFunctionmovies91915() {
 
 </body>
 </html></div>
-<div id="Html101" style="position:absolute;left:179px;top:153px;width:146px;height:86px;overflow:hidden;z-index:199">
+<div id="Html101" style="position:absolute;left:174px;top:110px;width:146px;height:86px;overflow:hidden;z-index:199">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3244,7 +3243,7 @@ function myFunctionmovies91916() {
 
 </body>
 </html></div>
-<div id="Html102" style="position:absolute;left:339px;top:153px;width:146px;height:86px;overflow:hidden;z-index:200">
+<div id="Html102" style="position:absolute;left:334px;top:110px;width:146px;height:86px;overflow:hidden;z-index:200">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3262,7 +3261,7 @@ function myFunctionmovies91917() {
 
 </body>
 </html></div>
-<div id="Html103" style="position:absolute;left:499px;top:153px;width:146px;height:86px;overflow:hidden;z-index:201">
+<div id="Html103" style="position:absolute;left:494px;top:110px;width:146px;height:86px;overflow:hidden;z-index:201">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3280,7 +3279,7 @@ function myFunctionmovies91918() {
 
 </body>
 </html></div>
-<div id="Html104" style="position:absolute;left:19px;top:253px;width:146px;height:86px;overflow:hidden;z-index:202">
+<div id="Html104" style="position:absolute;left:14px;top:210px;width:146px;height:86px;overflow:hidden;z-index:202">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3298,7 +3297,7 @@ function myFunctionmovies91920() {
 
 </body>
 </html></div>
-<div id="Html105" style="position:absolute;left:179px;top:253px;width:146px;height:86px;overflow:hidden;z-index:203">
+<div id="Html105" style="position:absolute;left:174px;top:210px;width:146px;height:86px;overflow:hidden;z-index:203">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3316,7 +3315,7 @@ function myFunctionmovies91921() {
 
 </body>
 </html></div>
-<div id="Html106" style="position:absolute;left:339px;top:253px;width:146px;height:86px;overflow:hidden;z-index:204">
+<div id="Html106" style="position:absolute;left:334px;top:210px;width:146px;height:86px;overflow:hidden;z-index:204">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3334,7 +3333,7 @@ function myFunctionmovies91922() {
 
 </body>
 </html></div>
-<div id="Html107" style="position:absolute;left:499px;top:253px;width:146px;height:86px;overflow:hidden;z-index:205">
+<div id="Html107" style="position:absolute;left:494px;top:210px;width:146px;height:86px;overflow:hidden;z-index:205">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3352,7 +3351,7 @@ function myFunctionmovies91923() {
 
 </body>
 </html></div>
-<div id="Html108" style="position:absolute;left:19px;top:351px;width:146px;height:86px;overflow:hidden;z-index:206">
+<div id="Html108" style="position:absolute;left:14px;top:308px;width:146px;height:86px;overflow:hidden;z-index:206">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3370,7 +3369,7 @@ function myFunctionmovies91924() {
 
 </body>
 </html></div>
-<div id="Html109" style="position:absolute;left:179px;top:351px;width:146px;height:86px;overflow:hidden;z-index:207">
+<div id="Html109" style="position:absolute;left:174px;top:308px;width:146px;height:86px;overflow:hidden;z-index:207">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3388,7 +3387,7 @@ function myFunctionmovies91925() {
 
 </body>
 </html></div>
-<div id="Html110" style="position:absolute;left:339px;top:351px;width:146px;height:86px;overflow:hidden;z-index:208">
+<div id="Html110" style="position:absolute;left:334px;top:308px;width:146px;height:86px;overflow:hidden;z-index:208">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3406,7 +3405,7 @@ function myFunctionmovies91926() {
 
 </body>
 </html></div>
-<div id="Html111" style="position:absolute;left:499px;top:351px;width:146px;height:86px;overflow:hidden;z-index:209">
+<div id="Html111" style="position:absolute;left:494px;top:308px;width:146px;height:86px;overflow:hidden;z-index:209">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3424,7 +3423,7 @@ function myFunctionmovies91927() {
 
 </body>
 </html></div>
-<div id="Html112" style="position:absolute;left:19px;top:448px;width:146px;height:76px;overflow:hidden;z-index:210">
+<div id="Html112" style="position:absolute;left:14px;top:405px;width:146px;height:76px;overflow:hidden;z-index:210">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3442,13 +3441,13 @@ function myFunctionmovies91928() {
 
 </body>
 </html></div>
-<div id="wb_Text79" style="position:absolute;left:247px;top:492px;width:399px;height:32px;z-index:211;">
+<div id="wb_Text79" style="position:absolute;left:242px;top:449px;width:399px;height:32px;z-index:211;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><em>Le changement d'un fond d'écran peut prendre quelques secondes en fonction de votre débit internet.</em></span></div>
 </div>
 <div style="height:510px;" id="jquerytabs3-page-4">
-<div id="wb_Text110" style="position:absolute;left:12px;top:505px;width:642px;height:16px;z-index:212;">
+<div id="wb_Text110" style="position:absolute;left:7px;top:462px;width:642px;height:16px;z-index:212;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><em>Le changement d'un fond d'écran peut prendre quelques secondes en fonction de votre débit internet.</em></span></div>
-<div id="Html118" style="position:absolute;left:16px;top:63px;width:146px;height:86px;overflow:hidden;z-index:213">
+<div id="Html118" style="position:absolute;left:11px;top:20px;width:146px;height:86px;overflow:hidden;z-index:213">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3468,11 +3467,11 @@ function myFunctionlinux331001() {
 
 </body>
 </html></div>
-<div id="Html122" style="position:absolute;left:433px;top:380px;width:220px;height:110px;z-index:214">
+<div id="Html122" style="position:absolute;left:428px;top:337px;width:220px;height:110px;z-index:214">
 <!-- <iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" -->
  <!--  src="backgroundphp/test2.php"> -->
 <!-- </iframe><br /> --></div>
-<div id="Html121" style="position:absolute;left:159px;top:297px;width:100px;height:93px;z-index:215">
+<div id="Html121" style="position:absolute;left:154px;top:254px;width:100px;height:93px;z-index:215">
 <!-- $.ajax({   -->
       <!--  url : '/backgroundphp/linux1.php',  -->
      <!--   type : 'GET',  -->
@@ -3492,9 +3491,9 @@ function myFunctionlinux331001() {
  <!--    });  --></div>
 </div>
 <div style="height:510px;" id="jquerytabs3-page-5">
-<div id="wb_Text111" style="position:absolute;left:12px;top:505px;width:642px;height:16px;z-index:216;">
+<div id="wb_Text111" style="position:absolute;left:7px;top:462px;width:642px;height:16px;z-index:216;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><em>Le changement d'un fond d'écran peut prendre quelques secondes en fonction de votre débit internet.</em></span></div>
-<div id="Html119" style="position:absolute;left:19px;top:63px;width:146px;height:86px;overflow:hidden;z-index:217">
+<div id="Html119" style="position:absolute;left:14px;top:20px;width:146px;height:86px;overflow:hidden;z-index:217">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3514,9 +3513,9 @@ function myFunctionwindows341001() {
 </html></div>
 </div>
 <div style="height:510px;" id="jquerytabs3-page-6">
-<div id="wb_Text112" style="position:absolute;left:12px;top:505px;width:642px;height:16px;z-index:218;">
+<div id="wb_Text112" style="position:absolute;left:7px;top:462px;width:642px;height:16px;z-index:218;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><em>Le changement d'un fond d'écran peut prendre quelques secondes en fonction de votre débit internet.</em></span></div>
-<div id="Html120" style="position:absolute;left:19px;top:63px;width:146px;height:86px;overflow:hidden;z-index:219">
+<div id="Html120" style="position:absolute;left:14px;top:20px;width:146px;height:86px;overflow:hidden;z-index:219">
 <!DOCTYPE html>
 <html>
 <body>
@@ -3660,27 +3659,27 @@ function TimerStopTimer7()
 <li><a href="#jquerytabs4-page-1"><span>Information navigateur</span></a></li>
 </ul>
 <div style="height:376px;" id="jquerytabs4-page-0">
-<input type="button" id="Button10" onclick="ShowObject('Layer5', 0);return false;" name="" value="Menu Applicatifs" style="position:absolute;left:16px;top:58px;width:251px;height:25px;z-index:240;">
-<input type="button" id="Button11" onclick="$('#jQueryDialog3').dialog('close');return false;" name="" value="Applis installées" style="position:absolute;left:309px;top:58px;width:251px;height:25px;z-index:241;">
-<input type="button" id="Button13" onclick="$('#jQueryDialog9').dialog('close');return false;" name="" value="Application Windows" style="position:absolute;left:16px;top:93px;width:251px;height:25px;z-index:242;">
-<input type="button" id="Button14" onclick="$('#jQueryDialog13').dialog('close');return false;" name="" value="Messagerie NetCourriel" style="position:absolute;left:309px;top:93px;width:251px;height:25px;z-index:243;">
-<input type="button" id="Button16" onclick="$('#jQueryDialog31').dialog('close');return false;" name="" value="Dépôt Applications" style="position:absolute;left:16px;top:130px;width:251px;height:25px;z-index:244;">
-<input type="button" id="Button17" onclick="$('#jQueryDialog16').dialog('close');return false;" name="" value="Street View" style="position:absolute;left:309px;top:130px;width:251px;height:25px;z-index:245;">
-<input type="button" id="Button18" onclick="$('#jQueryDialog12').dialog('close');return false;" name="" value="Applications virtualisées" style="position:absolute;left:16px;top:167px;width:251px;height:25px;z-index:246;">
-<input type="button" id="Button19" onclick="$('#jQueryDialog10').dialog('close');return false;" name="" value="Chat WebOS" style="position:absolute;left:309px;top:167px;width:251px;height:25px;z-index:247;">
-<input type="button" id="Button20" onclick="$('#jQueryDialog40').dialog('close');return false;" name="" value="Editeur 3D Tridiv" style="position:absolute;left:16px;top:204px;width:251px;height:25px;z-index:248;">
-<input type="button" id="Button21" onclick="$('#jQueryDialog42').dialog('close');return false;" name="" value="Applications d'Entreprise" style="position:absolute;left:309px;top:204px;width:251px;height:25px;z-index:249;">
-<input type="button" id="Button22" onclick="$('#jQueryDialog11').dialog('close');return false;" name="" value="Paramètres et Aides" style="position:absolute;left:16px;top:240px;width:251px;height:25px;z-index:250;">
-<input type="button" id="Button23" onclick="$('#jQueryDialog41').dialog('close');return false;" name="" value="Gestionnaire de jeux" style="position:absolute;left:309px;top:240px;width:251px;height:25px;z-index:251;">
-<input type="button" id="Button24" onclick="$('#jQueryDialog19').dialog('close');return false;" name="" value="Terminal renseignements" style="position:absolute;left:16px;top:278px;width:251px;height:25px;z-index:252;">
-<input type="button" id="Button25" onclick="$('#jQueryDialog8').dialog('close');return false;" name="" value="Navigateur Web Qwant" style="position:absolute;left:309px;top:278px;width:251px;height:25px;z-index:253;">
-<input type="button" id="Button26" onclick="$('#jQueryDialog5').dialog('close');return false;" name="" value="Explorateur de fichiers" style="position:absolute;left:16px;top:315px;width:251px;height:25px;z-index:254;">
-<input type="button" id="Button27" onclick="$('#jQueryDialog21').dialog('close');return false;" name="" value="Fenêtre de Bienvenue" style="position:absolute;left:309px;top:315px;width:251px;height:25px;z-index:255;">
-<div id="wb_Text49" style="position:absolute;left:16px;top:372px;width:513px;height:16px;z-index:256;">
+<input type="button" id="Button10" onclick="ShowObject('Layer5', 0);return false;" name="" value="Menu Applicatifs" style="position:absolute;left:11px;top:15px;width:251px;height:25px;z-index:240;">
+<input type="button" id="Button11" onclick="$('#jQueryDialog3').dialog('close');return false;" name="" value="Applis installées" style="position:absolute;left:304px;top:15px;width:251px;height:25px;z-index:241;">
+<input type="button" id="Button13" onclick="$('#jQueryDialog9').dialog('close');return false;" name="" value="Application Windows" style="position:absolute;left:11px;top:50px;width:251px;height:25px;z-index:242;">
+<input type="button" id="Button14" onclick="$('#jQueryDialog13').dialog('close');return false;" name="" value="Messagerie NetCourriel" style="position:absolute;left:304px;top:50px;width:251px;height:25px;z-index:243;">
+<input type="button" id="Button16" onclick="$('#jQueryDialog31').dialog('close');return false;" name="" value="Dépôt Applications" style="position:absolute;left:11px;top:87px;width:251px;height:25px;z-index:244;">
+<input type="button" id="Button17" onclick="$('#jQueryDialog16').dialog('close');return false;" name="" value="Street View" style="position:absolute;left:304px;top:87px;width:251px;height:25px;z-index:245;">
+<input type="button" id="Button18" onclick="$('#jQueryDialog12').dialog('close');return false;" name="" value="Applications virtualisées" style="position:absolute;left:11px;top:124px;width:251px;height:25px;z-index:246;">
+<input type="button" id="Button19" onclick="$('#jQueryDialog10').dialog('close');return false;" name="" value="Chat WebOS" style="position:absolute;left:304px;top:124px;width:251px;height:25px;z-index:247;">
+<input type="button" id="Button20" onclick="$('#jQueryDialog40').dialog('close');return false;" name="" value="Editeur 3D Tridiv" style="position:absolute;left:11px;top:161px;width:251px;height:25px;z-index:248;">
+<input type="button" id="Button21" onclick="$('#jQueryDialog42').dialog('close');return false;" name="" value="Applications d'Entreprise" style="position:absolute;left:304px;top:161px;width:251px;height:25px;z-index:249;">
+<input type="button" id="Button22" onclick="$('#jQueryDialog11').dialog('close');return false;" name="" value="Paramètres et Aides" style="position:absolute;left:11px;top:197px;width:251px;height:25px;z-index:250;">
+<input type="button" id="Button23" onclick="$('#jQueryDialog41').dialog('close');return false;" name="" value="Gestionnaire de jeux" style="position:absolute;left:304px;top:197px;width:251px;height:25px;z-index:251;">
+<input type="button" id="Button24" onclick="$('#jQueryDialog19').dialog('close');return false;" name="" value="Terminal renseignements" style="position:absolute;left:11px;top:235px;width:251px;height:25px;z-index:252;">
+<input type="button" id="Button25" onclick="$('#jQueryDialog8').dialog('close');return false;" name="" value="Navigateur Web Qwant" style="position:absolute;left:304px;top:235px;width:251px;height:25px;z-index:253;">
+<input type="button" id="Button26" onclick="$('#jQueryDialog5').dialog('close');return false;" name="" value="Explorateur de fichiers" style="position:absolute;left:11px;top:272px;width:251px;height:25px;z-index:254;">
+<input type="button" id="Button27" onclick="$('#jQueryDialog21').dialog('close');return false;" name="" value="Fenêtre de Bienvenue" style="position:absolute;left:304px;top:272px;width:251px;height:25px;z-index:255;">
+<div id="wb_Text49" style="position:absolute;left:11px;top:329px;width:513px;height:16px;z-index:256;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Information&nbsp;: les programmes doivent être ouverts à l'écran pour être fermés.</span></div>
 </div>
 <div style="height:376px;" id="jquerytabs4-page-1">
-<div id="wb_JavaScript2" style="position:absolute;left:21px;top:59px;width:555px;height:301px;z-index:257;">
+<div id="wb_JavaScript2" style="position:absolute;left:16px;top:16px;width:555px;height:301px;z-index:257;">
 <script>
 document.write("<div style='font-family:Arial;font-size:14px;color:#000000;text-decoration:none;font-weight:normal;font-style:normal;text-align:left;text-decoration:none'>" + navigator.appName + " " + navigator.appVersion + "<\/div>");
 </script>
@@ -3930,7 +3929,7 @@ TimerStartTimer3();
 
 <div id="jQueryDialog64" style="z-index:644;" title="Simulateur Smartphone (0.5)">
 <input type="button" id="Button31" onclick="$('#jQueryDialog65').dialog('open');$('#jQueryDialog64').dialog('close');return false;" name="" value="Simulateur iPhone X" style="position:absolute;left:20px;top:28px;width:317px;height:25px;z-index:312;">
-<input type="button" id="Button32" onclick="$('#jQueryDialog66').dialog('open');$('#jQueryDialog64').dialog('close');return false;" name="" value="Simulateur Samsung Galaxy s8" style="position:absolute;left:20px;top:68px;width:317px;height:25px;z-index:313;">
+<input type="button" id="Button32" onclick="$('#jQueryDialog66').dialog('open');$('#jQueryDialog64').dialog('close');return false;" name="" value="Simulateur Samsung Galaxy s8/s9" style="position:absolute;left:20px;top:68px;width:317px;height:25px;z-index:313;">
 </div>
 
 <div id="jQueryDialog65" style="z-index:645;" title="Simulateur iPhone X (test de sites Web et WebApps)">
@@ -3950,7 +3949,7 @@ TimerStartTimer3();
 <span style="color:#000000;font-family:Arial;font-size:12px;">Simulateur Smartphone conçu par AlgoStep Company - service gratuit</span></div>
 </div>
 
-<div id="jQueryDialog66" style="z-index:646;" title="Simulateur Samsung Galaxy s8 (test de sites Web et WebApps)">
+<div id="jQueryDialog66" style="z-index:646;" title="Simulateur Samsung Galaxy s8/s9 (test de sites Web et WebApps)">
 <div id="wb_Image42" style="position:absolute;left:55px;top:16px;width:301px;height:642px;z-index:321;">
 <img src="images/Samsung-Galaxy-S8-0.png" id="Image42" alt=""></div>
 <div id="Html20" style="position:absolute;left:70px;top:57px;width:270px;height:563px;overflow:hidden;z-index:322">
@@ -3958,7 +3957,7 @@ TimerStartTimer3();
    src="addeosapps/mobiledemo.php">
 </iframe></div>
 <input type="button" id="Button38" name="" value="Action bouton central (sous écran)" style="position:absolute;left:366px;top:42px;width:222px;height:25px;z-index:323;">
-<input type="button" id="Button41" onclick="window.confirm('Android 7.0');return false;" name="" value="Version Android" style="position:absolute;left:366px;top:90px;width:222px;height:25px;z-index:324;">
+<input type="button" id="Button41" onclick="window.confirm('Android 8.0 Oreo');return false;" name="" value="Version Android" style="position:absolute;left:366px;top:90px;width:222px;height:25px;z-index:324;">
 <input type="button" id="Button42" onclick="$('#jQueryDialog64').dialog('open');$('#jQueryDialog66').dialog('close');return false;" name="" value="Retour Simuateur" style="position:absolute;left:370px;top:627px;width:222px;height:25px;z-index:325;">
 <div id="wb_Text98" style="position:absolute;left:8px;top:6px;width:474px;height:15px;z-index:326;">
 <span style="color:#000000;font-family:Arial;font-size:12px;">Simulateur Smartphone conçu par AlgoStep Company - service gratuit</span></div>
@@ -4477,7 +4476,7 @@ TimerStartTimer49();
    src="http://rynnawebos.fr/login/maj.php">
 </iframe></div>
 <div id="wb_Text43" style="position:absolute;left:14px;top:68px;width:848px;height:24px;text-align:center;z-index:492;">
-<span style="color:#FF6347;font-family:Arial;font-size:21px;"><strong>33.9b</strong></span></div>
+<span style="color:#FF6347;font-family:Arial;font-size:21px;"><strong>34.0</strong></span></div>
 <div id="wb_Text42" style="position:absolute;left:14px;top:120px;width:460px;height:16px;z-index:493;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">La dernière version disponible (code source) est la suivante&nbsp;:</span></div>
 <div id="wb_Text46" style="position:absolute;left:14px;top:18px;width:460px;height:16px;z-index:494;">
@@ -4810,7 +4809,7 @@ clock();
 
 </div>
 <div id="wb_FontAwesomeIcon3" style="position:absolute;left:107px;top:444px;width:34px;height:30px;text-align:center;z-index:530;">
-<a href="#" onclick="$('#jQueryDialog89').dialog('open');$('#jQueryDialog37').dialog('open');ShowObject('Layer5', 0);return false;"><div id="FontAwesomeIcon3"><i class="fa fa-file-image-o">&nbsp;</i></div></a></div>
+<a href="#" onclick="$('#jQueryDialog89').dialog('open');ShowObject('Layer5', 0);$('#jQueryDialog37').dialog('open');return false;"><div id="FontAwesomeIcon3"><i class="fa fa-file-image-o">&nbsp;</i></div></a></div>
 <div id="wb_Text85" style="position:absolute;left:92px;top:476px;width:64px;height:24px;text-align:center;z-index:531;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:9.3px;">Changer fond d'écran</span></div>
 <div id="wb_FontAwesomeIcon26" style="position:absolute;left:181px;top:444px;width:34px;height:30px;text-align:center;z-index:532;">
@@ -4974,7 +4973,7 @@ TimerStartTimer20();
 
 
 
-<div id="Layer13" style="position:absolute;text-align:left;left:372px;top:37px;width:238px;height:252px;z-index:737;">
+<div id="Layer13" style="position:absolute;text-align:left;left:376px;top:37px;width:238px;height:252px;z-index:737;">
 <div id="wb_MaterialIcon31" style="position:absolute;left:15px;top:15px;width:52px;height:43px;text-align:center;z-index:561;">
 <a href="#" onclick="$('#jQueryDialog52').dialog('close');$('#jQueryDialog53').dialog('open');return false;"><div id="MaterialIcon31"><i class="material-icons">&#xe0d8;</i></div></a></div>
 <div id="wb_Text53" style="position:absolute;left:79px;top:29px;width:130px;height:15px;z-index:562;">
