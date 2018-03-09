@@ -43,7 +43,7 @@ body
    margin-right: -15px;
    margin-left: -15px;
 }
-#PageHeader .col-1
+#PageHeader > .row > .col-1
 {
    -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
@@ -54,11 +54,11 @@ body
    padding-left: 15px;
    position: relative;
 }
-#PageHeader .col-1
+#PageHeader > .row > .col-1
 {
    float: left;
 }
-#PageHeader .col-1
+#PageHeader > .row > .col-1
 {
    background-color: transparent;
    background-image: none;
@@ -80,7 +80,7 @@ body
 }
 @media (max-width: 480px)
 {
-#PageHeader .col-1
+#PageHeader > .row > .col-1
 {
    float: none;
    width: 100%;
@@ -254,7 +254,7 @@ body
    margin-right: -15px;
    margin-left: -15px;
 }
-#BlockQuote .col-1
+#BlockQuote > .row > .col-1
 {
    -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
@@ -265,11 +265,11 @@ body
    padding-left: 15px;
    position: relative;
 }
-#BlockQuote .col-1
+#BlockQuote > .row > .col-1
 {
    float: left;
 }
-#BlockQuote .col-1
+#BlockQuote > .row > .col-1
 {
    background-color: transparent;
    background-image: none;
@@ -291,7 +291,7 @@ body
 }
 @media (max-width: 480px)
 {
-#BlockQuote .col-1
+#BlockQuote > .row > .col-1
 {
    float: none;
    width: 100%;
@@ -360,7 +360,7 @@ body
    margin-right: -15px;
    margin-left: -15px;
 }
-#LayoutGrid9 .col-1
+#LayoutGrid9 > .row > .col-1
 {
    -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
@@ -371,11 +371,11 @@ body
    padding-left: 15px;
    position: relative;
 }
-#LayoutGrid9 .col-1
+#LayoutGrid9 > .row > .col-1
 {
    float: left;
 }
-#LayoutGrid9 .col-1
+#LayoutGrid9 > .row > .col-1
 {
    background-color: transparent;
    background-image: none;
@@ -397,7 +397,7 @@ body
 }
 @media (max-width: 768px)
 {
-#LayoutGrid9 .col-1
+#LayoutGrid9 > .row > .col-1
 {
    float: none;
    width: 100%;

@@ -39,11 +39,11 @@ body
    border: 0px #000000 solid;
    padding: 0;
    margin: 0;
-   text-align: left;
+   text-align: justify;
 }
 #wb_Text1 div
 {
-   text-align: left;
+   text-align: justify;
 }
 #Button1
 {
