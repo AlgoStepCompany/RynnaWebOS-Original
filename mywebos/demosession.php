@@ -33,7 +33,7 @@ if (session_id() == "")
 <link href="font-awesome.min.css" rel="stylesheet">
 <link href="RynnaWebOS.css" rel="stylesheet">
 <link href="demosession.css" rel="stylesheet">
-<script src="jquery-3.2.1.min.js"></script>
+<script src="jquery-3.3.1.min.js"></script>
 <script src="jquery-ui.min.js"></script>
 <script src="wb.stickylayer.min.js"></script>
 <script src="jquery.ui.datepicker-fr.js"></script>
@@ -130,15 +130,19 @@ function searchParseURL()
 }
 </script>
 <script>
-function ValidatejQueryDialog32(theForm)
+function ValidatejQueryDialog32()
 {
    var regexp;
-   regexp = /^[A-Za-zÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿ \t\r\n\f0-9-]*$/;
-   if (!regexp.test(theForm.Editbox1.value))
+   var Editbox1 = document.getElementById('Editbox1');
+   if (!(Editbox1.disabled || Editbox1.style.display === 'none' || Editbox1.style.visibility === 'hidden'))
    {
-      alert("Please enter only letter, digit and whitespace characters in the \"Editbox1\" field.");
-      theForm.Editbox1.focus();
-      return false;
+      regexp = /^[A-Za-zÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿ \t\r\n\f0-9-]*$/;
+      if (!regexp.test(Editbox1.value))
+      {
+         alert("Please enter only letter, digit and whitespace characters in the \"Editbox1\" field.");
+         Editbox1.focus();
+         return false;
+      }
    }
    return true;
 }

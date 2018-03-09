@@ -73,7 +73,7 @@ body
    margin-right: -15px;
    margin-left: -15px;
 }
-#PageHeader .col-1, #PageHeader .col-2
+#PageHeader > .row > .col-1, #PageHeader > .row > .col-2
 {
    -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
@@ -84,18 +84,18 @@ body
    padding-left: 15px;
    position: relative;
 }
-#PageHeader .col-1, #PageHeader .col-2
+#PageHeader > .row > .col-1, #PageHeader > .row > .col-2
 {
    float: left;
 }
-#PageHeader .col-1
+#PageHeader > .row > .col-1
 {
    background-color: transparent;
    background-image: none;
    width: 91.66666667%;
    text-align: left;
 }
-#PageHeader .col-2
+#PageHeader > .row > .col-2
 {
    background-color: transparent;
    background-image: none;
@@ -117,7 +117,7 @@ body
 }
 @media (max-width: 480px)
 {
-#PageHeader .col-1, #PageHeader .col-2
+#PageHeader > .row > .col-1, #PageHeader > .row > .col-2
 {
    float: none;
    width: 100%;
@@ -152,7 +152,7 @@ body
    margin-right: -15px;
    margin-left: -15px;
 }
-#LayoutGrid1 .col-1, #LayoutGrid1 .col-2, #LayoutGrid1 .col-3, #LayoutGrid1 .col-4, #LayoutGrid1 .col-5, #LayoutGrid1 .col-6, #LayoutGrid1 .col-7, #LayoutGrid1 .col-8, #LayoutGrid1 .col-9, #LayoutGrid1 .col-10, #LayoutGrid1 .col-11, #LayoutGrid1 .col-12
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3, #LayoutGrid1 > .row > .col-4, #LayoutGrid1 > .row > .col-5, #LayoutGrid1 > .row > .col-6, #LayoutGrid1 > .row > .col-7, #LayoutGrid1 > .row > .col-8, #LayoutGrid1 > .row > .col-9, #LayoutGrid1 > .row > .col-10, #LayoutGrid1 > .row > .col-11, #LayoutGrid1 > .row > .col-12
 {
    -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
@@ -163,88 +163,88 @@ body
    padding-left: 15px;
    position: relative;
 }
-#LayoutGrid1 .col-1, #LayoutGrid1 .col-2, #LayoutGrid1 .col-3, #LayoutGrid1 .col-4, #LayoutGrid1 .col-5, #LayoutGrid1 .col-6, #LayoutGrid1 .col-7, #LayoutGrid1 .col-8, #LayoutGrid1 .col-9, #LayoutGrid1 .col-10, #LayoutGrid1 .col-11, #LayoutGrid1 .col-12
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3, #LayoutGrid1 > .row > .col-4, #LayoutGrid1 > .row > .col-5, #LayoutGrid1 > .row > .col-6, #LayoutGrid1 > .row > .col-7, #LayoutGrid1 > .row > .col-8, #LayoutGrid1 > .row > .col-9, #LayoutGrid1 > .row > .col-10, #LayoutGrid1 > .row > .col-11, #LayoutGrid1 > .row > .col-12
 {
    float: left;
 }
-#LayoutGrid1 .col-1
+#LayoutGrid1 > .row > .col-1
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid1 .col-2
+#LayoutGrid1 > .row > .col-2
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid1 .col-3
+#LayoutGrid1 > .row > .col-3
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid1 .col-4
+#LayoutGrid1 > .row > .col-4
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid1 .col-5
+#LayoutGrid1 > .row > .col-5
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid1 .col-6
+#LayoutGrid1 > .row > .col-6
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid1 .col-7
+#LayoutGrid1 > .row > .col-7
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid1 .col-8
+#LayoutGrid1 > .row > .col-8
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid1 .col-9
+#LayoutGrid1 > .row > .col-9
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid1 .col-10
+#LayoutGrid1 > .row > .col-10
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid1 .col-11
+#LayoutGrid1 > .row > .col-11
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid1 .col-12
+#LayoutGrid1 > .row > .col-12
 {
    background-color: transparent;
    background-image: none;
@@ -266,7 +266,7 @@ body
 }
 @media (max-width: 480px)
 {
-#LayoutGrid1 .col-1, #LayoutGrid1 .col-2, #LayoutGrid1 .col-3, #LayoutGrid1 .col-4, #LayoutGrid1 .col-5, #LayoutGrid1 .col-6, #LayoutGrid1 .col-7, #LayoutGrid1 .col-8, #LayoutGrid1 .col-9, #LayoutGrid1 .col-10, #LayoutGrid1 .col-11, #LayoutGrid1 .col-12
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3, #LayoutGrid1 > .row > .col-4, #LayoutGrid1 > .row > .col-5, #LayoutGrid1 > .row > .col-6, #LayoutGrid1 > .row > .col-7, #LayoutGrid1 > .row > .col-8, #LayoutGrid1 > .row > .col-9, #LayoutGrid1 > .row > .col-10, #LayoutGrid1 > .row > .col-11, #LayoutGrid1 > .row > .col-12
 {
    float: none;
    width: 100%;
@@ -301,7 +301,7 @@ body
    margin-right: -15px;
    margin-left: -15px;
 }
-#LayoutGrid6 .col-1, #LayoutGrid6 .col-2, #LayoutGrid6 .col-3, #LayoutGrid6 .col-4, #LayoutGrid6 .col-5, #LayoutGrid6 .col-6, #LayoutGrid6 .col-7, #LayoutGrid6 .col-8, #LayoutGrid6 .col-9, #LayoutGrid6 .col-10, #LayoutGrid6 .col-11, #LayoutGrid6 .col-12
+#LayoutGrid6 > .row > .col-1, #LayoutGrid6 > .row > .col-2, #LayoutGrid6 > .row > .col-3, #LayoutGrid6 > .row > .col-4, #LayoutGrid6 > .row > .col-5, #LayoutGrid6 > .row > .col-6, #LayoutGrid6 > .row > .col-7, #LayoutGrid6 > .row > .col-8, #LayoutGrid6 > .row > .col-9, #LayoutGrid6 > .row > .col-10, #LayoutGrid6 > .row > .col-11, #LayoutGrid6 > .row > .col-12
 {
    -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
@@ -312,88 +312,88 @@ body
    padding-left: 15px;
    position: relative;
 }
-#LayoutGrid6 .col-1, #LayoutGrid6 .col-2, #LayoutGrid6 .col-3, #LayoutGrid6 .col-4, #LayoutGrid6 .col-5, #LayoutGrid6 .col-6, #LayoutGrid6 .col-7, #LayoutGrid6 .col-8, #LayoutGrid6 .col-9, #LayoutGrid6 .col-10, #LayoutGrid6 .col-11, #LayoutGrid6 .col-12
+#LayoutGrid6 > .row > .col-1, #LayoutGrid6 > .row > .col-2, #LayoutGrid6 > .row > .col-3, #LayoutGrid6 > .row > .col-4, #LayoutGrid6 > .row > .col-5, #LayoutGrid6 > .row > .col-6, #LayoutGrid6 > .row > .col-7, #LayoutGrid6 > .row > .col-8, #LayoutGrid6 > .row > .col-9, #LayoutGrid6 > .row > .col-10, #LayoutGrid6 > .row > .col-11, #LayoutGrid6 > .row > .col-12
 {
    float: left;
 }
-#LayoutGrid6 .col-1
+#LayoutGrid6 > .row > .col-1
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid6 .col-2
+#LayoutGrid6 > .row > .col-2
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid6 .col-3
+#LayoutGrid6 > .row > .col-3
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid6 .col-4
+#LayoutGrid6 > .row > .col-4
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid6 .col-5
+#LayoutGrid6 > .row > .col-5
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid6 .col-6
+#LayoutGrid6 > .row > .col-6
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid6 .col-7
+#LayoutGrid6 > .row > .col-7
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid6 .col-8
+#LayoutGrid6 > .row > .col-8
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid6 .col-9
+#LayoutGrid6 > .row > .col-9
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid6 .col-10
+#LayoutGrid6 > .row > .col-10
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid6 .col-11
+#LayoutGrid6 > .row > .col-11
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid6 .col-12
+#LayoutGrid6 > .row > .col-12
 {
    background-color: transparent;
    background-image: none;
@@ -415,7 +415,7 @@ body
 }
 @media (max-width: 480px)
 {
-#LayoutGrid6 .col-1, #LayoutGrid6 .col-2, #LayoutGrid6 .col-3, #LayoutGrid6 .col-4, #LayoutGrid6 .col-5, #LayoutGrid6 .col-6, #LayoutGrid6 .col-7, #LayoutGrid6 .col-8, #LayoutGrid6 .col-9, #LayoutGrid6 .col-10, #LayoutGrid6 .col-11, #LayoutGrid6 .col-12
+#LayoutGrid6 > .row > .col-1, #LayoutGrid6 > .row > .col-2, #LayoutGrid6 > .row > .col-3, #LayoutGrid6 > .row > .col-4, #LayoutGrid6 > .row > .col-5, #LayoutGrid6 > .row > .col-6, #LayoutGrid6 > .row > .col-7, #LayoutGrid6 > .row > .col-8, #LayoutGrid6 > .row > .col-9, #LayoutGrid6 > .row > .col-10, #LayoutGrid6 > .row > .col-11, #LayoutGrid6 > .row > .col-12
 {
    float: none;
    width: 100%;
@@ -450,7 +450,7 @@ body
    margin-right: -15px;
    margin-left: -15px;
 }
-#LayoutGrid5 .col-1, #LayoutGrid5 .col-2, #LayoutGrid5 .col-3, #LayoutGrid5 .col-4, #LayoutGrid5 .col-5, #LayoutGrid5 .col-6, #LayoutGrid5 .col-7, #LayoutGrid5 .col-8, #LayoutGrid5 .col-9, #LayoutGrid5 .col-10, #LayoutGrid5 .col-11, #LayoutGrid5 .col-12
+#LayoutGrid5 > .row > .col-1, #LayoutGrid5 > .row > .col-2, #LayoutGrid5 > .row > .col-3, #LayoutGrid5 > .row > .col-4, #LayoutGrid5 > .row > .col-5, #LayoutGrid5 > .row > .col-6, #LayoutGrid5 > .row > .col-7, #LayoutGrid5 > .row > .col-8, #LayoutGrid5 > .row > .col-9, #LayoutGrid5 > .row > .col-10, #LayoutGrid5 > .row > .col-11, #LayoutGrid5 > .row > .col-12
 {
    -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
@@ -461,88 +461,88 @@ body
    padding-left: 15px;
    position: relative;
 }
-#LayoutGrid5 .col-1, #LayoutGrid5 .col-2, #LayoutGrid5 .col-3, #LayoutGrid5 .col-4, #LayoutGrid5 .col-5, #LayoutGrid5 .col-6, #LayoutGrid5 .col-7, #LayoutGrid5 .col-8, #LayoutGrid5 .col-9, #LayoutGrid5 .col-10, #LayoutGrid5 .col-11, #LayoutGrid5 .col-12
+#LayoutGrid5 > .row > .col-1, #LayoutGrid5 > .row > .col-2, #LayoutGrid5 > .row > .col-3, #LayoutGrid5 > .row > .col-4, #LayoutGrid5 > .row > .col-5, #LayoutGrid5 > .row > .col-6, #LayoutGrid5 > .row > .col-7, #LayoutGrid5 > .row > .col-8, #LayoutGrid5 > .row > .col-9, #LayoutGrid5 > .row > .col-10, #LayoutGrid5 > .row > .col-11, #LayoutGrid5 > .row > .col-12
 {
    float: left;
 }
-#LayoutGrid5 .col-1
+#LayoutGrid5 > .row > .col-1
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid5 .col-2
+#LayoutGrid5 > .row > .col-2
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid5 .col-3
+#LayoutGrid5 > .row > .col-3
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid5 .col-4
+#LayoutGrid5 > .row > .col-4
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid5 .col-5
+#LayoutGrid5 > .row > .col-5
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid5 .col-6
+#LayoutGrid5 > .row > .col-6
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid5 .col-7
+#LayoutGrid5 > .row > .col-7
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid5 .col-8
+#LayoutGrid5 > .row > .col-8
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid5 .col-9
+#LayoutGrid5 > .row > .col-9
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid5 .col-10
+#LayoutGrid5 > .row > .col-10
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid5 .col-11
+#LayoutGrid5 > .row > .col-11
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid5 .col-12
+#LayoutGrid5 > .row > .col-12
 {
    background-color: transparent;
    background-image: none;
@@ -564,7 +564,7 @@ body
 }
 @media (max-width: 480px)
 {
-#LayoutGrid5 .col-1, #LayoutGrid5 .col-2, #LayoutGrid5 .col-3, #LayoutGrid5 .col-4, #LayoutGrid5 .col-5, #LayoutGrid5 .col-6, #LayoutGrid5 .col-7, #LayoutGrid5 .col-8, #LayoutGrid5 .col-9, #LayoutGrid5 .col-10, #LayoutGrid5 .col-11, #LayoutGrid5 .col-12
+#LayoutGrid5 > .row > .col-1, #LayoutGrid5 > .row > .col-2, #LayoutGrid5 > .row > .col-3, #LayoutGrid5 > .row > .col-4, #LayoutGrid5 > .row > .col-5, #LayoutGrid5 > .row > .col-6, #LayoutGrid5 > .row > .col-7, #LayoutGrid5 > .row > .col-8, #LayoutGrid5 > .row > .col-9, #LayoutGrid5 > .row > .col-10, #LayoutGrid5 > .row > .col-11, #LayoutGrid5 > .row > .col-12
 {
    float: none;
    width: 100%;
@@ -599,7 +599,7 @@ body
    margin-right: -15px;
    margin-left: -15px;
 }
-#LayoutGrid4 .col-1, #LayoutGrid4 .col-2, #LayoutGrid4 .col-3, #LayoutGrid4 .col-4, #LayoutGrid4 .col-5, #LayoutGrid4 .col-6, #LayoutGrid4 .col-7, #LayoutGrid4 .col-8, #LayoutGrid4 .col-9, #LayoutGrid4 .col-10, #LayoutGrid4 .col-11, #LayoutGrid4 .col-12
+#LayoutGrid4 > .row > .col-1, #LayoutGrid4 > .row > .col-2, #LayoutGrid4 > .row > .col-3, #LayoutGrid4 > .row > .col-4, #LayoutGrid4 > .row > .col-5, #LayoutGrid4 > .row > .col-6, #LayoutGrid4 > .row > .col-7, #LayoutGrid4 > .row > .col-8, #LayoutGrid4 > .row > .col-9, #LayoutGrid4 > .row > .col-10, #LayoutGrid4 > .row > .col-11, #LayoutGrid4 > .row > .col-12
 {
    -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
@@ -610,88 +610,88 @@ body
    padding-left: 15px;
    position: relative;
 }
-#LayoutGrid4 .col-1, #LayoutGrid4 .col-2, #LayoutGrid4 .col-3, #LayoutGrid4 .col-4, #LayoutGrid4 .col-5, #LayoutGrid4 .col-6, #LayoutGrid4 .col-7, #LayoutGrid4 .col-8, #LayoutGrid4 .col-9, #LayoutGrid4 .col-10, #LayoutGrid4 .col-11, #LayoutGrid4 .col-12
+#LayoutGrid4 > .row > .col-1, #LayoutGrid4 > .row > .col-2, #LayoutGrid4 > .row > .col-3, #LayoutGrid4 > .row > .col-4, #LayoutGrid4 > .row > .col-5, #LayoutGrid4 > .row > .col-6, #LayoutGrid4 > .row > .col-7, #LayoutGrid4 > .row > .col-8, #LayoutGrid4 > .row > .col-9, #LayoutGrid4 > .row > .col-10, #LayoutGrid4 > .row > .col-11, #LayoutGrid4 > .row > .col-12
 {
    float: left;
 }
-#LayoutGrid4 .col-1
+#LayoutGrid4 > .row > .col-1
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid4 .col-2
+#LayoutGrid4 > .row > .col-2
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid4 .col-3
+#LayoutGrid4 > .row > .col-3
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid4 .col-4
+#LayoutGrid4 > .row > .col-4
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid4 .col-5
+#LayoutGrid4 > .row > .col-5
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid4 .col-6
+#LayoutGrid4 > .row > .col-6
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid4 .col-7
+#LayoutGrid4 > .row > .col-7
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid4 .col-8
+#LayoutGrid4 > .row > .col-8
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid4 .col-9
+#LayoutGrid4 > .row > .col-9
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid4 .col-10
+#LayoutGrid4 > .row > .col-10
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid4 .col-11
+#LayoutGrid4 > .row > .col-11
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid4 .col-12
+#LayoutGrid4 > .row > .col-12
 {
    background-color: transparent;
    background-image: none;
@@ -713,7 +713,7 @@ body
 }
 @media (max-width: 480px)
 {
-#LayoutGrid4 .col-1, #LayoutGrid4 .col-2, #LayoutGrid4 .col-3, #LayoutGrid4 .col-4, #LayoutGrid4 .col-5, #LayoutGrid4 .col-6, #LayoutGrid4 .col-7, #LayoutGrid4 .col-8, #LayoutGrid4 .col-9, #LayoutGrid4 .col-10, #LayoutGrid4 .col-11, #LayoutGrid4 .col-12
+#LayoutGrid4 > .row > .col-1, #LayoutGrid4 > .row > .col-2, #LayoutGrid4 > .row > .col-3, #LayoutGrid4 > .row > .col-4, #LayoutGrid4 > .row > .col-5, #LayoutGrid4 > .row > .col-6, #LayoutGrid4 > .row > .col-7, #LayoutGrid4 > .row > .col-8, #LayoutGrid4 > .row > .col-9, #LayoutGrid4 > .row > .col-10, #LayoutGrid4 > .row > .col-11, #LayoutGrid4 > .row > .col-12
 {
    float: none;
    width: 100%;
@@ -748,7 +748,7 @@ body
    margin-right: -15px;
    margin-left: -15px;
 }
-#LayoutGrid3 .col-1, #LayoutGrid3 .col-2, #LayoutGrid3 .col-3, #LayoutGrid3 .col-4, #LayoutGrid3 .col-5, #LayoutGrid3 .col-6, #LayoutGrid3 .col-7, #LayoutGrid3 .col-8, #LayoutGrid3 .col-9, #LayoutGrid3 .col-10, #LayoutGrid3 .col-11, #LayoutGrid3 .col-12
+#LayoutGrid3 > .row > .col-1, #LayoutGrid3 > .row > .col-2, #LayoutGrid3 > .row > .col-3, #LayoutGrid3 > .row > .col-4, #LayoutGrid3 > .row > .col-5, #LayoutGrid3 > .row > .col-6, #LayoutGrid3 > .row > .col-7, #LayoutGrid3 > .row > .col-8, #LayoutGrid3 > .row > .col-9, #LayoutGrid3 > .row > .col-10, #LayoutGrid3 > .row > .col-11, #LayoutGrid3 > .row > .col-12
 {
    -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
@@ -759,88 +759,88 @@ body
    padding-left: 15px;
    position: relative;
 }
-#LayoutGrid3 .col-1, #LayoutGrid3 .col-2, #LayoutGrid3 .col-3, #LayoutGrid3 .col-4, #LayoutGrid3 .col-5, #LayoutGrid3 .col-6, #LayoutGrid3 .col-7, #LayoutGrid3 .col-8, #LayoutGrid3 .col-9, #LayoutGrid3 .col-10, #LayoutGrid3 .col-11, #LayoutGrid3 .col-12
+#LayoutGrid3 > .row > .col-1, #LayoutGrid3 > .row > .col-2, #LayoutGrid3 > .row > .col-3, #LayoutGrid3 > .row > .col-4, #LayoutGrid3 > .row > .col-5, #LayoutGrid3 > .row > .col-6, #LayoutGrid3 > .row > .col-7, #LayoutGrid3 > .row > .col-8, #LayoutGrid3 > .row > .col-9, #LayoutGrid3 > .row > .col-10, #LayoutGrid3 > .row > .col-11, #LayoutGrid3 > .row > .col-12
 {
    float: left;
 }
-#LayoutGrid3 .col-1
+#LayoutGrid3 > .row > .col-1
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid3 .col-2
+#LayoutGrid3 > .row > .col-2
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid3 .col-3
+#LayoutGrid3 > .row > .col-3
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid3 .col-4
+#LayoutGrid3 > .row > .col-4
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid3 .col-5
+#LayoutGrid3 > .row > .col-5
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid3 .col-6
+#LayoutGrid3 > .row > .col-6
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid3 .col-7
+#LayoutGrid3 > .row > .col-7
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid3 .col-8
+#LayoutGrid3 > .row > .col-8
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid3 .col-9
+#LayoutGrid3 > .row > .col-9
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid3 .col-10
+#LayoutGrid3 > .row > .col-10
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid3 .col-11
+#LayoutGrid3 > .row > .col-11
 {
    background-color: transparent;
    background-image: none;
    width: 8.33333333%;
    text-align: center;
 }
-#LayoutGrid3 .col-12
+#LayoutGrid3 > .row > .col-12
 {
    background-color: transparent;
    background-image: none;
@@ -862,7 +862,7 @@ body
 }
 @media (max-width: 480px)
 {
-#LayoutGrid3 .col-1, #LayoutGrid3 .col-2, #LayoutGrid3 .col-3, #LayoutGrid3 .col-4, #LayoutGrid3 .col-5, #LayoutGrid3 .col-6, #LayoutGrid3 .col-7, #LayoutGrid3 .col-8, #LayoutGrid3 .col-9, #LayoutGrid3 .col-10, #LayoutGrid3 .col-11, #LayoutGrid3 .col-12
+#LayoutGrid3 > .row > .col-1, #LayoutGrid3 > .row > .col-2, #LayoutGrid3 > .row > .col-3, #LayoutGrid3 > .row > .col-4, #LayoutGrid3 > .row > .col-5, #LayoutGrid3 > .row > .col-6, #LayoutGrid3 > .row > .col-7, #LayoutGrid3 > .row > .col-8, #LayoutGrid3 > .row > .col-9, #LayoutGrid3 > .row > .col-10, #LayoutGrid3 > .row > .col-11, #LayoutGrid3 > .row > .col-12
 {
    float: none;
    width: 100%;

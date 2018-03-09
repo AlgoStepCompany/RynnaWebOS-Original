@@ -1,6 +1,6 @@
 <?php
 $uploaddir = 'uploads';
-$allowed = array('jpg','jpeg','gif','png');
+$allowed = array('jpg','jpeg','gif','png','tga','dds');
 $max_size = 4096 * 1024;
 while (list ($key, $val) = each ($_FILES))
 {
