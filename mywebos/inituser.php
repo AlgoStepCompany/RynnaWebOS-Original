@@ -46,7 +46,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST
 <link href="rynnawebosV3/jquery-ui.min.css" rel="stylesheet">
 <link href="RynnaWebOS.css" rel="stylesheet">
 <link href="inituser.css" rel="stylesheet">
-<script src="jquery-3.3.1.min.js"></script>
+<script src="jquery-3.2.1.min.js"></script>
 <script src="wb.stickylayer.min.js"></script>
 <script src="jquery-ui.min.js"></script>
 <script>
