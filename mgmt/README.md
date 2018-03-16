@@ -95,12 +95,13 @@ object data="http://rynnawebos.fr/login/index.php" type="text/html" width="100%"
 
 2 - Edit the file "index.php" in the "mgmt" folder and indicate your server parameters:
 
-(example :)
-$ mysql_server = 'address-of-your-server';
-$ mysql_username = 'username-MySQL';
-$ mysql_password = 'MySQL-password';
-$ mysql_database = 'mysql-database-name';
-$ mysql_table = 'userswebos';
+(example :)  
+$ mysql_server = 'address-of-your-server';  
+$ mysql_username = 'username-MySQL';  
+$ mysql_password = 'MySQL-password';  
+$ mysql_database = 'mysql-database-name';  
+$ mysql_table = 'userswebos';  
+
 
 3 - Change the name of the following two files: "php-GtVF56aZ2aaLo.php" and "z3rt6GV8uT44.php" by different and unique names. NEVER give this information to anyone other than yourself!
 To not get lost, do not delete "php-" at the beginning of the first file!
@@ -139,8 +140,8 @@ $ users = array ("root");
 <object data = "php-GtVF56aZ2aaLo.php" type = "text / html" width = "100%" height = "100%" style = "overflow: auto"> </ object> </ div>
 ```
 
-- Change the php-GtVF56aZ2aaLo.php by the new name you gave it in point N ° 3.
-For example : 
+- Change the php-GtVF56aZ2aaLo.php by the new name you gave it in point N ° 3.  
+For example :  
 ```html
 <object data="php-blablabla.php" type="text/html" width="100%" height="100%" style="overflow:auto" ></object></div>
 ```
@@ -150,8 +151,8 @@ For example :
 <object data = "z3rt6GV8uT44.php" type = "text / html" width = "100%" height = "100%" style = "overflow: auto"> </ object> </ div>
 ```
 
-- Change the z3rt6GV8uT44.php by the new name that you have assigned in point # 3.
-For example :
+- Change the z3rt6GV8uT44.php by the new name that you have assigned in point # 3.  
+For example :  
 ```Html
 <object data = "hahaha.php" type = "text / html" width = "100%" height = "100%" style = "overflow: auto"> </ object> </ div>
 ```
