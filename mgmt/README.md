@@ -82,8 +82,14 @@ object data="http://rynnawebos.fr/login/index.php" type="text/html" width="100%"
 
 - Changer le site cible par votre propre site et le lien vers votre WebOS. Ceci est simple et rapide à faire.Si vous n'avez pas d'autres WebOS alors vous pouvez supprimer les liens restants.
 
+6 - Ouvrez les fichiers "php-GtVF56aZ2aaLo.php et "z3rt6GV8uT44.php" ; chercher les lignes de codes suivantes : 
+```php
+$users = array("root");
+```
+Et changez le nom "root" par le nom de compte utilisateur qui a l'autorisation de se connecter à ces fichiers ; mettez le même nom de compte que vous aviez entré dans le N°5 (comme la ligne 27).
 
-6 - Paramétrage terminé ! Vous pouvez désormais vous connecter avec le compte Administrateur que vous avez choisit (root par défaut) sur http://votre-site-web-personnel.fr/mgmt
+
+7 - Paramétrage terminé ! Vous pouvez désormais vous connecter avec le compte Administrateur que vous avez choisit (root par défaut) sur http://votre-site-web-personnel.fr/mgmt
 
 ### *****************************************************************************
 
@@ -164,7 +170,13 @@ object data = "http://rynnawebos.com/login/index.php" type = "text / html" width
 
 - Change the target site by your own site and the link to your WebOS. This is quick and easy to do. If you do not have other WebOS then you can delete the remaining links.
 
+6 - Open the files "php-GtVF56aZ2aaLo.php" and "z3rt6GV8uT44.php";
+``` php
+$ users = array ("root");
+```
+And change the name "root" to the user account name that has permission to connect to these files; The same account name you entered in # 5 (like line 27).
 
-6 - Setup completed! You can now log in with the Administrator account you have chosen (default root) at http://yoursite-web-personal.com/mgmt
+
+7 - Setup completed! You can now log in with the Administrator account you have chosen (default root) at http://yoursite-web-personal.com/mgmt
 
 ---------------
