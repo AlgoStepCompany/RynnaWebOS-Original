@@ -59,6 +59,10 @@ $users = array("root");
 ```
 
 - Changer le php-GtVF56aZ2aaLo.php par le nouveau nom que vous lui avez attribué dans le point N°3.
+Pour l'exemple nous auront donc : 
+```html
+<object data="php-blablabla.php" type="text/html" width="100%" height="100%" style="overflow:auto" ></object></div>
+```
 
 ### LIGNE 302 :
 ```html
@@ -66,6 +70,10 @@ $users = array("root");
 ```
 
 - Changer le z3rt6GV8uT44.php par le nouveau nom que vous lui avez attribué dans le point N°3.
+Pour l'exemple nous auront donc : 
+```html
+<object data="hahaha.php" type="text/html" width="100%" height="100%" style="overflow:auto" ></object></div>
+```
 
 ### LIGNE 320 :
 ```html
@@ -132,6 +140,10 @@ $ users = array ("root");
 ```
 
 - Change the php-GtVF56aZ2aaLo.php by the new name you gave it in point N ° 3.
+For example : 
+```html
+<object data="php-blablabla.php" type="text/html" width="100%" height="100%" style="overflow:auto" ></object></div>
+```
 
 ### LINE 302:
 ```Html
@@ -139,6 +151,10 @@ $ users = array ("root");
 ```
 
 - Change the z3rt6GV8uT44.php by the new name that you have assigned in point # 3.
+For example :
+```Html
+<object data = "hahaha.php" type = "text / html" width = "100%" height = "100%" style = "overflow: auto"> </ object> </ div>
+```
 
 ### LINE 320:
 ```Html
