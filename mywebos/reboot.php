@@ -7,7 +7,7 @@
 <meta name="generator" content="AlgoStep Company - 2006-2017">
 <link href="RynnaWebOS.css" rel="stylesheet">
 <link href="reboot.css" rel="stylesheet">
-<script src="jquery-3.2.1.min.js"></script>
+<script src="jquery-3.3.1.min.js"></script>
 <script src="wb.stickylayer.min.js"></script>
 <script>
 $(document).ready(function()
