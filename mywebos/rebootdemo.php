@@ -25,7 +25,7 @@ function TimerStartTimer1()
    wb_Timer1 = setTimeout(function()
    {
       var event = null;
-      window.location.href='./addeosapps/szforum.php';
+      window.location.href='./demosession.php';
    }, 5000);
 }
 function TimerStopTimer1()
