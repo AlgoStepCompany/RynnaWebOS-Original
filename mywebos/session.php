@@ -1503,7 +1503,7 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    {
       width: 276,
       height: 257,
-      position: { my: 'left top', at: 'right top+203', of: window },
+      position: { my: 'left top', at: 'right top+197', of: window },
       resizable: false,
       draggable: true,
       closeOnEscape: true,
@@ -1526,7 +1526,7 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    var jQueryDialog88Options =
    {
       width: 407,
-      height: 234,
+      height: 245,
       position: { my: 'left top', at: 'right top+46', of: window },
       resizable: false,
       draggable: false,
@@ -1778,8 +1778,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog1").dialog(jQueryDialog1Options);
    var jQueryDialog6Options =
    {
-      width: 729,
-      height: 467,
+      width: 570,
+      height: 350,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -1915,6 +1915,27 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 <span style="color:#000000;font-family:Arial;font-size:13px;">Ci-dessous retrouvez les dernières mises à jour de votre WebOS. Seul les 6 dernières mises à jours sont indiqués&nbsp;:</span></div>
 <div id="Blog1" style="overflow-y:scroll;position:absolute;left:18px;top:152px;width:689px;height:171px;z-index:3;">
 <div class="blogitem">
+   <span class="blogsubject">Version 37.0</span>
+   <div class="no-thumb"></div>
+   <div class="blogdate">21/03/18<br></div>
+   <span style="color:#000000;">- Stabilisation du WebOS suite au nouveau fonctionnement kernel et Javascript employé pour les Applis Internes et Externes (thread-markers)<br>
+- Developpeurs, repportez vous au nouveau code source GitHub et le dossier appelé archive-developper</span><br>
+   <div class="blogcomments"></div>
+</div>
+<div class="clearfix visible-col1"></div>
+<div class="blogitem">
+   <span class="blogsubject">Version 36.9</span>
+   <div class="no-thumb"></div>
+   <div class="blogdate">21/03/18<br></div>
+   <span style="color:#000000;">- Ajustement général, à présent 27 applications internes et externes sont appelés que lors de l'appel (clic) de l'utilisateur dans sa session.<br>
+Cela permet une économie de données de plus de 80% au démarrage de la session et un démarrage de session propre en moins de 13 secondes (auparavant 1 minute environ).<br>
+- Economie de 55Mo de données reçus par actualisation<br>
+- Démarrage plus long des applications, qui ne s'éxecute qu'a la demande de l'utilisateur et ne sont plus prêt chargés dans la session<br>
+- Stabilisation générale en cours ; cette version ne sortira pas sur GITHUB (code source). Pour le code source, merci d'attendre la version 37.0 stabilisatrice du projet !</span><br>
+   <div class="blogcomments"></div>
+</div>
+<div class="clearfix visible-col1"></div>
+<div class="blogitem">
    <span class="blogsubject">Version 36.0</span>
    <div class="no-thumb"></div>
    <div class="blogdate">16/03/18<br></div>
@@ -1948,27 +1969,6 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    <span style="color:#000000;">- Correctif du Menu Widget<br>
 - Correctif JS Twitter (icone)<br>
 - Stabilisation JQuery</span><br>
-   <div class="blogcomments"></div>
-</div>
-<div class="clearfix visible-col1"></div>
-<div class="blogitem">
-   <span class="blogsubject">Version 33.9</span>
-   <div class="no-thumb"></div>
-   <div class="blogdate">08/03/18<br></div>
-   <span style="color:#000000;">- Ajout de 3 nouveaux icones bureautiques utiles : Facebook, YouTube et Twitter. Cependant au vue de la sécurité générale anti-iframes/anti-object de ces sites vous aurez accès à ceux-ci qu'à partir d'une fenêtre Pop-Up extérieur au WebOS.<br>
-- Nouvelle page dédiée au déchargement de la session si le choix du redémarrage de la session est choisit.</span><br>
-   <div class="blogcomments"></div>
-</div>
-<div class="clearfix visible-col1"></div>
-<div class="blogitem">
-   <span class="blogsubject">Version 33.8</span>
-   <div class="no-thumb"></div>
-   <div class="blogdate">06/03/18<br></div>
-   <span style="color:#000000;">- Corrections et ajustements visuels de certaines fenêtres et du Menu Widget<br>
-- Ajustement de la fonction d'archive ZIP des sessions personnels<br>
-- Correction extensions registre _HSOCK_CUL en _HSOCK_CUR<br>
-- Correction orthographe et formulation du système de réparation de la session (double clique sur le bureau)<br>
-- Vous pouvez désormais uploadé en ligne des images TGA et DDS</span><br>
    <div class="blogcomments"></div>
 </div>
 <div class="clearfix visible-col1"></div>
@@ -2036,7 +2036,22 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 </div>
 </div>
 </div>
-<div id="wb_LayoutGrid1" onclick="ShowObject('Layer5', 0);return false;" ondblclick="ShowObject('Layer26', 1);return false;">
+<script>
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("image", ev.target.id);
+}
+
+function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("image");
+    ev.target.appendChild(document.getElementById(data));
+}
+</script>
+<div id="wb_LayoutGrid1" ondrop="drop(event)" ondragover="allowDrop(event)" onclick="ShowObject('Layer5', 0);return false;" ondblclick="ShowObject('Layer26', 1);return false;">
 <div id="LayoutGrid1">
 <div class="col-1">
 <div id="wb_Image2" style="display:inline-block;width:90px;height:105px;z-index:23;">
@@ -2050,7 +2065,7 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 </div>
 <div class="col-3">
 <div id="wb_Image59" style="display:inline-block;width:90px;height:105px;z-index:25;">
-<a href="#" onclick="$('#jQueryDialog90').dialog('open');AnimateCss('wb_Image59', 'transform-3d-flip-in-x', 0, 1200);return false;"><img src="images/placeholder.gif" data-src="images/icone_bureautique_4sync.png" data-src-retina="images/icone_bureautique_4sync.png" id="Image59" alt=""></a>
+<a href="#" onclick="$('#jQueryDialog90').dialog('open');self.frames['syncc1'].location.href = './addeosapps/4sync.php';AnimateCss('wb_Image59', 'transform-3d-flip-in-x', 0, 1200);return false;"><img src="images/placeholder.gif" data-src="images/icone_bureautique_4sync.png" data-src-retina="images/icone_bureautique_4sync.png" id="Image59" alt=""></a>
 </div>
 </div>
 <div class="col-4">
@@ -2114,7 +2129,7 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 <div id="LayoutGrid5">
 <div class="col-1">
 <div id="wb_Image38" style="display:inline-block;width:85px;height:99px;z-index:29;">
-<a href="#" onclick="$('#jQueryDialog8').dialog('open');AnimateCss('wb_Image38', 'transform-3d-flip-in-x', 0, 1200);return false;"><img src="images/placeholder.gif" data-src="images/startpage.png" data-src-retina="images/startpage.png" id="Image38" alt=""></a>
+<a href="#" onclick="$('#jQueryDialog8').dialog('open');self.frames['navigak1'].location.href = './addeosapps/navigateur.php';AnimateCss('wb_Image38', 'transform-3d-flip-in-x', 0, 1200);return false;"><img src="images/placeholder.gif" data-src="images/startpage.png" data-src-retina="images/startpage.png" id="Image38" alt=""></a>
 </div>
 </div>
 <div class="col-2">
@@ -2161,7 +2176,22 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 </div>
 <div class="col-3">
 <div id="wb_Image63" style="display:inline-block;width:90px;height:105px;z-index:34;">
-<a href="#" onclick="popupwnd('https://twitter.com/','no','no','no','yes','yes','no','40','40','1100','588');AnimateCss('wb_Image63', 'transform-3d-flip-in-x', 0, 1200);return false;"><img src="images/placeholder.gif" data-src="images/logotwitterpopup.png" data-src-retina="images/logotwitterpopup.png" id="Image63" alt=""></a>
+<script>
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("image", ev.target.id);
+}
+
+function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("image");
+    ev.target.appendChild(document.getElementById(data));
+}
+</script>
+<a href="#" onclick="popupwnd('https://twitter.com/','no','no','no','yes','yes','no','40','40','1100','588');AnimateCss('wb_Image63', 'transform-3d-flip-in-x', 0, 1200);return false;"><img src="images/placeholder.gif" data-src="images/logotwitterpopup.png" data-src-retina="images/logotwitterpopup.png" id="Image63" alt="" draggable="true" ondragstart="drag(event)"></a>
 </div>
 </div>
 <div class="col-4">
@@ -2188,7 +2218,7 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 <div id="LayoutGrid3">
 <div class="col-1">
 <div id="wb_Image34" style="display:inline-block;width:85px;height:99px;z-index:35;">
-<a href="#" onclick="$('#jQueryDialog13').dialog('open');AnimateCss('wb_Image34', 'transform-3d-flip-in-x', 0, 1200);return false;"><img src="images/placeholder.gif" data-src="images/22381-bubka-Mail.png" data-src-retina="images/22381-bubka-Mail.png" id="Image34" alt=""></a>
+<a href="#" onclick="$('#jQueryDialog13').dialog('open');self.frames['netc1'].location.href = './addeosapps/messagerienetc.php';AnimateCss('wb_Image34', 'transform-3d-flip-in-x', 0, 1200);return false;"><img src="images/placeholder.gif" data-src="images/22381-bubka-Mail.png" data-src-retina="images/22381-bubka-Mail.png" id="Image34" alt=""></a>
 </div>
 </div>
 <div class="col-2">
@@ -2223,21 +2253,21 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 <div id="wb_Image4" style="position:absolute;left:80px;top:9px;width:87px;height:86px;z-index:37;">
 <a href="#" onclick="$('#jQueryDialog27').dialog('open');return false;"><img src="images/img0007.png" id="Image4" alt=""></a></div>
 <div id="wb_FontAwesomeIcon17" style="position:absolute;left:177px;top:21px;width:51px;height:56px;text-align:center;z-index:38;">
-<a href="#" onclick="$('#jQueryDialog7').dialog('open');return false;"><div id="FontAwesomeIcon17"><i class="fa fa-thermometer-three-quarters">&nbsp;</i></div></a></div>
+<a href="#" onclick="$('#jQueryDialog7').dialog('open');self.frames['meteok1'].location.href = './addeosapps/meteo.php';return false;"><div id="FontAwesomeIcon17"><i class="fa fa-thermometer-three-quarters">&nbsp;</i></div></a></div>
 <div id="wb_Image10" style="position:absolute;left:248px;top:9px;width:86px;height:86px;z-index:39;">
-<a href="#" onclick="$('#jQueryDialog24').dialog('open');return false;"><img src="images/img0004.png" id="Image10" alt=""></a></div>
+<a href="#" onclick="$('#jQueryDialog24').dialog('open');self.frames['horint1'].location.href = './addeosapps/horlogeint.php';return false;"><img src="images/img0004.png" id="Image10" alt=""></a></div>
 <div id="wb_Image23" style="position:absolute;left:327px;top:9px;width:86px;height:86px;z-index:40;">
-<a href="#" onclick="$('#jQueryDialog23').dialog('open');return false;"><img src="images/img0025.png" id="Image23" alt=""></a></div>
+<a href="#" onclick="$('#jQueryDialog23').dialog('open');self.frames['deein1'].location.href = './addeosapps/deeint.php';return false;"><img src="images/img0025.png" id="Image23" alt=""></a></div>
 <div id="wb_Image18" style="position:absolute;left:166px;top:137px;width:88px;height:72px;z-index:41;">
-<a href="#" onclick="$('#jQueryDialog20').dialog('open');return false;"><img src="images/img0017.png" id="Image18" alt=""></a></div>
+<a href="#" onclick="$('#jQueryDialog20').dialog('open');self.frames['sncfk1'].location.href = './addeosapps/sncf.php';return false;"><img src="images/img0017.png" id="Image18" alt=""></a></div>
 <div id="wb_Image24" style="position:absolute;left:77px;top:131px;width:96px;height:85px;z-index:42;">
 <a href="#" onclick="$('#jQueryDialog41').dialog('open');return false;"><img src="images/pausecafe.png" id="Image24" alt=""></a></div>
 <div id="wb_Image22" style="position:absolute;left:2px;top:130px;width:86px;height:86px;z-index:43;">
-<a href="#" onclick="$('#jQueryDialog25').dialog('open');return false;"><img src="images/img0024.png" id="Image22" alt=""></a></div>
+<a href="#" onclick="$('#jQueryDialog25').dialog('open');self.frames['calce1'].location.href = './addeosapps/calceuro.php';return false;"><img src="images/img0024.png" id="Image22" alt=""></a></div>
 <div id="wb_Text54" style="position:absolute;left:93px;top:86px;width:55px;height:32px;text-align:center;z-index:44;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Docteur Flashy</span></div>
-<div id="wb_Text55" style="position:absolute;left:167px;top:90px;width:71px;height:14px;text-align:center;z-index:45;">
-<span style="color:#000000;font-family:Arial;font-size:11px;">Température</span></div>
+<div id="wb_Text55" style="position:absolute;left:167px;top:90px;width:71px;height:15px;text-align:center;z-index:45;">
+<span style="color:#000000;font-family:Arial;font-size:12px;">Météo</span></div>
 <div id="wb_Text56" style="position:absolute;left:257px;top:86px;width:59px;height:48px;text-align:center;z-index:46;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Horloge interactive</span></div>
 <div id="wb_Text57" style="position:absolute;left:340px;top:86px;width:55px;height:32px;text-align:center;z-index:47;">
@@ -2257,11 +2287,11 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 <div id="wb_Text63" style="position:absolute;left:514px;top:89px;width:55px;height:16px;text-align:center;z-index:54;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Ipiccy</span></div>
 <div id="wb_Image3" style="position:absolute;left:500px;top:7px;width:93px;height:88px;z-index:55;">
-<a href="#" onclick="$('#jQueryDialog56').dialog('open');return false;"><img src="images/ipiccy.png" id="Image3" alt=""></a></div>
+<a href="#" onclick="$('#jQueryDialog56').dialog('open');self.frames['ipcy1'].location.href = './addeosapps/ipiccy.php';return false;"><img src="images/ipiccy.png" id="Image3" alt=""></a></div>
 <div id="wb_Image5" style="position:absolute;left:327px;top:130px;width:86px;height:86px;z-index:56;">
-<a href="#" onclick="$('#jQueryDialog57').dialog('open');return false;"><img src="images/Korben.png" id="Image5" alt=""></a></div>
+<a href="#" onclick="$('#jQueryDialog57').dialog('open');self.frames['lebco1'].location.href = './addeosapps/leboncoin.php';return false;"><img src="images/Korben.png" id="Image5" alt=""></a></div>
 <div id="wb_Image6" style="position:absolute;left:416px;top:130px;width:86px;height:86px;z-index:57;">
-<a href="#" onclick="$('#jQueryDialog58').dialog('open');return false;"><img src="images/orange.png" id="Image6" alt=""></a></div>
+<a href="#" onclick="$('#jQueryDialog58').dialog('open');self.frames['oratv1'].location.href = './addeosapps/orangetv.php';return false;"><img src="images/orange.png" id="Image6" alt=""></a></div>
 <div id="wb_Text64" style="position:absolute;left:339px;top:209px;width:55px;height:32px;text-align:center;z-index:58;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Le Bon Coin</span></div>
 <div id="wb_Text65" style="position:absolute;left:429px;top:209px;width:55px;height:32px;text-align:center;z-index:59;">
@@ -2275,15 +2305,15 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 <div id="wb_Text88" style="position:absolute;left:429px;top:89px;width:58px;height:16px;text-align:center;z-index:63;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Wordpad</span></div>
 <div id="wb_Image32" style="position:absolute;left:415px;top:9px;width:87px;height:87px;z-index:64;">
-<a href="#" onclick="$('#jQueryDialog28').dialog('open');return false;"><img src="images/notepad.png" id="Image32" alt=""></a></div>
+<a href="#" onclick="$('#jQueryDialog28').dialog('open');self.frames['edtxta1'].location.href = './addeosapps/wordpad.php';return false;"><img src="images/notepad.png" id="Image32" alt=""></a></div>
 <div id="wb_Image12" style="position:absolute;left:2px;top:9px;width:87px;height:87px;z-index:65;">
-<a href="#" onclick="$('#jQueryDialog4').dialog('open');return false;"><img src="images/Calculatrice.png" id="Image12" alt=""></a></div>
+<a href="#" onclick="$('#jQueryDialog4').dialog('open');self.frames['calcm1'].location.href = './addeosapps/calc.php';return false;"><img src="images/Calculatrice.png" id="Image12" alt=""></a></div>
 <div id="wb_Image20" style="position:absolute;left:2px;top:263px;width:86px;height:86px;z-index:66;">
-<a href="#" onclick="$('#jQueryDialog61').dialog('open');return false;"><img src="images/steam.png" id="Image20" alt=""></a></div>
+<a href="#" onclick="$('#jQueryDialog61').dialog('open');self.frames['discouk1'].location.href = './addeosapps/cdiscount.php';return false;"><img src="images/steam.png" id="Image20" alt=""></a></div>
 <div id="wb_Image21" style="position:absolute;left:591px;top:10px;width:85px;height:86px;z-index:67;">
-<a href="#" onclick="$('#jQueryDialog60').dialog('open');return false;"><img src="images/twitch.png" id="Image21" alt=""></a></div>
+<a href="#" onclick="$('#jQueryDialog60').dialog('open');self.frames['zunet1'].location.href = './addeosapps/01net.php';return false;"><img src="images/twitch.png" id="Image21" alt=""></a></div>
 <div id="wb_MaterialIcon23" style="position:absolute;left:95px;top:275px;width:54px;height:56px;text-align:center;z-index:68;">
-<a href="#" onclick="$('#jQueryDialog40').dialog('open');return false;"><div id="MaterialIcon23"><i class="material-icons">&#xe84d;</i></div></a></div>
+<a href="#" onclick="$('#jQueryDialog40').dialog('open');self.frames['tridik1'].location.href = './addeosapps/tridiv3d.php';return false;"><div id="MaterialIcon23"><i class="material-icons">&#xe84d;</i></div></a></div>
 <div id="wb_Text58" style="position:absolute;left:95px;top:343px;width:55px;height:32px;text-align:center;z-index:69;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Tridiv 3D (CSS)</span></div>
 <div id="wb_FontAwesomeIcon16" style="position:absolute;left:177px;top:275px;width:61px;height:56px;text-align:center;z-index:70;">
@@ -2299,29 +2329,30 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 <div id="wb_Text99" style="position:absolute;left:340px;top:339px;width:55px;height:32px;text-align:center;z-index:75;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Envoi rapides</span></div>
 <div id="wb_Image45" style="position:absolute;left:427px;top:275px;width:59px;height:56px;z-index:76;">
-<a href="#" onclick="$('#jQueryDialog44').dialog('open');return false;"><img src="images/hitek_logo_HD2.png" id="Image45" alt=""></a></div>
+<a href="#" onclick="$('#jQueryDialog44').dialog('open');self.frames['hitekm1'].location.href = './addeosapps/hitek.php';return false;"><img src="images/hitek_logo_HD2.png" id="Image45" alt=""></a></div>
 <div id="wb_Text105" style="position:absolute;left:428px;top:343px;width:59px;height:14px;text-align:center;z-index:77;">
 <span style="color:#000000;font-family:Arial;font-size:11px;">HITEK</span></div>
 <div id="wb_Image53" style="position:absolute;left:601px;top:142px;width:59px;height:56px;z-index:78;">
-<a href="#" onclick="$('#jQueryDialog78').dialog('open');return false;"><img src="images/SNGappsm.png" id="Image53" alt=""></a></div>
+<a href="#" onclick="$('#jQueryDialog78').dialog('open');self.frames['stiknot1'].location.href = './addeosapps/sng.php';return false;"><img src="images/SNGappsm.png" id="Image53" alt=""></a></div>
 <div id="wb_Text73" style="position:absolute;left:600px;top:209px;width:63px;height:30px;text-align:center;z-index:79;">
 <span style="color:#000000;font-family:Arial;font-size:12px;">Notes Generator</span></div>
 <div id="wb_Image54" style="position:absolute;left:502px;top:144px;width:83px;height:59px;z-index:80;">
-<a href="#" onclick="$('#jQueryDialog87').dialog('open');return false;"><img src="images/liligoicone.png" id="Image54" alt=""></a></div>
+<a href="#" onclick="$('#jQueryDialog87').dialog('open');self.frames['lilig1'].location.href = './addeosapps/liligo.php';return false;"><img src="images/liligoicone.png" id="Image54" alt=""></a></div>
 <div id="wb_Text75" style="position:absolute;left:514px;top:209px;width:53px;height:16px;text-align:center;z-index:81;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Liligo</span></div>
 <div id="wb_Image55" style="position:absolute;left:514px;top:273px;width:63px;height:58px;z-index:82;">
-<a href="#" onclick="$('#jQueryDialog49').dialog('open');return false;"><img src="images/studiofitness.png" id="Image55" alt=""></a></div>
+<a href="#" onclick="$('#jQueryDialog49').dialog('open');self.frames['fitnesk1'].location.href = './addeosapps/fitness.php';return false;"><img src="images/studiofitness.png" id="Image55" alt=""></a></div>
 <div id="wb_Text45" style="position:absolute;left:516px;top:343px;width:59px;height:28px;text-align:center;z-index:83;">
 <span style="color:#000000;font-family:Arial;font-size:11px;">Studio Fitness</span></div>
 <div id="wb_Image60" style="position:absolute;left:601px;top:273px;width:58px;height:58px;z-index:84;">
-<a href="#" onclick="$('#jQueryDialog93').dialog('open');return false;"><img src="images/Stellarium-logo-300x300.png" id="Image60" alt=""></a></div>
+<a href="#" onclick="$('#jQueryDialog93').dialog('open');self.frames['stermk1'].location.href = './addeosapps/stellarium.php';return false;"><img src="images/Stellarium-logo-300x300.png" id="Image60" alt=""></a></div>
 <div id="wb_Text84" style="position:absolute;left:601px;top:343px;width:59px;height:14px;text-align:center;z-index:85;">
 <span style="color:#000000;font-family:Arial;font-size:11px;">Stellarium</span></div>
 </div>
 
 <div id="jQueryDialog4" style="z-index:657;" title="Calculatrice (system/program/calculatrice)">
-<object data="addeosapps/calc.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
+<a href="addeosapps/calc.php" target="calcm1"> Charger/Actualiser </a>
+<object name="calcm1" data="thread.txt" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog5" style="z-index:658;" title="Explorateur de fichiers - Votre espace personnel (50 Go maximum)">
@@ -2350,7 +2381,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 </div>
 
 <div id="jQueryDialog8" style="z-index:659;" title="Navigateur web StartPage (all&#233;g&#233;, sans onglet) [NON COMPATIBLE EN HTTPS]">
-<object data="addeosapps/navigateur.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
+<a href="addeosapps/navigateur.php" target="navigak1"> Charger/Actualiser </a>
+<object name="navigak1" data="thread.txt" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog14" style="z-index:660;" title="Editeur de texte (FullPro CK Series 2016)">
@@ -2367,15 +2399,18 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 </div>
 
 <div id="jQueryDialog23" style="z-index:662;" title="Jeu de Hasard (system/program/dee)">
-<object data="addeosapps/deeint.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
+<a href="addeosapps/deeint.php" target="deein1"> Charger/Actualiser </a>
+<object name="deein1" data="thread.txt" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog28" style="z-index:663;" title="WordPad - Editeur de texte avanc&#233;">
-<object data="addeosapps/wordpad.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
+<a href="addeosapps/wordpad.php" target="edtxta1"> Charger/Actualiser </a>
+<object name="edtxta1" data="thread.txt" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog7" style="z-index:664;" title="Informations sur votre location - M&#233;t&#233;o temps r&#233;el [NON COMPATIBLE EN HTTPS]">
-<object data="addeosapps/meteo.php" type="text/html" width="100%" height="100%" style="overflow:auto" ></object>
+<a href="addeosapps/meteo.php" target="meteok1"> Charger/Actualiser </a>
+<object name="meteok1" data="thread.txt" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 
@@ -2449,7 +2484,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 </div>
 
 <div id="jQueryDialog20" style="z-index:672;" title="D&#233;part RER SNCF par ville (system/program/sncfappli) [NON COMPATIBLE EN HTTPS]">
-<object data="addeosapps/sncf.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
+<a href="addeosapps/sncf.php" target="sncfk1"> Charger/Actualiser </a>
+<object name="sncfk1" data="thread.txt" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog16" style="z-index:673;" title="StreetView">
@@ -3591,17 +3627,18 @@ function myFunctionosx351001() {
 </div>
 
 <div id="jQueryDialog38" style="z-index:679;" title="Calendrier d&#233;taill&#233;">
-<iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
+<embed width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
    src="http://www.2017calendrier.fr/">
-</iframe><br />
 </div>
 
 <div id="jQueryDialog25" style="z-index:680;" title="Calculateur Euro (system/program/eurocalc)">
-<object data="addeosapps/calceuro.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
+<a href="addeosapps/calceuro.php" target="calce1"> Charger/Actualiser </a>
+<object name="calce1" data="thread.txt" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog24" style="z-index:681;" title="Horloge interactive (system/program/horloge)">
-<object data="addeosapps/horlogeint.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
+<a href="addeosapps/horlogeint.php" target="horint1"> Charger/Actualiser </a>
+<object name="horint1" data="thread.txt" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog34" style="z-index:682;" title="Affichage de votre adresse IP [Service non fonctionnel en HTTPS]">
@@ -3628,7 +3665,8 @@ echo $_SERVER["REMOTE_ADDR"];
 </div>
 
 <div id="jQueryDialog40" style="z-index:684;" title="Editeur 3D Tridiv CSS 3 [NON COMPATIBLE EN HTTPS]">
-<object data="addeosapps/tridiv3d.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
+<a href="addeosapps/tridiv3d.php" target="tridik1"> Charger/Actualiser </a>
+<object name="tridik1" data="thread.txt" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog35" style="z-index:685;" title="Supprimer votre compte">
@@ -3644,9 +3682,8 @@ echo $_SERVER["REMOTE_ADDR"];
 </div>
 
 <div id="jQueryDialog44" style="z-index:687;" title="HITEK - Les meilleurs actualit&#233;s des nouvelles technologies">
-<iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
-   src="http://hitek.fr/actualite">
-</iframe>
+<a href="addeosapps/hitek.php" target="hitekm1"> Charger/Actualiser </a>
+<object name="hitekm1" data="thread.txt" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog46" style="z-index:688;" title="Explorateur e-book PDF disponibles (commun)">
@@ -3654,7 +3691,8 @@ echo $_SERVER["REMOTE_ADDR"];
 </div>
 
 <div id="jQueryDialog47" style="z-index:689;" title="Biblioth&#232;que gratuite en ligne (e-book)">
-<object data="addeosapps/ebook.php" type="text/html" width="100%" height="100%" style="overflow:auto" ></object>
+<a href="addeosapps/ebook.php" target="eboom1"> Charger/Actualiser </a>
+<object name="eboom1" data="thread.txt" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog48" style="z-index:690;" title="Hebergeur d&#39;Images en ligne (serveur)">
@@ -3698,7 +3736,8 @@ function TimerStopTimer7()
 </script>
 
 <div id="jQueryDialog49" style="z-index:694;" title="Fitness (Studio) avec g&#233;olocalisation">
-<object data="addeosapps/fitness.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
+<a href="addeosapps/fitness.php" target="fitnesk1"> Charger/Actualiser </a>
+<object name="fitnesk1" data="thread.txt" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 
@@ -3805,31 +3844,38 @@ function TimerStopTimer1()
 </script>
 
 <div id="jQueryDialog51" style="z-index:706;" title="Forum Veler Software (d&#233;veloppement Rynna WebOS et divers projets)">
-<object data="http://forumvelersoftware.bbactif.com/t2085-rynna-webos-natif-projet-mini-webos-by-algostep-company" type="text/html" width="100%" height="100%" style="overflow:auto" ></object>
+<a href="addeosapps/szforum.php" target="szfor1"> Charger/Actualiser </a>
+<object name="szfor1" data="thread.txt" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog56" style="z-index:707;" title="Ipiccy - Retouches photos en ligne">
-<object data="addeosapps/ipiccy.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
+<a href="addeosapps/ipiccy.php" target="ipcy1"> Charger/Actualiser </a>
+<object name="ipcy1" data="thread.txt" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog57" style="z-index:708;" title="Le Bon Coin - Ventes et achats en ligne en France">
-<object data="addeosapps/leboncoin.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
+<a href="addeosapps/leboncoin.php" target="lebco1"> Charger/Actualiser </a>
+<object name="lebco1" data="thread.txt" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog58" style="z-index:709;" title="Orange TV - toutes vos chaines en ligne (stream)">
-<object data="addeosapps/orangetv.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
+<a href="addeosapps/orangetv.php" target="oratv1"> Charger/Actualiser </a>
+<object name="oratv1" data="thread.txt" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog59" style="z-index:710;" title="PrintFriendly - Votre page web au format PDF imprimable">
-<object data="addeosapps/webpdf.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
+<a href="addeosapps/webpdf1.php" target="wepdfk1"> Charger/Actualiser </a>
+<object name="wepdfk1" data="thread.txt" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog60" style="z-index:711;" title="01net - Blog, actualit&#233;s et logiciels informatiques et nouvelle technologie [NON COMPATIBLE EN HTTPS]">
-<object data="addeosapps/01net.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
+<a href="addeosapps/01net.php" target="zunet1"> Charger/Actualiser </a>
+<object name="zunet1" data="thread.txt" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog61" style="z-index:712;" title="CDiscount [NON COMPATIBLE EN HTTPS]">
-<object data="addeosapps/cdiscount.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
+<a href="addeosapps/cdiscount.php" target="discouk1"> Charger/Actualiser </a>
+<object name="discouk1" data="thread.txt" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog21" title="Oups !">
@@ -4030,7 +4076,9 @@ TimerStartTimer3();
 </div>
 
 <div id="jQueryDialog13" style="z-index:722;" title="Messagerie personelle Europ&#233;enne (Net Courriel)">
-<object data="addeosapps/messagerienetc.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
+<!--<object data="addeosapps/messagerienetc.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>-->
+<a href="addeosapps/messagerienetc.php" target="netc1"> Charger/Actualiser </a>
+<object name="netc1" data="thread.txt" type="text/html" width="100%" height="100%" style="overflow:auto" ></object>
 </div>
 
 
@@ -4062,11 +4110,13 @@ TimerStartTimer10();
 </div>
 
 <div id="jQueryDialog71" style="z-index:727;" title="Calendrier g&#233;n&#233;ral">
-<object data="addeosapps/agenda.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
+<a href="addeosapps/agenda.php" target="agenk1"> Charger/Actualiser </a>
+<object name="agenk1" data="thread.txt" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog72" style="z-index:728;" title="Devises">
-<object data="addeosapps/devise.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
+<a href="addeosapps/devise.php" target="devimk1"> Charger/Actualiser </a>
+<object name="devimk1" data="thread.txt" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog73" style="z-index:729;" title="Sauvegarde local de votre session">
@@ -4152,17 +4202,17 @@ TimerStartTimer40();
 <div id="wb_Image51" style="position:absolute;left:732px;top:30px;width:80px;height:80px;z-index:353;">
 <a href="#" onclick="$('#jQueryDialog76').dialog('open');return false;" onmouseenter="AnimateCss('wb_Image51', 'transform-wiggle', 0, 500);return false;"><img src="images/nowcoworking.png" id="Image51" alt=""></a></div>
 <div id="wb_Image46" style="position:absolute;left:508px;top:17px;width:110px;height:110px;z-index:354;">
-<a href="#" onclick="$('#jQueryDialog68').dialog('open');return false;" onmouseenter="AnimateCss('wb_Image46', 'transform-wiggle', 0, 500);return false;"><img src="images/OCR.png" id="Image46" alt=""></a></div>
+<a href="#" onclick="$('#jQueryDialog68').dialog('open');self.frames['opcro1'].location.href = './addeosapps/ocr.php';return false;" onmouseenter="AnimateCss('wb_Image46', 'transform-wiggle', 0, 500);return false;"><img src="images/OCR.png" id="Image46" alt=""></a></div>
 <div id="wb_Image47" style="position:absolute;left:386px;top:17px;width:110px;height:110px;z-index:355;">
-<a href="#" onclick="$('#jQueryDialog55').dialog('open');return false;" onmouseenter="AnimateCss('wb_Image47', 'transform-wiggle', 0, 500);return false;"><img src="images/sz.png" id="Image47" alt=""></a></div>
+<a href="#" onclick="$('#jQueryDialog55').dialog('open');self.frames['szfor1'].location.href = './addeosapps/szforum.php';return false;" onmouseenter="AnimateCss('wb_Image47', 'transform-wiggle', 0, 500);return false;"><img src="images/sz.png" id="Image47" alt=""></a></div>
 <div id="wb_Image48" style="position:absolute;left:272px;top:17px;width:110px;height:110px;z-index:356;">
-<a href="#" onclick="$('#jQueryDialog31').dialog('open');return false;" onmouseenter="AnimateCss('wb_Image48', 'transform-wiggle', 0, 500);return false;"><img src="images/lemonde.png" id="Image48" alt=""></a></div>
+<a href="#" onclick="$('#jQueryDialog31').dialog('open');self.frames['lemodk1'].location.href = './addeosapps/lemonde.php';return false;" onmouseenter="AnimateCss('wb_Image48', 'transform-wiggle', 0, 500);return false;"><img src="images/lemonde.png" id="Image48" alt=""></a></div>
 <div id="wb_Image49" style="position:absolute;left:153px;top:17px;width:110px;height:110px;z-index:357;">
-<a href="#" onclick="$('#jQueryDialog9').dialog('open');return false;" onmouseenter="AnimateCss('wb_Image49', 'transform-wiggle', 0, 500);return false;"><img src="images/wikipedia.png" id="Image49" alt=""></a></div>
+<a href="#" onclick="$('#jQueryDialog9').dialog('open');self.frames['wikipk1'].location.href = './addeosapps/wikipedia.php';return false;" onmouseenter="AnimateCss('wb_Image49', 'transform-wiggle', 0, 500);return false;"><img src="images/wikipedia.png" id="Image49" alt=""></a></div>
 <div id="wb_Image50" style="position:absolute;left:626px;top:30px;width:80px;height:80px;z-index:358;">
-<a href="#" onclick="$('#jQueryDialog75').dialog('open');return false;" onmouseenter="AnimateCss('wb_Image50', 'transform-wiggle', 0, 500);return false;"><img src="images/dessinscreen.png" id="Image50" alt=""></a></div>
+<a href="#" onclick="$('#jQueryDialog75').dialog('open');self.frames['paisuk1'].location.href = './addeosapps/paint.php';return false;" onmouseenter="AnimateCss('wb_Image50', 'transform-wiggle', 0, 500);return false;"><img src="images/dessinscreen.png" id="Image50" alt=""></a></div>
 <div id="wb_Image52" style="position:absolute;left:838px;top:30px;width:80px;height:80px;z-index:359;">
-<a href="#" onclick="$('#jQueryDialog62').dialog('open');return false;" onmouseenter="AnimateCss('wb_Image52', 'transform-wiggle', 0, 500);return false;"><img src="images/fargo.png" id="Image52" alt=""></a></div>
+<a href="#" onclick="$('#jQueryDialog62').dialog('open');self.frames['fargk1'].location.href = './addeosapps/fargo.php';return false;" onmouseenter="AnimateCss('wb_Image52', 'transform-wiggle', 0, 500);return false;"><img src="images/fargo.png" id="Image52" alt=""></a></div>
 </div>
 <script>
 var wb_Timer41;
@@ -4182,11 +4232,13 @@ TimerStartTimer41();
 </script>
 
 <div id="jQueryDialog9" style="z-index:736;" title="Wikip&#233;dia">
-<object data="addeosapps/wikipedia.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
+<a href="addeosapps/wikipedia.php" target="wikipk1"> Charger/Actualiser </a>
+<object name="wikipk1" data="thread.txt" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog31" style="z-index:737;" title="Le Monde - Actualit&#233;s de France">
-<object data="addeosapps/lemonde.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
+<a href="addeosapps/lemonde.php" target="lemodk1"> Charger/Actualiser </a>
+<object name="lemodk1" data="thread.txt" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog55" style="z-index:738;" title="Forum Etienne BAUDOUX - Forum li&#233; au projet Rynna WebOS">
@@ -4194,11 +4246,13 @@ TimerStartTimer41();
 </div>
 
 <div id="jQueryDialog68" style="z-index:739;" title="OpenClassRoom - Tutoriels et cours en ligne">
-<object data="addeosapps/ocr.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
+<a href="addeosapps/ocr.php" target="opcro1"> Charger/Actualiser </a>
+<object name="opcro1" data="thread.txt" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog75" style="z-index:740;" title="SUMO PAINT - Dessin (demonstration gratuite)">
-<object data="addeosapps/paint.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
+<a href="addeosapps/paint.php" target="paisuk1"> Charger/Actualiser </a>
+<object name="paisuk1" data="thread.txt" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog76" style="z-index:741;" title="Now-Coworking - Espace Coworking pour votre Entreprise">
@@ -4206,7 +4260,8 @@ TimerStartTimer41();
 </div>
 
 <div id="jQueryDialog62" style="z-index:742;" title="Notes dropbox - FARGO (gratuit)">
-<object data="addeosapps/fargo.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
+<a href="addeosapps/fargo.php" target="fargk1"> Charger/Actualiser </a>
+<object name="fargk1" data="thread.txt" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="Layer24" style="position:fixed;text-align:left;left:0;top:0;right:0;bottom:0;z-index:743;">
@@ -4413,7 +4468,8 @@ TimerStartTimer47();
 </div>
 
 <div id="jQueryDialog78" style="z-index:751;" title="Sticky-Notes Generator (WebesTools)">
-<object data="addeosapps/sng.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
+<a href="addeosapps/sng.php" target="stiknot1"> Charger/Actualiser </a>
+<object name="stiknot1" data="thread.txt" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog79" style="z-index:752;" title="[MACOSX-VIRTUALISATION]">
@@ -4483,7 +4539,8 @@ TimerStartTimer47();
 </div>
 
 <div id="jQueryDialog87" style="z-index:760;" title="Liligo - Voyages Hotel, Voitures, S&#233;jours [NON COMPATIBLE EN HTTPS]">
-<object data="addeosapps/liligo.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
+<a href="addeosapps/liligo.php" target="lilig1"> Charger/Actualiser </a>
+<object name="lilig1" data="thread.txt" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <script>
@@ -4528,7 +4585,7 @@ TimerStartTimer49();
    src="http://rynnawebos.fr/login/maj.php">
 </iframe></div>
 <div id="wb_Text43" style="position:absolute;left:14px;top:68px;width:848px;height:24px;text-align:center;z-index:498;">
-<span style="color:#FF6347;font-family:Arial;font-size:21px;"><strong>36.0</strong></span></div>
+<span style="color:#FF6347;font-family:Arial;font-size:21px;"><strong>37.0</strong></span></div>
 <div id="wb_Text42" style="position:absolute;left:14px;top:120px;width:460px;height:16px;z-index:499;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">La dernière version disponible (code source) est la suivante&nbsp;:</span></div>
 <div id="wb_Text46" style="position:absolute;left:14px;top:18px;width:460px;height:16px;z-index:500;">
@@ -4540,7 +4597,7 @@ TimerStartTimer49();
 
 <div id="jQueryDialog42" style="z-index:764;" title="[WIDGET] Biblioth&#232;que">
 <input type="button" id="Button48" onclick="$('#jQueryDialog46').dialog('open');return false;" name="" value="Ouvrir la Bibliothèque locale" style="position:absolute;left:28px;top:22px;width:215px;height:25px;z-index:503;">
-<input type="button" id="Button49" onclick="$('#jQueryDialog47').dialog('open');return false;" name="" value="Télécharger de nouveau e-book" style="position:absolute;left:28px;top:60px;width:215px;height:25px;z-index:504;">
+<input type="button" id="Button49" onclick="$('#jQueryDialog47').dialog('open');self.frames['eboom1'].location.href = './addeosapps/ebook.php';return false;" name="" value="Télécharger de nouveau e-book" style="position:absolute;left:28px;top:60px;width:215px;height:25px;z-index:504;">
 <div id="wb_Image57" style="position:absolute;left:76px;top:97px;width:125px;height:93px;z-index:505;">
 <img src="images/bibliotheque.gif" id="Image57" alt=""></div>
 </div>
@@ -4626,7 +4683,8 @@ TimerStartTimer55();
 </div>
 
 <div id="jQueryDialog90" style="z-index:772;" title="Cloud gratuit (15Go) - 4Sync">
-<object data="addeosapps/4sync.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
+<a href="addeosapps/4sync.php" target="syncc1"> Charger/Actualiser </a>
+<object name="syncc1" data="thread.txt" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog91" style="z-index:773;" title="[WIDGET] Multi-session">
@@ -4688,7 +4746,8 @@ other_ext=WEB
 
 
 <div id="jQueryDialog93" style="z-index:785;" title="Stellarium - Ciel r&#233;aliste en 3D">
-<object data="addeosapps/stellarium.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
+<a href="addeosapps/stellarium.php" target="stermk1"> Charger/Actualiser </a>
+<object name="stermk1" data="thread.txt" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <script>
@@ -4831,8 +4890,8 @@ else
 <div id="wb_Text25" style="position:absolute;left:92px;top:288px;width:212px;height:14px;z-index:529;cursor: pointer;" onclick="$('#jQueryDialog32').dialog('close');$('#jQueryDialog33').dialog('close');$('#jQueryDialog34').dialog('close');$('#jQueryDialog35').dialog('close');$('#jQueryDialog36').dialog('close');$('#jQueryDialog37').dialog('close');$('#jQueryDialog38').dialog('close');$('#jQueryDialog39').dialog('close');ShowObject('Layer5', 0);$('#jQueryDialog11').dialog('open');return false;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:11px;">Paramètres et Aides</span></div>
 <div id="wb_FontAwesomeIcon14" style="position:absolute;left:36px;top:322px;width:45px;height:39px;text-align:center;z-index:530;">
-<a href="#" onclick="$('#jQueryDialog8').dialog('open');ShowObject('Layer5', 0);return false;"><div id="FontAwesomeIcon14"><i class="fa fa-at">&nbsp;</i></div></a></div>
-<div id="wb_Text24" style="position:absolute;left:92px;top:336px;width:212px;height:14px;z-index:531;cursor: pointer;" onclick="$('#jQueryDialog8').dialog('open');ShowObject('Layer5', 0);return false;">
+<a href="#" onclick="$('#jQueryDialog8').dialog('open');self.frames['navigak1'].location.href = './addeosapps/navigateur.php';ShowObject('Layer5', 0);return false;"><div id="FontAwesomeIcon14"><i class="fa fa-at">&nbsp;</i></div></a></div>
+<div id="wb_Text24" style="position:absolute;left:92px;top:336px;width:212px;height:14px;z-index:531;cursor: pointer;" onclick="$('#jQueryDialog8').dialog('open');self.frames['navigak1'].location.href = './addeosapps/navigateur.php';ShowObject('Layer5', 0);return false;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:11px;">Navigateur internet</span></div>
 <div id="wb_MaterialIcon26" style="position:absolute;left:26px;top:442px;width:41px;height:34px;text-align:center;z-index:532;">
 <a href="#" onclick="ShowObject('Layer5', 0);$('#jQueryDialog18').dialog('open');return false;"><div id="MaterialIcon26"><i class="material-icons">&#xe1b2;</i></div></a></div>
@@ -4909,13 +4968,13 @@ else
 <div id="wb_FontAwesomeIcon21" style="position:absolute;left:19px;top:16px;width:57px;height:43px;text-align:center;z-index:552;">
 <a href="#" onclick="$('#jQueryDialog70').dialog('open');return false;"><div id="FontAwesomeIcon21"><i class="fa fa-camera">&nbsp;</i></div></a></div>
 <div id="wb_FontAwesomeIcon22" style="position:absolute;left:19px;top:73px;width:57px;height:54px;text-align:center;z-index:553;">
-<a href="#" onclick="$('#jQueryDialog72').dialog('open');return false;"><div id="FontAwesomeIcon22"><i class="fa fa-euro">&nbsp;</i></div></a></div>
+<a href="#" onclick="$('#jQueryDialog72').dialog('open');self.frames['devimk1'].location.href = './addeosapps/devise.php';return false;"><div id="FontAwesomeIcon22"><i class="fa fa-euro">&nbsp;</i></div></a></div>
 <div id="wb_FontAwesomeIcon24" style="position:absolute;left:21px;top:204px;width:55px;height:53px;text-align:center;z-index:554;">
 <a href="#" onclick="$('#jQueryDialog3').dialog('close');$('#jQueryDialog5').dialog('close');$('#jQueryDialog11').dialog('close');ShowObject('Layer7', 1);return false;"><div id="FontAwesomeIcon24"><i class="fa fa-codepen">&nbsp;</i></div></a></div>
 <div id="wb_FontAwesomeIcon25" style="position:absolute;left:19px;top:273px;width:57px;height:55px;text-align:center;z-index:555;">
 <a href="#" onclick="$('#jQueryDialog73').dialog('open');return false;"><div id="FontAwesomeIcon25"><i class="fa fa-save">&nbsp;</i></div></a></div>
 <div id="wb_FontAwesomeIcon23" style="position:absolute;left:19px;top:136px;width:57px;height:50px;text-align:center;z-index:556;">
-<a href="#" onclick="$('#jQueryDialog71').dialog('open');return false;"><div id="FontAwesomeIcon23"><i class="fa fa-calendar">&nbsp;</i></div></a></div>
+<a href="#" onclick="$('#jQueryDialog71').dialog('open');self.frames['agenk1'].location.href = './addeosapps/agenda.php';return false;"><div id="FontAwesomeIcon23"><i class="fa fa-calendar">&nbsp;</i></div></a></div>
 <div id="wb_FontAwesomeIcon30" style="position:absolute;left:19px;top:341px;width:57px;height:55px;text-align:center;z-index:557;">
 <a href="#" onclick="$('#jQueryDialog99').dialog('open');TimerStartTimer23();return false;"><div id="FontAwesomeIcon30"><i class="fa fa-gg">&nbsp;</i></div></a></div>
 </div>
