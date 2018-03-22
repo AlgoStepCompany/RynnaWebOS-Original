@@ -1890,6 +1890,14 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 <span style="color:#000000;font-family:Arial;font-size:13px;">Ci-dessous retrouvez les dernières mises à jour de votre WebOS. Seul les 6 dernières mises à jours sont indiqués&nbsp;:</span></div>
 <div id="Blog1" style="overflow-y:scroll;position:absolute;left:18px;top:152px;width:689px;height:171px;z-index:3;">
 <div class="blogitem">
+   <span class="blogsubject">Version 37.1</span>
+   <div class="no-thumb"></div>
+   <div class="blogdate">22/03/18<br></div>
+   <span style="color:#000000;">- Ajout d'une interface d'information sur la compatibilité des navigateurs internet pour l'utilisation du WebOS</span><br>
+   <div class="blogcomments"></div>
+</div>
+<div class="clearfix visible-col1"></div>
+<div class="blogitem">
    <span class="blogsubject">Version 37.0</span>
    <div class="no-thumb"></div>
    <div class="blogdate">21/03/18<br></div>
@@ -1934,16 +1942,6 @@ Cela permet une économie de données de plus de 80% au démarrage de la session
    <div class="blogdate">09/03/18<br></div>
    <span style="color:#000000;">- Amélioration de l'appel des fenêtres des icones bureautiques en mode Pop-Up ainsi qu'un agrandissement des fenêtres Pop-Up de 10%<br>
 - Stabilisation et ajustement de certaines fonctions avancées du WebOS</span><br>
-   <div class="blogcomments"></div>
-</div>
-<div class="clearfix visible-col1"></div>
-<div class="blogitem">
-   <span class="blogsubject">Version 33.9b</span>
-   <div class="no-thumb"></div>
-   <div class="blogdate">09/03/18<br></div>
-   <span style="color:#000000;">- Correctif du Menu Widget<br>
-- Correctif JS Twitter (icone)<br>
-- Stabilisation JQuery</span><br>
    <div class="blogcomments"></div>
 </div>
 <div class="clearfix visible-col1"></div>
@@ -4559,7 +4557,7 @@ TimerStartTimer49();
    src="http://rynnawebos.fr/login/maj.php">
 </iframe></div>
 <div id="wb_Text43" style="position:absolute;left:14px;top:68px;width:848px;height:24px;text-align:center;z-index:498;">
-<span style="color:#FF6347;font-family:Arial;font-size:21px;"><strong>37.0</strong></span></div>
+<span style="color:#FF6347;font-family:Arial;font-size:21px;"><strong>37.1</strong></span></div>
 <div id="wb_Text42" style="position:absolute;left:14px;top:120px;width:460px;height:16px;z-index:499;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">La dernière version disponible (code source) est la suivante&nbsp;:</span></div>
 <div id="wb_Text46" style="position:absolute;left:14px;top:18px;width:460px;height:16px;z-index:500;">

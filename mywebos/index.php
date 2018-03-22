@@ -140,6 +140,147 @@ $(document).ready(function()
    };
    $("#jQueryDialog3").dialog(jQueryDialog3Options);
    $("#Layer4").stickylayer({orientation: 5, position: [0, 0], delay: 0});
+   var jQueryDialog2Options =
+   {
+      width: 831,
+      height: 573,
+      position: { my: 'center', at: 'center', of: window },
+      resizable: false,
+      draggable: true,
+      closeOnEscape: true,
+      show: 'fade',
+      hide: 'fade',
+      autoOpen: false,
+      classes: { 'ui-dialog': 'jQueryDialog2'} 
+   };
+   $("#jQueryDialog2").dialog(jQueryDialog2Options);
+   var jQueryProgressbar1Options =
+   {
+      value: 100
+   };
+   $("#jQueryProgressbar1").progressbar(jQueryProgressbar1Options);
+   var jQueryProgressbar2Options =
+   {
+      value: 95
+   };
+   $("#jQueryProgressbar2").progressbar(jQueryProgressbar2Options);
+   var jQueryProgressbar3Options =
+   {
+      value: 30
+   };
+   $("#jQueryProgressbar3").progressbar(jQueryProgressbar3Options);
+   var jQueryProgressbar4Options =
+   {
+      value: false
+   };
+   $("#jQueryProgressbar4").progressbar(jQueryProgressbar4Options);
+   var jQueryProgressbar5Options =
+   {
+      value: 90
+   };
+   $("#jQueryProgressbar5").progressbar(jQueryProgressbar5Options);
+   var jQueryProgressbar6Options =
+   {
+      value: 100
+   };
+   $("#jQueryProgressbar6").progressbar(jQueryProgressbar6Options);
+   var jQueryProgressbar7Options =
+   {
+      value: 60
+   };
+   $("#jQueryProgressbar7").progressbar(jQueryProgressbar7Options);
+   var jQueryProgressbar8Options =
+   {
+      value: 0
+   };
+   $("#jQueryProgressbar8").progressbar(jQueryProgressbar8Options);
+   var jQueryToolTip1Options =
+   {
+      hide: false,
+      show: false,
+      content: "<span style=\"color:#000000;font-family:'MS Shell Dlg';font-size:16px;\"><strong>Mozilla Firefox :</strong><br>- Compatible avec Flash, Javascript et Jquery<br>- Fonctions JS d'appels fonctionnels<br>- Fluide et stable</span>",
+      items: '#jQueryProgressbar1',
+      position: { my: "right bottom", at: "left top", collision: "flipfit" },
+      classes: { 'ui-tooltip' : 'jQueryToolTip1' }
+   };
+   $("#jQueryProgressbar1").tooltip(jQueryToolTip1Options);
+   var jQueryToolTip2Options =
+   {
+      hide: true,
+      show: true,
+      content: "<span style=\"color:#000000;font-family:'MS Shell Dlg';font-size:16px;\"><strong>Google Chrome :</strong><br>- Compatible avec Flash, Javascript et Jquery<br>- Fonctions JS d'appels NON fonctionnels<br>- Fluide et stable</span>",
+      items: '#jQueryProgressbar2',
+      position: { my: "right bottom", at: "left top", collision: "flipfit" },
+      classes: { 'ui-tooltip' : 'jQueryToolTip2' }
+   };
+   $("#jQueryProgressbar2").tooltip(jQueryToolTip2Options);
+   var jQueryToolTip3Options =
+   {
+      hide: true,
+      show: true,
+      content: "<span style=\"color:#000000;font-family:'MS Shell Dlg';font-size:16px;\"><strong>Internet Explorer :</strong><br>- Compatible avec Javascript et Jquery mais bug avec Flash<br>- Fonctions JS d'appels NON fonctionnels<br>- Assez stable mais fluidité très mauvaise</span>",
+      items: '#jQueryProgressbar3',
+      position: { my: "right bottom", at: "left top", collision: "flipfit" },
+      classes: { 'ui-tooltip' : 'jQueryToolTip3' }
+   };
+   $("#jQueryProgressbar3").tooltip(jQueryToolTip3Options);
+   var jQueryToolTip4Options =
+   {
+      hide: true,
+      show: true,
+      content: "<span style=\"color:#000000;font-family:'MS Shell Dlg';font-size:16px;\"><strong>Microsoft Edge :</strong><br></span><span style=\"color:#FF0000;font-family:'MS Shell Dlg';font-size:16px;\">NON TESTE POUR L'INSTANT</span>",
+      items: '#jQueryProgressbar4',
+      position: { my: "right bottom", at: "left top", collision: "flipfit" },
+      classes: { 'ui-tooltip' : 'jQueryToolTip4' }
+   };
+   $("#jQueryProgressbar4").tooltip(jQueryToolTip4Options);
+   var jQueryToolTip5Options =
+   {
+      hide: true,
+      show: true,
+      content: "<span style=\"color:#000000;font-family:'MS Shell Dlg';font-size:16px;\"><strong>Maxthon 5 :</strong><br>- Compatible avec Flash, Javascript et Jquery<br>- Fonctions JS d'appels fonctionnels<br>- Stable et assez fluide (léger accoups possible)</span>",
+      items: '#jQueryProgressbar5',
+      position: { my: "right bottom", at: "left top", collision: "flipfit" },
+      classes: { 'ui-tooltip' : 'jQueryToolTip5' }
+   };
+   $("#jQueryProgressbar5").tooltip(jQueryToolTip5Options);
+   var jQueryToolTip6Options =
+   {
+      hide: true,
+      show: true,
+      content: "<span style=\"color:#000000;font-family:'MS Shell Dlg';font-size:16px;\"><strong>Néon :</strong><br>- Compatible avec Flash, Javascript et Jquery<br>- Fonctions JS d'appels fonctionnels<br>- Fluide et stable</span>",
+      items: '#jQueryProgressbar6',
+      position: { my: "right bottom", at: "left top", collision: "flipfit" },
+      classes: { 'ui-tooltip' : 'jQueryToolTip6' }
+   };
+   $("#jQueryProgressbar6").tooltip(jQueryToolTip6Options);
+   var jQueryToolTip7Options =
+   {
+      hide: true,
+      show: true,
+      content: "<span style=\"color:#000000;font-family:'MS Shell Dlg';font-size:16px;\"><strong>Opéra :</strong><br>- Compatible avec Flash, Javascript et Jquery<br>- Fonctions JS d'appels NON fonctionnels<br>- Stable mais fluidité moyenne</span>",
+      items: '#jQueryProgressbar7',
+      position: { my: "right bottom", at: "left top", collision: "flipfit" },
+      classes: { 'ui-tooltip' : 'jQueryToolTip7' }
+   };
+   $("#jQueryProgressbar7").tooltip(jQueryToolTip7Options);
+   var jQueryToolTip8Options =
+   {
+      hide: true,
+      show: true,
+      content: "<span style=\"color:#000000;font-family:'MS Shell Dlg';font-size:16px;\"><strong>Safari :</strong><br></span><span style=\"color:#FF0000;font-family:'MS Shell Dlg';font-size:16px;\"><em>Non Compatible généralement avec le WebOS</em></span><span style=\"color:#000000;font-family:'MS Shell Dlg';font-size:16px;\"><br>- Assez fluide mais très instable, provoquant divers Crash du navigateur</span>",
+      items: '#jQueryProgressbar8',
+      position: { my: "right bottom", at: "left top", collision: "flipfit" },
+      classes: { 'ui-tooltip' : 'jQueryToolTip8' }
+   };
+   $("#jQueryProgressbar8").tooltip(jQueryToolTip8Options);
+   var jQueryTabs1Options =
+   {
+      show: false,
+      event: 'click',
+      collapsible: false
+   };
+   $("#jQueryTabs1").tabs(jQueryTabs1Options);
 });
 </script>
 </head>
@@ -167,7 +308,7 @@ $(document).ready(function()
 <a href="javascript:popupwnd('https://www.1and1.fr/hebergement-windows','yes','yes','yes','yes','yes','yes','5','5','1024','768')" target="_self"><img src="images/1and1.png" id="Image1" alt=""></a></div>
 </div>
 
-<div id="jQueryDialog5" style="z-index:38;" title="Informations Kernel">
+<div id="jQueryDialog5" style="z-index:63;" title="Informations Kernel">
 <div id="wb_FontAwesomeIcon1" style="position:absolute;left:9px;top:8px;width:113px;height:116px;text-align:center;z-index:10;">
 <div id="FontAwesomeIcon1"><i class="fa fa-server">&nbsp;</i></div></div>
 <div id="wb_Text1" style="position:absolute;left:139px;top:16px;width:478px;height:176px;text-align:justify;z-index:11;">
@@ -175,7 +316,7 @@ $(document).ready(function()
 <input type="submit" id="Button2" onclick="window.location.href='https://github.com/AlgoStepCompany';return false;" name="" value="Se rendre sur Github pour découvrir et télécharger le code source du WebOS" style="position:absolute;left:28px;top:210px;width:616px;height:43px;z-index:12;">
 </div>
 
-<div id="jQueryDialog6" style="z-index:39;" title="Bugs signal&#233;s">
+<div id="jQueryDialog6" style="z-index:64;" title="Bugs signal&#233;s">
 <div id="Blog1" style="overflow:auto;position:absolute;left:30px;top:23px;width:598px;height:173px;z-index:13;">
 <div class="blogitem">
    <span class="blogsubject">Problème SSL sur iframes</span>
@@ -188,7 +329,7 @@ $(document).ready(function()
 </div>
 </div>
 
-<div id="Layer2" style="position:fixed;text-align:left;left:0;top:0;right:0;bottom:0;z-index:40;">
+<div id="Layer2" style="position:fixed;text-align:left;left:0;top:0;right:0;bottom:0;z-index:65;">
 <div id="Layer3" style="position:absolute;text-align:center;left:158px;top:143px;width:627px;height:292px;z-index:20;">
 <div id="Layer3_Container" style="width:623px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="wb_Login1" style="position:absolute;left:149px;top:43px;width:448px;height:151px;text-align:right;z-index:14;">
@@ -224,7 +365,7 @@ $(document).ready(function()
 </div>
 </div>
 <div id="wb_Text10" style="position:absolute;left:13px;top:16px;width:250px;height:59px;z-index:21;">
-<span style="color:#000000;font-family:Arial;font-size:13px;"><em>Version 37.0 (Release)<br>Desktop Virtual Manager (DVM)<br></em></span><span style="color:#000000;font-family:Arial;font-size:9.3px;"><em>PHP 7, CSS 3, JQuery 3.3.1<br></em></span><span style="color:#0000CD;font-family:Arial;font-size:12px;"><strong><em>VEGASIS</em></strong></span></div>
+<span style="color:#000000;font-family:Arial;font-size:13px;"><em>Version 37.1 (Release)<br>Desktop Virtual Manager (DVM)<br></em></span><span style="color:#000000;font-family:Arial;font-size:9.3px;"><em>PHP 7, CSS 3, JQuery 3.3.1<br></em></span><span style="color:#0000CD;font-family:Arial;font-size:12px;"><strong><em>VEGASIS</em></strong></span></div>
 <div id="Layer1" style="position:absolute;text-align:center;left:277px;top:564px;width:393px;height:83px;z-index:22;">
 <div id="Layer1_Container" style="width:393px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 </div>
@@ -243,18 +384,22 @@ $(document).ready(function()
 </div>
 <div id="wb_Image2" style="position:absolute;left:592px;top:52px;width:379px;height:515px;z-index:26;">
 <a href="#" onmouseenter="TimerStartTimer3();return false;"><img src="images/aigle_017.gif" id="Image2" alt=""></a></div>
+<div id="Layer8" style="position:fixed;text-align:center;left:auto;right:20px;top:auto;bottom:20px;width:76px;height:57px;z-index:27;cursor: pointer;" onclick="$('#jQueryDialog2').dialog('open');return false;">
+<div id="Layer8_Container" style="width:76px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 </div>
-<div id="jQueryDialog3" style="z-index:41;" title="Informations sur les Cookies g&#233;n&#233;rals et leurs utilisations dans le WebOS">
-<div id="wb_Text5" style="position:absolute;left:14px;top:17px;width:650px;height:400px;text-align:justify;z-index:33;">
+</div>
+</div>
+<div id="jQueryDialog3" style="z-index:66;" title="Informations sur les Cookies g&#233;n&#233;rals et leurs utilisations dans le WebOS">
+<div id="wb_Text5" style="position:absolute;left:14px;top:17px;width:650px;height:400px;text-align:justify;z-index:34;">
 <span style="color:#000000;font-family:Arial;font-size:13px;"><strong><u>Cookies information</u></strong><br><br>Les cookies sont de petits fichiers texte qui sont placés sur votre ordinateur par les sites web que vous visitez. Ils sont largement utilisés afin de permettre le fonctionnement des sites ou de rendre leur fonctionnement plus efficace, et de fournir des informations à leur propriétaire. L'utilisation de cookies est aujourd’hui la norme pour la plupart des sites. Vous pouvez gérer et contrôler les cookies en utilisant votre navigateur. Vous pouvez également les supprimer dans votre navigateur lorsque vous quittez le site.<br>Gestion des cookies<br><br>Pour la gestion des Cookies et de vos choix, la configuration de chaque navigateur est différente. Elle est décrite dans le menu d'aide de votre navigateur, qui vous permettra de savoir de quelle manière modifier vos souhaits en matière de Cookies.<br><br><strong><em>Types de cookies:<br></em></strong><br>&nbsp;&nbsp;&nbsp; - «&nbsp;Cookies de Session&nbsp;» restent stockés dans votre navigateur seulement durant votre session de navigation c'est à dire jusqu'à ce que vous quittiez le site.<br>&nbsp;&nbsp;&nbsp; - «&nbsp;Cookies Persistants&nbsp;» restent dans votre navigateur après la session (sauf si vous les avez supprimés).<br>&nbsp;&nbsp;&nbsp; - «&nbsp;Cookies de Performance&nbsp;» collectent des informations sur votre utilisation du site, comme les pages web visitées et les messages d'erreur, ils ne recueillent pas de renseignements concernant des personnes identifiées, et les informations collectées sont agrégées de sorte qu’elles sont rendues anonymes. Les cookies de performance sont utilisés pour améliorer la façon dont fonctionne un site web.<br>&nbsp;&nbsp;&nbsp; - «&nbsp;Cookies de Fonctionnalité&nbsp;» permettent au site de se rappeler les choix que vous faites sur le site web (tels que des modifications de la taille du texte, des pages personnalisées) ou activer des services tels que des commentaires sur un blog.</span></div>
-<input type="button" id="Button7" onclick="$('#jQueryDialog3').dialog('close');return false;" name="" value="Compris" style="position:absolute;left:229px;top:449px;width:235px;height:25px;z-index:34;">
+<input type="button" id="Button7" onclick="$('#jQueryDialog3').dialog('close');return false;" name="" value="Compris" style="position:absolute;left:229px;top:449px;width:235px;height:25px;z-index:35;">
 </div>
 
-<div id="Layer7" style="position:fixed;text-align:center;left:0;top:0;right:0;bottom:0;z-index:42;">
+<div id="Layer7" style="position:fixed;text-align:center;left:0;top:0;right:0;bottom:0;z-index:67;">
 <div id="Layer7_Container" style="width:2996px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
-<div id="wb_FontAwesomeIcon6" style="position:absolute;left:25px;top:23px;width:120px;height:96px;text-align:center;z-index:35;">
+<div id="wb_FontAwesomeIcon6" style="position:absolute;left:25px;top:23px;width:120px;height:96px;text-align:center;z-index:36;">
 <div id="FontAwesomeIcon6"><i class="fa fa-exclamation-triangle">&nbsp;</i></div></div>
-<div id="wb_Text9" style="position:absolute;left:177px;top:23px;width:505px;height:414px;z-index:36;">
+<div id="wb_Text9" style="position:absolute;left:177px;top:23px;width:505px;height:414px;z-index:37;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>OUPS&nbsp;!<br><br>Il semblerais que le WebOS ne soit pas compatible avec votre navigateur Web actuel ou que votre navigateur internet actuel a un problème...<br><br>Pour remédier à cela nous vous conseillons d'utiliser les navigateurs suivants&nbsp;: <br><br>- Mozilla Firefox<br>- Google Chrome<br>- Internet Explorer<br>- Microsoft Edge<br>- Opéra (Néon)<br><br>et de vous assurer que ceux-ci sont à jour pour pouvoir supporter une interface internet dynamique (JQuery/PHP/CSS 3).<br><br>Vous pouvez aussi essayer de vider le Cache de votre navigateur internet actuel.<br><br>Si le problème persiste&nbsp;; contactez l'administrateur du serveur sur support@rynnawebos.fr pour plus d'information.</strong></span></div>
 </div>
 </div>
@@ -326,7 +471,74 @@ function TimerStopTimer2()
 TimerStartTimer2();
 </script>
 
-<div style="z-index:47">
+<div id="jQueryDialog2" style="z-index:72;" title="Compatibilit&#233; des navigateurs pour l&#39;utilisation du WebOS (Tests effectu&#233;s le 22/03/18) :">
+<div id="wb_Text2" style="position:absolute;left:8px;top:12px;width:792px;height:32px;text-align:justify;z-index:44;">
+<span style="color:#000000;font-family:Arial;font-size:13px;">Navigateurs internet les plus performants, fiables et fluides pour utiliser le WebOS correctement (passer votre souris sur les barres pour recevoir plus d'informations)&nbsp;:</span></div>
+<div id="wb_Text11" style="position:absolute;left:32px;top:61px;width:179px;height:270px;z-index:45;">
+<span style="color:#000000;font-family:Arial;font-size:15px;"><strong>Mozilla Firefox<br><br>Google Chrome<br><br>Internet Explorer<br><br>Microsoft Edge<br><br>Maxthon 5<br><br>Néon<br><br>Opéra<br><br>Safari</strong></span></div>
+<div id="jQueryProgressbar1" style="position:absolute;left:236px;top:60px;width:549px;height:17px;z-index:46;">
+</div>
+<div id="jQueryProgressbar2" style="position:absolute;left:236px;top:99px;width:549px;height:17px;z-index:47;">
+</div>
+<div id="jQueryProgressbar3" style="position:absolute;left:236px;top:134px;width:549px;height:17px;z-index:48;">
+</div>
+<div id="jQueryProgressbar4" style="position:absolute;left:236px;top:170px;width:549px;height:17px;z-index:49;">
+</div>
+<div id="jQueryProgressbar5" style="position:absolute;left:236px;top:208px;width:549px;height:17px;z-index:50;">
+</div>
+<div id="jQueryProgressbar6" style="position:absolute;left:236px;top:246px;width:549px;height:17px;z-index:51;">
+</div>
+<div id="jQueryProgressbar7" style="position:absolute;left:236px;top:280px;width:549px;height:17px;z-index:52;">
+</div>
+<div id="jQueryProgressbar8" style="position:absolute;left:236px;top:312px;width:549px;height:17px;z-index:53;">
+</div>
+<div id="wb_Text12" style="position:absolute;left:17px;top:362px;width:770px;height:16px;z-index:54;">
+<span style="color:#000000;font-family:Arial;font-size:13px;"><u>De quoi cela parle t-il&nbsp;?</u></span></div>
+<div id="jQueryTabs1" style="position:absolute;left:14px;top:388px;width:776px;height:104px;z-index:55;">
+<ul>
+<li><a href="#jquerytabs1-page-0"><span>JQuery</span></a></li>
+<li><a href="#jquerytabs1-page-1"><span>Flash</span></a></li>
+<li><a href="#jquerytabs1-page-2"><span>Javascript</span></a></li>
+<li><a href="#jquerytabs1-page-3"><span>Fonctions JS d'appels</span></a></li>
+<li><a href="#jquerytabs1-page-4"><span>Fluidité</span></a></li>
+<li><a href="#jquerytabs1-page-5"><span>Stabilité</span></a></li>
+</ul>
+<div style="height:82px;" id="jquerytabs1-page-0">
+<div id="wb_Text13" style="position:absolute;left:16px;top:12px;width:738px;height:32px;z-index:38;">
+<span style="color:#000000;font-family:Arial;font-size:13px;">Jquery est un langage Web avancé permettant l'affichage des fenêtres du WebOS et des divers boutons et options visuelles, y compris l'animation des images et la gestion interne du WebOS.</span></div>
+</div>
+<div style="height:82px;" id="jquerytabs1-page-1">
+<div id="wb_Text14" style="position:absolute;left:14px;top:13px;width:738px;height:32px;z-index:39;">
+<span style="color:#000000;font-family:Arial;font-size:13px;">Flash est un langage d'animation pour divers médias. Plusieurs logiciels basiques ou avancés sont conçus en Flash et peuvent être lancés dans le WebOS.</span></div>
+</div>
+<div style="height:82px;" id="jquerytabs1-page-2">
+<div id="wb_Text15" style="position:absolute;left:14px;top:14px;width:738px;height:32px;z-index:40;">
+<span style="color:#000000;font-family:Arial;font-size:13px;">Javascript est un langage de scripting&nbsp;; il permet d'effectuer toutes les actions internes du WebOS (appels des sites par redirections automatiques lors d'un clic sur un contrôle par exemple). C'est une fonction indispensable au WebOS.</span></div>
+</div>
+<div style="height:82px;" id="jquerytabs1-page-3">
+<div id="wb_Text16" style="position:absolute;left:16px;top:9px;width:738px;height:45px;z-index:41;">
+<span style="color:#000000;font-family:Arial;font-size:12px;">Les Fonctions JS (javascript) d'appels permettent de créer les liaisons entre le clic sur un objet (action) vers les balises qui se trouvent dans la pluspart des applications du WebOS. Sans cette fonction vous serez obligé de cliquer manuellement sur&nbsp;&quot;Charger/Actualiser&quot;&nbsp;sur certains programmes pour forcer leurs affichages&nbsp;!</span></div>
+</div>
+<div style="height:82px;" id="jquerytabs1-page-4">
+<div id="wb_Text17" style="position:absolute;left:16px;top:14px;width:738px;height:32px;z-index:42;">
+<span style="color:#000000;font-family:Arial;font-size:13px;">La fluidité du WebOS est calculée sur le déplacement des fenêtres à l'écran, des animations JS/JQuery mais aussi du multi-tâches supportés par votre navigateur. Plus la fluidité est bonne plus vous pourrez afficher rapidement vos programmes.</span></div>
+</div>
+<div style="height:82px;" id="jquerytabs1-page-5">
+<div id="wb_Text18" style="position:absolute;left:14px;top:9px;width:738px;height:45px;z-index:43;">
+<span style="color:#000000;font-family:Arial;font-size:12px;">La stabilité du WebOS est basé sur la navigateur internet qui le supporte. Le WebOS est conçu pour s'adapter au maximum des navigateurs existants mais certains peuvent ne pas supporter certains scripts et ainsi ralentir ou bloquer (provoquant des crashs) lors votre utilisation du WebOS.</span></div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+<div style="z-index:81">
 <script>
 var isMobile = (/iphone|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
 if (isMobile)

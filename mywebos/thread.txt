@@ -1,1 +1,23 @@
 En attende d'ouverture de la requete...
+
+-----------------------------------------------------------------------
+/!\ Si ce message ne disparaît pas dans 5 secondes,
+cliquez sur "Charger/Actualiser" au-dessus de ce texte
+pour forcer l'affichage JS (Javascript) de l'applications ou
+du site à rediriger...
+
+-----------------------------------------------------------------------
+Erreur : Thread_Markers [self.frames] (onclick() function)
+-----------------------------------------------------------------------
+
+Détails :
+
+- Votre navigateur ne supporte peut-être pas les
+Fonctions JS d'appels (c'est à dire les fonction Javascript
+qui servent à rediriger les pages et applications dans les
+balises cibles).
+- Utiliser les navigateurs internet "Mozilla Firefox" ou "Néon"
+ou encore "Maxthon 5", qui sont des navigateurs compatibles avec
+les fonctions Javascript [self.frames] qui sont appelées de
+l'éxterieur de la zone HTML et du contenu balise <object>
+_______________________________________________________________________
