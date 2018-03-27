@@ -4,7 +4,7 @@
 
 ### The Server Manager is a Web program designed by AlgoStep Company to allow you to manage your server and up to 4 different WebOS hosted on your FTP server.
 
-# UPDATE : 16/03/2018 - ALPHA SERVER-MANAGER
+# UPDATE : 27/03/2018 - ALPHA SERVER-MANAGER
 
 ### ------------- FRENCH / FRANCAIS --------------
 **********************************************
