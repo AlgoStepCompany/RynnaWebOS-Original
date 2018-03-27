@@ -2147,7 +2147,7 @@ body
 }
 #MaterialIcon22 i
 {
-   color: #696969;
+   color: #FFA500;
    display: inline-block;
    font-size: 36px;
    line-height: 36px;
@@ -2156,7 +2156,7 @@ body
 }
 #wb_MaterialIcon22:hover i
 {
-   color: #A9A9A9;
+   color: #FFD700;
 }
 .jQueryToolTip5
 {
@@ -6971,36 +6971,15 @@ body
 #Layer24
 {
    background-color: transparent;
-   background-image: url(images/background_loader2.png);
-   background-repeat: repeat;
+   background-image: url(images/backgroundtype1.jpg);
+   background-repeat: no-repeat;
    background-position: center center;
-   opacity: 0.90;
+   background-size: cover;
 }
 #Layer2
 {
    background-color: transparent;
-   background-image: url(images/game_loader.gif);
-   background-repeat: no-repeat;
-   background-position: center center;
-   background-size: 100% 100%;
-}
-#Layer25
-{
-   background-color: transparent;
    background-image: none;
-}
-#wb_Text5 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_Text5 div
-{
-   text-align: center;
 }
 #Layer26
 {
@@ -8203,38 +8182,6 @@ body
 #wb_Text45 div
 {
    text-align: center;
-}
-#Layer31
-{
-   background-color: transparent;
-   background-image: url(images/coin_superieur_gauche.png);
-   background-repeat: no-repeat;
-   background-position: left top;
-   background-size: 100% 100%;
-}
-#Layer32
-{
-   background-color: transparent;
-   background-image: url(images/coin_superieur_droit.png);
-   background-repeat: no-repeat;
-   background-position: left top;
-   background-size: 100% 100%;
-}
-#Layer33
-{
-   background-color: transparent;
-   background-image: url(images/coin_inferieur_droit.png);
-   background-repeat: no-repeat;
-   background-position: left top;
-   background-size: 100% 100%;
-}
-#Layer34
-{
-   background-color: transparent;
-   background-image: url(images/coin_inferieur_gauche.png);
-   background-repeat: no-repeat;
-   background-position: left top;
-   background-size: 100% 100%;
 }
 #wb_Text18 
 {
@@ -11651,4 +11598,44 @@ body
    top: 0;
    width: 100%;
    height: 100%;
+}
+#Image78
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Layer16
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text5 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text5 div
+{
+   text-align: center;
+}
+#wb_Text126 
+{
+   background-color: #808080;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text126 div
+{
+   text-align: left;
 }

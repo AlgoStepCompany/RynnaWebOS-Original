@@ -10,6 +10,6 @@
 </head>
 <body>
 <div id="wb_Text1" style="position:absolute;left:13px;top:10px;width:250px;height:22px;z-index:0;">
-<span style="color:#9932CC;font-family:Arial;font-size:19px;"><strong>37.1 (22/03/2018)</strong></span></div>
+<span style="color:#9932CC;font-family:Arial;font-size:19px;"><strong>37.2 (27/03/2018)</strong></span></div>
 </body>
 </html>
