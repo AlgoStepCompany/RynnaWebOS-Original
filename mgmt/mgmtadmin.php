@@ -24,7 +24,7 @@ if (isset($_SESSION['expires_by']))
       exit;
    }
 }
-$users = array("root"); // Indiquer ici le nom du seul utilisateur capable de rentrer dans le Server-Manager de vos (votre) WebOS. Preferez un Administrateur !
+$users = array("root");
 if (!in_array($_SESSION['username'], $users))
 {
    header('Location: ./index.php');
@@ -45,6 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST
 <!doctype html>
 <html>
 <head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta charset="utf-8">
 <title>ServerManager</title>
 <meta name="author" content="AlgoStep Company">
@@ -53,12 +54,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST
 <link href="base/jquery-ui.min.css" rel="stylesheet">
 <link href="ServerManager.css" rel="stylesheet">
 <link href="mgmtadmin.css" rel="stylesheet">
-<script src="jquery-3.2.1.min.js"></script>
+<script src="jquery-3.3.1.min.js"></script>
 <script src="jquery-ui.min.js"></script>
 <script src="listview.min.js"></script>
 <script src="transition.min.js"></script>
 <script src="tab.min.js"></script>
-<script src="wb.carousel.min.js"></script>
+<script src="wb.carousel.effects.min.js"></script>
 <script src="wwb12.min.js"></script>
 <script>
 $(document).ready(function()
@@ -70,8 +71,8 @@ $(document).ready(function()
    $("#ListView1").listview(ListView1Options);
    var jQueryDialog2Options =
    {
-      width: 997,
-      height: 650,
+      width: 1153,
+      height: 709,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -82,8 +83,8 @@ $(document).ready(function()
    $("#jQueryDialog2").dialog(jQueryDialog2Options);
    var jQueryDialog3Options =
    {
-      width: 997,
-      height: 650,
+      width: 1121,
+      height: 684,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -94,8 +95,8 @@ $(document).ready(function()
    $("#jQueryDialog3").dialog(jQueryDialog3Options);
    var jQueryDialog4Options =
    {
-      width: 997,
-      height: 650,
+      width: 1090,
+      height: 694,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -125,10 +126,10 @@ $(document).ready(function()
    });
    var TextSliderOpts =
    {
-      delay: 3000,
-      duration: 500,
-      easing: 'linear',
-      mode: 'forward-circular',
+      delay: 5000,
+      duration: 1000,
+      easing: 'easeOutQuint',
+      mode: 'fade',
       direction: '',
       scalemode: 1,
       pagination: false,
@@ -157,18 +158,18 @@ $(document).ready(function()
          case 2:
             ShowObjectWithEffect('wb_Name1', 0, 'slideup', 500);
             ShowObjectWithEffect('Name2', 0, 'slideup', 500);
-            ShowObjectWithEffect('Name3', 1, 'slideleft', 800, 'easeOutQuad');
+            ShowObjectWithEffect('', 1, 'slideleft', 800, 'easeOutQuad');
             ShowObjectWithEffect('wb_Line1', 0, 'fade', 500);
             ShowObjectWithEffect('Line2', 0, 'fade', 500);
             ShowObjectWithEffect('Line3', 1, 'fade', 500);
             break;
       }
    });
-   $("#TextSlider").carousel(TextSliderOpts);
+   $("#TextSlider").carouseleffects(TextSliderOpts);
    var jQueryDialog1Options =
    {
-      width: 997,
-      height: 650,
+      width: 1090,
+      height: 705,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -221,16 +222,16 @@ $(document).ready(function()
 </script>
 </head>
 <body>
-<!-- CHANGER LES LIENS vers vos propres WebOS pour les consoles 2 à 4 ci-dessous ! -->
-<div id="jQueryDialog2" style="z-index:44;" title="WebOS 2 - Console graphique virtuelle">
+
+<div id="jQueryDialog2" style="z-index:47;" title="WebOS 2 - Console graphique virtuelle">
 <object data="http://rynnawebos.fr/mywebos/index.php" type="text/html" width="100%" height="100%" style="overflow:auto" ></object>
 </div>
 
-<div id="jQueryDialog3" style="z-index:45;" title="WebOS 3 - Console graphique virtuelle">
+<div id="jQueryDialog3" style="z-index:48;" title="WebOS 3 - Console graphique virtuelle">
 <object data="http://rynnawebos.fr/webosbis/index.php" type="text/html" width="100%" height="100%" style="overflow:auto" ></object>
 </div>
 
-<div id="jQueryDialog4" style="z-index:46;" title="WebOS 4 - Console graphique virtuelle">
+<div id="jQueryDialog4" style="z-index:49;" title="WebOS 4 - Console graphique virtuelle">
 <object data="http://rynnawebos.fr/webos4/index.php" type="text/html" width="100%" height="100%" style="overflow:auto" ></object>
 </div>
 
@@ -239,7 +240,7 @@ $(document).ready(function()
 <div class="row">
 <div class="col-1">
 <div id="wb_Text6">
-<span style="color:#FFFFFF;font-family:Arial;font-size:32px;"><strong>Server-Manager </strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><em>(1.0)</em></span>
+<span style="color:#FFFFFF;font-family:Arial;font-size:32px;"><strong>Server-Manager </strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><em>(1.1)</em></span>
 </div>
 <div id="wb_Logout1" style="display:inline-block;width:100%;z-index:4;">
 <form name="logoutform" method="post" action="<?php echo basename(__FILE__); ?>" id="logoutform" style="display:inline">
@@ -267,14 +268,14 @@ $(document).ready(function()
 </div>
 </div>
 </div>
-<div id="Layer1" style="position:relative;text-align:left;width:100%;;height:551px;float:left;display:block;z-index:49;">
-<div id="jQueryTabs1" style="display:inline-block;width:100%;z-index:21;">
+<div id="Layer1" style="position:relative;text-align:left;width:100%;;height:551px;float:left;display:block;z-index:52;">
+<div id="jQueryTabs1" style="display:inline-block;width:100%;z-index:22;">
 <ul class="nav-tabs">
-<li><a href="#jquerytabs1-page-0"><span>Consoles WebOS</span></a></li>
-<li class="active"><a href="#jquerytabs1-page-1"><span>Navigateur de racine</span></a></li>
+<li class="active"><a href="#jquerytabs1-page-0"><span>Consoles WebOS</span></a></li>
+<li><a href="#jquerytabs1-page-1"><span>Navigateur de racine</span></a></li>
 </ul>
-<div class="tab-pane fade" id="jquerytabs1-page-0">
-<div id="Layer2" style="position:absolute;text-align:left;left:21px;top:51px;width:302px;height:436px;z-index:16;">
+<div class="tab-pane fade in active" id="jquerytabs1-page-0">
+<div id="Layer2" style="position:absolute;text-align:left;left:21px;top:51px;width:302px;height:436px;z-index:17;">
 <div id="wb_ListView1" style="position:absolute;left:37px;top:47px;width:226px;height:369px;z-index:10;">
 <ul id="ListView1" style="margin-top:0px;margin-bottom:0px;">
 <li><a href="" onclick="$('#jQueryDialog1').dialog('open');return false;">WebOS 1 (/login)</a></li>
@@ -285,41 +286,39 @@ $(document).ready(function()
 <div id="wb_Text1" style="position:absolute;left:23px;top:14px;width:250px;height:16px;text-align:center;z-index:11;">
 <span style="color:#000000;font-family:Arial;font-size:13px;"><strong>- Consoles graphiques virtuelles -</strong></span></div>
 </div>
-<div id="Layer3" style="position:absolute;text-align:left;left:343px;top:51px;width:302px;height:436px;z-index:17;">
+<div id="Layer3" style="position:absolute;text-align:left;left:343px;top:51px;width:302px;height:436px;z-index:18;">
 <div id="wb_Text2" style="position:absolute;left:23px;top:14px;width:250px;height:16px;text-align:center;z-index:12;">
 <span style="color:#000000;font-family:Arial;font-size:13px;"><strong>- Actions générales -</strong></span></div>
-<input type="submit" id="Button1" name="" value="Redémarrer le serveur Web" style="position:absolute;left:20px;top:66px;width:261px;height:25px;z-index:13;" disabled>
+<input type="submit" id="Button1" onclick="shutdown -r 1;return false;" name="" value="Redémarrer le serveur Linux" style="position:absolute;left:20px;top:66px;width:261px;height:25px;z-index:13;">
+<input type="submit" id="Button2" onclick="shutdown /i;return false;" name="" value="Redémarrer le serveur Windows" style="position:absolute;left:20px;top:102px;width:261px;height:25px;z-index:14;">
 </div>
-<div id="Layer4" style="position:absolute;text-align:left;left:664px;top:51px;width:595px;height:436px;z-index:18;">
-<div id="wb_Text3" style="position:absolute;left:11px;top:14px;width:569px;height:16px;text-align:center;z-index:14;">
+<div id="Layer4" style="position:absolute;text-align:left;left:664px;top:51px;width:595px;height:436px;z-index:19;">
+<div id="wb_Text3" style="position:absolute;left:11px;top:14px;width:569px;height:16px;text-align:center;z-index:15;">
 <span style="color:#000000;font-family:Arial;font-size:13px;"><strong>- Détection serveur et informations -</strong></span></div>
-<div id="Html7" style="position:absolute;left:11px;top:62px;width:569px;height:357px;z-index:15">
-<!-- CHANGER LE NOM DU FICHIER CI-DESSOUS (affichage des informations PHP/MySQL de votre serveur) par un autre nom inconnu de votre publique et impossible à retrouver ! -->
+<div id="Html7" style="position:absolute;left:11px;top:62px;width:569px;height:357px;z-index:16">
 <object data="php-GtVF56aZ2aaLo.php" type="text/html" width="100%" height="100%" style="overflow:auto" ></object></div>
 </div>
 </div>
-<div class="tab-pane fade in active" id="jquerytabs1-page-1">
-<div id="Html1" style="position:absolute;left:20px;top:50px;width:880px;height:444px;z-index:19">
-<!-- CHANGER LE NOM DU FICHIER CI-DESSOUS (Explorateur serveur racine maître) par un autre nom inconnu de votre publique et impossible à retrouver ! -->
+<div class="tab-pane fade" id="jquerytabs1-page-1">
+<div id="Html1" style="position:absolute;left:20px;top:50px;width:880px;height:444px;z-index:20">
 <object data="z3rt6GV8uT44.php" type="text/html" width="100%" height="100%" style="overflow:auto" ></object></div>
-<div id="wb_Line1" style="position:absolute;left:912px;top:49px;width:2px;height:441px;z-index:20;">
+<div id="wb_Line1" style="position:absolute;left:912px;top:49px;width:2px;height:441px;z-index:21;">
 <img src="images/img0001.png" id="Line1" alt=""></div>
 </div>
 </div>
 </div>
-<div id="wb_TextSlider" style="position:absolute;left:0px;top:917px;width:1300px;height:267px;z-index:50;overflow:hidden;position:relative;">
+<div id="wb_TextSlider" style="position:absolute;left:0px;top:917px;width:1300px;height:267px;z-index:53;overflow:hidden;position:relative;">
 <div id="TextSlider" style="position:absolute">
 <div class="frame">
-<div id="wb_Review1" style="position:absolute;left:298px;top:63px;width:704px;height:32px;text-align:center;z-index:39;">
+<div id="wb_Review1" style="position:absolute;left:298px;top:63px;width:704px;height:32px;text-align:center;z-index:42;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><em>Server-Manager - AlgoStep Company - Version alpha | Les paramètres sont à modifier par l'administrateur dans le code source du &quot;mgmt&quot;</em></span></div>
-<hr id="Line2" style="position:absolute;left:572px;top:137px;width:156px;z-index:40;">
-<div id="wb_Name1" style="position:absolute;left:414px;top:160px;width:472px;height:32px;text-align:center;z-index:41;">
+<hr id="Line2" style="position:absolute;left:572px;top:137px;width:156px;z-index:43;">
+<div id="wb_Name1" style="position:absolute;left:414px;top:160px;width:472px;height:32px;text-align:center;z-index:44;">
 <span style="color:#1BBC9B;font-family:Arial;font-size:13px;"><strong>SITE OFFICIEL : rynnawebos.fr</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br></span></div>
 </div>
 </div>
 </div>
-<!-- CHANGER LE LIEN vers vos propres WebOS pour la console 1 ci-dessous ! -->
-<div id="jQueryDialog1" style="z-index:51;" title="WebOS 1 - Console graphique virtuelle">
+<div id="jQueryDialog1" style="z-index:54;" title="WebOS 1 - Console graphique virtuelle">
 <object data="http://rynnawebos.fr/login/index.php" type="text/html" width="100%" height="100%" style="overflow:auto" ></object>
 </div>
 

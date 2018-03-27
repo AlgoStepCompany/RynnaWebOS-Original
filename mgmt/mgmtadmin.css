@@ -156,6 +156,7 @@ body
 .jQueryDialog2.ui-dialog
 {
    padding: 4px 4px 4px 4px;
+   display: none;
 }
 .jQueryDialog2.ui-dialog .ui-dialog-title
 {
@@ -179,6 +180,11 @@ body
 {
    border-radius: 0px;
 }
+#jQueryDialog2.ui-dialog-content
+{
+   overflow: visible;
+   padding: 0;
+}
 .ui-dialog.ui-widget
 {
    font-size: 1em !important;
@@ -186,6 +192,7 @@ body
 .jQueryDialog3.ui-dialog
 {
    padding: 4px 4px 4px 4px;
+   display: none;
 }
 .jQueryDialog3.ui-dialog .ui-dialog-title
 {
@@ -209,6 +216,11 @@ body
 {
    border-radius: 0px;
 }
+#jQueryDialog3.ui-dialog-content
+{
+   overflow: visible;
+   padding: 0;
+}
 .ui-dialog.ui-widget
 {
    font-size: 1em !important;
@@ -216,6 +228,7 @@ body
 .jQueryDialog4.ui-dialog
 {
    padding: 4px 4px 4px 4px;
+   display: none;
 }
 .jQueryDialog4.ui-dialog .ui-dialog-title
 {
@@ -238,6 +251,11 @@ body
 .jQueryDialog4, .jQueryDialog4 .ui-corner-all
 {
    border-radius: 0px;
+}
+#jQueryDialog4.ui-dialog-content
+{
+   overflow: visible;
+   padding: 0;
 }
 #wb_skills
 {
@@ -271,7 +289,7 @@ body
    margin-right: -15px;
    margin-left: -15px;
 }
-#skills .col-1
+#skills > .row > .col-1
 {
    -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
@@ -282,11 +300,11 @@ body
    padding-left: 15px;
    position: relative;
 }
-#skills .col-1
+#skills > .row > .col-1
 {
    float: left;
 }
-#skills .col-1
+#skills > .row > .col-1
 {
    background-color: transparent;
    background-image: none;
@@ -308,7 +326,7 @@ body
 }
 @media (max-width: 480px)
 {
-#skills .col-1
+#skills > .row > .col-1
 {
    float: none;
    width: 100%;
@@ -359,7 +377,7 @@ body
    margin-right: -15px;
    margin-left: -15px;
 }
-#LayoutGrid6 .col-1
+#LayoutGrid6 > .row > .col-1
 {
    -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
@@ -370,11 +388,11 @@ body
    padding-left: 15px;
    position: relative;
 }
-#LayoutGrid6 .col-1
+#LayoutGrid6 > .row > .col-1
 {
    float: left;
 }
-#LayoutGrid6 .col-1
+#LayoutGrid6 > .row > .col-1
 {
    background-color: transparent;
    background-image: none;
@@ -396,7 +414,7 @@ body
 }
 @media (max-width: 480px)
 {
-#LayoutGrid6 .col-1
+#LayoutGrid6 > .row > .col-1
 {
    float: none;
    width: 100%;
@@ -605,7 +623,9 @@ body
 }
 #jQueryTabs1 .ui-tabs-panel
 {
-   overflow: auto;
+   position: relative;
+   left: 0;
+   top: 0;
    padding: 0;
 }
 #Layer2
@@ -669,7 +689,7 @@ body
 {
    border: 1px #2E6DA4 solid;
    border-radius: 4px;
-   background-color: #808080;
+   background-color: #1E90FF;
    background-image: none;
    color: #FFFFFF;
    font-family: Arial;
@@ -746,6 +766,7 @@ body
 .jQueryDialog1.ui-dialog
 {
    padding: 4px 4px 4px 4px;
+   display: none;
 }
 .jQueryDialog1.ui-dialog .ui-dialog-title
 {
@@ -768,6 +789,22 @@ body
 .jQueryDialog1, .jQueryDialog1 .ui-corner-all
 {
    border-radius: 0px;
+}
+#jQueryDialog1.ui-dialog-content
+{
+   overflow: visible;
+   padding: 0;
+}
+#Button2
+{
+   border: 1px #2E6DA4 solid;
+   border-radius: 4px;
+   background-color: #1E90FF;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
 }
 .progress-label 
 {

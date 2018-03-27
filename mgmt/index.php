@@ -55,13 +55,14 @@ $password = isset($_COOKIE['password']) ? $_COOKIE['password'] : '';
 <!doctype html>
 <html>
 <head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta charset="utf-8">
 <title>ServerManager</title>
 <meta name="author" content="AlgoStep Company">
 <meta name="generator" content="AlgoStep Company - ServerManager">
 <link href="ServerManager.css" rel="stylesheet">
 <link href="index.css" rel="stylesheet">
-<script src="jquery-3.2.1.min.js"></script>
+<script src="jquery-3.3.1.min.js"></script>
 <script src="wb.stickylayer.min.js"></script>
 <script>
 $(document).ready(function()
@@ -77,7 +78,7 @@ $(document).ready(function()
 <div id="wb_Text2" style="position:absolute;left:72px;top:46px;width:158px;height:32px;z-index:1;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:27px;"><strong>Manager</strong></span></div>
 <div id="wb_Text3" style="position:absolute;left:730px;top:16px;width:250px;height:16px;text-align:right;z-index:2;">
-<span style="color:#000000;font-family:Arial;font-size:13px;">Version 1.0</span></div>
+<span style="color:#000000;font-family:Arial;font-size:13px;">Version 1.1</span></div>
 <hr id="Line1" style="position:absolute;left:14px;top:103px;width:966px;z-index:3;">
 <div id="wb_Text4" style="position:absolute;left:15px;top:120px;width:955px;height:189px;text-align:justify;z-index:4;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:15px;">Bienvenue dans Server-Manager d'AlgoStep Company® !<br>Grâce à cette interface vous pouvez gérer et vérifier tout les WebOS installés sur votre serveur et parcourir les données de vos sites hébergeant un WebOS.<br>Vous pouvez également les tester grâce au système d'aperçu des WebOS virtualisé (compatible PHP 7 uniquement).<br><br>Cette version du Server-Manager vous permet d'utiliser simultanément jusqu'à <u>4 consoles graphiques virtuelles</u> (soit 4 WebOS différents) sur votre serveur.<br><em>Pour augmenter cette valeur vous pouvez ajouter manuellement, par le code source du fichier &quot;mgmtadmin.php&quot;, des Items à la ListView1.</em><br><br><strong><u>Pour commencer veuillez vous identifier avec votre compte Administrateur Serveur pour vous connecter à votre espace de Management :</u></strong></span></div>
