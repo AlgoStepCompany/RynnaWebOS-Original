@@ -2147,7 +2147,7 @@ body
 }
 #MaterialIcon22 i
 {
-   color: #FFA500;
+   color: #D3D3D3;
    display: inline-block;
    font-size: 36px;
    line-height: 36px;
@@ -2156,7 +2156,7 @@ body
 }
 #wb_MaterialIcon22:hover i
 {
-   color: #FFD700;
+   color: #808080;
 }
 .jQueryToolTip5
 {

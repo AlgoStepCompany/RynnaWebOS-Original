@@ -1890,6 +1890,16 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 <span style="color:#000000;font-family:Arial;font-size:13px;">Ci-dessous retrouvez les dernières mises à jour de votre WebOS. Seul les 6 dernières mises à jours sont indiqués&nbsp;:</span></div>
 <div id="Blog1" style="overflow-y:scroll;position:absolute;left:18px;top:152px;width:689px;height:171px;z-index:3;">
 <div class="blogitem">
+   <span class="blogsubject">Version 38.0</span>
+   <div class="no-thumb"></div>
+   <div class="blogdate">28/03/18<br></div>
+   <span style="color:#000000;">- Refonte partielle de l'environnement de la page (écran) de connexion<br>
+- Allégement de l'interface de l'écran de connexion des utilisateurs<br>
+- Ajout d'un serveur de Tchat en ligne en cas de problème (notifié par un icone &quot;i&quot; générale d'informations) sur l'écran de connexion</span><br>
+   <div class="blogcomments"></div>
+</div>
+<div class="clearfix visible-col1"></div>
+<div class="blogitem">
    <span class="blogsubject">Version 37.2</span>
    <div class="no-thumb"></div>
    <div class="blogdate">27/03/18<br></div>
@@ -1938,14 +1948,6 @@ Cela permet une économie de données de plus de 80% au démarrage de la session
    <div class="blogcomments"></div>
 </div>
 <div class="clearfix visible-col1"></div>
-<div class="blogitem">
-   <span class="blogsubject">Version 35.0</span>
-   <div class="no-thumb"></div>
-   <div class="blogdate">09/03/18<br></div>
-   <span style="color:#000000;">- Mise à jour globale de Jquery (passage en 3.3.1)</span><br>
-   <div class="blogcomments"></div>
-</div>
-<div class="clearfix visible-col1"></div>
 </div>
 <input type="button" id="Button12" onclick="ShowObject('Layer1', 0);return false;" name="" value="Cliquez ici pour fermer la fenêtre et commencer à utiliser votre session" style="position:absolute;left:18px;top:336px;width:689px;height:25px;z-index:4;">
 </div>
@@ -1970,7 +1972,7 @@ Cela permet une économie de données de plus de 80% au démarrage de la session
 <div id="MaterialIcon3"><i class="material-icons">&#xe5d4;</i></div>
 </div>
 <div id="wb_MaterialIcon22" style="display:inline-block;width:55px;height:36px;text-align:center;z-index:11;">
-<a href="#" onclick="$('#jQueryDialog29').dialog('open');$('#jQueryDialog10').dialog('close');return false;" ondblclick="$('#jQueryDialog29').dialog('close');return false;"><div id="MaterialIcon22"><i class="material-icons">&#xe0b7;</i></div></a>
+<div id="MaterialIcon22"><i class="material-icons">&#xe0b7;</i></div>
 </div>
 <div id="wb_MaterialIcon25" style="display:inline-block;width:45px;height:36px;text-align:center;z-index:12;">
 <a href="#" onclick="window.print();TimerStartTimer7();return false;"><div id="MaterialIcon25"><i class="material-icons">&#xe8ad;</i></div></a>
@@ -4846,7 +4848,7 @@ TimerStartTimer49();
    src="http://rynnawebos.fr/login/maj.php">
 </iframe></div>
 <div id="wb_Text43" style="position:absolute;left:14px;top:68px;width:848px;height:24px;text-align:center;z-index:521;">
-<span style="color:#FF6347;font-family:Arial;font-size:21px;"><strong>37.2</strong></span></div>
+<span style="color:#FF6347;font-family:Arial;font-size:21px;"><strong>38.0</strong></span></div>
 <div id="wb_Text42" style="position:absolute;left:14px;top:120px;width:460px;height:16px;z-index:522;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">La dernière version disponible (code source) est la suivante&nbsp;:</span></div>
 <div id="wb_Text46" style="position:absolute;left:14px;top:18px;width:460px;height:16px;z-index:523;">
