@@ -6,7 +6,7 @@ Nom de code de la version de base : Original
 Nom de code de la version en cours de développement : Vegasis (depuis le 17/01/2018)
 Code source mise à disposition (complet) depuis le : 30/08/2017, en version : 9.0 (Release)
 Version Thème : Original
-Autre version disponible : Nebular (disponible en thème patch) ; Luxury (disponible en thème patch) ; Redar (disponible en thème patch) ; LifeIsStrange (disponible en thème patch)
+Autre version disponible : Nebular (disponible en thème patch) ; Luxury (disponible en thème patch) ; Redar (disponible en thème patch) ; LifeIsStrange (disponible en thème patch) ; MAC OSx (disponible en thème patch)
 Langages : Français
 Autres langages disponibles : AUCUNE (pour le moment)
 Site internet de démonstration (officiel) : http://www.rynnawebos.fr
