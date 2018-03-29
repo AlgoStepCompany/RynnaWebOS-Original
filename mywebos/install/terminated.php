@@ -35,7 +35,7 @@ if (isset($_SESSION['expires_by']))
 <link href="font-awesome.min.css" rel="stylesheet">
 <link href="RynnaWebOS.css" rel="stylesheet">
 <link href="terminated.css" rel="stylesheet">
-<script src="jquery-3.2.1.min.js"></script>
+<script src="jquery-3.3.1.min.js"></script>
 <script src="wb.stickylayer.min.js"></script>
 <script>
 $(document).ready(function()
@@ -51,7 +51,7 @@ $(document).ready(function()
 <div id="wb_MaterialIcon1" style="position:absolute;left:25px;top:50px;width:100px;height:100px;text-align:center;z-index:1;">
 <div id="MaterialIcon1"><i class="material-icons">&#xe564;</i></div></div>
 <div id="wb_Text1" style="position:absolute;left:165px;top:91px;width:642px;height:19px;z-index:2;">
-<span style="color:#000000;font-family:Arial;font-size:17px;"><strong>ETAPE 3 - REDIRECTION ECRAN DE CONNEXION</strong></span></div>
+<span style="color:#000000;font-family:Arial;font-size:17px;"><strong>ETAPE 3 - VERIFICATION FINALE</strong></span></div>
 <hr id="Line1" style="position:absolute;left:11px;top:150px;width:828px;z-index:3;">
 <div id="wb_Text2" style="position:absolute;left:11px;top:174px;width:828px;height:18px;text-align:center;z-index:4;">
 <span style="color:#000000;font-family:Arial;font-size:16px;">Patienter quelques instants merci . . .</span></div>

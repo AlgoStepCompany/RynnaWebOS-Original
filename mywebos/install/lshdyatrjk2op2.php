@@ -34,7 +34,7 @@ if (isset($_SESSION['expires_by']))
 <meta name="generator" content="AlgoStep Company - 2006-2017">
 <link href="RynnaWebOS.css" rel="stylesheet">
 <link href="lshdyatrjk2op2.css" rel="stylesheet">
-<script src="jquery-3.2.1.min.js"></script>
+<script src="jquery-3.3.1.min.js"></script>
 <script src="wb.stickylayer.min.js"></script>
 <script>
 $(document).ready(function()
@@ -63,8 +63,8 @@ $(document).ready(function()
 <div id="wb_Text5" style="position:absolute;left:614px;top:220px;width:193px;height:36px;text-align:center;z-index:9;">
 <span style="color:#FF9615;font-family:Arial;font-size:15px;"><strong>VERSION STABLE FIXE PRECEDENTE</strong></span></div>
 <input type="submit" id="Button4" onclick="window.location.href='https://github.com/AlgoStepCompany/RynnaWebOS-Original/archive/master.zip';return false;" name="" value="TELECHARGER" style="position:absolute;left:69px;top:308px;width:142px;height:91px;z-index:10;">
-<input type="submit" id="Button5" onclick="window.location.href='https://github.com/AlgoStepCompany/RynnaWebOS-Original/archive/v30.0-Vegasis.zip';return false;" name="" value="VERSION 30.0 (VEGASIS)" style="position:absolute;left:307px;top:308px;width:219px;height:91px;z-index:11;">
-<input type="submit" id="Button6" onclick="window.location.href='https://github.com/AlgoStepCompany/RynnaWebOS-Original/archive/v20.0-Imporium.zip';return false;" name="" value="VERSION 20.0 (IMPORIUM)" style="position:absolute;left:601px;top:308px;width:219px;height:91px;z-index:12;">
+<input type="submit" id="Button5" onclick="alert('revenez a 16H15 ce 29 Mars !');return false;" name="" value="VERSION 40.0 (CRIMERIA)" style="position:absolute;left:307px;top:308px;width:219px;height:91px;z-index:11;">
+<input type="submit" id="Button6" onclick="window.location.href='https://github.com/AlgoStepCompany/RynnaWebOS-Original/archive/v30.0-Vegasis.zip';return false;" name="" value="VERSION 30.0 (VEGASIS)" style="position:absolute;left:601px;top:308px;width:219px;height:91px;z-index:12;">
 <div id="wb_Text6" style="position:absolute;left:69px;top:407px;width:142px;height:24px;text-align:center;z-index:13;">
 <span style="color:#000000;font-family:Arial;font-size:9.3px;"><em>Cette version peut être considérée comme instable</em></span></div>
 <hr id="Line2" style="position:absolute;left:266px;top:215px;width:1px;z-index:14;">
