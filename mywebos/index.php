@@ -124,7 +124,7 @@ $(document).ready(function()
    };
    $("#jQueryDialog6").dialog(jQueryDialog6Options);
    $("#Layer3").stickylayer({orientation: 9, position: [0, 0], delay: 0});
-   $("#Layer1").stickylayer({orientation: 7, position: [0, 0], delay: 1000});
+   $("#Layer1").stickylayer({orientation: 7, position: [0, 15], delay: 1000});
    var jQueryDialog3Options =
    {
       width: 692,
@@ -426,13 +426,13 @@ $(document).ready(function()
 </div>
 </div>
 <div id="wb_Text10" style="position:absolute;left:13px;top:16px;width:250px;height:59px;z-index:25;">
-<span style="color:#000000;font-family:Arial;font-size:13px;"><em>Version 38.0 (Release)<br>Desktop Virtual Manager (DVM)<br></em></span><span style="color:#000000;font-family:Arial;font-size:9.3px;"><em>PHP 7, CSS 3, JQuery 3.3.1<br></em></span><span style="color:#0000CD;font-family:Arial;font-size:12px;"><strong><em>VEGASIS</em></strong></span></div>
+<span style="color:#000000;font-family:Arial;font-size:13px;"><em>Version 40.0 (Release)<br>Desktop Virtual Manager (DVM)<br></em></span><span style="color:#000000;font-family:Arial;font-size:9.3px;"><em>PHP 7, CSS 3, JQuery 3.3.1<br></em></span><span style="color:#F5F5F5;font-family:Arial;font-size:12px;"><strong><em>CRIMERIA</em></strong></span></div>
 <div id="Layer1" style="position:absolute;text-align:center;left:277px;top:564px;width:393px;height:83px;z-index:26;">
 <div id="Layer1_Container" style="width:393px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 </div>
 </div>
-<div id="Layer4" style="position:absolute;text-align:center;left:316px;top:14px;width:310px;height:100px;z-index:27;">
-<div id="Layer4_Container" style="width:306px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="Layer4" style="position:absolute;text-align:center;left:332px;top:14px;width:267px;height:92px;z-index:27;">
+<div id="Layer4_Container" style="width:263px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 </div>
 </div>
 <div id="Layer8" style="position:fixed;text-align:center;left:auto;right:20px;top:auto;bottom:20px;width:76px;height:57px;z-index:28;cursor: pointer;" onclick="$('#jQueryDialog2').dialog('open');return false;">
@@ -568,7 +568,7 @@ TimerStartTimer2();
 <?php
 /*
 	********************************************************************************************
-	CONFIGURATION - basé sur http://www.php-astux.info/script-formulaire-contact.php - Nom obligatoire !
+	CONFIGURATION
 	********************************************************************************************
 */
 // destinataire est votre adresse mail. Pour envoyer à plusieurs à la fois, séparez-les par une virgule

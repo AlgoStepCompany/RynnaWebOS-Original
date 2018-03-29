@@ -387,8 +387,8 @@ $(document).ready(function()
    $("#jQueryDialog11").dialog(jQueryDialog11Options);
    var jQueryDialog33Options =
    {
-      width: 784,
-      height: 495,
+      width: 883,
+      height: 545,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -1908,12 +1908,28 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 </ul>
 <div style="height:404px;" id="jquerytabs1-page-0">
 <div id="wb_Text7" style="position:absolute;left:18px;top:22px;width:639px;height:19px;z-index:0;">
-<span style="color:#000000;font-family:Arial;font-size:17px;">Bienvenue sur Rynna WebOS (Vegasis)&nbsp;!</span></div>
+<span style="color:#000000;font-family:Arial;font-size:17px;">Bienvenue sur Rynna WebOS (Crimeria)&nbsp;!</span></div>
 <div id="wb_Text10" style="position:absolute;left:18px;top:54px;width:678px;height:54px;z-index:1;">
 <span style="color:#000000;font-family:Arial;font-size:16px;">Rynna WebOS est un système d'exploitation fonctionnant uniquement dans un navigateur internet sur n'importe quel système d'exploitation.<br></span><span style="color:#4169E1;font-family:Arial;font-size:15px;"><strong>Pour ouvrir les options bureautiques&nbsp;; effectuez un <u>double clique gauche</u> sur le bureau.</strong></span></div>
 <div id="wb_Text86" style="position:absolute;left:18px;top:125px;width:689px;height:16px;z-index:2;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Ci-dessous retrouvez les dernières mises à jour de votre WebOS. Seul les 6 dernières mises à jours sont indiqués&nbsp;:</span></div>
 <div id="Blog1" style="overflow-y:scroll;position:absolute;left:18px;top:152px;width:689px;height:171px;z-index:3;">
+<div class="blogitem">
+   <span class="blogsubject">Version 40.0</span>
+   <div class="no-thumb"></div>
+   <div class="blogdate">29/03/18<br></div>
+   <span style="color:#000000;">- Rynna webOS passage en version 40.0, code <strong>Crimeria </strong>!<br>
+- Stabilisation générale du code du WebOS<br>
+- Masque de certaines fonctions inutiles<br>
+- Changement du Calendrier général actif (paramètres et options)<br>
+- Mise à jour du code de version vers Crimeria<br>
+- Nouvelle branche GitHub pour le code source (developpeurs)<br>
+- Actualisation et modifications des scripts des fenêtres JQuery<br>
+- Affichage adaptif et léger changement de couleur<br>
+- Correctif self.frames (options d'appels JavaScript des liens et redirections automatiques)</span><br>
+   <div class="blogcomments"></div>
+</div>
+<div class="clearfix visible-col1"></div>
 <div class="blogitem">
    <span class="blogsubject">Version 38.0</span>
    <div class="no-thumb"></div>
@@ -1960,16 +1976,6 @@ Cela permet une économie de données de plus de 80% au démarrage de la session
 - Economie de 55Mo de données reçus par actualisation<br>
 - Démarrage plus long des applications, qui ne s'éxecute qu'a la demande de l'utilisateur et ne sont plus prêt chargés dans la session<br>
 - Stabilisation générale en cours ; cette version ne sortira pas sur GITHUB (code source). Pour le code source, merci d'attendre la version 37.0 stabilisatrice du projet !</span><br>
-   <div class="blogcomments"></div>
-</div>
-<div class="clearfix visible-col1"></div>
-<div class="blogitem">
-   <span class="blogsubject">Version 36.0</span>
-   <div class="no-thumb"></div>
-   <div class="blogdate">16/03/18<br></div>
-   <span style="color:#000000;">- Nouvelle interface : Challenger ! Vous pouvez y accéder par l'intermédiaire de la Barre Latérale (utilisez l'icone en haut à droite de votre écran en passant votre souris dessus pour l'afficher) puis sélectionner le dernier logo en bas pour basculer sur l'interface Challenger<br>
-- Nouvelle interface d'administration (réservé au Administrateur d'un WebOS qui utilise le code source GitHub du projet) : accéder au contrôle total de votre serveur via http://votre_site_internet.fr/mgmt/&nbsp; ! Seul un compte Administrateur peut y accéder<br>
-- Légère amélioration de la gestion interne du WebOS</span><br>
    <div class="blogcomments"></div>
 </div>
 <div class="clearfix visible-col1"></div>
@@ -2438,7 +2444,7 @@ function drop(ev) {
 <div id="wb_Text16" style="position:absolute;left:8px;top:285px;width:124px;height:36px;text-align:center;z-index:108;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>Tester mon clavier</strong></span></div>
 <div id="wb_MaterialIcon10" style="position:absolute;left:186px;top:206px;width:89px;height:71px;text-align:center;z-index:109;">
-<a href="#" onclick="$('#jQueryDialog89').dialog('open');$('#jQueryDialog37').dialog('open');Toggle('jQueryDialog11', 'fade', 500);return false;"><div id="MaterialIcon10"><i class="material-icons">&#xe3c4;</i></div></a></div>
+<a href="#" onclick="$('#jQueryDialog37').dialog('open');Toggle('jQueryDialog11', 'fade', 500);return false;"><div id="MaterialIcon10"><i class="material-icons">&#xe3c4;</i></div></a></div>
 <div id="wb_Text29" style="position:absolute;left:168px;top:285px;width:124px;height:54px;text-align:center;z-index:110;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>Configuration de l'interface personnelle</strong></span></div>
 <div id="wb_MaterialIcon11" style="position:absolute;left:341px;top:201px;width:81px;height:76px;text-align:center;z-index:111;">
@@ -2470,9 +2476,9 @@ function drop(ev) {
 <div id="jQueryDialog33" style="z-index:692;" title="Test de votre connexion internet">
 <div id="wb_MaterialIcon14" style="position:absolute;left:10px;top:11px;width:37px;height:37px;text-align:center;z-index:123;">
 <a href="#" onclick="$('#jQueryDialog11').dialog('open');$('#jQueryDialog33').dialog('close');return false;"><div id="MaterialIcon14"><i class="material-icons">&#xe5cb;</i></div></a></div>
-<div id="wb_Text33" style="position:absolute;left:94px;top:21px;width:639px;height:16px;z-index:124;">
+<div id="wb_Text33" style="position:absolute;left:94px;top:21px;width:437px;height:16px;z-index:124;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Testez votre connexion internet (débit montant/descendant)&nbsp;:</span></div>
-<div id="Html19" style="position:absolute;left:18px;top:59px;width:727px;height:354px;z-index:125">
+<div id="Html19" style="position:absolute;left:18px;top:59px;width:831px;height:413px;z-index:125">
 <iframe width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
    src="http://www.ariase.com/fr/vitesse/">
 </iframe><br /></div>
@@ -3690,12 +3696,12 @@ function myFunctionanimated013() {
 
 <!-- <button type="button" onclick="myFunction()">Image par défaut</button> -->
   <!-- Requete Ajax ) suivre sur OCR -->
-<a href="#" onclick="myFunctionanimated014()"><img src="backgroundimage/miniatures/animated/fallout4.gif" id="Imageanim04"></a>
+<a href="#" onclick="myFunctionanimated014()"><img src="backgroundimage/miniatures/animated/pixel.jpg" id="Imageanim04"></a>
 
 <script>
 function myFunctionanimated014() {
     document.body.style.backgroundColor = "#f3f3f3";
-    document.body.style.backgroundImage = "url('backgroundimage/animated/fallout4.gif')";
+    document.body.style.backgroundImage = "url('backgroundimage/animated/pixel.gif')";
 
 }
 </script>
@@ -3786,7 +3792,7 @@ function myFunctionanimated018() {
 
 <div id="jQueryDialog38" style="z-index:703;" title="Calendrier d&#233;taill&#233;">
 <embed width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"
-   src="http://www.2017calendrier.fr/">
+   src="calendar/calendrier-2018.pdf">
 </div>
 
 <div id="jQueryDialog25" style="z-index:704;" title="Calculateur Euro (system/program/eurocalc)">
@@ -3810,7 +3816,7 @@ echo $_SERVER["REMOTE_ADDR"];
 
 ?></div>
 <div id="wb_Text26" style="position:absolute;left:15px;top:84px;width:453px;height:64px;z-index:238;">
-<span style="color:#000000;font-family:Arial;font-size:13px;">L'adresse IP inscrite ici dépend de votre carte réseau originelle et non pas du site internet du WebOS. Celle ci s'affiche en fonction de votre configuration&nbsp;; soit en Ipv4, ou bien en Ipv6. Elle ne peut pas être modifié via cette afficheur informatif.</span></div>
+<span style="color:#000000;font-family:Arial;font-size:13px;">L'adresse IP inscrite ici dépend de votre identité sur le web et non pas du site internet du WebOS. Celle ci s'affiche en fonction de votre configuration&nbsp;; soit en Ipv4, ou bien en Ipv6. Elle ne peut pas être modifié via cette afficheur informatif.</span></div>
 </div>
 
 <div id="jQueryDialog39" style="z-index:707;" title="Verification de la protection">
@@ -3855,7 +3861,8 @@ echo $_SERVER["REMOTE_ADDR"];
 
 <div id="jQueryDialog48" style="z-index:714;" title="Hebergeur d&#39;Images en ligne (serveur)">
 <div id="Html113" style="position:absolute;left:17px;top:19px;width:765px;height:476px;z-index:249">
-<object data="uploads/index.php" type="text/html" width="100%" height="100%" style="overflow:auto" ></object></div>
+<a href="uploads/index.php" target="uplfr1"> Retour racine </a>
+<object name="uplfr1" data="uploads/index.php" type="text/html" width="100%" height="100%" style="overflow:auto" ></object></div>
 <input type="button" id="Button33" onclick="$('#jQueryDialog67').dialog('open');return false;" name="" value="Ajouter une nouvelle image au dossier (publique)" style="position:absolute;left:20px;top:507px;width:762px;height:25px;z-index:250;">
 </div>
 
@@ -4085,7 +4092,7 @@ TimerStartTimer3();
 </div>
 <div id="jQueryDialog18" title="Modifier votre session ?">
 <div id="wb_Text89" style="position:absolute;left:9px;top:12px;width:364px;height:48px;text-align:justify;z-index:317;">
-<span style="color:#000000;font-family:Arial;font-size:13px;"><strong>Souhaitez-vous vraiment modifier votre session&nbsp;?</strong><br>Cela entrainera une fermeture de votre session mais ne vous deconnectera pas (vos Cookies doivent être autorisées).</span></div>
+<span style="color:#000000;font-family:Arial;font-size:13px;"><strong>Souhaitez-vous vraiment modifier votre session&nbsp;?</strong><br>Cela entrainera </span><span style="color:#FF4500;font-family:Arial;font-size:13px;"><u>une fermeture de votre session</u></span><span style="color:#000000;font-family:Arial;font-size:13px;"> mais ne vous deconnectera pas (vos Cookies doivent être autorisées).</span></div>
 <input type="button" id="Button29" onclick="$('#jQueryDialog18').dialog('close');return false;" name="" value="NON" style="position:absolute;left:35px;top:81px;width:96px;height:25px;z-index:318;">
 <input type="submit" id="Button30" onclick="window.location.href='./modifuser.php';return false;" name="" value="OUI" style="position:absolute;left:272px;top:81px;width:96px;height:25px;z-index:319;">
 </div>
@@ -4230,7 +4237,7 @@ TimerStartTimer3();
 </div>
 </div>
 <div id="wb_Text100" style="position:absolute;left:27px;top:13px;width:832px;height:32px;z-index:343;">
-<span style="color:#000000;font-family:Arial;font-size:13px;">Déposer sur le serveur une image de votre choix (taille limite&nbsp;: 4mo par image)<br>Pour partager votre image notez le chemin&nbsp;: </span><span style="color:#0000CD;font-family:Arial;font-size:13px;"><strong>[votre serveur]/uploads/[le nom de votre fichier].[son extension]</strong></span><span style="color:#000000;font-family:Arial;font-size:13px;">&nbsp; et partagez le à vos amies&nbsp;!</span></div>
+<span style="color:#000000;font-family:Arial;font-size:13px;">Déposer sur le serveur une image de votre choix (taille limite de résolution des images&nbsp;: 8000 x 8000)&nbsp;:<br>Pour partager votre image notez le chemin&nbsp;: </span><span style="color:#0000CD;font-family:Arial;font-size:13px;"><strong>[le serveur]/uploads/[le nom de votre fichier].[son extension]</strong></span><span style="color:#000000;font-family:Arial;font-size:13px;">&nbsp; et partagez le à vos amies&nbsp;!</span></div>
 </div>
 
 <div id="jQueryDialog13" style="z-index:746;" title="Messagerie personelle Europ&#233;enne (Net Courriel)">
@@ -4332,7 +4339,7 @@ TimerStartTimer9();
 </div>
 <div id="jQueryDialog32" style="z-index:756;" title="Informations sur le WebOS">
 <div id="wb_Text32" style="position:absolute;left:27px;top:68px;width:714px;height:451px;text-align:center;z-index:359;">
-<span style="color:#000000;font-family:Arial;font-size:13px;"><strong>Rynna WebOS est un WebOS libre d'utilisation pour tous.</strong><br>Son code source est disponible publiquement sur le dépôt GitHub.<br><br></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><strong>NOM DE CODE DE VERSION&nbsp;:</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;"><strong> </strong></span><span style="color:#4169E1;font-family:Arial;font-size:16px;"><strong>Vegasis</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><strong> (30.0 et supérieur)</strong></span><span style="color:#000000;font-family:Arial;font-size:13px;"><br><br><strong>Liste des développeurs&nbsp;: <br></strong><br><em>Société AlgoStep Company&nbsp;:<br></em><br>Loïc A.<br>Maxime D.<br><br><em>Développeurs qui ont aidés à son développement ou pour leurs avis (remerciements)&nbsp;: <br></em><br>Polien (veler Software)<br>Softwarezatorman (veler Software)<br>Lereparateurdepc (veler Software)<br>Etienne Baudoux (IRL)<br>Jeremy60800 (veler Software)<br>Fandeonepiece2 (veler Software)<br>Coincero (veler Software)<br>Maxime G. (IRL)<br>Random Coder 99 (OpenClassRoom)<br>Jona (CCSources Co.)<br>Jeremy N. (IRL)<br><br>Merci à tout nos amies à Rouen pour leurs conseils et leurs professionnalismes durant le développement long et fastidieux de ce projet&nbsp;!</span></div>
+<span style="color:#000000;font-family:Arial;font-size:13px;"><strong>Rynna WebOS est un WebOS libre d'utilisation pour tous.</strong><br>Son code source est disponible publiquement sur le dépôt GitHub.<br><br></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><strong>NOM DE CODE DE VERSION&nbsp;:</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;"><strong> </strong></span><span style="color:#00FF00;font-family:Arial;font-size:16px;"><strong>Crimeria</strong></span><span style="color:#00FF00;font-family:Arial;font-size:13px;"><strong> </strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><strong>(40.0 et supérieur)</strong></span><span style="color:#000000;font-family:Arial;font-size:13px;"><br><br><strong>Liste des développeurs&nbsp;: <br></strong><br><em>Société AlgoStep Company&nbsp;:<br></em><br>Loïc A.<br>Maxime D.<br><br><em>Développeurs qui ont aidés à son développement ou pour leurs avis (remerciements)&nbsp;: <br></em><br>Polien (veler Software)<br>Softwarezatorman (veler Software)<br>Lereparateurdepc (veler Software)<br>Etienne Baudoux (IRL)<br>Jeremy60800 (veler Software)<br>Fandeonepiece2 (veler Software)<br>Coincero (veler Software)<br>Maxime G. (IRL)<br>Random Coder 99 (OpenClassRoom)<br>Jona (CCSources Co.)<br>Jeremy N. (IRL)<br><br>Merci à tout nos amies à Rouen pour leurs conseils et leurs professionnalismes durant le développement long et fastidieux de ce projet&nbsp;!</span></div>
 <div id="wb_MaterialIcon13" style="position:absolute;left:4px;top:10px;width:37px;height:37px;text-align:center;z-index:360;">
 <a href="#" onclick="$('#jQueryDialog11').dialog('open');$('#jQueryDialog32').dialog('close');return false;"><div id="MaterialIcon13"><i class="material-icons">&#xe5cb;</i></div></a></div>
 </div>
@@ -4358,11 +4365,11 @@ TimerStartTimer40();
 <div id="wb_Image43" style="position:absolute;left:89px;top:39px;width:913px;height:98px;z-index:361;">
 <img src="images/coque_sfx_3D.png" id="Image43" alt=""></div>
 <div id="wb_Image51" style="position:absolute;left:732px;top:30px;width:80px;height:80px;z-index:362;">
-<a href="#" onclick="$('#jQueryDialog76').dialog('open');return false;" onmouseenter="AnimateCss('wb_Image51', 'transform-wiggle', 0, 500);return false;"><img src="images/nowcoworking.png" id="Image51" alt=""></a></div>
+<a href="#" onclick="$('#jQueryDialog76').dialog('open');self.frames['nowcoo1'].location.href = './addeosapps/nowcoworking.php';return false;" onmouseenter="AnimateCss('wb_Image51', 'transform-wiggle', 0, 500);return false;"><img src="images/nowcoworking.png" id="Image51" alt=""></a></div>
 <div id="wb_Image46" style="position:absolute;left:508px;top:17px;width:110px;height:110px;z-index:363;">
 <a href="#" onclick="$('#jQueryDialog68').dialog('open');self.frames['opcro1'].location.href = './addeosapps/ocr.php';return false;" onmouseenter="AnimateCss('wb_Image46', 'transform-wiggle', 0, 500);return false;"><img src="images/OCR.png" id="Image46" alt=""></a></div>
 <div id="wb_Image47" style="position:absolute;left:386px;top:17px;width:110px;height:110px;z-index:364;">
-<a href="#" onclick="$('#jQueryDialog55').dialog('open');self.frames['szfor1'].location.href = './addeosapps/szforum.php';return false;" onmouseenter="AnimateCss('wb_Image47', 'transform-wiggle', 0, 500);return false;"><img src="images/sz.png" id="Image47" alt=""></a></div>
+<a href="#" onclick="$('#jQueryDialog55').dialog('open');self.frames['szfory1'].location.href = './addeosapps/szforum.php';return false;" onmouseenter="AnimateCss('wb_Image47', 'transform-wiggle', 0, 500);return false;"><img src="images/sz.png" id="Image47" alt=""></a></div>
 <div id="wb_Image48" style="position:absolute;left:272px;top:17px;width:110px;height:110px;z-index:365;">
 <a href="#" onclick="$('#jQueryDialog31').dialog('open');self.frames['lemodk1'].location.href = './addeosapps/lemonde.php';return false;" onmouseenter="AnimateCss('wb_Image48', 'transform-wiggle', 0, 500);return false;"><img src="images/lemonde.png" id="Image48" alt=""></a></div>
 <div id="wb_Image49" style="position:absolute;left:153px;top:17px;width:110px;height:110px;z-index:366;">
@@ -4400,7 +4407,8 @@ TimerStartTimer41();
 </div>
 
 <div id="jQueryDialog55" style="z-index:762;" title="Forum Etienne BAUDOUX - Forum li&#233; au projet Rynna WebOS">
-<object data="addeosapps/sz.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
+<a href="addeosapps/szforum.php" target="szfory1"> Charger/Actualiser </a>
+<object name="szfory1" data="thread.txt" type="text/html" width="100%" height="100%" style="overflow:auto" ></object>
 </div>
 
 <div id="jQueryDialog68" style="z-index:763;" title="OpenClassRoom - Tutoriels et cours en ligne">
@@ -4414,7 +4422,8 @@ TimerStartTimer41();
 </div>
 
 <div id="jQueryDialog76" style="z-index:765;" title="Now-Coworking - Espace Coworking pour votre Entreprise">
-<object data="addeosapps/nowcoworking.php" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
+<a href="addeosapps/nowcoworking.php" target="nowcoo1"> Charger/Actualiser </a>
+<object name="nowcoo1" data="thread.txt" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog62" style="z-index:766;" title="Notes dropbox - FARGO (gratuit)">
@@ -4590,7 +4599,7 @@ TimerStartTimer4();
 <div id="wb_Text17" style="position:absolute;left:8px;top:8px;width:163px;height:15px;z-index:389;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:12px;"><strong><em>Fonctions bureautique&nbsp;&nbsp; &nbsp;&nbsp; </em></strong></span><span style="color:#FF0000;font-family:Arial;font-size:12px;"><strong><a href="#" onclick="ShowObject('Layer26', 0);return false;">X</a></strong></span></div>
 <hr id="Line2" style="position:absolute;left:7px;top:35px;width:164px;z-index:390;">
-<div id="wb_Text22" style="position:absolute;left:8px;top:59px;width:163px;height:16px;z-index:391;cursor: pointer;" onclick="$('#jQueryDialog89').dialog('open');$('#jQueryDialog37').dialog('open');ShowObject('Layer26', 0);return false;">
+<div id="wb_Text22" style="position:absolute;left:8px;top:59px;width:163px;height:16px;z-index:391;cursor: pointer;" onclick="$('#jQueryDialog37').dialog('open');ShowObject('Layer26', 0);return false;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:13px;">Changer fond écran</span></div>
 <div id="wb_Text48" style="position:absolute;left:7px;top:88px;width:163px;height:16px;z-index:392;cursor: pointer;" onclick="ShowObject('Layer22', 1);ShowObject('Layer26', 0);return false;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:13px;">Afficher la BottomBar</span></div>
@@ -4874,7 +4883,7 @@ TimerStartTimer49();
    src="http://rynnawebos.fr/login/maj.php">
 </iframe></div>
 <div id="wb_Text43" style="position:absolute;left:14px;top:68px;width:848px;height:24px;text-align:center;z-index:521;">
-<span style="color:#FF6347;font-family:Arial;font-size:21px;"><strong>38.0</strong></span></div>
+<span style="color:#FF6347;font-family:Arial;font-size:21px;"><strong>40.0</strong></span></div>
 <div id="wb_Text42" style="position:absolute;left:14px;top:120px;width:460px;height:16px;z-index:522;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">La dernière version disponible (code source) est la suivante&nbsp;:</span></div>
 <div id="wb_Text46" style="position:absolute;left:14px;top:18px;width:460px;height:16px;z-index:523;">
@@ -5192,7 +5201,7 @@ clock();
 
 </div>
 <div id="wb_FontAwesomeIcon3" style="position:absolute;left:107px;top:444px;width:34px;height:30px;text-align:center;z-index:559;">
-<a href="#" onclick="$('#jQueryDialog89').dialog('open');ShowObject('Layer5', 0);$('#jQueryDialog37').dialog('open');return false;"><div id="FontAwesomeIcon3"><i class="fa fa-file-image-o">&nbsp;</i></div></a></div>
+<a href="#" onclick="ShowObject('Layer5', 0);$('#jQueryDialog37').dialog('open');return false;"><div id="FontAwesomeIcon3"><i class="fa fa-file-image-o">&nbsp;</i></div></a></div>
 <div id="wb_Text85" style="position:absolute;left:92px;top:476px;width:64px;height:24px;text-align:center;z-index:560;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:9.3px;">Changer fond d'écran</span></div>
 <div id="wb_FontAwesomeIcon26" style="position:absolute;left:181px;top:444px;width:34px;height:30px;text-align:center;z-index:561;">

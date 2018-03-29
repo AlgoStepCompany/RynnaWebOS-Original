@@ -1,7 +1,7 @@
 <?php
 $uploaddir = 'uploads';
 $allowed = array('jpg','jpeg','gif','png','tga','dds');
-$max_size = 4096 * 1024;
+$max_size = 8000 * 8000;
 while (list ($key, $val) = each ($_FILES))
 {
    if ($_FILES[$key]['size'] <= $max_size) 

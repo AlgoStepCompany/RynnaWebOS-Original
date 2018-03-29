@@ -2147,7 +2147,7 @@ body
 }
 #MaterialIcon22 i
 {
-   color: #D3D3D3;
+   color: #A9A9A9;
    display: inline-block;
    font-size: 36px;
    line-height: 36px;
@@ -2156,7 +2156,7 @@ body
 }
 #wb_MaterialIcon22:hover i
 {
-   color: #808080;
+   color: #DCDCDC;
 }
 .jQueryToolTip5
 {
@@ -6387,7 +6387,7 @@ body
    background-repeat: no-repeat;
    background-position: left top;
    background-size: 100% 100%;
-   opacity: 0.85;
+   opacity: 0.80;
 }
 #Layer8
 {

@@ -336,7 +336,7 @@ body
 {
    background-color: transparent;
    background-image: none;
-   border: 1px #FFA500 solid;
+   border: 1px #F27900 solid;
 }
 #Layer3
 {
@@ -344,11 +344,11 @@ body
    background-image: url(images/newscreenx2.jpg);
    background-repeat: no-repeat;
    background-position: left top;
-   border: 2px #FFA500 solid;
+   border: 2px #D26900 solid;
    border-radius: 2px;
-   -moz-box-shadow: 10px 10px 7px #FFAF4F;
-   -webkit-box-shadow: 10px 10px 7px #FFAF4F;
-   box-shadow: 10px 10px 7px #FFAF4F;
+   -moz-box-shadow: 10px 10px 7px #D26900;
+   -webkit-box-shadow: 10px 10px 7px #D26900;
+   box-shadow: 10px 10px 7px #D26900;
    opacity: 0.90;
 }
 #Button3
@@ -557,7 +557,7 @@ body
 #Layer4
 {
    background-color: transparent;
-   background-image: url(images/vegasis_logo.png);
+   background-image: url(images/crimeria_logo_webOS.png);
    background-repeat: no-repeat;
    background-position: left top;
    background-size: 100% 100%;
@@ -1360,7 +1360,7 @@ body
 }
 #MaterialIcon1 i
 {
-   color: #4169E1;
+   color: #DCDCDC;
    display: inline-block;
    font-size: 77px;
    line-height: 80px;
@@ -1369,7 +1369,7 @@ body
 }
 #wb_MaterialIcon1:hover i
 {
-   color: #4169E1;
+   color: #FFFFFF;
 }
 #Layer9
 {
