@@ -1791,8 +1791,8 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    $("#jQueryDialog6").dialog(jQueryDialog6Options);
    var jQueryDialog96Options =
    {
-      width: 813,
-      height: 597,
+      width: 1038,
+      height: 598,
       position: { my: 'center', at: 'center', of: window },
       resizable: true,
       draggable: true,
@@ -5324,7 +5324,7 @@ function TimerStopTimer19()
 </div>
 
 <div id="jQueryDialog96" style="z-index:826;" title="Manuel d&#39;utilisateur du WebOS">
-<object data="manuel.pdf" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
+<object data="Manuel.pdf" type="text/html" width="100%" height="100%" style="overflow:hidden" ></object>
 </div>
 
 <div id="jQueryDialog97" style="z-index:827;" title="Manuel en vid&#233;o ?">
