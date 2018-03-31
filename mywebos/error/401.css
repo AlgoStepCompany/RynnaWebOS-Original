@@ -16,6 +16,7 @@ body
 .jQueryDialog2.ui-dialog
 {
    padding: 4px 4px 4px 4px;
+   display: none;
 }
 .jQueryDialog2.ui-dialog .ui-dialog-title
 {
@@ -39,15 +40,10 @@ body
 {
    border-radius: 0px;
 }
-#Button2
+#jQueryDialog2.ui-dialog-content
 {
-   border: 1px #A9A9A9 solid;
-   background-color: #FFA500;
-   background-image: none;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 16px;
+   overflow: visible;
+   padding: 0;
 }
 #wb_Text2 
 {

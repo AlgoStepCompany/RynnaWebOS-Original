@@ -8,15 +8,15 @@
 <link href="font-awesome.min.css" rel="stylesheet">
 <link href="RynnaWebOS.css" rel="stylesheet">
 <link href="409.css" rel="stylesheet">
-<script src="jquery-3.2.1.min.js"></script>
+<script src="jquery-3.3.1.min.js"></script>
 <script src="jquery-ui.min.js"></script>
 <script>
 $(document).ready(function()
 {
    var jQueryDialog2Options =
    {
-      width: 631,
-      height: 335,
+      width: 629,
+      height: 345,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: false,

@@ -16,6 +16,7 @@ body
 .jQueryDialog2.ui-dialog
 {
    padding: 4px 4px 4px 4px;
+   display: none;
 }
 .jQueryDialog2.ui-dialog .ui-dialog-title
 {
@@ -38,6 +39,11 @@ body
 .jQueryDialog2, .jQueryDialog2 .ui-corner-all
 {
    border-radius: 0px;
+}
+#jQueryDialog2.ui-dialog-content
+{
+   overflow: visible;
+   padding: 0;
 }
 #Button2
 {
