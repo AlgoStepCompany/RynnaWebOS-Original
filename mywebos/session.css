@@ -1485,17 +1485,17 @@ body
 }
 #FontAwesomeIcon15
 {
-   height: 28px;
+   height: 31px;
    width: 56px;
 }
 #FontAwesomeIcon15 i
 {
    color: #FFA500;
    display: inline-block;
-   font-size: 28px;
-   line-height: 28px;
+   font-size: 31px;
+   line-height: 31px;
    vertical-align: middle;
-   width: 24px;
+   width: 27px;
 }
 #wb_FontAwesomeIcon15:hover i
 {

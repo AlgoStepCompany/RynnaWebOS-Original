@@ -50,6 +50,7 @@ if (session_id() == "")
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta charset="utf-8">
 <title>RynnaWebOS</title>
+<meta name="author" content="AlgoStep Company">
 <meta name="generator" content="AlgoStep Company - 2006-2017">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="rynnalogofavicon.ico" rel="shortcut icon" type="image/x-icon">
@@ -1915,6 +1916,15 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 <span style="color:#000000;font-family:Arial;font-size:13px;">Ci-dessous retrouvez les dernières mises à jour de votre WebOS. Seul les 6 dernières mises à jours sont indiqués&nbsp;:</span></div>
 <div id="Blog1" style="overflow-y:scroll;position:absolute;left:18px;top:152px;width:689px;height:171px;z-index:3;">
 <div class="blogitem">
+   <span class="blogsubject">Version 40.1</span>
+   <div class="no-thumb"></div>
+   <div class="blogdate">31/03/18<br></div>
+   <span style="color:#000000;">- Correction de certains possibles bugs sur la durée suite au passage en version Crimeria<br>
+- Ajustement du code (PHP 7 - Série 12.5)</span><br>
+   <div class="blogcomments"></div>
+</div>
+<div class="clearfix visible-col1"></div>
+<div class="blogitem">
    <span class="blogsubject">Version 40.0</span>
    <div class="no-thumb"></div>
    <div class="blogdate">29/03/18<br></div>
@@ -1967,18 +1977,6 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    <div class="blogcomments"></div>
 </div>
 <div class="clearfix visible-col1"></div>
-<div class="blogitem">
-   <span class="blogsubject">Version 36.9</span>
-   <div class="no-thumb"></div>
-   <div class="blogdate">21/03/18<br></div>
-   <span style="color:#000000;">- Ajustement général, à présent 27 applications internes et externes sont appelés que lors de l'appel (clic) de l'utilisateur dans sa session.<br>
-Cela permet une économie de données de plus de 80% au démarrage de la session et un démarrage de session propre en moins de 13 secondes (auparavant 1 minute environ).<br>
-- Economie de 55Mo de données reçus par actualisation<br>
-- Démarrage plus long des applications, qui ne s'éxecute qu'a la demande de l'utilisateur et ne sont plus prêt chargés dans la session<br>
-- Stabilisation générale en cours ; cette version ne sortira pas sur GITHUB (code source). Pour le code source, merci d'attendre la version 37.0 stabilisatrice du projet !</span><br>
-   <div class="blogcomments"></div>
-</div>
-<div class="clearfix visible-col1"></div>
 </div>
 <input type="button" id="Button12" onclick="ShowObject('Layer1', 0);return false;" name="" value="Cliquez ici pour fermer la fenêtre et commencer à utiliser votre session" style="position:absolute;left:18px;top:336px;width:689px;height:25px;z-index:4;">
 </div>
@@ -1996,7 +1994,7 @@ Cela permet une économie de données de plus de 80% au démarrage de la session
 <div id="wb_PageHeader">
 <div id="PageHeader">
 <div class="col-1">
-<div id="wb_FontAwesomeIcon15" style="display:inline-block;width:56px;height:28px;text-align:center;z-index:9;">
+<div id="wb_FontAwesomeIcon15" style="display:inline-block;width:56px;height:31px;text-align:center;z-index:9;">
 <a href="#" onclick="ShowObject('Layer5', 1);TimerStartTimer19();return false;" ondblclick="TimerStartTimer11();return false;"><div id="FontAwesomeIcon15"><i class="fa fa-yelp">&nbsp;</i></div></a>
 </div>
 <div id="wb_MaterialIcon3" style="display:inline-block;width:34px;height:36px;text-align:center;z-index:10;">
@@ -5214,7 +5212,7 @@ clock();
 <span style="color:#FFFFFF;font-family:Arial;font-size:9.3px;">Options de session</span></div>
 <div id="wb_FontAwesomeIcon29" style="position:absolute;left:38px;top:375px;width:45px;height:39px;text-align:center;z-index:565;">
 <a href="#" onclick="$('#jQueryDialog96').dialog('open');ShowObject('Layer5', 0);$('#jQueryDialog97').dialog('open');return false;"><div id="FontAwesomeIcon29"><i class="fa fa-file-pdf-o">&nbsp;</i></div></a></div>
-<div id="wb_Text106" style="position:absolute;left:92px;top:387px;width:220px;height:14px;z-index:566;cursor: pointer;" onclick="$('#jQueryDialog96').dialog('open');ShowObject('Layer5', 0);$('#jQueryDialog97').dialog('open');return false;">
+<div id="wb_Text106" style="position:absolute;left:92px;top:387px;width:210px;height:14px;z-index:566;cursor: pointer;" onclick="$('#jQueryDialog96').dialog('open');ShowObject('Layer5', 0);$('#jQueryDialog97').dialog('open');return false;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:11px;">Lire le manuel d'utilisation</span></div>
 </div>
 <div id="Layer12" style="position:absolute;text-align:left;left:949px;top:245px;width:593px;height:279px;z-index:818;">
