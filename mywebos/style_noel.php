@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta charset="utf-8">
 <title>Untitled Page</title>
 <meta name="author" content="AlgoStep Company">
@@ -8,7 +9,7 @@
 <link href="rynnawebosV3/jquery-ui.min.css" rel="stylesheet">
 <link href="WebOSKernel.css" rel="stylesheet">
 <link href="style_noel.css" rel="stylesheet">
-<script src="jquery-3.2.1.min.js"></script>
+<script src="jquery-3.3.1.min.js"></script>
 <script src="jquery-ui.min.js"></script>
 <script src="listview.min.js"></script>
 <script src="wwb12.min.js"></script>
@@ -17,8 +18,8 @@ $(document).ready(function()
 {
    var jQueryDialog1Options =
    {
-      width: 357,
-      height: 270,
+      width: 355,
+      height: 280,
       position: { my: 'left top', at: 'left+18 top+235', of: window },
       resizable: true,
       draggable: true,
@@ -31,8 +32,8 @@ $(document).ready(function()
    $("#jQueryDialog1").dialog(jQueryDialog1Options);
    var jQueryDialog2Options =
    {
-      width: 357,
-      height: 270,
+      width: 355,
+      height: 280,
       position: { my: 'left top', at: 'left+58 top+286', of: window },
       resizable: true,
       draggable: true,
@@ -45,8 +46,8 @@ $(document).ready(function()
    $("#jQueryDialog2").dialog(jQueryDialog2Options);
    var jQueryDialog3Options =
    {
-      width: 357,
-      height: 270,
+      width: 355,
+      height: 280,
       position: { my: 'left top', at: 'left+109 top+335', of: window },
       resizable: true,
       draggable: true,
@@ -59,8 +60,8 @@ $(document).ready(function()
    $("#jQueryDialog3").dialog(jQueryDialog3Options);
    var jQueryDialog4Options =
    {
-      width: 357,
-      height: 270,
+      width: 355,
+      height: 280,
       position: { my: 'left top', at: 'left+162 top+384', of: window },
       resizable: true,
       draggable: true,
@@ -73,8 +74,8 @@ $(document).ready(function()
    $("#jQueryDialog4").dialog(jQueryDialog4Options);
    var jQueryDialog5Options =
    {
-      width: 697,
-      height: 119,
+      width: 695,
+      height: 129,
       position: { my: 'left top', at: 'left+514 top+21', of: window },
       resizable: true,
       draggable: true,
@@ -87,8 +88,8 @@ $(document).ready(function()
    $("#jQueryDialog5").dialog(jQueryDialog5Options);
    var jQueryDialog6Options =
    {
-      width: 676,
-      height: 565,
+      width: 674,
+      height: 575,
       position: { my: 'left top', at: 'left+550 top+173', of: window },
       resizable: true,
       draggable: true,

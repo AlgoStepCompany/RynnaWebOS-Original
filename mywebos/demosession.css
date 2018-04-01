@@ -2147,7 +2147,7 @@ body
 }
 #MaterialIcon22 i
 {
-   color: #A9A9A9;
+   color: #808080;
    display: inline-block;
    font-size: 36px;
    line-height: 36px;
@@ -2343,56 +2343,141 @@ body
    overflow: visible;
    padding: 0;
 }
-#jQueryAccordion1
+#jQueryAccordion1 *, #jQueryAccordion1 *::before, #jQueryAccordion1 *::after
 {
-   width: 100%;
-   height: 100%;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
 }
-#wb_jQueryAccordion1 .ui-helper-reset
+#jQueryAccordion1 .panel
 {
-   line-height: normal !important;
-   font-size: 1em !important;
+   background-color: #F5F5F5;
+   background-image: none;
+   border: 1px solid transparent;
+   border-radius: 4px;
+   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+   box-shadow: 0px 1px 1px rgba(0,0,0,0.05);
+   margin-bottom: 1px;
+   overflow: hidden;
+   text-align: left;
 }
-#jQueryAccordion1 .ui-accordion-header
+#jQueryAccordion1 .panel-default
 {
+   border-color: #FFA500;
+}
+#jQueryAccordion1 .panel-group .panel
+{
+   margin-bottom: 0px;
+   overflow: hidden;
+   border-radius: 4px;
+}
+#jQueryAccordion1 .panel-group .panel + .panel
+{
+   margin-top: 5px;
+}
+#jQueryAccordion1 .panel-heading
+{
+   padding: 9px 10px 9px 8px;
+   border-bottom: 1px solid transparent;
+   border-top-right-radius: 4px;
+   border-top-left-radius: 4px;
+}
+#jQueryAccordion1 .panel-group .panel-heading
+{
+   border-bottom: 0;
+}
+#jQueryAccordion1 .panel-default > .panel-heading
+{
+   background-color: #4F4F4F;
+   background-image: none;
+}
+#jQueryAccordion1 .panel-default.active
+{
+   border-color: #FFA500;
+}
+#jQueryAccordion1 .panel-default.active > .panel-heading
+{
+   background-color: #4F4F4F;
+   background-image: none;
+}
+#jQueryAccordion1 .panel-body
+{
+   height: 166px;
+   padding: 0px;
+   position: relative;
+}
+#jQueryAccordion1 .panel-body::before, #jQueryAccordion1 .panel-body::after
+{
+   display: table;
+   content: " ";
+}
+#jQueryAccordion1 .panel-body::after
+{
+   clear: both;
+}
+#jQueryAccordion1 .panel-group .panel-heading + .panel-collapse .panel-body
+{
+   border-top: 1px solid #FFA500;
+}
+#jQueryAccordion1 .panel-default > .panel-heading + .panel-collapse .panel-body
+{
+   border-top-color: #FFA500;
+}
+#jQueryAccordion1 .panel-title
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+   color: #FFFFFF;
    font-family: Arial;
    font-weight: normal;
    font-size: 13px !important;
    font-style: normal;
-   padding: 10px 10px 10px 10px;
-   text-align: left;
 }
-#jQueryAccordion1 h3
+#jQueryAccordion1 .panel-title > a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#jQueryAccordion1 .active .panel-title > a
+{
+   color: #FFFFFF;
+}
+#jQueryAccordion1 .collapse 
+{
+   display: none;
+}
+#jQueryAccordion1 .collapse.in
 {
    display: block;
-   margin: 0;
 }
-#jQueryAccordion1 .ui-accordion-header .ui-icon
+#jQueryAccordion1 .collapsing
 {
-   padding-right: 4px;
-}
-#jQueryAccordion1 .ui-accordion-content
-{
-   padding: 0;
    position: relative;
+   height: 0;
+   overflow: hidden;
+   -webkit-transition: height 0.35s linear;
+   transition: height 0.35s linear;
 }
-#jQueryAccordion1, #jQueryAccordion1 > .ui-corner-all, #jQueryAccordion1 > .ui-corner-top
+#jQueryAccordion1 .panel-default .panel-heading .panel-icon
 {
-   -webkit-border-top-left-radius: 0px;
-   -moz-border-top-left-radius: 0px;
-   border-top-left-radius: 0px;
-   -webkit-border-top-right-radius: 0px;
-   -moz-border-top-right-radius: 0px;
-   border-top-right-radius: 0px;
+   width: 16px;
+   height: 16px;
+   -webkit-box-sizing: content-box;
+   -moz-box-sizing: content-box;
+   box-sizing: content-box;
+   padding-right: 6px;
+   display: inline-block;
+   vertical-align: middle;
+   margin-top: -0.25em;
+   position: relative;
+   text-indent: -99999px;
+   overflow: hidden;
+   background-image: url(images/demosession-jQueryAccordion1-default.png);
+   background-repeat: no-repeat;
 }
-#jQueryAccordion1 .ui-corner-all, #jQueryAccordion1 .ui-corner-bottom
+#jQueryAccordion1 .panel-default.active .panel-heading .panel-icon
 {
-   -webkit-border-bottom-right-radius: 0px;
-   -moz-border-bottom-right-radius: 0px;
-   border-bottom-right-radius: 0px;
-   -webkit-border-bottom-left-radius: 0px;
-   -moz-border-bottom-left-radius: 0px;
-   border-bottom-left-radius: 0px;
+   background-image: url(images/demosession-jQueryAccordion1-active.png);
 }
 #wb_Text27 
 {

@@ -1342,9 +1342,9 @@ body
    border: 0px #245580 solid;
    text-align: center;
    padding: 0px 0px 0px 0px;
-   -webkit-animation: transform-scale-webos 1500ms ease-in-out 0ms infinite normal both;
-   -moz-animation: transform-scale-webos 1500ms ease-in-out 0ms infinite normal both;
-   animation: transform-scale-webos 1500ms ease-in-out 0ms infinite normal both;
+   -webkit-animation: ;
+   -moz-animation: ;
+   animation: ;
    vertical-align: top;
 }
 #wb_MaterialIcon1:hover

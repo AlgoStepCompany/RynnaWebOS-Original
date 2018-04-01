@@ -62,6 +62,8 @@ if (session_id() == "")
 <script src="jquery-3.3.1.min.js"></script>
 <script src="jquery-ui.min.js"></script>
 <script src="wb.stickylayer.min.js"></script>
+<script src="transition.min.js"></script>
+<script src="collapse.min.js"></script>
 <script src="jquery.ui.datepicker-fr.js"></script>
 <script src="wb.lazyload.min.js"></script>
 <script src="wb.rotate.min.js"></script>
@@ -465,7 +467,7 @@ $(document).ready(function()
    var jQueryDialog12Options =
    {
       width: 826,
-      height: 576,
+      height: 411,
       position: { my: 'center', at: 'center', of: window },
       resizable: false,
       draggable: true,
@@ -476,15 +478,14 @@ $(document).ready(function()
       classes: { 'ui-dialog': 'jQueryDialog12'} 
    };
    $("#jQueryDialog12").dialog(jQueryDialog12Options);
-   var jQueryAccordion1Options =
+   $("#jQueryAccordion1 .panel").on('show.bs.collapse', function()
    {
-      event: 'click',
-      animate: 'linear',
-      icons: {header:'ui-icon-radio-off', activeHeader:'ui-icon-bullet'},
-      header: 'h3',
-      heightStyle: 'fill'
-   };
-   $("#jQueryAccordion1").accordion(jQueryAccordion1Options);
+      $(this).addClass('active');
+   });
+   $("#jQueryAccordion1 .panel").on('hide.bs.collapse', function()
+   {
+      $(this).removeClass('active');
+   });
    var jQueryDialog27Options =
    {
       width: 736,
@@ -1916,6 +1917,15 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
 <span style="color:#000000;font-family:Arial;font-size:13px;">Ci-dessous retrouvez les dernières mises à jour de votre WebOS. Seul les 6 dernières mises à jours sont indiqués&nbsp;:</span></div>
 <div id="Blog1" style="overflow-y:scroll;position:absolute;left:18px;top:152px;width:689px;height:171px;z-index:3;">
 <div class="blogitem">
+   <span class="blogsubject">Version 40.2</span>
+   <div class="no-thumb"></div>
+   <div class="blogdate">01/04/18<br></div>
+   <span style="color:#000000;">- Mise à jour Kernel Jquery 3.3.1<br>
+- Ajustement taille du Gestionnaire d'Applications VIrtualisées</span><br>
+   <div class="blogcomments"></div>
+</div>
+<div class="clearfix visible-col1"></div>
+<div class="blogitem">
    <span class="blogsubject">Version 40.1</span>
    <div class="no-thumb"></div>
    <div class="blogdate">31/03/18<br></div>
@@ -1965,15 +1975,6 @@ $('#wb_Extension1').FileUploader({ headings: ['Nom', 'Taille', 'Vider la liste']
    <div class="no-thumb"></div>
    <div class="blogdate">22/03/18<br></div>
    <span style="color:#000000;">- Ajout d'une interface d'information sur la compatibilité des navigateurs internet pour l'utilisation du WebOS</span><br>
-   <div class="blogcomments"></div>
-</div>
-<div class="clearfix visible-col1"></div>
-<div class="blogitem">
-   <span class="blogsubject">Version 37.0</span>
-   <div class="no-thumb"></div>
-   <div class="blogdate">21/03/18<br></div>
-   <span style="color:#000000;">- Stabilisation du WebOS suite au nouveau fonctionnement kernel et Javascript employé pour les Applis Internes et Externes (thread-markers)<br>
-- Developpeurs, repportez vous au nouveau code source GitHub et le dossier appelé archive-developper</span><br>
    <div class="blogcomments"></div>
 </div>
 <div class="clearfix visible-col1"></div>
@@ -2505,10 +2506,16 @@ function drop(ev) {
 </div>
 
 <div id="jQueryDialog12" style="z-index:698;" title="Applications virtualis&#233;es">
-<div id="wb_jQueryAccordion1" style="position:absolute;left:9px;top:11px;width:788px;height:430px;z-index:138;">
-<div id="jQueryAccordion1">
-<h3>Origine Windows</h3>
-<div>
+<div id="wb_jQueryAccordion1" style="position:absolute;left:11px;top:11px;width:788px;height:314px;z-index:138;">
+<div id="jQueryAccordion1" class="panel-group">
+<div class="panel panel-default active">
+   <div class="panel-heading">
+      <h4 class="panel-title">
+         <a data-toggle="collapse" data-parent="#jQueryAccordion1" href="#jQueryAccordion1-collapse1"><span class="panel-icon"></span>Origine Windows</a>
+      </h4>
+   </div>
+   <div id="jQueryAccordion1-collapse1" class="panel-collapse collapsein in">
+      <div class="panel-body">
 <div id="wb_Image8" style="position:absolute;left:3px;top:1px;width:82px;height:82px;z-index:129;">
 <a href="javascript:popupwnd('https://office.live.com/start/Word.aspx?','no','no','no','yes','yes','no','20','20','920','750')" target="_self"><img src="images/word-live.png" id="Image8" alt="" title="Office 2016 (gratuit) - Word"></a></div>
 <div id="wb_Image11" style="position:absolute;left:137px;top:1px;width:82px;height:82px;z-index:130;">
@@ -2517,25 +2524,51 @@ function drop(ev) {
 <a href="javascript:popupwnd('https://keep.google.com/u/0/#home','no','no','no','yes','yes','no','20','20','950','650')" target="_self"><img src="images/keep-512.png" id="Image14" alt="" title="Google Keep - Bloc-Notes"></a></div>
 <div id="wb_Image9" style="position:absolute;left:71px;top:1px;width:82px;height:82px;z-index:132;">
 <a href="javascript:popupwnd('https://office.live.com/start/Excel.aspx?ui=fr-FR','no','no','no','yes','yes','no','20','20','920','750')" target="_self"><img src="images/excel-live.png" id="Image9" alt="" title="Office 2016 (gratuit) - Excel"></a></div>
+      </div>
+   </div>
 </div>
-<h3>Origine Linux</h3>
-<div>
+<div class="panel panel-default">
+   <div class="panel-heading">
+      <h4 class="panel-title">
+         <a data-toggle="collapse" data-parent="#jQueryAccordion1" href="#jQueryAccordion1-collapse2"><span class="panel-icon"></span>Origine Linux</a>
+      </h4>
+   </div>
+   <div id="jQueryAccordion1-collapse2" class="panel-collapse collapse">
+      <div class="panel-body">
 <div id="wb_Image1" style="position:absolute;left:3px;top:2px;width:85px;height:85px;z-index:133;">
 <a href="#" onclick="$('#jQueryDialog82').dialog('open');return false;"><img src="images/diJXUfgE_400x400.png" id="Image1" alt=""></a></div>
+      </div>
+   </div>
 </div>
-<h3>Origine MAC OSx</h3>
-<div>
+<div class="panel panel-default">
+   <div class="panel-heading">
+      <h4 class="panel-title">
+         <a data-toggle="collapse" data-parent="#jQueryAccordion1" href="#jQueryAccordion1-collapse3"><span class="panel-icon"></span>Origine MAC OSx</a>
+      </h4>
+   </div>
+   <div id="jQueryAccordion1-collapse3" class="panel-collapse collapse">
+      <div class="panel-body">
 <div id="wb_Image7" style="position:absolute;left:5px;top:4px;width:89px;height:89px;z-index:134;">
 <a href="#" onclick="$('#jQueryDialog79').dialog('open');return false;"><img src="images/256x256bb.png" id="Image7" alt=""></a></div>
 <div id="wb_Image16" style="position:absolute;left:82px;top:4px;width:89px;height:89px;z-index:135;">
 <a href="#" onclick="$('#jQueryDialog80').dialog('open');return false;"><img src="images/aplus-flv-to-apple-tv-converter.png" id="Image16" alt=""></a></div>
 <div id="wb_Image17" style="position:absolute;left:155px;top:5px;width:89px;height:89px;z-index:136;">
 <a href="#" onclick="$('#jQueryDialog81').dialog('open');return false;"><img src="images/Calculatrice_apple.png" id="Image17" alt=""></a></div>
+      </div>
+   </div>
 </div>
-<h3>Origine Android</h3>
-<div>
+<div class="panel panel-default">
+   <div class="panel-heading">
+      <h4 class="panel-title">
+         <a data-toggle="collapse" data-parent="#jQueryAccordion1" href="#jQueryAccordion1-collapse4"><span class="panel-icon"></span>Origine Android</a>
+      </h4>
+   </div>
+   <div id="jQueryAccordion1-collapse4" class="panel-collapse collapse">
+      <div class="panel-body">
 <div id="wb_Text27" style="position:absolute;left:16px;top:12px;width:717px;height:48px;z-index:137;">
 <span style="color:#000000;font-family:Arial;font-size:13px;"><em>Pour le moment aucune application Android n'est virtualisées.<br><br>Merci pour votre contribution&nbsp;!</em></span></div>
+      </div>
+   </div>
 </div>
 </div>
 </div>
@@ -4881,7 +4914,7 @@ TimerStartTimer49();
    src="http://rynnawebos.fr/login/maj.php">
 </iframe></div>
 <div id="wb_Text43" style="position:absolute;left:14px;top:68px;width:848px;height:24px;text-align:center;z-index:521;">
-<span style="color:#FF6347;font-family:Arial;font-size:21px;"><strong>40.0</strong></span></div>
+<span style="color:#FF6347;font-family:Arial;font-size:21px;"><strong>40.2</strong></span></div>
 <div id="wb_Text42" style="position:absolute;left:14px;top:120px;width:460px;height:16px;z-index:522;">
 <span style="color:#000000;font-family:Arial;font-size:13px;">La dernière version disponible (code source) est la suivante&nbsp;:</span></div>
 <div id="wb_Text46" style="position:absolute;left:14px;top:18px;width:460px;height:16px;z-index:523;">

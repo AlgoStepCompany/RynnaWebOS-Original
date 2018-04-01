@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" >
 	<url>
 		<loc>http://www.rynnawebos.fr/</loc>
-		<lastmod>2018-03-31</lastmod>
+		<lastmod>2018-04-01</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/session.php</loc>
-		<lastmod>2018-03-31</lastmod>
+		<lastmod>2018-04-01</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/modif.php</loc>
-		<lastmod>2018-03-31</lastmod>
+		<lastmod>2018-04-01</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/createuser.php</loc>
-		<lastmod>2018-03-31</lastmod>
+		<lastmod>2018-04-01</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/logoutuser.php</loc>
-		<lastmod>2018-03-31</lastmod>
+		<lastmod>2018-04-01</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
@@ -44,13 +44,13 @@
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/errormailstats.php</loc>
-		<lastmod>2018-03-31</lastmod>
+		<lastmod>2018-04-01</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/passwdok.php</loc>
-		<lastmod>2018-03-31</lastmod>
+		<lastmod>2018-04-01</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
@@ -590,31 +590,31 @@
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/refused.php</loc>
-		<lastmod>2018-03-31</lastmod>
+		<lastmod>2018-04-01</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/index.php</loc>
-		<lastmod>2018-03-29</lastmod>
+		<lastmod>2018-04-01</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/inituser.php</loc>
-		<lastmod>2018-03-31</lastmod>
+		<lastmod>2018-04-01</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/sessionmse.php</loc>
-		<lastmod>2018-03-31</lastmod>
+		<lastmod>2018-04-01</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/maj.php</loc>
-		<lastmod>2018-03-31</lastmod>
+		<lastmod>2018-04-01</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
@@ -632,7 +632,7 @@
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/install/lshdyatrjk2op2.php</loc>
-		<lastmod>2018-03-30</lastmod>
+		<lastmod>2018-04-01</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
@@ -674,13 +674,13 @@
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/initerror.php</loc>
-		<lastmod>2018-03-31</lastmod>
+		<lastmod>2018-04-01</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/demousr.php</loc>
-		<lastmod>2018-03-29</lastmod>
+		<lastmod>2018-04-01</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
@@ -716,7 +716,7 @@
 	</url>
 	<url>
 		<loc>http://www.rynnawebos.fr/demosession.php</loc>
-		<lastmod>2018-03-31</lastmod>
+		<lastmod>2018-04-01</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>

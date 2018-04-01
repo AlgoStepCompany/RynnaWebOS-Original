@@ -73,6 +73,7 @@ body
 .jQueryDialog1.ui-dialog
 {
    padding: 4px 4px 4px 4px;
+   display: none;
 }
 .jQueryDialog1.ui-dialog .ui-dialog-title
 {
@@ -96,6 +97,11 @@ body
 {
    border-radius: 0px;
 }
+#jQueryDialog1.ui-dialog-content
+{
+   overflow: visible;
+   padding: 0;
+}
 .ui-dialog.ui-widget
 {
    font-size: 1em !important;
@@ -103,6 +109,7 @@ body
 .jQueryDialog2.ui-dialog
 {
    padding: 4px 4px 4px 4px;
+   display: none;
 }
 .jQueryDialog2.ui-dialog .ui-dialog-title
 {
@@ -126,6 +133,11 @@ body
 {
    border-radius: 0px;
 }
+#jQueryDialog2.ui-dialog-content
+{
+   overflow: visible;
+   padding: 0;
+}
 .ui-dialog.ui-widget
 {
    font-size: 1em !important;
@@ -133,6 +145,7 @@ body
 .jQueryDialog3.ui-dialog
 {
    padding: 4px 4px 4px 4px;
+   display: none;
 }
 .jQueryDialog3.ui-dialog .ui-dialog-title
 {
@@ -156,6 +169,11 @@ body
 {
    border-radius: 0px;
 }
+#jQueryDialog3.ui-dialog-content
+{
+   overflow: visible;
+   padding: 0;
+}
 .ui-dialog.ui-widget
 {
    font-size: 1em !important;
@@ -163,6 +181,7 @@ body
 .jQueryDialog4.ui-dialog
 {
    padding: 4px 4px 4px 4px;
+   display: none;
 }
 .jQueryDialog4.ui-dialog .ui-dialog-title
 {
@@ -186,6 +205,11 @@ body
 {
    border-radius: 0px;
 }
+#jQueryDialog4.ui-dialog-content
+{
+   overflow: visible;
+   padding: 0;
+}
 .ui-dialog.ui-widget
 {
    font-size: 1em !important;
@@ -193,6 +217,7 @@ body
 .jQueryDialog5.ui-dialog
 {
    padding: 4px 4px 4px 4px;
+   display: none;
 }
 .jQueryDialog5.ui-dialog .ui-dialog-title
 {
@@ -216,6 +241,11 @@ body
 {
    border-radius: 0px;
 }
+#jQueryDialog5.ui-dialog-content
+{
+   overflow: visible;
+   padding: 0;
+}
 .ui-dialog.ui-widget
 {
    font-size: 1em !important;
@@ -223,6 +253,7 @@ body
 .jQueryDialog6.ui-dialog
 {
    padding: 4px 4px 4px 4px;
+   display: none;
 }
 .jQueryDialog6.ui-dialog .ui-dialog-title
 {
@@ -245,6 +276,11 @@ body
 .jQueryDialog6, .jQueryDialog6 .ui-corner-all
 {
    border-radius: 0px;
+}
+#jQueryDialog6.ui-dialog-content
+{
+   overflow: visible;
+   padding: 0;
 }
 #jQueryAccordion1
 {
@@ -523,7 +559,7 @@ body
    -moz-border-top-left-radius: 6px;
    border-top-left-radius: 6px;
 }
-.ui-slider-horizontal
+#jQuerySlider1.ui-slider-horizontal
 {
    height: 14px;
    width: 461px;
@@ -607,7 +643,9 @@ body
 }
 #jQueryTabs1 .ui-tabs-panel
 {
-   overflow: auto;
+   position: relative;
+   left: 0;
+   top: 0;
    padding: 0;
 }
 .jQueryToolTip1
