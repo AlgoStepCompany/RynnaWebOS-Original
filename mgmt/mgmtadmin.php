@@ -24,7 +24,7 @@ if (isset($_SESSION['expires_by']))
       exit;
    }
 }
-$users = array("root");
+$users = array("root"); // Changer le nom root par le nom de compte Administrateur avec autorisation d'accès à ce fichier !
 if (!in_array($_SESSION['username'], $users))
 {
    header('Location: ./index.php');
@@ -49,26 +49,19 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST
 <meta charset="utf-8">
 <title>ServerManager</title>
 <meta name="author" content="AlgoStep Company">
+<meta name="robots" content="index, follow">
+<meta name="revisit-after" content="1 day">
+<meta name="expires" content="Fri, 06 Apr 2018 16:24:51 GMT">
 <meta name="generator" content="AlgoStep Company - ServerManager">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="base/jquery-ui.min.css" rel="stylesheet">
 <link href="ServerManager.css" rel="stylesheet">
 <link href="mgmtadmin.css" rel="stylesheet">
 <script src="jquery-3.3.1.min.js"></script>
 <script src="jquery-ui.min.js"></script>
-<script src="listview.min.js"></script>
-<script src="transition.min.js"></script>
-<script src="tab.min.js"></script>
-<script src="wb.carousel.effects.min.js"></script>
 <script src="wwb12.min.js"></script>
 <script>
 $(document).ready(function()
 {
-   var ListView1Options =
-   {
-      inset: false
-   };
-   $("#ListView1").listview(ListView1Options);
    var jQueryDialog2Options =
    {
       width: 1153,
@@ -105,67 +98,6 @@ $(document).ready(function()
       classes: { 'ui-dialog': 'jQueryDialog4'} 
    };
    $("#jQueryDialog4").dialog(jQueryDialog4Options);
-   $("a[href*='#skills']").click(function(event)
-   {
-      event.preventDefault();
-      $('html, body').stop().animate({ scrollTop: $('#wb_skills').offset().top }, 600, 'linear');
-   });
-   var progressbar_uidesignOptions =
-   {
-      value: false
-   };
-   $("#progressbar_uidesign").progressbar(progressbar_uidesignOptions);
-   var progressbar_htmlOptions =
-   {
-      value: false
-   };
-   $("#progressbar_html").progressbar(progressbar_htmlOptions);
-   $("#jQueryTabs1 a").click(function()
-   {
-      $(this).tab('show');
-   });
-   var TextSliderOpts =
-   {
-      delay: 5000,
-      duration: 1000,
-      easing: 'easeOutQuint',
-      mode: 'fade',
-      direction: '',
-      scalemode: 1,
-      pagination: false,
-      start: 0
-   };
-   $("#TextSlider").on('activate', function(event, index)
-   {
-      switch(index)
-      {
-         case 0:
-            ShowObjectWithEffect('wb_Name1', 1, 'slideleft', 800, 'easeOutQuad');
-            ShowObjectWithEffect('Name2', 0, 'slideup', 500);
-            ShowObjectWithEffect('Name3', 0, 'slideup', 500);
-            ShowObjectWithEffect('wb_Line1', 1, 'fade', 500);
-            ShowObjectWithEffect('Line2', 0, 'fade', 500);
-            ShowObjectWithEffect('Line3', 0, 'fade', 500);
-            break;
-         case 1:
-            ShowObjectWithEffect('wb_Name1', 0, 'slideup', 500);
-            ShowObjectWithEffect('Name2', 1, 'slideleft', 800, 'easeOutQuad');
-            ShowObjectWithEffect('Name3', 0, 'slideup', 500);
-            ShowObjectWithEffect('wb_Line1', 0, 'fade', 500);
-            ShowObjectWithEffect('Line2', 1, 'fade', 500);
-            ShowObjectWithEffect('Line3', 0, 'fade', 500);
-            break;
-         case 2:
-            ShowObjectWithEffect('wb_Name1', 0, 'slideup', 500);
-            ShowObjectWithEffect('Name2', 0, 'slideup', 500);
-            ShowObjectWithEffect('', 1, 'slideleft', 800, 'easeOutQuad');
-            ShowObjectWithEffect('wb_Line1', 0, 'fade', 500);
-            ShowObjectWithEffect('Line2', 0, 'fade', 500);
-            ShowObjectWithEffect('Line3', 1, 'fade', 500);
-            break;
-      }
-   });
-   $("#TextSlider").carouseleffects(TextSliderOpts);
    var jQueryDialog1Options =
    {
       width: 1090,
@@ -178,149 +110,91 @@ $(document).ready(function()
       classes: { 'ui-dialog': 'jQueryDialog1'} 
    };
    $("#jQueryDialog1").dialog(jQueryDialog1Options);
-});
-</script>
-
-<script>
-$(document).ready(function()
-{
-   var $progressbars = $('.ui-progressbar');
-   
-   $progressbars.each(function() 
+   var jQueryDialog5Options =
    {
-     var $obj = $(this);
-     $obj.data('value', $obj.progressbar('option', 'value'));
-     $obj.data('done', false);
-     $obj.progressbar('option', 'value', 0);
-    
-     $obj.css('position', 'relative');
-     $obj.append('<div class="progress-label">0%</div>');
-   });
-   $(window).bind('scroll', function() 
+      width: 862,
+      height: 588,
+      position: { my: 'center', at: 'center', of: window },
+      resizable: true,
+      draggable: true,
+      closeOnEscape: true,
+      show: 'fade',
+      hide: 'fade',
+      autoOpen: false,
+      classes: { 'ui-dialog': 'jQueryDialog5'} 
+   };
+   $("#jQueryDialog5").dialog(jQueryDialog5Options);
+   var jQueryDialog6Options =
    {
-      $progressbars.each(function() 
-      {
-         var $obj = $(this);
-         if (!$obj.data('done') && $(window).scrollTop() + $(window).height() >= $obj.offset().top) 
-         {
-            $obj.data('done', true);
-            $obj.animate({scroll: 1}, 
-            { 
-               duration: 3000, 
-               step: function(now) 
-               {
-                  var $obj = $(this);
-                  var val = Math.round($obj.data('value') * now);
-                  $obj.progressbar('option', 'value', val);
-                  $obj.find('.progress-label').text(val + '%').css('color', (val > 50) ? "#FFFFFF" : "#265A88");
-               }
-            });
-         }
-      });
-   }).triggerHandler('scroll');
+      width: 1040,
+      height: 588,
+      position: { my: 'center', at: 'center', of: window },
+      resizable: true,
+      draggable: true,
+      closeOnEscape: true,
+      show: 'fade',
+      hide: 'fade',
+      autoOpen: false,
+      classes: { 'ui-dialog': 'jQueryDialog6'} 
+   };
+   $("#jQueryDialog6").dialog(jQueryDialog6Options);
 });
 </script>
 </head>
 <body>
+<div id="Layer3" style="position:fixed;text-align:left;left:0;top:0;bottom:0;width:266px;z-index:18;">
+<div id="wb_Text2" style="position:absolute;left:9px;top:82px;width:236px;height:16px;z-index:0;">
+<span style="color:#000000;font-family:Arial;font-size:13px;">Consoles Graphiques :</span></div>
+<input type="submit" id="Button1" onclick="$('#jQueryDialog1').dialog('open');return false;" name="" value="WebOS N°1 (/login)" style="position:absolute;left:31px;top:120px;width:204px;height:25px;z-index:1;">
+<input type="submit" id="Button2" onclick="$('#jQueryDialog2').dialog('open');return false;" name="" value="WebOS N°2 (/mywebos)" style="position:absolute;left:31px;top:155px;width:204px;height:25px;z-index:2;">
+<input type="submit" id="Button3" onclick="$('#jQueryDialog3').dialog('open');return false;" name="" value="WebOS N°3 (/webosbis)" style="position:absolute;left:31px;top:190px;width:204px;height:25px;z-index:3;">
+<input type="submit" id="Button4" onclick="$('#jQueryDialog4').dialog('open');return false;" name="" value="WebOS N°4 (/webos4)" style="position:absolute;left:31px;top:227px;width:204px;height:25px;z-index:4;">
+<div id="wb_Text3" style="position:absolute;left:8px;top:267px;width:237px;height:16px;z-index:5;">
+<span style="color:#000000;font-family:Arial;font-size:13px;">Management Serveur :</span></div>
+<input type="submit" id="Button5" onclick="$('#jQueryDialog5').dialog('open');return false;" name="" value="Ouvrir Racine Serveur" style="position:absolute;left:31px;top:302px;width:204px;height:25px;z-index:6;">
+<input type="submit" id="Button6" onclick="$('#jQueryDialog6').dialog('open');return false;" name="" value="Ouvrir Logs PHP/MySQL" style="position:absolute;left:31px;top:339px;width:204px;height:25px;z-index:7;">
+</div>
 
-<div id="jQueryDialog2" style="z-index:47;" title="WebOS 2 - Console graphique virtuelle">
+<!-- CHANGER LES CHEMINS DES SITES WEB VERS LE VOTRE OU REMPLACER http://rynnawebos.fr PAR 127.0.0.1 SI VOTRE SERVEUR EST LOCAL -->
+<div id="jQueryDialog2" style="z-index:20;" title="WebOS 2 - Console graphique virtuelle">
 <object data="http://rynnawebos.fr/mywebos/index.php" type="text/html" width="100%" height="100%" style="overflow:auto" ></object>
 </div>
 
-<div id="jQueryDialog3" style="z-index:48;" title="WebOS 3 - Console graphique virtuelle">
+<div id="jQueryDialog3" style="z-index:21;" title="WebOS 3 - Console graphique virtuelle">
 <object data="http://rynnawebos.fr/webosbis/index.php" type="text/html" width="100%" height="100%" style="overflow:auto" ></object>
 </div>
 
-<div id="jQueryDialog4" style="z-index:49;" title="WebOS 4 - Console graphique virtuelle">
+<div id="jQueryDialog4" style="z-index:22;" title="WebOS 4 - Console graphique virtuelle">
 <object data="http://rynnawebos.fr/webos4/index.php" type="text/html" width="100%" height="100%" style="overflow:auto" ></object>
 </div>
 
-<div id="wb_skills">
-<div id="skills">
-<div class="row">
-<div class="col-1">
-<div id="wb_Text6">
-<span style="color:#FFFFFF;font-family:Arial;font-size:32px;"><strong>Server-Manager </strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><em>(1.1)</em></span>
-</div>
-<div id="wb_Logout1" style="display:inline-block;width:100%;z-index:4;">
-<form name="logoutform" method="post" action="<?php echo basename(__FILE__); ?>" id="logoutform" style="display:inline">
-<input type="hidden" name="form_name" value="logoutform">
-<input type="submit" name="logout" value="Deconnexion de l'interface Management" id="Logout1">
-</form>
-
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="wb_LayoutGrid6">
-<div id="LayoutGrid6">
-<div class="row">
-<div class="col-1">
-<label for="" id="Label5" style="display:block;width:100%;;height:28px;line-height:28px;z-index:5;">Utilisateur en ligne (toutes bases de données) :</label>
-<div id="progressbar_html" style="display:block;width:100%;height:28px;z-index:6;">
-</div>
-<label for="" id="Label6" style="display:block;width:100%;;height:28px;line-height:28px;z-index:7;">Espace disque restant (serveur) :</label>
-<div id="progressbar_uidesign" style="display:block;width:100%;height:28px;z-index:8;">
-</div>
-
-</div>
-</div>
-</div>
-</div>
-<div id="Layer1" style="position:relative;text-align:left;width:100%;;height:551px;float:left;display:block;z-index:52;">
-<div id="jQueryTabs1" style="display:inline-block;width:100%;z-index:22;">
-<ul class="nav-tabs">
-<li class="active"><a href="#jquerytabs1-page-0"><span>Consoles WebOS</span></a></li>
-<li><a href="#jquerytabs1-page-1"><span>Navigateur de racine</span></a></li>
-</ul>
-<div class="tab-pane fade in active" id="jquerytabs1-page-0">
-<div id="Layer2" style="position:absolute;text-align:left;left:21px;top:51px;width:302px;height:436px;z-index:17;">
-<div id="wb_ListView1" style="position:absolute;left:37px;top:47px;width:226px;height:369px;z-index:10;">
-<ul id="ListView1" style="margin-top:0px;margin-bottom:0px;">
-<li><a href="" onclick="$('#jQueryDialog1').dialog('open');return false;">WebOS 1 (/login)</a></li>
-<li><a href="" onclick="$('#jQueryDialog2').dialog('open');return false;">WebOS 2 (/mywebos)</a></li>
-<li><a href="" onclick="$('#jQueryDialog3').dialog('open');return false;">WebOS 3 (/webosbis)</a></li>
-<li><a href="" onclick="$('#jQueryDialog4').dialog('open');return false;">WebOS 4 (/webos4)</a></li>
-</ul></div>
-<div id="wb_Text1" style="position:absolute;left:23px;top:14px;width:250px;height:16px;text-align:center;z-index:11;">
-<span style="color:#000000;font-family:Arial;font-size:13px;"><strong>- Consoles graphiques virtuelles -</strong></span></div>
-</div>
-<div id="Layer3" style="position:absolute;text-align:left;left:343px;top:51px;width:302px;height:436px;z-index:18;">
-<div id="wb_Text2" style="position:absolute;left:23px;top:14px;width:250px;height:16px;text-align:center;z-index:12;">
-<span style="color:#000000;font-family:Arial;font-size:13px;"><strong>- Actions générales -</strong></span></div>
-<input type="submit" id="Button1" onclick="shutdown -r 1;return false;" name="" value="Redémarrer le serveur Linux" style="position:absolute;left:20px;top:66px;width:261px;height:25px;z-index:13;">
-<input type="submit" id="Button2" onclick="shutdown /i;return false;" name="" value="Redémarrer le serveur Windows" style="position:absolute;left:20px;top:102px;width:261px;height:25px;z-index:14;">
-</div>
-<div id="Layer4" style="position:absolute;text-align:left;left:664px;top:51px;width:595px;height:436px;z-index:19;">
-<div id="wb_Text3" style="position:absolute;left:11px;top:14px;width:569px;height:16px;text-align:center;z-index:15;">
-<span style="color:#000000;font-family:Arial;font-size:13px;"><strong>- Détection serveur et informations -</strong></span></div>
-<div id="Html7" style="position:absolute;left:11px;top:62px;width:569px;height:357px;z-index:16">
-<object data="php-GtVF56aZ2aaLo.php" type="text/html" width="100%" height="100%" style="overflow:auto" ></object></div>
-</div>
-</div>
-<div class="tab-pane fade" id="jquerytabs1-page-1">
-<div id="Html1" style="position:absolute;left:20px;top:50px;width:880px;height:444px;z-index:20">
-<object data="z3rt6GV8uT44.php" type="text/html" width="100%" height="100%" style="overflow:auto" ></object></div>
-<div id="wb_Line1" style="position:absolute;left:912px;top:49px;width:2px;height:441px;z-index:21;">
-<img src="images/img0001.png" id="Line1" alt=""></div>
-</div>
-</div>
-</div>
-<div id="wb_TextSlider" style="position:absolute;left:0px;top:917px;width:1300px;height:267px;z-index:53;overflow:hidden;position:relative;">
-<div id="TextSlider" style="position:absolute">
-<div class="frame">
-<div id="wb_Review1" style="position:absolute;left:298px;top:63px;width:704px;height:32px;text-align:center;z-index:42;">
-<span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><em>Server-Manager - AlgoStep Company - Version alpha | Les paramètres sont à modifier par l'administrateur dans le code source du &quot;mgmt&quot;</em></span></div>
-<hr id="Line2" style="position:absolute;left:572px;top:137px;width:156px;z-index:43;">
-<div id="wb_Name1" style="position:absolute;left:414px;top:160px;width:472px;height:32px;text-align:center;z-index:44;">
-<span style="color:#1BBC9B;font-family:Arial;font-size:13px;"><strong>SITE OFFICIEL : rynnawebos.fr</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br></span></div>
-</div>
-</div>
-</div>
-<div id="jQueryDialog1" style="z-index:54;" title="WebOS 1 - Console graphique virtuelle">
+<div id="jQueryDialog1" style="z-index:23;" title="WebOS 1 - Console graphique virtuelle">
 <object data="http://rynnawebos.fr/login/index.php" type="text/html" width="100%" height="100%" style="overflow:auto" ></object>
 </div>
 
+<div id="Layer1" style="position:fixed;text-align:left;left:0;top:0;right:0;height:74px;z-index:24;">
+<div id="wb_Text1" style="position:absolute;left:14px;top:11px;width:420px;height:32px;z-index:13;">
+<span style="color:#FFFFFF;font-family:Arial;font-size:27px;"><strong><em>Server-Manager </em></strong></span><span style="color:#FFFFFF;font-family:'Lucida Sans Unicode';font-size:13px;"><strong>(V 2.0)</strong></span></div>
+<div id="Layer2" style="position:fixed;text-align:left;left:auto;right:0px;top:0px;width:318px;height:45px;z-index:14;">
+<div id="wb_Logout1" style="position:absolute;left:31px;top:7px;width:258px;height:29px;z-index:12;">
+<form name="logoutform" method="post" action="<?php echo basename(__FILE__); ?>" id="logoutform">
+<input type="hidden" name="form_name" value="logoutform">
+<input type="submit" name="logout" value="Quitter l'espace d'administration" id="Logout1">
+</form>
+</div>
+</div>
+</div>
+<div id="jQueryDialog5" style="z-index:25;" title="Racine Serveur (Management) - s&#233;curis&#233;">
+<object data="z3rt6GV8uT44.php" type="text/html" width="100%" height="100%" style="overflow:auto" ></object>
+</div>
+
+<div id="jQueryDialog6" style="z-index:26;" title="Logs PHP/MySQL Server (Management) - s&#233;curis&#233;">
+<object data="php-GtVF56aZ2aaLo.php" type="text/html" width="100%" height="100%" style="overflow:auto" ></object>
+</div>
+
+<textarea name="TextArea1" id="TextArea1" style="position:absolute;left:295px;top:102px;width:562px;height:429px;z-index:27;" rows="26" cols="91" spellcheck="false">Notes personnelles : 
+
+</textarea>
+<hr id="Line1" style="position:absolute;left:298px;top:559px;width:571px;z-index:28;">
 </body>
 </html>
