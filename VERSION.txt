@@ -3,7 +3,7 @@ Version Informations
 
 Nom du projet : Rynna WebOS
 Nom de code de la version de base : Original
-Nom de code de la version en cours de développement : Crimeria (depuis le 29/03/2018)
+Nom de code de la version en cours de développement : Razior (depuis le 15/04/2019)
 Code source mise à disposition (complet) depuis le : 30/08/2017, en version : 9.0 (Release)
 Version Thème : Original
 Autre version disponible : Nebular (disponible en thème patch) ; Luxury (disponible en thème patch) ; Redar (disponible en thème patch) ; LifeIsStrange (disponible en thème patch) ; MAC OSx (disponible en thème patch)
@@ -34,6 +34,7 @@ Pour cela diverses branches Github seront mises en places :
 - 20.0 - IMPORIUM
 - 30.0 - VEGASIS
 - 40.0 - CRIMERIA
+- 50.0 - RAZIOR
 
 A chaque mise en place du version terminée et fiable les nouvelles versions changeront de nom de code.
 Voici les futurs noms réservés au cours de l'évolution du projet :
@@ -43,12 +44,12 @@ Voici les futurs noms réservés au cours de l'évolution du projet :
 20.0 - IMPORIUM
 30.0 - VEGASIS
 40.0 - CRIMERIA
-<<< vous êtes ici : Rynna WebOS (30.0 et supérieur) Vegasis >>>
 50.0 - RAZIOR
+<<< vous êtes ici : Rynna WebOS (50.0 et supérieur) Razior >>>
 60.0 - STARIS
 70.0 - VALERION
 80.0 - KUMINO
-90.0 - SARRIS
+90.0 - KORINA
 REVIRA (100.0)
 ALTAIR (200.0)
 
