@@ -1,12 +1,12 @@
-# RynnaWebOS-Crimeria (basé/based sur/to RynnaWebOS-Vegasis et/and RynnaWebOS-Imporium/Solaris/Original)
+# RynnaWebOS-Razior (basé/based sur/to RynnaWebOS-Crimeria et/and RynnaWebOS-Vegasis/Imporium/Solaris/Original)
 
-### Vous visionnez en ce moment la version 41.1 (Release) du code source.
+### Vous visionnez en ce moment la version 50.0 (Release) du code source.
 Cette version sera mise à jour en fonction de l'avancement du WebOS.
 
-### You are currently viewing version 41.1 (Release) of the source code.
+### You are currently viewing version 50.0 (Release) of the source code.
 This version will be updated according to the progress of WebOS.
 
-# UPDATE : 04/04/2018
+# UPDATE : 17/04/2019
 
 ****************
 
