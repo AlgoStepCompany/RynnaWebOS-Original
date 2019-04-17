@@ -47,18 +47,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST
 <link href="RynnaWebOS.css" rel="stylesheet">
 <link href="initerror.css" rel="stylesheet">
 <script src="jquery-3.3.1.min.js"></script>
-<script src="wb.stickylayer.min.js"></script>
 <script src="jquery-ui.min.js"></script>
 <script>
 $(document).ready(function()
 {
-   $("#Layer1").stickylayer({orientation: 9, position: [0, 0], delay: 0});
    $("#jQueryButton1").button({ icon: 'ui-icon-play', iconPosition: 'beginning' });
 });
 </script>
 </head>
 <body>
-<div id="Layer1" style="position:absolute;text-align:center;left:18px;top:74px;width:536px;height:301px;z-index:4;">
+<div id="Layer1" style="position:fixed;text-align:center;left:50%;margin-left:-269px;top:50%;margin-top:-151px;width:536px;height:301px;z-index:4;">
 <div id="Layer1_Container" style="width:534px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <input type="button" id="Button2" name="" value="Choix d'ouverture de session" style="position:absolute;left:11px;top:10px;width:512px;height:25px;z-index:0;" disabled>
 <button type="button" id="jQueryButton1" onclick="window.location.href='./session.php';return false;" name="" value="LIVE SESSION" style="position:absolute;left:26px;top:172px;width:482px;height:40px;z-index:1;">LIVE SESSION</button>

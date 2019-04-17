@@ -3,6 +3,9 @@
 // Créer par Maxime G. avec le soutient de Loic A. (AlgoStep Company) dans le cadre du developpement de Rynna WebOS (ZIP ACTION ARCHIVE UsernameSession)
 // VERSION 1.1 - Ajout de la securite (correction faille)
 // VERSION 1.2 - Mise à niveau du patch page de sécurité
+// VERSION 1.3 - Mise à jour en ajoutant un nombre aleatoire pour corriger une faille de sécurité qui aurait pu permettre à un pirate de chercher le ZIP du compte root (root.zip)
+// VERSION 1.3 (suite) - Ce correctif s'inscrit dans la version Code Crimeria (41.0) et a été mise à jour un peux après le code sur GitHub le temps de procéder à des tests poussées pour éviter de faire connaître la faille aux non initiés /!\
+$randomzipname = rand (121, 9351423);
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST['form_name'] == 'logoutform')
 {
    if (session_id() == "")
@@ -48,7 +51,7 @@ class zip
    public function __construct( $file_name, $zip_directory)
    {
         $this->zip = new ZipArchive();
-        $this->path = $zip_directory . $file_name . '.zip';
+        $this->path = $zip_directory . $file_name . $randomzipname . '.zip';
         $this->zip->open( $this->path, ZipArchive::CREATE );
     }
       
@@ -108,7 +111,7 @@ class zip
 
 
 $path = __DIR__ . '\\home\\' . $_SESSION['username']; // Chemin du répertoire personnel
-$pathSave = __DIR__ . '\\home\\' . $_SESSION['username'] . '\\' . $_SESSION['username'] . '.zip'; // Chemin de sauvegarde de l'archive
+$pathSave = __DIR__ . '\\home\\' . $_SESSION['username'] . '\\' . $_SESSION['username'] . $randomzipname . '.zip'; // Chemin de sauvegarde de l'archive
 
 if (isset($_POST['process']) && $_POST['process'] == true) { // Si une requête est effectuée et qu'une variable 'process' vaut true
 
@@ -147,6 +150,7 @@ if (isset($_POST['process']) && $_POST['process'] == true) { // Si une requête 
     </body>
 
     <script type="text/javascript">
+			//var randomzipname = Math.floor(Math.random() * 99); // NE PAS UTILIER ! PROVOQUE ERREUR DU FICHIER (Correction N1RND)
         // Lorsque la page est chargée
         $(document).ready(function () {
 

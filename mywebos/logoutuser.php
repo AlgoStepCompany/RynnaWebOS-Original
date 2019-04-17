@@ -7,15 +7,6 @@
 <meta name="generator" content="AlgoStep Company - 2006-2017">
 <link href="RynnaWebOS.css" rel="stylesheet">
 <link href="logoutuser.css" rel="stylesheet">
-<script src="jquery-3.3.1.min.js"></script>
-<script src="wb.stickylayer.min.js"></script>
-<script>
-$(document).ready(function()
-{
-   $("#Layer2").stickylayer({orientation: 9, position: [0, 0], delay: 0});
-   $("#Layer3").stickylayer({orientation: 7, position: [0, 0], delay: 0});
-});
-</script>
 </head>
 <body>
 <script>
@@ -36,9 +27,9 @@ TimerStartTimer1();
 </script>
 
 <div id="Layer1" style="position:fixed;text-align:left;left:0;top:0;right:0;bottom:0;z-index:5;">
-<div id="Layer2" style="position:absolute;text-align:left;left:297px;top:166px;width:516px;height:347px;z-index:1;">
+<div id="Layer2" style="position:fixed;text-align:left;left:50%;margin-left:-258px;top:50%;margin-top:-173px;width:516px;height:347px;z-index:1;">
 </div>
-<div id="Layer3" style="position:absolute;text-align:left;left:250px;top:594px;width:610px;height:92px;z-index:2;">
+<div id="Layer3" style="position:fixed;text-align:left;left:50%;margin-left:-305px;top:auto;bottom:0px;width:610px;height:92px;z-index:2;">
 <div id="wb_Text1" style="position:absolute;left:31px;top:28px;width:549px;height:37px;text-align:center;z-index:0;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:16px;"><strong>Fermeture de votre session en cours.<br><em>Patienter...</em></strong></span></div>
 </div>

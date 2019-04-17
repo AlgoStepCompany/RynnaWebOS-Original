@@ -4,7 +4,7 @@ $mysql_username = '';
 $mysql_password = '';
 $mysql_database = '';
 $mysql_table = 'userswebos';
-$success_page = './createuser.php';
+$success_page = './prepauser.php';
 $error_message = "";
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST['form_name'] == 'signupform')
 {
@@ -64,12 +64,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST
       $sql = "INSERT `".$mysql_table."` (`username`, `password`, `fullname`, `email`, `active`, `code`) VALUES ('$newusername', '$crypt_pass', '$newfullname', '$newemail', 1, '$code')";
       $result = mysqli_query($db, $sql);
       mysqli_close($db);
-	  // Procédure de création de la session personnelle (30 secondes maximums de créations)
-	  // Dernière modification : Version 7.8 de Rynna WebOS
+	  // Procédure de création de la session personnelle (10 secondes maximums de créations)
+	  // Dernière modification : Version 41.2 de Rynna WebOS
 	  $mkusercreate = 'home/' . $_POST["username"];
-		$mktempusercreate = mkdir($mkusercreate);
+		$mktempusercreate = mkdir($mkusercreate); // Création du dossier de session du meme nom que la variable de session basé sur le Cookie username
 		// Nouvelle ajout : le dossier config pour les nouveaux comptes pour les sessions personnalisables
 		mkdir("$mkusercreate/config/");
+		// Création du nouveau dossier myapps dont le but sera de contenir les applications télécharger de la bibliothèque publique vers la bibliothèque personnelle de l'utilisateur
+		mkdir("$mkusercreate/myapps/");
 		$algofile1 = "config_copie/config/ftpserv.txt";
 		$algofile2 = "config_copie/config/LISEZ-MOI.txt";
 		$algofile3 = "config_copie/config/muse.txt";
@@ -93,25 +95,25 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['form_name']) && $_POST
 			copy($algofile9, "$mkusercreate/config/onglet4.txt");
 			copy($algofile10, "$mkusercreate/config/temp.txt");
 			// Fin de la copie des fichiers dans le répertoire de l utilisateur
-      $mailfrom = 'support@votreserveur.fr';
+      $mailfrom = 'support@rynnawebos.fr';
       ini_set('sendmail_from', $mailfrom);
-      $subject = 'Compte WebOS creer !';
+      $subject = 'Compte WebOS Rynna creer !';
       $message = 'Votre nom de compte a bien ete cree.';
       $message .= "\r\nUsername: ";
       $message .= $newusername;
       $message .= "\r\n";
 	  $message .= 'Bienvenue sur votre nouveau bureau virtuel !';
       $message .= "\r\n";
-	  $message .= 'Vous pouvez desormais vous connecter sur http://votreserveur.fr/mywebos ';
+	  $message .= 'Vous pouvez desormais vous connecter sur METTRE VOTRE ADRESSE SERVEUR WEBOS ICI ';
       $message .= "\r\n";
-      $header  = "From: support@votreserveur.fr"."\r\n";
-      $header .= "Reply-To: support@votreserveur.fr"."\r\n";
+      $header  = "From: support@rynnawebos.fr"."\r\n";
+      $header .= "Reply-To: support@rynnawebos.fr"."\r\n";
       $header .= "MIME-Version: 1.0"."\r\n";
       $header .= "Content-Type: text/plain; charset=utf-8"."\r\n";
       $header .= "Content-Transfer-Encoding: 8bit"."\r\n";
       $header .= "X-Mailer: PHP v".phpversion();
       mail("{$newemail} <{$newemail}>", $subject, $message, $header, '-f'.$mailfrom);
-      mail('support@votreserveur.fr', $subject, $message, $header);
+      mail('support@rynnawebos.fr', $subject, $message, $header);
       header('Location: '.$success_page);
       exit;
    }

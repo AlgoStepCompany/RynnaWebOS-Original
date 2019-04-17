@@ -7,17 +7,9 @@
 <meta name="generator" content="AlgoStep Company - 2006-2017">
 <link href="RynnaWebOS.css" rel="stylesheet">
 <link href="passwdok.css" rel="stylesheet">
-<script src="jquery-3.3.1.min.js"></script>
-<script src="wb.stickylayer.min.js"></script>
-<script>
-$(document).ready(function()
-{
-   $("#Layer1").stickylayer({orientation: 9, position: [0, 0], delay: 0});
-});
-</script>
 </head>
 <body>
-<div id="Layer1" style="position:absolute;text-align:center;left:28px;top:21px;width:752px;height:525px;z-index:5;">
+<div id="Layer1" style="position:fixed;text-align:center;left:50%;margin-left:-377px;top:50%;margin-top:-263px;width:752px;height:525px;z-index:5;">
 <div id="Layer1_Container" style="width:750px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <input type="button" id="Button2" name="" value="Mot de passe re-généré avec succès !" style="position:absolute;left:11px;top:10px;width:730px;height:25px;z-index:0;" disabled>
 <div id="wb_Text1" style="position:absolute;left:290px;top:53px;width:436px;height:218px;text-align:justify;z-index:1;">
