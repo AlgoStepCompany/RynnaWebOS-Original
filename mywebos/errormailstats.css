@@ -1,7 +1,7 @@
 body
 {
    background-color: #000000;
-   background-image: url(images/newscreenx2.jpg);
+   background-image: url(images/screenrynnadefaultX.png);
    background-attachment: fixed;
    background-position: center center;
    background-repeat: no-repeat;
@@ -16,19 +16,20 @@ body
 }
 #Button1
 {
-   border: 1px #A9A9A9 solid;
+   border: 1px solid #A9A9A9;
    background-color: #F0F0F0;
    background-image: none;
    color: #000000;
    font-family: Arial;
    font-weight: normal;
    font-size: 13px;
+   margin: 0;
 }
 #wb_Text1 
 {
    background-color: transparent;
    background-image: none;
-   border: 0px #000000 solid;
+   border: 0px solid #000000;
    padding: 0;
    margin: 0;
    text-align: center;
@@ -41,12 +42,12 @@ body
 {
    background-color: #F5F5F5;
    background-image: none;
-   border: 1px #FFA500 solid;
+   border: 1px solid #FFA500;
    border-radius: 1px;
 }
 #Button2
 {
-   border: 1px #000000 solid;
+   border: 1px solid #000000;
    border-radius: 4px;
    background-color: #4F4F4F;
    background-image: none;
@@ -54,4 +55,5 @@ body
    font-family: Arial;
    font-weight: normal;
    font-size: 16px;
+   margin: 0;
 }

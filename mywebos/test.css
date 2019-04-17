@@ -1,0 +1,136 @@
+body
+{
+   background-color: #000000;
+   background-image: url(images/screenrynnadefaultX.png);
+   background-attachment: fixed;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+.ui-dialog.ui-widget
+{
+   font-size: 1em !important;
+}
+.Dialog1.ui-dialog
+{
+   display: none;
+   padding: 4px 4px 4px 4px;
+}
+.Dialog1.ui-dialog .ui-dialog-title
+{
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   margin: 0;
+}
+.Dialog1.ui-dialog .ui-dialog-titlebar
+{
+   font-weight: normal;
+   padding: 10px 10px 10px 10px;
+}
+.Dialog1.ui-dialog .ui-dialog-titlebar-close
+{
+   outline: 0;
+   right: 10px;
+}
+.Dialog1, .Dialog1 .ui-corner-all
+{
+   border-radius: 0px;
+}
+#Dialog1.ui-dialog-content
+{
+   overflow: visible;
+   padding: 0;
+}
+.Dialog1 .ui-dialog-buttonpane .ui-dialog-buttonset 
+{
+   float: right;
+}
+.Dialog1 .ui-dialog-buttonpane 
+{
+   text-align: right;
+}
+#wb_RadioButton1
+{
+   margin: 0;
+}
+#wb_RadioButton1, #wb_RadioButton1 *, #wb_RadioButton1 *::before, #wb_RadioButton1 *::after
+{
+   box-sizing: border-box;
+}
+#wb_RadioButton1 input[type='radio']
+{
+   position: absolute;
+   padding: 0;
+   margin: 0;
+   opacity: 0;
+   z-index: 1;
+   width: 214px;
+   height: 214px;
+   left: 0;
+   top: 0;
+}
+#wb_RadioButton1 label
+{
+   display: inline-block;
+   vertical-align: middle;
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 0;
+   height: 0;
+   padding: 0;
+}
+#wb_RadioButton1 label::before
+{
+   content: "";
+   display: inline-block;
+   position: absolute;
+   width: 214px;
+   height: 214px;
+   left: 0;
+   top: 0;
+   background-color: #FFFFFF;
+   border: 1px solid #CCCCCC;
+   border-radius: 50%;
+}
+#wb_RadioButton1 label::after
+{
+   display: inline-block;
+   position: absolute;
+   width: 214px;
+   height: 214px;
+   left: 0;
+   top: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 214px;
+   border-radius: 50%;
+   color: #FFFFFF;
+   content: " ";
+   -webkit-transform: scale(0, 0);
+   -moz-transform: scale(0, 0);
+   transform: scale(0, 0);
+}
+#wb_RadioButton1 input[type='radio']:checked + label::after
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+   -webkit-transform: scale(0.8, 0.8);
+   -moz-transform: scale(0.8, 0.8);
+   transform: scale(0.8, 0.8);
+}
+#wb_RadioButton1 input[type='radio']:focus + label::before
+{
+   outline: thin dotted;
+}

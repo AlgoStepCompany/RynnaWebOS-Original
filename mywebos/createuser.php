@@ -7,17 +7,9 @@
 <meta name="generator" content="AlgoStep Company - 2006-2017">
 <link href="RynnaWebOS.css" rel="stylesheet">
 <link href="createuser.css" rel="stylesheet">
-<script src="jquery-3.3.1.min.js"></script>
-<script src="wb.stickylayer.min.js"></script>
-<script>
-$(document).ready(function()
-{
-   $("#Layer1").stickylayer({orientation: 9, position: [0, 0], delay: 0});
-});
-</script>
 </head>
 <body>
-<div id="Layer1" style="position:absolute;text-align:center;left:107px;top:127px;width:536px;height:296px;z-index:3;">
+<div id="Layer1" style="position:fixed;text-align:center;left:50%;margin-left:-269px;top:50%;margin-top:-149px;width:536px;height:296px;z-index:3;">
 <div id="Layer1_Container" style="width:534px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <input type="button" id="Button2" name="" value="Commande effectuée avec succès !" style="position:absolute;left:11px;top:10px;width:512px;height:25px;z-index:0;" disabled>
 <div id="wb_Text1" style="position:absolute;left:16px;top:53px;width:494px;height:183px;z-index:1;">
